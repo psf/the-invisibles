@@ -1,0 +1,55 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "About"
+url = "about/"
+weight = 2
+
+[[main]]
+name = "Episodes"
+url = "blog/"
+weight = 3
+
+
+[[main]]
+weight = 4
+name = "Pages"
+hasChildren = true
+
+
+[[main]]
+parent = "Pages"
+name = "Contact"
+url = "contact/"
+
+[[main]]
+parent = "Pages"
+name = "Our Team"
+url = "authors/"
+
+[[main]]
+parent = "Pages"
+name = "Categories"
+url = "categories/"
+
+# footer menu
+[[footer]]
+name = "About"
+url = "about/"
+weight = 1
+
+[[footer]]
+name = "Sponsor Us"
+url = "sponsor/"
+weight = 2
+
+[[footer]]
+name = "Python Software Foundation"
+url = "https://python.org/"
+weight = 3
