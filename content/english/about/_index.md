@@ -28,8 +28,8 @@ over time to reflect the diversity of the Python community.
 ### Representation in other areas
 
 While we're seeing improvements in speaker diversity at Python conferences,
-in other areas it still left much to be desired. Within the realm of Python
-community podcasts, women make up less than 15% as podcast speaker guests.
+in other areas it still left much to be desired. Within the realm of popular
+Python community podcasts, women make up less than 15% as podcast speaker guests.
 
 We know that there are in fact many underrepresented members in our community
 that are contributing to the Python community, and they deserve to be seen and
@@ -37,7 +37,7 @@ heard by the rest of us.
 
 By creating this podcast series, we hope for the rest of the Python community
 to learn more about the underrepresented community members and to appreciate
-their contribution to the global Python community.
+their contributions to the global Python community.
 
 ### About the name "Hidden Figures"
 
