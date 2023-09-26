@@ -3,7 +3,7 @@
 banner:
   title: "Python Community Podcast"
   content: "Highlight voices from the diverse Python community"
-  image: "/images/banner.png"
+  image: "/images/land.png"
   button:
     enable: true
     label: "About"
