@@ -47,3 +47,8 @@ name = "Contact Us"
 url = "contact/"
 weight = 2
 
+[[footer]]
+name = "Code of Conduct"
+url = "conduct/"
+weight = 3
+
