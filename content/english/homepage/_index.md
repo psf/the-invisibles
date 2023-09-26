@@ -1,8 +1,8 @@
 ---
 # Banner
 banner:
-  title: "Python Community Podcast"
-  content: "Highlight voices from the diverse Python community"
+  title: "Hidden Figures of Python"
+  content: "Stories from the underrepresented group members of the Python community"
   image: "/images/land.png"
   button:
     enable: true

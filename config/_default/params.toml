@@ -20,14 +20,14 @@ theme_default = "dark" # available options [light/dark/system]
 # Main Sections
 mainSections = ["blog"]
 # contact form action
-contact_form_action = "#" # contact form works with [https://airform.io/] or [https://formspree.io]
+contact_form_action = "https://docs.google.com/forms/d/e/1FAIpQLSe4ZErchwQFaN_f6jUYXyHZ-mC8Qaj8041Anon33mMFUiI71Q/formResponse" # contact form works with [https://airform.io/] or [https://formspree.io]
 # google tag manager, see https://developers.google.com/tag-manager/
 google_tag_manager = "" # example: G-XXXXXXXXXX
 google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script = ""
 # copyright
-copyright = "An initiative of [Python Community](https://python.org)"
+copyright = "© Hidden Figures of Python 2023"
 
 # Preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
@@ -37,7 +37,7 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [navigation_button]
-enable = true
+enable = false
 label = "subscribe"
 link = "subscribe"
 
@@ -57,8 +57,8 @@ show_categories = true
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
 keywords = ["Python", "Podcasts", "Community", "Interviews"]
-description = "Python community interviews"
-author = "Python Podcast Team"
+description = "Hidden Figures of Python Podcast"
+author = "Hidden Figures of Python"
 image = "images/og-image.png"
 
 
