@@ -18,6 +18,14 @@ that women are still under-represented compared to men. We could not find
 an existing analysis about this, therefore we decided to do our own research
 to gather data about gender diversity at podcasts about Python.
 
+# Our Findings
+
+We published our data using [Datasette](https://datasette.io). You are welcome to view and explore the
+data yourself at the following URL:
+https://python-podcast-datasette-8c9c837ad30f.herokuapp.com/python_podcast_datasette
+
+In this post, we will be referring to the data from the above Datasette.
+
 # Popular Python Podcasts we looked into
 
 We looked into data from the following three Python-related podcasts: [Real Python Podcast](https://realpython.com/podcasts/rpp/),
@@ -91,10 +99,6 @@ We collected the following info from the three podcasts mentioned above:
 - The podcast title,
 - The name of the episode sponsor, if any
 
-# The Data
-
-We published our data using Datasette, and you can view (and explore it yourself) at this url: 
-https://python-podcast-datasette-8c9c837ad30f.herokuapp.com/podcast_dataset
 
 # Determining the guests' gender
 
