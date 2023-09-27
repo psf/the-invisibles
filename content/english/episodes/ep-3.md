@@ -1,13 +1,11 @@
 ---
-title: "Episode 2: Marie Curie"
+title: "Episode 3: Ada Lovelace"
 meta_title: ""
 description: "this is meta description"
 date: 2022-04-04T05:00:00Z
 image: "/images/image-placeholder.png"
-categories: ["Application", "Data"]
-host: "Georgi Ker"
-speaker: "Marie Curie"
-tags: ["python", "africa"]
+host: "Cheuk Ting Ho"
+speaker: "Ada Lovelace"
 draft: false
 ---
 

@@ -17,6 +17,18 @@
   <p class="mb-4">
     {{ .Summary }}
   </p>
+  <ul class="mb-4">
+    <li class="mr-4 inline-block">
+      <a href="{{ `hosts/` | relLangURL }}{{ .Params.Host | urlize }}/">
+        <i class="fa-regular fa-circle-user mr-2"></i>{{ .Params.host }}
+      </a>
+    </li>
+    <li class="mr-4 inline-block">
+      <a href="{{ `speakers/` | relLangURL }}{{ .Params.Speaker | urlize }}/">
+        <i class="fa-regular fa-microphone mr-2"></i>{{ .Params.speaker }}
+      </a>
+    </li>
+  </ul>
   <ul class="social-icons">
     {{ range .Params.social }}
       <li>

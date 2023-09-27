@@ -39,7 +39,7 @@
         {{ $filterByHost := where site.RegularPages "Params.host" "==" .Title }}
         {{ range $filterByHost }}
           <div class="md:col-6 lg:col-4 mb-12">
-            {{ partial "components/blog-card" . }}
+            {{ partial "components/host-card" . }}
           </div>
         {{ end }}
       </div>

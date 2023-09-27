@@ -15,23 +15,15 @@
           <ul class="mb-4">
             <li class="mr-4 inline-block">
               <a
-                href="{{ `authors/` | relLangURL }}{{ .Params.Author | urlize }}/">
+                href="{{ `hosts/` | relLangURL }}{{ .Params.Host | urlize }}/">
                 <i class="fa-regular fa-circle-user mr-2"></i
-                >{{ .Params.author }}
+                >{{ .Params.host }}
               </a>
             </li>
             <li class="mr-4 inline-block">
-              <i class="fa-regular fa-folder mr-2"></i>
-              {{ $categories:= .Params.categories }}
-              {{ range $i,$p:= $categories }}
-                <a
-                  href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/"
-                  class="ms-1"
-                  >{{ . | humanize }}{{ if ne $i (sub (len $categories) 1) }}
-                    {{ ", " }}
-                  {{ end }}
-                </a>
-              {{ end }}
+              <a href="{{ `speakers/` | relLangURL }}{{ .Params.Speaker | urlize }}/">
+                <i class="fa-regular fa-microphone-lines mr-2"></i>{{ .Params.speaker }}
+              </a>
             </li>
             <li class="mr-4 inline-block">
               <i class="fa-regular fa-clock mr-2"></i>

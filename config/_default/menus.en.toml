@@ -13,28 +13,28 @@ weight = 2
 
 [[main]]
 name = "Episodes"
-url = "blog/"
+url = "episodes/"
 weight = 3
+
+[[main]]
+name = "Blog"
+url = "blog/"
+weight = 4
 
 [[main]]
 name = "Contact"
 url = "contact/"
-weight = 7
+weight = 8
 
 [[main]]
 name = "Our Team"
 url = "hosts/"
-weight = 5
+weight = 6
 
 [[main]]
 name = "Speakers"
 url = "speakers/"
 weight = 4
-
-[[main]]
-name = "Categories"
-url = "categories/"
-weight = 6
 
 # footer menu
 [[footer]]
