@@ -13,30 +13,28 @@ weight = 2
 
 [[main]]
 name = "Episodes"
-url = "blog/"
+url = "episodes/"
 weight = 3
 
-
 [[main]]
+name = "Blog"
+url = "blog/"
 weight = 4
-name = "Pages"
-hasChildren = true
-
 
 [[main]]
-parent = "Pages"
 name = "Contact"
 url = "contact/"
+weight = 8
 
 [[main]]
-parent = "Pages"
 name = "Our Team"
-url = "authors/"
+url = "hosts/"
+weight = 6
 
 [[main]]
-parent = "Pages"
-name = "Categories"
-url = "categories/"
+name = "Speakers"
+url = "speakers/"
+weight = 4
 
 # footer menu
 [[footer]]
@@ -45,11 +43,12 @@ url = "about/"
 weight = 1
 
 [[footer]]
-name = "Sponsor Us"
-url = "sponsor/"
+name = "Contact Us"
+url = "contact/"
 weight = 2
 
 [[footer]]
-name = "Python Software Foundation"
-url = "https://python.org/"
+name = "Code of Conduct"
+url = "conduct/"
 weight = 3
+

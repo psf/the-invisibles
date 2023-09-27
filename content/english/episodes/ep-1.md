@@ -1,14 +1,15 @@
 ---
-title: "Episode 3: Ada Lovelace"
+title: "Episode 1: Cleopatra"
 meta_title: ""
 description: "this is meta description"
 date: 2022-04-04T05:00:00Z
 image: "/images/image-placeholder.png"
-categories: ["Application", "Data"]
-author: "Cheuk Ting Ho"
-tags: ["python", "africa"]
+host: "Tereza Iofciu"
+speaker: "Cleopatra"
 draft: false
 ---
 
 Below is the excerpt of the interview
+about cleopatra
+
 
