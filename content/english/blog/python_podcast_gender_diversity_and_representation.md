@@ -20,11 +20,12 @@ to gather data about gender diversity at podcasts about Python.
 
 # Our Findings
 
-We published our data using [Datasette](https://datasette.io). You are welcome to view and explore the
-data yourself at the following URL:
+We published our data using [Datasette](https://datasette.io). You are welcome to
+view and explore the data yourself at the following URL:
 https://python-podcast-datasette-8c9c837ad30f.herokuapp.com/python_podcast_datasette
 
-In this post, we will be referring to the data from the above Datasette.
+In this post, we will be referring to the data from the above Datasette. We will
+also explain in more detail on how we obtained and collected the data.
 
 # Popular Python Podcasts we looked into
 
