@@ -1,24 +1,14 @@
 {
   "main": [
     {
-      "name": "facebook",
-      "icon": "fab fa-facebook",
-      "link": "https://www.facebook.com/"
-    },
-    {
       "name": "twitter",
       "icon": "fab fa-twitter",
-      "link": "https://twitter.com/"
+      "link": "https://twitter.com/pypodcats"
     },
     {
-      "name": "github",
-      "icon": "fab fa-github",
-      "link": "https://www.github.com/"
-    },
-    {
-      "name": "linkedin",
-      "icon": "fab fa-linkedin",
-      "link": "https://www.linkedin.com/"
+      "name": "mastodon",
+      "icon": "fa-brands fa-mastodon",
+      "link": "https://fosstodon.org/@pypodcats"
     }
   ]
 }
