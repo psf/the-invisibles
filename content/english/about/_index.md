@@ -6,7 +6,7 @@ image: "/images/podcats.png"
 draft: false
 ---
 
-Hidden Figures of Python podcast is a podcast hosted by Cheuk Ting Ho, Georgi Ker, 
+Hidden Figures of Python podcast series is a hosted by the PyPodCats team: Cheuk Ting Ho, Georgi Ker, 
 Mariatta Wijaya, and Tereza Iofciu. Our aim is to highlight
 voices of the underrepresented group members of the Python community.
 
@@ -45,3 +45,14 @@ The name of the podcast was inspired by the book: "**Hidden Figures:
 The American Dream and the Untold Story of the Black Women Who Helped Win the
 Space Race**", by Margot Lee Shetterly. We find the stories and challenges depicted
 in the book to be relatable to the Python community.
+
+
+### About the name "Podcats"
+
+Podcats is one of Mariatta's [#TypoOfTheDay](https://mariatta.ca/posts/typo_of_the_day/).
+The Podcats sticker was designed by [Mukta](https://www.fiverr.com/mbarts17),
+commissioned by Mariatta.
+
+While developing this website, Mariatta used the podcats sticker as a placeholder
+image. However, the rest of the team really likes it too, so we all decided
+to use the podcats as our logo and team name.

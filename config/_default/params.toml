@@ -11,7 +11,7 @@ logo_height = "32px"
 # if logo_webp set false, will not generate WEBP version of logo | default is true
 logo_webp = true
 # logo text will only show when logo is missing.
-logo_text = "Podcats"
+logo_text = "PodCats"
 # navbar fixed to top
 navbar_fixed = true
 # theme-mode
@@ -27,7 +27,7 @@ google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script = ""
 # copyright
-copyright = "© PyPodcats 2023"
+copyright = "© PyPodCats 2023"
 
 # Preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
@@ -58,7 +58,8 @@ show_categories = true
 [metadata]
 keywords = ["Python", "Podcasts", "Community", "Interviews"]
 description = "Hidden Figures of Python Podcast"
-author = "PyPodcats"
+
+author = "PyPodCats Team"
 image = "images/og-image.png"
 
 
