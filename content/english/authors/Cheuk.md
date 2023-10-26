@@ -15,6 +15,10 @@ social:
   - name: linkedin
     icon: fa-brands fa-linkedin
     link: https://www.linkedin.com/in/cheukting-ho
+  
+  - name: mastodon
+    icon: fa-brands fa-mastodon
+    link: https://fosstodon.org/@cheukting_ho
 ---
 
 Before working in Developer Relations, Cheuk has been a Data Scientist in various companies which demands high numerical and programmatical skills, especially in Python. To follow her passion for the tech community, Cheuk has been a Developer Advocate for 3 years. Cheuk also contributes to multiple Open Source libraries like [Hypothesis](https://hypothesis.readthedocs.io/en/latest/), [Pytest](https://docs.pytest.org/en/7.3.x/), [Pandas](https://pandas.pydata.org/), [Jupyter Notebook](https://jupyter.org/) and [Django](https://www.djangoproject.com/). Cheuk is now a community manager at [OpenSSF](https://openssf.org/).

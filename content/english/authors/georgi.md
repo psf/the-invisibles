@@ -15,6 +15,10 @@ social:
   - name: linkedin
     icon: fa-brands fa-linkedin
     link: https://www.linkedin.com/in/georgiker
+  
+  - name: mastodon
+    icon: fa-brands fa-mastodon
+    link: https://fosstodon.org/@georgically
 ---
 
 Georgi is an autodidact polymath with a strong passion for entrepreneurship, community, and design. She is a Fellow Member of the Python Software Foundation (PSF), currently serving as a director and a member of the D&I Workgroup. She was honored with the esteemed PSF Community Service Award in December 2020.

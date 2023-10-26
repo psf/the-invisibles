@@ -16,6 +16,10 @@ social:
   - name: linkedin
     icon: fa-brands fa-linkedin
     link: https://linkedin.com/in/tereza-iofciu
+  
+  - name: mastodon
+    icon: fa-brands fa-mastodon
+    link: https://vis.social/@terezaif
 ---
 
 Before data leadership coaching, she has worked for over 15 years in Data Science, Data Engineering, Product Management and training teams in such roles.
