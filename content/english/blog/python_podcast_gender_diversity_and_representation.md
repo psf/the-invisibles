@@ -293,6 +293,42 @@ Out of the 16 people who have appeared more than 5 times, only one of them is a 
 | Sean Tibor              |                   4                   |
 | Will McGugan            |                   3                   |
 
+# Comments from the hosts
+
+We have reached out to the hosts of the above podcasts for comment. Here are
+their replies:
+
+## Talk Python To Me
+
+Michael Kennedy, founder of Talk Python explains the process of inviting podcast guests:
+
+> Here's how the planning on a show goes on Talk Python To Me:
+> - A listener suggests some topic I am not familiar with but seems worthwhile
+> - I find the project page and use their contact us form to see if someone from the project is interested in coming on the show
+> - 9/10 times that person is a man
+> - When it seems reasonable I do even explicitly ask if there is a woman on the project that could join, sometimes there is
+
+He explains the reason of why there are less women on the show:
+
+> I do specifically keep my eye out for women doing amazing things (there are certainly some good examples) and invite them. Even then, I would say women are 2x or more likely to say no thanks and decline relative to men.
+
+He also added:
+
+> I'm also against having women on the show who maybe aren't doing as deep of technical work but they are women. When I have a woman (or any one) on the show, I want people to think "Wow that's amazing. I really respect that work." I don't think it serves women well to seem to be there to fill a quota. They should be there because they are really awesome, and I would say the women I have had on are in that category. … I don't want people to think "women are here to manage community and write the docs, men do the hard coding" No, women do too. Maybe not in as high of numbers, but they do. And I try to feature them.
+
+Despite the above, he said:
+
+> I plan to keep search for women doing amazing things
+
+## Python Bytes
+
+Here is the response from Michael Kennedy regarding their other podcast Python Bytes:
+
+> Python Bytes is a little different and we can explicitly identify women and invite them because it's rarely about their projects but just their take on the news. We make a conscious effort to do this and that's why the numbers are the best of the bunch on that show.
+
+So there you go, there is still more work to be done to empower women and celebrate
+the achievement of women in the community.
+
 
 # Conclusions
 
@@ -301,8 +337,6 @@ podcasts. These podcasts are considered as "top podcasts" with large number
 of listeners. Appearing in the podcast can be seen as a privilege and comes
 with the power to influence the rest of Python community. We are sad to see
 that women appeared to not be given the same opportunity afforded to men.
-
-We have reached out to the hosts of the above podcasts for comment.
 
 Seeing the lack of women representation is one of our motivating factors in
 starting the Hidden Figures of Python Podcast series, to ensure that the rest

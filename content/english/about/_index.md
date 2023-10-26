@@ -6,7 +6,7 @@ image: "/images/podcats.png"
 draft: false
 ---
 
-Hidden Figures of Python podcast series is a hosted by the PyPodCats team: Cheuk Ting Ho, Georgi Ker, 
+Hidden Figures of Python podcast series is a hosted by the PyPodcats team: Cheuk Ting Ho, Georgi Ker, 
 Mariatta Wijaya, and Tereza Iofciu. Our aim is to highlight
 voices of the underrepresented group members of the Python community.
 
