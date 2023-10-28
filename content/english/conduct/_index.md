@@ -103,7 +103,7 @@ media spaces, including:
 # Attributions
 
 Language was incorporated from [PSF Code of Conduct](https://www.python.org/psf/conduct/), which was 
-This Code of Conduct was forked from the example policy from the [Geek Feminism wiki, created by the Ada Initiative and other volunteers](https://www.python.org/psf/conduct/#:~:text=Geek%20Feminism%20wiki%2C%20created%20by%20the%20Ada%20Initiative%20and%20other%20volunteers),
+forked from the example policy from the [Geek Feminism wiki, created by the Ada Initiative and other volunteers](https://www.python.org/psf/conduct/#:~:text=Geek%20Feminism%20wiki%2C%20created%20by%20the%20Ada%20Initiative%20and%20other%20volunteers),
 which is under a [Creative Commons Zero license](https://creativecommons.org/publicdomain/zero/1.0/).
 
 
