@@ -4,7 +4,7 @@ This site is built using Hugo static site generator and the hugoplate theme.
 
 ## Local development setup.
 
-First you need to [clone](https://github.com/mariatta/podcast-site).
+First you need to [clone](https://github.com/psf/the-invisibles).
 
 ### ⚙️ Prerequisites
 
