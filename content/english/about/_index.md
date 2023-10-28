@@ -49,7 +49,7 @@ in the book to be relatable to the Python community.
 
 ### About the name "Podcats"
 
-Podcats is one of Mariatta's [#TypoOfTheDay](https://mariatta.ca/posts/typo_of_the_day/).
+[Podcats](https://mariatta.ca/posts/typo_of_the_day/podcats/) is one of Mariatta's [#TypoOfTheDay](https://mariatta.ca/posts/typo_of_the_day/).
 The Podcats sticker was designed by [Mukta](https://www.fiverr.com/mbarts17),
 commissioned by Mariatta.
 
