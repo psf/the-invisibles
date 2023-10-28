@@ -88,7 +88,10 @@ The Code of Conduct applies in activities by the PyPodcats team and community,
 including:
 
 - during episode planning meetings with the team members and invited guests
-- during episode recording session with the team members and invited guests
+- during episode recording sessions with the team members and invited guests
+- in email communications with the PyPodcats team
+- in our GitHub repository, including issues, comments, and pull requests
+  made against the codebase
 
 The Code of Conduct applies to interactions with official accounts on social
 media spaces, including:
