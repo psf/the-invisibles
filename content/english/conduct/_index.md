@@ -1,7 +1,7 @@
 ---
 title: "Code of Conduct"
 meta_title: "Code of Conduct"
-description: "Our Community Code of Conduct?"
+description: "Our Community Code of Conduct"
 image: "/images/podcats.png"
 draft: false
 ---
@@ -75,7 +75,32 @@ behavior is listed in the [Enforcement Procedures](https://www.python.org/psf/co
 
 Thank you for helping make this a welcoming, friendly community for everyone.
 
+# Scope
+
+This Code of Conduct applies to the following people in the PyPodcats community:
+
+- hosts
+- guests
+- commenters
+- listeners
+
+The Code of Conduct applies in activities by the PyPodcats team and community,
+including:
+
+- during episode planning meetings with the team members and invited guests
+- during episode recording session with the team members and invited guests
+
+The Code of Conduct applies to interactions with official accounts on social
+media spaces, including:
+
+- comments made on the official official social media accounts
+- comments made on the official video and streaming services
+- comments made on the official PyPodcats hashtag
+
 # Attributions
 
-Language was incorporated from [PSF Code of Conduct](https://www.python.org/psf/conduct/).
+Language was incorporated from [PSF Code of Conduct](https://www.python.org/psf/conduct/), which was 
+This Code of Conduct was forked from the example policy from the [Geek Feminism wiki, created by the Ada Initiative and other volunteers](https://www.python.org/psf/conduct/#:~:text=Geek%20Feminism%20wiki%2C%20created%20by%20the%20Ada%20Initiative%20and%20other%20volunteers),
+which is under a [Creative Commons Zero license](https://creativecommons.org/publicdomain/zero/1.0/).
+
 
