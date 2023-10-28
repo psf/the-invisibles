@@ -10,6 +10,9 @@
 
     <!-- style (always cache it) -->
     {{ partialCached "essentials/style.html" . }}
+
+    <!-- site verifications -->
+    {{ partial "site-verifications.html" . }}
   </head>
 
   <body>
