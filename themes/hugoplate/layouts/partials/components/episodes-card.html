@@ -9,16 +9,20 @@
     </a>
   </h4>
   <ul class="mb-4">
-    <li class="mr-4 inline-block">
-      <a href="{{ `hosts/` | relLangURL }}{{ .Params.Host | urlize }}/">
-        <i class="fa-regular fa-circle-user mr-2"></i>{{ .Params.host }}
-      </a>
-    </li>
+    {{ range $host := .Params.host }}
+      <li class="mr-4 inline-block">
+        <a href="{{ `hosts/` | relLangURL }}{{ $host | urlize }}/">
+          <i class="fa-regular fa-circle-user mr-2"></i>{{ $host }}
+        </a>
+      </li>
+    {{ end }}
+   {{ if .Params.speaker }}
     <li class="mr-4 inline-block">
       <a href="{{ `speakers/` | relLangURL }}{{ .Params.Speaker | urlize }}/">
         <i class="fa-regular fa-microphone mr-2"></i>{{ .Params.speaker }}
       </a>
     </li>
+    {{ end }}
   </ul>
   <p class="mb-6">{{ .Summary }}</p>
   <a class="btn btn-outline-primary btn-sm" href="{{ .RelPermalink }}">

@@ -1,0 +1,9 @@
+<audio controls preload="{{ .Get "preload" | default "metadata" }}" style="width:100%">
+  {{ with .Get "src" }}<source src="{{ . | relURL }}" type="audio/mpeg">{{ end }}
+</audio>
+{{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+<div class="row">
+  <a href="{{ . | relURL }}">
+    <button type="button" class="btn btn-primary"><i class="fa-solid fa-download"></i> Download</button>
+  </a>
+</div>

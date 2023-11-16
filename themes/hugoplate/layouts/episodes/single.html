@@ -13,24 +13,35 @@
             {{ .Title }}
           </h1>
           <ul class="mb-4">
-            <li class="mr-4 inline-block">
-              <a
-                href="{{ `hosts/` | relLangURL }}{{ .Params.Host | urlize }}/">
-                <i class="fa-regular fa-circle-user mr-2"></i
-                >{{ .Params.host }}
-              </a>
-            </li>
-            <li class="mr-4 inline-block">
-              <a href="{{ `speakers/` | relLangURL }}{{ .Params.Speaker | urlize }}/">
-                <i class="fa-regular fa-microphone-lines mr-2"></i>{{ .Params.speaker }}
-              </a>
-            </li>
+            {{ range $host := .Params.host }}
+              <li class="mr-4 inline-block">
+                <a href="{{ `hosts/` | relLangURL }}{{ $host | urlize }}/">
+                  <i class="fa-regular fa-circle-user mr-2"></i>{{ $host }}
+                </a>
+              </li>
+            {{ end }}
+
+            {{ if $.Params.speaker }}
+              <li class="mr-4 inline-block">
+                <a href="{{ `speakers/` | relLangURL }}{{ .Params.Speaker | urlize }}/">
+                  <i class="fa-regular fa-microphone-lines mr-2"></i>{{ .Params.speaker }}
+                </a>
+              </li>
+            {{ end }}
             <li class="mr-4 inline-block">
               <i class="fa-regular fa-clock mr-2"></i>
               {{ time.Format ":date_long" .PublishDate }}
             </li>
           </ul>
+
           <div class="content mb-10">
+            <div class="row">
+              <div class="col-xs-2">
+                <a href="https://podcasts.google.com/"><img src="{{`/images/EN_Google_Podcasts_Badge_1x.png` | relLangURL}}" alt="Listen on Google Podcast"/></a>
+                <a href="https://podcasts.apple.com/"><img src="{{`/images/US_UK_Apple_Podcasts_Listen_Badge_RGB.svg` | relLangURL}}" alt="Listen on Apple Podcast" /></a>
+                <a href="https://spotify.com/"><img src="{{`/images/Spotify.png` | relLangURL}}" alt="Listen on Spotify"/></a>
+              </div>
+            </div>
             {{ .Content }}
           </div>
           <div class="row items-start justify-between">
