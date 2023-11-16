@@ -14,6 +14,11 @@
       "name": "rss",
       "icon": "fa-solid fa-rss",
       "link": "https://pypodcats.live/index.xml"
+    },
+    {
+      "name": "youtube",
+      "icon": "fa-brands fa-youtube",
+      "link": "https://youtube.com/@ThePSF"
     }
   ]
 }
