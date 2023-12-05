@@ -3,7 +3,7 @@
 </audio>
 {{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
 <div class="row">
-  <a href="{{ . | relURL }}">
+  {{ with .Get "src" }}<a href="{{ . | relURL }}">
     <button type="button" class="btn btn-primary"><i class="fa-solid fa-download"></i> Download</button>
-  </a>
+  </a>{{ end }}
 </div>

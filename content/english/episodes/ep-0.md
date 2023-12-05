@@ -8,15 +8,24 @@ draft: false
 tags: ["python", "data", "diversity", "community"]
 ---
 
-{{<audio src="/media/audio/your-audio-file.mp3" caption="Episode 0: Introducing the Hidden Figures of Python Podcast Series" >}}
+{{<audio src="/audio/hidden-figures-ep0.m4a" caption="Episode 0: Introducing the Hidden Figures of Python Podcast Series" >}}
 
-The PyPodcats team got together and talked about their origin story. We discussed
-the name: "Hidden Figures", what inspired us to start this podcast.
+The PyPodcats team, Cheuk, Georgi, Mariatta, and Tereza, got together and talked about their origin story.
+We discussed the name: "Hidden Figures", what inspired us to start this podcast.
 
 We shared our findings from analyzing data from popular Python podcasts, and wondered
 about the diversity in the Python community.
 
 {{<youtube OH3C5a2uAWA>}}
+
+## Topic discussed
+
+- Introductions
+- The name "Hidden Figures"
+- "Purple-washing"
+- Diversity issues in workplace, conferences, Python community
+- Collecting data from Top Python Podcasts, Results
+- Where do we go from here
 
 ## Links from the show
 
@@ -34,3 +43,6 @@ about the diversity in the Python community.
 - Follow us on Mastodon: https://fosstodon.org/@pypodcats
 - Subscribe to The PSF YouTube: https://youtube.com/thepsf
 - Contact us: meow@pypodcats.live
+
+
+
