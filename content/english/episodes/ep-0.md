@@ -16,13 +16,13 @@ We discussed the name: "Hidden Figures", what inspired us to start this podcast.
 We shared our findings from analyzing data from popular Python podcasts, and wondered
 about the diversity in the Python community.
 
-{{<youtube OH3C5a2uAWA>}}
+{{<youtube 2Ujd1p6NuN4>}}
 
 ## Topic discussed
 
 - Introductions
 - The name "Hidden Figures"
-- "Purple-washing"
+- "Purplewashing"
 - Diversity issues in workplace, conferences, Python community
 - Collecting data from Top Python Podcasts, Results
 - Where do we go from here
