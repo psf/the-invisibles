@@ -9,6 +9,11 @@
       "name": "mastodon",
       "icon": "fa-brands fa-mastodon",
       "link": "https://fosstodon.org/@pypodcats"
+    },
+    {
+      "name": "rss",
+      "icon": "fa-solid fa-rss",
+      "link": "https://pypodcats.live/index.xml"
     }
   ]
 }

@@ -11,10 +11,10 @@ name = "About"
 url = "about/"
 weight = 2
 
-# [[main]]
-# name = "Episodes"
-# url = "episodes/"
-# weight = 3
+ [[main]]
+ name = "Episodes"
+ url = "episodes/"
+ weight = 3
 
 [[main]]
 name = "Blog"
