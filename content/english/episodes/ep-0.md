@@ -2,7 +2,7 @@
 title: "Episode 0: Introducing Hidden Figures of Python Podcast Series"
 meta_title: "Episode 0: Introducing Hidden Figures of Python Podcast Series"
 description: "The PyPodcats team got together and talked about their origin story."
-date: 2023-11-14T05:00:00Z
+date: 2023-12-12T00:00:00-08:00
 host: ["Cheuk", "Georgi", "Mariatta", "Tereza"]
 draft: false
 tags: ["python", "data", "diversity", "community"]
