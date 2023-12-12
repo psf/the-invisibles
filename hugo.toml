@@ -116,6 +116,11 @@ baseName = "searchindex"
 isPlainText = true
 notAlternative = true
 
+[params]
+  [params.author]
+    email = 'meow@pypodcats.live'
+    name = 'PyPodcats'
+
 
 ############################# Plugins ##############################
 
