@@ -41,7 +41,7 @@ about the diversity in the Python community.
 
 - Follow us on Twitter: https://twitter.com/pypodcats
 - Follow us on Mastodon: https://fosstodon.org/@pypodcats
-- Subscribe to The PSF YouTube: https://youtube.com/thepsf
+- Subscribe to The PSF YouTube: https://youtube.com/@thepsf
 - Contact us: meow@pypodcats.live
 
 
