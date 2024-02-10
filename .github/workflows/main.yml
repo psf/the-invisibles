@@ -6,6 +6,10 @@ on:
   push:
     branches: ["main"]
 
+  # Daily publish at 00:00Z for scheduled posts
+  schedule:
+    - cron: '0 1 * * *'
+  
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
