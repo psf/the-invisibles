@@ -106,7 +106,7 @@
           <link>{{ .Permalink }}</link>
           <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }} </pubDate>
           <dc:creator>{{ .Site.Params.itunes_author }}</dc:creator>
-          <guid>{{- if isset .Params "guid" -}}{{ .Params.guid }}{{- else -}}{{ .Site.Params.media_prefix }}{{ .Params.podcast_file }}{{- end -}}</guid>
+          <guid>{{- if isset .Params "guid" -}}{{ .Params.guid }}{{- else -}}{{ .Site.Params.media_prefix }}{{ .Params.podcast_file | absURL }}{{- end -}}</guid>
           <itunes:author>
           {{- if isset .Params "hosts" -}}
             {{ $hosts := (.Params.hosts) }}
@@ -138,6 +138,12 @@
           {{ with .Params.season }}
           <itunes:season>{{ . }}</itunes:season>
           {{ end }}
+          {{ with .Params.episode }}
+          <itunes:episode>{{ . }}</itunes:episode>
+          {{ end }}
+          {{ with .Params.episode_type }}
+          <itunes:episodeType>{{ . }}</itunes:episodeType>
+          {{ end }}
         {{ if and (isset .Site.Params "disable_title_caps") (eq .Site.Params.disable_title_caps "true") }}
           <itunes:title>{{ .Title }}</itunes:title>
         {{ else }}
@@ -158,7 +164,7 @@
           <itunes:image href="{{ . | absURL }}"></itunes:image>
           <googleplay:image href="{{ . | absURL }}"></googleplay:image>
           {{- end -}}
-          <enclosure url="{{ .Site.Params.media_prefix }}{{ .Params.podcast_file }}" {{with .Params.podcast_bytes}}length="{{ . }}"{{ end }} type="audio/mpeg" />
+          <enclosure url="{{ .Site.Params.media_prefix }}{{ .Params.podcast_file | absURL }}" {{with .Params.podcast_bytes}}length="{{ . }}"{{ end }} type="audio/x-m4a" />
           {{- with .Params.podcast_duration -}}<itunes:duration>{{ . }}</itunes:duration>{{- end -}}
           {{- with .Params.explicit -}}
           <itunes:explicit>{{ if (or (eq . "yes") (eq . "true")) }}true{{ else }}false{{ end }}</itunes:explicit>

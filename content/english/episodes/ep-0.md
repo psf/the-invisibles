@@ -7,31 +7,30 @@ host: ["Cheuk", "Georgi", "Mariatta", "Tereza"]
 draft: false
 tags: ["python", "data", "diversity", "community"]
 publish_date: 2023-12-12T01:00:00-08:00
-podcast_file: "https://pypodcats.live/audio/hidden-figures-ep0.m4a"
+podcast_file: "/audio/hidden-figures-ep0.m4a"
 podcast_duration: 37.49
 episode_image: "images/podcats_1500x1500.png"
 podcast_bytes: "54916324" # the length of the episode in bytes
+images: ["images/podcats_1500x1500.png"]
+explicit: false # values are "yes" or "no"
+type: 'episode'
+episode: '0'
+season: 1
+transcript: '/transcript/hidden-figures-of-python-ep0.srt'
+episode_type: full
 #episode_banner = ""
 #guests = [] # The names of your guests, based on the filename without extension.
 #sponsors = []
-#episode = ""
-#title: ""
 #subtitle = ""
-images: ["images/podcats_1500x1500.png"]
-#hosts = [] # The names of your hosts, based on the filename without extension.
-#aliases = ["/##"]
-#youtube = ""
-explicit: "no" # values are "yes" or "no"
 #media_override # if you want to use a specific URL for the audio file
 #truncate = ""
 #upcoming = true # set to true if you want this to be listed as upcoming, etc, etc
 #categories = []
 #series = []
 #tags = []
-type: 'episode'
-episode: 0
-season: 1
-transcript: '/transcript/hidden-figures-of-python-ep0.srt'
+#hosts = [] # The names of your hosts, based on the filename without extension.
+#aliases = ["/##"]
+#youtube = ""
 ---
 
 {{<audio src="/audio/hidden-figures-ep0.m4a" caption="Episode 0: Introducing the Hidden Figures of Python Podcast Series" >}}
