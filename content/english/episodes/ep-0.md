@@ -8,7 +8,7 @@ draft: false
 tags: ["python", "data", "diversity", "community"]
 publish_date: 2023-12-12T01:00:00-08:00
 podcast_file: "/audio/hidden-figures-ep0.m4a"
-podcast_duration: 37.49
+podcast_duration: 2268.728889
 episode_image: "images/podcats_1500x1500.png"
 podcast_bytes: "54916324" # the length of the episode in bytes
 images: ["images/podcats_1500x1500.png"]
