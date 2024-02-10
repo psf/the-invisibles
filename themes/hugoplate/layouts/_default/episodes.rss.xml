@@ -135,6 +135,9 @@
           {{ with .Params.episode }}
           <itunes:episode>{{ . }}</itunes:episode>
           {{ end }}
+          {{ with .Params.season }}
+          <itunes:season>{{ . }}</itunes:season>
+          {{ end }}
         {{ if and (isset .Site.Params "disable_title_caps") (eq .Site.Params.disable_title_caps "true") }}
           <itunes:title>{{ .Title }}</itunes:title>
         {{ else }}

@@ -30,6 +30,7 @@ explicit: "no" # values are "yes" or "no"
 #tags = []
 type: 'episode'
 episode: 0
+season: 1
 transcript: '/transcript/hidden-figures-of-python-ep0.srt'
 ---
 
