@@ -128,8 +128,9 @@ notAlternative = true
     itunes_author = 'PyPodcats'
     itunes_owner_email = 'meow@pypodcats.live'
     itunes_owner_name = 'PyPodcats'
-    itunes_image = 'images/podcats_500x500.png'
+    itunes_image = 'images/podcats_1500x1500.png'
     itunes_top_category = 'Technology'
+    explicit = 'no'
 
 ############################# Plugins ##############################
 

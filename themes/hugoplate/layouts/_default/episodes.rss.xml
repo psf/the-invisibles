@@ -43,7 +43,7 @@
 {{- $pages = $pages | first $limit }}
 {{- end }}
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
-<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" version="2.0">
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" version="2.0" xmlns:podcast="https://podcastindex.org/namespace/1.0">
   <channel>
     <title>{{ if eq .Title .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{ . }} on {{ end }}{{ .Site.Title }}{{ end }}</title>
     <atom:link href="{{ "episodes/index.xml" | absURL }}" rel="self" type="application/rss+xml" />
@@ -160,6 +160,9 @@
           {{- with .Params.explicit -}}
           <itunes:explicit>{{ if (or (eq . "yes") (eq . "true")) }}true{{ else }}false{{ end }}</itunes:explicit>
           <googleplay:explicit>{{ if (or (eq . "yes") (eq . "true")) }}yes{{ else }}no{{ end }}</googleplay:explicit>
+          {{- end -}}
+          {{ with .Params.transcript }}
+            <podcast:transcript url="{{ . | absURL }}"/>
           {{- end -}}
         </item>
       {{- end -}}
