@@ -1,9 +1,9 @@
 <audio controls preload="{{ .Get "preload" | default "metadata" }}" style="width:100%">
-  {{ with .Get "src" }}<source src="{{ . | relURL }}" type="audio/mpeg">{{ end }}
+  {{ with .Get "src" }}<source src="{{ . | absURL }}" type="audio/mpeg">{{ end }}
 </audio>
 {{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
 <div class="row">
-  {{ with .Get "src" }}<a href="{{ . | relURL }}">
+  {{ with .Get "src" }}<a href="{{ . | absURL }}">
     <button type="button" class="btn btn-primary"><i class="fa-solid fa-download"></i> Download</button>
   </a>{{ end }}
 </div>
