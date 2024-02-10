@@ -1,0 +1,2551 @@
+1
+00:00:23,370 --> 00:00:26,252
+We are the Podcats, and welcome to our very
+
+2
+00:00:26,253 --> 00:00:30,514
+first podcast where we are going to introduce ourselves
+
+3
+00:00:30,515 --> 00:00:33,628
+and talk a little bit about why we are
+
+4
+00:00:33,629 --> 00:00:38,434
+even doing yet another podcast, Hidden Figures of Python.
+
+5
+00:00:38,435 --> 00:00:42,044
+And we have announced it already on social media.
+
+6
+00:00:42,045 --> 00:00:43,644
+And we are also going to address a
+
+7
+00:00:43,645 --> 00:00:46,650
+little bit some of the responses we've had.
+
+8
+00:00:46,651 --> 00:00:50,436
+So with me today, we have Mariatta, Georgi,
+
+9
+00:00:50,437 --> 00:00:54,628
+Cheuk, and we are all, all over the world.
+
+10
+00:00:54,629 --> 00:00:56,682
+So I'm Tereza, I live in Hamburg.
+
+11
+00:00:56,683 --> 00:00:58,234
+I'm from Romania.
+
+12
+00:00:58,235 --> 00:01:02,132
+I started PyLadies Hamburg long ago, and
+
+13
+00:01:02,133 --> 00:01:04,558
+I'm involved in several of the Python
+
+14
+00:01:04,559 --> 00:01:07,182
+Software foundation groups like Code of Conduct
+
+15
+00:01:07,183 --> 00:01:11,490
+and Diversity and Inclusion. And, Mariatta?
+
+16
+00:01:12,470 --> 00:01:13,512
+Hi, everybody.
+
+17
+00:01:13,513 --> 00:01:14,846
+My name is Mariatta.
+
+18
+00:01:14,847 --> 00:01:17,500
+I'm in Vancouver, Canada, and
+
+19
+00:01:17,501 --> 00:01:19,650
+I'm a Python core developer.
+
+20
+00:01:19,651 --> 00:01:23,234
+I'm an open source maintainer and contributor.
+
+21
+00:01:23,235 --> 00:01:25,868
+And I'm involved in the Python community in a
+
+22
+00:01:25,869 --> 00:01:28,262
+lot of ways, not only as the open source
+
+23
+00:01:28,263 --> 00:01:33,526
+contributor, but also I run conferences, meetups.
+
+24
+00:01:33,527 --> 00:01:37,230
+I've been the chair of the PyCascades
+
+25
+00:01:37,231 --> 00:01:40,048
+I co founded the PyCascades Conference, and
+
+26
+00:01:40,049 --> 00:01:44,800
+I'm chairing PyCon US 2023 and 2024.
+
+27
+00:01:46,610 --> 00:01:48,270
+Go to you, Georgi.
+
+28
+00:01:49,570 --> 00:01:51,268
+Hello, everyone.
+
+29
+00:01:51,269 --> 00:01:52,884
+This is Georgi here.
+
+30
+00:01:52,885 --> 00:01:54,850
+I'm in Amsterdam.
+
+31
+00:01:55,510 --> 00:01:59,326
+So I'm actually a little bit everywhere.
+
+32
+00:01:59,327 --> 00:02:04,318
+So previously I've been living in Thailand and helped
+
+33
+00:02:04,319 --> 00:02:09,532
+out and organized and led PyCon Thailand, and also
+
+34
+00:02:09,533 --> 00:02:15,650
+Pycon APAC 2021, kind of not only Python related
+
+35
+00:02:15,651 --> 00:02:21,136
+events, but also several hackathons and, like Code War.
+
+36
+00:02:21,137 --> 00:02:28,310
+And I did organize RubyConf and co founded PyLadies.
+
+37
+00:02:28,311 --> 00:02:34,820
+And I've also actually been designing the websites for
+
+38
+00:02:34,821 --> 00:02:39,870
+PyCon and a few other main Python related events.
+
+39
+00:02:40,930 --> 00:02:42,874
+Passing the mic to Cheuk
+
+40
+00:02:42,875 --> 00:02:44,122
+Hello, I'm Cheuk.
+
+41
+00:02:44,123 --> 00:02:45,830
+I live in London.
+
+42
+00:02:45,831 --> 00:02:49,720
+Usually I'm not home because I am a
+
+43
+00:02:49,721 --> 00:02:51,890
+speaker at a lot of different places.
+
+44
+00:02:52,470 --> 00:02:55,086
+Right now, I'm in Tokyo, Japan.
+
+45
+00:02:55,087 --> 00:02:56,280
+So, hello.
+
+46
+00:02:57,610 --> 00:03:02,492
+Also, I am currently at the PSF board.
+
+47
+00:03:02,493 --> 00:03:05,212
+I've also been a PSF fellow since 2021.
+
+48
+00:03:05,213 --> 00:03:10,384
+And, yeah, I've been involved in a
+
+49
+00:03:10,385 --> 00:03:12,800
+lot of work in the Python community. Yeah.
+
+50
+00:03:12,801 --> 00:03:16,048
+So I think maybe we should just explain a little
+
+51
+00:03:16,049 --> 00:03:20,330
+bit why we come up with the name Hidden figures.
+
+52
+00:03:21,170 --> 00:03:24,468
+So we have been searching around and finding a
+
+53
+00:03:24,469 --> 00:03:29,730
+lot of ideas, and Cheuk even came up with
+
+54
+00:03:29,731 --> 00:03:35,704
+something crazy called Espresso Orange Juice, which was actually
+
+55
+00:03:35,705 --> 00:03:37,970
+just simply what I like to drink.
+
+56
+00:03:39,110 --> 00:03:41,400
+That was one of the first idea.
+
+57
+00:03:41,401 --> 00:03:45,262
+And then eventually, I remember Mariatta
+
+58
+00:03:45,263 --> 00:03:46,990
+came out with the "Hidden Figures".
+
+59
+00:03:46,991 --> 00:03:48,984
+So maybe Mariatta, you can explain
+
+60
+00:03:48,985 --> 00:03:50,844
+why it comes out with that.
+
+61
+00:03:50,845 --> 00:03:52,870
+You come up with that title?
+
+62
+00:03:54,090 --> 00:03:57,000
+Well, yeah, I guess it's really about
+
+63
+00:03:57,850 --> 00:04:00,006
+what are we doing in this podcast?
+
+64
+00:04:00,007 --> 00:04:03,104
+Like, what is the topic of this podcast is about?
+
+65
+00:04:03,105 --> 00:04:05,536
+And I guess when we talk about it,
+
+66
+00:04:05,537 --> 00:04:10,272
+we wanted to highlight underrepresented group and women
+
+67
+00:04:10,273 --> 00:04:13,220
+in the Python community because we felt their
+
+68
+00:04:13,221 --> 00:04:18,692
+stories aren't being shared enough, or I think
+
+69
+00:04:18,693 --> 00:04:22,266
+they're not getting the recognition that they deserve.
+
+70
+00:04:22,267 --> 00:04:25,112
+And when thinking about that, it brought me to
+
+71
+00:04:25,113 --> 00:04:27,736
+the stories, actually, there was a book about this
+
+72
+00:04:27,737 --> 00:04:32,616
+and a movie that was a big hit, the
+
+73
+00:04:32,617 --> 00:04:37,986
+Hidden Figures, which was also highlighting stories of African
+
+74
+00:04:37,987 --> 00:04:43,020
+American women in NASA in the past.
+
+75
+00:04:43,021 --> 00:04:46,892
+And I thought, this relates so much to what we
+
+76
+00:04:46,893 --> 00:04:50,758
+see in the Python community, and I thought, maybe let's
+
+77
+00:04:50,759 --> 00:04:54,110
+use the name the "Hidden Figures of Python".
+
+78
+00:04:54,111 --> 00:04:54,512
+Yeah.
+
+79
+00:04:54,513 --> 00:04:56,838
+So it's not just about the title.
+
+80
+00:04:56,839 --> 00:05:00,128
+I think the idea came up, kind
+
+81
+00:05:00,129 --> 00:05:04,340
+of brew into what it is now.
+
+82
+00:05:04,341 --> 00:05:13,064
+Starting from PyCon US last year, which I seen, everybody's there,
+
+83
+00:05:13,065 --> 00:05:15,912
+there's like a big party, a lot of people very
+
+84
+00:05:15,913 --> 00:05:22,638
+excited to see so many people and go to film
+
+85
+00:05:22,639 --> 00:05:25,938
+some podcasts while they meet some speaker or some guests
+
+86
+00:05:25,939 --> 00:05:28,124
+that they want to invite there in person.
+
+87
+00:05:28,125 --> 00:05:29,900
+So I think that's great.
+
+88
+00:05:29,901 --> 00:05:34,796
+But I have an observation about most of these
+
+89
+00:05:34,797 --> 00:05:39,110
+guests or people who have been interviewed are male.
+
+90
+00:05:39,690 --> 00:05:45,952
+So for me, it feels like, of course, these people,
+
+91
+00:05:45,953 --> 00:05:47,904
+they have achieved a lot of things, they got a
+
+92
+00:05:47,905 --> 00:05:50,300
+lot of respect in the community, but I feel like,
+
+93
+00:05:51,330 --> 00:05:54,666
+are there any women at all who kind of achieved
+
+94
+00:05:54,667 --> 00:05:59,028
+same level of contribution, getting respect from the community, but
+
+95
+00:05:59,029 --> 00:06:01,204
+hasn't been featured for whatever reason?
+
+96
+00:06:01,205 --> 00:06:05,272
+So that's why I think that we
+
+97
+00:06:05,273 --> 00:06:07,032
+need to do something about it.
+
+98
+00:06:07,033 --> 00:06:09,838
+So I talked to my good friends sitting
+
+99
+00:06:09,839 --> 00:06:12,552
+here, and they're all on board of this
+
+100
+00:06:12,553 --> 00:06:14,184
+idea that we should do something.
+
+101
+00:06:14,185 --> 00:06:17,480
+So that's kind of how it got into we want to do a
+
+102
+00:06:17,481 --> 00:06:21,772
+podcast, we find a good name for it and why we're here.
+
+103
+00:06:21,773 --> 00:06:23,308
+So I think Georgi and I are in
+
+104
+00:06:23,309 --> 00:06:26,706
+the Diversity and Inclusion workgroup with the PSF.
+
+105
+00:06:26,707 --> 00:06:34,262
+And here one aspect is also visibility and also highlighting
+
+106
+00:06:34,263 --> 00:06:39,648
+role models, because another side effect of seeing a lot
+
+107
+00:06:39,649 --> 00:06:44,432
+of events and podcasts where there's mostly men talking or
+
+108
+00:06:44,433 --> 00:06:47,268
+doing things or being highlighted that they are doing it
+
+109
+00:06:47,269 --> 00:06:50,036
+makes it not very inviting sometimes. Right?
+
+110
+00:06:50,037 --> 00:06:52,100
+And if for people that want to get started,
+
+111
+00:06:52,101 --> 00:06:55,592
+and they are from underrepresented groups in Tech or
+
+112
+00:06:55,593 --> 00:07:00,824
+women, and if you don't really feel like you
+
+113
+00:07:00,825 --> 00:07:03,192
+don't see role models, you don't really see that
+
+114
+00:07:03,193 --> 00:07:07,880
+there is space for you, like an inviting space.
+
+115
+00:07:08,970 --> 00:07:11,202
+But I know once you start getting involved.
+
+116
+00:07:11,203 --> 00:07:12,588
+So we have PyLadies, we have
+
+117
+00:07:12,589 --> 00:07:15,298
+all sorts of organizations in Python.
+
+118
+00:07:15,299 --> 00:07:17,692
+Once you start getting involved, you see that
+
+119
+00:07:17,693 --> 00:07:20,358
+there are people, there are role models.
+
+120
+00:07:20,359 --> 00:07:22,940
+It's just that it's not very obvious.
+
+121
+00:07:23,870 --> 00:07:27,952
+And I think, how do we make
+
+122
+00:07:27,953 --> 00:07:29,472
+that a little bit more obvious? Right.
+
+123
+00:07:29,473 --> 00:07:31,988
+So this is not about taking space from other people.
+
+124
+00:07:31,989 --> 00:07:32,356
+Right?
+
+125
+00:07:32,357 --> 00:07:35,796
+It's more about highlighting that the space
+
+126
+00:07:35,797 --> 00:07:38,170
+is a lot more diverse than it's.
+
+127
+00:07:38,171 --> 00:07:41,492
+Looking at the moment, if I can add.
+
+128
+00:07:41,493 --> 00:07:44,168
+I feel there is a lot
+
+129
+00:07:44,169 --> 00:07:47,518
+of power in highlighting role models.
+
+130
+00:07:47,519 --> 00:07:50,552
+For example, I could share my personal experience.
+
+131
+00:07:50,553 --> 00:07:53,480
+Like, when I went to PyCon for the first time
+
+132
+00:07:53,481 --> 00:07:56,940
+ever, I saw lots of speakers, men and women.
+
+133
+00:07:56,941 --> 00:08:02,028
+When I go to speakers, even though I saw
+
+134
+00:08:02,029 --> 00:08:05,260
+lots of speakers, it was only when I saw
+
+135
+00:08:05,261 --> 00:08:09,602
+another women, another women of color on stage.
+
+136
+00:08:09,603 --> 00:08:12,736
+That's the moment that I feel inspired myself, that,
+
+137
+00:08:12,737 --> 00:08:15,440
+oh, maybe I want to be like her.
+
+138
+00:08:15,441 --> 00:08:17,360
+I want to be speaker, too.
+
+139
+00:08:17,361 --> 00:08:20,388
+And that kind of power, I did not
+
+140
+00:08:20,389 --> 00:08:22,724
+get it unless I actually see somebody.
+
+141
+00:08:22,725 --> 00:08:26,720
+And I feel like there is responsibility in
+
+142
+00:08:27,490 --> 00:08:31,876
+community leaders to not only provide content, but
+
+143
+00:08:31,877 --> 00:08:37,416
+making sure you are highlighting diverse members to
+
+144
+00:08:37,417 --> 00:08:40,936
+be able to further inspire other people.
+
+145
+00:08:40,937 --> 00:08:43,880
+So that's what I want to get.
+
+146
+00:08:43,881 --> 00:08:47,244
+One thing, Tereza, you brought up about
+
+147
+00:08:47,245 --> 00:08:50,520
+this, and also Mariatta bringing this up.
+
+148
+00:08:51,210 --> 00:08:55,452
+I personally was a bit surprised when I
+
+149
+00:08:55,453 --> 00:09:00,480
+actually started stepping up as the organizer, the
+
+150
+00:09:00,481 --> 00:09:04,430
+PyCon Thailand lead at the first time.
+
+151
+00:09:04,431 --> 00:09:08,566
+The moment I took over this task,
+
+152
+00:09:08,567 --> 00:09:11,650
+I see that there were more women
+
+153
+00:09:11,651 --> 00:09:16,110
+that actually started joining and participating.
+
+154
+00:09:17,010 --> 00:09:20,884
+The year when I actually started, there was slightly better,
+
+155
+00:09:20,885 --> 00:09:25,512
+maybe like three or four, I would say from 10%
+
+156
+00:09:25,513 --> 00:09:30,340
+of female speakers, it increased to about 20%.
+
+157
+00:09:30,950 --> 00:09:37,490
+And now that the ball got rolling, PyCon Thailand
+
+158
+00:09:37,491 --> 00:09:45,282
+this year has about almost 50% female talk submission.
+
+159
+00:09:45,283 --> 00:09:47,630
+And that is amazing.
+
+160
+00:09:47,631 --> 00:09:50,048
+And this is what I meant by it
+
+161
+00:09:50,049 --> 00:09:52,998
+is not because, or what we meant.
+
+162
+00:09:52,999 --> 00:09:55,232
+It is not because there are
+
+163
+00:09:55,233 --> 00:09:58,700
+no female role models out there.
+
+164
+00:09:59,710 --> 00:10:01,200
+We just need support.
+
+165
+00:10:02,210 --> 00:10:04,522
+The moment when I was in PyCon,
+
+166
+00:10:04,523 --> 00:10:08,538
+us, we attended PyLadieslunch.
+
+167
+00:10:08,539 --> 00:10:10,586
+I mean, that's not only female,
+
+168
+00:10:10,587 --> 00:10:12,858
+of course there are males joining.
+
+169
+00:10:12,859 --> 00:10:15,310
+But it was so empowering.
+
+170
+00:10:15,311 --> 00:10:18,792
+When you are there, the ladies who are so
+
+171
+00:10:18,793 --> 00:10:22,088
+afraid to step up, actually have the courage to
+
+172
+00:10:22,089 --> 00:10:24,856
+step up and talk about their stories, talk about
+
+173
+00:10:24,857 --> 00:10:29,116
+how they went from zero to something to something
+
+174
+00:10:29,117 --> 00:10:32,828
+that everyone knew but was not talked about.
+
+175
+00:10:32,829 --> 00:10:34,732
+And I think this is part of reason
+
+176
+00:10:34,733 --> 00:10:37,530
+why I said yes to this podcast.
+
+177
+00:10:37,531 --> 00:10:37,932
+Yeah.
+
+178
+00:10:37,933 --> 00:10:41,232
+So I think it's a very good point of, you have
+
+179
+00:10:41,233 --> 00:10:43,712
+to have some role model there to take the lead.
+
+180
+00:10:43,713 --> 00:10:47,632
+That's why I keep talking to organizers that, do
+
+181
+00:10:47,633 --> 00:10:50,016
+you have any women in your organizing team?
+
+182
+00:10:50,017 --> 00:10:52,452
+Not just as a volunteer that do some small
+
+183
+00:10:52,453 --> 00:10:55,252
+tasks and stuff, they're actually in the, I would
+
+184
+00:10:55,253 --> 00:10:58,452
+say a leadership role, that they're helping to make
+
+185
+00:10:58,453 --> 00:11:02,356
+decision, helping to be in the discussion and stuff.
+
+186
+00:11:02,357 --> 00:11:06,152
+We need that because you can say all
+
+187
+00:11:06,153 --> 00:11:08,190
+what you want, that we support diversity.
+
+188
+00:11:08,191 --> 00:11:10,840
+But even if it's so simple, right.
+
+189
+00:11:10,841 --> 00:11:13,320
+We are not talking about finding someone
+
+190
+00:11:13,321 --> 00:11:16,440
+who may be quite difficult to find.
+
+191
+00:11:16,441 --> 00:11:20,658
+It's just, well, this world has two gender.
+
+192
+00:11:20,659 --> 00:11:22,242
+Well, maybe more than two gender,
+
+193
+00:11:22,243 --> 00:11:25,190
+but majority, there's two gender.
+
+194
+00:11:27,450 --> 00:11:29,820
+Even that finding, let's say, women,
+
+195
+00:11:29,821 --> 00:11:32,220
+to get involved, to be there.
+
+196
+00:11:33,310 --> 00:11:34,768
+Have you ever tried?
+
+197
+00:11:34,769 --> 00:11:35,824
+Have you do it?
+
+198
+00:11:35,825 --> 00:11:37,376
+Can you show that you have done it?
+
+199
+00:11:37,377 --> 00:11:38,960
+Actions speak louder than words.
+
+200
+00:11:38,961 --> 00:11:41,424
+You can't just say that you support diversity and just
+
+201
+00:11:41,425 --> 00:11:44,692
+keep onboarding people who look like you to be because
+
+202
+00:11:44,693 --> 00:11:46,532
+you just feel more comfortable working with them.
+
+203
+00:11:46,533 --> 00:11:50,372
+So that brings us to the point where
+
+204
+00:11:50,373 --> 00:11:54,536
+we want to find out why we keep
+
+205
+00:11:54,537 --> 00:11:57,576
+seeing men appearing in podcasts and stuff.
+
+206
+00:11:57,577 --> 00:12:00,904
+So, Mariatta volunteered to data research.
+
+207
+00:12:00,905 --> 00:12:03,780
+So, Mariatta, do you want to talk a little bit about.
+
+208
+00:12:06,230 --> 00:12:06,980
+Think.
+
+209
+00:12:08,010 --> 00:12:12,730
+I guess we just didn't have data about it, right?
+
+210
+00:12:12,731 --> 00:12:15,186
+Personally, when I see podcast
+
+211
+00:12:15,187 --> 00:12:17,746
+series announced, I pay attention.
+
+212
+00:12:17,747 --> 00:12:24,096
+I pay attention that it's men in a podcast, and
+
+213
+00:12:24,097 --> 00:12:26,576
+the next week is men again and again and again.
+
+214
+00:12:26,577 --> 00:12:29,808
+And I thought maybe I should come up with the
+
+215
+00:12:29,809 --> 00:12:32,842
+data, maybe we should actually collect so that it doesn't
+
+216
+00:12:32,843 --> 00:12:36,500
+become just what Mariatta thinks and becomes real data.
+
+217
+00:12:36,501 --> 00:12:40,612
+And when I collected the data in September of
+
+218
+00:12:40,613 --> 00:12:47,590
+2023, I collected data from three popular podcasts.
+
+219
+00:12:47,591 --> 00:12:49,688
+And you can read the result in
+
+220
+00:12:49,689 --> 00:12:53,410
+our blog post, Pypodcats.live/blog.
+
+221
+00:12:54,470 --> 00:12:58,604
+It's a long URL, but find it basically what I found
+
+222
+00:12:58,605 --> 00:13:02,844
+out of three different podcasts that's been going on for years
+
+223
+00:13:02,845 --> 00:13:06,440
+that has more than 100 episodes, each of them.
+
+224
+00:13:07,710 --> 00:13:14,118
+Out of those episodes, 666 episodes, women appeared
+
+225
+00:13:14,119 --> 00:13:18,128
+in only 17%, like 100 or so.
+
+226
+00:13:18,129 --> 00:13:20,596
+And it's not also that.
+
+227
+00:13:20,597 --> 00:13:23,156
+There aren't 117 different women
+
+228
+00:13:23,157 --> 00:13:25,178
+who appeared on the episodes.
+
+229
+00:13:25,179 --> 00:13:27,748
+Some women appear multiple times, so in
+
+230
+00:13:27,749 --> 00:13:31,930
+fact, there are only 90 something episodes.
+
+231
+00:13:31,931 --> 00:13:36,472
+94, I believe, women out of
+
+232
+00:13:36,473 --> 00:13:41,940
+540 guests, so also 17% women.
+
+233
+00:13:44,970 --> 00:13:49,938
+These podcasts are considered as top Python podcasts.
+
+234
+00:13:49,939 --> 00:13:52,540
+If you go to Google and you try to
+
+235
+00:13:52,541 --> 00:13:57,218
+look Python podcasts, these are in different search engines.
+
+236
+00:13:57,219 --> 00:13:58,784
+I tried different ones.
+
+237
+00:13:58,785 --> 00:14:01,686
+These three podcasts are the ones that appeared.
+
+238
+00:14:01,687 --> 00:14:06,976
+And I feel like, yes, they have different
+
+239
+00:14:06,977 --> 00:14:11,242
+reasons, maybe for doing their podcast, but appearing
+
+240
+00:14:11,243 --> 00:14:14,852
+on the podcast also comes with a power
+
+241
+00:14:14,853 --> 00:14:17,524
+to influence the Python community.
+
+242
+00:14:17,525 --> 00:14:22,000
+And why are women being highlighted there?
+
+243
+00:14:22,630 --> 00:14:25,140
+That's a question we're wondering, right?
+
+244
+00:14:26,470 --> 00:14:28,648
+Anyway, if you like to read the blog post?
+
+245
+00:14:28,649 --> 00:14:30,790
+We announced it earlier.
+
+246
+00:14:30,791 --> 00:14:32,900
+We got some comments about it.
+
+247
+00:14:33,670 --> 00:14:36,380
+Does anybody else want to add to those?
+
+248
+00:14:36,381 --> 00:14:38,604
+Yeah, I wanted to add something.
+
+249
+00:14:38,605 --> 00:14:43,580
+I think maybe this is just for myself, like when
+
+250
+00:14:43,581 --> 00:14:49,776
+an established entity is inviting me to speak these days
+
+251
+00:14:49,777 --> 00:14:52,688
+or to do something, and then I check the website
+
+252
+00:14:52,689 --> 00:14:58,512
+and they are already like, I'm not represented there.
+
+253
+00:14:58,513 --> 00:15:01,428
+I usually get the feeling that, why
+
+254
+00:15:01,429 --> 00:15:03,040
+are they writing to me now?
+
+255
+00:15:03,570 --> 00:15:05,840
+They want to improve their diversity numbers.
+
+256
+00:15:08,290 --> 00:15:10,676
+I think it's really hard in general for
+
+257
+00:15:10,677 --> 00:15:14,574
+something that has already been going in uncontrolled
+
+258
+00:15:14,575 --> 00:15:19,006
+direction to switch to being intentional about diversity.
+
+259
+00:15:19,007 --> 00:15:20,360
+It's way more work.
+
+260
+00:15:20,361 --> 00:15:23,380
+So I think we have to acknowledge this
+
+261
+00:15:24,710 --> 00:15:28,252
+if they would start from scratch and try
+
+262
+00:15:28,253 --> 00:15:32,194
+from the beginning to be representing more groups.
+
+263
+00:15:32,195 --> 00:15:39,116
+So I think this might be also a reason why, because
+
+264
+00:15:39,117 --> 00:15:42,768
+diversity conversations about diversity are fairly new, at least not in
+
+265
+00:15:42,769 --> 00:15:44,496
+the US, but in the rest of the world.
+
+266
+00:15:44,497 --> 00:15:47,968
+I think being intentional about diversity in a lot
+
+267
+00:15:47,969 --> 00:15:54,004
+of circles is not something that was done a
+
+268
+00:15:54,005 --> 00:15:55,684
+lot in the past, so to say.
+
+269
+00:15:55,685 --> 00:15:58,690
+So I think for things that are already established,
+
+270
+00:15:58,691 --> 00:16:01,920
+there might be a little bit of an effect
+
+271
+00:16:02,470 --> 00:16:05,688
+that leads to them being finding it harder to
+
+272
+00:16:05,689 --> 00:16:09,192
+attract diverse speakers at this moment.
+
+273
+00:16:09,193 --> 00:16:12,660
+So they will have to go the extra mile for that.
+
+274
+00:16:15,370 --> 00:16:21,442
+I also feel a little bit like sometimes people tend
+
+275
+00:16:21,443 --> 00:16:25,788
+to run away from the name DNI or diversity and
+
+276
+00:16:25,789 --> 00:16:29,142
+inclusion because they say you're doing some kind of trend
+
+277
+00:16:29,143 --> 00:16:33,070
+thing because you want to be part of the spotlight.
+
+278
+00:16:33,071 --> 00:16:36,368
+So are you actually doing that for the reason
+
+279
+00:16:36,369 --> 00:16:44,244
+of being popular or being mentioned about, which also
+
+280
+00:16:44,245 --> 00:16:48,132
+kind of contradicting, you know what I mean?
+
+281
+00:16:48,133 --> 00:16:49,988
+It's like some people wants to be part of
+
+282
+00:16:49,989 --> 00:16:54,920
+it because they invite other people that is from
+
+283
+00:16:54,921 --> 00:17:02,392
+the minority groups or underrepresented groups and to just
+
+284
+00:17:02,393 --> 00:17:05,538
+bring up and say, hey, we want to include
+
+285
+00:17:05,539 --> 00:17:09,910
+you, or simply put rainbow colors on their logo.
+
+286
+00:17:10,490 --> 00:17:13,160
+And do you really mean that?
+
+287
+00:17:14,250 --> 00:17:15,116
+That's the thing.
+
+288
+00:17:15,117 --> 00:17:18,650
+Do you really mean that you're doing diverse,
+
+289
+00:17:19,710 --> 00:17:25,167
+inviting a diverse and inclusive group, or are
+
+290
+00:17:25,168 --> 00:17:29,936
+you just being part of it to be
+
+291
+00:17:29,937 --> 00:17:37,476
+the trend of 2021 or something like that?
+
+292
+00:17:37,477 --> 00:17:42,138
+And this is something that I find some people tend
+
+293
+00:17:42,139 --> 00:17:44,132
+to run away from, and at the same time, some
+
+294
+00:17:44,133 --> 00:17:47,510
+people wants to be that just for the spotlight.
+
+295
+00:17:47,511 --> 00:17:51,336
+But rest assured, the four of us, I can
+
+296
+00:17:51,337 --> 00:17:56,158
+feel that it's totally because we feel that it's
+
+297
+00:17:56,159 --> 00:17:59,644
+like something is burning Inside your heart.
+
+298
+00:17:59,645 --> 00:18:01,708
+It's like you want to say something, but
+
+299
+00:18:01,709 --> 00:18:05,564
+you're just waiting, just waiting for someone to
+
+300
+00:18:05,565 --> 00:18:08,764
+pop out to just make that difference.
+
+301
+00:18:08,765 --> 00:18:11,776
+And we realize that we still don't see anyone.
+
+302
+00:18:11,777 --> 00:18:14,940
+And that's why I say, you know what, let's just do it.
+
+303
+00:18:15,630 --> 00:18:16,940
+We can do it.
+
+304
+00:18:17,630 --> 00:18:20,198
+There's not going to be a tomorrow.
+
+305
+00:18:20,199 --> 00:18:22,208
+And I think that was part of
+
+306
+00:18:22,209 --> 00:18:24,640
+the reason why we are here too.
+
+307
+00:18:25,490 --> 00:18:27,092
+But I would like to add, wait
+
+308
+00:18:27,093 --> 00:18:28,436
+a second, I would like to add.
+
+309
+00:18:28,437 --> 00:18:29,812
+So I think I heard this
+
+310
+00:18:29,813 --> 00:18:31,306
+term, it's called purple washing.
+
+311
+00:18:31,307 --> 00:18:33,732
+When you're doing diversity for making it look
+
+312
+00:18:33,733 --> 00:18:37,570
+good, like you have green washing for environment.
+
+313
+00:18:38,150 --> 00:18:43,336
+I think at this point, if other groups or
+
+314
+00:18:43,337 --> 00:18:49,852
+other podcasts, conferences, if they're doing diversity for all
+
+315
+00:18:49,853 --> 00:18:52,204
+the wrong reasons, I also don't really care.
+
+316
+00:18:52,205 --> 00:18:56,572
+As long as they're doing it, the work, the
+
+317
+00:18:56,573 --> 00:18:59,136
+outcomes are still going to be valuable, right?
+
+318
+00:18:59,137 --> 00:19:02,128
+So I would say to everybody out there who
+
+319
+00:19:02,129 --> 00:19:05,232
+is thinking, okay, but what if my reasons are
+
+320
+00:19:05,233 --> 00:19:09,648
+marketing and make our podcast look good and whatever.
+
+321
+00:19:09,649 --> 00:19:12,660
+Yeah, it doesn't matter, just do it. Do the work.
+
+322
+00:19:12,661 --> 00:19:16,154
+The work is hard and have more diversity.
+
+323
+00:19:16,155 --> 00:19:19,108
+And yes it's going to have all sorts of
+
+324
+00:19:19,109 --> 00:19:23,108
+benefits, but you'll see the work is hard anyway.
+
+325
+00:19:23,109 --> 00:19:24,000
+I agree.
+
+326
+00:19:24,630 --> 00:19:26,424
+I personally see the numbers.
+
+327
+00:19:26,425 --> 00:19:28,952
+I don't care what's the reason of doing it.
+
+328
+00:19:28,953 --> 00:19:33,528
+But if the result is having more diverse, let's say
+
+329
+00:19:33,529 --> 00:19:36,012
+we can go back to Mariatta's research in a bit.
+
+330
+00:19:36,013 --> 00:19:38,732
+Like, let's say the number of women being
+
+331
+00:19:38,733 --> 00:19:41,772
+invited or actually appearing in a podcast is
+
+332
+00:19:41,773 --> 00:19:45,772
+increasing, then that's what I want to see. Right?
+
+333
+00:19:45,773 --> 00:19:47,932
+I don't care if it's like
+
+334
+00:19:47,933 --> 00:19:50,832
+over spotlight, whatever, it's hard work.
+
+335
+00:19:50,833 --> 00:19:52,726
+I can tell you doing diversity
+
+336
+00:19:52,727 --> 00:19:54,416
+and inclusion work is hard work.
+
+337
+00:19:54,417 --> 00:19:56,614
+It's not always get appreciated.
+
+338
+00:19:56,615 --> 00:19:59,536
+It's doing something like sometimes you have to fight
+
+339
+00:19:59,537 --> 00:20:02,148
+against what is popular opinion and stuff, right?
+
+340
+00:20:02,149 --> 00:20:03,920
+You have to fight against the current.
+
+341
+00:20:04,450 --> 00:20:07,652
+And even if someone started just want
+
+342
+00:20:07,653 --> 00:20:12,084
+to, for whatever like quotation, wrong reason.
+
+343
+00:20:12,085 --> 00:20:15,224
+But as long as they put in the work, as long
+
+344
+00:20:15,225 --> 00:20:19,060
+as we see the result, we should still appreciate that.
+
+345
+00:20:21,270 --> 00:20:24,660
+So let's go back to the numbers, maybe.
+
+346
+00:20:27,290 --> 00:20:29,800
+Well, I just wanted to mention though,
+
+347
+00:20:33,450 --> 00:20:34,796
+I don't know how to say that.
+
+348
+00:20:34,797 --> 00:20:39,132
+I find it annoying if people say diversity is
+
+349
+00:20:39,133 --> 00:20:44,064
+doing diversity work is something trivial or something easy.
+
+350
+00:20:44,065 --> 00:20:45,856
+You're doing it just because you
+
+351
+00:20:45,857 --> 00:20:47,430
+want to get a spotlight.
+
+352
+00:20:47,431 --> 00:20:50,000
+This is harder than writing code.
+
+353
+00:20:50,001 --> 00:20:53,754
+Writing code is very exact, it's factual.
+
+354
+00:20:53,755 --> 00:20:57,140
+There's a formula that you can apply
+
+355
+00:20:57,141 --> 00:20:59,940
+again and again to various code base.
+
+356
+00:20:59,941 --> 00:21:02,740
+Like doing this kind of work is hard.
+
+357
+00:21:02,741 --> 00:21:05,080
+And personally for me, I really rather
+
+358
+00:21:05,081 --> 00:21:06,910
+be writing code and writing bots.
+
+359
+00:21:06,911 --> 00:21:09,048
+But I care enough about this that I
+
+360
+00:21:09,049 --> 00:21:11,940
+want to be participated on this thing.
+
+361
+00:21:15,510 --> 00:21:18,412
+I give talks if I talk about my
+
+362
+00:21:18,413 --> 00:21:21,884
+code, my bots, I feel very happy.
+
+363
+00:21:21,885 --> 00:21:24,748
+I will be able to finish that talk in like a
+
+364
+00:21:24,749 --> 00:21:27,880
+day or two, I'm done and I feel super happy.
+
+365
+00:21:28,750 --> 00:21:31,622
+But sometimes I talk about diversity,
+
+366
+00:21:31,623 --> 00:21:33,136
+I talk about the community.
+
+367
+00:21:33,137 --> 00:21:37,990
+Those talks takes me at least two weeks to prepare.
+
+368
+00:21:37,991 --> 00:21:41,828
+And then during the rehearsal of that talks, I
+
+369
+00:21:41,829 --> 00:21:45,520
+feel super sad and angry and not happy.
+
+370
+00:21:46,370 --> 00:21:49,090
+It's a lot of mental
+
+371
+00:21:49,091 --> 00:21:52,234
+burden being involved in diversity.
+
+372
+00:21:52,235 --> 00:21:56,264
+And yeah, I find it annoying when people said,
+
+373
+00:21:56,265 --> 00:21:59,688
+oh, it's just diversity, as if it's easy.
+
+374
+00:21:59,689 --> 00:22:02,770
+Anyway, I'm just rambling.
+
+375
+00:22:03,590 --> 00:22:06,162
+No, I don't think it's rambling.
+
+376
+00:22:06,163 --> 00:22:07,560
+I totally agree.
+
+377
+00:22:10,330 --> 00:22:12,732
+I think all of us here, all four
+
+378
+00:22:12,733 --> 00:22:15,270
+of us here has been through that stage.
+
+379
+00:22:17,130 --> 00:22:20,832
+I remember when I started creating just
+
+380
+00:22:20,833 --> 00:22:26,448
+simple meetups and month after month, I
+
+381
+00:22:26,449 --> 00:22:30,140
+was literally the only female there.
+
+382
+00:22:31,250 --> 00:22:35,730
+And all the other attendees were male.
+
+383
+00:22:35,731 --> 00:22:42,856
+And someone just said, yeah, because
+
+384
+00:22:42,857 --> 00:22:44,340
+female don't want to speak.
+
+385
+00:22:48,390 --> 00:22:52,712
+An interesting thing, one of the company's founders, he
+
+386
+00:22:52,713 --> 00:22:56,460
+was saying that he was there because he just
+
+387
+00:22:56,461 --> 00:23:01,270
+tried to get hire new Python developers.
+
+388
+00:23:02,410 --> 00:23:04,396
+And he said, you know what,
+
+389
+00:23:04,397 --> 00:23:07,110
+I cannot find female developers.
+
+390
+00:23:07,710 --> 00:23:10,620
+I've been hiring, no one is there.
+
+391
+00:23:13,150 --> 00:23:16,416
+I step into his office one day and I look
+
+392
+00:23:16,417 --> 00:23:21,570
+around the office and there was literally like 90% men.
+
+393
+00:23:21,571 --> 00:23:24,932
+Imagine if you are the single woman working there,
+
+394
+00:23:24,933 --> 00:23:30,420
+do you feel comfortable, do you feel comfortable working
+
+395
+00:23:30,421 --> 00:23:33,444
+there if you are the only one?
+
+396
+00:23:33,445 --> 00:23:36,040
+So I think there are many ways you can
+
+397
+00:23:36,041 --> 00:23:40,056
+make an effort to make a difference, not only
+
+398
+00:23:40,057 --> 00:23:43,416
+doing the first step, which is super important, because
+
+399
+00:23:43,417 --> 00:23:46,620
+someone needs to have that difference there.
+
+400
+00:23:46,621 --> 00:23:55,212
+And also, I mean, 2000% disagree that
+
+401
+00:23:55,213 --> 00:23:58,620
+there's no female developers out there.
+
+402
+00:24:00,190 --> 00:24:04,566
+Yeah, I would like to grab that point and elaborate
+
+403
+00:24:04,567 --> 00:24:07,980
+a little bit, because it's not just a workplace, right?
+
+404
+00:24:08,510 --> 00:24:11,088
+As you can see, the response from one of the
+
+405
+00:24:11,089 --> 00:24:15,002
+podcast organizer and from other event organizers as well, I've
+
+406
+00:24:15,003 --> 00:24:18,292
+seen this many, many times that they are thinking like,
+
+407
+00:24:18,293 --> 00:24:22,308
+well, we just choose speaker regardless of gender, we just
+
+408
+00:24:22,309 --> 00:24:24,980
+choose whoever we think is great.
+
+409
+00:24:25,910 --> 00:24:30,536
+But the point is, I think usually
+
+410
+00:24:30,537 --> 00:24:32,710
+it's a point that got overlooked.
+
+411
+00:24:32,711 --> 00:24:36,242
+I want to believe that nobody do it on purpose
+
+412
+00:24:36,243 --> 00:24:42,812
+too, but people miss the point that actually now we
+
+413
+00:24:42,813 --> 00:24:44,988
+are not like men and women are not.
+
+414
+00:24:44,989 --> 00:24:49,302
+Well, we are talking about in general now that's
+
+415
+00:24:49,303 --> 00:24:53,638
+not in a level playing field, because young boys
+
+416
+00:24:53,639 --> 00:24:57,654
+have more access, more encouraged to do something technical,
+
+417
+00:24:57,655 --> 00:25:01,830
+to play with computer, play with computer games versus
+
+418
+00:25:01,831 --> 00:25:05,172
+young girl may get less exposure to those, they
+
+419
+00:25:05,173 --> 00:25:07,730
+may not be encouraged.
+
+420
+00:25:07,731 --> 00:25:09,040
+It's just a fact.
+
+421
+00:25:10,210 --> 00:25:14,788
+So saying that we just chose someone regardless of the
+
+422
+00:25:14,789 --> 00:25:18,088
+gender, I think is a bit kind of overseeing the
+
+423
+00:25:18,089 --> 00:25:23,608
+fact that we are not actually start from the same
+
+424
+00:25:23,609 --> 00:25:29,276
+level, because by the time look at how many who
+
+425
+00:25:29,277 --> 00:25:34,252
+choose the STEM object versus because why now there's more
+
+426
+00:25:34,253 --> 00:25:38,144
+female university students, but still not a lot of them
+
+427
+00:25:38,145 --> 00:25:42,060
+choose to study science study.
+
+428
+00:25:45,150 --> 00:25:51,338
+Actually, I read on this data one time in Asia
+
+429
+00:25:51,339 --> 00:25:55,600
+and it's a very interesting data that I've seen.
+
+430
+00:25:56,450 --> 00:26:06,840
+There are more female working as doctors, scientists and
+
+431
+00:26:06,841 --> 00:26:12,530
+all science and chemistry related and also data related
+
+432
+00:26:13,270 --> 00:26:21,370
+job, but apparently related to it was much lower.
+
+433
+00:26:21,371 --> 00:26:24,156
+But back then, years before even
+
+434
+00:26:24,157 --> 00:26:27,990
+my partner's mom was actually coding.
+
+435
+00:26:29,150 --> 00:26:31,328
+So what happened there?
+
+436
+00:26:31,329 --> 00:26:33,280
+That's a very interesting question,
+
+437
+00:26:33,281 --> 00:26:34,832
+like what happened there?
+
+438
+00:26:34,833 --> 00:26:37,728
+And I see that some of the Asians family,
+
+439
+00:26:37,729 --> 00:26:43,082
+they also feel like, oh, because being a doctor
+
+440
+00:26:43,083 --> 00:26:48,430
+is well regarded, being a scientist is well regarded.
+
+441
+00:26:50,130 --> 00:26:54,632
+There was something very interesting that after reading this
+
+442
+00:26:54,633 --> 00:26:58,990
+data, I was like, so what happened is developer
+
+443
+00:26:58,991 --> 00:27:05,512
+something that sounds different, more different than scientists and
+
+444
+00:27:05,513 --> 00:27:09,426
+doctors and chemists and et cetera.
+
+445
+00:27:09,427 --> 00:27:11,244
+I don't know if it has to
+
+446
+00:27:11,245 --> 00:27:12,978
+do much with being well regarded.
+
+447
+00:27:12,979 --> 00:27:14,844
+So the way I read about it, at
+
+448
+00:27:14,845 --> 00:27:18,352
+least in the west, what happened was that
+
+449
+00:27:18,353 --> 00:27:23,340
+to programming, it just became a powerful job.
+
+450
+00:27:24,350 --> 00:27:28,112
+And it's just how you have
+
+451
+00:27:28,113 --> 00:27:29,856
+class system, you have gender system.
+
+452
+00:27:29,857 --> 00:27:34,132
+It's just our society is pushing the privilege of
+
+453
+00:27:34,133 --> 00:27:37,450
+power on the people that usually have that privilege.
+
+454
+00:27:37,451 --> 00:27:42,320
+So then you have, it became so women didn't get
+
+455
+00:27:44,610 --> 00:27:46,936
+pushed, they got pushed out, out of the job.
+
+456
+00:27:46,937 --> 00:27:50,238
+So it's not like in the end, there's all sorts
+
+457
+00:27:50,239 --> 00:27:53,416
+of ways in a society how you push a whole
+
+458
+00:27:53,417 --> 00:27:58,172
+group out of something, I guess media and everything, that
+
+459
+00:27:58,173 --> 00:28:00,268
+at the end you think it was another narrative, but
+
+460
+00:28:00,269 --> 00:28:02,092
+in the end that's what really happened, right?
+
+461
+00:28:02,093 --> 00:28:05,532
+So it's been prestigious, like
+
+462
+00:28:05,533 --> 00:28:07,516
+financially speaking, a powerful job.
+
+463
+00:28:07,517 --> 00:28:11,312
+And then it just went to the people that usually have
+
+464
+00:28:11,313 --> 00:28:16,326
+the power in our society still just wanted to come round
+
+465
+00:28:16,327 --> 00:28:21,312
+out, so a little bit in case everybody forgot, right?
+
+466
+00:28:21,313 --> 00:28:25,780
+So Mariatta did research, published a blog post.
+
+467
+00:28:25,781 --> 00:28:28,730
+We also reached out to the podcast organizers
+
+468
+00:28:28,731 --> 00:28:32,132
+to say, hey, we're going to publish this.
+
+469
+00:28:32,133 --> 00:28:33,520
+Do you have anything to.
+
+470
+00:28:34,130 --> 00:28:37,224
+And someone, one replied, right?
+
+471
+00:28:37,225 --> 00:28:40,248
+And I think some of the replies are
+
+472
+00:28:40,249 --> 00:28:42,100
+also in public, they're on social media.
+
+473
+00:28:42,630 --> 00:28:46,188
+And yeah, maybe we wanted to take the
+
+474
+00:28:46,189 --> 00:28:49,532
+rest of the podcast to discuss a little
+
+475
+00:28:49,533 --> 00:28:51,586
+bit this, right, like what was the replies?
+
+476
+00:28:51,587 --> 00:28:57,452
+I'm also maybe to say for the future in general from
+
+477
+00:28:57,453 --> 00:29:00,768
+diversity work is like, how do you reply when you did?
+
+478
+00:29:00,769 --> 00:29:01,660
+Maybe something.
+
+479
+00:29:02,190 --> 00:29:04,416
+What would be a good way to reply for people
+
+480
+00:29:04,417 --> 00:29:09,462
+who want to reply usually say in diversity and inclusion.
+
+481
+00:29:09,463 --> 00:29:11,844
+When you did something to offend someone
+
+482
+00:29:11,845 --> 00:29:15,668
+accidentally or not, you apologize and you
+
+483
+00:29:15,669 --> 00:29:16,932
+say, I will do better next time.
+
+484
+00:29:16,933 --> 00:29:22,160
+So that is the gracious way of replying, when
+
+485
+00:29:23,330 --> 00:29:25,608
+in our case, the data does show that there
+
+486
+00:29:25,609 --> 00:29:28,340
+has been a clear trend in one direction and
+
+487
+00:29:28,870 --> 00:29:32,062
+justifying is sometimes not really helpful.
+
+488
+00:29:32,063 --> 00:29:35,646
+It also makes other people feel bad afterwards.
+
+489
+00:29:35,647 --> 00:29:36,936
+Right? Yeah.
+
+490
+00:29:36,937 --> 00:29:41,276
+I think Mariatta already established a point that when we
+
+491
+00:29:41,277 --> 00:29:45,500
+do this research, we just like, out of curiosity, and
+
+492
+00:29:45,501 --> 00:29:48,386
+we chose these podcasts because they are popular.
+
+493
+00:29:48,387 --> 00:29:50,326
+So first of all, congratulations.
+
+494
+00:29:50,327 --> 00:29:52,518
+If you got chosen, you are popular.
+
+495
+00:29:52,519 --> 00:30:00,048
+But I would always give them the kind
+
+496
+00:30:00,049 --> 00:30:02,788
+of thing that it may be oversight. Right?
+
+497
+00:30:02,789 --> 00:30:04,930
+Again, it may be oversight.
+
+498
+00:30:04,931 --> 00:30:06,930
+Benefit of doubt.
+
+499
+00:30:06,931 --> 00:30:08,788
+Yeah, I don't want to use that word
+
+500
+00:30:08,789 --> 00:30:11,668
+because usually that word means that we are
+
+501
+00:30:11,669 --> 00:30:14,152
+accusing someone, but we are not.
+
+502
+00:30:14,153 --> 00:30:20,398
+But yeah, I think that it may be an oversight, and it's
+
+503
+00:30:20,399 --> 00:30:24,040
+good that we bring it up and have a discussion, so maybe
+
+504
+00:30:24,041 --> 00:30:27,210
+we will figure out how to make it better together.
+
+505
+00:30:27,211 --> 00:30:29,548
+Yeah, I think I also want to point out
+
+506
+00:30:29,549 --> 00:30:32,732
+that we are not actually trying to pinpoint at
+
+507
+00:30:32,733 --> 00:30:37,132
+any podcast here or anyone that is among the
+
+508
+00:30:37,133 --> 00:30:41,350
+community, which is really not our intention.
+
+509
+00:30:41,351 --> 00:30:45,568
+We just want to figure out why is that?
+
+510
+00:30:45,569 --> 00:30:48,352
+Just like what Mariatta said, not just out from
+
+511
+00:30:48,353 --> 00:30:52,260
+Mariatta's head, nor Georgi's head, nor Tereza's head, or
+
+512
+00:30:52,261 --> 00:30:56,580
+Cheuk's perception that there are lesser women.
+
+513
+00:30:56,581 --> 00:31:06,390
+So data speaks the truth. and I personally
+
+514
+00:31:06,391 --> 00:31:10,630
+It's not only, to be honest, not only female.
+
+515
+00:31:10,631 --> 00:31:12,232
+I would even support that.
+
+516
+00:31:12,233 --> 00:31:16,738
+We will invite underrepresented folks.
+
+517
+00:31:16,739 --> 00:31:21,052
+And I grew up with people who
+
+518
+00:31:21,053 --> 00:31:27,788
+are misrepresented many times, especially like the
+
+519
+00:31:27,789 --> 00:31:31,680
+gays, the lesbians, and all this.
+
+520
+00:31:31,681 --> 00:31:38,736
+And I think they are just as human as any one of us.
+
+521
+00:31:38,737 --> 00:31:40,198
+I'm not going to make any judgment,
+
+522
+00:31:40,199 --> 00:31:42,106
+and we are not making any judgment.
+
+523
+00:31:42,107 --> 00:31:43,972
+I'm just going to make it simple to say
+
+524
+00:31:43,973 --> 00:31:47,764
+that we are simply drawing out information and data
+
+525
+00:31:47,765 --> 00:31:50,560
+and we are not pinpointing anyone else.
+
+526
+00:31:52,210 --> 00:31:54,282
+I would also like to. Yeah, or Mariatta said.
+
+527
+00:31:54,283 --> 00:31:55,940
+Sorry, go ahead.
+
+528
+00:31:56,470 --> 00:31:58,904
+I guess I just want to mention, I feel
+
+529
+00:31:58,905 --> 00:32:01,928
+encouraged by the story that we have even in
+
+530
+00:32:01,929 --> 00:32:05,320
+the Python and PyCon community, because at one point,
+
+531
+00:32:05,321 --> 00:32:08,472
+if you go to our about page, at one
+
+532
+00:32:08,473 --> 00:32:13,180
+point, the PyCon speakers were like 99% all men.
+
+533
+00:32:13,181 --> 00:32:17,750
+It's just 1% is woman speakers.
+
+534
+00:32:18,410 --> 00:32:20,400
+But it's got better over the years
+
+535
+00:32:20,401 --> 00:32:23,280
+because there are several groups of people
+
+536
+00:32:23,281 --> 00:32:26,336
+who intentionally try to make it better.
+
+537
+00:32:26,337 --> 00:32:28,672
+It starts with identifying, oh,
+
+538
+00:32:28,673 --> 00:32:30,176
+there's not enough women here.
+
+539
+00:32:30,177 --> 00:32:31,908
+What are we going to do about it?
+
+540
+00:32:31,909 --> 00:32:34,938
+And actually doing something, highlighting
+
+541
+00:32:34,939 --> 00:32:36,212
+the importance of it.
+
+542
+00:32:36,213 --> 00:32:39,226
+And over the years, this got improved.
+
+543
+00:32:39,227 --> 00:32:43,652
+And I think this is what we are trying to do here.
+
+544
+00:32:43,653 --> 00:32:46,222
+We want to start by highlighting
+
+545
+00:32:46,223 --> 00:32:48,856
+that there is an issue here.
+
+546
+00:32:48,857 --> 00:32:51,016
+What are we doing, what can we do,
+
+547
+00:32:51,017 --> 00:32:54,136
+and what can you all do? From us,
+
+548
+00:32:54,137 --> 00:32:57,452
+We're trying to just highlight more women and
+
+549
+00:32:57,453 --> 00:33:00,396
+underrepresented group members in the Python community.
+
+550
+00:33:00,397 --> 00:33:03,370
+So maybe there are other ways of
+
+551
+00:33:03,371 --> 00:33:05,052
+what you can do as well.
+
+552
+00:33:05,053 --> 00:33:07,210
+So go ahead, Tereza.
+
+553
+00:33:07,211 --> 00:33:14,102
+Yeah, I just wanted to add that maybe for me personally,
+
+554
+00:33:14,103 --> 00:33:16,080
+I don't really need to focus so much on the why.
+
+555
+00:33:16,081 --> 00:33:18,768
+I mean, there's all sorts of whys, and some of
+
+556
+00:33:18,769 --> 00:33:26,580
+them are not really constructive for moving forward, but rather
+
+557
+00:33:26,581 --> 00:33:30,880
+focus on what can we do to make it better.
+
+558
+00:33:31,490 --> 00:33:37,336
+So I think for conferences, all of us here
+
+559
+00:33:37,337 --> 00:33:41,864
+have organized conferences, different conferences, and then in a
+
+560
+00:33:41,865 --> 00:33:43,672
+lot of places there were quotas, right?
+
+561
+00:33:43,673 --> 00:33:48,568
+I mean, it's like, hey, some conference they said, we
+
+562
+00:33:48,569 --> 00:33:50,444
+want to have this kind of diversity, and then we
+
+563
+00:33:50,445 --> 00:33:52,322
+also want to have this other kind of diversity.
+
+564
+00:33:52,323 --> 00:33:53,388
+And those were like, at the
+
+565
+00:33:53,389 --> 00:33:56,636
+beginning, before speakers were selected, right?
+
+566
+00:33:56,637 --> 00:33:58,600
+So not after.
+
+567
+00:33:59,370 --> 00:34:01,586
+Oh, we found all the men's speakers.
+
+568
+00:34:01,587 --> 00:34:03,558
+We found like ten men's speakers.
+
+569
+00:34:03,559 --> 00:34:04,976
+Now we need to look for women
+
+570
+00:34:04,977 --> 00:34:06,480
+as well or something like that.
+
+571
+00:34:06,481 --> 00:34:08,047
+I've seen that also happening. Right.
+
+572
+00:34:08,048 --> 00:34:12,110
+But that's a little bit like the wrong direction,
+
+573
+00:34:12,111 --> 00:34:14,964
+I think, starting from like, hey, what is the
+
+574
+00:34:14,965 --> 00:34:16,356
+end result that you want to have?
+
+575
+00:34:16,357 --> 00:34:18,532
+And then how do we get there?
+
+576
+00:34:18,533 --> 00:34:21,652
+Or how do we encourage more to come in?
+
+577
+00:34:21,653 --> 00:34:22,420
+Yeah.
+
+578
+00:34:22,421 --> 00:34:26,152
+So we can use this podcast as a platform
+
+579
+00:34:26,153 --> 00:34:29,527
+to highlight that there is an amazing amount of
+
+580
+00:34:29,528 --> 00:34:34,989
+awesome people from all sorts of intersections of diversity
+
+581
+00:34:34,990 --> 00:34:37,266
+in the world that are doing Python.
+
+582
+00:34:37,267 --> 00:34:41,681
+And they have really successful stories and less successful
+
+583
+00:34:41,682 --> 00:34:44,668
+stories, direct or non direct, to get to where
+
+584
+00:34:44,669 --> 00:34:47,320
+they got that they will share with us.
+
+585
+00:34:47,929 --> 00:34:50,368
+And then all these people can then be
+
+586
+00:34:50,369 --> 00:34:52,768
+invited and all the other podcasts because we
+
+587
+00:34:52,769 --> 00:34:54,176
+found them, we are helping out.
+
+588
+00:34:54,177 --> 00:34:54,880
+Exactly.
+
+589
+00:34:54,881 --> 00:34:57,088
+Actually, that is the point.
+
+590
+00:34:57,089 --> 00:35:00,656
+And I think you will see us very
+
+591
+00:35:00,657 --> 00:35:03,882
+soon with all the invited list of speakers.
+
+592
+00:35:03,883 --> 00:35:06,740
+We are really excited and we have already
+
+593
+00:35:06,741 --> 00:35:10,522
+gotten quite a few responses of the speakers
+
+594
+00:35:10,523 --> 00:35:11,642
+that we are going to invite.
+
+595
+00:35:11,643 --> 00:35:16,110
+So stay tuned to our podcats.
+
+596
+00:35:16,630 --> 00:35:17,758
+Meow.
+
+597
+00:35:17,759 --> 00:35:19,352
+So if you want to send us
+
+598
+00:35:19,353 --> 00:35:25,140
+any message, meow@pypodcats.live
+
+599
+00:35:25,930 --> 00:35:29,240
+And that's how you can actually catch us.
+
+600
+00:35:29,850 --> 00:35:32,360
+And maybe if you want to speak on
+
+601
+00:35:32,890 --> 00:35:36,044
+one of our episodes, just write to us.
+
+602
+00:35:36,045 --> 00:35:42,090
+Also, even if this would be your first podcast podcast,
+
+603
+00:35:42,670 --> 00:35:47,792
+this would be a very first time friendly platform.
+
+604
+00:35:47,793 --> 00:35:50,836
+Also, if you're looking for female speaker. Yeah.
+
+605
+00:35:50,837 --> 00:35:52,404
+If you are looking for a
+
+606
+00:35:52,405 --> 00:35:55,390
+female speaker, panelist, keynote speaker.
+
+607
+00:35:56,370 --> 00:35:57,920
+You know where to look.
+
+608
+00:35:58,850 --> 00:36:01,514
+I promise, all of our guests are great. I promise.
+
+609
+00:36:01,515 --> 00:36:04,488
+So, yeah, until today, you could say there are
+
+610
+00:36:04,489 --> 00:36:07,806
+no women speakers out there, no women doing Python.
+
+611
+00:36:07,807 --> 00:36:08,664
+Until today.
+
+612
+00:36:08,665 --> 00:36:15,966
+But from now on, there won't be any more excuses.
+
+613
+00:36:15,967 --> 00:36:18,200
+Yes, I should mention that.
+
+614
+00:36:19,050 --> 00:36:22,732
+I want to mention that we follow the PSF code
+
+615
+00:36:22,733 --> 00:36:29,862
+of conduct in this community in the pypodcats episodes.
+
+616
+00:36:29,863 --> 00:36:34,230
+Basically, the PyPodcats hosts and guests and commenters
+
+617
+00:36:34,231 --> 00:36:37,206
+are bound by the PSF Code of Conduct.
+
+618
+00:36:37,207 --> 00:36:40,394
+And as well as we are actually supported
+
+619
+00:36:40,395 --> 00:36:44,788
+by the PSF, all our episodes will be
+
+620
+00:36:44,789 --> 00:36:47,760
+published on the PSF's YouTube channel.
+
+621
+00:36:48,370 --> 00:36:52,148
+And because of the Code of Conduct, we hope
+
+622
+00:36:52,149 --> 00:36:57,640
+that this encourage more participations from underrepresented group members
+
+623
+00:36:57,641 --> 00:37:00,638
+who might feel that, well, they might get attacked
+
+624
+00:37:00,639 --> 00:37:03,864
+if they appear on Internet and things like that.
+
+625
+00:37:03,865 --> 00:37:07,240
+So we are really something we care about.
+
+626
+00:37:10,970 --> 00:37:11,660
+I think.
+
+627
+00:37:11,661 --> 00:37:15,202
+Thank you Python Software foundation for supporting
+
+628
+00:37:15,203 --> 00:37:19,292
+us, because it doesn't come from zero.
+
+629
+00:37:19,293 --> 00:37:20,828
+We also need some support.
+
+630
+00:37:20,829 --> 00:37:22,076
+All this takes time.
+
+631
+00:37:22,077 --> 00:37:23,080
+All this takes.
+
+632
+00:37:25,690 --> 00:37:26,322
+Yep.
+
+633
+00:37:26,323 --> 00:37:28,012
+Thank you, PSF, for everything.
+
+634
+00:37:28,013 --> 00:37:30,900
+Thank you for your attention and
+
+635
+00:37:30,901 --> 00:37:32,750
+see you in the next podcast.
+
+636
+00:37:33,330 --> 00:37:34,430
+Bye bye.
+
+637
+00:37:35,410 --> 00:37:36,590
+Adios.
+
+638
+00:37:37,170 --> 00:37:37,530
+Bye.
