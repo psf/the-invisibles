@@ -65,10 +65,10 @@
       <itunes:name>{{ .Site.Params.feed.itunes_owner_name }}</itunes:name>
       <itunes:email>{{ .Site.Params.feed.itunes_owner_email }}</itunes:email>
     </itunes:owner>
-    <itunes:image href="{{ .Site.Params.feed.itunes_image }}" />
-    <googleplay:image href="{{ .Site.Params.feed.itunes_image }}"></googleplay:image>
+    <itunes:image href="{{ .Site.Params.feed.itunes_image | absURL }}" />
+    <googleplay:image href="{{ .Site.Params.feed.itunes_image | absURL }}"></googleplay:image>
     <image>
-      <url>{{ .Site.Params.feed.itunes_image }}</url>
+      <url>{{ .Site.Params.feed.itunes_image | absURL }}</url>
       <title>{{ $.Site.Title }}</title>
       <link>{{ .Site.BaseURL }}</link>
     </image>
