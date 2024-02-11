@@ -18,6 +18,7 @@ episode: '0'
 season: 1
 transcript: '/transcript/hidden-figures-of-python-ep0.srt'
 episode_type: full
+layout: episode
 #episode_banner = ""
 #guests = [] # The names of your guests, based on the filename without extension.
 #sponsors = []
@@ -32,8 +33,6 @@ episode_type: full
 #aliases = ["/##"]
 #youtube = ""
 ---
-
-{{<audio src="/audio/hidden-figures-ep0.m4a" caption="Episode 0: Introducing the Hidden Figures of Python Podcast Series" >}}
 
 The PyPodcats team, Cheuk, Georgi, Mariatta, and Tereza, got together and talked about their origin story.
 We discussed the name: "Hidden Figures", what inspired us to start this podcast.
@@ -63,7 +62,7 @@ about the diversity in the Python community.
 
 ## Stay in touch and support the Python Community
 
-
+- Subscribe to our podcast RSS feed: https://pypodcats.live/episodes/index.xml
 - Follow us on Twitter: https://twitter.com/pypodcats
 - Follow us on Mastodon: https://fosstodon.org/@pypodcats
 - Subscribe to The PSF YouTube: https://youtube.com/@thepsf

@@ -11,7 +11,7 @@ name = "About"
 url = "about/"
 weight = 2
 
- [[main]]
+[[main]]
  name = "Episodes"
  url = "episodes/"
  weight = 3
@@ -31,10 +31,10 @@ name = "Our Team"
 url = "hosts/"
 weight = 6
 
-# [[main]]
-# name = "Speakers"
-# url = "speakers/"
-# weight = 4
+ [[main]]
+ name = "Speakers"
+ url = "speakers/"
+ weight = 4
 
 # footer menu
 [[footer]]

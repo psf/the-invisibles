@@ -39,7 +39,7 @@
         {{ $filterBySpeaker := where site.RegularPages "Params.speaker" "==" .Title }}
         {{ range $filterBySpeaker }}
           <div class="md:col-6 lg:col-4 mb-12">
-            {{ partial "components/blog-card" . }}
+            {{ partial "components/episodes-card.html" . }}
           </div>
         {{ end }}
       </div>
