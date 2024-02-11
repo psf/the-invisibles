@@ -36,7 +36,7 @@
       </div>
 
       <div class="row pb-16 pt-14">
-        {{ $filterBySpeaker := where site.RegularPages "Params.speaker" "==" .Title }}
+        {{ $filterBySpeaker := where site.RegularPages "Params.speaker.title" "==" .Title }}
         {{ range $filterBySpeaker }}
           <div class="md:col-6 lg:col-4 mb-12">
             {{ partial "components/episodes-card.html" . }}

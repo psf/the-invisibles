@@ -1,6 +1,5 @@
 ---
 title: Joanna Jablonski
-email: joanna.j.jablonski@gmail.com
 image: "/images/joanna_jablonski.jpg"
 description: "Joanna has written lots of great articles for RealPython, blogged for the Python Language Summit,
 and recently authored a PEP."
