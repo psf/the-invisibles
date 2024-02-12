@@ -60,13 +60,3 @@ about the diversity in the Python community.
 - PyPodcats website: https://pypodcats.live
 - PyCon US: https://us.pycon.org
 
-## Stay in touch and support the Python Community
-
-- Subscribe to our podcast RSS feed: https://pypodcats.live/episodes/index.xml
-- Follow us on Twitter: https://twitter.com/pypodcats
-- Follow us on Mastodon: https://fosstodon.org/@pypodcats
-- Subscribe to The PSF YouTube: https://youtube.com/@thepsf
-- Contact us: meow@pypodcats.live
-
-
-
