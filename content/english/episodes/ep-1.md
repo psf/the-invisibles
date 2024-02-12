@@ -6,7 +6,7 @@ and documentation."
 date: 2024-02-08T00:00:00-08:00
 host: [ "Mariatta", "Tereza"]
 draft: false
-tags: ["python", "documentation", "documentarian", "community", "trailer"]
+tags: ["python", "documentation", "documentarian", "community"]
 publish_date: 2024-02-08T00:00:00-08:00
 podcast_file: "/audio/hidden-figures-ep1.m4a"
 podcast_duration: 1938.366667
