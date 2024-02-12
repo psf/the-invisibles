@@ -13,7 +13,10 @@
           </audio>
             {{ $caption := .Params.title }}
             <figcaption>{{ $caption }}</figcaption>
-      <h5 class="share-title">Listen on: {{ partial "components/podcast-icons"  }}</h5>
+            {{ partial "components/podcast-icons"  }}
+            <a href="{{ .Params.transcript | absURL }}"><img src="{{`/images/transcript_icon.png` | relLangURL}}" alt="Show Transcript" class="podcast-icon"/></a>
+
+      </h5>
 
     </div>
   </div>

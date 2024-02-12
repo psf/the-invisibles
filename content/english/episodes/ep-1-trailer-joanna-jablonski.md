@@ -5,7 +5,7 @@ description: "A preview of our chat with Joanna Jablonski. Watch the full episod
 date: 2024-02-08T01:00:00-08:00
 host: [ "Mariatta", "Tereza"]
 draft: false
-tags: ["python", "documentation", "documentarian", "community"]
+tags: ["python", "documentation", "documentarian", "community", "trailer"]
 publish_date: 2024-02-08T01:00:00-08:00
 podcast_file: "/audio/hidden-figures-ep1-trailer.m4a"
 podcast_duration: 96.166667
@@ -40,9 +40,9 @@ and recently authored a PEP"
 
 ---
 
-Sneak Peek of our chat with Joanna Jablonski.
+Sneak Peek of our chat with Joanna Jablonski, hosted by Mariatta Wijaya and Tereza Iofciu.
 
 Hear about Joanna's journey in the Python community and learn about her contributions to Python through developer education
 and documentation.
 
-Full episode is coming on **February 14, 2024**!
+Full episode is coming on **February 14, 2024**! Subscribe to our podcast now!
