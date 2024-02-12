@@ -13,7 +13,7 @@
     {
       "name": "rss",
       "icon": "fa-solid fa-rss",
-      "link": "https://pypodcats.live/episodes/index.xml"
+      "link": "https://pypodcats.live/index.xml"
     },
     {
       "name": "youtube",
