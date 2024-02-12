@@ -9,7 +9,7 @@ on:
   # Daily publish at 00:00Z for scheduled posts
   schedule:
     - cron: '0 1 * * *'
-  
+
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
@@ -21,7 +21,7 @@ env:
   HUGO_ENV: production
   HUGO_VERSION: "0.118.2"
   GO_VERSION: "1.20.5"
-  NODE_VERSION: "18.15.0"
+  NODE_VERSION: "20.11.0"
   TINA_CLIENT_ID: ${{ vars.TINA_CLIENT_ID }}
   TINA_TOKEN: ${{ vars.TINA_TOKEN }}
 
@@ -62,7 +62,7 @@ jobs:
         run: npm run build
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-artifact@v3
         with:
           path: ./public
 
