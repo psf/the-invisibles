@@ -2,11 +2,11 @@
 title: "Trailer: Episode 1 with Joanna Jablonski"
 meta_title: "Trailer: Episode 1 with Joanna Jablonski"
 description: "A preview of our chat with Joanna Jablonski. Watch the full episode on Feb 14, 2024"
-date: 2024-02-08T01:00:00-08:00
+date: 2024-02-12T00:00:00-08:00
 host: [ "Mariatta", "Tereza"]
 draft: false
 tags: ["python", "documentation", "documentarian", "community", "trailer"]
-publish_date: 2024-02-08T01:00:00-08:00
+publish_date: 2024-02-12T00:00:00-08:00
 podcast_file: "/audio/hidden-figures-ep1-trailer.m4a"
 podcast_duration: 96.166667
 episode_image: "images/ep1-joanna.jpg"
