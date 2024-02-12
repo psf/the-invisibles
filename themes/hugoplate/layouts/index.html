@@ -1,5 +1,6 @@
 {{ define "main" }}
   {{ with site.GetPage "homepage" }}
+
     <!-- Banner -->
     {{ with .Params.banner }}
       <section class="section pt-14">
@@ -29,7 +30,14 @@
       </section>
     {{ end }}
     <!-- /Banner -->
+    <div class="container" style="margin-bottom: 50px;">
+      <div class="col-12">
+        <div class="text-center">
 
+          {{ partial "components/podcast-icons" }}
+        </div>
+      </div>
+    </div>
     <!-- Features -->
     {{ range $i, $e:= .Params.features }}
       <section class="section-sm {{ if (modBool $i 2) }}bg-gradient{{ end }}">

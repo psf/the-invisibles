@@ -18,8 +18,8 @@
     {{ end }}
    {{ if .Params.speaker }}
     <li class="mr-4 inline-block">
-      <a href="{{ `speakers/` | relLangURL }}{{ .Params.Speaker | urlize }}/">
-        <i class="fa-regular fa-microphone mr-2"></i>{{ .Params.speaker }}
+      <a href="{{ `speakers/` | relLangURL }}{{ .Params.Speaker.Title | urlize }}/">
+        <i class="fa-regular fa-microphone mr-2"></i>{{ .Params.speaker.Title }}
       </a>
     </li>
     {{ end }}

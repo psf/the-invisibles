@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="grid grid-container grid-cols-12 justify-center items-center">
+    <div class="col-span-3 m-5">
+      {{ $image:= .Params.episode_image }}
+      <img src="{{ $image | absURL }}" class="w-full rounded">
+
+    </div>
+    <div class="col-span-9 m-5">
+
+        <audio controls preload="metadata" style="width:100%">
+            {{ $audio_src:= .Params.podcast_file }}
+            <source src="{{ $audio_src | absURL }}" type="audio/mpeg">
+          </audio>
+            {{ $caption := .Params.title }}
+            <figcaption>{{ $caption }}</figcaption>
+            {{ partial "components/podcast-icons"  }}
+            <a href="{{ .Params.transcript | absURL }}"><img src="{{`/images/transcript_icon.png` | relLangURL}}" alt="Show Transcript" class="podcast-icon"/></a>
+
+      </h5>
+
+    </div>
+  </div>
+</div>
+
