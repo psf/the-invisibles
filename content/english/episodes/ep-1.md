@@ -3,11 +3,11 @@ title: "Episode 1: with Joanna Jablonski"
 meta_title: "Episode 1 with Joanna Jablonski"
 description: "Hear about Joanna's journey in the Python community and learn about her contributions to Python through developer education
 and documentation."
-date: 2024-02-14T00:00:04+01:00
+date: 2024-02-14T00:00:00-07:00
 host: [ "Mariatta", "Tereza"]
 draft: false
 tags: ["python", "documentation", "documentarian", "community"]
-publish_date: 2024-02-14T00:00:00-08:00
+publish_date: 2024-02-14T00:00:00-07:00
 podcast_file: "/audio/hidden-figures-ep1.mp3"
 podcast_duration: 1938.366667
 episode_image: "images/ep1-joanna.jpg"
