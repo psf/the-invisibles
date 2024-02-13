@@ -38,7 +38,10 @@ and recently authored a PEP"
     - name: linkedin
       icon: fa-brands fa-linkedin
       link: https://www.linkedin.com/in/joanna-jablonski/
-
+    
+    - name: web
+      icon: fa-solid fa-globe
+      link: https://jojab.dev/
 ---
 
 Sneak Peek of our chat with Joanna Jablonski, hosted by Mariatta Wijaya and Tereza Iofciu.

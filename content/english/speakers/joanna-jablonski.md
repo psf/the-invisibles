@@ -15,6 +15,10 @@ social:
   - name: linkedin
     icon: fa-brands fa-linkedin
     link: https://www.linkedin.com/in/joanna-jablonski/
+
+  - name: web
+    icon: fa-solid fa-globe
+    link: https://jojab.dev/
 ---
 
 

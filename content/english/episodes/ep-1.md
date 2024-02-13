@@ -3,7 +3,7 @@ title: "Episode 1: with Joanna Jablonski"
 meta_title: "Episode 1 with Joanna Jablonski"
 description: "Hear about Joanna's journey in the Python community and learn about her contributions to Python through developer education
 and documentation."
-date: 2024-02-12T00:00:00-08:00
+date: 2024-02-14T00:00:04+01:00
 host: [ "Mariatta", "Tereza"]
 draft: false
 tags: ["python", "documentation", "documentarian", "community"]
@@ -40,6 +40,9 @@ and recently authored a PEP"
       icon: fa-brands fa-linkedin
       link: https://www.linkedin.com/in/joanna-jablonski/
 
+    - name: web
+      icon: fa-solid fa-globe
+      link: https://jojab.dev/
 ---
 
 We interviewed Joanna Jablonski to hear about how she got involved in the Python community, and the various contributions
@@ -72,7 +75,4 @@ CPython Internals.
 - Python Language Summit 2021: https://pyfound.blogspot.com/2021/05/the-2021-python-language-summit.html
 - PEP 732: https://peps.python.org/pep-0732/
 - Python Basics: A Practical Introduction to Python 3: https://realpython.com/products/python-basics-book/
-- CPython Internals: Your Guide to the Python 3 Interpreter: https://realpython.com/products/cpython-internals-book/
 - Sally Pointer's YouTube channel: https://www.youtube.com/c/sallypointer
-
-
