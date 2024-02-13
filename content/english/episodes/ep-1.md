@@ -20,6 +20,7 @@ season: 1
 transcript: '/transcript/hidden-figures-of-python-ep1.vtt'
 episode_type: full
 layout: episode
+youtube_id: '25LbKKTL38g'
 
 speaker:
   title: "Joanna Jablonski"
