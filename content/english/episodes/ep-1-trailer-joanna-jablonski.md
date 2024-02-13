@@ -7,7 +7,7 @@ host: [ "Mariatta", "Tereza"]
 draft: false
 tags: ["python", "documentation", "documentarian", "community", "trailer"]
 publish_date: 2024-02-12T00:00:00-08:00
-podcast_file: "/audio/hidden-figures-ep1-trailer.m4a"
+podcast_file: "/audio/hidden-figures-ep1-trailer.mp3"
 podcast_duration: 96.166667
 episode_image: "images/ep1-joanna.jpg"
 podcast_bytes: "13995409" # the length of the episode in bytes
