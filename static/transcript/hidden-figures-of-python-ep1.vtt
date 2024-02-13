@@ -1,0 +1,2845 @@
+WEBVTT
+
+1
+00:00:21.210 --> 00:00:22.308
+Hi, everybody.
+
+2
+00:00:22.308 --> 00:00:26.626
+Welcome to PyPodcats: The Hidden Figure of Python Podcast
+
+3
+00:00:26.626 --> 00:00:30.412
+series, which is done by the PyPodcats team.
+
+4
+00:00:30.412 --> 00:00:32.689
+And the goal of this podcast series
+
+5
+00:00:32.689 --> 00:00:36.082
+is to highlight the voices from underrepresented
+
+6
+00:00:36.082 --> 00:00:38.280
+group members of the Python community.
+
+7
+00:00:38.970 --> 00:00:41.148
+And you can find us on the website.
+
+8
+00:00:41.148 --> 00:00:45.474
+Our website is pypodcats.live, and our episodes
+
+9
+00:00:45.474 --> 00:00:48.972
+are listed on the PSF YouTube channel.
+
+10
+00:00:48.972 --> 00:00:50.452
+And also you can hear it
+
+11
+00:00:50.452 --> 00:00:53.570
+from Apple Podcast and Spotify.
+
+12
+00:00:53.570 --> 00:00:57.700
+And we do have a Code of Conduct within our
+
+13
+00:00:57.700 --> 00:01:01.802
+community, and we follow the PSF's Code of Conduct.
+
+14
+00:01:01.802 --> 00:01:02.356
+Yeah, I guess.
+
+15
+00:01:02.356 --> 00:01:04.670
+Let's start introducing ourselves.
+
+16
+00:01:06.050 --> 00:01:07.162
+My name is Mariatta.
+
+17
+00:01:07.162 --> 00:01:09.374
+I'm one of the hosts for PyPodcats.
+
+18
+00:01:09.374 --> 00:01:12.632
+I'm based in Vancouver, Canada, and
+
+19
+00:01:12.632 --> 00:01:14.950
+I'll give it to you, Tereza.
+
+20
+00:01:14.950 --> 00:01:15.998
+My name is Tereza.
+
+21
+00:01:15.998 --> 00:01:17.022
+Thank you, Mariatta.
+
+22
+00:01:17.022 --> 00:01:19.202
+I am also one of the PyPodcats
+
+23
+00:01:19.202 --> 00:01:22.514
+hosts, and I'm based in Hamburg, Germany.
+
+24
+00:01:22.514 --> 00:01:23.682
+And Joanna.
+
+25
+00:01:23.682 --> 00:01:27.228
+All right, I'm Joanna Jablonski, and I've been
+
+26
+00:01:27.228 --> 00:01:29.308
+involved in the Python community since, I think,
+
+27
+00:01:29.308 --> 00:01:32.810
+2016, and I'm also based in Vancouver, Canada.
+
+28
+00:01:34.270 --> 00:01:36.672
+Joanna, so we know you've been
+
+29
+00:01:36.672 --> 00:01:38.496
+very active in the Python world.
+
+30
+00:01:38.496 --> 00:01:40.608
+So would you like to tell us a little bit, like,
+
+31
+00:01:40.608 --> 00:01:45.546
+how did you get into it, and maybe also, why Python?
+
+32
+00:01:45.546 --> 00:01:46.468
+Yeah, sure.
+
+33
+00:01:46.468 --> 00:01:49.738
+I actually had some friends over for dinner.
+
+34
+00:01:49.738 --> 00:01:51.508
+I think one of them was a data analyst at the
+
+35
+00:01:51.508 --> 00:01:54.942
+time, and I had been starting to play around with programming
+
+36
+00:01:54.942 --> 00:01:58.616
+again, and he just happened to be really into Python just
+
+37
+00:01:58.616 --> 00:02:01.672
+the way that some people are very very into it.
+
+38
+00:02:01.672 --> 00:02:05.016
+He wanted me to try it out, and then I did.
+
+39
+00:02:05.016 --> 00:02:07.042
+I think I took, like, a couple courses.
+
+40
+00:02:07.042 --> 00:02:09.836
+I still felt very new, but I went
+
+41
+00:02:09.836 --> 00:02:12.730
+to a PyLadies event in Vancouver.
+
+42
+00:02:12.730 --> 00:02:15.388
+The vibe was completely different from any
+
+43
+00:02:15.388 --> 00:02:17.644
+other programming meetup I'd ever been to.
+
+44
+00:02:17.644 --> 00:02:18.908
+I did not feel like I was
+
+45
+00:02:18.908 --> 00:02:21.388
+being tested or anything like that.
+
+46
+00:02:21.388 --> 00:02:24.528
+And I, even though I felt very new, people were
+
+47
+00:02:24.528 --> 00:02:26.278
+just saying, like, yeah, just make a five minute
+
+48
+00:02:26.278 --> 00:02:28.432
+talk about whatever you're learning and come back.
+
+49
+00:02:28.432 --> 00:02:31.412
+I'm like, what is this strange place I have landed in?
+
+50
+00:02:31.412 --> 00:02:37.348
+But it was really nice, and I feel like I
+
+51
+00:02:37.348 --> 00:02:40.490
+got involved with it because it was there, because Python
+
+52
+00:02:40.490 --> 00:02:42.756
+has a community in a way that you can't really
+
+53
+00:02:42.756 --> 00:02:45.570
+necessarily say to the same extent about other languages.
+
+54
+00:02:46.470 --> 00:02:50.088
+And, yeah, that's kind of the
+
+55
+00:02:50.088 --> 00:02:51.822
+background for how I got involved.
+
+56
+00:02:51.822 --> 00:02:53.768
+And then since then, got a ton of
+
+57
+00:02:53.768 --> 00:02:57.646
+stuff, because I met someone through PyLadies
+
+58
+00:02:57.646 --> 00:03:00.684
+He knew someone who knew somebody, and that played a
+
+59
+00:03:00.684 --> 00:03:03.762
+part in how I started working at Real Python.
+
+60
+00:03:03.762 --> 00:03:05.836
+So I was there for three and a half years.
+
+61
+00:03:05.836 --> 00:03:07.916
+I ran the curriculum, and
+
+62
+00:03:07.916 --> 00:03:10.988
+actually, for the application process.
+
+63
+00:03:10.988 --> 00:03:13.110
+I wrote an article about F-strings,
+
+64
+00:03:13.110 --> 00:03:14.854
+and I had happened to see Mariatta.
+
+65
+00:03:14.854 --> 00:03:16.982
+You gave a talk on F-strings at PyLadies,
+
+66
+00:03:16.982 --> 00:03:19.542
+and I saw that same talk again at PyCascades.
+
+67
+00:03:19.542 --> 00:03:22.900
+And so it was a lovely sort of circular thing.
+
+68
+00:03:22.900 --> 00:03:24.708
+And I've spent most of my time in the
+
+69
+00:03:24.708 --> 00:03:29.630
+Python community on some kind of education angles.
+
+70
+00:03:30.530 --> 00:03:33.720
+I wanted to ask, basically, how do you feel? Like.
+
+71
+00:03:33.720 --> 00:03:35.982
+So you said this, you were in the Python
+
+72
+00:03:35.982 --> 00:03:41.278
+community, and it sounds a little bit like opportunities
+
+73
+00:03:41.278 --> 00:03:45.032
+came because you were in the Python community, and
+
+74
+00:03:45.032 --> 00:03:47.244
+more opportunities to be in the Python community.
+
+75
+00:03:47.244 --> 00:03:50.588
+But then my question is, did you have
+
+76
+00:03:50.588 --> 00:03:53.800
+career related opportunities coming up from your.
+
+77
+00:03:54.890 --> 00:03:57.628
+What impact did your work in the Python community
+
+78
+00:03:57.628 --> 00:04:03.408
+have to say work life, if it had any?
+
+79
+00:04:03.408 --> 00:04:07.424
+Well, I feel companies sometimes care if you're involved in
+
+80
+00:04:07.424 --> 00:04:10.060
+open source, so that can be a tick for them.
+
+81
+00:04:10.990 --> 00:04:12.948
+Being involved in the Python community was part
+
+82
+00:04:12.948 --> 00:04:15.210
+of how I got involved with Real Python,
+
+83
+00:04:15.210 --> 00:04:18.474
+but I wouldn't say it's necessary.
+
+84
+00:04:18.474 --> 00:04:21.620
+I mean, being involved in Python education definitely helped me
+
+85
+00:04:21.620 --> 00:04:25.944
+work in education at Anaconda, but it has also kind
+
+86
+00:04:25.944 --> 00:04:28.504
+of felt like two separate tracks for me.
+
+87
+00:04:28.504 --> 00:04:31.438
+And while I've had my career going, I'm
+
+88
+00:04:31.438 --> 00:04:33.598
+also kind of keeping this Python world spinning
+
+89
+00:04:33.598 --> 00:04:36.792
+on the side, at least since I left
+
+90
+00:04:36.792 --> 00:04:39.420
+Real Python, because then the two were together.
+
+91
+00:04:39.420 --> 00:04:39.900
+Yeah.
+
+92
+00:04:39.900 --> 00:04:43.052
+And I'm also more like about if there are
+
+93
+00:04:43.052 --> 00:04:45.388
+skills that you kind of honed in the community
+
+94
+00:04:45.388 --> 00:04:47.596
+and then brought back into your work life.
+
+95
+00:04:47.596 --> 00:04:49.964
+Well, I feel like I see other people who
+
+96
+00:04:49.964 --> 00:04:52.540
+are really front and center in the community.
+
+97
+00:04:53.390 --> 00:04:56.208
+For example, you two, Georgi, those types of people.
+
+98
+00:04:56.208 --> 00:04:58.848
+And I always feel like I have been hidden, in
+
+99
+00:04:58.848 --> 00:05:01.728
+a sense, where maybe people have seen the name or
+
+100
+00:05:01.728 --> 00:05:04.148
+the photo, or whenever I end up in some kind
+
+101
+00:05:04.148 --> 00:05:07.172
+of tech space, as soon as they hear the world
+
+102
+00:05:07.172 --> 00:05:09.530
+Real Python, they're like the whole, everything stops.
+
+103
+00:05:09.530 --> 00:05:12.474
+But I feel like a lot of people don't necessarily.
+
+104
+00:05:12.474 --> 00:05:13.844
+I don't personally have a lot
+
+105
+00:05:13.844 --> 00:05:16.052
+of visibility in the same way. I mean, I used to.
+
+106
+00:05:16.052 --> 00:05:18.430
+I think people used to recognize me at conferences.
+
+107
+00:05:18.430 --> 00:05:20.328
+That would happen, and that was fun.
+
+108
+00:05:20.328 --> 00:05:20.808
+I think.
+
+109
+00:05:20.808 --> 00:05:22.808
+We didn't get to hear about what you
+
+110
+00:05:22.808 --> 00:05:26.230
+did at Real Python, maybe because of the.
+
+111
+00:05:26.230 --> 00:05:29.660
+Would you like to tell us more about your work in
+
+112
+00:05:29.660 --> 00:05:33.244
+Real Python for those who are not familiar with that yet?
+
+113
+00:05:33.244 --> 00:05:33.596
+Yes.
+
+114
+00:05:33.596 --> 00:05:36.802
+So the title is tricky: Executive Editor.
+
+115
+00:05:36.802 --> 00:05:38.396
+No one knows what that means.
+
+116
+00:05:38.396 --> 00:05:40.010
+That sounds big.
+
+117
+00:05:40.010 --> 00:05:40.796
+Yeah.
+
+118
+00:05:40.796 --> 00:05:43.324
+It either sounds very big or very small.
+
+119
+00:05:43.324 --> 00:05:45.334
+Sometimes people see the word editor and they're
+
+120
+00:05:45.334 --> 00:05:46.688
+like, oh, this is the lady that does
+
+121
+00:05:46.688 --> 00:05:48.166
+the spell check on my tutorial.
+
+122
+00:05:48.166 --> 00:05:50.170
+And I'm like, no, I run the curriculum.
+
+123
+00:05:50.830 --> 00:05:52.868
+So that was interesting.
+
+124
+00:05:52.868 --> 00:05:54.356
+I came in really early.
+
+125
+00:05:54.356 --> 00:05:55.860
+That was exciting to me.
+
+126
+00:05:55.860 --> 00:05:58.154
+I was technically the first employee.
+
+127
+00:05:58.154 --> 00:06:01.578
+And I find that in general, for educational
+
+128
+00:06:01.578 --> 00:06:03.332
+content having to do with programming, the bar
+
+129
+00:06:03.332 --> 00:06:07.336
+is incredibly low, both in terms of sometimes
+
+130
+00:06:07.336 --> 00:06:09.320
+even just like, is it factually correct?
+
+131
+00:06:09.320 --> 00:06:11.144
+Are you teaching the right thing to
+
+132
+00:06:11.144 --> 00:06:13.080
+the right person at the right time?
+
+133
+00:06:13.080 --> 00:06:14.968
+Are you presenting the information in
+
+134
+00:06:14.968 --> 00:06:16.030
+a way that is helpful?
+
+135
+00:06:16.030 --> 00:06:18.652
+And so I like that I got to come in
+
+136
+00:06:18.652 --> 00:06:21.202
+as someone who didn't have a pure programming background.
+
+137
+00:06:21.202 --> 00:06:22.812
+It's like, no, we can do better.
+
+138
+00:06:22.812 --> 00:06:27.570
+And so creating systems and style guides and didactic reviews,
+
+139
+00:06:27.570 --> 00:06:30.640
+a lot of process to make sure that the stuff
+
+140
+00:06:30.640 --> 00:06:34.726
+is good in ways that aren't necessarily, I think, prioritized
+
+141
+00:06:34.726 --> 00:06:37.382
+in some other technical content creation spaces.
+
+142
+00:06:37.382 --> 00:06:40.432
+And there's a lot of reasons why it's not that really
+
+143
+00:06:40.432 --> 00:06:43.232
+make sense, but I like that I could come in and
+
+144
+00:06:43.232 --> 00:06:46.612
+just say like, no, we're going to do this, and some
+
+145
+00:06:46.612 --> 00:06:48.628
+of you will want to learn how to do this, and
+
+146
+00:06:48.628 --> 00:06:50.564
+I will invest more in you and that'll be awesome.
+
+147
+00:06:50.564 --> 00:06:53.588
+Those people, then they could become full time.
+
+148
+00:06:53.588 --> 00:06:55.828
+And it's a lovely little place where
+
+149
+00:06:55.828 --> 00:06:57.848
+people get to just teach and write.
+
+150
+00:06:57.848 --> 00:06:58.980
+It's really cool.
+
+151
+00:06:59.510 --> 00:07:01.640
+It's an interesting sort of world in itself.
+
+152
+00:07:01.640 --> 00:07:03.288
+And there's the community around it, and
+
+153
+00:07:03.288 --> 00:07:05.134
+there'll be Open Spaces at PyCon.
+
+154
+00:07:05.134 --> 00:07:08.940
+And we had our subscriber community and Slack and office
+
+155
+00:07:08.940 --> 00:07:11.996
+hours, and it really grew while I was there.
+
+156
+00:07:11.996 --> 00:07:14.412
+When I joined, we were putting out,
+
+157
+00:07:14.412 --> 00:07:17.452
+I think, one technical tutorial a week.
+
+158
+00:07:17.452 --> 00:07:18.988
+And by the time I left, we were putting
+
+159
+00:07:18.988 --> 00:07:22.496
+out two fairly lengthy, often tutorials a week, which
+
+160
+00:07:22.496 --> 00:07:24.934
+people in the community started calling book-icles.
+
+161
+00:07:24.934 --> 00:07:28.704
+Anthony Shaw's article on CPython's interpreter, I
+
+162
+00:07:28.704 --> 00:07:30.720
+think was something like 24,000 words.
+
+163
+00:07:31.730 --> 00:07:33.150
+It's bananas.
+
+164
+00:07:34.450 --> 00:07:35.732
+And it's not fluff, right?
+
+165
+00:07:35.732 --> 00:07:37.924
+Like it's really juicy stuff.
+
+166
+00:07:37.924 --> 00:07:40.292
+Because through the review process, we're making sure
+
+167
+00:07:40.292 --> 00:07:43.028
+that it's not just fluff for no reason.
+
+168
+00:07:43.028 --> 00:07:45.652
+And the writing is tight and you're saying the right
+
+169
+00:07:45.652 --> 00:07:47.096
+thing to the right person at the right time.
+
+170
+00:07:47.096 --> 00:07:48.472
+By the time I left, we were putting out
+
+171
+00:07:48.472 --> 00:07:52.408
+two hefty, really good written tutorials a week, a
+
+172
+00:07:52.408 --> 00:07:55.182
+video course, a newsletter, office hours, and a podcast.
+
+173
+00:07:55.182 --> 00:07:58.690
+So in those three and a half years, it just exploded.
+
+174
+00:07:58.690 --> 00:08:00.070
+And book projects.
+
+175
+00:08:00.890 --> 00:08:05.340
+So I co-authored Python Basics with David Amos, and
+
+176
+00:08:05.340 --> 00:08:08.668
+I was also the primary viewer, helping Anthony Shaw write
+
+177
+00:08:08.668 --> 00:08:11.328
+his book on CPython internals, which sort of started as
+
+178
+00:08:11.328 --> 00:08:14.144
+an article, and then we turned it into a proper,
+
+179
+00:08:14.144 --> 00:08:18.198
+like a "book" book, and that it was the missing manual.
+
+180
+00:08:18.198 --> 00:08:20.640
+That was a very cool thing to work on,
+
+181
+00:08:20.640 --> 00:08:24.710
+especially since in my background, I've kind of flip
+
+182
+00:08:24.710 --> 00:08:27.444
+flopped between STEM stuff and natural language stuff.
+
+183
+00:08:27.444 --> 00:08:30.036
+And I like finding the overlap between the two.
+
+184
+00:08:30.036 --> 00:08:32.068
+And I find that in tech there is a
+
+185
+00:08:32.068 --> 00:08:34.532
+special niche for people who really want to be
+
+186
+00:08:34.532 --> 00:08:36.472
+on that weird overlap, which I can get to
+
+187
+00:08:36.472 --> 00:08:40.078
+later, but I found overlaps with stuff like interpreters,
+
+188
+00:08:40.078 --> 00:08:43.288
+where this is a language and you're not just
+
+189
+00:08:43.288 --> 00:08:45.406
+using the language, you're designing and building a language.
+
+190
+00:08:45.406 --> 00:08:46.104
+That's cool.
+
+191
+00:08:46.104 --> 00:08:50.338
+I also dabbled with NLP, and one sort of fun achievement
+
+192
+00:08:50.338 --> 00:08:53.068
+on that end is that if you Google NLP Python, the
+
+193
+00:08:53.068 --> 00:08:57.000
+first result is a tutorial by me, which know is very fun
+
+194
+00:08:57.610 --> 00:09:00.848
+Yeah, I used NLTK for it.
+
+195
+00:09:00.848 --> 00:09:02.032
+This is like a bit
+
+196
+00:09:02.032 --> 00:09:05.408
+The landscape has changed, but it was pretty cool.
+
+197
+00:09:05.408 --> 00:09:11.766
+And also another very satisfying overlap between programming languages
+
+198
+00:09:11.766 --> 00:09:14.628
+and natural languages is the education side, which is
+
+199
+00:09:14.628 --> 00:09:16.548
+why I've found a place here like sort of
+
+200
+00:09:16.548 --> 00:09:19.860
+docs and education, and there's sort of different companies
+
+201
+00:09:19.860 --> 00:09:23.086
+will call it different things, but it's that overlap
+
+202
+00:09:23.086 --> 00:09:27.358
+between code words and people, and managing to simultaneously
+
+203
+00:09:27.358 --> 00:09:31.080
+have technical depth but have the other skills that
+
+204
+00:09:31.080 --> 00:09:34.648
+make it usable and useful both for yourself and others.
+
+205
+00:09:34.648 --> 00:09:37.388
+And that's interesting. Yeah.
+
+206
+00:09:37.388 --> 00:09:39.788
+So, actually I wanted to ask you, when you
+
+207
+00:09:39.788 --> 00:09:43.036
+were saying, you mentioned that you didn't just study
+
+208
+00:09:43.036 --> 00:09:47.042
+STEM and you come from a different background.
+
+209
+00:09:47.042 --> 00:09:49.772
+So I think both Mariatta and I are coming from
+
+210
+00:09:49.772 --> 00:09:52.208
+a computer science background, and we've seen a lot of
+
+211
+00:09:52.208 --> 00:09:55.366
+people in tech coming just from computer science.
+
+212
+00:09:55.366 --> 00:09:58.128
+And I personally always like teams that are not
+
+213
+00:09:58.128 --> 00:10:00.352
+just computer scientists in data science, at least.
+
+214
+00:10:00.352 --> 00:10:02.932
+So can you tell us a little bit about, or tell
+
+215
+00:10:02.932 --> 00:10:06.506
+the audience a little bit about your life before Python?
+
+216
+00:10:06.506 --> 00:10:10.548
+So my education was fairly focused on STEM for a while.
+
+217
+00:10:10.548 --> 00:10:12.388
+So even though I'm in Canada, I
+
+218
+00:10:12.388 --> 00:10:14.916
+went through the French school system, so
+
+219
+00:10:14.916 --> 00:10:16.884
+they have you specialize fairly early.
+
+220
+00:10:16.884 --> 00:10:18.968
+And I went through the science stream, where
+
+221
+00:10:18.968 --> 00:10:20.520
+it's just all science all the time.
+
+222
+00:10:20.520 --> 00:10:22.712
+You're not even taking French classes by the end.
+
+223
+00:10:22.712 --> 00:10:25.400
+You're just super zeroed in, focused on
+
+224
+00:10:25.400 --> 00:10:28.450
+math, chemistry, physics, biology, geology, et cetera.
+
+225
+00:10:28.450 --> 00:10:32.834
+And that ended up being kind of, I don't
+
+226
+00:10:32.834 --> 00:10:35.858
+want to say unbalanced, but like, literally technically unbalanced,
+
+227
+00:10:35.858 --> 00:10:37.586
+because it was very far in one direction.
+
+228
+00:10:37.586 --> 00:10:41.152
+And then I ended up sort of correcting into getting
+
+229
+00:10:41.152 --> 00:10:45.968
+a degree in translation, which is incredibly puzzle based.
+
+230
+00:10:45.968 --> 00:10:49.008
+So it was giving me a similar experience, but in a
+
+231
+00:10:49.008 --> 00:10:51.158
+different space that was like a bit of a palate cleanser.
+
+232
+00:10:51.158 --> 00:10:52.784
+And so I feel like I've zigzagged a
+
+233
+00:10:52.784 --> 00:10:55.354
+bit where I was hardcore on STEM.
+
+234
+00:10:55.354 --> 00:10:58.266
+Then I went into translation and got a degree.
+
+235
+00:10:58.266 --> 00:10:59.690
+It's technically an Arts degree.
+
+236
+00:10:59.690 --> 00:11:02.228
+Then I was programming for fun, and then I sort
+
+237
+00:11:02.228 --> 00:11:06.202
+of, like the slalom, reduced into finding a middle spot
+
+238
+00:11:06.202 --> 00:11:09.400
+between the two, which happened to be useful for tech
+
+239
+00:11:09.400 --> 00:11:12.568
+because there are a lot of specialists and there need
+
+240
+00:11:12.568 --> 00:11:14.968
+to be people who can kind of bridge gaps, I
+
+241
+00:11:14.968 --> 00:11:17.058
+find, between the different specializations.
+
+242
+00:11:17.058 --> 00:11:20.470
+I think we definitely need lots of different skills.
+
+243
+00:11:21.290 --> 00:11:24.280
+Everybody contribute in their own way.
+
+244
+00:11:24.810 --> 00:11:28.730
+Having all these different skills makes us all better.
+
+245
+00:11:28.730 --> 00:11:31.472
+And I think I just want to add, like, I really
+
+246
+00:11:31.472 --> 00:11:35.366
+admire what you did or what you did for Real Python.
+
+247
+00:11:35.366 --> 00:11:40.030
+I know that even now, sometimes in a lot of communities,
+
+248
+00:11:40.030 --> 00:11:44.624
+sometimes even in the PyLadies Slack, somebody would be asking questions
+
+249
+00:11:44.624 --> 00:11:47.604
+like, how do I do X, how do I do Y?
+
+250
+00:11:47.604 --> 00:11:49.412
+And then a lot of time I see the
+
+251
+00:11:49.412 --> 00:11:52.090
+answer is that, oh, here's the Real Python article
+
+252
+00:11:52.090 --> 00:11:54.500
+about it that's being referred to a lot.
+
+253
+00:11:54.500 --> 00:11:56.906
+So I think it's really impressive.
+
+254
+00:11:56.906 --> 00:11:58.424
+Thank you for your work on that.
+
+255
+00:11:58.424 --> 00:12:00.152
+It's really fun to hear. Yeah.
+
+256
+00:12:00.152 --> 00:12:01.640
+And just the fact that it was.
+
+257
+00:12:01.640 --> 00:12:04.376
+I mean, it has to support itself and it does.
+
+258
+00:12:04.376 --> 00:12:06.376
+The fact that a lot of that stuff is
+
+259
+00:12:06.376 --> 00:12:09.560
+free, that has to be helping people as well.
+
+260
+00:12:09.560 --> 00:12:12.572
+I similarly was self taught, and so, yeah, I paid
+
+261
+00:12:12.572 --> 00:12:14.956
+for some courses, but a lot of it was just
+
+262
+00:12:14.956 --> 00:12:17.132
+like, well, things are on the Internet, I'll go learn.
+
+263
+00:12:17.132 --> 00:12:19.660
+And so it felt like a neat sort of
+
+264
+00:12:19.660 --> 00:12:22.178
+circular, like, oh, I learned from the Internet.
+
+265
+00:12:22.178 --> 00:12:23.728
+I'm now providing to the Internet, and
+
+266
+00:12:23.728 --> 00:12:24.912
+other people will learn as well.
+
+267
+00:12:24.912 --> 00:12:25.600
+Yeah.
+
+268
+00:12:25.600 --> 00:12:28.352
+Maybe you would like to tell us more about what else
+
+269
+00:12:28.352 --> 00:12:32.510
+you do in the Python community other than Real Python.
+
+270
+00:12:33.170 --> 00:12:36.148
+I worked in education, Anaconda for a while.
+
+271
+00:12:36.148 --> 00:12:39.440
+I think I mentioned the two book projects already.
+
+272
+00:12:39.970 --> 00:12:41.956
+One very cool thing that I did
+
+273
+00:12:41.956 --> 00:12:45.460
+was cover the Language Summit for 2021.
+
+274
+00:12:47.590 --> 00:12:50.216
+It felt like an honor, and it also felt like,
+
+275
+00:12:50.216 --> 00:12:52.702
+kind of like a lovely mesh of those two sides.
+
+276
+00:12:52.702 --> 00:12:55.468
+I found where I could make it like a
+
+277
+00:12:55.468 --> 00:13:00.748
+proper journalism tutorially really polished article, but also have
+
+278
+00:13:00.748 --> 00:13:05.530
+it reflect something that's actually useful and correct.
+
+279
+00:13:05.530 --> 00:13:06.652
+And that was very cool.
+
+280
+00:13:06.652 --> 00:13:09.484
+But also, it was an honor to be a fly on the wall.
+
+281
+00:13:09.484 --> 00:13:13.792
+Not many people go to that, and I got to basically be
+
+282
+00:13:13.792 --> 00:13:16.448
+a door for the whole rest of the community onto that.
+
+283
+00:13:16.448 --> 00:13:19.104
+And I took it very seriously, and I really wanted to
+
+284
+00:13:19.104 --> 00:13:21.364
+make sure the articles were good, and I got lots of
+
+285
+00:13:21.364 --> 00:13:24.724
+good feedback and, yeah, I really enjoyed doing that.
+
+286
+00:13:24.724 --> 00:13:25.204
+Yeah.
+
+287
+00:13:25.204 --> 00:13:28.852
+For those who don't know the Python Language Summit is
+
+288
+00:13:28.852 --> 00:13:32.756
+an event at PyCon US that is usually attended only
+
+289
+00:13:32.756 --> 00:13:38.014
+by 50 or so people, by mostly Python core developers.
+
+290
+00:13:38.014 --> 00:13:41.838
+And so basically, the people who have a lot of influence,
+
+291
+00:13:41.838 --> 00:13:45.432
+I would say, to how the Python language is like, and
+
+292
+00:13:45.432 --> 00:13:48.460
+because of this meeting, is not open to public.
+
+293
+00:13:48.460 --> 00:13:51.836
+Having an article, having blog post is how
+
+294
+00:13:51.836 --> 00:13:54.348
+the rest of the Python community can learn
+
+295
+00:13:54.348 --> 00:13:56.508
+of what was discussed in the community.
+
+296
+00:13:56.508 --> 00:13:57.852
+So it's really important.
+
+297
+00:13:57.852 --> 00:14:01.372
+It's the only way we get to share what
+
+298
+00:14:01.372 --> 00:14:04.050
+happened at the Language Summit without all the core
+
+299
+00:14:04.050 --> 00:14:06.102
+developers having to write their own notes.
+
+300
+00:14:06.102 --> 00:14:07.568
+So it's really important.
+
+301
+00:14:07.568 --> 00:14:09.900
+So thank you for your help on that.
+
+302
+00:14:10.750 --> 00:14:13.024
+And there was another cool thing that happened at
+
+303
+00:14:13.024 --> 00:14:16.692
+the Language Summit, was the previous year, I had
+
+304
+00:14:16.692 --> 00:14:19.092
+read the articles, and I'd seen that there was
+
+305
+00:14:19.092 --> 00:14:21.818
+talk of creating the Editorial Board for Python's docs.
+
+306
+00:14:21.818 --> 00:14:24.212
+And then in the year that I covered it, I think.
+
+307
+00:14:24.212 --> 00:14:26.248
+Mariatta, did you and Carol present, both
+
+308
+00:14:26.248 --> 00:14:27.810
+of you together on the topic?
+
+309
+00:14:28.390 --> 00:14:30.072
+I think the three of us.
+
+310
+00:14:30.072 --> 00:14:33.784
+I don't remember. Me, Carol and Ned Batchelder, we all
+
+311
+00:14:33.784 --> 00:14:36.790
+three of us wanted to have this.
+
+312
+00:14:36.790 --> 00:14:41.196
+And so I had read about it before, but finally
+
+313
+00:14:41.196 --> 00:14:43.116
+I was in the room where people were actually talking
+
+314
+00:14:43.116 --> 00:14:45.228
+about it, and so I basically grabbed Carol, was like,
+
+315
+00:14:45.228 --> 00:14:46.840
+I have to be on this, please.
+
+316
+00:14:47.850 --> 00:14:51.200
+It sounded very much right up my alley, especially since
+
+317
+00:14:51.200 --> 00:14:55.408
+the goals of the Editorial Board were sort of more.
+
+318
+00:14:55.408 --> 00:14:58.512
+Where it was less about, well, like, we'll fix
+
+319
+00:14:58.512 --> 00:15:00.368
+some typos, we'll see about this or this.
+
+320
+00:15:00.368 --> 00:15:01.088
+It was more like, how do
+
+321
+00:15:01.088 --> 00:15:02.262
+we make this better for learners?
+
+322
+00:15:02.262 --> 00:15:04.064
+Because people who are using Python now are
+
+323
+00:15:04.064 --> 00:15:06.058
+completely different from people who were using Python,
+
+324
+00:15:06.058 --> 00:15:08.932
+like, ages ago, since now it's people's first
+
+325
+00:15:08.932 --> 00:15:10.932
+language, just basically as a matter of course,
+
+326
+00:15:10.932 --> 00:15:12.468
+as part of their standard education.
+
+327
+00:15:12.468 --> 00:15:16.152
+And so I started working with
+
+328
+00:15:16.152 --> 00:15:18.760
+Carol on that fairly slowly then.
+
+329
+00:15:18.760 --> 00:15:20.872
+And then just recently, we published the
+
+330
+00:15:20.872 --> 00:15:23.662
+PEP, and now we're really getting rolling.
+
+331
+00:15:23.662 --> 00:15:25.598
+So I'd say the main thing I'm
+
+332
+00:15:25.598 --> 00:15:27.452
+doing in the Python Community now is
+
+333
+00:15:27.452 --> 00:15:30.650
+going to be Editorial Board stuff, actually.
+
+334
+00:15:30.650 --> 00:15:33.266
+Can you explain a little bit more about the PEP?
+
+335
+00:15:33.266 --> 00:15:36.316
+PEP 732, if I got the number right?
+
+336
+00:15:36.316 --> 00:15:36.444
+Yeah.
+
+337
+00:15:36.444 --> 00:15:39.232
+And that is an Editorial Board for those of us.
+
+338
+00:15:39.232 --> 00:15:41.536
+I think most of us don't actually know it yet.
+
+339
+00:15:41.536 --> 00:15:42.720
+Yeah, that's fair.
+
+340
+00:15:42.720 --> 00:15:43.900
+I'll let me explain.
+
+341
+00:15:44.510 --> 00:15:45.500
+Fair enough.
+
+342
+00:15:48.510 --> 00:15:50.720
+PEP 732. It's super short.
+
+343
+00:15:50.720 --> 00:15:52.112
+If anyone wants to go check
+
+344
+00:15:52.112 --> 00:15:54.612
+it out, just search PEP 732.
+
+345
+00:15:54.612 --> 00:15:59.268
+So PEP 732 outlines the basic purpose of the
+
+346
+00:15:59.268 --> 00:16:02.052
+Editorial board, what it is, what it isn't, and
+
+347
+00:16:02.052 --> 00:16:04.602
+how it relates to other parts of the Python
+
+348
+00:16:04.602 --> 00:16:07.678
+world, because there are other people working on docs.
+
+349
+00:16:07.678 --> 00:16:10.792
+And the difference between the Editorial Board and other
+
+350
+00:16:10.792 --> 00:16:13.176
+people working on docs is that the Editorial Board
+
+351
+00:16:13.176 --> 00:16:15.096
+is going to deal with more big picture stuff,
+
+352
+00:16:15.096 --> 00:16:20.252
+strategy and creating systems for people who are going
+
+353
+00:16:20.252 --> 00:16:22.748
+to be contributing, basically to make it easier to
+
+354
+00:16:22.748 --> 00:16:25.516
+contribute and to make it easier to learn
+
+355
+00:16:25.516 --> 00:16:26.594
+Python.
+
+356
+00:16:26.594 --> 00:16:27.960
+I have a question. So I hear a lot of
+
+357
+00:16:30.650 --> 00:16:32.928
+Since 2016, it sounds like you've been
+
+358
+00:16:32.928 --> 00:16:35.184
+doing quite a lot compared to
+
+359
+00:16:35.184 --> 00:16:37.024
+It sounds like this would be for
+
+360
+00:16:37.024 --> 00:16:38.992
+other people, like a full time job
+
+361
+00:16:38.992 --> 00:16:41.652
+But I'm just kind of like, ask, how
+
+362
+00:16:41.652 --> 00:16:46.590
+much time do you volunteer for Python?
+
+363
+00:16:47.410 --> 00:16:49.120
+I don't actually know.
+
+364
+00:16:49.730 --> 00:16:50.932
+Yeah, it varied a lot.
+
+365
+00:16:50.932 --> 00:16:52.980
+I mean, for a while, it was like my
+
+366
+00:16:52.980 --> 00:16:57.080
+full time job for a good chunk there.
+
+367
+00:16:57.080 --> 00:16:58.702
+I mean, I count Real Python.
+
+368
+00:16:58.702 --> 00:17:01.816
+Real Python wasn't volunteering, but it very squarely put me
+
+369
+00:17:01.816 --> 00:17:04.390
+in the center of things in terms of Python.
+
+370
+00:17:04.390 --> 00:17:09.068
+Otherwise, it's dipped and gone up.
+
+371
+00:17:09.068 --> 00:17:10.674
+I think one of the reasons it's
+
+372
+00:17:10.674 --> 00:17:12.402
+possible long term is because it's slow.
+
+373
+00:17:12.402 --> 00:17:14.498
+I have previously described open source
+
+374
+00:17:14.498 --> 00:17:16.386
+as like middle school, but slower.
+
+375
+00:17:16.386 --> 00:17:19.948
+And so I feel like there is very
+
+376
+00:17:19.948 --> 00:17:21.743
+little pressure to get things done quickly.
+
+377
+00:17:21.743 --> 00:17:24.726
+At least my experience has been things aren't urgent.
+
+378
+00:17:24.726 --> 00:17:27.328
+That has positives and negatives, because it
+
+379
+00:17:27.328 --> 00:17:29.040
+might take forever to get your PR
+
+380
+00:17:29.040 --> 00:17:32.166
+reviewed and might demoralize people from contributing.
+
+381
+00:17:32.166 --> 00:17:35.972
+But it also means that people seem to be
+
+382
+00:17:35.972 --> 00:17:38.900
+fairly conscious of the fact that we're all doing
+
+383
+00:17:38.900 --> 00:17:41.572
+this for free in our limited spare time.
+
+384
+00:17:41.572 --> 00:17:43.332
+So let's give each other a break.
+
+385
+00:17:43.332 --> 00:17:45.912
+And sometimes it feels like every next
+
+386
+00:17:45.912 --> 00:17:47.966
+word out of people's mouths is burnout.
+
+387
+00:17:47.966 --> 00:17:51.112
+So simultaneously, it's a problem, but people
+
+388
+00:17:51.112 --> 00:17:53.032
+are recognizing that it's a problem.
+
+389
+00:17:53.032 --> 00:17:56.168
+So, bit of a meandering answer, but I think
+
+390
+00:17:56.168 --> 00:17:59.276
+the fact that it's slow helps, and the fact
+
+391
+00:17:59.276 --> 00:18:02.348
+that there is a general attempt to treat each
+
+392
+00:18:02.348 --> 00:18:04.908
+other like people in a very concerted way.
+
+393
+00:18:04.908 --> 00:18:07.196
+I find in the Python community, that really takes
+
+394
+00:18:07.196 --> 00:18:11.298
+the edge off some of the more trying bits.
+
+395
+00:18:11.298 --> 00:18:13.824
+If you're tired or if you're frustrated, if everyone
+
+396
+00:18:13.824 --> 00:18:16.192
+sort of keeps their manners, then we might all
+
+397
+00:18:16.192 --> 00:18:18.608
+continue working together, I think much more easily than
+
+398
+00:18:18.608 --> 00:18:21.620
+if someone just sort of swans off and makes
+
+399
+00:18:21.620 --> 00:18:25.124
+things more unpleasant than people necessarily want it to
+
+400
+00:18:25.124 --> 00:18:26.826
+be for what is essentially a hobby.
+
+401
+00:18:26.826 --> 00:18:28.682
+Have you managed to avoid
+
+402
+00:18:28.682 --> 00:18:31.146
+getting a burnout from volunteering?
+
+403
+00:18:31.146 --> 00:18:35.108
+No, I don't think anyone on
+
+404
+00:18:35.108 --> 00:18:37.780
+this podcast will answer yes to that.
+
+405
+00:18:39.510 --> 00:18:40.760
+So here's the thing.
+
+406
+00:18:40.760 --> 00:18:44.392
+I know that right now in the market is hard,
+
+407
+00:18:44.392 --> 00:18:47.992
+and right now I feel like everyone's having a hard
+
+408
+00:18:47.992 --> 00:18:50.444
+time, and a lot of them, when I talk to
+
+409
+00:18:50.444 --> 00:18:52.476
+people, I can see the drain on their face.
+
+410
+00:18:52.476 --> 00:18:53.932
+I can see the emotion on their face.
+
+411
+00:18:53.932 --> 00:18:55.090
+They're really struggling.
+
+412
+00:18:55.090 --> 00:18:58.188
+And I feel like most of the people I
+
+413
+00:18:58.188 --> 00:18:59.836
+talk to right now are having a hard time.
+
+414
+00:18:59.836 --> 00:19:02.030
+It feels like a very common experience.
+
+415
+00:19:02.030 --> 00:19:05.456
+I just want to say, like, even in the last month,
+
+416
+00:19:05.456 --> 00:19:09.568
+I hear so many of my friends in the Python community.
+
+417
+00:19:09.568 --> 00:19:13.082
+I don't know if I should say it, but they are burnout.
+
+418
+00:19:13.082 --> 00:19:15.790
+Like, they're looking for different opportunities.
+
+419
+00:19:16.850 --> 00:19:19.722
+The tech industry seems like changing.
+
+420
+00:19:19.722 --> 00:19:22.340
+2023 seems to be, like, a strange year.
+
+421
+00:19:22.340 --> 00:19:24.640
+I don't know when we last had a normal year.
+
+422
+00:19:25.170 --> 00:19:27.322
+I know, but it's just, like, escalating.
+
+423
+00:19:27.322 --> 00:19:28.728
+It's like you always think, okay, this
+
+424
+00:19:28.728 --> 00:19:30.088
+was strange, and then the next year
+
+425
+00:19:30.088 --> 00:19:32.088
+is going even more strange, and then.
+
+426
+00:19:32.088 --> 00:19:33.272
+You're like, what on earth will next
+
+427
+00:19:33.272 --> 00:19:34.600
+year be like at this point?
+
+428
+00:19:34.600 --> 00:19:38.152
+I don't know, but, no, I want to add to it,
+
+429
+00:19:38.152 --> 00:19:41.788
+which is that, yeah, I feel like that's sort of an
+
+430
+00:19:41.788 --> 00:19:43.884
+elephant in the room that we might talk about or we
+
+431
+00:19:43.884 --> 00:19:46.236
+might not talk about, depending on who we're talking with.
+
+432
+00:19:46.236 --> 00:19:48.252
+But other friends of mine have also
+
+433
+00:19:48.252 --> 00:19:49.212
+just said, like, you know what?
+
+434
+00:19:49.212 --> 00:19:50.204
+I'm done with tech.
+
+435
+00:19:50.204 --> 00:19:52.678
+And they are fabulous, super accomplished.
+
+436
+00:19:52.678 --> 00:19:54.380
+I can't believe. They're amazing.
+
+437
+00:19:54.990 --> 00:19:56.454
+And then they just like, no, I'm
+
+438
+00:19:56.454 --> 00:19:58.270
+just going to go do this now.
+
+439
+00:19:58.270 --> 00:20:00.208
+That is something that I'm seeing
+
+440
+00:20:00.208 --> 00:20:02.186
+happen a lot, especially lately.
+
+441
+00:20:02.186 --> 00:20:03.316
+I also remember.
+
+442
+00:20:03.316 --> 00:20:07.722
+I have a very vague memory of some tweet ages
+
+443
+00:20:07.722 --> 00:20:11.748
+ago, maybe some woman celebrating that she made it to
+
+444
+00:20:11.748 --> 00:20:13.236
+Was it ten years in tech?
+
+445
+00:20:13.236 --> 00:20:14.328
+Because now she beat the
+
+446
+00:20:14.328 --> 00:20:16.020
+average or something like that.
+
+447
+00:20:17.670 --> 00:20:19.336
+I don't remember the precise numbers,
+
+448
+00:20:19.336 --> 00:20:21.048
+but the sentiment was, like, I
+
+449
+00:20:21.048 --> 00:20:23.406
+have achieved being slightly above average.
+
+450
+00:20:23.406 --> 00:20:24.392
+Congrats to me.
+
+451
+00:20:24.392 --> 00:20:25.800
+Something to celebrate. Yeah.
+
+452
+00:20:25.800 --> 00:20:27.016
+Do you have any?
+
+453
+00:20:27.016 --> 00:20:29.148
+Maybe, like, I don't know, things in life to
+
+454
+00:20:29.148 --> 00:20:31.532
+balance things out that help you balance things out?
+
+455
+00:20:31.532 --> 00:20:34.204
+Like other non tech related things?
+
+456
+00:20:34.204 --> 00:20:35.308
+Yes, definitely.
+
+457
+00:20:35.308 --> 00:20:38.486
+I have gone in the extreme opposite direction
+
+458
+00:20:38.486 --> 00:20:40.646
+in a lot of my other interests.
+
+459
+00:20:40.646 --> 00:20:45.392
+I am very very interested in neolithic and Bronze Age
+
+460
+00:20:45.392 --> 00:20:48.544
+textiles, and so I do a lot of research.
+
+461
+00:20:48.544 --> 00:20:52.270
+Sometimes I make pieces based on archaeological finds.
+
+462
+00:20:53.330 --> 00:20:55.252
+If I'm not here, I'm, like, doing something
+
+463
+00:20:55.252 --> 00:20:59.604
+with sticks out far, far away from here.
+
+464
+00:20:59.604 --> 00:21:02.522
+But I've started making yarn with a drop spindle,
+
+465
+00:21:02.522 --> 00:21:06.536
+and I am really into just identifying moss and
+
+466
+00:21:06.536 --> 00:21:12.616
+things that are the complete polar opposite of this.
+
+467
+00:21:12.616 --> 00:21:13.678
+You've asked me a topic.
+
+468
+00:21:13.678 --> 00:21:15.032
+I have to say one more thing
+
+469
+00:21:15.032 --> 00:21:18.390
+on this, but neanderthal eating habits.
+
+470
+00:21:19.770 --> 00:21:24.322
+Actually, I think there is either a YouTube
+
+471
+00:21:24.322 --> 00:21:28.870
+channel or some blog post about neanderthal cuisine.
+
+472
+00:21:29.610 --> 00:21:30.316
+I heard.
+
+473
+00:21:30.316 --> 00:21:32.224
+I don't know, my partner was talking about that.
+
+474
+00:21:32.224 --> 00:21:32.896
+Cool.
+
+475
+00:21:32.896 --> 00:21:35.008
+Or Roman, I don't know, something.
+
+476
+00:21:35.008 --> 00:21:36.816
+There's all kinds of stuff, but if someone
+
+477
+00:21:36.816 --> 00:21:39.878
+wants something to Google, a really fun term
+
+478
+00:21:39.878 --> 00:21:42.928
+is experimental archaeology, because there are people.
+
+479
+00:21:42.928 --> 00:21:44.292
+Selly Pointer is a great one,
+
+480
+00:21:44.292 --> 00:21:45.626
+since we're talking about YouTube.
+
+481
+00:21:45.626 --> 00:21:50.388
+But basically you learn about artifacts by trying
+
+482
+00:21:50.388 --> 00:21:52.452
+to recreate them and by recreating them.
+
+483
+00:21:52.452 --> 00:21:54.042
+You see, like, okay, so the loom
+
+484
+00:21:54.042 --> 00:21:56.040
+must have been created this way.
+
+485
+00:21:56.040 --> 00:21:58.478
+And incidentally, one last more tangent.
+
+486
+00:21:58.478 --> 00:22:00.568
+I have this one local group that I
+
+487
+00:22:00.568 --> 00:22:02.776
+do a lot of ancient textile stuff with,
+
+488
+00:22:02.776 --> 00:22:05.294
+and there's one technique that was called spraying.
+
+489
+00:22:05.294 --> 00:22:06.958
+It was popular in the Neolithic.
+
+490
+00:22:06.958 --> 00:22:09.186
+If you're asking someone on a programming podcast
+
+491
+00:22:09.186 --> 00:22:12.092
+about their niche interest, something's going to happen.
+
+492
+00:22:12.092 --> 00:22:14.050
+No, it is combined.
+
+493
+00:22:14.050 --> 00:22:15.708
+Okay, I will tell you one last thing,
+
+494
+00:22:15.708 --> 00:22:19.470
+because this does circle back to programming, but
+
+495
+00:22:19.470 --> 00:22:21.568
+we're learning how to do spraying together, which
+
+496
+00:22:21.568 --> 00:22:25.254
+is a neolithic textile technique that predates weaving.
+
+497
+00:22:25.254 --> 00:22:28.992
+She was creating little notes for herself for how she
+
+498
+00:22:28.992 --> 00:22:31.616
+was, so that she could recreate it and learn it.
+
+499
+00:22:31.616 --> 00:22:33.366
+And the notes were essentially binary
+
+500
+00:22:33.366 --> 00:22:35.170
+because it was like, I moved.
+
+501
+00:22:35.170 --> 00:22:36.724
+She didn't intend to be binary, but it
+
+502
+00:22:36.724 --> 00:22:38.868
+was binary, which also ties in with how
+
+503
+00:22:38.868 --> 00:22:41.570
+the history of programming ties in with looms.
+
+504
+00:22:41.570 --> 00:22:45.912
+Anyway, it sounds like reverse engineering, like you
+
+505
+00:22:45.912 --> 00:22:47.940
+saw something and you tried to build.
+
+506
+00:22:49.190 --> 00:22:50.952
+And a lot of it's geometry and, like,
+
+507
+00:22:50.952 --> 00:22:58.088
+3d shapes in materials and chemistry, especially a
+
+508
+00:22:58.088 --> 00:23:01.106
+lot of dyes, and things get really finicky.
+
+509
+00:23:01.106 --> 00:23:01.948
+Anyway, there we go.
+
+510
+00:23:01.948 --> 00:23:04.810
+There's my niche interest for the podcast.
+
+511
+00:23:04.810 --> 00:23:06.508
+I think we all need that, and I
+
+512
+00:23:06.508 --> 00:23:09.990
+think everybody needs niche interests to stay sane.
+
+513
+00:23:11.850 --> 00:23:14.656
+And, yeah, I'm also into
+
+514
+00:23:14.656 --> 00:23:17.430
+art restoration, so that's fun. And knitting.
+
+515
+00:23:17.430 --> 00:23:18.700
+I mean, that's the other.
+
+516
+00:23:19.230 --> 00:23:20.848
+Yeah, that's awesome.
+
+517
+00:23:20.848 --> 00:23:25.364
+And I bet Mariatta also has some secret stuff going on.
+
+518
+00:23:25.364 --> 00:23:28.196
+I'm into food, so when you say, like,
+
+519
+00:23:28.196 --> 00:23:33.300
+learning about neanderthal eating habit, that's something I'm interested.
+
+520
+00:23:34.230 --> 00:23:36.808
+Sometimes I like even figuring out how
+
+521
+00:23:36.808 --> 00:23:38.606
+did people come up with this dish?
+
+522
+00:23:38.606 --> 00:23:40.500
+I like to learn about the history.
+
+523
+00:23:41.270 --> 00:23:43.810
+I even learned a history of ketchup.
+
+524
+00:23:44.710 --> 00:23:46.926
+The word ketchup is a native
+
+525
+00:23:46.926 --> 00:23:49.042
+word in my native language.
+
+526
+00:23:49.042 --> 00:23:52.162
+Like in Malay, Indonesian language, we have the word "kecap",
+
+527
+00:23:52.162 --> 00:23:55.130
+but it refers to a different type of sauce.
+
+528
+00:23:55.130 --> 00:23:58.492
+The sauce is usually dark sauce things.
+
+529
+00:23:58.492 --> 00:24:01.606
+You say soy sauce, that's ketchup. "Kecap".
+
+530
+00:24:01.606 --> 00:24:05.142
+Salty sauce is like "kecap asin", "kecap manis"
+
+531
+00:24:05.142 --> 00:24:07.926
+So "sauce" to me is "ketchup".
+
+532
+00:24:07.926 --> 00:24:11.956
+But what American thinks of the word
+
+533
+00:24:11.956 --> 00:24:15.130
+"ketchup" in my language is tomato sauce.
+
+534
+00:24:15.130 --> 00:24:16.510
+It's reversed.
+
+535
+00:24:17.090 --> 00:24:20.266
+We don't say ketchup with tomato.
+
+536
+00:24:20.266 --> 00:24:21.258
+Tomato sauce.
+
+537
+00:24:21.258 --> 00:24:22.270
+With sugar.
+
+538
+00:24:22.850 --> 00:24:24.234
+With a lot of sugar.
+
+539
+00:24:24.234 --> 00:24:25.230
+Ketchup.
+
+540
+00:24:25.230 --> 00:24:27.736
+But I tried to dig it up.
+
+541
+00:24:27.736 --> 00:24:29.848
+Why did we have this same word?
+
+542
+00:24:29.848 --> 00:24:33.742
+It turns out when the Heinz or whoever tries
+
+543
+00:24:33.742 --> 00:24:36.710
+to come up with the name of their sauce,
+
+544
+00:24:36.710 --> 00:24:39.742
+they borrow it from Malaysian, from Indonesian.
+
+545
+00:24:39.742 --> 00:24:42.444
+Like, they take this word from us.
+
+546
+00:24:42.444 --> 00:24:45.730
+Anyway, it's totally random archaeology.
+
+547
+00:24:45.730 --> 00:24:47.390
+No, that's really cool.
+
+548
+00:24:47.390 --> 00:24:50.208
+It's all of the mysteries that you can find in words.
+
+549
+00:24:50.208 --> 00:24:53.696
+Coming back to words and your... tada! and
+
+550
+00:24:53.696 --> 00:24:58.730
+your multifaceted interest in computer science and languages.
+
+551
+00:24:59.310 --> 00:25:02.228
+I was wondering, how has this kind
+
+552
+00:25:02.228 --> 00:25:03.636
+of come up in your work?
+
+553
+00:25:03.636 --> 00:25:06.404
+Like this intersection between computer
+
+554
+00:25:06.404 --> 00:25:08.682
+science and translation and language?
+
+555
+00:25:08.682 --> 00:25:13.810
+Yes, I guess I found out that it's really useful.
+
+556
+00:25:13.810 --> 00:25:16.088
+Generally, I find a big pressure to just be an
+
+557
+00:25:16.088 --> 00:25:19.246
+engineer and everyone has to go be an engineer.
+
+558
+00:25:19.246 --> 00:25:22.312
+And I feel like people are confused why
+
+559
+00:25:22.312 --> 00:25:24.270
+I don't just go be a pure engineer.
+
+560
+00:25:24.270 --> 00:25:28.648
+But I've also found that the opportunities for people who
+
+561
+00:25:28.648 --> 00:25:31.548
+can do multiple things, like if you can code and
+
+562
+00:25:31.548 --> 00:25:33.004
+you can talk to people and you can write and
+
+563
+00:25:33.004 --> 00:25:35.164
+you can teach and you can organize and you can
+
+564
+00:25:35.164 --> 00:25:38.380
+learn whatever else new thing is required of you, then
+
+565
+00:25:38.380 --> 00:25:43.488
+opportunities might come to you fairly quickly and well enough
+
+566
+00:25:43.488 --> 00:25:45.408
+that by the time someone's trying to hire you for
+
+567
+00:25:45.408 --> 00:25:47.408
+an engineer role, you might actually be making more than
+
+568
+00:25:47.408 --> 00:25:49.070
+a junior engineer.
+
+569
+00:25:49.070 --> 00:25:51.056
+It just comes sometimes.
+
+570
+00:25:51.056 --> 00:25:53.180
+So there is definitely a need.
+
+571
+00:25:54.290 --> 00:25:57.508
+The jobs can be weirder and less common.
+
+572
+00:25:57.508 --> 00:26:00.452
+So when I look at job postings, I'm not
+
+573
+00:26:00.452 --> 00:26:02.628
+just looking like look up like Django developer or
+
+574
+00:26:02.628 --> 00:26:05.390
+like data analyst or something very structured.
+
+575
+00:26:05.390 --> 00:26:10.280
+I'm looking at all kinds of things, and I have often been
+
+576
+00:26:10.280 --> 00:26:14.072
+like the first X at a company or been given a job.
+
+577
+00:26:14.072 --> 00:26:15.416
+Like, we don't know what this job is.
+
+578
+00:26:15.416 --> 00:26:16.760
+Go figure it out.
+
+579
+00:26:16.760 --> 00:26:19.468
+Which I personally find fun, since you get
+
+580
+00:26:19.468 --> 00:26:21.468
+to make your own job and kind of
+
+581
+00:26:21.468 --> 00:26:24.092
+create some direction and agency for yourself.
+
+582
+00:26:24.092 --> 00:26:27.708
+But yeah, there are fewer jobs like that than just, I
+
+583
+00:26:27.708 --> 00:26:31.676
+am an engineer, but the people who are looking for you
+
+584
+00:26:31.676 --> 00:26:34.416
+are also having a harder time finding people like you.
+
+585
+00:26:34.416 --> 00:26:36.752
+So it depends what path you like.
+
+586
+00:26:36.752 --> 00:26:38.038
+But I like this middle path.
+
+587
+00:26:38.038 --> 00:26:42.032
+There's a lot of variety and it feels more social.
+
+588
+00:26:42.032 --> 00:26:45.268
+It feels like I can still move in
+
+589
+00:26:45.268 --> 00:26:47.012
+a lot of different directions from here.
+
+590
+00:26:47.012 --> 00:26:48.132
+I don't feel boxed in.
+
+591
+00:26:48.132 --> 00:26:50.308
+Like I could still become a specialist as
+
+592
+00:26:50.308 --> 00:26:52.964
+long as I still keep every door open.
+
+593
+00:26:52.964 --> 00:26:55.748
+It means that know constantly learning a lot of things and
+
+594
+00:26:55.748 --> 00:26:57.732
+I don't know what my next job will be like.
+
+595
+00:26:57.732 --> 00:27:00.104
+And so sometimes I'm like, I don't know, should I
+
+596
+00:27:00.104 --> 00:27:02.344
+take courses on instructional design, or should I get my
+
+597
+00:27:02.344 --> 00:27:04.248
+next AWS certification, or should I do this?
+
+598
+00:27:04.248 --> 00:27:04.888
+Or should I do this?
+
+599
+00:27:04.888 --> 00:27:08.776
+Or should like, I feel like that mentality might also
+
+600
+00:27:08.776 --> 00:27:11.916
+be not uncommon among people who are active in open
+
+601
+00:27:11.916 --> 00:27:14.204
+source who just tend to fill like, there may be
+
+602
+00:27:14.204 --> 00:27:16.828
+a type who tends to fill their schedule, who I
+
+603
+00:27:16.828 --> 00:27:19.132
+think might be drawn to open source as well.
+
+604
+00:27:19.132 --> 00:27:22.614
+So that might be a recurring theme in these chats.
+
+605
+00:27:22.614 --> 00:27:24.688
+And maybe, I think one of the things that
+
+606
+00:27:24.688 --> 00:27:28.592
+is also, if you're open like that to different
+
+607
+00:27:28.592 --> 00:27:32.064
+learning ways and different ways of interacting with people,
+
+608
+00:27:32.064 --> 00:27:34.052
+it's also opening up the space where you're not
+
+609
+00:27:34.052 --> 00:27:36.004
+needing to be an expert in everything.
+
+610
+00:27:36.004 --> 00:27:39.130
+You can collaborate with other people and leverage
+
+611
+00:27:39.130 --> 00:27:41.556
+that other people are good at something and
+
+612
+00:27:41.556 --> 00:27:44.676
+you have indicating to figure that out, right?
+
+613
+00:27:44.676 --> 00:27:45.098
+Totally.
+
+614
+00:27:45.098 --> 00:27:47.240
+And then it helps you bring people together,
+
+615
+00:27:47.240 --> 00:27:49.688
+it helps you accomplish bigger things, and it
+
+616
+00:27:49.688 --> 00:27:52.600
+helps you train people to replace you.
+
+617
+00:27:52.600 --> 00:27:54.120
+These are all good things.
+
+618
+00:27:54.120 --> 00:27:57.822
+These are all signs of growth, both individually
+
+619
+00:27:57.822 --> 00:27:59.740
+and within a community and within a company.
+
+620
+00:27:59.740 --> 00:28:01.346
+So that's the opposite.
+
+621
+00:28:01.346 --> 00:28:04.002
+Like things that you can do to stave off stagnation.
+
+622
+00:28:04.002 --> 00:28:04.396
+I think.
+
+623
+00:28:04.396 --> 00:28:07.984
+I think it's actually a good thing being able to
+
+624
+00:28:07.984 --> 00:28:11.424
+adapt and being flexible, being able to work with a
+
+625
+00:28:11.424 --> 00:28:15.360
+lot of different types of people, because it's not actually
+
+626
+00:28:15.360 --> 00:28:20.330
+easy, it's hard working with people worldwide.
+
+627
+00:28:21.170 --> 00:28:24.426
+It takes a certain skill and intentionality
+
+628
+00:28:24.426 --> 00:28:26.080
+to being able to work together.
+
+629
+00:28:27.890 --> 00:28:29.920
+So what is next for you?
+
+630
+00:28:32.050 --> 00:28:33.348
+I think you mentioned to me you
+
+631
+00:28:33.348 --> 00:28:36.468
+have a secret project or something about.
+
+632
+00:28:36.468 --> 00:28:40.712
+It ties in, because we just had PyLadiesCon con recently, and it
+
+633
+00:28:40.712 --> 00:28:45.510
+ties in with my talk at PyLadiesCon, which was based on
+
+634
+00:28:45.510 --> 00:28:49.884
+a really short skimmable article that I wrote called How To
+
+635
+00:28:49.884 --> 00:28:52.370
+Make a Docs Site: Shortcuts for Busy Devs
+
+636
+00:28:52.370 --> 00:28:54.924
+And that article was aimed at developers who
+
+637
+00:28:54.924 --> 00:28:57.580
+are not particularly interested in making docs, but
+
+638
+00:28:57.580 --> 00:28:58.892
+for whatever reason they need one.
+
+639
+00:28:58.892 --> 00:29:00.844
+Maybe they have an open source project that they
+
+640
+00:29:00.844 --> 00:29:03.798
+want to share, or they are at a startup
+
+641
+00:29:03.798 --> 00:29:06.288
+that now needs to create its first doc site
+
+642
+00:29:06.288 --> 00:29:08.016
+and they just need to get something out.
+
+643
+00:29:08.016 --> 00:29:11.920
+So in that article, I gave them a super short,
+
+644
+00:29:11.920 --> 00:29:15.066
+opinionated, practical guide to have a path of least resistance
+
+645
+00:29:15.066 --> 00:29:17.914
+towards just getting a doc site out that is decent.
+
+646
+00:29:17.914 --> 00:29:21.268
+And I'm also working on sort of successor to
+
+647
+00:29:21.268 --> 00:29:24.392
+that that is longer and more involved and is
+
+648
+00:29:24.392 --> 00:29:28.238
+still very practical, but is just a richer resource
+
+649
+00:29:28.238 --> 00:29:32.120
+like gives templates and checklists and systematizes the process
+
+650
+00:29:32.120 --> 00:29:34.712
+of making docs to make it less painless for
+
+651
+00:29:34.712 --> 00:29:37.582
+people who are not particularly interested in docs.
+
+652
+00:29:37.582 --> 00:29:38.894
+Because if you are interested in docs,
+
+653
+00:29:38.894 --> 00:29:40.572
+there are resources out there for you.
+
+654
+00:29:40.572 --> 00:29:42.402
+There's the book: Docs for Developers.
+
+655
+00:29:42.402 --> 00:29:44.604
+The Product is Docs. Docs Like Code.
+
+656
+00:29:44.604 --> 00:29:48.236
+But I feel like those books are for docs people who
+
+657
+00:29:48.236 --> 00:29:50.970
+want to sit down and read a book about docs.
+
+658
+00:29:50.970 --> 00:29:52.492
+They're excellent. I own them.
+
+659
+00:29:52.492 --> 00:29:53.744
+I don't have them here.
+
+660
+00:29:53.744 --> 00:29:55.664
+I had them here on the PyLadies talk so
+
+661
+00:29:55.664 --> 00:29:58.502
+that if someone recommended books or asked for recommendations,
+
+662
+00:29:58.502 --> 00:30:00.140
+I could put like, these two are great.
+
+663
+00:30:00.770 --> 00:30:02.880
+Or three, because I have anyway.
+
+664
+00:30:03.810 --> 00:30:08.068
+But I find that those have more theory in
+
+665
+00:30:08.068 --> 00:30:10.740
+them than some audiences might have patience for.
+
+666
+00:30:10.740 --> 00:30:12.948
+So I wanted to create sort of
+
+667
+00:30:12.948 --> 00:30:15.492
+a very systematized golden path of least
+
+668
+00:30:15.492 --> 00:30:18.580
+resistance towards making that. It's not public.
+
+669
+00:30:19.350 --> 00:30:21.784
+I wasn't even sure how much detail I was going to
+
+670
+00:30:21.784 --> 00:30:24.520
+go into, but apparently it all just fell out of me.
+
+671
+00:30:24.520 --> 00:30:25.868
+No problem.
+
+672
+00:30:25.868 --> 00:30:28.440
+That is something I'm working on.
+
+673
+00:30:30.170 --> 00:30:30.828
+I don't know.
+
+674
+00:30:30.828 --> 00:30:34.076
+I've been at companies, at startups, a few different
+
+675
+00:30:34.076 --> 00:30:37.148
+startups where they have no docs at all.
+
+676
+00:30:37.148 --> 00:30:38.140
+At all.
+
+677
+00:30:39.550 --> 00:30:42.752
+And because there is no docs, when it's time
+
+678
+00:30:42.752 --> 00:30:46.048
+to off board somebody, like when somebody leave there
+
+679
+00:30:46.048 --> 00:30:50.690
+is this two weeks of grueling handover.
+
+680
+00:30:50.690 --> 00:30:52.596
+Tell us everything you know from
+
+681
+00:30:52.596 --> 00:30:55.250
+two years into these two weeks.
+
+682
+00:30:55.250 --> 00:30:59.562
+I think documentation should just be done continuously.
+
+683
+00:30:59.562 --> 00:31:02.468
+It should become part of the work you do.
+
+684
+00:31:02.468 --> 00:31:05.498
+As you write code, you write test, you write doc.
+
+685
+00:31:05.498 --> 00:31:07.918
+It's part of the package in my opinion.
+
+686
+00:31:07.918 --> 00:31:10.974
+Yeah, it's more sustainable.
+
+687
+00:31:10.974 --> 00:31:12.550
+It is worth it.
+
+688
+00:31:12.550 --> 00:31:16.200
+Are you looking for testers for your new project?
+
+689
+00:31:16.730 --> 00:31:17.932
+I will be.
+
+690
+00:31:17.932 --> 00:31:22.760
+I don't have anything to give them to test that.
+
+691
+00:31:23.850 --> 00:31:26.920
+I need to be ready to share this with people.
+
+692
+00:31:30.330 --> 00:31:32.076
+Maybe there's like a place where people
+
+693
+00:31:32.076 --> 00:31:34.924
+can reach you and put your waitlist.
+
+694
+00:31:34.924 --> 00:31:35.968
+Yes, no, I would love that.
+
+695
+00:31:35.968 --> 00:31:37.296
+That's an excellent idea.
+
+696
+00:31:37.296 --> 00:31:39.984
+My handle on GitHub is jablonskidev
+
+697
+00:31:39.984 --> 00:31:43.092
+J-A-B-L-O-N-S-K-I-D-E-V
+
+698
+00:31:43.092 --> 00:31:45.492
+My personal site is jojab.dev
+
+699
+00:31:45.492 --> 00:31:47.700
+J-O-J-A-B dot dev
+
+700
+00:31:47.700 --> 00:31:48.644
+If you want to find me
+
+701
+00:31:48.644 --> 00:31:50.874
+on LinkedIn, just search Joanna Jablonski.
+
+702
+00:31:50.874 --> 00:31:54.132
+I'm very findable and yeah, I'm always happy
+
+703
+00:31:54.132 --> 00:31:56.138
+to talk about developer education and docs.
+
+704
+00:31:56.138 --> 00:31:57.140
+So hit me up.
+
+705
+00:31:57.140 --> 00:31:58.250
+I would love to chat.
+
+706
+00:31:58.250 --> 00:31:58.788
+Awesome.
+
+707
+00:31:58.788 --> 00:32:00.820
+Well, thank you, Joanna, for speaking
+
+708
+00:32:00.820 --> 00:32:02.640
+with us and sharing your experience.
+
+709
+00:32:03.970 --> 00:32:05.372
+And thank you for having me.
+
+710
+00:32:05.372 --> 00:32:06.834
+And thank you for making this podcast.
+
+711
+00:32:06.834 --> 00:32:08.133
+Thank you for it

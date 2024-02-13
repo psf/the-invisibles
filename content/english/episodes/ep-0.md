@@ -7,7 +7,7 @@ host: ["Cheuk", "Georgi", "Mariatta", "Tereza"]
 draft: false
 tags: ["python", "data", "diversity", "community"]
 publish_date: 2023-12-12T01:00:00-08:00
-podcast_file: "/audio/hidden-figures-ep0.m4a"
+podcast_file: "/audio/hidden-figures-ep0.mp3"
 podcast_duration: 2268.728889
 episode_image: "images/podcats_1500x1500.png"
 podcast_bytes: "54916324" # the length of the episode in bytes
@@ -19,6 +19,7 @@ season: 1
 transcript: '/transcript/hidden-figures-of-python-ep0.srt'
 episode_type: full
 layout: episode
+youtube_id: 2Ujd1p6NuN4
 #episode_banner = ""
 #guests = [] # The names of your guests, based on the filename without extension.
 #sponsors = []
@@ -40,7 +41,6 @@ We discussed the name: "Hidden Figures", what inspired us to start this podcast.
 We shared our findings from analyzing data from popular Python podcasts, and wondered
 about the diversity in the Python community.
 
-{{<youtube 2Ujd1p6NuN4>}}
 
 ## Topic discussed
 
