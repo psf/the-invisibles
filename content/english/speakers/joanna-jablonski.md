@@ -1,5 +1,6 @@
 ---
 title: Joanna Jablonski
+date: 2024-02-12T00:00:00-08:00
 image: "/images/joanna_jablonski.jpg"
 description: "Joanna has written lots of great articles for RealPython, blogged for the Python Language Summit,
 and recently authored a PEP."
