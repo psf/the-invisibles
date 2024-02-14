@@ -1,6 +1,5 @@
 ---
 title: Georgi Ker
-email: me@georgiker.com
 image: "/images/georgi.jpeg"
 description: Entrepreuneur, community leader and designer. Fellow member and Director of PSF. Also serve in the D&I Workgroup and honored with the PSF Community Service Award in December 2020.
 social:
