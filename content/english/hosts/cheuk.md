@@ -1,5 +1,6 @@
 ---
 title: Cheuk Ting Ho
+date: 2023-10-27T05:00:00Z
 image: "/images/cheuk.jpeg"
 description: After having a career as a Data Scientist and Developer Advocate, Cheuk dedicated her work to the open-source community and working as a community manager at OpenSSF. She has co-founded Humble Data, a beginner Python workshop that has been happening around the world. She has served the EuroPython Society board for two years and is now a fellow and director of the Python Software Foundation.
 social:

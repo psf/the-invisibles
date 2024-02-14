@@ -1,5 +1,6 @@
 ---
 title: Mariatta
+date: 2023-10-27T05:00:00Z
 image: "/images/mariatta.jpeg"
 description: Mariatta is a Python Core Developer. In her free time, she contributes to open source, builds GitHub bots, fixes typos, and likes to tell you about Python's f-strings. As a public speaker, she has given her talks and keynotes wordwide.
 social:
