@@ -20,6 +20,10 @@ social:
   - name: mastodon
     icon: fa-brands fa-mastodon
     link: https://vis.social/@terezaif
+
+  - name: web
+    icon: fa-solid fa-globe
+    link: https://terezaiofciu.com
 ---
 
 Before data leadership coaching, she has worked for over 15 years in Data Science, Data Engineering, Product Management and training teams in such roles.

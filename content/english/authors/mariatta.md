@@ -23,7 +23,10 @@ social:
   - name: mastodon
     icon: fa-brands fa-mastodon
     link: https://fosstodon.org/@mariatta
-   
+
+  - name: web
+    icon: fa-solid fa-globe
+    link: https://mariatta.ca
 ---
 
 

@@ -19,7 +19,7 @@ social:
   - name: mastodon
     icon: fa-brands fa-mastodon
     link: https://fosstodon.org/@cheukting_ho
-
+    
   - name: web
     icon: fa-solid fa-globe
     link: https://cheuk.dev
