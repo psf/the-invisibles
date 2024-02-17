@@ -1,5 +1,6 @@
 ---
 title: Cheuk Ting Ho
+date: 2023-10-27T05:00:00Z
 email: cheuktingho@email.com
 image: "/images/cheuk.jpeg"
 description: After having a career as a Data Scientist and Developer Advocate, Cheuk dedicated her work to the open-source community and working as a community manager at OpenSSF. She has co-founded Humble Data, a beginner Python workshop that has been happening around the world. She has served the EuroPython Society board for two years and is now a fellow and director of the Python Software Foundation.
@@ -19,6 +20,10 @@ social:
   - name: mastodon
     icon: fa-brands fa-mastodon
     link: https://fosstodon.org/@cheukting_ho
+    
+  - name: web
+    icon: fa-solid fa-globe
+    link: https://cheuk.dev
 ---
 
 Before working in Developer Relations, Cheuk has been a Data Scientist in various companies which demands high numerical and programmatical skills, especially in Python. To follow her passion for the tech community, Cheuk has been a Developer Advocate for 3 years. Cheuk also contributes to multiple Open Source libraries like [Hypothesis](https://hypothesis.readthedocs.io/en/latest/), [Pytest](https://docs.pytest.org/en/7.3.x/), [Pandas](https://pandas.pydata.org/), [Jupyter Notebook](https://jupyter.org/) and [Django](https://www.djangoproject.com/). Cheuk is now a community manager at [OpenSSF](https://openssf.org/).
