@@ -89,21 +89,30 @@ of our invited podcast guests. We will be printing some stickers to share at con
 ### Travel costs to conferences
 
 We will not be withdrawing funds to cover the cost of our travel to conferences. Our team members will only attend conferences
-when they're able to, using personal means, or paid for by their respective employers.
+when they're able to, using personal means, or in some cases, paid for by their employers.
 
 ## Why are we sharing this in public?
 
+### Transparency and accountability
+
 Our main source of funding comes from the Python Software Foundation, which receives funds through sponsorships, donations, and
-memberships. By sharing this information, you as the wider Python community members will have a better visibility of how
-the funds are being used and spent, and to show the impact of your donations and sponsorship.
+memberships. By sharing this information, the wider Python community members will have a better visibility on how
+the funds are being used and spent, and to understand the impact of your donations and sponsorship.
+
+### Open Source, Open Knowledge
 
 As an open source advocates ourselves, we believe in learning and sharing knowledge in public.
 By documenting sharing our process and workflow, we hope that the wider community
 can have a better understanding of the effort and care that we put into producing our podcast.
 
-
 ## Concerns? Questions?
 
 Get in touch by writing to meow @ pypodcats dot live.
 
-Support the Python community
+## Stay in touch and support the Python Community
+
+- Subscribe to our podcast RSS feed: https://pypodcats.live/episodes/index.xml
+- Follow us on Twitter: https://twitter.com/pypodcats
+- Follow us on Mastodon: https://fosstodon.org/@pypodcats
+- Subscribe to The PSF YouTube: https://youtube.com/@thepsf
+- Contact us: meow@pypodcats.live
