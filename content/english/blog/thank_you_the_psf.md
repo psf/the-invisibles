@@ -7,6 +7,7 @@ categories: ["Blog Post",]
 author: "Mariatta"
 tags: ["python", "funding", "grant", "community"]
 draft: false
+image: "/images/thankyoupsf_banner.png"
 ---
 
 We're happy to share that we received 2,000 USD in [grants](https://www.python.org/psf/grants/) from the [Python Software Foundation](https://python.org/psf-landing)!
