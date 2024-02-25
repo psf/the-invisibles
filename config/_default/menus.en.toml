@@ -8,8 +8,32 @@ weight = 1
 
 [[main]]
 name = "About"
+hasChildren = true
+
+[[main]]
+parent = "About"
+name = "Our Podcast Series"
 url = "about/"
-weight = 2
+weight = 1
+
+[[main]]
+parent = "About"
+name = "Financial Info"
+url = "about/financials"
+weight =2
+
+[[main]]
+parent = "About"
+name = "Code of Conduct"
+url = "about/conduct"
+weight = 3
+
+[[main]]
+parent = "About"
+name = "Python Software Foundation"
+url = "about/psf"
+weight = 3
+
 
 [[main]]
  name = "Episodes"
@@ -49,6 +73,10 @@ weight = 2
 
 [[footer]]
 name = "Code of Conduct"
-url = "conduct/"
+url = "about/conduct"
 weight = 3
 
+[[footer]]
+name = "Python Software Foundation"
+url = "about/psf"
+weight = 3

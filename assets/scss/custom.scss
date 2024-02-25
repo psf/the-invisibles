@@ -28,3 +28,16 @@ body {
 .podcast-icon {
   display: inline-block;
 }
+
+.footer-icons {
+  @apply space-x-4;
+  li {
+    @apply inline-block;
+    a {
+      @apply bg-primary  flex h-9 w-9 items-center justify-center rounded text-center leading-9 ;
+      svg {
+        @apply h-5 w-5;
+      }
+    }
+  }
+}
