@@ -2,11 +2,11 @@
 title: "Trailer: Episode 2 with Karolina Ladino"
 meta_title: "Trailer: Episode 2 with Karolina Ladino"
 description: "A preview of our chat with Karolina Ladino. Watch the full episode on Mar 13, 2024"
-date: 2024-03-05T00:00:00-08:00
+date: 2024-03-06T00:00:00-08:00
 host: [ "Mariatta", "Cheuk"]
 draft: false
 tags: ["python", "community", "colombia", "growth", "robotics", "opportunities", "trailer"]
-publish_date: 2024-02-05T00:00:00-08:00
+publish_date: 2024-02-06T00:00:00-08:00
 podcast_file: "/audio/hidden-figures-ep2-trailer.mp3"
 podcast_duration: 99.5
 episode_image: "images/ep2-karolina.jpg"
