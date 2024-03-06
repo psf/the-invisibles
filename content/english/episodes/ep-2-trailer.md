@@ -19,7 +19,7 @@ season: 1
 transcript: '/transcript/hidden-figures-of-python-ep2-trailer.vtt'
 episode_type: trailer
 layout: episode
-
+youtube_id: CssR7KkKdm0?si
   
 speaker:
   title: "Karolina Ladino"
