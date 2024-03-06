@@ -49,7 +49,7 @@ speaker:
 
 Sneak Peek of our chat with Karolina Ladino, hosted by Mariatta Wijaya and Cheuk Ting Ho.
 
-Hear about Karolina's journey in the Python community and learn about she has been helping to grow the Python
-and PyLadies community in Colombia.
+
+Hear about Karolina's journey in the Python community and learn how she has been helping grow the Python and PyLadies community in Colombia!
 
 Full episode is coming on **March 13, 2024**! Subscribe to our podcast now!
