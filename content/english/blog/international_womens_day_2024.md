@@ -11,7 +11,8 @@ image: "/images/iwd.png"
 ---
 
 March 8th marks International Women's Day, a day dedicated to celebrating the achievements of women around the world and
-advocating for gender equality. In the Python Podcast community, as we have previously reported, women 
+advocating for gender equality. In the Python Podcast community,
+[as we have previously reported](/blog/python_podcast_gender_diversity_and_representation/), women 
 are underrepresented, and yet they continue to make meaningful contributions to the Python community.
 
 Join us in recognizing them by celebrating and acknowledging their work and contributions.
