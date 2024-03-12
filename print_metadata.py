@@ -27,8 +27,7 @@ class MetadataProcessor():
   def get_audio_length(self):
     metadata = FFProbe(self.filepath)
     for stream in metadata.streams:
-      if stream.is_video():
-        return stream.duration_seconds()
+      return stream.duration_seconds()
     return 0
 
 if __name__ == "__main__":
