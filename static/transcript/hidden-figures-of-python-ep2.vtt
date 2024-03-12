@@ -1,0 +1,3349 @@
+WEBVTT
+
+1
+00:00:21.573 --> 00:00:24.206
+Hello Everyone
+
+2
+00:00:24.206 --> 00:00:25.172
+It's great to
+
+3
+00:00:25.172 --> 00:00:28.498
+have this episode because we have a very special guest.
+
+4
+00:00:28.498 --> 00:00:30.280
+We have Karo here.
+
+5
+00:00:31.050 --> 00:00:32.220
+Do you want to say hi?
+
+6
+00:00:32.220 --> 00:00:35.202
+Hi, everyone. Thank you, Cheuk.
+
+7
+00:00:35.202 --> 00:00:36.898
+Thank you, Mariatta, for the invitation.
+
+8
+00:00:36.898 --> 00:00:40.620
+So this episode would be Mariatta and I would be here
+
+9
+00:00:40.620 --> 00:00:45.356
+to have a chat with Karo, to see her journey in
+
+10
+00:00:45.356 --> 00:00:50.108
+Python and see what she's been doing and, yeah, hope that,
+
+11
+00:00:50.108 --> 00:00:53.604
+you know, people can get inspired from her story.
+
+12
+00:00:53.604 --> 00:00:56.148
+So, first of all, maybe I would
+
+13
+00:00:56.148 --> 00:00:58.372
+like to ask Karo some question.
+
+14
+00:00:58.372 --> 00:01:02.276
+Maybe before all these more deep dive questions,
+
+15
+00:01:02.276 --> 00:01:03.448
+do you want to tell a little bit
+
+16
+00:01:03.448 --> 00:01:07.662
+about yourself and about kind of why Python?
+
+17
+00:01:07.662 --> 00:01:09.090
+Why you start Python?
+
+18
+00:01:10.870 --> 00:01:14.100
+Yeah, it's a really big question.
+
+19
+00:01:15.110 --> 00:01:18.012
+Usually, sometimes we forgot about what we have been
+
+20
+00:01:18.012 --> 00:01:21.682
+doing in our life and how we can inspire
+
+21
+00:01:21.682 --> 00:01:24.652
+other people, but usually that is not something that
+
+22
+00:01:24.652 --> 00:01:27.116
+we are thinking all the time. Right.
+
+23
+00:01:27.116 --> 00:01:31.312
+So I will try to put together what
+
+24
+00:01:31.312 --> 00:01:33.776
+I was thinking to answer to that question.
+
+25
+00:01:33.776 --> 00:01:36.534
+That is, like, why Python?
+
+26
+00:01:36.534 --> 00:01:41.168
+I really don't know the, like, reason or root for that.
+
+27
+00:01:41.168 --> 00:01:44.470
+I think it was like, a mix of reasons
+
+28
+00:01:44.470 --> 00:01:46.708
+that was happening in my life at that moment.
+
+29
+00:01:46.708 --> 00:01:48.388
+And someone told me, like, yeah, you should
+
+30
+00:01:48.388 --> 00:01:51.188
+try MicroPython, because I was struggling with some
+
+31
+00:01:51.188 --> 00:01:53.268
+projects in that moment, and someone told me
+
+32
+00:01:53.268 --> 00:01:55.736
+that, and I was maybe, yes.
+
+33
+00:01:55.736 --> 00:01:58.840
+I started looking videos and reaching out more people
+
+34
+00:01:58.840 --> 00:02:02.680
+and another professor in the university that he was
+
+35
+00:02:02.680 --> 00:02:06.398
+trying to teach us more Python in our laboratories
+
+36
+00:02:06.398 --> 00:02:09.068
+and exercise, and everyone was like, no, we want
+
+37
+00:02:09.068 --> 00:02:11.996
+to stick with C, but that's it.
+
+38
+00:02:11.996 --> 00:02:15.202
+Because we were working more with microprocessors
+
+39
+00:02:15.202 --> 00:02:17.320
+in that moment, and everyone was like.
+
+40
+00:02:19.130 --> 00:02:21.404
+So is it related to your work, or is
+
+41
+00:02:21.404 --> 00:02:23.328
+it something that you studied before?
+
+42
+00:02:23.328 --> 00:02:24.544
+Maybe you can tell us a
+
+43
+00:02:24.544 --> 00:02:25.702
+little bit about your background.
+
+44
+00:02:25.702 --> 00:02:26.940
+Like, what do you do now?
+
+45
+00:02:27.630 --> 00:02:31.732
+Yeah, well, I have a background in robotics engineer, and
+
+46
+00:02:31.732 --> 00:02:35.170
+I also have a master's degree in data analytics.
+
+47
+00:02:35.170 --> 00:02:37.908
+And I have been working in the
+
+48
+00:02:37.908 --> 00:02:44.186
+hardware industry, creating machines, robot like installations
+
+49
+00:02:44.186 --> 00:02:46.580
+animatronics and sort of things.
+
+50
+00:02:47.510 --> 00:02:49.886
+I'm more related with the art industry,
+
+51
+00:02:49.886 --> 00:02:52.712
+like galleries and helping artists to create
+
+52
+00:02:52.712 --> 00:02:56.178
+different installations and art pieces.
+
+53
+00:02:56.178 --> 00:03:02.092
+And, like, about five years ago, I start to get
+
+54
+00:03:02.092 --> 00:03:05.800
+more involved in the software industry, helping more people.
+
+55
+00:03:06.490 --> 00:03:08.816
+I started as a project manager, and
+
+56
+00:03:08.816 --> 00:03:11.542
+then I become a product manager.
+
+57
+00:03:11.542 --> 00:03:13.568
+So right now, I'm helping more.
+
+58
+00:03:13.568 --> 00:03:15.520
+Like, I'm working more in product
+
+59
+00:03:15.520 --> 00:03:18.490
+creation, product design, product development.
+
+60
+00:03:19.890 --> 00:03:22.510
+Will you say you self-learn Python?
+
+61
+00:03:23.810 --> 00:03:27.636
+Yeah, I started myself and I got help.
+
+62
+00:03:27.636 --> 00:03:32.560
+I really received many help from my professor, and then
+
+63
+00:03:33.570 --> 00:03:36.340
+he told me, there is something in the Internet, like,
+
+64
+00:03:37.350 --> 00:03:40.878
+looking for you to look for at that moment was plexi
+
+65
+00:03:40.878 --> 00:03:44.568
+and look for other different places that are trying to
+
+66
+00:03:44.568 --> 00:03:49.234
+teach in the journey, the easy journey in Python.
+
+67
+00:03:49.234 --> 00:03:54.370
+And at some point I found a Slack, that was Python Colombia.
+
+68
+00:03:54.370 --> 00:03:57.298
+So I found the link to join Python
+
+69
+00:03:57.298 --> 00:04:00.576
+Colombia and I was really welcoming and everyone
+
+70
+00:04:00.576 --> 00:04:02.854
+was like, yeah, here are all the channels.
+
+71
+00:04:02.854 --> 00:04:07.264
+Like a rain of channels, all the Slacks that we have.
+
+72
+00:04:07.264 --> 00:04:09.504
+And it was like, you can introduce yourself here and
+
+73
+00:04:09.504 --> 00:04:12.068
+you can ask your questions here and these are the
+
+74
+00:04:12.068 --> 00:04:14.922
+list of topics that you can be talking about Python.
+
+75
+00:04:14.922 --> 00:04:19.940
+So I then start understanding all the ecosystem behind Python and
+
+76
+00:04:19.940 --> 00:04:22.880
+it was a really open mind at that moment.
+
+77
+00:04:23.910 --> 00:04:27.784
+I was only expecting that the same that
+
+78
+00:04:27.784 --> 00:04:29.512
+we expect in the academy, that you learn
+
+79
+00:04:29.512 --> 00:04:32.792
+something specifically for do something and that's it.
+
+80
+00:04:32.792 --> 00:04:35.272
+But no, Python is more than a
+
+81
+00:04:35.272 --> 00:04:39.452
+tool that you can use into really
+
+82
+00:04:39.452 --> 00:04:42.802
+multiple environments and industries and solutions.
+
+83
+00:04:42.802 --> 00:04:45.484
+So yeah, that was the next step.
+
+84
+00:04:45.484 --> 00:04:48.350
+So Python Colombia appears in the equation.
+
+85
+00:04:48.350 --> 00:04:50.368
+Yeah, very interesting how
+
+86
+00:04:50.368 --> 00:04:52.966
+you discover Python Colombia.
+
+87
+00:04:52.966 --> 00:04:54.608
+Is it like your professor told you about
+
+88
+00:04:54.608 --> 00:04:57.340
+it or you just Google and found out?
+
+89
+00:05:00.350 --> 00:05:06.212
+I was googling and I found the web page and they
+
+90
+00:05:06.212 --> 00:05:09.946
+were trying to put like, hey, this is the GitHub repository
+
+91
+00:05:09.946 --> 00:05:12.708
+and this is the Slack and that is where we are.
+
+92
+00:05:12.708 --> 00:05:14.200
+It wasn't like that moment.
+
+93
+00:05:14.200 --> 00:05:16.136
+They didn't have Telegram or the other
+
+94
+00:05:16.136 --> 00:05:18.312
+or Discord as they have right now.
+
+95
+00:05:18.312 --> 00:05:19.864
+It wasn't that big.
+
+96
+00:05:19.864 --> 00:05:22.360
+But I realized that a couple
+
+97
+00:05:22.360 --> 00:05:26.390
+of friends were in that Slack.
+
+98
+00:05:26.390 --> 00:05:28.312
+I could get the invitation from them.
+
+99
+00:05:28.312 --> 00:05:30.620
+So I started asking, hey, you are there.
+
+100
+00:05:30.620 --> 00:05:32.508
+And one of them told me, I
+
+101
+00:05:32.508 --> 00:05:34.156
+don't know what you are talking about.
+
+102
+00:05:34.156 --> 00:05:35.580
+And the other one was like,
+
+103
+00:05:35.580 --> 00:05:37.596
+yeah, I know, I really know.
+
+104
+00:05:37.596 --> 00:05:39.632
+I understand the two phases, right?
+
+105
+00:05:39.632 --> 00:05:43.312
+Many people in the communities are just join and
+
+106
+00:05:43.312 --> 00:05:45.870
+they are there, but they are not part, but
+
+107
+00:05:45.870 --> 00:05:48.278
+there are others that are really really involved.
+
+108
+00:05:48.278 --> 00:05:52.116
+So it could be neither of those, but
+
+109
+00:05:52.116 --> 00:05:55.332
+they gave me the opportunity to join because
+
+110
+00:05:55.332 --> 00:05:57.818
+it's by invitation in that Slack.
+
+111
+00:05:57.818 --> 00:06:01.636
+So he gave me the invitation and at that moment,
+
+112
+00:06:01.636 --> 00:06:03.978
+Is that by invitation to join
+
+113
+00:06:03.978 --> 00:06:06.050
+the event or is it by invitation to join the
+
+114
+00:06:10.630 --> 00:06:12.408
+The Slack. I think they still have that.
+
+115
+00:06:12.408 --> 00:06:14.798
+And now I'm part of the people that approve
+
+116
+00:06:14.798 --> 00:06:20.018
+the invitations because the invitation is really funny.
+
+117
+00:06:20.018 --> 00:06:22.732
+They provide your name or your email and they say
+
+118
+00:06:22.732 --> 00:06:25.388
+like, hey, this is a friend or this is someone
+
+119
+00:06:25.388 --> 00:06:28.946
+from this meetup or from someone from this university.
+
+120
+00:06:28.946 --> 00:06:31.638
+And we understand that the people that is joining
+
+121
+00:06:31.638 --> 00:06:34.112
+us are not bots and are not people that
+
+122
+00:06:34.112 --> 00:06:37.302
+just want to post in, like a recruiter.
+
+123
+00:06:37.302 --> 00:06:38.854
+That is not bad to have the recruiters
+
+124
+00:06:38.854 --> 00:06:41.492
+in our environment, but we have rules to
+
+125
+00:06:41.492 --> 00:06:45.002
+not getting spammed in our own Slack.
+
+126
+00:06:45.002 --> 00:06:48.670
+So they have that filter.
+
+127
+00:06:50.930 --> 00:06:52.660
+But now folks know who to talk to now.
+
+128
+00:06:52.660 --> 00:06:54.660
+So that will be talk to you
+
+129
+00:06:55.910 --> 00:06:59.806
+definitely our viewer now have the advantage.
+
+130
+00:06:59.806 --> 00:07:01.262
+They want to join PyCon Colombia,
+
+131
+00:07:01.262 --> 00:07:03.190
+They will have to talk to you.
+
+132
+00:07:03.190 --> 00:07:04.168
+Yup.
+
+133
+00:07:04.168 --> 00:07:07.372
+I think personally hearing what you said,
+
+134
+00:07:07.372 --> 00:07:11.612
+it sounds like you learned by yourself.
+
+135
+00:07:11.612 --> 00:07:13.676
+I mean, you learned about Python because
+
+136
+00:07:13.676 --> 00:07:16.668
+of your own self motivation, even though
+
+137
+00:07:16.668 --> 00:07:18.096
+you have lots of people to help.
+
+138
+00:07:18.096 --> 00:07:20.380
+But it's inspiring to hear that
+
+139
+00:07:21.950 --> 00:07:23.776
+you took the steps yourself.
+
+140
+00:07:23.776 --> 00:07:26.864
+You figure out who to talk to, you ask questions.
+
+141
+00:07:26.864 --> 00:07:29.760
+So I think that's just how
+
+142
+00:07:29.760 --> 00:07:31.732
+the journey should be, right?
+
+143
+00:07:31.732 --> 00:07:35.120
+So it's very inspiring for me.
+
+144
+00:07:35.970 --> 00:07:37.098
+Thank you, Mariatta.
+
+145
+00:07:37.098 --> 00:07:38.420
+Thank you so much.
+
+146
+00:07:38.420 --> 00:07:41.572
+I just remember something else, too, that
+
+147
+00:07:41.572 --> 00:07:43.928
+when I was finishing the bachelor of
+
+148
+00:07:43.928 --> 00:07:49.326
+the engineering, a really marvelous professor appears.
+
+149
+00:07:49.326 --> 00:07:52.462
+He was a new hire in the university,
+
+150
+00:07:52.462 --> 00:07:55.182
+and he was really into Ros, the robotics
+
+151
+00:07:55.182 --> 00:07:59.210
+operating system that you can use using Python.
+
+152
+00:07:59.210 --> 00:08:01.436
+And I was like, I want to do.
+
+153
+00:08:01.436 --> 00:08:03.948
+It was a crazy idea that took me, like,
+
+154
+00:08:03.948 --> 00:08:06.200
+one year and a half to build that.
+
+155
+00:08:06.810 --> 00:08:11.008
+I think how I got into that journey, I don't know,
+
+156
+00:08:11.008 --> 00:08:14.272
+but I made it, and I'm really happy for that.
+
+157
+00:08:14.272 --> 00:08:20.810
+I learned a lot of many stuff, like industrial designer,
+
+158
+00:08:21.330 --> 00:08:25.220
+how to build my own robots, how to program them.
+
+159
+00:08:25.220 --> 00:08:30.084
+It was a massive project, and all by myself
+
+160
+00:08:30.084 --> 00:08:33.840
+and my professor, and he pushed me more.
+
+161
+00:08:34.470 --> 00:08:38.621
+I was afraid in that moment about the english barrier.
+
+162
+00:08:38.621 --> 00:08:41.496
+I was having that worry in my life.
+
+163
+00:08:41.496 --> 00:08:43.342
+I didn't have the confidence.
+
+164
+00:08:43.342 --> 00:08:46.712
+I could read in that moment any papers, or
+
+165
+00:08:46.712 --> 00:08:48.860
+I could do a tutorial or follow a video,
+
+166
+00:08:48.860 --> 00:08:51.788
+but I wasn't having the confidence to talk or
+
+167
+00:08:51.788 --> 00:08:53.452
+to give a talk or something like that.
+
+168
+00:08:53.452 --> 00:08:58.892
+And he was like, go ahead, I just send your
+
+169
+00:08:58.892 --> 00:09:01.564
+talk to this conference, and now you have to go.
+
+170
+00:09:01.564 --> 00:09:04.144
+And he was like, go ahead, you can do it.
+
+171
+00:09:04.144 --> 00:09:06.304
+And I think he is like, a
+
+172
+00:09:06.304 --> 00:09:08.342
+really big part of this journey.
+
+173
+00:09:08.342 --> 00:09:09.616
+So I want to.
+
+174
+00:09:09.616 --> 00:09:13.764
+Thanks to Olmer, my professor, Olmer. Yeah.
+
+175
+00:09:13.764 --> 00:09:16.720
+And that is what I understand.
+
+176
+00:09:17.250 --> 00:09:21.508
+After, when we were working with PyLadies here in Colombia, we
+
+177
+00:09:21.508 --> 00:09:28.872
+have maybe something different in the culture, like, we don't feel, as
+
+178
+00:09:28.872 --> 00:09:33.800
+a woman, safe to go to a place at night.
+
+179
+00:09:33.800 --> 00:09:36.408
+It could be just like, for a group of study or
+
+180
+00:09:36.408 --> 00:09:39.770
+for a meet up, like between six and nine PM
+
+181
+00:09:39.770 --> 00:09:41.932
+It's not something that is easily for us
+
+182
+00:09:41.932 --> 00:09:44.870
+to do for many reasons, like the insecurity,
+
+183
+00:09:46.090 --> 00:09:50.230
+the transportation, you can find any excuse.
+
+184
+00:09:50.230 --> 00:09:54.608
+But we realized when we started in Bogota and in
+
+185
+00:09:54.608 --> 00:09:58.902
+Medellin and in Cali, that if we made the meetup
+
+186
+00:09:58.902 --> 00:10:02.916
+completely open for anyone that wants to join us, like
+
+187
+00:10:02.916 --> 00:10:06.692
+the girls that were in university were bringing them, the
+
+188
+00:10:06.692 --> 00:10:11.732
+father, the grandparent, could be their brother, anyone that can
+
+189
+00:10:11.732 --> 00:10:17.192
+be with her joining the meetup and helping her to
+
+190
+00:10:17.192 --> 00:10:20.008
+feel safe and then just to close the day and
+
+191
+00:10:20.008 --> 00:10:23.816
+keep only the knowledge and enjoy the moment without thinking
+
+192
+00:10:23.816 --> 00:10:26.024
+that something bad is going to happen after.
+
+193
+00:10:26.024 --> 00:10:31.058
+So that was one of the reasons. We have spaces
+
+194
+00:10:31.058 --> 00:10:34.764
+where we are only women in the space.
+
+195
+00:10:34.764 --> 00:10:37.298
+But usually we do those in Saturdays
+
+196
+00:10:37.298 --> 00:10:39.008
+and we involve also the children for
+
+197
+00:10:39.008 --> 00:10:41.290
+those girls that are already mommies.
+
+198
+00:10:43.230 --> 00:10:47.664
+But during the weekday and at night,
+
+199
+00:10:47.664 --> 00:10:49.984
+we usually make it open for everyone
+
+200
+00:10:49.984 --> 00:10:53.890
+and we are receiving really nice people.
+
+201
+00:10:53.890 --> 00:10:57.250
+And that bringing in my mind, my professor,
+
+202
+00:10:57.250 --> 00:11:00.228
+he was shooting at me behind like, hey
+
+203
+00:11:00.228 --> 00:11:02.116
+Karo, you can do it and go.
+
+204
+00:11:02.116 --> 00:11:05.402
+And we can go and ask the university for the expenses
+
+205
+00:11:05.402 --> 00:11:07.960
+or maybe we can do like a raffle and find
+
+206
+00:11:07.960 --> 00:11:11.190
+money for your sponsorship and you can travel.
+
+207
+00:11:11.190 --> 00:11:15.480
+And that was something that changed my mind.
+
+208
+00:11:15.480 --> 00:11:17.670
+That was like a really big switch.
+
+209
+00:11:18.730 --> 00:11:19.480
+Yeah.
+
+210
+00:11:20.810 --> 00:11:24.268
+I really like your story because I think it
+
+211
+00:11:24.268 --> 00:11:27.740
+inspired not just women, but for allies that actually
+
+212
+00:11:27.740 --> 00:11:32.854
+having a good mentor is very useful, useful resources.
+
+213
+00:11:32.854 --> 00:11:38.400
+So if any alllies they want to mentor again
+
+214
+00:11:38.400 --> 00:11:42.380
+resonate about what you said about PyLadies meetup that
+
+215
+00:11:43.630 --> 00:11:46.522
+it doesn't need to be a women-only environment,
+
+216
+00:11:46.522 --> 00:11:49.570
+but it's like maybe women-driven environment.
+
+217
+00:11:49.570 --> 00:11:51.268
+If their allies want to be
+
+218
+00:11:51.268 --> 00:11:52.458
+there to be supportive role.
+
+219
+00:11:52.458 --> 00:11:55.204
+Like for example, if the participant bring another
+
+220
+00:11:55.204 --> 00:11:57.828
+male family member to support them so they
+
+221
+00:11:57.828 --> 00:12:00.168
+feel safe, then I think that is a
+
+222
+00:12:00.168 --> 00:12:03.780
+very caring move that I really appreciate that.
+
+223
+00:12:04.950 --> 00:12:09.048
+And also I wonder because you said that,
+
+224
+00:12:09.048 --> 00:12:11.608
+oh, your professor kind of encouraged you to
+
+225
+00:12:11.608 --> 00:12:14.508
+do all you because I know you are
+
+226
+00:12:14.508 --> 00:12:19.230
+helping to organize PyCon Colombia and also PyLadies.
+
+227
+00:12:19.230 --> 00:12:20.704
+How do you start doing that?
+
+228
+00:12:20.704 --> 00:12:24.502
+Did you start PyLadies or how do you start becoming
+
+229
+00:12:24.502 --> 00:12:29.100
+someone who kind of leading all these events and stuff?
+
+230
+00:12:31.170 --> 00:12:32.640
+That was really interesting.
+
+231
+00:12:33.250 --> 00:12:37.044
+After I joined the community and I was still in
+
+232
+00:12:37.044 --> 00:12:44.442
+the university, we were having IEEE group in the university.
+
+233
+00:12:44.442 --> 00:12:45.700
+So I was leading that group.
+
+234
+00:12:45.700 --> 00:12:48.728
+So I learned a lot thanks to the university like
+
+235
+00:12:48.728 --> 00:12:52.328
+to organize events and how to get the sponsorship and
+
+236
+00:12:52.328 --> 00:12:54.808
+how to execute and invoices and all the work that
+
+237
+00:12:54.808 --> 00:12:58.120
+you need to do behind to make an event happen.
+
+238
+00:12:59.610 --> 00:13:04.012
+So when I hear and that was in the Slack that
+
+239
+00:13:04.012 --> 00:13:07.228
+hey, we are starting PyLadies Medellin and we know that
+
+240
+00:13:07.228 --> 00:13:09.638
+there is PyLadies Bogota, but we are not in Bogota.
+
+241
+00:13:09.638 --> 00:13:12.736
+That was a couple of girls that were in
+
+242
+00:13:12.736 --> 00:13:19.142
+Medellin, it was another Carolina and also Stephanie imagine.
+
+243
+00:13:19.142 --> 00:13:20.768
+And I was like, hey, I would like
+
+244
+00:13:20.768 --> 00:13:23.734
+to resume whatever that is here in Bogota.
+
+245
+00:13:23.734 --> 00:13:25.652
+So I raised my hand and they
+
+246
+00:13:25.652 --> 00:13:27.044
+were okay, let's do it together.
+
+247
+00:13:27.044 --> 00:13:31.476
+And so we send the application to get
+
+248
+00:13:31.476 --> 00:13:35.672
+again the access to the email and we
+
+249
+00:13:35.672 --> 00:13:39.512
+start pinging different people to start getting back
+
+250
+00:13:39.512 --> 00:13:42.552
+the accounts because that happens sometimes.
+
+251
+00:13:42.552 --> 00:13:44.888
+Okay, who has access to this Twitter or
+
+252
+00:13:44.888 --> 00:13:48.170
+who has the access to this account and
+
+253
+00:13:48.170 --> 00:13:50.354
+all the drives and all the files.
+
+254
+00:13:50.354 --> 00:13:52.012
+So we start looking for that.
+
+255
+00:13:52.012 --> 00:13:56.124
+And by the time different people start, okay, I
+
+256
+00:13:56.124 --> 00:13:57.756
+have access to this, I can give you access.
+
+257
+00:13:57.756 --> 00:13:59.552
+And we start organizing the house.
+
+258
+00:13:59.552 --> 00:14:02.566
+And that was around 2018.
+
+259
+00:14:02.566 --> 00:14:05.648
+So Medellin and Bogota start at the same time.
+
+260
+00:14:05.648 --> 00:14:10.780
+And in that moment, Medellin was in that big moment.
+
+261
+00:14:12.450 --> 00:14:15.786
+That is like a label that we have here in Colombia.
+
+262
+00:14:15.786 --> 00:14:16.954
+That is the Silicon Valley
+
+263
+00:14:16.954 --> 00:14:19.630
+of Latin America, that is Medellin.
+
+264
+00:14:20.370 --> 00:14:22.900
+It's too big and many things are happening and all
+
+265
+00:14:22.900 --> 00:14:28.318
+the government are doing those efforts for getting more startups
+
+266
+00:14:28.318 --> 00:14:31.352
+and that environment is safe for the nomads and for
+
+267
+00:14:31.352 --> 00:14:33.576
+all the developers that want to come here.
+
+268
+00:14:33.576 --> 00:14:40.974
+So Medellin started growing faster than Bogota, but Medellin
+
+269
+00:14:40.974 --> 00:14:44.908
+got really those connections and with the sponsors, so
+
+270
+00:14:44.908 --> 00:14:47.794
+those sponsors from Medellin start helping Bogota.
+
+271
+00:14:47.794 --> 00:14:51.312
+So that was like a chain that was really nice.
+
+272
+00:14:51.312 --> 00:14:55.952
+And those companies that were starting in Medellin, they start
+
+273
+00:14:55.952 --> 00:14:59.740
+at some point reaching out the people and the ecosystem
+
+274
+00:15:00.350 --> 00:15:04.358
+in Bogota is kind of like the double of Medellin
+
+275
+00:15:04.358 --> 00:15:08.260
+and move really big amount of money too.
+
+276
+00:15:08.260 --> 00:15:09.828
+So it was like another
+
+277
+00:15:09.828 --> 00:15:11.700
+different market for the companies.
+
+278
+00:15:11.700 --> 00:15:15.670
+So when they start arriving, like in 2019,
+
+279
+00:15:15.670 --> 00:15:18.718
+more companies start opening the offices in Bogota.
+
+280
+00:15:18.718 --> 00:15:23.278
+So we start using the auditoriums and those rooms
+
+281
+00:15:23.278 --> 00:15:28.140
+that they were allocating because they had in mind
+
+282
+00:15:28.140 --> 00:15:31.228
+that it was like a really good movement for
+
+283
+00:15:31.228 --> 00:15:33.618
+communities in Bogota as well than Medellin.
+
+284
+00:15:33.618 --> 00:15:37.292
+So when they opened the offices, they were taking into
+
+285
+00:15:37.292 --> 00:15:39.968
+account that, okay, we have to at least have a
+
+286
+00:15:39.968 --> 00:15:44.064
+space for 30 people, 40 people, and they start saving
+
+287
+00:15:44.064 --> 00:15:47.862
+those spaces for us and everything start growing.
+
+288
+00:15:47.862 --> 00:15:51.460
+And now Medellin and Bogota, we are about the same
+
+289
+00:15:51.460 --> 00:15:55.508
+amount of members and Cali is rising too.
+
+290
+00:15:55.508 --> 00:15:58.948
+Cali started one year ago and now we are
+
+291
+00:15:58.948 --> 00:16:04.906
+looking to encourage more girls across the different cities
+
+292
+00:16:04.906 --> 00:16:08.270
+in our country to start other chapters.
+
+293
+00:16:09.730 --> 00:16:11.268
+Yeah, that's great.
+
+294
+00:16:11.268 --> 00:16:16.010
+But personally what keep you going because I mean,
+
+295
+00:16:16.010 --> 00:16:19.116
+back in the time you could have say, okay,
+
+296
+00:16:19.116 --> 00:16:22.028
+I wish someone do that, but why you put
+
+297
+00:16:22.028 --> 00:16:23.960
+your hands up, say I would do it.
+
+298
+00:16:25.210 --> 00:16:30.448
+I think because I learned, I don't know when, but
+
+299
+00:16:30.448 --> 00:16:33.328
+I learned that it's really nice how the
+
+300
+00:16:33.328 --> 00:16:36.090
+life works to paying forward what you receive.
+
+301
+00:16:36.830 --> 00:16:39.552
+I receive a lot of love and
+
+302
+00:16:39.552 --> 00:16:41.840
+work and help from different people.
+
+303
+00:16:42.610 --> 00:16:44.986
+Could be professors, could be someone from the university
+
+304
+00:16:44.986 --> 00:16:47.252
+or could be just my family and friends.
+
+305
+00:16:47.252 --> 00:16:50.532
+So I was thinking that I really
+
+306
+00:16:50.532 --> 00:16:54.094
+got many privilege to be an engineer.
+
+307
+00:16:54.094 --> 00:16:57.700
+I am the first engineer in my family, for example,
+
+308
+00:16:58.710 --> 00:17:01.976
+I feel that I would like to make that other
+
+309
+00:17:01.976 --> 00:17:07.228
+girls have those privileges, have those opportunities that at the
+
+310
+00:17:07.228 --> 00:17:12.650
+end are not that privileged, are not that exclusive.
+
+311
+00:17:12.650 --> 00:17:14.108
+They are there.
+
+312
+00:17:14.108 --> 00:17:15.372
+The opportunities are there.
+
+313
+00:17:15.372 --> 00:17:19.344
+But we are afraid to take those challenges that at
+
+314
+00:17:19.344 --> 00:17:23.824
+the very beginning could be really scary, but after that,
+
+315
+00:17:23.824 --> 00:17:25.690
+you will see that you are not alone.
+
+316
+00:17:26.510 --> 00:17:31.136
+I want to give that to them.
+
+317
+00:17:31.136 --> 00:17:34.384
+And that is kind of my voice all the time that
+
+318
+00:17:34.384 --> 00:17:37.508
+I have in a meeting or a meetup or anything.
+
+319
+00:17:37.508 --> 00:17:38.788
+It's like, hey, you can do it.
+
+320
+00:17:38.788 --> 00:17:40.356
+Nothing bad is going to happen,
+
+321
+00:17:40.356 --> 00:17:41.684
+so let's do it together.
+
+322
+00:17:41.684 --> 00:17:43.146
+If you are afraid at the beginning,
+
+323
+00:17:43.146 --> 00:17:44.776
+we can be here for you.
+
+324
+00:17:44.776 --> 00:17:47.918
+And that is what we are trying to do with PyLadies
+
+325
+00:17:47.918 --> 00:17:52.050
+and now we are like more than ten leaders.
+
+326
+00:17:52.710 --> 00:17:55.288
+And I am thinking that I would
+
+327
+00:17:55.288 --> 00:18:02.152
+like to start taking some steps back.
+
+328
+00:18:02.152 --> 00:18:03.532
+I'm just like, start
+
+329
+00:18:03.532 --> 00:18:05.516
+Okay, let's document this.
+
+330
+00:18:05.516 --> 00:18:07.852
+And now you are the leadership for this,
+
+331
+00:18:07.852 --> 00:18:09.404
+and you are now the lead for this.
+
+332
+00:18:09.404 --> 00:18:13.904
+And we start moving forward, giving them more power
+
+333
+00:18:13.904 --> 00:18:16.688
+to feel that they are completely capable to do
+
+334
+00:18:16.688 --> 00:18:19.088
+it, but to feel that they don't need me
+
+335
+00:18:19.088 --> 00:18:21.968
+to be there all the time to accomplish the
+
+336
+00:18:21.968 --> 00:18:25.072
+same things because they can't do it without me.
+
+337
+00:18:25.072 --> 00:18:28.660
+And I don't know how many years I'm going to last,
+
+338
+00:18:28.660 --> 00:18:31.332
+how much energy I'm going to have the following years.
+
+339
+00:18:31.332 --> 00:18:34.340
+So, yeah, we need to transfer that knowledge, too.
+
+340
+00:18:35.270 --> 00:18:39.880
+That is pretty much like my motto, to transfer
+
+341
+00:18:39.880 --> 00:18:42.100
+all the things that I receive to others.
+
+342
+00:18:44.470 --> 00:18:47.976
+I feel, again, really so inspiring to hear this
+
+343
+00:18:47.976 --> 00:18:54.092
+story because you were initially yourself was supported and
+
+344
+00:18:54.092 --> 00:18:57.564
+helped by your professor, and then now you yourself
+
+345
+00:18:57.564 --> 00:19:00.416
+are able to even support even more women.
+
+346
+00:19:00.416 --> 00:19:04.256
+And I think in the future, the women
+
+347
+00:19:04.256 --> 00:19:06.656
+you support, they will further support more women.
+
+348
+00:19:06.656 --> 00:19:09.616
+So it's just how to pay it forward.
+
+349
+00:19:09.616 --> 00:19:12.042
+I really think it's really inspiring.
+
+350
+00:19:12.042 --> 00:19:13.920
+And it works.
+
+351
+00:19:17.010 --> 00:19:19.360
+Yeah, it definitely works. Really.
+
+352
+00:19:19.970 --> 00:19:23.908
+The fact that we generate others just like giving
+
+353
+00:19:23.908 --> 00:19:26.772
+the right words or just like saying hello or
+
+354
+00:19:26.772 --> 00:19:31.022
+accepting or replying an email and forward and adding
+
+355
+00:19:31.022 --> 00:19:32.952
+someone else that maybe I cannot help you, but
+
+356
+00:19:32.952 --> 00:19:34.820
+this person maybe will help you.
+
+357
+00:19:35.530 --> 00:19:38.972
+Those are the really minor actions that could change
+
+358
+00:19:38.972 --> 00:19:44.200
+the lives of any person that reach out.
+
+359
+00:19:45.290 --> 00:19:47.116
+Yeah, I found it
+
+360
+00:19:47.116 --> 00:19:49.692
+I resonate a lot about it because I also
+
+361
+00:19:49.692 --> 00:19:51.680
+get involved in a lot of community work.
+
+362
+00:19:51.680 --> 00:19:53.808
+And I also feel that sometimes I
+
+363
+00:19:53.808 --> 00:19:55.520
+got like, oh, it's a bit much.
+
+364
+00:19:55.520 --> 00:19:57.920
+And I miss doing technical stuff.
+
+365
+00:19:57.920 --> 00:20:00.912
+So I wonder how, because now my
+
+366
+00:20:00.912 --> 00:20:04.038
+role is totally not involving coding.
+
+367
+00:20:04.038 --> 00:20:07.428
+I'm like, mainly community work, but I do
+
+368
+00:20:07.428 --> 00:20:10.868
+want to keep up, still want to do
+
+369
+00:20:10.868 --> 00:20:12.660
+technical stuff maybe in the future.
+
+370
+00:20:12.660 --> 00:20:16.324
+So how could you think that?
+
+371
+00:20:16.324 --> 00:20:18.852
+For example, for example, you're also now
+
+372
+00:20:18.852 --> 00:20:20.356
+in a leadership role in your work.
+
+373
+00:20:20.356 --> 00:20:22.308
+So how could you keep up with all
+
+374
+00:20:22.308 --> 00:20:25.108
+this technical stuff that if you want to
+
+375
+00:20:25.108 --> 00:20:27.800
+keep on doing, how would you manage?
+
+376
+00:20:32.570 --> 00:20:34.322
+When we are in a leadership
+
+377
+00:20:34.322 --> 00:20:37.510
+position, we have more responsibility.
+
+378
+00:20:39.630 --> 00:20:41.470
+That is the truth.
+
+379
+00:20:41.470 --> 00:20:46.288
+And if I want my team and our product to be the
+
+380
+00:20:46.288 --> 00:20:51.872
+best, we need to be using the coding applications or stack or
+
+381
+00:20:51.872 --> 00:20:54.484
+find words or whatever that we want to call it.
+
+382
+00:20:54.484 --> 00:20:57.908
+So we need to be up to date on
+
+383
+00:20:57.908 --> 00:21:01.284
+what is happening and what the people is using
+
+384
+00:21:01.284 --> 00:21:06.408
+and what the surveys are saying and what the
+
+385
+00:21:06.408 --> 00:21:09.512
+organizations like the Python Software Foundation is saying.
+
+386
+00:21:09.512 --> 00:21:11.448
+So we need to be there.
+
+387
+00:21:11.448 --> 00:21:14.008
+And I think I really have a
+
+388
+00:21:14.008 --> 00:21:16.460
+sure road to get that information.
+
+389
+00:21:16.460 --> 00:21:17.404
+That is the community.
+
+390
+00:21:17.404 --> 00:21:21.260
+So in the community there are always conversations like
+
+391
+00:21:21.260 --> 00:21:25.330
+someone could post, do you know about this framework?
+
+392
+00:21:25.330 --> 00:21:26.780
+Do you know about this?
+
+393
+00:21:26.780 --> 00:21:30.320
+I found this repository in GitHub and is doing
+
+394
+00:21:30.320 --> 00:21:32.928
+really interesting things and they have Notebooks or they
+
+395
+00:21:32.928 --> 00:21:36.774
+have this, or they could be a really bold
+
+396
+00:21:36.774 --> 00:21:40.032
+behavior that could start somewhere that we don't know
+
+397
+00:21:40.032 --> 00:21:42.228
+exactly when, but is there.
+
+398
+00:21:42.228 --> 00:21:44.548
+So that is kind of my way to keep
+
+399
+00:21:44.548 --> 00:21:47.396
+the pace because everything is changing so fast too.
+
+400
+00:21:47.396 --> 00:21:52.052
+So I try to keep the pace on Discord or
+
+401
+00:21:52.052 --> 00:21:54.936
+in the chats, the different chats that the people
+
+402
+00:21:54.936 --> 00:22:00.968
+are raising and even not always interacting, sometimes I only
+
+403
+00:22:00.968 --> 00:22:04.142
+give a reaction and good, thank you for sharing.
+
+404
+00:22:04.142 --> 00:22:05.048
+And that's it.
+
+405
+00:22:05.048 --> 00:22:07.708
+But sometimes it's something that could be
+
+406
+00:22:07.708 --> 00:22:11.516
+more involving my interest right now.
+
+407
+00:22:11.516 --> 00:22:14.428
+So I could start discussion and making questions.
+
+408
+00:22:14.428 --> 00:22:22.704
+So even if I don't use the stack or the new
+
+409
+00:22:22.704 --> 00:22:28.416
+framework or application, I try to see the very first getting
+
+410
+00:22:28.416 --> 00:22:32.388
+the stack to guys or a video or something that can
+
+411
+00:22:32.388 --> 00:22:36.404
+explain to me how that works and maybe transfer that interest
+
+412
+00:22:36.404 --> 00:22:39.492
+to my team or to my developers, or if it's something
+
+413
+00:22:39.492 --> 00:22:43.316
+that I believe that is really big change.
+
+414
+00:22:43.316 --> 00:22:46.952
+I take the time and I usually allocate a couple
+
+415
+00:22:46.952 --> 00:22:49.720
+of hours in a week to study something new.
+
+416
+00:22:49.720 --> 00:22:52.894
+So I use those couple of hours like, okay, I'm
+
+417
+00:22:52.894 --> 00:22:55.032
+going to sit and read here what is happening?
+
+418
+00:22:55.032 --> 00:22:58.428
+And even if I try and everything is a mess, I try it.
+
+419
+00:22:58.428 --> 00:23:00.508
+And maybe it's not that easy, or maybe I'm not
+
+420
+00:23:00.508 --> 00:23:06.626
+reading well, but that keeps me in a technical perspective,
+
+421
+00:23:06.626 --> 00:23:11.290
+even if I'm not using Python daily or coding daily.
+
+422
+00:23:12.750 --> 00:23:14.496
+I think that's a really good point.
+
+423
+00:23:14.496 --> 00:23:18.742
+You showed that, actually, I know that some engineer
+
+424
+00:23:18.742 --> 00:23:21.180
+will be like, oh, my manager doesn't know this.
+
+425
+00:23:21.790 --> 00:23:24.368
+I think you show a really good point of like, even
+
+426
+00:23:24.368 --> 00:23:27.428
+if you're in a leadership position, you still have to keep
+
+427
+00:23:27.428 --> 00:23:29.188
+up to date, you still have to know what's going on,
+
+428
+00:23:29.188 --> 00:23:32.130
+even if you're not hands on doing it.
+
+429
+00:23:32.130 --> 00:23:34.772
+Of course we appreciate people who can do it hands on,
+
+430
+00:23:34.772 --> 00:23:38.296
+but I think we also, on the other hand, appreciate people
+
+431
+00:23:38.296 --> 00:23:41.688
+who kind of have a lot of responsibility but still kind
+
+432
+00:23:41.688 --> 00:23:45.548
+of keep understanding the technology and up to date and be
+
+433
+00:23:45.548 --> 00:23:48.012
+helpful to the rest of the team.
+
+434
+00:23:48.012 --> 00:23:48.412
+Yeah.
+
+435
+00:23:48.412 --> 00:23:52.652
+And I think also that we are not our
+
+436
+00:23:52.652 --> 00:23:56.236
+work, we are human beings that needs time to
+
+437
+00:23:56.236 --> 00:24:01.856
+understand a topic, provide a solution, reflect about any
+
+438
+00:24:01.856 --> 00:24:04.518
+possible throws or solutions, and then execute.
+
+439
+00:24:04.518 --> 00:24:06.928
+We are not executing all the 8 hours on
+
+440
+00:24:06.928 --> 00:24:11.630
+a day, and that is like a false reality.
+
+441
+00:24:11.630 --> 00:24:12.624
+That is not true.
+
+442
+00:24:12.624 --> 00:24:15.488
+So we need time to process information.
+
+443
+00:24:15.488 --> 00:24:19.300
+And right now that we have tools, I know we have
+
+444
+00:24:19.300 --> 00:24:21.972
+AI, we have chats, we have many things that could help
+
+445
+00:24:21.972 --> 00:24:25.992
+us to process information quickly, but we need to make sure
+
+446
+00:24:25.992 --> 00:24:29.272
+that we are processing that information in our mind, like I
+
+447
+00:24:29.272 --> 00:24:31.810
+really understand it, or I'm just copy and paste.
+
+448
+00:24:33.990 --> 00:24:36.088
+I think that is something that we are
+
+449
+00:24:36.088 --> 00:24:38.828
+missing because we want, and the company and
+
+450
+00:24:38.828 --> 00:24:42.578
+the product and the market want quicker results.
+
+451
+00:24:42.578 --> 00:24:44.636
+And that is something that is
+
+452
+00:24:44.636 --> 00:24:46.396
+pushing really hard on us.
+
+453
+00:24:46.396 --> 00:24:49.132
+And it could be anyone in our community or in other
+
+454
+00:24:49.132 --> 00:24:53.968
+communities, like development communities is really hard that we need to
+
+455
+00:24:53.968 --> 00:24:56.784
+make a whole dashboard in one day, or we need to
+
+456
+00:24:56.784 --> 00:24:59.888
+implement this dashboard in one day, or we need to do,
+
+457
+00:24:59.888 --> 00:25:01.796
+I don't know how many reports in one day.
+
+458
+00:25:01.796 --> 00:25:05.300
+And it's okay, take it easy.
+
+459
+00:25:05.300 --> 00:25:07.412
+Sometimes we can make it in one day,
+
+460
+00:25:07.412 --> 00:25:10.388
+but after a couple of days of research
+
+461
+00:25:10.388 --> 00:25:13.640
+or investigation, and the result will be better.
+
+462
+00:25:13.640 --> 00:25:16.312
+So that is like a call for
+
+463
+00:25:16.312 --> 00:25:19.918
+everyone that could hear this podcast.
+
+464
+00:25:19.918 --> 00:25:22.728
+Take the time to think and plan your
+
+465
+00:25:22.728 --> 00:25:26.044
+solutions and investigate and research, of course.
+
+466
+00:25:26.044 --> 00:25:31.628
+So regarding that, you make a very good
+
+467
+00:25:31.628 --> 00:25:33.560
+point for people who are already working.
+
+468
+00:25:34.330 --> 00:25:36.588
+Let's say they're working in a technical team, of
+
+469
+00:25:36.588 --> 00:25:38.748
+course, for something that's new for them, they can
+
+470
+00:25:38.748 --> 00:25:40.172
+take time to research, like you said.
+
+471
+00:25:40.172 --> 00:25:42.112
+But what if someone want to
+
+472
+00:25:42.112 --> 00:25:44.390
+start, someone want to learn coding?
+
+473
+00:25:44.390 --> 00:25:47.398
+That they may not be working as an engineer
+
+474
+00:25:47.398 --> 00:25:49.760
+or working in a technical team at the moment,
+
+475
+00:25:49.760 --> 00:25:51.700
+but they may want to do a career change.
+
+476
+00:25:51.700 --> 00:25:56.298
+Or maybe they are like we were, we were studying
+
+477
+00:25:56.298 --> 00:25:58.922
+something and then we, oh, we want to start coding.
+
+478
+00:25:58.922 --> 00:26:02.692
+And so how would you suggest, do people still
+
+479
+00:26:02.692 --> 00:26:04.420
+have to spend a lot of time on research,
+
+480
+00:26:04.420 --> 00:26:07.262
+or people who, let's say, go to a PyLadies
+
+481
+00:26:07.262 --> 00:26:08.952
+and join a workshop, something like that.
+
+482
+00:26:08.952 --> 00:26:12.600
+So what would you recommend?
+
+483
+00:26:12.600 --> 00:26:14.856
+For each person, sorry, it will be a different way.
+
+484
+00:26:14.856 --> 00:26:19.032
+So I would like to recommend to find the way
+
+485
+00:26:19.032 --> 00:26:22.898
+that you like to learn and put all the variables.
+
+486
+00:26:22.898 --> 00:26:25.596
+Okay, I want to do this in a limit of two months.
+
+487
+00:26:25.596 --> 00:26:28.204
+I want to change my career and I only have one quarter to
+
+488
+00:26:28.204 --> 00:26:31.980
+do it, or I have six months at least to do it.
+
+489
+00:26:31.980 --> 00:26:33.670
+So what is my time frame?
+
+490
+00:26:33.670 --> 00:26:35.376
+So if I want to do it in a
+
+491
+00:26:35.376 --> 00:26:38.592
+more intense way or if I have the time.
+
+492
+00:26:38.592 --> 00:26:40.038
+So I'm going to go to a meetup
+
+493
+00:26:40.038 --> 00:26:43.222
+and just see if I feel the vibe.
+
+494
+00:26:43.222 --> 00:26:46.720
+So we have in the community made
+
+495
+00:26:46.720 --> 00:26:48.788
+plenty of things that you can do.
+
+496
+00:26:48.788 --> 00:26:50.948
+So you can join us in the future of meetup, or you
+
+497
+00:26:50.948 --> 00:26:53.896
+can follow us and review the videos that we already post.
+
+498
+00:26:53.896 --> 00:26:57.064
+We have a good amount of.
+
+499
+00:26:57.064 --> 00:27:00.808
+Really dummy, Welcome to Python videos that you
+
+500
+00:27:00.808 --> 00:27:05.208
+can just rewatch and see if you think.
+
+501
+00:27:05.208 --> 00:27:07.452
+And we have workshops, of course.
+
+502
+00:27:07.452 --> 00:27:15.810
+So sometimes we do really starting beginners
+
+503
+00:27:15.810 --> 00:27:20.018
+workshop for different industries or fields.
+
+504
+00:27:20.018 --> 00:27:21.952
+So what else?
+
+505
+00:27:21.952 --> 00:27:24.912
+I also can recommend that if you want to start
+
+506
+00:27:24.912 --> 00:27:26.608
+and you are completely sure that you want to start
+
+507
+00:27:26.608 --> 00:27:30.900
+with Python, that usually is the easy way to start.
+
+508
+00:27:30.900 --> 00:27:35.092
+Like, the learning curve for coding with Python is
+
+509
+00:27:35.092 --> 00:27:38.868
+really nice, it's friendly, and there are a lot
+
+510
+00:27:38.868 --> 00:27:43.224
+of people open to explain to you, or if you
+
+511
+00:27:43.224 --> 00:27:45.128
+don't want to speak with someone.
+
+512
+00:27:45.128 --> 00:27:47.410
+You can also find more resources.
+
+513
+00:27:49.110 --> 00:27:51.656
+There are millions of resources online,
+
+514
+00:27:51.656 --> 00:27:53.750
+even you don't need to pay.
+
+515
+00:27:53.750 --> 00:27:55.896
+Many of them are completely free.
+
+516
+00:27:55.896 --> 00:27:58.204
+So you can switch between and you
+
+517
+00:27:58.204 --> 00:28:01.458
+can choose, but don't keep switching forever.
+
+518
+00:28:01.458 --> 00:28:03.970
+That is another advice.
+
+519
+00:28:03.970 --> 00:28:05.714
+So you can choose one if you don't
+
+520
+00:28:05.714 --> 00:28:07.612
+like it, okay, switch to another one.
+
+521
+00:28:07.612 --> 00:28:10.124
+But something else is happening.
+
+522
+00:28:10.124 --> 00:28:11.808
+Try to find the reason, the root of
+
+523
+00:28:11.808 --> 00:28:14.678
+the cause that you don't understand a topic.
+
+524
+00:28:14.678 --> 00:28:16.112
+And maybe the next step is
+
+525
+00:28:16.112 --> 00:28:17.846
+not switching to another resource.
+
+526
+00:28:17.846 --> 00:28:19.734
+Maybe looking for a mentor.
+
+527
+00:28:19.734 --> 00:28:22.832
+And in the communities we have really big amount of
+
+528
+00:28:22.832 --> 00:28:26.022
+people that is open and we have labels and roles
+
+529
+00:28:26.022 --> 00:28:28.778
+in this core, that is people, that is mentor.
+
+530
+00:28:28.778 --> 00:28:31.572
+And you can filter by mentor and you can just ping them
+
+531
+00:28:31.572 --> 00:28:35.844
+and hey, I'm trying to do this and I'm not able to.
+
+532
+00:28:35.844 --> 00:28:38.554
+And I know people that has slots
+
+533
+00:28:38.554 --> 00:28:41.080
+of times, they have a calendar available,
+
+534
+00:28:41.080 --> 00:28:43.300
+could be just 15 minutes, 30 minutes.
+
+535
+00:28:43.990 --> 00:28:48.012
+I have my own, for example, where I can help people.
+
+536
+00:28:48.012 --> 00:28:52.092
+Could be any topic, IoT, art, or
+
+537
+00:28:52.092 --> 00:28:54.972
+finding a learning curve, a learning path. Sorry.
+
+538
+00:28:54.972 --> 00:28:58.828
+So could be any question that you may have.
+
+539
+00:28:58.828 --> 00:29:00.864
+I know that will be a person
+
+540
+00:29:00.864 --> 00:29:02.736
+that will be open to answer.
+
+541
+00:29:02.736 --> 00:29:07.150
+So first of all, join the community.
+
+542
+00:29:07.150 --> 00:29:08.864
+We are really nice people.
+
+543
+00:29:08.864 --> 00:29:11.574
+We are going to be open to help you anytime.
+
+544
+00:29:11.574 --> 00:29:13.402
+And then you can follow your own path.
+
+545
+00:29:13.402 --> 00:29:15.002
+You will be defining your own path.
+
+546
+00:29:15.002 --> 00:29:17.508
+So you will follow your instance, and you
+
+547
+00:29:17.508 --> 00:29:22.870
+will see that it's really nice, it's satisfactory.
+
+548
+00:29:22.870 --> 00:29:25.672
+When you found that you were trying
+
+549
+00:29:25.672 --> 00:29:27.800
+to understand this, and finally you understand
+
+550
+00:29:27.800 --> 00:29:29.940
+this, but plenty amount of things.
+
+551
+00:29:35.590 --> 00:29:36.584
+Go ahead. Yeah.
+
+552
+00:29:36.584 --> 00:29:38.898
+I mentioned a workshop because Karo helped
+
+553
+00:29:38.898 --> 00:29:42.108
+us to organize some Humble Data workshop, so,
+
+554
+00:29:42.108 --> 00:29:45.690
+yeah, she's very experienced in doing that.
+
+555
+00:29:45.690 --> 00:29:46.440
+Yeah.
+
+556
+00:29:47.050 --> 00:29:49.906
+I just want to say, feel really related
+
+557
+00:29:49.906 --> 00:29:52.048
+to that, because it is also through the
+
+558
+00:29:52.048 --> 00:29:54.192
+Python community that I learned a lot.
+
+559
+00:29:54.192 --> 00:29:55.040
+Like, I learned about.
+
+560
+00:29:55.040 --> 00:29:56.752
+I even learned about how to
+
+561
+00:29:56.752 --> 00:29:59.312
+contribute to open source and speaking.
+
+562
+00:29:59.312 --> 00:30:03.540
+I got mentors as well, and I feel that's the difference
+
+563
+00:30:03.540 --> 00:30:08.004
+of the Python community, the fact that there is a community
+
+564
+00:30:08.004 --> 00:30:12.788
+that is willing and wanting to help you, and all you
+
+565
+00:30:12.788 --> 00:30:17.120
+need to do is just learn and then pay it forward. Right.
+
+566
+00:30:19.810 --> 00:30:21.440
+It's awesome to hear that.
+
+567
+00:30:22.450 --> 00:30:23.108
+Yeah.
+
+568
+00:30:23.108 --> 00:30:24.708
+I could say that there are no
+
+569
+00:30:24.708 --> 00:30:29.164
+more welcoming community than the Python community.
+
+570
+00:30:29.164 --> 00:30:30.310
+It's incredible.
+
+571
+00:30:32.010 --> 00:30:34.124
+Anywhere is really like, you
+
+572
+00:30:34.124 --> 00:30:35.420
+are in the Python community. Nice.
+
+573
+00:30:35.420 --> 00:30:36.796
+Where you know these people
+
+574
+00:30:36.796 --> 00:30:40.416
+and everyone knows each other.
+
+575
+00:30:40.416 --> 00:30:46.118
+So it's wonderful when you go in that circle.
+
+576
+00:30:46.118 --> 00:30:47.046
+It's incredible.
+
+577
+00:30:47.046 --> 00:30:48.970
+It's really nice and inspiring.
+
+578
+00:30:50.350 --> 00:30:50.880
+Yeah.
+
+579
+00:30:50.880 --> 00:30:53.808
+I think that joining the community is a very
+
+580
+00:30:53.808 --> 00:30:56.602
+good way, because if you do it yourself, it's
+
+581
+00:30:56.602 --> 00:30:58.516
+very high chance you would give up.
+
+582
+00:30:58.516 --> 00:31:00.228
+But if you do it with the community,
+
+583
+00:31:00.228 --> 00:31:03.070
+you kind of feel like you're not alone.
+
+584
+00:31:03.750 --> 00:31:06.344
+You won't procrastinate so much, and
+
+585
+00:31:06.344 --> 00:31:09.208
+you're more motivated to do something.
+
+586
+00:31:09.208 --> 00:31:11.742
+So that's why when I was learning Rust,
+
+587
+00:31:11.742 --> 00:31:14.984
+I also start to maybe film myself.
+
+588
+00:31:14.984 --> 00:31:21.170
+So I kind of want to get more support from my viewers.
+
+589
+00:31:21.170 --> 00:31:25.080
+So that feel better than doing it yourself.
+
+590
+00:31:26.170 --> 00:31:31.296
+But how could someone, let's say, especially women, who maybe
+
+591
+00:31:31.296 --> 00:31:36.352
+feel that, oh, tech is very not something they would
+
+592
+00:31:36.352 --> 00:31:38.592
+aspire to do when they were a girl?
+
+593
+00:31:38.592 --> 00:31:40.868
+Because in my culture, when you grow up, if
+
+594
+00:31:40.868 --> 00:31:43.338
+you're a girl, then you probably won't get encouraged
+
+595
+00:31:43.338 --> 00:31:49.310
+to do engineering or science or coding.
+
+596
+00:31:50.210 --> 00:31:53.172
+So I think especially for women and
+
+597
+00:31:53.172 --> 00:31:55.400
+community, supportive network is very important.
+
+598
+00:31:55.400 --> 00:31:58.760
+But how can they find out?
+
+599
+00:31:58.760 --> 00:32:01.598
+Because you were lucky to have a professor that's
+
+600
+00:32:01.598 --> 00:32:03.784
+very supportive, and then you found PyCon Colombia, and
+
+601
+00:32:03.784 --> 00:32:06.306
+find a friend who get you into the Slack.
+
+602
+00:32:06.306 --> 00:32:07.212
+But how?
+
+603
+00:32:07.212 --> 00:32:08.652
+Except that they have to find
+
+604
+00:32:08.652 --> 00:32:09.990
+you to get into the Slack.
+
+605
+00:32:11.290 --> 00:32:14.840
+How can someone find a way?
+
+606
+00:32:19.390 --> 00:32:22.688
+I think, and we believe a lot here in
+
+607
+00:32:22.688 --> 00:32:25.328
+Colombia, that the voice to voice is, like,
+
+608
+00:32:25.328 --> 00:32:28.224
+the best way to make something happen.
+
+609
+00:32:28.224 --> 00:32:32.612
+So we try to tell that to anyone that join us.
+
+610
+00:32:32.612 --> 00:32:38.394
+Even if you are just hearing that, even your own daughter
+
+611
+00:32:38.394 --> 00:32:42.728
+or your niece or someone that you hear that would like
+
+612
+00:32:42.728 --> 00:32:46.376
+to start coding, just send them the web page.
+
+613
+00:32:46.376 --> 00:32:47.448
+We have a web page.
+
+614
+00:32:47.448 --> 00:32:50.168
+So PyLadies Co. pyladies dot co
+
+615
+00:32:50.168 --> 00:32:55.976
+So you can just find the chapter that is closer to you
+
+616
+00:32:55.976 --> 00:32:59.500
+or the meetup that you would like to see or to watch.
+
+617
+00:32:59.500 --> 00:33:03.794
+Because we are always streaming our events.
+
+618
+00:33:03.794 --> 00:33:07.458
+After the pandemic, our mind changed and we realized
+
+619
+00:33:07.458 --> 00:33:10.650
+that many of our people just left the country
+
+620
+00:33:10.650 --> 00:33:13.216
+and we want to keep there for them.
+
+621
+00:33:13.216 --> 00:33:16.118
+So that is why we keep streaming all the events.
+
+622
+00:33:16.118 --> 00:33:18.912
+And for new people that is coming after or
+
+623
+00:33:18.912 --> 00:33:22.224
+for people that is from other places of the
+
+624
+00:33:22.224 --> 00:33:24.240
+world, they can be part of us.
+
+625
+00:33:25.330 --> 00:33:28.916
+And the way that they can look for us,
+
+626
+00:33:28.916 --> 00:33:31.530
+we are pretty much in all the social medias.
+
+627
+00:33:31.530 --> 00:33:34.734
+I think we are in Instagram, TikTok, like everywhere.
+
+628
+00:33:34.734 --> 00:33:39.992
+If they search by Python or we are trying
+
+629
+00:33:39.992 --> 00:33:42.328
+to do our homework well, that is putting all
+
+630
+00:33:42.328 --> 00:33:45.774
+the hashtags and tagging all the different communities.
+
+631
+00:33:45.774 --> 00:33:48.180
+We are trying to be there for all of them.
+
+632
+00:33:49.050 --> 00:33:51.708
+I hope if they don't find us in the
+
+633
+00:33:51.708 --> 00:33:54.908
+very first search, someone can let us know that
+
+634
+00:33:54.908 --> 00:33:56.812
+we exist and we are here for them.
+
+635
+00:33:56.812 --> 00:34:01.168
+And they only need to click on a follow or they
+
+636
+00:34:01.168 --> 00:34:06.272
+can only click and join us in our Discord server where
+
+637
+00:34:06.272 --> 00:34:09.179
+we are talking about different topics all the time.
+
+638
+00:34:11.969 --> 00:34:13.812
+We are here for them.
+
+639
+00:34:13.812 --> 00:34:17.790
+I hope they can find us easily.
+
+640
+00:34:18.449 --> 00:34:21.476
+We have been asking us that, Cheuk, really
+
+641
+00:34:21.476 --> 00:34:24.020
+long time ago how we can reach them.
+
+642
+00:34:25.030 --> 00:34:28.260
+We try to reach out also
+
+643
+00:34:29.510 --> 00:34:31.678
+school professors for different parents.
+
+644
+00:34:31.678 --> 00:34:33.768
+Like, my mom helped me a lot when I was
+
+645
+00:34:33.768 --> 00:34:38.027
+a kid also, she was like, you can explore and
+
+646
+00:34:38.027 --> 00:34:39.676
+you can play with anything that you want.
+
+647
+00:34:39.676 --> 00:34:41.851
+And I really appreciate that she did that
+
+648
+00:34:41.851 --> 00:34:46.188
+because I was really into robotics since my
+
+649
+00:34:46.188 --> 00:34:48.411
+twelve years old, something like that.
+
+650
+00:34:48.411 --> 00:34:49.938
+She was like, okay, you want a robot?
+
+651
+00:34:49.938 --> 00:34:51.746
+Okay, let's go and find a robot.
+
+652
+00:34:51.746 --> 00:34:53.888
+I didn't want a Barbie. After I want a
+
+653
+00:34:53.888 --> 00:34:55.942
+Barbie, but then it was like a robot.
+
+654
+00:34:55.942 --> 00:34:58.118
+And she was like, okay, let's go with the robot.
+
+655
+00:34:58.118 --> 00:35:01.490
+And then was like a party of robots and Barbies.
+
+656
+00:35:01.490 --> 00:35:02.510
+Who knows?
+
+657
+00:35:05.250 --> 00:35:06.682
+That is really funny.
+
+658
+00:35:06.682 --> 00:35:09.028
+And she was like, okay, let's do it.
+
+659
+00:35:09.028 --> 00:35:12.698
+When we receive parents in our meetups, we try to encourage
+
+660
+00:35:12.698 --> 00:35:17.192
+them to do the same because the girls, the women are
+
+661
+00:35:17.192 --> 00:35:20.020
+like, we are feeling lost in the process of finding
+
+662
+00:35:21.510 --> 00:35:25.464
+I want to feel that I have something that identify myself
+
+663
+00:35:25.464 --> 00:35:29.788
+and I'm good at that and I'm getting that inspiration to
+
+664
+00:35:29.788 --> 00:35:32.316
+wake up and get up from the bed and say, okay,
+
+665
+00:35:32.316 --> 00:35:34.188
+this is what I want to do today.
+
+666
+00:35:34.188 --> 00:35:36.412
+And we are struggling and that
+
+667
+00:35:36.412 --> 00:35:38.108
+is like from decades ago.
+
+668
+00:35:38.108 --> 00:35:40.352
+We are struggling a lot to find that.
+
+669
+00:35:40.352 --> 00:35:43.820
+And since the industry is moving that fast?
+
+670
+00:35:44.350 --> 00:35:46.886
+I don't know how fast we are moving as generations
+
+671
+00:35:46.886 --> 00:35:50.358
+and as parents, teaching them that they have a sea
+
+672
+00:35:50.358 --> 00:35:53.684
+of possibilities and they can do whatever that they want.
+
+673
+00:35:53.684 --> 00:35:57.012
+I think the academy, the industry, the
+
+674
+00:35:57.012 --> 00:36:00.640
+schools, we need to find connecting us.
+
+675
+00:36:01.650 --> 00:36:02.720
+I don't know.
+
+676
+00:36:03.250 --> 00:36:04.964
+You can be at the school, you can be at the
+
+677
+00:36:04.964 --> 00:36:07.592
+university, but you can be also part of the community.
+
+678
+00:36:07.592 --> 00:36:09.928
+So PyLadies is not something that
+
+679
+00:36:09.928 --> 00:36:11.230
+you need to be exclusive.
+
+680
+00:36:11.230 --> 00:36:12.984
+And that's something that you
+
+681
+00:36:12.984 --> 00:36:15.342
+could be just there liking,
+
+682
+00:36:15.342 --> 00:36:18.302
+following us, sharing, assisting to the meetups,
+
+683
+00:36:18.302 --> 00:36:20.924
+attending to the meetups, and that's it.
+
+684
+00:36:20.924 --> 00:36:22.332
+That is what we need from you.
+
+685
+00:36:22.332 --> 00:36:26.946
+And that is what is changing the scene.
+
+686
+00:36:26.946 --> 00:36:28.120
+But I don't know.
+
+687
+00:36:29.290 --> 00:36:31.122
+That is an open question, Cheuk
+
+688
+00:36:31.122 --> 00:36:32.920
+I think.
+
+689
+00:36:34.030 --> 00:36:36.406
+I think go back to the point that we need allies.
+
+690
+00:36:36.406 --> 00:36:41.152
+I think we need people who tell whoever they know that,
+
+691
+00:36:41.152 --> 00:36:44.700
+oh, they may want to learn this, or they are like,
+
+692
+00:36:45.230 --> 00:36:47.348
+you may have a friend who come to you and say
+
+693
+00:36:47.348 --> 00:36:49.636
+that, oh, I might be struggling with what I'm doing.
+
+694
+00:36:49.636 --> 00:36:51.332
+I don't like what I'm doing right now.
+
+695
+00:36:51.332 --> 00:36:52.996
+I want to try something new.
+
+696
+00:36:52.996 --> 00:36:55.368
+And you think that they will be great coding then
+
+697
+00:36:55.368 --> 00:36:59.672
+just like, hey, come to this PyLady and do.
+
+698
+00:36:59.672 --> 00:37:02.328
+I do sometimes have people who say,
+
+699
+00:37:02.328 --> 00:37:05.838
+oh, they want to invite, maybe introduce
+
+700
+00:37:05.838 --> 00:37:10.890
+their spouse to coding or coworker.
+
+701
+00:37:10.890 --> 00:37:13.212
+I know that, for example, Karo, you
+
+702
+00:37:13.212 --> 00:37:15.436
+bring some of your coworker into help
+
+703
+00:37:15.436 --> 00:37:18.120
+organizing things in the community as well
+
+704
+00:37:21.450 --> 00:37:23.680
+So it's good to have a presence
+
+705
+00:37:23.680 --> 00:37:25.632
+online so people can easily find you.
+
+706
+00:37:25.632 --> 00:37:28.838
+But at the same time, I think there's
+
+707
+00:37:28.838 --> 00:37:30.502
+so many things out there in the Internet
+
+708
+00:37:30.502 --> 00:37:32.772
+still, like reference and word of mouth is
+
+709
+00:37:32.772 --> 00:37:36.450
+maybe the traditional way to bring people in.
+
+710
+00:37:36.450 --> 00:37:38.756
+There is a challenge, but if someone hear
+
+711
+00:37:38.756 --> 00:37:41.268
+us and knows another way to reach out
+
+712
+00:37:41.268 --> 00:37:43.280
+to people, please just let us know.
+
+713
+00:37:44.870 --> 00:37:46.350
+We need ideas.
+
+714
+00:37:46.350 --> 00:37:49.384
+We are open to execute new ideas and we
+
+715
+00:37:49.384 --> 00:37:52.872
+are here to make everything you need aside to
+
+716
+00:37:52.872 --> 00:37:54.632
+make that happen, to make that happen.
+
+717
+00:37:54.632 --> 00:37:59.692
+So we are really in a willing way
+
+718
+00:37:59.692 --> 00:38:02.780
+or status or mood to help everyone.
+
+719
+00:38:02.780 --> 00:38:07.532
+And I really hope, I wish at some point,
+
+720
+00:38:07.532 --> 00:38:11.650
+we are always having a chart of increasing.
+
+721
+00:38:11.650 --> 00:38:15.632
+After each meetup, we have between 50 or 60
+
+722
+00:38:15.632 --> 00:38:18.886
+new people followers, and we have always those peaks.
+
+723
+00:38:18.886 --> 00:38:21.658
+But I would like to see one day, one huge peak
+
+724
+00:38:21.658 --> 00:38:25.520
+to understand what else we can do, what we did.
+
+725
+00:38:26.850 --> 00:38:29.770
+And even if we are following all these structures
+
+726
+00:38:29.770 --> 00:38:32.856
+that Instagram gives you, or TikTok gives you, like
+
+727
+00:38:32.856 --> 00:38:36.312
+post one story one day and two stories per
+
+728
+00:38:36.312 --> 00:38:37.912
+day or two posts per day.
+
+729
+00:38:37.912 --> 00:38:39.592
+And even if you follow all of
+
+730
+00:38:39.592 --> 00:38:42.930
+those, we are not yet influencers.
+
+731
+00:38:45.050 --> 00:38:49.042
+We are still not in the eyes of the algorithm.
+
+732
+00:38:49.042 --> 00:38:52.706
+So we are still not viral.
+
+733
+00:38:52.706 --> 00:38:55.612
+And I wish we could be viral like many
+
+734
+00:38:55.612 --> 00:38:59.340
+people following us and getting our content, that we
+
+735
+00:38:59.340 --> 00:39:02.608
+really take the time, the time to build, to
+
+736
+00:39:02.608 --> 00:39:05.312
+prepare and to post the content.
+
+737
+00:39:05.312 --> 00:39:08.230
+For example, you both are doing with these podcasts.
+
+738
+00:39:08.230 --> 00:39:10.640
+That is a really big effort that
+
+739
+00:39:10.640 --> 00:39:12.644
+many people do in the community.
+
+740
+00:39:12.644 --> 00:39:17.722
+And I know that we are reaching our people, at our audience,
+
+741
+00:39:17.722 --> 00:39:20.628
+but I wish we can reach out more people, each time.
+
+742
+00:39:20.628 --> 00:39:26.356
+But I don't know, maybe the algorithm is thinking
+
+743
+00:39:26.356 --> 00:39:28.856
+different, and we are not selling something here.
+
+744
+00:39:28.856 --> 00:39:30.610
+So it's weird.
+
+745
+00:39:32.310 --> 00:39:33.406
+It's a challenge.
+
+746
+00:39:33.406 --> 00:39:35.730
+Yeah, that's really a challenge.
+
+747
+00:39:37.590 --> 00:39:39.292
+I think we are almost at the end.
+
+748
+00:39:39.292 --> 00:39:42.092
+So do you have one last thing or anything you want to
+
+749
+00:39:42.092 --> 00:39:44.668
+tell the viewers or just spread the word to the world?
+
+750
+00:39:44.668 --> 00:39:50.304
+Anything, you have to say it then now is the chance.
+
+751
+00:39:50.304 --> 00:39:50.768
+I think.
+
+752
+00:39:50.768 --> 00:39:53.968
+I would like to add that you don't need to be
+
+753
+00:39:53.968 --> 00:39:58.190
+coding all days to be part of the Python community.
+
+754
+00:39:58.190 --> 00:40:02.928
+You can use Python once in a
+
+755
+00:40:02.928 --> 00:40:05.076
+semester or once in a month.
+
+756
+00:40:05.076 --> 00:40:06.900
+But you know Python and you
+
+757
+00:40:06.900 --> 00:40:09.092
+understand Python and you are like.
+
+758
+00:40:09.092 --> 00:40:10.884
+Or you want to understand Python and
+
+759
+00:40:10.884 --> 00:40:12.228
+you want to use it more.
+
+760
+00:40:12.228 --> 00:40:15.598
+It could be any reason related to Python,
+
+761
+00:40:15.598 --> 00:40:20.862
+or maybe related to another language, programming language,
+
+762
+00:40:20.862 --> 00:40:23.848
+or another things that you saw that maybe
+
+763
+00:40:23.848 --> 00:40:25.198
+someone else did with Python.
+
+764
+00:40:25.198 --> 00:40:26.428
+That was easy.
+
+765
+00:40:26.428 --> 00:40:28.668
+So you are more than welcome.
+
+766
+00:40:28.668 --> 00:40:31.628
+So I want to open the invitation and
+
+767
+00:40:31.628 --> 00:40:35.610
+to join really your local community for Python.
+
+768
+00:40:35.610 --> 00:40:40.672
+I could say, without any afraid to be wrong.
+
+769
+00:40:40.672 --> 00:40:43.360
+I could say that mostly all the countries have
+
+770
+00:40:43.360 --> 00:40:47.856
+at least one charter of PyLadies or Python, or
+
+771
+00:40:47.856 --> 00:40:49.990
+it could be in your own continent.
+
+772
+00:40:49.990 --> 00:40:53.286
+So even if you don't have it in your local town,
+
+773
+00:40:53.286 --> 00:40:55.668
+you can open it and you will find people that will
+
+774
+00:40:55.668 --> 00:40:58.788
+be interesting with you to chat once in a month, one
+
+775
+00:40:58.788 --> 00:41:01.988
+in a week, and you will receive the support for all
+
+776
+00:41:01.988 --> 00:41:05.176
+the other community members and all the other leaders, and also
+
+777
+00:41:05.176 --> 00:41:09.250
+the Python Software Foundation to help your chapter.
+
+778
+00:41:09.830 --> 00:41:13.854
+And that could change your mind, your mindset,
+
+779
+00:41:13.854 --> 00:41:16.790
+your ideas, and that could change your.
+
+780
+00:41:16.790 --> 00:41:19.628
+So I want to invite everyone to be part of the
+
+781
+00:41:19.628 --> 00:41:24.076
+community and to join us, even if you don't want,
+
+782
+00:41:24.076 --> 00:41:27.522
+also an extra for the invitation,
+
+783
+00:41:27.522 --> 00:41:30.832
+If you don't want to organize event, because I know
+
+784
+00:41:30.832 --> 00:41:33.216
+that that takes time, or if you don't want to
+
+785
+00:41:33.216 --> 00:41:37.504
+find a sponsorship or do the normal stuff that the
+
+786
+00:41:37.504 --> 00:41:41.568
+people think that are behind of organizing a community, you
+
+787
+00:41:41.568 --> 00:41:44.548
+can also create content, you can create an article, you
+
+788
+00:41:44.548 --> 00:41:47.652
+can share with us what you did for the last
+
+789
+00:41:47.652 --> 00:41:50.916
+production release that you accomplished, or what was a problem
+
+790
+00:41:50.916 --> 00:41:55.608
+that you face between an integration between different frameworks that
+
+791
+00:41:55.608 --> 00:41:58.696
+you are using in your work, at work or whatever,
+
+792
+00:41:58.696 --> 00:41:59.944
+that you believe that
+
+793
+00:41:59.944 --> 00:42:02.168
+okay, this took me time to
+
+794
+00:42:02.168 --> 00:42:04.302
+investigate to find a solution.
+
+795
+00:42:04.302 --> 00:42:06.904
+I'm going to create an article and I'm going to
+
+796
+00:42:06.904 --> 00:42:09.448
+create this post, or I'm going to do this talk
+
+797
+00:42:09.448 --> 00:42:11.484
+and I'm going to reach out my local community and
+
+798
+00:42:11.484 --> 00:42:13.788
+I'm going to share that knowledge because that is going
+
+799
+00:42:13.788 --> 00:42:15.372
+to save the time for others.
+
+800
+00:42:15.372 --> 00:42:20.448
+And that is a really lovely sensation and feeling that
+
+801
+00:42:20.448 --> 00:42:24.384
+you can say, okay, I did good, and that's it.
+
+802
+00:42:24.384 --> 00:42:27.136
+And that will be your piece of help.
+
+803
+00:42:27.136 --> 00:42:30.048
+And it will be really welcomed in the community, too.
+
+804
+00:42:30.048 --> 00:42:33.120
+So this is an invitation for you to be part.
+
+805
+00:42:35.330 --> 00:42:36.324
+That's awesome.
+
+806
+00:42:36.324 --> 00:42:38.800
+And I thought I share that.
+
+807
+00:42:39.730 --> 00:42:42.548
+That's a really great idea and that's really
+
+808
+00:42:42.548 --> 00:42:45.190
+a great way to help the community.
+
+809
+00:42:45.190 --> 00:42:47.208
+I think the content from the
+
+810
+00:42:47.208 --> 00:42:49.380
+community all comes from you.
+
+811
+00:42:50.230 --> 00:42:53.080
+You can start becoming the content of
+
+812
+00:42:53.080 --> 00:42:56.712
+Python, learning Python or using community.
+
+813
+00:42:56.712 --> 00:43:01.282
+And we have lots of conferences all over the world that's
+
+814
+00:43:01.282 --> 00:43:05.420
+looking for talks about Python, and you can be the one
+
+815
+00:43:05.420 --> 00:43:07.708
+giving the talk and you can totally do it.
+
+816
+00:43:07.708 --> 00:43:09.424
+So I will pitch out.
+
+817
+00:43:09.424 --> 00:43:14.662
+PyCon US 2024 is right now accepting talks.
+
+818
+00:43:14.662 --> 00:43:17.130
+And if you have talk ideas,
+
+819
+00:43:17.710 --> 00:43:19.980
+listen to Karo submit a talk.
+
+820
+00:43:20.930 --> 00:43:23.130
+And I know there are lots of other conferences
+
+821
+00:43:23.130 --> 00:43:26.388
+going on as well, so not PyCon US.
+
+822
+00:43:26.388 --> 00:43:27.562
+There are lots of Python
+
+823
+00:43:27.562 --> 00:43:30.858
+conferences, lots of Python everywhere.
+
+824
+00:43:30.858 --> 00:43:35.176
+Euro Python and PyCon APAC. Really,
+
+825
+00:43:35.176 --> 00:43:36.606
+there's a lot of them everywhere.
+
+826
+00:43:36.606 --> 00:43:39.112
+So give a talk.
+
+827
+00:43:39.112 --> 00:43:40.230
+Yeah.
+
+828
+00:43:40.230 --> 00:43:41.460
+Thank you so much.
+
+829
+00:43:42.390 --> 00:43:42.984
+Yeah.
+
+830
+00:43:42.984 --> 00:43:44.062
+Thank you so much, Karo.
+
+831
+00:43:44.062 --> 00:43:46.696
+It's so nice chatting with you and so
+
+832
+00:43:46.696 --> 00:43:49.068
+nice to share so much of your experience.
+
+833
+00:43:49.068 --> 00:43:51.308
+Even I know you for a while.
+
+834
+00:43:51.308 --> 00:43:54.748
+It's always refreshing to know more about how you
+
+835
+00:43:54.748 --> 00:43:57.820
+manage and how you do this and that. It's great.
+
+836
+00:43:57.820 --> 00:43:59.080
+So thank you so much.
+
+837
+00:43:59.690 --> 00:44:00.130
+Bye.
