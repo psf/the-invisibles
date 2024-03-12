@@ -19,7 +19,7 @@ season: 1
 transcript: '/transcript/hidden-figures-of-python-ep2.vtt'
 episode_type: full
 layout: episode
-youtube_id: 
+youtube_id: 78CZsda7L8c
   
 speaker:
   title: "Karolina Ladino"
@@ -57,8 +57,7 @@ In this episode, Karolina shared some of the struggles and difficulties faced by
 she helped shaped the community, making it safer and more welcoming so that more women could have the opportunities
 in the Python and tech communities.
 
-We learned about Karolina's mentor, Professor Olmer, who supported and encouraged her in her studies, and how it
-inspired her to pay it forward by further helping and supporting other women herself.
+We learned about Karolina's mentor, Professor Olmer, who not only supported and encouraged her studies but also served as an inspiration for her to pay it forward by extending her support to other women.
 
 To those who are still learning Python or want to switch their career, Karo shared many useful advices, so be sure
 to listen to the episode to learn from her!
