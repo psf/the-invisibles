@@ -10,7 +10,7 @@ publish_date: 2024-02-14T00:00:00-07:00
 podcast_file: "/audio/hidden-figures-ep2.mp3"
 podcast_duration: 2650.6
 episode_image: "images/ep2-karolina.jpg"
-podcast_bytes: "106028031" # the length of the episode in bytes
+podcast_bytes: "42411092" # the length of the episode in bytes
 images: ["images/ep2-karolina.jpg", "images/karolina_ladino.JPG"]
 explicit: false 
 type: 'episode'
