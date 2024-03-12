@@ -1,11 +1,11 @@
 ---
 title: "Episode 2: with Karolina Ladino"
 meta_title: "Episode 2 with Karolina Ladino"
-description: "A preview of our chat with Karolina Ladino. Watch the full episode on Mar 13, 2024"
+description: "Hear about Karo's journey on she became involved with the Python community in Colombia, and what inspires her to help other women in their Python journey."
 date: 2024-03-13T04:00:00-07:00
 host: [ "Mariatta", "Cheuk"]
 draft: false
-tags: ["python", "community", "colombia", "growth", "robotics", "opportunities", "trailer"]
+tags: ["python", "community", "colombia", "growth", "robotics", "opportunities", "mentorship"]
 publish_date: 2024-02-13T04:00:00-07:00
 podcast_file: "/audio/hidden-figures-ep2.mp3"
 podcast_duration: 2650.6
