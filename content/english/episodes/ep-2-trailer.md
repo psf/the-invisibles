@@ -22,6 +22,7 @@ layout: episode
 youtube_id: CssR7KkKdm0?si
   
 speaker:
+  url: "/speakers/karolina-ladino/"
   title: "Karolina Ladino"
   image: "/images/karolina_ladino.JPG"
   description: "Karo is a Product Manager, robotics engineer, MSc Data Analytics, teacher, maker, and jeweler. She co-leads PyLadies Bogotá and PyLadies Colombia initiative. She is part of Python Colombia and is a co-organizer of the PyConCo conference. She has more than 9 years of experience creating hardware for various disciplines. She loves working towards creating opportunities and spaces for personal and professional growth of people. In her free time, she draws and works on her jewelry project."

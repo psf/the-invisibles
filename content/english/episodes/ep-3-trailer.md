@@ -22,6 +22,7 @@ layout: episode
 youtube_id: 
   
 speaker:
+  url: "/speakers/vicky-twomey-lee/"
   title: "Vicky Twomey-Lee"
   image: "/images/vicky_twomey_lee.jpg"
   description: "

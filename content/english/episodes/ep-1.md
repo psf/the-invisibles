@@ -23,6 +23,7 @@ layout: episode
 youtube_id: '25LbKKTL38g'
 
 speaker:
+  url: "/speakers/joanna-jablonski/"
   title: "Joanna Jablonski"
   image: "/images/joanna_jablonski.jpg"
   description: "Joanna has written lots of great articles for RealPython, blogged for the Python Language Summit,
