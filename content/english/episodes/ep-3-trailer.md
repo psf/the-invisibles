@@ -19,7 +19,7 @@ season: 1
 transcript: '/transcript/hidden-figures-of-python-ep3-trailer.vtt'
 episode_type: trailer
 layout: episode
-youtube_id: 
+youtube_id: zVIMW0YgbIk
   
 speaker:
   url: "/speakers/vicky-twomey-lee/"
