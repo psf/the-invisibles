@@ -57,4 +57,4 @@ Sneak Peek of our chat with Vicky Twomey-Lee, hosted by Georgi Ker and Tereza Io
 
 Hear about Vicky's journey in the Python community and learn how she has been helping grow the Python and PyLadies community in Ireland!
 
-Full episode is coming on **April 17, 2024**! Subscribe to our podcast now!
+Full episode is coming on **April 12, 2024**! Subscribe to our podcast now!
