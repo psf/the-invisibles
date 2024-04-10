@@ -1,7 +1,7 @@
 ---
 title: "Trailer: Episode 3 with Vicky Twomey-Lee"
 meta_title: "Trailer: Episode 3 with Vicky Twomey-Lee"
-description: "A preview of our chat with Vicky Twomey-Lee. Watch the full episode on Apr 17, 2024"
+description: "A preview of our chat with Vicky Twomey-Lee. Watch the full episode on Apr 12, 2024"
 date: 2024-04-10T00:00:00-08:00
 host: [ "Georgi", "Tereza"]
 draft: false
