@@ -80,6 +80,7 @@ Be sure to listen to the episode to learn about all the amazing things Vicky has
 - Other hobbies: Lino Print, Zines, Gaming, Electronics, Cross-media arts
 - Her Make room
 - How to get in touch with her
+- Making with 3D Pen
 
 ## Links from the show
 
@@ -93,3 +94,4 @@ Be sure to listen to the episode to learn about all the amazing things Vicky has
 - EuroPython: https://europython.eu/
 - Barry's Tea: https://www.barrystea.ie/
 - Dublin Maker: https://www.dublinmaker.ie/
+- 3D Pen Pickle Rick: https://www.youtube.com/watch?v=kqqenrYyQvQ
