@@ -73,7 +73,7 @@ Be sure to listen to the episode to learn about all the amazing things Vicky has
 - Getting paid to play and research games, going to game festivals, Dublin ComicCon
 - How Covid impacts the tech community in Dublin, and challenges in running events after covid
 - Making tech events more accessible
-- TechFoundHer: bootcamp to help women to become tech startup founder
+- TechFoundHer Boot Camp to help women to become tech startup founder
 - Dublin Maker community
 - Cupán Tae Conf: virtual talk series
 - Her choice of Irish Tea
