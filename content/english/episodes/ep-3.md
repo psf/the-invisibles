@@ -59,7 +59,7 @@ Python community in Dublin, Ireland.
 Vicky is an advocate for diversity in tech. She discovered Python (and its community) in 2002 and since then she
 has been actively involved in building the tech scene in Ireland.
 
-Vicky is a serial-started, having started and co-founded various communities including GameCraft, Coding Grace, and
+Vicky is a serial starter, having started and co-founded various communities including GameCraft, Coding Grace, and
 PyLadies Dublin. She was the Maker Advocate for Dublin Maker.
 
 Be sure to listen to the episode to learn about all the amazing things Vicky has done!
