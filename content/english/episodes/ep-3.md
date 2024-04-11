@@ -88,7 +88,7 @@ Be sure to listen to the episode to learn about all the amazing things Vicky has
 - PyCon Ireland: https://python.ie/pycon-2023/
 - PyLadies Dublin: https://dublin.pyladies.com/
 - TechFoundHer: https://techfoundher.com/
-- Coding Grace: https://twitter.com/codinggrace
+- Coding Grace: https://codinggrace.com
 - Cupán Tae Conf: https://cupantaeconf.com/
 - GameCraft: https://www.gamecraft.it/
 - EuroPython: https://europython.eu/
