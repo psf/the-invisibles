@@ -19,7 +19,7 @@ season: 1
 transcript: '/transcript/hidden-figures-of-python-ep3.vtt'
 episode_type: full
 layout: episode
-youtube_id: 
+youtube_id: 1bRMMoJTYrE
   
 speaker:
   url: "/speakers/vicky-twomey-lee/"
@@ -84,8 +84,7 @@ Be sure to listen to the episode to learn about all the amazing things Vicky has
 
 ## Links from the show
 
-- Python Ireland: https://python.ie/
-- PyCon Ireland: https://python.ie/pycon-2023/
+- Python Ireland/PyCon Ireland: https://python.ie/
 - PyLadies Dublin: https://dublin.pyladies.com/
 - TechFoundHer: https://techfoundher.com/
 - Coding Grace: https://codinggrace.com
