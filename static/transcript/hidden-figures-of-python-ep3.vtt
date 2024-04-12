@@ -1,0 +1,3989 @@
+WEBVTT
+
+1
+00:00:21.040 --> 00:00:23.830
+Hi everybody, welcome to PyPodcats
+
+2
+00:00:23.830 --> 00:00:26.814
+Hidden Figures of Python podcast series.
+
+3
+00:00:26.814 --> 00:00:29.422
+The PyPodcats is created to
+
+4
+00:00:29.422 --> 00:00:32.014
+highlight voices from the underrepresented group
+
+5
+00:00:32.014 --> 00:00:34.422
+group members of the Python community.
+
+6
+00:00:34.422 --> 00:00:36.726
+We follow the Python Software
+
+7
+00:00:36.726 --> 00:00:38.654
+Foundation's Code of Conduct.
+
+8
+00:00:38.654 --> 00:00:41.142
+So if you want to know a little bit more about
+
+9
+00:00:41.142 --> 00:00:46.814
+the Code of Conduct, you can check on pypodcats.live/conduct
+
+10
+00:00:46.814 --> 00:00:52.230
+That's pypodcats.live/conduct
+
+11
+00:00:52.230 --> 00:00:54.678
+Let me do a little bit of a self introduction.
+
+12
+00:00:54.678 --> 00:00:58.070
+My name is Georgi and I'm based in Amsterdam.
+
+13
+00:00:58.070 --> 00:01:01.014
+I'm one of the PyPodcats hosts and I'm
+
+14
+00:01:01.014 --> 00:01:03.918
+also one of the board director from the PSF.
+
+15
+00:01:03.918 --> 00:01:05.558
+Over to you, Tereza.
+
+16
+00:01:05.558 --> 00:01:08.718
+Hi, my name is Tereza, I'm based in Hamburg.
+
+17
+00:01:08.718 --> 00:01:10.550
+I'm also one of the PyPodcats.
+
+18
+00:01:10.550 --> 00:01:14.942
+I'm involved in several initiatives of Python Software
+
+19
+00:01:14.942 --> 00:01:17.622
+Foundation, like the Code of Conduct Work Group
+
+20
+00:01:17.622 --> 00:01:21.030
+Diversity and Inclusion workgroup, and PyLadies Hamburg.
+
+21
+00:01:21.030 --> 00:01:25.694
+And on to you, Vicky, our guest for this episode.
+
+22
+00:01:25.694 --> 00:01:27.262
+Hi everyone, Vicky here.
+
+23
+00:01:27.262 --> 00:01:29.022
+I'm based in Dublin, Ireland.
+
+24
+00:01:29.022 --> 00:01:31.726
+I look after PyLadies Dublin here, and I
+
+25
+00:01:31.726 --> 00:01:34.374
+have many, many hats on which we'll name,
+
+26
+00:01:34.374 --> 00:01:37.350
+but I am helping out in the PSF
+
+27
+00:01:37.350 --> 00:01:40.510
+Grants Working group as well, amongst other things.
+
+28
+00:01:40.510 --> 00:01:42.430
+So thank you for having me here today
+
+29
+00:01:42.430 --> 00:01:45.206
+And thank you, Vicky, for joining.
+
+30
+00:01:45.206 --> 00:01:48.006
+Well, Vicky, you have been an active member
+
+31
+00:01:48.006 --> 00:01:50.630
+in the Python community for quite some time.
+
+32
+00:01:50.630 --> 00:01:54.502
+So how do you get started using the Python language?
+
+33
+00:01:54.502 --> 00:02:01.974
+That was back in around 2002 when my now husband
+
+34
+00:02:01.974 --> 00:02:04.806
+then we used to work together in the company.
+
+35
+00:02:04.806 --> 00:02:06.302
+He came across Python and we decided
+
+36
+00:02:06.302 --> 00:02:08.973
+to use it to help streamline, streamline
+
+37
+00:02:08.973 --> 00:02:12.686
+our internal tools, processes made our life really easy,
+
+38
+00:02:12.686 --> 00:02:15.694
+as devs are kind of lazy and stuff.
+
+39
+00:02:15.694 --> 00:02:18.670
+So this really helped us out a lot. And it was out.
+
+40
+00:02:18.670 --> 00:02:20.702
+It was just really nice and simple to use.
+
+41
+00:02:20.702 --> 00:02:23.694
+And it was actually days before we encountered Python,
+
+42
+00:02:23.694 --> 00:02:26.006
+I did a Perl course at work and had the cert.
+
+43
+00:02:26.006 --> 00:02:27.286
+I was just sitting there lying on
+
+44
+00:02:27.286 --> 00:02:29.526
+the table, forgotten once I discovered Python.
+
+45
+00:02:29.526 --> 00:02:33.006
+So that's how I started using Python quite early on.
+
+46
+00:02:33.006 --> 00:02:34.750
+And it was just really helped
+
+47
+00:02:34.750 --> 00:02:36.566
+us out, really improved things.
+
+48
+00:02:36.566 --> 00:02:39.726
+I was helped with a lot of projects, especially with
+
+49
+00:02:39.726 --> 00:02:42.318
+the management and things like that, which is great to
+
+50
+00:02:42.318 --> 00:02:45.062
+see that even current day, I see my old colleagues
+
+51
+00:02:45.062 --> 00:02:47.350
+still using Python and things like that.
+
+52
+00:02:47.350 --> 00:02:49.206
+I assume they improved on the tools, but
+
+53
+00:02:49.206 --> 00:02:51.230
+it was good to be super early and
+
+54
+00:02:51.230 --> 00:02:53.350
+just making life easy for everyone, using a
+
+55
+00:02:53.350 --> 00:02:56.830
+super amazing technology and super easy to use.
+
+56
+00:02:56.830 --> 00:02:58.230
+That's really cool.
+
+57
+00:02:58.230 --> 00:02:59.894
+I have a question, though, regarding
+
+58
+00:02:59.894 --> 00:03:01.942
+your involvement in the Python community.
+
+59
+00:03:01.942 --> 00:03:04.894
+What attracted you to the community itself, like
+
+60
+00:03:04.894 --> 00:03:09.074
+organizing events and getting into PyLadies, for example?
+
+61
+00:03:09.074 --> 00:03:10.874
+You're not just coding in Python,
+
+62
+00:03:10.874 --> 00:03:12.514
+but you're doing so much more.
+
+63
+00:03:12.514 --> 00:03:15.170
+I suppose back in those days before Meetup and
+
+64
+00:03:15.170 --> 00:03:17.570
+Eventbrite came around, you have to know in Ireland
+
+65
+00:03:17.570 --> 00:03:19.498
+we may have one meetup a year. And that's true.
+
+66
+00:03:19.498 --> 00:03:21.250
+The irish Linux user group mailing list, if
+
+67
+00:03:21.250 --> 00:03:23.570
+you are honest and primarily word of mouth.
+
+68
+00:03:23.570 --> 00:03:25.186
+As much as I love my work colleagues at
+
+69
+00:03:25.186 --> 00:03:28.026
+the time, I do want to learn from other
+
+70
+00:03:28.026 --> 00:03:30.602
+people, like my peers, from other companies as well,
+
+71
+00:03:30.602 --> 00:03:32.690
+and other technology, which I just want my brain
+
+72
+00:03:32.690 --> 00:03:34.814
+to be melted a little bit and don't understand.
+
+73
+00:03:35.434 --> 00:03:39.082
+So when Python came about, probably two years after
+
+74
+00:03:39.082 --> 00:03:41.178
+we discovered Python and we saw other people who
+
+75
+00:03:41.178 --> 00:03:43.026
+were doing toys and stuff, and in Dublin, I
+
+76
+00:03:43.026 --> 00:03:44.170
+saw the meetup, jumped on it.
+
+77
+00:03:44.170 --> 00:03:45.514
+That was about 2004.
+
+78
+00:03:45.514 --> 00:03:47.522
+It was started by an engineer called
+
+79
+00:03:47.522 --> 00:03:49.218
+Darragh Sherwin, and then it got rebooted
+
+80
+00:03:49.218 --> 00:03:51.730
+in 2005 by the amazing Sean O'Donnell.
+
+81
+00:03:51.730 --> 00:03:55.202
+And we were gathered around a dark pub. Irish pub.
+
+82
+00:03:55.202 --> 00:03:56.954
+Yes, we're in Ireland. Stereotype.
+
+83
+00:03:56.954 --> 00:03:57.866
+We all meet in the pub.
+
+84
+00:03:57.866 --> 00:03:58.842
+Yes, that's what we do.
+
+85
+00:03:58.842 --> 00:04:00.378
+Sit around this tiny laptop in
+
+86
+00:04:00.378 --> 00:04:01.970
+the dark pub just not working.
+
+87
+00:04:01.970 --> 00:04:03.442
+And someone said, let's get a room
+
+88
+00:04:03.442 --> 00:04:05.266
+with a projector and give talks.
+
+89
+00:04:05.266 --> 00:04:06.804
+And no one volunteered.
+
+90
+00:04:06.804 --> 00:04:08.476
+So I said, oh, how hard could it be?
+
+91
+00:04:08.476 --> 00:04:11.324
+So I took the ball and ran with it and
+
+92
+00:04:11.324 --> 00:04:14.388
+ran the Python Ireland meetups every month, nearly every month
+
+93
+00:04:14.388 --> 00:04:17.531
+for nearly over eleven years before I handed it over.
+
+94
+00:04:17.531 --> 00:04:18.868
+So that's how I got involved
+
+95
+00:04:18.868 --> 00:04:20.692
+with the Python Ireland community.
+
+96
+00:04:20.692 --> 00:04:22.580
+It was pretty much very early on, and
+
+97
+00:04:22.580 --> 00:04:25.556
+when everything was extremely exciting, completely new technology,
+
+98
+00:04:25.556 --> 00:04:27.636
+that was the hottest thing right then, and
+
+99
+00:04:27.636 --> 00:04:29.340
+everyone just wanted to share what they did
+
+100
+00:04:29.340 --> 00:04:32.484
+with Python and its related technologies. With PyLadies,
+
+101
+00:04:32.484 --> 00:04:35.724
+that's another, another story as well that got
+
+102
+00:04:35.724 --> 00:04:39.932
+launched during PyCon Ireland in 2013 as well.
+
+103
+00:04:39.932 --> 00:04:42.060
+So, yeah, a lot of things kind of started
+
+104
+00:04:42.060 --> 00:04:45.824
+by me, I think a serial starter of things.
+
+105
+00:04:46.844 --> 00:04:48.172
+So when was that?
+
+106
+00:04:48.172 --> 00:04:50.260
+Is that in like a year?
+
+107
+00:04:50.260 --> 00:04:51.284
+It was.
+
+108
+00:04:51.284 --> 00:04:54.724
+So PyLadies Dublin was launched in 2013.
+
+109
+00:04:54.724 --> 00:04:59.224
+So that was my last year chairing PyCon Ireland 2013.
+
+110
+00:05:00.164 --> 00:05:02.796
+It was a pivotal moment because I managed to
+
+111
+00:05:02.796 --> 00:05:06.300
+invite a very first female keynote technical speaker, and
+
+112
+00:05:06.300 --> 00:05:08.500
+that was Lynn Root, and she was co founder
+
+113
+00:05:08.500 --> 00:05:10.788
+of the San Francisco chapter of PyLadies.
+
+114
+00:05:10.788 --> 00:05:12.340
+And I go, it's a sign.
+
+115
+00:05:12.340 --> 00:05:14.148
+Why not launch PyLadies Dublin?
+
+116
+00:05:14.148 --> 00:05:16.348
+I was launching not for profit initiatives all
+
+117
+00:05:16.348 --> 00:05:17.820
+over the place around 2012 and 13.
+
+118
+00:05:17.820 --> 00:05:20.724
+I said, what's one more to add to the list?
+
+119
+00:05:20.724 --> 00:05:24.068
+So we launched it in 2013 during sprints weekend, and
+
+120
+00:05:24.068 --> 00:05:27.132
+we had about six-ish people, a nice yummy cake
+
+121
+00:05:27.132 --> 00:05:29.100
+and a plan that we don't want to be the
+
+122
+00:05:29.100 --> 00:05:31.460
+same as other technical user groups at the time, which
+
+123
+00:05:31.460 --> 00:05:34.940
+we know is mainly two long talks with beer and
+
+124
+00:05:34.940 --> 00:05:37.292
+pizza in the middle, and then the pub afterwards.
+
+125
+00:05:37.292 --> 00:05:40.284
+And I did say we go to pub meetups a lot here,
+
+126
+00:05:40.284 --> 00:05:43.900
+especially in Ireland, but the folks here did not want to go
+
+127
+00:05:43.900 --> 00:05:47.020
+to pubs, did not want pizza and beer all the time.
+
+128
+00:05:47.020 --> 00:05:49.020
+They wanted something more interactive, but
+
+129
+00:05:49.020 --> 00:05:50.644
+they do want something monthly.
+
+130
+00:05:50.644 --> 00:05:55.316
+And, I mean, I'm still doing it right now, and it's currently
+
+131
+00:05:55.316 --> 00:05:58.020
+trying to keep it small to try and make sure that it's
+
+132
+00:05:58.020 --> 00:06:01.316
+not too scary for someone who's new coming into the group and
+
+133
+00:06:01.316 --> 00:06:03.572
+who wants to speak up or want to give a talk, or
+
+134
+00:06:03.572 --> 00:06:06.940
+just want to go around and meet other people and just don't
+
+135
+00:06:06.940 --> 00:06:08.028
+feel like they want to run away.
+
+136
+00:06:08.028 --> 00:06:10.588
+And because I'm not a coder or I'm not this, I'm
+
+137
+00:06:10.588 --> 00:06:12.380
+not a Python person, just want to make sure you just
+
+138
+00:06:12.380 --> 00:06:14.620
+come along, you're curious, or you just want to share and
+
+139
+00:06:14.620 --> 00:06:16.644
+be excited about something you found in Python.
+
+140
+00:06:16.644 --> 00:06:17.892
+Just share with us.
+
+141
+00:06:17.892 --> 00:06:19.104
+It's a safe space.
+
+142
+00:06:19.804 --> 00:06:22.764
+So that's 2013, quite a while ago.
+
+143
+00:06:22.764 --> 00:06:25.004
+I'd like to add a question, a follow up question.
+
+144
+00:06:25.004 --> 00:06:26.436
+Maybe it's a bit off script.
+
+145
+00:06:26.436 --> 00:06:30.996
+Okay, so how has your involvement in
+
+146
+00:06:30.996 --> 00:06:33.084
+the Python community helped in your career,
+
+147
+00:06:33.084 --> 00:06:34.868
+or has it helped in your career?
+
+148
+00:06:34.868 --> 00:06:36.236
+Helping, yes.
+
+149
+00:06:36.236 --> 00:06:39.362
+And I'm so blessed to have come across the Python
+
+150
+00:06:39.362 --> 00:06:43.474
+community, especially, as I said, I was really very privileged
+
+151
+00:06:43.474 --> 00:06:45.018
+in the right place at the right time, being able
+
+152
+00:06:45.018 --> 00:06:47.554
+to see Python in the early days, being able to
+
+153
+00:06:47.554 --> 00:06:50.098
+see a lot of the core developers, especially when I've
+
+154
+00:06:50.098 --> 00:06:52.018
+gone to EuroPython and I actually came across them.
+
+155
+00:06:52.018 --> 00:06:53.914
+I didn't even know they were the core developers.
+
+156
+00:06:53.914 --> 00:06:55.290
+And then I kind of nearly fainted when
+
+157
+00:06:55.290 --> 00:06:56.666
+my husband told me, you were sitting on
+
+158
+00:06:56.666 --> 00:06:58.482
+the table with all the core developers.
+
+159
+00:06:58.482 --> 00:07:01.546
+But they were so welcoming and so inviting and
+
+160
+00:07:01.546 --> 00:07:03.666
+so amazing to talk to and so supportive.
+
+161
+00:07:03.666 --> 00:07:07.250
+Those early days in 2009, while we're trying to
+
+162
+00:07:07.250 --> 00:07:10.722
+prepare our first conference in 2010 for PyCon Ireland,
+
+163
+00:07:10.722 --> 00:07:12.894
+it was the support of John Pinner and everyone
+
+164
+00:07:13.474 --> 00:07:15.938
+that helped us through, you know, setting up, like,
+
+165
+00:07:15.938 --> 00:07:17.578
+thinking of the ethos and why you're setting up
+
+166
+00:07:17.578 --> 00:07:20.074
+the conference, who you're setting it up for.
+
+167
+00:07:20.074 --> 00:07:23.322
+I think meeting those people and being supportive gave
+
+168
+00:07:23.322 --> 00:07:25.922
+me the kind of positivity that I want to
+
+169
+00:07:25.922 --> 00:07:27.602
+pay forward and help others as well.
+
+170
+00:07:27.602 --> 00:07:29.642
+And that's why I carry that as I left Python
+
+171
+00:07:29.642 --> 00:07:33.146
+Ireland behind and PyCon Ireland behind, because other people have
+
+172
+00:07:33.146 --> 00:07:35.002
+to take over, and I was burning out, but I
+
+173
+00:07:35.002 --> 00:07:37.434
+still want to carry on PyLadies Dublin, and I just
+
+174
+00:07:37.434 --> 00:07:40.790
+love how just even Global PyLadies, how we still have
+
+175
+00:07:40.790 --> 00:07:43.246
+that ethos of trying to help each other, trying to
+
+176
+00:07:43.246 --> 00:07:45.662
+be inclusive and have safe spaces and stuff.
+
+177
+00:07:45.662 --> 00:07:48.350
+And that goes same with EuroPython as well.
+
+178
+00:07:48.350 --> 00:07:50.222
+And that is a huge scale.
+
+179
+00:07:50.222 --> 00:07:52.190
+But I end up joining a lot of those just to
+
+180
+00:07:52.190 --> 00:07:54.838
+figure out how things work and run in the background to
+
+181
+00:07:54.838 --> 00:07:57.446
+try and improve how I do things here in Ireland and
+
+182
+00:07:57.446 --> 00:08:00.638
+also share that experience with other tech community organizers.
+
+183
+00:08:00.638 --> 00:08:02.398
+So from a community side of things,
+
+184
+00:08:02.398 --> 00:08:03.678
+I have learned a lot as a
+
+185
+00:08:03.678 --> 00:08:07.374
+volunteer, running events, hosting events, organizing events.
+
+186
+00:08:07.374 --> 00:08:09.462
+Career wise, I kind of stepped back a lot from
+
+187
+00:08:09.462 --> 00:08:11.878
+being a developer, as I got more pulled into the
+
+188
+00:08:11.878 --> 00:08:14.734
+community side, even though it's all mostly volunteer.
+
+189
+00:08:14.734 --> 00:08:17.790
+But I ended up working with say like
+
+190
+00:08:17.790 --> 00:08:21.318
+Dog Patch Labs, a co-sharing space, who also
+
+191
+00:08:21.318 --> 00:08:24.038
+runs a startup program here currently.
+
+192
+00:08:24.038 --> 00:08:26.830
+But they have a space for events and they were launching
+
+193
+00:08:26.830 --> 00:08:28.486
+it at the time and they asked me to come in
+
+194
+00:08:28.486 --> 00:08:31.846
+and connect them to the technical user groups around Dublin to
+
+195
+00:08:31.846 --> 00:08:33.038
+tell them to come along and use this.
+
+196
+00:08:33.038 --> 00:08:35.990
+So I was pretty much like a liaison with the irish tech
+
+197
+00:08:35.990 --> 00:08:38.942
+scene and I was trying to keep a finger on the pulse.
+
+198
+00:08:38.942 --> 00:08:42.354
+There is a very active kind of tech community here.
+
+199
+00:08:42.354 --> 00:08:45.482
+So Python, I think, formed the basis from that
+
+200
+00:08:45.482 --> 00:08:47.242
+where I started to meet a lot of different
+
+201
+00:08:47.242 --> 00:08:49.642
+people because the meetup scene was so small and
+
+202
+00:08:49.642 --> 00:08:51.850
+everyone start branching off and created their own niche
+
+203
+00:08:51.850 --> 00:08:54.634
+groups not technically Python related, go to
+
+204
+00:08:54.634 --> 00:08:58.186
+games, to different language user groups.
+
+205
+00:08:58.186 --> 00:09:01.530
+From that I bounced from different very kind
+
+206
+00:09:01.530 --> 00:09:05.146
+of interesting roles, like a game and curator
+
+207
+00:09:05.146 --> 00:09:08.544
+researcher for Dublin science gallery.
+
+208
+00:09:08.544 --> 00:09:11.264
+Back in 2012, around that same period that was,
+
+209
+00:09:11.264 --> 00:09:13.880
+I got paid to play games, research about games,
+
+210
+00:09:13.880 --> 00:09:15.912
+go to games, festivals and things like that.
+
+211
+00:09:15.912 --> 00:09:16.824
+And they came.
+
+212
+00:09:16.824 --> 00:09:19.192
+I interviewed a lot of game exhibitors, or
+
+213
+00:09:19.192 --> 00:09:22.584
+potential exhibitors who became exhibitors, and the gallery
+
+214
+00:09:22.584 --> 00:09:25.984
+produced an amazing wonder world of an exhibition
+
+215
+00:09:25.984 --> 00:09:28.408
+from my black and white spreadsheet.
+
+216
+00:09:28.408 --> 00:09:30.064
+It was fantastic.
+
+217
+00:09:30.064 --> 00:09:33.430
+That was completely so far away from coding, but
+
+218
+00:09:33.430 --> 00:09:35.926
+related to games, related to tech connected me to
+
+219
+00:09:35.926 --> 00:09:37.742
+a lot of indies, and that's where I got
+
+220
+00:09:37.742 --> 00:09:39.022
+involved with a lot of indies.
+
+221
+00:09:39.022 --> 00:09:42.398
+So I kind of very spread out in a lot of geeky things.
+
+222
+00:09:42.398 --> 00:09:44.382
+So community meant a lot to me.
+
+223
+00:09:44.382 --> 00:09:46.830
+So even though I start moving away from
+
+224
+00:09:46.830 --> 00:09:49.702
+python stuff, I always think back to how
+
+225
+00:09:49.702 --> 00:09:51.902
+I got started, and that is Python.
+
+226
+00:09:51.902 --> 00:09:54.918
+The community itself, the warm heartedness and the open
+
+227
+00:09:54.918 --> 00:09:57.198
+arms of the community that brought me in in
+
+228
+00:09:57.198 --> 00:09:58.950
+those early days and showed me the ropes.
+
+229
+00:09:58.950 --> 00:10:01.462
+And I want to push, give that to everyone else
+
+230
+00:10:01.462 --> 00:10:03.198
+because it is hard to start off for a lot
+
+231
+00:10:03.198 --> 00:10:05.990
+of people, it is hard if you fall down, especially
+
+232
+00:10:05.990 --> 00:10:07.758
+COVID, and you need to restart again.
+
+233
+00:10:07.758 --> 00:10:08.638
+You need that boost.
+
+234
+00:10:08.638 --> 00:10:11.806
+And I want to help everyone as much as I could. Right.
+
+235
+00:10:11.806 --> 00:10:15.350
+I think you're not the first invited guest
+
+236
+00:10:15.350 --> 00:10:18.638
+that said how important the community has actually
+
+237
+00:10:18.638 --> 00:10:21.902
+led us into the group and how it
+
+238
+00:10:21.902 --> 00:10:26.342
+actually motivates us into, like, creating more events,
+
+239
+00:10:26.342 --> 00:10:31.054
+creating more opportunities for everyone to join.
+
+240
+00:10:31.054 --> 00:10:35.734
+Your story about how you started PyLadies in Dublin actually
+
+241
+00:10:35.734 --> 00:10:39.646
+reminds me of how I started, because I was already
+
+242
+00:10:39.646 --> 00:10:44.158
+in PyCon Thailand, and organizing the event, and one of
+
+243
+00:10:44.158 --> 00:10:49.558
+the speakers was Lena from PyLadies Japan, Tokyo.
+
+244
+00:10:49.558 --> 00:10:51.830
+And she gave a talk about PyLadies, and I was
+
+245
+00:10:51.830 --> 00:10:54.926
+like, hey, wait a minute, there isn't one in Bangkok.
+
+246
+00:10:54.926 --> 00:10:56.774
+And that was how I actually started
+
+247
+00:10:56.774 --> 00:11:00.102
+PyLadies Bangkok, along with another co founder.
+
+248
+00:11:00.102 --> 00:11:02.438
+So I think a lot of us just kind of like a
+
+249
+00:11:02.438 --> 00:11:06.684
+kind of chain effect that we actually link from one to another.
+
+250
+00:11:06.684 --> 00:11:08.740
+And I also like the way you
+
+251
+00:11:08.740 --> 00:11:13.444
+mentioned about how you started PyCon Ireland.
+
+252
+00:11:13.444 --> 00:11:16.540
+It was a core group of us in the beginning.
+
+253
+00:11:16.540 --> 00:11:18.868
+There's only like six to maybe
+
+254
+00:11:18.868 --> 00:11:20.868
+twelve back before Pycon Ireland
+
+255
+00:11:20.868 --> 00:11:22.684
+was like, you have to know that our
+
+256
+00:11:22.684 --> 00:11:25.308
+largest ever meetup was, like, 20 people.
+
+257
+00:11:25.308 --> 00:11:27.636
+You know, this is really small,
+
+258
+00:11:27.636 --> 00:11:30.316
+but it was enthusiastic, 20 people.
+
+259
+00:11:30.316 --> 00:11:31.332
+But then when we had our first
+
+260
+00:11:31.332 --> 00:11:33.740
+PyCon Ireland, it was nearly 100.
+
+261
+00:11:33.740 --> 00:11:35.268
+And we go, where were the rest of you?
+
+262
+00:11:35.268 --> 00:11:37.172
+And we're asking for people to come and talk.
+
+263
+00:11:37.172 --> 00:11:39.772
+That was boiling down to us wanting
+
+264
+00:11:39.772 --> 00:11:42.452
+to get more experience, because it was.
+
+265
+00:11:42.452 --> 00:11:45.132
+I pointed to PyCon UK and John Pinner.
+
+266
+00:11:45.132 --> 00:11:46.164
+It was because they were
+
+267
+00:11:46.164 --> 00:11:48.052
+It was them who were actually calling out
+
+268
+00:11:48.052 --> 00:11:50.940
+for the next host for EuroPython in 2010. For 2010.
+
+269
+00:11:50.940 --> 00:11:52.804
+And the core bunch of us would just so happen
+
+270
+00:11:52.804 --> 00:11:55.220
+to be in EuroPython in Birmingham the year before, when
+
+271
+00:11:55.220 --> 00:11:57.444
+they were doing a call for city to host.
+
+272
+00:11:57.444 --> 00:11:58.844
+And that's how it started, really.
+
+273
+00:11:58.844 --> 00:12:00.860
+The ball got started there, and then, of
+
+274
+00:12:00.860 --> 00:12:02.524
+course, a pub got in there as well.
+
+275
+00:12:02.524 --> 00:12:04.716
+And when we're back in Ireland, and I was the
+
+276
+00:12:04.716 --> 00:12:06.996
+only sober one, but that was another side story.
+
+277
+00:12:06.996 --> 00:12:09.316
+But we started PyCon Ireland.
+
+278
+00:12:09.316 --> 00:12:11.076
+And yes, a bunch of us.
+
+279
+00:12:11.076 --> 00:12:13.596
+And of course, when you need someone to open
+
+280
+00:12:13.596 --> 00:12:16.260
+the conference and being a bunch of techies, no
+
+281
+00:12:16.260 --> 00:12:17.852
+one wants to stand in front of everyone.
+
+282
+00:12:17.852 --> 00:12:19.580
+So I got, hey, Vicky,
+
+283
+00:12:19.580 --> 00:12:20.700
+you're doing a bunch of work.
+
+284
+00:12:20.700 --> 00:12:21.740
+You know what's going on.
+
+285
+00:12:21.740 --> 00:12:23.324
+You go and tell everyone what's happening.
+
+286
+00:12:23.324 --> 00:12:26.028
+So people say it's down to practice. When, how. Why?
+
+287
+00:12:26.028 --> 00:12:27.604
+How do you speak in front of people?
+
+288
+00:12:27.604 --> 00:12:29.908
+But it's more like it's still quite nerve,
+
+289
+00:12:29.908 --> 00:12:33.068
+nerve wracking, but you have to do it. It's like a job.
+
+290
+00:12:33.068 --> 00:12:34.348
+You just get pushed out in front
+
+291
+00:12:34.348 --> 00:12:36.224
+or else the conference will never start.
+
+292
+00:12:37.004 --> 00:12:38.852
+So we just went ahead, did it.
+
+293
+00:12:38.852 --> 00:12:41.596
+And so it wasn't just me, it was a team effort.
+
+294
+00:12:41.596 --> 00:12:43.092
+It was such a big job.
+
+295
+00:12:43.092 --> 00:12:44.132
+Okay, fair enough.
+
+296
+00:12:44.132 --> 00:12:46.500
+Myself and my husband did spend the first
+
+297
+00:12:46.500 --> 00:12:48.540
+planning the first PyCon, mostly in Hong Kong and
+
+298
+00:12:48.540 --> 00:12:52.004
+Starbucks, trying to figure out sponsorship and figuring out
+
+299
+00:12:52.004 --> 00:12:54.060
+swag and programs and the website.
+
+300
+00:12:54.060 --> 00:12:55.788
+We did most of stuff, but it's still a
+
+301
+00:12:55.788 --> 00:12:57.980
+team effort because we need that support from the
+
+302
+00:12:57.980 --> 00:12:59.564
+community in order to make it happen.
+
+303
+00:12:59.564 --> 00:13:00.524
+And we had to start
+
+304
+00:13:00.524 --> 00:13:02.132
+from scratch, everything from scratch.
+
+305
+00:13:02.132 --> 00:13:03.004
+And it's really hard.
+
+306
+00:13:03.004 --> 00:13:06.004
+So I completely, you know, understand if someone
+
+307
+00:13:06.004 --> 00:13:08.848
+was starting anything from scratch with nothing to
+
+308
+00:13:08.848 --> 00:13:11.064
+back, nothing, no sponsor, no nothing. We know.
+
+309
+00:13:11.064 --> 00:13:12.024
+I know how hard it is.
+
+310
+00:13:12.024 --> 00:13:14.008
+I just keep thinking back when I
+
+311
+00:13:14.008 --> 00:13:15.432
+first started, how hard it was.
+
+312
+00:13:15.432 --> 00:13:17.368
+And now, even with all the information, all
+
+313
+00:13:17.368 --> 00:13:19.120
+the stuff that's happening, it's still hard.
+
+314
+00:13:19.120 --> 00:13:20.704
+You don't know where to go and where to start.
+
+315
+00:13:20.704 --> 00:13:21.920
+So having, you know.
+
+316
+00:13:21.920 --> 00:13:23.976
+So, yeah, I tried to give the information
+
+317
+00:13:23.976 --> 00:13:25.672
+I have could be out of date, but
+
+318
+00:13:25.672 --> 00:13:27.216
+I tried to learn from others as well.
+
+319
+00:13:27.216 --> 00:13:28.808
+So it's always a learning process.
+
+320
+00:13:28.808 --> 00:13:29.912
+You know how many people
+
+321
+00:13:29.912 --> 00:13:33.032
+attended PyCon Ireland, last time?
+
+322
+00:13:33.032 --> 00:13:34.654
+Do you know, like around.
+
+323
+00:13:34.654 --> 00:13:40.302
+Well, I can tell you, whatever the max, the hotel can
+
+324
+00:13:40.302 --> 00:13:43.542
+safely fit us in because we keep pushing the numbers.
+
+325
+00:13:43.542 --> 00:13:44.718
+We went from 100.
+
+326
+00:13:44.718 --> 00:13:46.622
+They saved us the first year because we lost
+
+327
+00:13:46.622 --> 00:13:48.646
+our evening event space on the first year.
+
+328
+00:13:48.646 --> 00:13:49.982
+Things go wrong as usual.
+
+329
+00:13:49.982 --> 00:13:51.774
+It always goes wrong when you organize stuff.
+
+330
+00:13:51.774 --> 00:13:54.646
+So this hotel, Horizon Blue, they hosted us.
+
+331
+00:13:54.646 --> 00:13:55.830
+It was like, initially it was like
+
+332
+00:13:55.830 --> 00:13:58.814
+100, 150 to 250 to 350.
+
+333
+00:13:58.814 --> 00:14:00.238
+We keep pushing and pushing.
+
+334
+00:14:00.238 --> 00:14:01.552
+So whatever the max.
+
+335
+00:14:01.552 --> 00:14:03.784
+I don't know, 400? I have no idea.
+
+336
+00:14:03.784 --> 00:14:05.656
+Whatever the max, their halls fit.
+
+337
+00:14:05.656 --> 00:14:07.272
+It's like three banquet halls that they.
+
+338
+00:14:07.272 --> 00:14:09.024
+It's like a huge banquet hall that can split into
+
+339
+00:14:09.024 --> 00:14:11.832
+three for a session is very normal in hotels.
+
+340
+00:14:11.832 --> 00:14:13.520
+And then for the plenary, they opened up the
+
+341
+00:14:13.520 --> 00:14:15.728
+three halls again to make it a plenary session.
+
+342
+00:14:15.728 --> 00:14:18.720
+So whatever the safety, the safe amount of
+
+343
+00:14:18.720 --> 00:14:20.232
+people they can fit in for their health
+
+344
+00:14:20.232 --> 00:14:22.320
+and safety, that is the amount. It's a few hundred.
+
+345
+00:14:22.320 --> 00:14:26.968
+So it's quite good and quite consistent, like, as well.
+
+346
+00:14:26.968 --> 00:14:28.400
+So it's nice to see and it's nice
+
+347
+00:14:28.400 --> 00:14:30.604
+to be an attendee and not an organizer.
+
+348
+00:14:33.234 --> 00:14:36.722
+So currently, what are you actually working on?
+
+349
+00:14:36.722 --> 00:14:39.010
+Like, is there any new activities or
+
+350
+00:14:39.010 --> 00:14:42.754
+some Python related events or PyLadies?
+
+351
+00:14:42.754 --> 00:14:45.402
+Yeah, I still run PyLadies each month.
+
+352
+00:14:45.402 --> 00:14:47.618
+There is a growing team of helpers.
+
+353
+00:14:47.618 --> 00:14:50.082
+I'm trying to support them and trying to get them
+
+354
+00:14:50.082 --> 00:14:54.218
+to get things going, like the Python study group and
+
+355
+00:14:54.218 --> 00:14:56.506
+things like that, and any ideas like PyLadies.
+
+356
+00:14:56.506 --> 00:14:59.874
+Dublin we're very open on what people want to do.
+
+357
+00:14:59.874 --> 00:15:02.930
+I can be very experimental. Other things.
+
+358
+00:15:02.930 --> 00:15:04.226
+I'm involved with another
+
+359
+00:15:04.226 --> 00:15:05.894
+initiative called Coding Grace.
+
+360
+00:15:06.674 --> 00:15:09.210
+We advocate diversity in tech, mainly myself
+
+361
+00:15:09.210 --> 00:15:13.334
+through coding Grace, we curate newsletters and
+
+362
+00:15:13.954 --> 00:15:15.810
+events in around the island of Ireland.
+
+363
+00:15:15.810 --> 00:15:19.106
+But we do have a virtual series of events
+
+364
+00:15:19.106 --> 00:15:21.738
+for the next few months coming up called Cupán Tae
+
+365
+00:15:21.738 --> 00:15:24.658
+Cupán Tae is an irish word for cup of tea,
+
+366
+00:15:24.658 --> 00:15:27.746
+because, as I mentioned, we don't like, PyLadies,
+
+367
+00:15:27.746 --> 00:15:30.842
+We don't like beer and pizza, so we like a cup tea.
+
+368
+00:15:30.842 --> 00:15:31.582
+I do have a couple.
+
+369
+00:15:31.582 --> 00:15:34.024
+My mug of tea in front of me right now, an Irish Tea.
+
+370
+00:15:35.004 --> 00:15:36.544
+And that's this particular.
+
+371
+00:15:37.204 --> 00:15:39.948
+This particular conference is aimed at principal engineers, head
+
+372
+00:15:39.948 --> 00:15:42.228
+of engineering staff engineers, because we do, there's a
+
+373
+00:15:42.228 --> 00:15:44.156
+lot of events, but there's not one.
+
+374
+00:15:44.156 --> 00:15:46.860
+There wasn't one aimed at very senior level, so
+
+375
+00:15:46.860 --> 00:15:49.940
+we wanted to create one called Cupán Tae Conf.
+
+376
+00:15:49.940 --> 00:15:51.196
+So hopefully we get enough
+
+377
+00:15:51.196 --> 00:15:53.468
+interest for the virtual ones.
+
+378
+00:15:53.468 --> 00:15:56.044
+We do have three speakers all lined up.
+
+379
+00:15:56.044 --> 00:15:58.636
+Laura Nolan talking about path dependence.
+
+380
+00:15:58.636 --> 00:16:01.404
+History matters on March 26, John Looney second
+
+381
+00:16:01.404 --> 00:16:03.164
+system event, not a new problem, on April
+
+382
+00:16:03.164 --> 00:16:06.052
+4, Patricia Aas, who's an international speaker talking
+
+383
+00:16:06.052 --> 00:16:08.444
+about classic vulnerabilities in May 7th
+
+384
+00:16:08.444 --> 00:16:12.188
+And details can be found in cupantaeconf.com
+
+385
+00:16:12.188 --> 00:16:13.944
+That's one big one.
+
+386
+00:16:14.524 --> 00:16:15.916
+How do you spell cupantea?
+
+387
+00:16:15.916 --> 00:16:17.524
+Can I have a cup on tea, please?
+
+388
+00:16:17.524 --> 00:16:18.076
+Cupán
+
+389
+00:16:18.076 --> 00:16:19.564
+So C U P.
+
+390
+00:16:19.564 --> 00:16:20.700
+So there's an á.
+
+391
+00:16:20.700 --> 00:16:22.844
+I know in French, you call it an "aigu".
+
+392
+00:16:22.844 --> 00:16:24.916
+So I don't know what other languages, what you call it
+
+393
+00:16:24.916 --> 00:16:25.664
+It's like.
+
+394
+00:16:26.204 --> 00:16:29.344
+It's like on top of the a there is like a
+
+395
+00:16:30.524 --> 00:16:32.060
+Accent aigu. Yeah.
+
+396
+00:16:32.060 --> 00:16:36.180
+So in Irish, that's a "Fada", because elongates the a.
+
+397
+00:16:36.180 --> 00:16:37.036
+So it's Cupán.
+
+398
+00:16:37.036 --> 00:16:40.884
+So C U P A Fada N. Cupán. Space. T A E.
+
+399
+00:16:40.884 --> 00:16:42.644
+And that's tae. Cupán Tae.
+
+400
+00:16:42.644 --> 00:16:45.464
+So it's a cup of tea. Right. Right.
+
+401
+00:16:46.124 --> 00:16:48.180
+So what is irish tea?
+
+402
+00:16:48.180 --> 00:16:49.468
+Is it black tea or?
+
+403
+00:16:49.468 --> 00:16:51.740
+Yeah, it's normal tea. We have.
+
+404
+00:16:51.740 --> 00:16:54.636
+I don't want to go into the whole argument. There's two.
+
+405
+00:16:54.636 --> 00:16:56.780
+There's Lyons, or Barry's. Lyons is pretty
+
+406
+00:16:56.780 --> 00:16:58.508
+much in Dublin, but everywhere else is Barry's,
+
+407
+00:16:58.508 --> 00:16:59.740
+and I'm Barry's tea person.
+
+408
+00:16:59.740 --> 00:17:01.428
+But I don't know if you want to keep that in
+
+409
+00:17:01.428 --> 00:17:04.144
+the podcast, but it might cause a fury in Ireland.
+
+410
+00:17:05.564 --> 00:17:07.212
+"I don't want to listen to Vicky anymore!"
+
+411
+00:17:07.212 --> 00:17:08.743
+"She drinks Barry's tea!"
+
+412
+00:17:10.404 --> 00:17:12.460
+Tea should be that way.
+
+413
+00:17:12.460 --> 00:17:14.604
+Yes, it should be like Barry's or Lyons.
+
+414
+00:17:14.604 --> 00:17:16.372
+You know, the Lyons when people know it's
+
+415
+00:17:16.372 --> 00:17:18.332
+Lyons because it's like a pyramid shaped tea
+
+416
+00:17:18.332 --> 00:17:20.324
+bag and it's all these kind of things.
+
+417
+00:17:20.324 --> 00:17:21.900
+If you go down further south
+
+418
+00:17:21.900 --> 00:17:24.084
+of Ireland, it's definitely Barry's tea.
+
+419
+00:17:24.084 --> 00:17:25.740
+I grew up with Barry's tea.
+
+420
+00:17:25.740 --> 00:17:28.652
+I think it's fine, but it's fun to pull the leg
+
+421
+00:17:28.652 --> 00:17:31.036
+of people who are very serious about their irish tea.
+
+422
+00:17:31.036 --> 00:17:33.228
+You drink your tea with milk or.
+
+423
+00:17:33.228 --> 00:17:34.778
+Yeah, I drink my tea with milk.
+
+424
+00:17:34.778 --> 00:17:37.674
+No sugar sometimes, but normally no sugar.
+
+425
+00:17:37.674 --> 00:17:39.738
+Yeah, this is a funny conversation.
+
+426
+00:17:39.738 --> 00:17:40.578
+Normally a conversation.
+
+427
+00:17:40.578 --> 00:17:41.970
+I will actually talk if I was running
+
+428
+00:17:41.970 --> 00:17:44.294
+a podcast or Cupán Tae, to be honest.
+
+429
+00:17:45.234 --> 00:17:48.586
+But yeah, I do have a cup of milk tea in
+
+430
+00:17:48.586 --> 00:17:51.946
+front of me and it's a mug with cats on it.
+
+431
+00:17:51.946 --> 00:17:53.214
+Don't know if you see it.
+
+432
+00:17:55.354 --> 00:17:56.654
+For the podcast.
+
+433
+00:17:58.834 --> 00:18:00.494
+Just so happen I picked it up.
+
+434
+00:18:01.714 --> 00:18:03.778
+You have quite a professional setup.
+
+435
+00:18:03.778 --> 00:18:06.010
+Do you do other things with or why
+
+436
+00:18:06.010 --> 00:18:07.514
+do you have such a professional setup?
+
+437
+00:18:07.514 --> 00:18:10.882
+Oh, that was from thanks to COVID, things got
+
+438
+00:18:10.882 --> 00:18:14.370
+upgraded more and more because my imac only had,
+
+439
+00:18:14.370 --> 00:18:16.458
+I think the camera was like 720p
+
+440
+00:18:16.458 --> 00:18:18.058
+and I wasn't very happy with it.
+
+441
+00:18:18.058 --> 00:18:19.498
+I wanted more high def because I was
+
+442
+00:18:19.498 --> 00:18:22.290
+doing a lot of podcasts, streaming, live streaming
+
+443
+00:18:22.290 --> 00:18:23.554
+and stuff and I wasn't very happy.
+
+444
+00:18:23.554 --> 00:18:24.962
+And I want a higher camera ratio
+
+445
+00:18:24.962 --> 00:18:26.354
+I want at least 1080.
+
+446
+00:18:26.354 --> 00:18:27.354
+I want at least 1080.
+
+447
+00:18:27.354 --> 00:18:29.666
+So my camera, it got upgraded.
+
+448
+00:18:29.666 --> 00:18:31.146
+My lights got upgraded.
+
+449
+00:18:31.146 --> 00:18:33.570
+My microphone upgraded at least twice.
+
+450
+00:18:33.570 --> 00:18:35.602
+I think I have like audio switchers.
+
+451
+00:18:35.602 --> 00:18:38.130
+I have, you know, other switches in front of
+
+452
+00:18:38.130 --> 00:18:40.530
+me and then the lights in the back keeps
+
+453
+00:18:40.530 --> 00:18:42.306
+getting upgraded a little bit here and there.
+
+454
+00:18:42.306 --> 00:18:43.210
+So yeah, there's a lot of.
+
+455
+00:18:43.210 --> 00:18:45.074
+I still got lots of things kind of I want to
+
+456
+00:18:45.074 --> 00:18:47.986
+do because it's not just purely I want to do a
+
+457
+00:18:47.986 --> 00:18:50.418
+lot more content creation, but been talking about that for two
+
+458
+00:18:50.418 --> 00:18:52.466
+years to everyone who's known me so far.
+
+459
+00:18:52.466 --> 00:18:54.922
+But before that I've been doing a lot of stuff for.
+
+460
+00:18:54.922 --> 00:18:56.794
+When I was a maker advocate for Dublin Maker.
+
+461
+00:18:56.794 --> 00:18:58.722
+That was in my past, it was part of.
+
+462
+00:18:58.722 --> 00:19:01.722
+It was actually a cool freelance gig with Dublin Maker.
+
+463
+00:19:01.722 --> 00:19:04.130
+If you're into the making culture, they
+
+464
+00:19:04.130 --> 00:19:06.650
+run a Maker festival and COVID really
+
+465
+00:19:06.650 --> 00:19:09.170
+dented the whole maker advocacy because you're
+
+466
+00:19:09.170 --> 00:19:11.354
+meeting makers, physically meeting makers.
+
+467
+00:19:11.354 --> 00:19:13.530
+You physically go into colleges, talking to
+
+468
+00:19:13.530 --> 00:19:15.882
+lecturers that you're potentially helping teachers learn
+
+469
+00:19:15.882 --> 00:19:17.794
+about STEAM and workshops and stuff.
+
+470
+00:19:17.794 --> 00:19:20.730
+And you can't do that when there's a whole lockdown.
+
+471
+00:19:20.730 --> 00:19:22.850
+And at one stage, we can't even go outside,
+
+472
+00:19:22.850 --> 00:19:25.058
+two clicks outside our home from our own.
+
+473
+00:19:25.058 --> 00:19:27.170
+So what we end up doing was, what
+
+474
+00:19:27.170 --> 00:19:28.778
+I ended up doing was doing more content
+
+475
+00:19:28.778 --> 00:19:31.410
+creation, doing my own stuff, learning to sew,
+
+476
+00:19:31.410 --> 00:19:33.946
+showing that off, and then starting to interview
+
+477
+00:19:33.946 --> 00:19:37.314
+other, remotely other makers in and around Ireland.
+
+478
+00:19:37.314 --> 00:19:39.698
+Then we had to do a virtual Dublin Maker festival.
+
+479
+00:19:39.698 --> 00:19:42.538
+That was fun, where we had, like,
+
+480
+00:19:42.538 --> 00:19:44.818
+a newscaster type thing with two side
+
+481
+00:19:44.818 --> 00:19:47.858
+science communicators running around like a roving
+
+482
+00:19:47.858 --> 00:19:50.226
+reporters, doing live interviews and stuff.
+
+483
+00:19:50.226 --> 00:19:53.082
+And I was also broadcasting as well as
+
+484
+00:19:53.082 --> 00:19:54.778
+in the behind the scenes operations as well.
+
+485
+00:19:54.778 --> 00:19:56.674
+So it was completely hectic.
+
+486
+00:19:56.674 --> 00:19:59.546
+And then after that, I went in with another friend.
+
+487
+00:19:59.546 --> 00:20:01.010
+We did an Irish Makers podcast.
+
+488
+00:20:01.010 --> 00:20:02.570
+We interviewed a lot of different people, from
+
+489
+00:20:02.570 --> 00:20:07.834
+blacksmiths to special effects people, to bladesmiths to
+
+490
+00:20:07.834 --> 00:20:10.970
+cosplayers to people, how they felt makers, how
+
+491
+00:20:10.970 --> 00:20:14.170
+they felt being isolated during COVID Well, all
+
+492
+00:20:14.170 --> 00:20:16.362
+those kind of different topics. So it was.
+
+493
+00:20:16.362 --> 00:20:18.930
+And we even went to Dublin ComicCon
+
+494
+00:20:18.930 --> 00:20:20.818
+and interviewed a lot of cosplayers there.
+
+495
+00:20:20.818 --> 00:20:23.194
+So we did a lot of content work,
+
+496
+00:20:23.194 --> 00:20:25.266
+and also Dublin maker itself on site.
+
+497
+00:20:25.266 --> 00:20:28.690
+So besides sitting here, we were also doing stuff
+
+498
+00:20:28.690 --> 00:20:32.618
+off site or on site at the various locations.
+
+499
+00:20:32.618 --> 00:20:34.674
+So that's why all the setup is just gone
+
+500
+00:20:34.674 --> 00:20:37.930
+It's just got built up over the period, thanks to COVID, as
+
+501
+00:20:37.930 --> 00:20:40.770
+I said, and ended up doing a lot of digital stuff. So.
+
+502
+00:20:40.770 --> 00:20:43.458
+And that kind of feeds into some of the.
+
+503
+00:20:43.458 --> 00:20:45.890
+I think mostly, yeah, that was the Maker stuff,
+
+504
+00:20:45.890 --> 00:20:47.722
+which I still tried to promote, I think, during
+
+505
+00:20:47.722 --> 00:20:50.138
+COVID helped a lot during PyLadies Dublin as well.
+
+506
+00:20:50.138 --> 00:20:52.082
+We kept on going with our monthly meetups,
+
+507
+00:20:52.082 --> 00:20:54.098
+so we saw that there was a lot
+
+508
+00:20:54.098 --> 00:20:57.674
+of people watching playbacks, not necessarily attending live,
+
+509
+00:20:57.674 --> 00:21:00.122
+because I think people were having Zoom fatigue
+
+510
+00:21:00.122 --> 00:21:01.946
+at that stage, which is very understandable.
+
+511
+00:21:01.946 --> 00:21:03.522
+I made peace with the numbers.
+
+512
+00:21:03.522 --> 00:21:06.282
+I was very upset setting it all up and
+
+513
+00:21:06.282 --> 00:21:09.498
+had a few new meltdowns because tech went wrong.
+
+514
+00:21:09.498 --> 00:21:11.274
+One stage, people didn't leave after
+
+515
+00:21:11.274 --> 00:21:13.410
+20 minutes of tech melting down.
+
+516
+00:21:13.410 --> 00:21:15.658
+They were still hanging around for me to keep it going.
+
+517
+00:21:15.658 --> 00:21:17.514
+And I had a very special guest as well.
+
+518
+00:21:17.514 --> 00:21:20.042
+I think it was from ImagiLabs.
+
+519
+00:21:20.042 --> 00:21:23.122
+I had the CTO one that was like my January
+
+520
+00:21:23.122 --> 00:21:25.874
+very big event, and it went horribly, horribly wrong.
+
+521
+00:21:25.874 --> 00:21:27.106
+But everyone was super nice.
+
+522
+00:21:27.106 --> 00:21:28.578
+And that's what I love about
+
+523
+00:21:28.578 --> 00:21:31.194
+communities like ours, especially PyLadies Dublin.
+
+524
+00:21:31.194 --> 00:21:34.690
+Technical difficulties, either virtual or even just this month when
+
+525
+00:21:34.690 --> 00:21:37.098
+we had our meetup, we had a few technical difficulties,
+
+526
+00:21:37.098 --> 00:21:39.218
+and people are all okay with it because they're just
+
+527
+00:21:39.218 --> 00:21:42.314
+super nice, you know, but that's tech.
+
+528
+00:21:42.314 --> 00:21:45.234
+And I'm hoping to, myself and my husband
+
+529
+00:21:45.234 --> 00:21:48.458
+hoping to improve our recording at different, at
+
+530
+00:21:48.458 --> 00:21:50.482
+the PyLadies events at the very least.
+
+531
+00:21:50.482 --> 00:21:52.834
+And hopefully we will help other user groups
+
+532
+00:21:52.834 --> 00:21:56.450
+who are running their technical meetups to help
+
+533
+00:21:56.450 --> 00:21:58.690
+them record their talks, because I can see
+
+534
+00:21:58.690 --> 00:22:00.530
+people asking them, are your talks recorded?
+
+535
+00:22:00.530 --> 00:22:01.738
+Are your talks recorded?
+
+536
+00:22:01.738 --> 00:22:02.774
+And they're not.
+
+537
+00:22:03.594 --> 00:22:05.170
+So we're not going to do it for free, but we're
+
+538
+00:22:05.170 --> 00:22:07.498
+not also not going to charge them a huge amount.
+
+539
+00:22:07.498 --> 00:22:11.858
+But we definitely understand that, you know, people do need some
+
+540
+00:22:11.858 --> 00:22:13.810
+of the content and we just give them the videos, you
+
+541
+00:22:13.810 --> 00:22:16.082
+know, take the videos, clean it up a bit and just
+
+542
+00:22:16.082 --> 00:22:19.538
+give it to them and let them, let them like, so
+
+543
+00:22:19.538 --> 00:22:23.362
+it's just to, again, an extension of, you know, community work
+
+544
+00:22:23.362 --> 00:22:25.458
+that we're doing here and helping people.
+
+545
+00:22:25.458 --> 00:22:27.634
+And especially now that I heard feedback that
+
+546
+00:22:27.634 --> 00:22:30.810
+people do appreciate online events because it's more
+
+547
+00:22:30.810 --> 00:22:33.714
+accessible, because they can't come into the city
+
+548
+00:22:33.714 --> 00:22:35.514
+to go to an event in the evening.
+
+549
+00:22:35.514 --> 00:22:37.410
+Things are just in, the real life is
+
+550
+00:22:37.410 --> 00:22:38.730
+in the way you can't make it.
+
+551
+00:22:38.730 --> 00:22:40.994
+It's not like they don't want to come.
+
+552
+00:22:40.994 --> 00:22:44.274
+They physically can't make the time to get to it, but
+
+553
+00:22:44.274 --> 00:22:47.450
+they would be able to watch it if it's online or
+
+554
+00:22:47.450 --> 00:22:52.994
+make playback, but they do appreciate if it's streamed online.
+
+555
+00:22:52.994 --> 00:22:55.738
+So I kind of appreciated that kind of feedback as well.
+
+556
+00:22:55.738 --> 00:22:58.186
+So, so we're making a conscious effort to try and make
+
+557
+00:22:58.186 --> 00:23:00.770
+it accessible, but it is a lot more work, as you
+
+558
+00:23:00.770 --> 00:23:03.362
+know, here with a lot of editing and video.
+
+559
+00:23:03.362 --> 00:23:06.210
+It does take a lot more time and stuff like that.
+
+560
+00:23:06.210 --> 00:23:08.210
+And so people, if you, if you.
+
+561
+00:23:08.210 --> 00:23:12.294
+Need help, Vicky and her husband is here for you.
+
+562
+00:23:13.754 --> 00:23:16.250
+I think there's one more that was very interesting thing
+
+563
+00:23:16.250 --> 00:23:19.610
+that I'm involved in, is I try to stay away
+
+564
+00:23:19.610 --> 00:23:22.130
+from startups, but I'm bumped into a friend of mine,
+
+565
+00:23:22.130 --> 00:23:24.690
+as everyone does after COVID for a coffee.
+
+566
+00:23:24.690 --> 00:23:27.258
+And I told her, there's this itch that I'm scratching
+
+567
+00:23:27.258 --> 00:23:30.282
+from Coding Grace side, that there was a lot of female
+
+568
+00:23:30.282 --> 00:23:34.642
+founders are coming to us for advice, just privately asking
+
+569
+00:23:34.642 --> 00:23:36.698
+for help, saying that they're not techies.
+
+570
+00:23:36.698 --> 00:23:37.818
+What do I do?
+
+571
+00:23:37.818 --> 00:23:39.042
+What tech do I use?
+
+572
+00:23:39.042 --> 00:23:41.658
+Oh, I'm locked out of my AWS account.
+
+573
+00:23:41.658 --> 00:23:45.322
+The person that was contracting us can't be found because
+
+574
+00:23:45.322 --> 00:23:47.466
+they forgot to give us all this kind of stuff.
+
+575
+00:23:47.466 --> 00:23:50.234
+And, you know, how do we do we get a CTO net?
+
+576
+00:23:50.234 --> 00:23:51.234
+All these kind of questions.
+
+577
+00:23:51.234 --> 00:23:52.602
+I was just telling my friend, and
+
+578
+00:23:52.602 --> 00:23:54.522
+she just so happens to be relaunching.
+
+579
+00:23:54.522 --> 00:23:55.578
+TechFoundHer.
+
+580
+00:23:55.578 --> 00:23:58.848
+So Tech Found and then H E R, and she wanted to do a
+
+581
+00:23:58.848 --> 00:24:02.328
+bootcamp and she said she had similar ideas, similar people coming up
+
+582
+00:24:02.328 --> 00:24:04.792
+to her as well, but she was more in the startup space,
+
+583
+00:24:04.792 --> 00:24:06.368
+so she was talking to a lot of people.
+
+584
+00:24:06.368 --> 00:24:09.752
+So between my background and her background as well,
+
+585
+00:24:09.752 --> 00:24:11.192
+she used to run Tech For Good Dublin
+
+586
+00:24:11.192 --> 00:24:12.880
+We decided to put our heads together last year to
+
+587
+00:24:12.880 --> 00:24:15.352
+run this bootcamp and we're doing again this year.
+
+588
+00:24:15.352 --> 00:24:19.024
+It's aimed at female founders in the kind of pre-seed like
+
+589
+00:24:19.024 --> 00:24:20.856
+early stage or you have an idea and you want to
+
+590
+00:24:20.856 --> 00:24:23.856
+create a startup but you don't necessarily have a tech background,
+
+591
+00:24:23.856 --> 00:24:26.880
+but you know you will end up using some tech in
+
+592
+00:24:26.880 --> 00:24:29.360
+some form or another in your startup.
+
+593
+00:24:29.360 --> 00:24:31.016
+It's a way to bring the community together, share
+
+594
+00:24:31.016 --> 00:24:34.600
+experiences, kind of demystify tech, and just to know
+
+595
+00:24:34.600 --> 00:24:36.288
+you don't have to be a coder to run
+
+596
+00:24:36.288 --> 00:24:38.568
+us through a startup that uses tech as well.
+
+597
+00:24:38.568 --> 00:24:42.184
+And we have some pretty amazing kind of speakers
+
+598
+00:24:42.184 --> 00:24:43.992
+which will be announced in the next few weeks.
+
+599
+00:24:43.992 --> 00:24:46.848
+And the bootcamp itself is happening on Tuesday, April
+
+600
+00:24:46.848 --> 00:24:52.024
+16 in a historical beautiful building that is at
+
+601
+00:24:52.024 --> 00:24:54.360
+Dublin City hall in Dublin city centre.
+
+602
+00:24:54.360 --> 00:24:56.560
+And looking forward to that.
+
+603
+00:24:56.560 --> 00:24:59.144
+So that's kind of something a little bit different,
+
+604
+00:24:59.144 --> 00:25:02.304
+sort of related crosses over, because again, it advocates
+
+605
+00:25:02.304 --> 00:25:05.928
+diversity in an area startup, which is, I know
+
+606
+00:25:05.928 --> 00:25:07.872
+we have a lot of problems in tech. Oh my goodness.
+
+607
+00:25:07.872 --> 00:25:11.604
+Startup is like another barrel of fun there.
+
+608
+00:25:12.304 --> 00:25:14.328
+So it's good to be able to
+
+609
+00:25:14.328 --> 00:25:17.096
+help where I can with TechFoundHer.
+
+610
+00:25:17.096 --> 00:25:18.976
+So I'm pretty much kind of helping the
+
+611
+00:25:18.976 --> 00:25:21.496
+operation side of things where I can.
+
+612
+00:25:21.496 --> 00:25:23.320
+So as you can see, when I do a lot of these
+
+613
+00:25:23.320 --> 00:25:26.992
+kind of events, I tend to be ended up admin and operations.
+
+614
+00:25:26.992 --> 00:25:30.688
+So that's why it's not the most fun part of it, but
+
+615
+00:25:30.688 --> 00:25:34.088
+it is necessary for anyone who wants to get in community.
+
+616
+00:25:34.088 --> 00:25:35.856
+Yes, it's lovely to talk to people.
+
+617
+00:25:35.856 --> 00:25:39.008
+It's scary to talk in front of a lot of people
+
+618
+00:25:39.008 --> 00:25:42.056
+if you're on stage, if you're not comfortable, but you still
+
+619
+00:25:42.056 --> 00:25:44.384
+have to do a lot of admin work in the background,
+
+620
+00:25:44.384 --> 00:25:46.424
+which is not the fun part, but you have to like
+
+621
+00:25:46.424 --> 00:25:52.240
+finances, your AGMs, if you're a incorporated kind of organization and
+
+622
+00:25:52.240 --> 00:25:53.584
+all that kind of stuff, it is.
+
+623
+00:25:53.584 --> 00:25:55.424
+It is not fun, but you have to do it.
+
+624
+00:25:55.424 --> 00:25:57.960
+But I somehow I keep on, I don't
+
+625
+00:25:57.960 --> 00:25:59.848
+know, would you say punishing myself for this?
+
+626
+00:25:59.848 --> 00:26:00.632
+I keep doing.
+
+627
+00:26:00.632 --> 00:26:02.736
+I don't think that's kind of like punishing.
+
+628
+00:26:02.736 --> 00:26:04.892
+It's just like if you want something to
+
+629
+00:26:04.892 --> 00:26:06.700
+move on, someone has to do the job.
+
+630
+00:26:06.700 --> 00:26:07.744
+Right, yeah.
+
+631
+00:26:08.604 --> 00:26:10.172
+And I think it's really hard to.
+
+632
+00:26:10.172 --> 00:26:13.172
+Find someone to like last minute.
+
+633
+00:26:13.172 --> 00:26:14.668
+If you want to find someone to manage, to
+
+634
+00:26:14.668 --> 00:26:18.100
+finance, probably it's much faster to get yourself to.
+
+635
+00:26:18.100 --> 00:26:19.524
+It's great.
+
+636
+00:26:19.524 --> 00:26:21.052
+It's great experience, especially.
+
+637
+00:26:21.052 --> 00:26:24.036
+I noticed that, like doing small kind of
+
+638
+00:26:24.036 --> 00:26:26.428
+events, small organizations like the ones I do,
+
+639
+00:26:26.428 --> 00:26:28.380
+I can turn around stuff very quickly.
+
+640
+00:26:28.380 --> 00:26:32.420
+But then, as I said, I worked as the maker advocate
+
+641
+00:26:32.420 --> 00:26:34.484
+for Dublin Maker, and that was actually a paid position.
+
+642
+00:26:34.484 --> 00:26:36.884
+It was a very special once one, and it was
+
+643
+00:26:36.884 --> 00:26:40.972
+part of, it was funded by Science Foundation Ireland.
+
+644
+00:26:40.972 --> 00:26:41.980
+So the money has to go through
+
+645
+00:26:41.980 --> 00:26:44.196
+an institution which is a university.
+
+646
+00:26:44.196 --> 00:26:46.756
+So Dublin City University was where one of
+
+647
+00:26:46.756 --> 00:26:49.748
+the volunteer organizers or the founders worked, and
+
+648
+00:26:49.748 --> 00:26:51.868
+that's where the money was going through and
+
+649
+00:26:51.868 --> 00:26:53.604
+that's where the funding was going to.
+
+650
+00:26:53.604 --> 00:26:55.844
+And so I was kind of a staff of
+
+651
+00:26:55.844 --> 00:26:57.868
+the university, so it was a public institution.
+
+652
+00:26:57.868 --> 00:27:01.436
+Dealing with finance was a completely new scale
+
+653
+00:27:01.436 --> 00:27:05.644
+from mini organization that I look after to
+
+654
+00:27:05.644 --> 00:27:09.092
+a university which has two different finance departments.
+
+655
+00:27:09.092 --> 00:27:11.116
+You try not to annoy any of them, trying to
+
+656
+00:27:11.116 --> 00:27:14.372
+be friends as you sort out through your budgets and
+
+657
+00:27:14.372 --> 00:27:17.052
+stuff, because you have to write reports for the funder
+
+658
+00:27:17.052 --> 00:27:19.172
+who funds you, and you have to make sure everything
+
+659
+00:27:19.172 --> 00:27:23.740
+and their system is so slow and everything and codes
+
+660
+00:27:23.740 --> 00:27:26.596
+everywhere and all these words you never heard of before.
+
+661
+00:27:26.596 --> 00:27:29.284
+And I was very lucky.
+
+662
+00:27:29.284 --> 00:27:31.464
+The staff there is very nice.
+
+663
+00:27:32.124 --> 00:27:35.190
+The department secretary was so patient, and I was
+
+664
+00:27:35.190 --> 00:27:37.622
+there nearly every day for like the first three
+
+665
+00:27:37.622 --> 00:27:40.654
+weeks, trying to ask so many questions.
+
+666
+00:27:40.654 --> 00:27:42.654
+So it's a great experience.
+
+667
+00:27:42.654 --> 00:27:44.750
+I know it's not what everyone thinks of when
+
+668
+00:27:44.750 --> 00:27:47.238
+they say they want to start up like a
+
+669
+00:27:47.238 --> 00:27:49.414
+community group or running a conference and things like
+
+670
+00:27:49.414 --> 00:27:53.430
+that, but it's great experience, especially when it comes
+
+671
+00:27:53.430 --> 00:27:57.398
+to organization in general operations.
+
+672
+00:27:57.398 --> 00:27:59.590
+And as you say, finances helps a lot.
+
+673
+00:27:59.590 --> 00:28:01.222
+At least you have an inkling of what a
+
+674
+00:28:01.222 --> 00:28:04.774
+budget is, how expenses work, everything, you know, keep
+
+675
+00:28:04.774 --> 00:28:07.910
+things on track, the, you know, things like that.
+
+676
+00:28:07.910 --> 00:28:09.470
+They're trying to figure out how to,
+
+677
+00:28:09.470 --> 00:28:11.950
+how to herd cats, as with all
+
+678
+00:28:11.950 --> 00:28:14.206
+volunteers, trying to run conferences and stuff.
+
+679
+00:28:14.206 --> 00:28:18.014
+So it's good experience and it will help you
+
+680
+00:28:18.014 --> 00:28:20.598
+if you in your career as well, in, you
+
+681
+00:28:20.598 --> 00:28:22.270
+know, in your day to day stuff as well.
+
+682
+00:28:22.270 --> 00:28:24.006
+So it's not purely just for.
+
+683
+00:28:24.006 --> 00:28:25.526
+Just for people bearing in mind if
+
+684
+00:28:25.526 --> 00:28:26.846
+they want to come, come help.
+
+685
+00:28:26.846 --> 00:28:28.070
+I'm not trying to scare you away, but
+
+686
+00:28:28.070 --> 00:28:31.942
+it is very good skills, really good life
+
+687
+00:28:31.942 --> 00:28:34.230
+skills, and very good skills in general to
+
+688
+00:28:34.230 --> 00:28:38.480
+have, because you won't be, because it's just.
+
+689
+00:28:38.480 --> 00:28:40.208
+It's not something that you can just pick.
+
+690
+00:28:40.208 --> 00:28:41.952
+Yeah, it's not something that you just pick
+
+691
+00:28:41.952 --> 00:28:43.480
+up just like that and just do it. Yeah.
+
+692
+00:28:43.480 --> 00:28:46.264
+Because you have to work with a lot of people as well.
+
+693
+00:28:46.264 --> 00:28:47.120
+And of course, when it
+
+694
+00:28:47.120 --> 00:28:48.088
+When it comes, when you have to
+
+695
+00:28:48.088 --> 00:28:50.096
+handle finances, it's quite important that you
+
+696
+00:28:50.096 --> 00:28:53.224
+do it right in transparency as well.
+
+697
+00:28:53.224 --> 00:28:56.912
+Somehow I feel like starting all those community events
+
+698
+00:28:56.912 --> 00:28:59.416
+is a little bit like you being the founder
+
+699
+00:28:59.416 --> 00:29:02.732
+of a company, you know, because you have
+
+700
+00:29:02.732 --> 00:29:06.104
+to start everything and handle everything at the beginning.
+
+701
+00:29:06.924 --> 00:29:15.164
+Branding, PR, marketing, social media, like you said
+
+702
+00:29:15.164 --> 00:29:19.516
+before, like sponsorship and getting where the money
+
+703
+00:29:19.516 --> 00:29:21.652
+comes in, where the money goes out and
+
+704
+00:29:21.652 --> 00:29:23.540
+whether you can continue next year.
+
+705
+00:29:23.540 --> 00:29:26.588
+And it's a little bit like starting a company.
+
+706
+00:29:26.588 --> 00:29:27.340
+Yeah.
+
+707
+00:29:27.340 --> 00:29:29.580
+And finding venues, finding venues is
+
+708
+00:29:29.580 --> 00:29:31.316
+hard here in Dublin right now.
+
+709
+00:29:31.316 --> 00:29:34.108
+I think it's as, again, COVID keeps popping up
+
+710
+00:29:34.108 --> 00:29:36.492
+in my thing every time because it has dented
+
+711
+00:29:36.492 --> 00:29:39.332
+a lot of different things between community groups to
+
+712
+00:29:39.332 --> 00:29:43.476
+availability of different venues to nowadays because of, I
+
+713
+00:29:43.476 --> 00:29:47.068
+suppose, the world, global things happening, produce goes up
+
+714
+00:29:47.068 --> 00:29:49.372
+in price as well, all these kind of things.
+
+715
+00:29:49.372 --> 00:29:53.188
+So for me, I want to tell people, when you run a
+
+716
+00:29:53.188 --> 00:29:56.324
+meetup, you don't have to have food if you don't need to.
+
+717
+00:29:56.324 --> 00:29:58.932
+I think. Because I.
+
+718
+00:29:58.932 --> 00:30:01.452
+I have done PyLadies Dublin, where
+
+719
+00:30:01.452 --> 00:30:03.172
+I ask people to bring their own
+
+720
+00:30:03.172 --> 00:30:05.716
+beverages and their own kind of sandwiches.
+
+721
+00:30:05.716 --> 00:30:07.100
+I think someone mentioned brown
+
+722
+00:30:07.100 --> 00:30:09.164
+bag, right?
+
+723
+00:30:09.164 --> 00:30:11.652
+And also I wanted to mention that I heard
+
+724
+00:30:11.652 --> 00:30:15.068
+you also drink coffee, which is besides tea.
+
+725
+00:30:15.068 --> 00:30:15.744
+Yes.
+
+726
+00:30:17.804 --> 00:30:19.060
+So I think that's.
+
+727
+00:30:19.060 --> 00:30:21.372
+So you are not going to upset anybody in this podcast.
+
+728
+00:30:21.372 --> 00:30:22.784
+No, no, no, no.
+
+729
+00:30:23.404 --> 00:30:24.932
+I do drink a bit of coffee, but
+
+730
+00:30:24.932 --> 00:30:29.004
+not too much, I think, for anyone, organizing
+
+731
+00:30:29.004 --> 00:30:31.176
+kind of small meetup groups would be great.
+
+732
+00:30:31.176 --> 00:30:34.080
+And I think lucky if you can get a company to
+
+733
+00:30:34.080 --> 00:30:36.448
+host you because normally they have a kitchenette, so people can
+
+734
+00:30:36.448 --> 00:30:38.384
+make their own tea, coffee and grab some water.
+
+735
+00:30:38.384 --> 00:30:40.400
+And depending on the type of companies, they'll
+
+736
+00:30:40.400 --> 00:30:42.096
+have snacks and stuff like that anyway.
+
+737
+00:30:42.096 --> 00:30:43.800
+So people snack on stuff, but you don't
+
+738
+00:30:43.800 --> 00:30:45.568
+need your beer, you don't need your pizza,
+
+739
+00:30:45.568 --> 00:30:47.384
+you don't need all those sandwiches.
+
+740
+00:30:47.384 --> 00:30:49.232
+Smaller venues won't offer that.
+
+741
+00:30:49.232 --> 00:30:50.032
+Yeah.
+
+742
+00:30:50.032 --> 00:30:52.080
+And you'd be wasting food and things like that.
+
+743
+00:30:52.080 --> 00:30:52.944
+You don't know where to go.
+
+744
+00:30:52.944 --> 00:30:55.048
+I have in the early days where I have to
+
+745
+00:30:55.048 --> 00:30:58.042
+bring platters of sandwiches back home and you're there looking
+
+746
+00:30:58.042 --> 00:31:00.402
+at the fridge for three days with this sad sandwiches
+
+747
+00:31:00.402 --> 00:31:02.610
+in the fridge and taking out all the salads so
+
+748
+00:31:02.610 --> 00:31:03.978
+you can make your own salads from it.
+
+749
+00:31:03.978 --> 00:31:05.658
+So you don't waste the salad. Oh, no.
+
+750
+00:31:05.658 --> 00:31:07.346
+And then eventually you have to toss out some of
+
+751
+00:31:07.346 --> 00:31:10.466
+the sandwiches anyway, because after three something days, then, you
+
+752
+00:31:10.466 --> 00:31:13.114
+know, you don't want to get food poisoning.
+
+753
+00:31:13.114 --> 00:31:14.682
+It's just you can't.
+
+754
+00:31:14.682 --> 00:31:16.442
+And also, you can't just hand, you know,
+
+755
+00:31:16.442 --> 00:31:19.130
+sandwiches to kind of homeless shelters because some
+
+756
+00:31:19.130 --> 00:31:20.162
+of them would have been opened.
+
+757
+00:31:20.162 --> 00:31:21.898
+There's a very strict guidelines on what
+
+758
+00:31:21.898 --> 00:31:24.386
+they accept and don't accept, so. So.
+
+759
+00:31:24.386 --> 00:31:26.562
+And this costs a lot of money catering.
+
+760
+00:31:26.562 --> 00:31:28.010
+I'm just trying to tell people, but
+
+761
+00:31:28.010 --> 00:31:29.802
+we are so spoiled that people expect
+
+762
+00:31:29.802 --> 00:31:31.986
+beer, pizza and sandwiches or whatever.
+
+763
+00:31:31.986 --> 00:31:33.802
+There's food all the time.
+
+764
+00:31:33.802 --> 00:31:37.178
+So, yeah, I run things very frugally
+
+765
+00:31:37.178 --> 00:31:39.854
+for my own events, so I'm just
+
+766
+00:31:40.394 --> 00:31:43.386
+mainly Coding Grace, PyLadies specifically.
+
+767
+00:31:43.386 --> 00:31:44.978
+That's definitely zero budget.
+
+768
+00:31:44.978 --> 00:31:48.954
+And then other things I do is Game Jams.
+
+769
+00:31:48.954 --> 00:31:50.826
+Again, I run that very frugally.
+
+770
+00:31:50.826 --> 00:31:53.882
+If I'm helping other people, I try to point out things,
+
+771
+00:31:53.882 --> 00:31:57.226
+but it's their budget at the end of the day, so
+
+772
+00:31:57.226 --> 00:31:59.618
+I can help them where I can and point out things.
+
+773
+00:31:59.618 --> 00:32:02.418
+But for my own events that I run, I try
+
+774
+00:32:02.418 --> 00:32:06.082
+to make sure that we don't waste any money.
+
+775
+00:32:06.082 --> 00:32:10.330
+The money should be spent on the people, not on
+
+776
+00:32:10.330 --> 00:32:13.282
+other frivolous stuff, I suppose, from my point of view.
+
+777
+00:32:13.282 --> 00:32:17.314
+So, yeah, I have a question regarding what's next.
+
+778
+00:32:17.314 --> 00:32:20.074
+Do you have small plans, big plans?
+
+779
+00:32:20.074 --> 00:32:21.454
+Python plans?
+
+780
+00:32:22.874 --> 00:32:23.774
+I suppose.
+
+781
+00:32:25.954 --> 00:32:29.522
+When I mentioned Cupán Tae virtual talks, I did
+
+782
+00:32:29.522 --> 00:32:32.162
+say that that's used to gauge the interest
+
+783
+00:32:32.162 --> 00:32:34.722
+from people if they like the format.
+
+784
+00:32:34.722 --> 00:32:36.962
+The format is person gives, the guest
+
+785
+00:32:36.962 --> 00:32:38.930
+speaker gives the talk about an hour.
+
+786
+00:32:38.930 --> 00:32:40.386
+It's quite a long talk.
+
+787
+00:32:40.386 --> 00:32:42.202
+It's very in depth technical talk,
+
+788
+00:32:42.202 --> 00:32:43.202
+and they're followed by it on
+
+789
+00:32:43.202 --> 00:32:45.002
+conference style breakout sessions afterwards.
+
+790
+00:32:45.002 --> 00:32:47.202
+So it's like the DDD conference.
+
+791
+00:32:47.202 --> 00:32:48.442
+You can do a search for that.
+
+792
+00:32:48.442 --> 00:32:50.002
+It's sort of like that DDD
+
+793
+00:32:50.002 --> 00:32:51.458
+on conference kind of format.
+
+794
+00:32:51.458 --> 00:32:52.762
+But we were going to do it in
+
+795
+00:32:52.762 --> 00:32:55.634
+person, but it didn't work out timing wise,
+
+796
+00:32:55.634 --> 00:32:57.834
+so we decided to do virtual gauge interest.
+
+797
+00:32:57.834 --> 00:33:00.002
+And we have enough interest. We would like to host
+
+798
+00:33:00.002 --> 00:33:01.752
+this conference outside of Dublin.
+
+799
+00:33:01.752 --> 00:33:03.920
+Because Dublin is expensive, we want to raise
+
+800
+00:33:03.920 --> 00:33:06.392
+the profile of the tech technical user group
+
+801
+00:33:06.392 --> 00:33:09.048
+community in that local town or city.
+
+802
+00:33:09.048 --> 00:33:12.192
+And also because people have been working remotely from
+
+803
+00:33:12.192 --> 00:33:14.656
+home, some of those people might be, don't have
+
+804
+00:33:14.656 --> 00:33:16.408
+to travel to Dublin, they can actually go to
+
+805
+00:33:16.408 --> 00:33:20.480
+is conference because it is in their locale as well. So.
+
+806
+00:33:20.480 --> 00:33:22.000
+And if this works out, we would like to
+
+807
+00:33:22.000 --> 00:33:24.328
+move to different towns and cities around Ireland to
+
+808
+00:33:24.328 --> 00:33:26.528
+highlight the tech community and stuff like that.
+
+809
+00:33:26.528 --> 00:33:28.080
+I hope you can see a passion here and what
+
+810
+00:33:28.080 --> 00:33:32.044
+we're trying to do besides the Events on the Wheel.
+
+811
+00:33:33.864 --> 00:33:36.312
+We're aiming at more senior people as
+
+812
+00:33:36.312 --> 00:33:38.440
+well, because we want to be.
+
+813
+00:33:38.440 --> 00:33:40.616
+We try to focus this one as well and also
+
+814
+00:33:40.616 --> 00:33:43.128
+trying to make it sustainable because we're doing a lot
+
+815
+00:33:43.128 --> 00:33:45.984
+of these events and said we've been very frugal, but
+
+816
+00:33:45.984 --> 00:33:48.456
+doesn't mean that it's maintainable and sustainable.
+
+817
+00:33:48.456 --> 00:33:49.864
+We don't actually, you know, charge
+
+818
+00:33:49.864 --> 00:33:52.040
+memberships or anything like that. So that's one thing.
+
+819
+00:33:52.040 --> 00:33:53.672
+We're just trying to try this out.
+
+820
+00:33:53.672 --> 00:33:54.888
+It's experimental.
+
+821
+00:33:54.888 --> 00:33:57.992
+Myself, my husband is also on the team, founding
+
+822
+00:33:57.992 --> 00:34:00.232
+team, and my friend who's based in London, who
+
+823
+00:34:00.232 --> 00:34:03.200
+will be in New Zealand very soon.
+
+824
+00:34:03.200 --> 00:34:05.960
+So that's going to be fun to organize stuff together.
+
+825
+00:34:05.960 --> 00:34:08.592
+That's a different challenge, remote organizing or someone
+
+826
+00:34:08.592 --> 00:34:09.808
+on the other side of the world.
+
+827
+00:34:09.808 --> 00:34:11.800
+But then that's one thing, and the other thing
+
+828
+00:34:11.800 --> 00:34:14.208
+is just keep recording talks at PyLadies Dublin and
+
+829
+00:34:14.208 --> 00:34:17.520
+trying to perfect that process so myself and my
+
+830
+00:34:17.520 --> 00:34:19.880
+husband can offer our help to other local tech
+
+831
+00:34:19.880 --> 00:34:21.992
+community groups to record their talks.
+
+832
+00:34:21.992 --> 00:34:24.672
+And hopefully I get to run another game jam,
+
+833
+00:34:24.672 --> 00:34:26.056
+I suppose by the end of the year.
+
+834
+00:34:26.056 --> 00:34:27.904
+We did one recently in Cork I would
+
+835
+00:34:27.904 --> 00:34:30.103
+love to do in relation to that.
+
+836
+00:34:30.103 --> 00:34:31.824
+That's part of Gamecraft. We did a.
+
+837
+00:34:31.824 --> 00:34:34.952
+Last year we did a DIY custom game controller
+
+838
+00:34:34.952 --> 00:34:41.080
+where we actually custom PCB board and we preloaded
+
+839
+00:34:41.080 --> 00:34:43.992
+it with Python on it, MicroPython on it.
+
+840
+00:34:43.992 --> 00:34:46.255
+And all the people had to do was
+
+841
+00:34:46.255 --> 00:34:49.760
+learn how to connect the wires between the
+
+842
+00:34:49.760 --> 00:34:52.520
+PCB board and the RaspberryPI Pico.
+
+843
+00:34:52.520 --> 00:34:54.032
+And then they can just
+
+844
+00:34:54.032 --> 00:34:55.960
+We just gave them lots of crafty stuff
+
+845
+00:34:55.960 --> 00:34:57.984
+and they can just make their own board.
+
+846
+00:34:57.984 --> 00:35:00.368
+Their game controllers or whatever they want
+
+847
+00:35:00.368 --> 00:35:02.204
+to do with the controllers can be
+
+848
+00:35:02.784 --> 00:35:05.312
+completely different, use whatever they want.
+
+849
+00:35:05.312 --> 00:35:07.816
+But we gave them the components, so we did something.
+
+850
+00:35:07.816 --> 00:35:10.120
+We did this for beta festival late last
+
+851
+00:35:10.120 --> 00:35:11.776
+year and we have some components left over,
+
+852
+00:35:11.776 --> 00:35:14.324
+so we want to run something again, similar.
+
+853
+00:35:15.184 --> 00:35:16.688
+It was meant to be a jam, but it ended
+
+854
+00:35:16.688 --> 00:35:18.856
+up becoming a workshop because we didn't want to scare
+
+855
+00:35:18.856 --> 00:35:21.888
+people away because the electronics, they think that there's programming
+
+856
+00:35:21.888 --> 00:35:24.064
+involved, but there's none because we preloaded it.
+
+857
+00:35:24.064 --> 00:35:25.496
+You should just plug it in and should be able
+
+858
+00:35:25.496 --> 00:35:27.904
+to play any game you want and things like that.
+
+859
+00:35:27.904 --> 00:35:31.448
+So yeah, there's, as I said, I do a lot
+
+860
+00:35:31.448 --> 00:35:34.128
+of different things, but the main core things is even
+
+861
+00:35:34.128 --> 00:35:38.200
+get to a conference room, Cupán Tae kind of virtual talks
+
+862
+00:35:38.200 --> 00:35:40.096
+and make that into an in person one.
+
+863
+00:35:40.096 --> 00:35:44.144
+Because we want to actually have afternoon tea, because
+
+864
+00:35:44.144 --> 00:35:47.712
+for lunch there's a whole theme going on there.
+
+865
+00:35:47.712 --> 00:35:49.576
+We have a whole theme going on there.
+
+866
+00:35:49.576 --> 00:35:52.168
+And it's going to be held in kind of
+
+867
+00:35:52.168 --> 00:35:54.096
+down in the southeast and it's going to be
+
+868
+00:35:54.096 --> 00:35:57.552
+in a grand house with lovely gardens and stuff.
+
+869
+00:35:57.552 --> 00:35:58.584
+You know, that's the plan.
+
+870
+00:35:58.584 --> 00:36:00.080
+We're going to see how things go.
+
+871
+00:36:00.080 --> 00:36:02.044
+So those are the two kind of things.
+
+872
+00:36:02.604 --> 00:36:04.956
+Two or three different things, but I'm sure there's lots
+
+873
+00:36:04.956 --> 00:36:08.316
+of other stuff that I know, but they're, they're all
+
+874
+00:36:08.316 --> 00:36:10.524
+kind of being juggled and ongoing at the same time.
+
+875
+00:36:10.524 --> 00:36:11.212
+Right.
+
+876
+00:36:11.212 --> 00:36:14.544
+Do you have any hidden hobbies that you.
+
+877
+00:36:21.244 --> 00:36:23.084
+I heard so many things.
+
+878
+00:36:23.084 --> 00:36:25.668
+You said something about sewing.
+
+879
+00:36:25.668 --> 00:36:27.676
+Yeah, I have so many things I have
+
+880
+00:36:27.676 --> 00:36:29.924
+to get back onto my sewing machine.
+
+881
+00:36:29.924 --> 00:36:31.428
+I have so many patterns I want to make.
+
+882
+00:36:31.428 --> 00:36:36.348
+My first pair of pants I've got, I've got cross
+
+883
+00:36:36.348 --> 00:36:39.652
+stitching I want to get back on as well.
+
+884
+00:36:39.652 --> 00:36:41.644
+What else have we got? Oh, I want to do.
+
+885
+00:36:41.644 --> 00:36:43.380
+I want to finish off my kind of.
+
+886
+00:36:43.380 --> 00:36:44.900
+What, what do I have back here?
+
+887
+00:36:44.900 --> 00:36:46.060
+Hold on, I have something here.
+
+888
+00:36:46.060 --> 00:36:47.484
+My lino print.
+
+889
+00:36:47.484 --> 00:36:49.508
+Sorry, bit of a noise here, but I've
+
+890
+00:36:49.508 --> 00:36:51.764
+been doing a bit of lino printing.
+
+891
+00:36:51.764 --> 00:36:53.884
+Can I see, can you see this?
+
+892
+00:36:53.884 --> 00:36:57.020
+Oh, wow, that's cool.
+
+893
+00:36:57.020 --> 00:36:58.692
+So that's where a lino board,
+
+894
+00:36:58.692 --> 00:37:00.236
+it's just right beside me.
+
+895
+00:37:00.236 --> 00:37:03.564
+So that's me carving into Lino
+
+896
+00:37:03.564 --> 00:37:05.444
+and trying not to cut myself.
+
+897
+00:37:05.444 --> 00:37:08.108
+Also digital painting. What else?
+
+898
+00:37:08.108 --> 00:37:09.544
+Oh, yeah, cross media.
+
+899
+00:37:10.124 --> 00:37:13.676
+Cross media kind of art stuff that I want to do.
+
+900
+00:37:13.676 --> 00:37:16.180
+Oh, I'm making zines. Oh, my God. I want to make zines.
+
+901
+00:37:16.180 --> 00:37:18.620
+I want to make so many zines. What else do I have?
+
+902
+00:37:18.620 --> 00:37:20.724
+I'm looking around me, I was like, so I'm sorry.
+
+903
+00:37:20.724 --> 00:37:22.652
+In my room, this is also my Make room.
+
+904
+00:37:22.652 --> 00:37:24.900
+So there's lots of things hanging around that
+
+905
+00:37:24.900 --> 00:37:26.268
+is on my to do list, which I
+
+906
+00:37:26.268 --> 00:37:28.770
+have started and not come finished and completed.
+
+907
+00:37:28.770 --> 00:37:30.474
+Of course, the other thing, big thing, is just
+
+908
+00:37:30.474 --> 00:37:34.218
+renovating this room, making a proper maker room.
+
+909
+00:37:34.218 --> 00:37:36.986
+But yeah, there's a lot of things that I want to do.
+
+910
+00:37:36.986 --> 00:37:40.098
+It's just the time, really, and finishing it and
+
+911
+00:37:40.098 --> 00:37:43.066
+I just, yeah, I just need to take, stand
+
+912
+00:37:43.066 --> 00:37:44.714
+back and just want to do stuff.
+
+913
+00:37:44.714 --> 00:37:45.946
+But then when I stand back and want to
+
+914
+00:37:45.946 --> 00:37:48.042
+do stuff, I end up playing like games, like
+
+915
+00:37:48.042 --> 00:37:50.626
+cozy games or something because that's just relaxing.
+
+916
+00:37:50.626 --> 00:37:53.574
+And then I realize, oh, so,
+
+917
+00:37:55.514 --> 00:37:57.974
+yeah, I get distracted so easily.
+
+918
+00:37:59.314 --> 00:38:02.146
+So, yeah, if you ask me what I think, I just,
+
+919
+00:38:02.146 --> 00:38:04.842
+too many to name, but I just need to sit down.
+
+920
+00:38:04.842 --> 00:38:07.090
+I have also a lot of electronic projects that
+
+921
+00:38:07.090 --> 00:38:09.458
+I want to do that have finished as well.
+
+922
+00:38:09.458 --> 00:38:12.298
+And also so many different videos I want to make.
+
+923
+00:38:12.298 --> 00:38:15.762
+Like my, you know, digital videos of my journeys
+
+924
+00:38:15.762 --> 00:38:18.882
+over, you know, car journeys and things like that.
+
+925
+00:38:18.882 --> 00:38:21.042
+Oh, it's just so much that I want to do.
+
+926
+00:38:21.042 --> 00:38:22.986
+I just need to pick maybe the top
+
+927
+00:38:22.986 --> 00:38:24.734
+three and just do it or something.
+
+928
+00:38:25.864 --> 00:38:28.600
+Or when, you know, when the inspiration strikes.
+
+929
+00:38:28.600 --> 00:38:31.704
+I'm currently knitting, so I'm knitting yoga
+
+930
+00:38:31.704 --> 00:38:33.960
+socks with writing on them and.
+
+931
+00:38:33.960 --> 00:38:37.432
+But since December, I have a tufting gun, so my
+
+932
+00:38:37.432 --> 00:38:39.784
+plan is to make some carpets in the flat, so.
+
+933
+00:38:39.784 --> 00:38:40.808
+Oh, my goodness.
+
+934
+00:38:40.808 --> 00:38:42.644
+You're on a completely different level.
+
+935
+00:38:45.704 --> 00:38:48.237
+And she's really good in these, like.
+
+936
+00:38:48.237 --> 00:38:50.704
+That stuff is hard!
+
+937
+00:38:50.704 --> 00:38:52.826
+You should look at her knitting stuff.
+
+938
+00:38:52.826 --> 00:38:54.130
+It's crazy.
+
+939
+00:38:54.130 --> 00:38:56.954
+She does like a, so I saw the recent one that she did.
+
+940
+00:38:56.954 --> 00:38:59.906
+She did was like, sweater zigzag wave.
+
+941
+00:38:59.906 --> 00:39:01.018
+But I followed the pattern.
+
+942
+00:39:01.018 --> 00:39:03.178
+I mean, yeah, but still.
+
+943
+00:39:03.178 --> 00:39:06.346
+So can we see your, your project
+
+944
+00:39:06.346 --> 00:39:08.290
+on Instagram or where can we see.
+
+945
+00:39:08.290 --> 00:39:10.290
+Your, like, I don't put up
+
+946
+00:39:10.290 --> 00:39:11.650
+stuff that they're not really finished.
+
+947
+00:39:11.650 --> 00:39:13.562
+I try to put up stuff with all that
+
+948
+00:39:13.562 --> 00:39:17.170
+means there's not much, like, I can tell you.
+
+949
+00:39:17.170 --> 00:39:21.888
+I did enjoy crocheting on, and at the time, many, many years
+
+950
+00:39:21.888 --> 00:39:27.264
+ago, I asked my DnD GM if I can crochet
+
+951
+00:39:27.264 --> 00:39:30.848
+a D 20, and he says, yes, as long as it's loaded right.
+
+952
+00:39:30.848 --> 00:39:33.072
+And so I started crocheting.
+
+953
+00:39:33.072 --> 00:39:34.872
+I'm quite new in the crocheting.
+
+954
+00:39:34.872 --> 00:39:37.880
+Then I realized all the triangles were wrong, and I
+
+955
+00:39:37.880 --> 00:39:39.416
+had, like, I would have them all sewing up, and
+
+956
+00:39:39.416 --> 00:39:41.552
+I realized things were going wrong and didn't look right.
+
+957
+00:39:41.552 --> 00:39:43.704
+I had to undo all the stitching. Had to undo.
+
+958
+00:39:43.704 --> 00:39:44.768
+And then I started unraveling the
+
+959
+00:39:44.768 --> 00:39:47.800
+stuff, and then I gave up. I was so sad. I gave up.
+
+960
+00:39:47.800 --> 00:39:50.036
+And I said, I'm don't do, I don't want to do it again.
+
+961
+00:39:50.036 --> 00:39:52.260
+I don't want to crochet again
+
+962
+00:39:52.260 --> 00:39:55.340
+You picked, like, a very complicated project.
+
+963
+00:39:55.340 --> 00:39:57.532
+But I was very confident. I did too many.
+
+964
+00:39:57.532 --> 00:39:58.964
+I did so many squares.
+
+965
+00:39:58.964 --> 00:40:00.364
+I said, how hard could it be?
+
+966
+00:40:00.364 --> 00:40:01.464
+Triangles.
+
+967
+00:40:02.724 --> 00:40:03.476
+That's the same.
+
+968
+00:40:03.476 --> 00:40:06.468
+When I wanted to do 3D printing.
+
+969
+00:40:06.468 --> 00:40:07.796
+But the one with the pen.
+
+970
+00:40:07.796 --> 00:40:08.196
+Yeah.
+
+971
+00:40:08.196 --> 00:40:10.236
+You know, you can, like, you can get the pen.
+
+972
+00:40:10.236 --> 00:40:13.708
+And my startup project was Pickle Rick.
+
+973
+00:40:13.708 --> 00:40:16.344
+Oh, that's hard. Wow.
+
+974
+00:40:17.084 --> 00:40:19.324
+Because there was a YouTube video about it,
+
+975
+00:40:19.324 --> 00:40:21.660
+like, some guy, like, doing Pickle Rick.
+
+976
+00:40:21.660 --> 00:40:23.740
+And I was following, you two can do it.
+
+977
+00:40:23.740 --> 00:40:24.964
+I can do it.
+
+978
+00:40:24.964 --> 00:40:26.620
+I think I spent, like, 4 hours.
+
+979
+00:40:26.620 --> 00:40:28.052
+I made the head of Pickle Rick
+
+980
+00:40:28.052 --> 00:40:30.196
+was kind of flat but looked cool.
+
+981
+00:40:30.196 --> 00:40:32.532
+And then I gave it as a present to
+
+982
+00:40:32.532 --> 00:40:34.748
+someone that was super excited about Pickle Rick.
+
+983
+00:40:34.748 --> 00:40:37.644
+And then I never did 3D printing.
+
+984
+00:40:37.644 --> 00:40:40.384
+Those 3D pens are hard to use though those 3D.
+
+985
+00:40:41.964 --> 00:40:45.484
+So how do people get to get in touch with you
+
+986
+00:40:45.484 --> 00:40:49.514
+if they want to, you know, maybe ask Vicky and to
+
+987
+00:40:49.514 --> 00:40:54.178
+help with some recordings or get some advice from you?
+
+988
+00:40:54.178 --> 00:40:55.866
+LinkedIn, you find me on LinkedIn if you
+
+989
+00:40:55.866 --> 00:40:57.714
+want to email me, I suppose with regards
+
+990
+00:40:57.714 --> 00:41:02.418
+to PyLadies Dublin, but LinkedIn, right.
+
+991
+00:41:02.418 --> 00:41:04.578
+Thank you so much, Vicky, for
+
+992
+00:41:04.578 --> 00:41:07.674
+joining us today at PyPodcats.
+
+993
+00:41:07.674 --> 00:41:12.018
+You can find us in pypodcats.live, or
+
+994
+00:41:12.018 --> 00:41:14.930
+you can also search on YouTube channel from
+
+995
+00:41:14.930 --> 00:41:18.338
+the PSF to watch these episodes.
+
+996
+00:41:18.338 --> 00:41:20.458
+And you can also catch us in any of
+
+997
+00:41:20.458 --> 00:41:24.914
+your favorite podcast channel, Apple, Spotify, whatever you prefer.
