@@ -61,12 +61,6 @@
               {{ partial "social-share" (dict "Context" . "Class" "share-icons" "Title" (i18n "share") "Whatsapp" false "Telegram" false) }}
             </div>
           </div>
-          <!-- comments -->
-          {{ if site.DisqusShortname }}
-            <div class="mt-20">
-              {{ template "_internal/disqus.html" . }}
-            </div>
-          {{ end }}
         </article>
       </div>
 
