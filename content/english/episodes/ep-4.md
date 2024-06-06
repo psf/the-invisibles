@@ -89,7 +89,7 @@ Be sure to listen to the episode to learn all about Jessica's inspiring story!
 ## Links from the show
 
 - Minecraft: https://www.minecraft.net/
-- Pypandoc: https://github.com/JessicaTegner/pypandoc
+- PyPandoc: https://github.com/JessicaTegner/pypandoc
 - Pandoc: https://www.pandoc.org/
 - Poetry: https://python-poetry.org/
 
