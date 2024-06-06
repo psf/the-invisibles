@@ -19,7 +19,7 @@ season: 1
 transcript: '/transcript/hidden-figures-of-python-ep4.vtt'
 episode_type: full
 layout: episode
-youtube_id: 
+youtube_id: kLPAUqKSzDM
   
 speaker:
   url: "/speakers/jessica-tegner/"
@@ -27,7 +27,7 @@ speaker:
   image: "/images/jessica_tegner.jpg"
   description: "
 Jessica Tegner is an open source software developer and computer science student from Denmark who has been a part of 
-the open source world for over 13 years. She is a maintainer of pypandoc, a thin wrapper for the universal document
+the open source world for over 13 years. She is a maintainer of PyPandoc, a thin wrapper for the universal document
 converter pandoc. Being fully blind has not stopped her from working as a software engineer intern at Uber,
 being a member of the first GitHub Accelerator program or having the opportunity of being a world-conference public
 speaker.
@@ -59,7 +59,7 @@ Playing video games like Minecraft led her to learn programming and to solve pro
 She lost her vision in 2018, but it does not stop her from continuing to tinker with tools and technology. In
 fact, it motivates her into creating and improving tools to be more accessible to the users.
 
-Jessica is the maintainer of the popular Pypandoc library, which is a Python wrapper for the Pandoc library.
+Jessica is the maintainer of the popular PyPandoc library, which is a Python wrapper for the Pandoc library.
 She was selected as the first cohort of the GitHub Accelerator program.
 
 Jessica has spoken at several conferences but aspires to do more, and especially at Python conferences.
@@ -74,7 +74,7 @@ Be sure to listen to the episode to learn all about Jessica's inspiring story!
 - Starting a Minecraft server which turns into one of the biggest server in Denmark
 - Learning to mod Minecraft server which in turns brings up her love for programming
 - Using Python to program desktop applications
-- Becoming the maintainer for Pypandoc
+- Becoming the maintainer for PyPandoc
 - Difficulties and challenges while coding with visual impairment
 - Her superpower: being able to twice as fast as an average human reader
 - Contributing to Poetry
