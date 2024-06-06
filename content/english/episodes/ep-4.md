@@ -56,14 +56,14 @@ from modding Minecraft games into becoming an open
 source maintainer.
 
 Playing video games like Minecraft led her to learn programming and to solve problems with coding and technology.
-She lost her vision in 2018, but it does not stop her from continuing to tinkering with tools and technology. In
+She lost her vision in 2018, but it does not stop her from continuing to tinker with tools and technology. In
 fact, it motivates her into creating and improving tools to be more accessible to the users.
 
-Jessica is the maintainer of the popular Pypandoc library, which is a Python wrapper for the Pandoc library. She was
-selected as the first cohort of the GitHub Accelerator program.
+Jessica is the maintainer of the popular Pypandoc library, which is a Python wrapper for the Pandoc library.
+She was selected as the first cohort of the GitHub Accelerator program.
 
-Jessica has spoken at several conferences but aspires to do more, and especially at Python conferences. She wishes
-that events and conferences would have more accessibility information openly available.
+Jessica has spoken at several conferences but aspires to do more, and especially at Python conferences.
+She wishes that events and conferences would have more accessibility information openly available.
 
 Be sure to listen to the episode to learn all about Jessica's inspiring story!
 
@@ -81,7 +81,7 @@ Be sure to listen to the episode to learn all about Jessica's inspiring story!
 - Why Minecraft is an example of an accessible video game
 - Accessibility information at conferences, and advice to conference organizers
 - Thoughts on AI and ChatGPT for computer science students
-- Her favorite tools, like screenreader, accessible browser, and IDE
+- Her favorite tools, like screen reader, accessible browser, and IDE
 - Traveling
 - Making her own video game engine because the existing engines are not accessible
 - Her aspirations to speak at more Python conferences
