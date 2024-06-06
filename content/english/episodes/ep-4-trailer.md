@@ -19,7 +19,7 @@ season: 1
 transcript: '/transcript/hidden-figures-of-python-ep4-trailer.vtt'
 episode_type: trailer
 layout: episode
-youtube_id: 
+youtube_id: XvOGIoOQq_U
   
 speaker:
   url: "/speakers/jessica-tegner/"
@@ -27,7 +27,7 @@ speaker:
   image: "/images/jessica_tegner.jpg"
   description: "
 Jessica Tegner is an open source software developer and computer science student from Denmark who has been a part of 
-the open source world for over 13 years. She is a maintainer of pypandoc, a thin wrapper for the universal document
+the open source world for over 13 years. She is a maintainer of PyPandoc, a thin wrapper for the universal document
 converter pandoc. Being fully blind has not stopped her from working as a software engineer intern at Uber,
 being a member of the first GitHub Accelerator program or having the opportunity of being a world-conference public
 speaker.
