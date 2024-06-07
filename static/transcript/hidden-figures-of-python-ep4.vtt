@@ -1,0 +1,3025 @@
+WEBVTT
+
+1
+00:00:21.240 --> 00:00:22.366
+Hi, everyone.
+
+2
+00:00:22.366 --> 00:00:25.054
+Welcome to PyPodcats, the Hidden
+
+3
+00:00:25.054 --> 00:00:27.510
+Figures of Python podcast series.
+
+4
+00:00:27.510 --> 00:00:31.110
+The PyPodcats is  a series that is created
+
+5
+00:00:31.110 --> 00:00:35.220
+by me, Georgi, and here there's Cheuk, Tereza, and
+
+6
+00:00:35.220 --> 00:00:38.084
+Mariatta,  all four of us coming together to highlight
+
+7
+00:00:38.084 --> 00:00:42.084
+voices from under-represented group members of the Python community.
+
+8
+00:00:42.084 --> 00:00:44.172
+Now we follow the PSF Code of
+
+9
+00:00:44.172 --> 00:00:46.972
+Conduct to help interactions and to keep
+
+10
+00:00:46.972 --> 00:00:50.412
+Python a positive, successful, and growing community.
+
+11
+00:00:50.412 --> 00:00:54.220
+If you would like to know more about the
+
+12
+00:00:54.220 --> 00:00:57.044
+details of the Code of Conduct, you can head
+
+13
+00:00:57.044 --> 00:01:04.384
+out straight onto https://pypodcats.live/conduct
+
+14
+00:01:04.384 --> 00:01:07.728
+A little bit of self introduction.
+
+15
+00:01:07.728 --> 00:01:10.744
+My name is Geogrgi  and I am
+
+16
+00:01:10.744 --> 00:01:14.336
+hosting today live at Porto, Portugal.
+
+17
+00:01:14.336 --> 00:01:16.164
+Normally I'm in Amsterdam.
+
+18
+00:01:17.144 --> 00:01:19.208
+And to you, Cheuk.
+
+19
+00:01:19.208 --> 00:01:22.080
+Hi, I'm Cheuk and I live in London.
+
+20
+00:01:22.080 --> 00:01:23.512
+I love Python.
+
+21
+00:01:23.512 --> 00:01:26.124
+I am a PyLady. I don't know.
+
+22
+00:01:26.784 --> 00:01:28.488
+Yeah, I'm addicted to Python.
+
+23
+00:01:28.488 --> 00:01:31.056
+Then we have our guest today, Jessica.
+
+24
+00:01:31.056 --> 00:01:32.414
+Hello, Jessica.
+
+25
+00:01:32.414 --> 00:01:33.274
+Hello.
+
+26
+00:01:33.974 --> 00:01:36.870
+Yeah, so thanks for having me on, you two.
+
+27
+00:01:36.870 --> 00:01:38.766
+Yeah, my name is Jessica.
+
+28
+00:01:38.766 --> 00:01:42.714
+I'm a open source maintainer primarily
+
+29
+00:01:43.374 --> 00:01:46.974
+of like, different Python projects.
+
+30
+00:01:46.974 --> 00:01:50.382
+I am in Denmark right now, but I love
+
+31
+00:01:50.382 --> 00:01:52.582
+to travel and I love to go to different
+
+32
+00:01:52.582 --> 00:01:56.334
+conferences, mostly as a speaker, but I also really
+
+33
+00:01:56.334 --> 00:01:58.254
+want to just go to more as an attendee.
+
+34
+00:01:58.254 --> 00:01:59.734
+So I'm all over the place.
+
+35
+00:01:59.734 --> 00:02:04.106
+But, yeah, right now I'm in Denmark, where I live.
+
+36
+00:02:04.106 --> 00:02:04.914
+Super.
+
+37
+00:02:04.914 --> 00:02:07.906
+So actually, our first question was
+
+38
+00:02:07.906 --> 00:02:10.906
+to ask Jessica to describe herself.
+
+39
+00:02:10.906 --> 00:02:13.938
+I think she literally described herself already.
+
+40
+00:02:13.938 --> 00:02:15.974
+So we are going to skip the first question.
+
+41
+00:02:17.034 --> 00:02:19.874
+Yeah, actually, Jessica and I met in a
+
+42
+00:02:19.874 --> 00:02:23.418
+conference in Bilbao and she was speaking there.
+
+43
+00:02:23.418 --> 00:02:27.530
+So, yeah, it was my first time speaking
+
+44
+00:02:27.530 --> 00:02:30.534
+and I had two lovely talks there. It was great.
+
+45
+00:02:31.144 --> 00:02:31.680
+Wow.
+
+46
+00:02:31.680 --> 00:02:34.640
+So from the first time you spoke until
+
+47
+00:02:34.640 --> 00:02:37.764
+now, how many talks have you given?
+
+48
+00:02:38.944 --> 00:02:43.504
+So at physical conferences, I have done those two.
+
+49
+00:02:43.504 --> 00:02:47.728
+I've also done a few, done a few interviews and
+
+50
+00:02:47.728 --> 00:02:50.744
+I've done a few live streams with some other people,
+
+51
+00:02:50.744 --> 00:02:53.144
+and I'm working on a lot of different stuff that's
+
+52
+00:02:53.144 --> 00:02:57.160
+coming in the next weeks and next couple of months.
+
+53
+00:02:57.160 --> 00:02:59.890
+Well, sounds like a very busy schedule.
+
+54
+00:02:59.890 --> 00:03:01.174
+Yes, it is.
+
+55
+00:03:03.074 --> 00:03:05.826
+So let's like, rewind, rewind all
+
+56
+00:03:05.826 --> 00:03:08.762
+the way back to the beginning.
+
+57
+00:03:08.762 --> 00:03:11.934
+How did you first get in contact with a computer?
+
+58
+00:03:12.554 --> 00:03:14.186
+Yeah, how did I first get in contact?
+
+59
+00:03:14.186 --> 00:03:15.474
+Leave aside.
+
+60
+00:03:15.474 --> 00:03:17.738
+Yeah, I feel so old.
+
+61
+00:03:17.738 --> 00:03:20.498
+But then, then yet again, not really.
+
+62
+00:03:20.498 --> 00:03:23.466
+So how did I first get in contact with a computer?
+
+63
+00:03:23.466 --> 00:03:25.764
+It was like mini probably.
+
+64
+00:03:25.764 --> 00:03:27.300
+I lived at home.
+
+65
+00:03:27.300 --> 00:03:31.604
+I was, what, five or six when I
+
+66
+00:03:31.604 --> 00:03:36.356
+started playing video games on the computer.
+
+67
+00:03:36.356 --> 00:03:38.628
+I started playing age-appropriate, I want
+
+68
+00:03:38.628 --> 00:03:40.464
+to say age-appropriate video games.
+
+69
+00:03:42.764 --> 00:03:44.964
+It was age-appropriate.
+
+70
+00:03:44.964 --> 00:03:47.100
+Oh, I play a lot of age-
+
+71
+00:03:47.100 --> 00:03:49.460
+inappropriate video games when I was little.
+
+72
+00:03:49.460 --> 00:03:53.510
+No, but it's mostly, it's like there's a lot of
+
+73
+00:03:53.510 --> 00:03:55.934
+video games where people in their start scenes will play
+
+74
+00:03:55.934 --> 00:03:59.758
+them even though they are rated for like 16 or
+
+75
+00:03:59.758 --> 00:04:02.954
+18 plus, which is what I did at the time.
+
+76
+00:04:07.334 --> 00:04:09.114
+It's totally innocent.
+
+77
+00:04:10.454 --> 00:04:12.750
+Also, Jessica is very young, so like,
+
+78
+00:04:12.750 --> 00:04:15.630
+probably it's easier to like, have a
+
+79
+00:04:15.630 --> 00:04:17.754
+computer at home when you're younger.
+
+80
+00:04:18.374 --> 00:04:21.483
+When I say video games, when I say video games,
+
+81
+00:04:21.483 --> 00:04:25.644
+it was very much, it was very much like very
+
+82
+00:04:25.644 --> 00:04:28.540
+basic, like images on the screen, you click on things,
+
+83
+00:04:28.540 --> 00:04:30.836
+they do flashy things, and that's it.
+
+84
+00:04:30.836 --> 00:04:34.548
+It wasn't anything near as realistic as they are now.
+
+85
+00:04:34.548 --> 00:04:35.744
+Not Tetris.
+
+86
+00:04:36.804 --> 00:04:40.476
+It was like, I want to say worse than Tetris.
+
+87
+00:04:40.476 --> 00:04:41.984
+It was worse than Tetris level.
+
+88
+00:04:42.764 --> 00:04:46.172
+I said it was the Family computer on the Small,
+
+89
+00:04:46.172 --> 00:04:49.396
+like on the slow dial-up connections that I was.
+
+90
+00:04:49.396 --> 00:04:50.194
+That was great.
+
+91
+00:04:55.454 --> 00:04:57.886
+We all have memory of those and you
+
+92
+00:04:57.886 --> 00:04:59.582
+have to fight over the phone line.
+
+93
+00:04:59.582 --> 00:05:01.766
+You have to like ask your mom to not
+
+94
+00:05:01.766 --> 00:05:04.454
+use the phone while you're on the Internet.
+
+95
+00:05:04.454 --> 00:05:04.926
+Yeah.
+
+96
+00:05:04.926 --> 00:05:07.998
+The great thing was that I mainly played offline games,
+
+97
+00:05:07.998 --> 00:05:10.478
+so I didn't care about my mom having hour long
+
+98
+00:05:10.478 --> 00:05:13.126
+conversations with the rest of the family over the phone.
+
+99
+00:05:13.126 --> 00:05:15.054
+That is great.
+
+100
+00:05:15.054 --> 00:05:19.146
+Yeah, but yeah, I fell in love from the very
+
+101
+00:05:19.146 --> 00:05:21.874
+first moment I really got to use a computer.
+
+102
+00:05:21.874 --> 00:05:24.734
+They had to sometimes drag me away from it.
+
+103
+00:05:27.274 --> 00:05:29.282
+So how do you actually start coding?
+
+104
+00:05:29.282 --> 00:05:31.674
+Like writing, learning how to
+
+105
+00:05:31.674 --> 00:05:33.706
+program and stuff like that?
+
+106
+00:05:33.706 --> 00:05:34.250
+Yeah.
+
+107
+00:05:34.250 --> 00:05:38.834
+So now I'm really going to age myself a lot.
+
+108
+00:05:38.834 --> 00:05:41.442
+Honestly, it's not really a secret how old I am.
+
+109
+00:05:41.442 --> 00:05:42.894
+It's very out there.
+
+110
+00:05:43.694 --> 00:05:46.382
+So around 14 years ago, when I
+
+111
+00:05:46.382 --> 00:05:48.382
+was a little girl at ten years.
+
+112
+00:05:48.382 --> 00:05:51.206
+Old, not that old.
+
+113
+00:05:51.206 --> 00:05:52.558
+I know. Do the math.
+
+114
+00:05:52.558 --> 00:05:54.494
+I already have one midlife crisis,
+
+115
+00:05:54.494 --> 00:05:55.834
+so you can do the math.
+
+116
+00:05:57.094 --> 00:05:59.462
+I started playing a very blocky
+
+117
+00:05:59.462 --> 00:06:01.974
+game that many people probably know. Minecraft.
+
+118
+00:06:01.974 --> 00:06:02.814
+Oh, yeah.
+
+119
+00:06:02.814 --> 00:06:05.982
+And me and my friends had a lot of fun with
+
+120
+00:06:05.982 --> 00:06:08.358
+it, like when we were sitting together, but we wanted to
+
+121
+00:06:08.358 --> 00:06:11.990
+be able to play together when we were not physically together.
+
+122
+00:06:11.990 --> 00:06:15.606
+So I looked into how to make a server for us.
+
+123
+00:06:15.606 --> 00:06:17.894
+So we just started playing on a server normally,
+
+124
+00:06:17.894 --> 00:06:19.790
+and then we thought it was really fun to
+
+125
+00:06:19.790 --> 00:06:21.990
+build stuff and host games and so on.
+
+126
+00:06:21.990 --> 00:06:24.398
+So we started opening it up to the public.
+
+127
+00:06:24.398 --> 00:06:26.878
+And a year, one and a half years later, we
+
+128
+00:06:26.878 --> 00:06:29.438
+were running one of the biggest server networks here in
+
+129
+00:06:29.438 --> 00:06:35.502
+Denmark with 3400 concurrent players doing peak hours.
+
+130
+00:06:35.502 --> 00:06:38.510
+And that included me.
+
+131
+00:06:38.510 --> 00:06:39.910
+I was the Primary tech,
+
+132
+00:06:39.910 --> 00:06:41.310
+I was the only tech person more or less
+
+133
+00:06:41.310 --> 00:06:44.534
+Primary to only.
+
+134
+00:06:44.534 --> 00:06:46.078
+Primary only tech person.
+
+135
+00:06:46.078 --> 00:06:48.294
+So I had to learn a lot about networking.
+
+136
+00:06:48.294 --> 00:06:53.310
+And then I saw a lot of international videos
+
+137
+00:06:53.310 --> 00:06:55.878
+of people playing Minecraft as well, where they played
+
+138
+00:06:55.878 --> 00:06:58.846
+on these big servers that had custom stuff.
+
+139
+00:06:58.846 --> 00:07:01.062
+And I was looking at it and I was
+
+140
+00:07:01.062 --> 00:07:03.444
+like, how can I make stuff like that?
+
+141
+00:07:03.444 --> 00:07:06.484
+So I looked into it and I saw there is, there's
+
+142
+00:07:06.484 --> 00:07:11.484
+like this entire server modding, like you could write plugins in
+
+143
+00:07:11.484 --> 00:07:15.788
+Java to the server where you could add custom logic.
+
+144
+00:07:15.788 --> 00:07:19.356
+And then from that I just started learning programming.
+
+145
+00:07:19.356 --> 00:07:23.420
+And now again, just like the original, falling in love
+
+146
+00:07:23.420 --> 00:07:25.348
+with the computer, I fell in love with programming.
+
+147
+00:07:25.348 --> 00:07:26.204
+Oh, that's cool.
+
+148
+00:07:26.204 --> 00:07:30.564
+And then how did it step into like Python?
+
+149
+00:07:30.564 --> 00:07:37.028
+Well, great question, fast forward
+
+150
+00:07:37.028 --> 00:07:39.704
+another three or four years.
+
+151
+00:07:40.484 --> 00:07:43.100
+Me and my friends were getting older, we
+
+152
+00:07:43.100 --> 00:07:45.732
+kind of started losing interest in Minecraft.
+
+153
+00:07:45.732 --> 00:07:47.724
+And I also coded a lot of Minecraft
+
+154
+00:07:47.724 --> 00:07:51.264
+related stuff, again mostly for the server side.
+
+155
+00:07:52.044 --> 00:07:54.884
+But I wanted to get into more
+
+156
+00:07:54.884 --> 00:07:57.004
+general programming because I really loved learning
+
+157
+00:07:57.004 --> 00:07:59.020
+about tech, I really love programming.
+
+158
+00:07:59.020 --> 00:08:02.310
+I figured I wanted to make desktop applications because I
+
+159
+00:08:02.310 --> 00:08:04.942
+was on a computer, I could use a computer.
+
+160
+00:08:04.942 --> 00:08:06.118
+So I wanted to make stuff that
+
+161
+00:08:06.118 --> 00:08:07.662
+I could use on the computer.
+
+162
+00:08:07.662 --> 00:08:09.198
+And I started trying to do that
+
+163
+00:08:09.198 --> 00:08:11.838
+in Java and it, it worked.
+
+164
+00:08:11.838 --> 00:08:14.070
+I'm very impressed that I got it to work, but it
+
+165
+00:08:14.070 --> 00:08:17.078
+worked, but it was very clunky and I wanted something better.
+
+166
+00:08:17.078 --> 00:08:20.510
+So I researched it and Python immediately came up and
+
+167
+00:08:20.510 --> 00:08:25.054
+I looked into UI libraries and I looked into auto
+
+168
+00:08:25.054 --> 00:08:28.142
+updating of like desktop applications and stuff like that.
+
+169
+00:08:28.142 --> 00:08:31.038
+And then I tried writing my first program
+
+170
+00:08:31.038 --> 00:08:33.477
+in Python that just did something simple.
+
+171
+00:08:33.477 --> 00:08:35.782
+I always started with a calculator and then
+
+172
+00:08:35.782 --> 00:08:39.014
+I converted it into a UI calculator.
+
+173
+00:08:39.014 --> 00:08:41.254
+It's all in Python with auto updating.
+
+174
+00:08:41.254 --> 00:08:42.630
+I was super proud of myself.
+
+175
+00:08:42.630 --> 00:08:44.974
+And then it just took off from there
+
+176
+00:08:44.974 --> 00:08:48.198
+and it spiraled completely out of control into
+
+177
+00:08:48.198 --> 00:08:51.314
+this thing I've gotten myself into now.
+
+178
+00:08:52.894 --> 00:08:55.654
+Yeah, so you have the Pypandoc, right?
+
+179
+00:08:55.654 --> 00:08:57.710
+Or you're like taking someone's
+
+180
+00:08:57.710 --> 00:08:59.262
+project and maintaining it.
+
+181
+00:08:59.262 --> 00:09:00.724
+Yeah, I took it over. So,
+
+182
+00:09:02.544 --> 00:09:03.804
+Yeah, I took it over.
+
+183
+00:09:04.424 --> 00:09:07.752
+Could you tell us more about Pypandoc?
+
+184
+00:09:07.752 --> 00:09:10.536
+Because I also don't know much about it and
+
+185
+00:09:10.536 --> 00:09:13.684
+where you're maintaining this library, so you must know.
+
+186
+00:09:14.464 --> 00:09:15.368
+Yeah, sure.
+
+187
+00:09:15.368 --> 00:09:20.360
+So there is a CLI tool called Pandoc that is
+
+188
+00:09:20.360 --> 00:09:25.744
+a universal document converter that uses the markdown markup format
+
+189
+00:09:25.744 --> 00:09:28.912
+to convert between any other, more or less any other
+
+190
+00:09:28.912 --> 00:09:32.256
+format you can think about anything from HTML to word
+
+191
+00:09:32.256 --> 00:09:38.304
+to PDF to PowerPoint to Wiki to open document formatted
+
+192
+00:09:38.304 --> 00:09:40.640
+All the different formats you might want to use,
+
+193
+00:09:40.640 --> 00:09:44.120
+and then you have markdown as the intermediary format where
+
+194
+00:09:44.120 --> 00:09:47.320
+you actually write your document contents.
+
+195
+00:09:47.320 --> 00:09:50.896
+Of course, Python, we love having
+
+196
+00:09:50.896 --> 00:09:52.512
+Python libraries to do everything.
+
+197
+00:09:52.512 --> 00:09:54.850
+We don't want to call external stuff if
+
+198
+00:09:54.850 --> 00:09:56.170
+we have a Python library for it.
+
+199
+00:09:56.170 --> 00:09:59.306
+So way back when, when, I wanted to make a
+
+200
+00:09:59.306 --> 00:10:03.810
+text editor for the blind, because I myself is totally
+
+201
+00:10:03.810 --> 00:10:06.426
+blind, so I wanted to make a text editor where
+
+202
+00:10:06.426 --> 00:10:10.754
+I could control the visual formatting much, like much better
+
+203
+00:10:10.754 --> 00:10:13.738
+than I could at the time, in, people at the
+
+204
+00:10:13.738 --> 00:10:18.322
+time couldn't word or other like mainstream text based.
+
+205
+00:10:18.322 --> 00:10:21.542
+Yeah, um, take big editors.
+
+206
+00:10:21.542 --> 00:10:23.646
+And it was also before like stuff like VS Code
+
+207
+00:10:23.646 --> 00:10:25.302
+and stuff like that really came out.
+
+208
+00:10:25.302 --> 00:10:27.846
+So I found Pypandoc, which was
+
+209
+00:10:27.846 --> 00:10:30.390
+this Python wrapper around Pandoc that made
+
+210
+00:10:30.390 --> 00:10:33.006
+it easy to work with from Python.
+
+211
+00:10:33.006 --> 00:10:35.270
+And I utilize, I utilized that
+
+212
+00:10:35.270 --> 00:10:38.582
+to basically power my text editor.
+
+213
+00:10:38.582 --> 00:10:42.566
+And then I saw that he wasn't updating it
+
+214
+00:10:42.566 --> 00:10:45.622
+anymore and I started making more and more like,
+
+215
+00:10:45.622 --> 00:10:48.590
+issues and pull requests that got accepted.
+
+216
+00:10:48.590 --> 00:10:50.534
+But like, he had kind of like
+
+217
+00:10:50.534 --> 00:10:52.260
+not worked on it for a while.
+
+218
+00:10:52.260 --> 00:10:54.612
+So I just at one point emailed him and
+
+219
+00:10:54.612 --> 00:10:56.620
+asked, hey, if you're not planning on updating it
+
+220
+00:10:56.620 --> 00:11:00.356
+anymore, is it okay if I take it over?
+
+221
+00:11:00.356 --> 00:11:03.092
+Because I can see it's still very widely used and
+
+222
+00:11:03.092 --> 00:11:04.988
+I love it and I would love to maintain it.
+
+223
+00:11:04.988 --> 00:11:06.788
+And he was like, yeah, sure, I'm
+
+224
+00:11:06.788 --> 00:11:08.540
+just gonna talk to the other maintainer.
+
+225
+00:11:08.540 --> 00:11:10.372
+He was also okay with it.
+
+226
+00:11:10.372 --> 00:11:13.996
+And then they transferred the GitHub repository and
+
+227
+00:11:13.996 --> 00:11:18.152
+the Package Index publish rights to my account
+
+228
+00:11:18.152 --> 00:11:20.864
+and the rest as you see is history.
+
+229
+00:11:20.864 --> 00:11:24.004
+Yeah, that's really cool. Yeah.
+
+230
+00:11:24.664 --> 00:11:30.360
+I mean, being, even, to like, normal, any one of
+
+231
+00:11:30.360 --> 00:11:34.824
+us being a maintainer is already really tough, but like,
+
+232
+00:11:34.824 --> 00:11:38.984
+you not being able to like, see and still being
+
+233
+00:11:38.984 --> 00:11:43.758
+able to maintain the whole project, that is like so
+
+234
+00:11:43.758 --> 00:11:46.674
+inspiring for so many people around there, you know?
+
+235
+00:11:47.334 --> 00:11:48.158
+Yep.
+
+236
+00:11:48.158 --> 00:11:50.926
+I'm just curious, despite all these challenges, how do
+
+237
+00:11:50.926 --> 00:11:54.954
+you continue to learn and like to, to improve?
+
+238
+00:11:55.574 --> 00:11:58.382
+Are there any like, difficulties or
+
+239
+00:11:58.382 --> 00:11:59.926
+things like that along the way?
+
+240
+00:11:59.926 --> 00:12:01.374
+When, when there's text based
+
+241
+00:12:01.374 --> 00:12:02.886
+tutorials, always the best.
+
+242
+00:12:02.886 --> 00:12:06.142
+Because I read approximately twice as fast as
+
+243
+00:12:06.142 --> 00:12:08.806
+the, as an average human reader, I read
+
+244
+00:12:08.806 --> 00:12:11.154
+around six to 700 words a minute.
+
+245
+00:12:11.854 --> 00:12:13.478
+So I can take in information
+
+246
+00:12:13.478 --> 00:12:14.914
+Four times faster than me.
+
+247
+00:12:18.014 --> 00:12:20.486
+Yeah, YouTube can only allow three times speed.
+
+248
+00:12:20.486 --> 00:12:21.794
+It's not fast enough.
+
+249
+00:12:23.774 --> 00:12:25.030
+Fair enough.
+
+250
+00:12:25.030 --> 00:12:27.446
+So when there's text based tutorials for stuff,
+
+251
+00:12:27.446 --> 00:12:30.238
+I can take in information really fast.
+
+252
+00:12:30.238 --> 00:12:32.862
+Generally speaking, I haven't had a problem learning because
+
+253
+00:12:32.862 --> 00:12:34.190
+there's a lot of books on the topic.
+
+254
+00:12:34.190 --> 00:12:35.238
+There's a lot of articles on
+
+255
+00:12:35.238 --> 00:12:38.038
+the topic that I've been consuming.
+
+256
+00:12:38.038 --> 00:12:39.150
+Mostly articles.
+
+257
+00:12:39.150 --> 00:12:41.436
+Not really a big book person, but many,
+
+258
+00:12:41.436 --> 00:12:45.140
+many articles, many tutorials and just experimenting.
+
+259
+00:12:45.140 --> 00:12:47.452
+Recently, though, what I've gotten into is a little
+
+260
+00:12:47.452 --> 00:12:51.332
+more graphical in nature, so that's a little more
+
+261
+00:12:51.332 --> 00:12:53.612
+difficult, but I'm getting the hang of it.
+
+262
+00:12:53.612 --> 00:12:54.304
+Wow.
+
+263
+00:12:55.004 --> 00:12:55.668
+Yeah.
+
+264
+00:12:55.668 --> 00:12:58.028
+I also heard from Cheuk
+
+265
+00:12:58.028 --> 00:13:00.544
+that you've contributed to Poetry.
+
+266
+00:13:01.084 --> 00:13:03.516
+So could you just tell me a little bit
+
+267
+00:13:03.516 --> 00:13:06.876
+more about your contribution and what is Poetry?
+
+268
+00:13:06.876 --> 00:13:11.878
+So Poetry is a dependency manager and
+
+269
+00:13:11.878 --> 00:13:14.910
+a build tool all in one.
+
+270
+00:13:14.910 --> 00:13:18.166
+It basically wraps around and makes
+
+271
+00:13:18.166 --> 00:13:20.134
+virtual environments for all your projects.
+
+272
+00:13:20.134 --> 00:13:22.750
+You have this Poetry file where you can add
+
+273
+00:13:22.750 --> 00:13:25.710
+an update dependency with a CLI command, and then
+
+274
+00:13:25.710 --> 00:13:28.870
+you can build and publish your packages to the
+
+275
+00:13:28.870 --> 00:13:30.598
+Package Index or a custom index.
+
+276
+00:13:30.598 --> 00:13:32.334
+All from Poetry.
+
+277
+00:13:32.334 --> 00:13:36.376
+So it's a CLI tool, like many, like others, but it's
+
+278
+00:13:36.376 --> 00:13:38.984
+There's a bunch of them these days.
+
+279
+00:13:38.984 --> 00:13:41.784
+But Poetry, at least what I found was really
+
+280
+00:13:41.784 --> 00:13:44.568
+the first big one to, like, break through, really
+
+281
+00:13:44.568 --> 00:13:46.952
+was what other people were using, other than the
+
+282
+00:13:46.952 --> 00:13:51.768
+combination of pip, virtualenv and setuptools.
+
+283
+00:13:51.768 --> 00:13:54.032
+I'm kind of, like, very interested in your
+
+284
+00:13:54.032 --> 00:13:56.320
+experience because, like, I am pretty sure that
+
+285
+00:13:56.320 --> 00:13:58.544
+your experience is very different from mine.
+
+286
+00:13:58.544 --> 00:14:01.576
+Like, from, like we said that we play video games when we
+
+287
+00:14:01.576 --> 00:14:04.984
+were a kid to, like, maybe now we go to conferences.
+
+288
+00:14:04.984 --> 00:14:06.944
+When you talk about you play Minecraft,
+
+289
+00:14:06.944 --> 00:14:09.942
+I'm quite interested about, like, how the
+
+290
+00:14:09.942 --> 00:14:13.550
+experience, because from my experience, Minecraft, you
+
+291
+00:14:13.550 --> 00:14:15.694
+know, you have to control your character.
+
+292
+00:14:15.694 --> 00:14:16.934
+You have to, like, build this
+
+293
+00:14:16.934 --> 00:14:18.854
+block and things like that.
+
+294
+00:14:18.854 --> 00:14:20.822
+But for someone who uses screen
+
+295
+00:14:20.822 --> 00:14:22.678
+reader, like, what's your experience?
+
+296
+00:14:22.678 --> 00:14:24.838
+You found it, like, very easy or very
+
+297
+00:14:24.838 --> 00:14:27.286
+hard to control or, like, things like that.
+
+298
+00:14:27.286 --> 00:14:27.718
+Yeah.
+
+299
+00:14:27.718 --> 00:14:32.782
+So the little extra nuance was that I lost
+
+300
+00:14:32.782 --> 00:14:34.518
+the rest of my sight when I was 18.
+
+301
+00:14:34.518 --> 00:14:36.974
+So in 2018.
+
+302
+00:14:38.434 --> 00:14:41.250
+So back in the day when I, when I
+
+303
+00:14:41.250 --> 00:14:43.842
+was playing Minecraft, I could see a little bit,
+
+304
+00:14:43.842 --> 00:14:46.002
+like, we're still talking like two or 3%.
+
+305
+00:14:46.002 --> 00:14:48.626
+So it's like nothing groundbreaking, nothing new,
+
+306
+00:14:48.626 --> 00:14:50.654
+getting a driver's license or anything.
+
+307
+00:14:51.674 --> 00:14:52.770
+But I could see enough.
+
+308
+00:14:52.770 --> 00:14:56.474
+And that was important because Minecraft by nature
+
+309
+00:14:56.474 --> 00:15:00.290
+had very high color contrast, like, unintentionally.
+
+310
+00:15:00.290 --> 00:15:03.046
+So it was much easier to see and
+
+311
+00:15:03.046 --> 00:15:05.638
+play around with compared to many other games.
+
+312
+00:15:05.638 --> 00:15:06.594
+Yeah, right.
+
+313
+00:15:07.574 --> 00:15:09.654
+I know some games now, they have this, like,
+
+314
+00:15:09.654 --> 00:15:13.574
+high contrast options for folks who need high contrast
+
+315
+00:15:13.574 --> 00:15:16.390
+as well, but unfortunately, not all of them has.
+
+316
+00:15:16.390 --> 00:15:18.590
+It's just like other technology, like, you
+
+317
+00:15:18.590 --> 00:15:20.622
+know, websites, some of them are screen
+
+318
+00:15:20.622 --> 00:15:22.862
+reader friendly, some of them are not. Really.
+
+319
+00:15:22.862 --> 00:15:23.950
+Yes, exactly.
+
+320
+00:15:23.950 --> 00:15:24.790
+Yeah.
+
+321
+00:15:24.790 --> 00:15:26.790
+But how about conferences like is it?
+
+322
+00:15:26.790 --> 00:15:30.162
+You know, I guess it must be, like, very challenging for
+
+323
+00:15:30.162 --> 00:15:33.338
+you to, you know, be far away from home and, you
+
+324
+00:15:33.338 --> 00:15:35.962
+know, go to a event that is full of people, but
+
+325
+00:15:35.962 --> 00:15:38.770
+maybe not everybody knows your need and stuff like that.
+
+326
+00:15:38.770 --> 00:15:43.674
+So I'm lucky that a lot of things working for me.
+
+327
+00:15:43.674 --> 00:15:44.554
+I love traveling.
+
+328
+00:15:44.554 --> 00:15:48.002
+First of all, I love, especially traveling
+
+329
+00:15:48.002 --> 00:15:50.066
+by plane is I love that.
+
+330
+00:15:50.066 --> 00:15:52.698
+The second is I'm a huge extrovert.
+
+331
+00:15:52.698 --> 00:15:54.098
+I'm pretty sure Cheuk can
+
+332
+00:15:54.098 --> 00:15:56.054
+Oh, we can hear that and see that.
+
+333
+00:15:56.994 --> 00:15:57.930
+I'm pretty sure.
+
+334
+00:15:57.930 --> 00:16:01.664
+I'm pretty sure Cheuk  can sign off on that.
+
+335
+00:16:01.664 --> 00:16:04.080
+You saw me be around people in Bilbao
+
+336
+00:16:04.080 --> 00:16:06.528
+So we were having fun at
+
+337
+00:16:06.528 --> 00:16:10.544
+the cocktail party, like, you know, the drinks
+
+338
+00:16:10.544 --> 00:16:13.432
+party that we have so many Spanish food.
+
+339
+00:16:13.432 --> 00:16:19.084
+And yes, it was an interesting experience.
+
+340
+00:16:21.824 --> 00:16:25.104
+Okay, sounds like there's some brackets behind.
+
+341
+00:16:26.524 --> 00:16:28.068
+So I'm also curious.
+
+342
+00:16:28.068 --> 00:16:30.508
+When you're talking about attending a conference,
+
+343
+00:16:30.508 --> 00:16:32.836
+like, before you attend a conference, do
+
+344
+00:16:32.836 --> 00:16:34.740
+you actually, like, read to see if
+
+345
+00:16:34.740 --> 00:16:39.704
+they have specific, like, accessibility?
+
+346
+00:16:48.524 --> 00:16:51.184
+This has been the entire freaking day.
+
+347
+00:16:54.244 --> 00:16:57.244
+I'm not very good with
+
+348
+00:16:57.244 --> 00:17:01.452
+so accessibility, it's okay.
+
+349
+00:17:01.452 --> 00:17:04.051
+Like, do you actually read like, and
+
+350
+00:17:04.051 --> 00:17:06.212
+check before you attend any conference?
+
+351
+00:17:06.212 --> 00:17:09.523
+Like, okay, are they friendly to people with
+
+352
+00:17:09.523 --> 00:17:13.003
+disabilities or is there any actually, do you
+
+353
+00:17:13.003 --> 00:17:15.404
+read, like, before you attend a conference?
+
+354
+00:17:15.404 --> 00:17:18.503
+You know, I always try to find something, or
+
+355
+00:17:19.354 --> 00:17:22.874
+Yeah, I always try to find something, but it's very
+
+356
+00:17:22.874 --> 00:17:26.617
+rarely, if at all, they ever have it publicly available.
+
+357
+00:17:26.617 --> 00:17:26.945
+They,
+
+358
+00:17:26.945 --> 00:17:29.746
+I've never seen a conference where they have
+
+359
+00:17:29.746 --> 00:17:32.762
+this accessibility info readily available for what they
+
+360
+00:17:32.762 --> 00:17:37.014
+do with people that has physical disabilities.
+
+361
+00:17:38.674 --> 00:17:43.254
+Yeah, I resorted to just writing them an email.
+
+362
+00:17:44.754 --> 00:17:47.290
+So far that's been very successful.
+
+363
+00:17:47.290 --> 00:17:49.074
+Also to let them know that you're coming
+
+364
+00:17:49.074 --> 00:17:50.898
+and that you're like, in my case, that
+
+365
+00:17:50.898 --> 00:17:54.034
+I'm fully blind and, yeah, that I'm attending.
+
+366
+00:17:54.034 --> 00:17:55.610
+And I was like, in my case,
+
+367
+00:17:55.610 --> 00:17:57.426
+that I'm a speaker or whatever, whatever.
+
+368
+00:17:57.426 --> 00:17:58.834
+Just like, hey, can we do something?
+
+369
+00:17:58.834 --> 00:18:00.170
+Can we figure something out?
+
+370
+00:18:00.170 --> 00:18:04.562
+And yeah, they've always been very good at
+
+371
+00:18:04.562 --> 00:18:07.690
+the whole accessibility, but I just wish that
+
+372
+00:18:07.690 --> 00:18:10.778
+that information was more readily available.
+
+373
+00:18:10.778 --> 00:18:13.922
+So people that maybe not was as just like,
+
+374
+00:18:13.922 --> 00:18:16.402
+out there going as I am also know that,
+
+375
+00:18:16.402 --> 00:18:20.744
+hey, there's actually things that they're going to do.
+
+376
+00:18:20.744 --> 00:18:22.552
+Yeah, that's true.
+
+377
+00:18:22.552 --> 00:18:26.344
+Like, I know that you're very outgoing and you, like,
+
+378
+00:18:26.344 --> 00:18:29.512
+don't mind emailing and taking one step forward to ask,
+
+379
+00:18:29.512 --> 00:18:32.336
+but I think if someone who may also have other
+
+380
+00:18:32.336 --> 00:18:35.368
+needs or they feel a little bit, you know, you
+
+381
+00:18:35.368 --> 00:18:37.768
+know, there's extra step, like, we should make it easier
+
+382
+00:18:37.768 --> 00:18:40.368
+for people who need extra help.
+
+383
+00:18:40.368 --> 00:18:41.352
+Yeah.
+
+384
+00:18:41.352 --> 00:18:45.784
+So organizers for conferences out there, if you're hearing
+
+385
+00:18:45.784 --> 00:18:49.816
+this podcast, please make a little effort to just
+
+386
+00:18:49.816 --> 00:18:54.232
+write down what you can provide for the potential
+
+387
+00:18:54.232 --> 00:18:56.960
+attendees so that they will feel comfortable.
+
+388
+00:18:56.960 --> 00:19:00.488
+Yeah, I'm actually working on something like that and
+
+389
+00:19:00.488 --> 00:19:03.984
+are reaching out and looking for conference organizers.
+
+390
+00:19:03.984 --> 00:19:05.600
+I'm actually working on something like that.
+
+391
+00:19:05.600 --> 00:19:08.128
+So there's like, hopefully a place where people
+
+392
+00:19:08.128 --> 00:19:10.792
+can see other people's experiences and also just
+
+393
+00:19:10.792 --> 00:19:13.816
+see what conference organizers have said that they
+
+394
+00:19:13.816 --> 00:19:16.944
+are like, that they are capable and. Yeah.
+
+395
+00:19:16.944 --> 00:19:19.804
+Capable to do for people with physical disabilities.
+
+396
+00:19:20.624 --> 00:19:22.272
+Yeah, that's so true.
+
+397
+00:19:22.272 --> 00:19:24.280
+I think it's a very good message to get out.
+
+398
+00:19:24.280 --> 00:19:27.496
+It's like, you know, we, we organize a lot of things.
+
+399
+00:19:27.496 --> 00:19:29.520
+We also know a lot of people organize a lot
+
+400
+00:19:29.520 --> 00:19:32.656
+of things, and that's a very, very good point.
+
+401
+00:19:32.656 --> 00:19:37.128
+And I hope, yeah, all of us is doing better than that.
+
+402
+00:19:37.128 --> 00:19:37.640
+Yeah.
+
+403
+00:19:37.640 --> 00:19:39.456
+So what do you think about AI?
+
+404
+00:19:39.456 --> 00:19:42.728
+Because I know that, like, you know, maybe for you, like,
+
+405
+00:19:42.728 --> 00:19:45.240
+a lot of technology helped you a lot in daily life.
+
+406
+00:19:45.240 --> 00:19:47.464
+So what do you think about AI technologies?
+
+407
+00:19:47.464 --> 00:19:49.720
+Do you think it will help you more or do you think
+
+408
+00:19:49.720 --> 00:19:53.044
+you would take your job as a developer or things like that?
+
+409
+00:19:53.784 --> 00:19:54.456
+Yes.
+
+410
+00:19:54.456 --> 00:19:59.304
+So another to kind of answer that question a little,
+
+411
+00:19:59.304 --> 00:20:02.368
+like, I would love to take a tiny detour and
+
+412
+00:20:02.368 --> 00:20:05.232
+just say, there is one thing I totally didn't mention
+
+413
+00:20:05.232 --> 00:20:09.280
+in my intro, and it wasn't for any.
+
+414
+00:20:09.280 --> 00:20:11.162
+The various reasons, I just totally
+
+415
+00:20:11.162 --> 00:20:12.250
+also forgot to mention it.
+
+416
+00:20:12.250 --> 00:20:15.802
+So by, like, on my day to day, I am
+
+417
+00:20:15.802 --> 00:20:21.034
+a student, I'm a Computer Science student, and I'm, by,
+
+418
+00:20:21.034 --> 00:20:24.770
+by that, I'm surrounded by other Computer Science students that
+
+419
+00:20:24.770 --> 00:20:28.454
+are, many of them are just learning.
+
+420
+00:20:29.994 --> 00:20:36.282
+And it can get really tiresome when instead of
+
+421
+00:20:36.282 --> 00:20:39.754
+actually trying to look into and try to solve
+
+422
+00:20:39.754 --> 00:20:42.104
+the problem, which was what I fell in love
+
+423
+00:20:42.104 --> 00:20:46.112
+with, with programming and tech, they just write a
+
+424
+00:20:46.112 --> 00:20:50.640
+question to ChatGPT, or just add, pastes code
+
+425
+00:20:50.640 --> 00:20:53.804
+into ChatGPT and say, "Hey, why isn't this working?"
+
+426
+00:20:56.384 --> 00:20:59.592
+Yeah, that's, and that, like, it's so sad to
+
+427
+00:20:59.592 --> 00:21:02.696
+see that people, that this technology is really great.
+
+428
+00:21:02.696 --> 00:21:04.272
+It's changing a lot of lives, but for
+
+429
+00:21:04.272 --> 00:21:06.752
+most people, it's just, of course it's where
+
+430
+00:21:06.752 --> 00:21:09.786
+it's going, but they just, they don't.
+
+431
+00:21:09.786 --> 00:21:11.394
+I feel like they just.
+
+432
+00:21:11.394 --> 00:21:12.938
+Most of what I see around me on
+
+433
+00:21:12.938 --> 00:21:15.298
+my day to day is just, people don't
+
+434
+00:21:15.298 --> 00:21:19.146
+really have that problem solving mentality so much
+
+435
+00:21:19.146 --> 00:21:21.282
+anymore, especially if you're just starting out.
+
+436
+00:21:21.282 --> 00:21:22.530
+That's the whole point of
+
+437
+00:21:22.530 --> 00:21:24.442
+studying Computer Science, is this.
+
+438
+00:21:24.442 --> 00:21:29.218
+You need to learn and train this problem solving skill.
+
+439
+00:21:29.218 --> 00:21:33.114
+And if every problem just be, oh, just ask ChatGPT,
+
+440
+00:21:33.114 --> 00:21:35.682
+If every solution just becomes, oh, just ask ChatGPT,
+
+441
+00:21:35.682 --> 00:21:38.754
+then it just kind of falls apart.
+
+442
+00:21:39.534 --> 00:21:41.822
+And I can see that very quickly because the
+
+443
+00:21:41.822 --> 00:21:44.102
+second that ChatGPT can't  give you an answer
+
+444
+00:21:44.102 --> 00:21:47.314
+that works, it falls all on the ground.
+
+445
+00:21:48.534 --> 00:21:50.806
+I really just wanted to get out of that.
+
+446
+00:21:50.806 --> 00:21:53.990
+But that said, for me, it's really changed.
+
+447
+00:21:53.990 --> 00:21:55.278
+That's a very good point.
+
+448
+00:21:55.278 --> 00:21:57.154
+Yeah, that's a very good point.
+
+449
+00:21:58.094 --> 00:21:59.914
+A little funny story.
+
+450
+00:22:00.654 --> 00:22:03.326
+This will reveal how much older
+
+451
+00:22:03.326 --> 00:22:05.474
+I am as compared to you.
+
+452
+00:22:07.174 --> 00:22:10.804
+Is that my daughter, she's in the University.
+
+453
+00:22:10.804 --> 00:22:24.316
+And the moment, so the moment when ChatGPT just
+
+454
+00:22:24.316 --> 00:22:27.892
+came out, they are receiving, you know, schools, you have
+
+455
+00:22:27.892 --> 00:22:30.732
+reports and you need to write reports, and it seems
+
+456
+00:22:30.732 --> 00:22:34.344
+that everyone just suddenly improved in writing.
+
+457
+00:22:35.584 --> 00:22:36.448
+Yeah.
+
+458
+00:22:36.448 --> 00:22:40.552
+And so you can, you can kind of realize that the
+
+459
+00:22:40.552 --> 00:22:45.048
+teachers and all this were like, okay, this is weird that
+
+460
+00:22:45.048 --> 00:22:48.704
+before that you couldn't do it, and now suddenly all my
+
+461
+00:22:48.704 --> 00:22:52.416
+students are doing really well, and you can hear kids talking
+
+462
+00:22:52.416 --> 00:22:54.592
+about it and say, like, you know what?
+
+463
+00:22:54.592 --> 00:22:57.312
+Yeah, just ask ChatGPT to fill up.
+
+464
+00:22:57.312 --> 00:23:00.656
+They can do perfect reports for us.
+
+465
+00:23:00.656 --> 00:23:02.988
+Mm hmm. Yeah.
+
+466
+00:23:02.988 --> 00:23:06.044
+And it's, it's really sad because this, this technology
+
+467
+00:23:06.044 --> 00:23:09.172
+has fully changed many lives, my own included.
+
+468
+00:23:09.172 --> 00:23:13.012
+Um, I love, especially for more advanced
+
+469
+00:23:13.012 --> 00:23:14.476
+topics I don't know that much about.
+
+470
+00:23:14.476 --> 00:23:18.540
+I love to be like in tech, all of it.
+
+471
+00:23:18.540 --> 00:23:22.684
+Mostly, I love talking, talking with ChatGPT because it has,
+
+472
+00:23:22.684 --> 00:23:27.092
+even though it might sometimes come up with dumb information that's
+
+473
+00:23:27.092 --> 00:23:29.628
+not accurate, it has a lot of training data, so it
+
+474
+00:23:29.628 --> 00:23:31.344
+has a lot of stuff it can pull from.
+
+475
+00:23:32.444 --> 00:23:35.892
+Also, the feature I probably use the most is
+
+476
+00:23:35.892 --> 00:23:40.268
+either image generation or even more so image description.
+
+477
+00:23:40.268 --> 00:23:42.372
+So I can take a picture with my phone
+
+478
+00:23:42.372 --> 00:23:45.324
+and I can get the AI to describe the
+
+479
+00:23:45.324 --> 00:23:47.252
+image, and then I can ask it follow up
+
+480
+00:23:47.252 --> 00:23:51.140
+questions to that description or to the image specifically.
+
+481
+00:23:51.140 --> 00:23:53.220
+And I use that daily.
+
+482
+00:23:53.220 --> 00:23:55.412
+Wow, I love that idea. Yeah.
+
+483
+00:23:55.412 --> 00:23:57.844
+Speaking about that, I'm just going to bring
+
+484
+00:23:57.844 --> 00:24:00.228
+back about the tools that you use.
+
+485
+00:24:00.228 --> 00:24:03.332
+I'm sure there are people out there who are computer
+
+486
+00:24:03.332 --> 00:24:07.978
+science students with similar disabilities like you, so maybe you
+
+487
+00:24:07.978 --> 00:24:10.690
+can suggest to them, like, what kind of tools which
+
+488
+00:24:10.690 --> 00:24:13.106
+you're using that is like, really useful.
+
+489
+00:24:13.106 --> 00:24:14.546
+Well, yeah, of course.
+
+490
+00:24:14.546 --> 00:24:18.130
+So, first of all, I can't believe I didn't
+
+491
+00:24:18.130 --> 00:24:20.530
+mention this sooner, but first of all, there's, of
+
+492
+00:24:20.530 --> 00:24:22.762
+course, my screen reader that I use every day
+
+493
+00:24:22.762 --> 00:24:26.554
+to actually interact with my computer called NVDA.
+
+494
+00:24:26.554 --> 00:24:29.658
+It stands for Non Visual Desktop Access, and they
+
+495
+00:24:29.658 --> 00:24:33.218
+are also open source and they, NVDA, the screen
+
+496
+00:24:33.218 --> 00:24:36.014
+reader is actually also written in Python.
+
+497
+00:24:36.014 --> 00:24:38.894
+Oh yeah. Wow.
+
+498
+00:24:38.894 --> 00:24:39.674
+Yes.
+
+499
+00:24:40.814 --> 00:24:42.278
+I use that every day.
+
+500
+00:24:42.278 --> 00:24:45.374
+And it's been like that piece of software alone has
+
+501
+00:24:45.374 --> 00:24:48.430
+changed my life and has made me like all be
+
+502
+00:24:48.430 --> 00:24:50.254
+able to do all this stuff that I do every
+
+503
+00:24:50.254 --> 00:24:56.374
+day, from coding to playing games to delivering presentations up
+
+504
+00:24:56.374 --> 00:24:59.070
+on a stage in front of one or two people.
+
+505
+00:24:59.070 --> 00:25:00.518
+Okay, there's probably more, but I
+
+506
+00:25:00.518 --> 00:25:02.414
+can't see how many there is.
+
+507
+00:25:02.414 --> 00:25:04.474
+I don't think it's only one or two.
+
+508
+00:25:06.344 --> 00:25:08.864
+I can't see how many people are
+
+509
+00:25:08.864 --> 00:25:10.976
+there, so I do not be nervous.
+
+510
+00:25:10.976 --> 00:25:14.584
+I just tell myself there's probably only five people and
+
+511
+00:25:14.584 --> 00:25:17.408
+they'll come and then at the end they all clap
+
+512
+00:25:17.408 --> 00:25:25.536
+and I'm like, whoa, that was more, oh yeah, that
+
+513
+00:25:25.536 --> 00:25:27.496
+happened, that happened to me at Bilbao.
+
+514
+00:25:27.496 --> 00:25:28.328
+That's a funny story.
+
+515
+00:25:28.328 --> 00:25:29.524
+You can get that later.
+
+516
+00:25:30.734 --> 00:25:33.606
+Well, yeah, then I use Visual Studio
+
+517
+00:25:33.606 --> 00:25:35.382
+code to write all my code.
+
+518
+00:25:35.382 --> 00:25:37.382
+I use the Terminal for a lot of stuff.
+
+519
+00:25:37.382 --> 00:25:41.750
+I use WSL for all Linux stuff because it's
+
+520
+00:25:41.750 --> 00:25:43.878
+still on Windows, so I get all the accessibility,
+
+521
+00:25:43.878 --> 00:25:46.782
+but I get the Linux server basically.
+
+522
+00:25:46.782 --> 00:25:49.302
+I don't know if there's any like blind specific tools.
+
+523
+00:25:49.302 --> 00:25:52.270
+And it's just probably the more of what most people do.
+
+524
+00:25:52.270 --> 00:25:57.082
+I use GitHub, I use Internet browser. Yeah.
+
+525
+00:25:57.082 --> 00:25:59.274
+What is your favorite browser?
+
+526
+00:25:59.274 --> 00:26:00.894
+Which browser is the best?
+
+527
+00:26:06.674 --> 00:26:07.854
+Hot topic.
+
+528
+00:26:08.514 --> 00:26:09.494
+Very hot.
+
+529
+00:26:10.714 --> 00:26:13.090
+I actually, I have, I have, yeah,
+
+530
+00:26:13.090 --> 00:26:14.082
+because it is a hot topic.
+
+531
+00:26:14.082 --> 00:26:15.578
+It's almost as bad as pineapple on
+
+532
+00:26:15.578 --> 00:26:18.434
+pizza, like the pineapple and pizza debate.
+
+533
+00:26:18.434 --> 00:26:24.498
+So I use the Chromium-based Edge browser as my
+
+534
+00:26:24.498 --> 00:26:27.762
+primary browser because you get all the, all the good
+
+535
+00:26:27.762 --> 00:26:30.616
+stuff of on Chrome that Chrome has to offer.
+
+536
+00:26:30.616 --> 00:26:32.264
+You get all that goodness.
+
+537
+00:26:32.264 --> 00:26:35.216
+And all the websites think you're running Chrome,
+
+538
+00:26:35.216 --> 00:26:37.152
+so they don't say, hey, you should download
+
+539
+00:26:37.152 --> 00:26:39.084
+Chrome for the most optimal experience.
+
+540
+00:26:40.304 --> 00:26:42.680
+So you get all the features and you get all
+
+541
+00:26:42.680 --> 00:26:46.328
+the goodies, and you can even run Chrome extensions on
+
+542
+00:26:46.328 --> 00:26:51.048
+the Chromium Edge browser, but you don't get the massive,
+
+543
+00:26:51.048 --> 00:26:55.884
+massive memory and CPU overhead that Google Chrome has.
+
+544
+00:26:56.584 --> 00:26:59.672
+So that's what I do and I love it.
+
+545
+00:26:59.672 --> 00:27:00.440
+Cool.
+
+546
+00:27:00.440 --> 00:27:02.164
+Yeah, open source for the win.
+
+547
+00:27:03.104 --> 00:27:03.884
+Yay.
+
+548
+00:27:04.464 --> 00:27:06.800
+Yeah, open source all the way.
+
+549
+00:27:06.800 --> 00:27:08.304
+I don't think we have a browser
+
+550
+00:27:08.304 --> 00:27:10.024
+these days that are not open source.
+
+551
+00:27:10.024 --> 00:27:11.680
+Now that I think about it, all
+
+552
+00:27:11.680 --> 00:27:13.844
+three major browsers are open source.
+
+553
+00:27:14.584 --> 00:27:15.604
+That's true.
+
+554
+00:27:18.304 --> 00:27:23.288
+So other than coding and programming, tell us a little
+
+555
+00:27:23.288 --> 00:27:25.648
+bit more about how you stay sane in life.
+
+556
+00:27:25.648 --> 00:27:28.870
+Like do you stay sane by drinking
+
+557
+00:27:28.870 --> 00:27:30.710
+a cup of coffee or tea?
+
+558
+00:27:30.710 --> 00:27:34.474
+Or do you like to go for regular walks or DJ.
+
+559
+00:27:39.734 --> 00:27:41.094
+I'm very boring.
+
+560
+00:27:41.094 --> 00:27:42.942
+I go to school, work with
+
+561
+00:27:42.942 --> 00:27:45.782
+coding, come home, work with coding.
+
+562
+00:27:45.782 --> 00:27:48.694
+I go to bed, I don't sleep
+
+563
+00:27:48.694 --> 00:27:51.078
+and dream about code anymore, luckily.
+
+564
+00:27:51.078 --> 00:27:54.414
+But then I do the same, the same thing.
+
+565
+00:27:54.414 --> 00:27:57.566
+And, yeah, when I try to stay sane, when I
+
+566
+00:27:57.566 --> 00:28:01.518
+started, when I try to stay sane, I basically go
+
+567
+00:28:01.518 --> 00:28:05.634
+on and talk to my online friends while I code.
+
+568
+00:28:07.854 --> 00:28:10.638
+So, yeah, other than that, yeah, I travel.
+
+569
+00:28:10.638 --> 00:28:12.918
+I like traveling when I can, but most of it
+
+570
+00:28:12.918 --> 00:28:15.542
+is to conferences and that's fine because it doesn't feel
+
+571
+00:28:15.542 --> 00:28:19.446
+like I'm working and it doesn't feel like I'm coding.
+
+572
+00:28:19.446 --> 00:28:20.454
+Even when I'm,
+
+573
+00:28:20.454 --> 00:28:21.542
+even when I'm speaking.
+
+574
+00:28:21.542 --> 00:28:22.990
+It's just so much fun.
+
+575
+00:28:22.990 --> 00:28:26.286
+And I get totally rejuvenated at being
+
+576
+00:28:26.286 --> 00:28:30.094
+around people and a community physically. I.
+
+577
+00:28:30.794 --> 00:28:32.706
+I had no idea how,
+
+578
+00:28:32.706 --> 00:28:35.802
+how, like, great it was going to be
+
+579
+00:28:35.802 --> 00:28:39.634
+for me until I was there physically and
+
+580
+00:28:39.634 --> 00:28:41.786
+tried being in an actual conference.
+
+581
+00:28:41.786 --> 00:28:44.410
+It was great and it gave me so much energy.
+
+582
+00:28:44.410 --> 00:28:47.794
+So that's probably the primary bigger things I do.
+
+583
+00:28:47.794 --> 00:28:49.826
+So on this, like, day to
+
+584
+00:28:49.826 --> 00:28:52.978
+day, I usually just stop coding.
+
+585
+00:28:52.978 --> 00:28:55.362
+I watch YouTube here and there and.
+
+586
+00:28:55.362 --> 00:28:58.300
+But even that bores me relatively quickly.
+
+587
+00:28:58.300 --> 00:29:03.356
+And I play a video game for an hour or two and then
+
+588
+00:29:03.356 --> 00:29:07.984
+I get bored and think about how I can mod it and stuff.
+
+589
+00:29:10.324 --> 00:29:12.464
+Maybe you should write your own game.
+
+590
+00:29:13.124 --> 00:29:15.964
+Yeah, you should write your own games.
+
+591
+00:29:15.964 --> 00:29:17.144
+Working on it.
+
+592
+00:29:17.804 --> 00:29:19.236
+Already working on it.
+
+593
+00:29:19.236 --> 00:29:23.044
+Don't worry, that's already in the works.
+
+594
+00:29:23.044 --> 00:29:25.624
+I wish I was joking about that, but I'm not.
+
+595
+00:29:26.444 --> 00:29:28.692
+Oh, wow. Yeah.
+
+596
+00:29:28.692 --> 00:29:29.502
+But the bad
+
+597
+00:29:29.502 --> 00:29:30.756
+is launching.
+
+598
+00:29:30.756 --> 00:29:31.156
+No.
+
+599
+00:29:31.156 --> 00:29:32.780
+Give me like two years.
+
+600
+00:29:32.780 --> 00:29:35.972
+The bad thing about game, the game industry is
+
+601
+00:29:35.972 --> 00:29:38.948
+the, like, big tools like Unity and Unreal Engine.
+
+602
+00:29:38.948 --> 00:29:41.516
+Like, two big ones are not accessible.
+
+603
+00:29:41.516 --> 00:29:45.002
+So I have to write my own game engine. Yeah.
+
+604
+00:29:45.002 --> 00:29:45.324
+Oh, wow.
+
+605
+00:29:45.324 --> 00:29:46.250
+So I have to
+
+606
+00:29:46.250 --> 00:29:49.971
+like wrap C++, or Rust, or something like that. Or Python.
+
+607
+00:29:49.972 --> 00:29:51.562
+Probably not Python because it doesn't
+
+608
+00:29:51.562 --> 00:29:53.922
+have all the cool libraries yet. So.
+
+609
+00:29:53.922 --> 00:29:54.574
+Yeah.
+
+610
+00:29:55.234 --> 00:29:56.226
+Not forgetting anything.
+
+611
+00:29:56.226 --> 00:29:57.458
+Can you create them?
+
+612
+00:29:57.458 --> 00:30:01.214
+I could, but then I need to maintain even more wrappers.
+
+613
+00:30:02.354 --> 00:30:04.850
+Then it become a long quest. Side quests.
+
+614
+00:30:04.850 --> 00:30:06.610
+Yes. Listen, I.
+
+615
+00:30:06.610 --> 00:30:09.090
+Even while doing it in C++, I still have
+
+616
+00:30:09.090 --> 00:30:11.978
+to create my own game engine from scratch.
+
+617
+00:30:11.978 --> 00:30:14.034
+So, yeah, that's what I have to deal
+
+618
+00:30:14.034 --> 00:30:16.334
+with if I want to make a game.
+
+619
+00:30:17.174 --> 00:30:17.954
+Yeah.
+
+620
+00:30:18.854 --> 00:30:21.294
+So people out there. People out there.
+
+621
+00:30:21.294 --> 00:30:21.598
+Just.
+
+622
+00:30:21.598 --> 00:30:23.118
+Just people out there.
+
+623
+00:30:23.118 --> 00:30:26.294
+If you want to join forces with Jessica
+
+624
+00:30:26.294 --> 00:30:29.314
+to create game engine, just contact her.
+
+625
+00:30:31.094 --> 00:30:32.430
+Yeah. The thing of the.
+
+626
+00:30:32.430 --> 00:30:35.046
+See, the thing about it is even the open source
+
+627
+00:30:35.046 --> 00:30:38.086
+ones, they are not really that great with accessibility.
+
+628
+00:30:38.086 --> 00:30:39.302
+Even the games that they can
+
+629
+00:30:39.302 --> 00:30:41.342
+create are typically not great
+
+630
+00:30:41.342 --> 00:30:43.006
+with accessibility either.
+
+631
+00:30:43.006 --> 00:30:45.294
+So to make an actual accessible game engine,
+
+632
+00:30:45.294 --> 00:30:50.224
+they can also produce accessible games that needs
+
+633
+00:30:50.224 --> 00:30:52.640
+to be like, pretty much done from scratch.
+
+634
+00:30:52.640 --> 00:30:54.672
+And that's why I primarily make it.
+
+635
+00:30:54.672 --> 00:30:57.184
+I'm primarily making a game engine that
+
+636
+00:30:57.184 --> 00:31:00.120
+focuses on audio only based games.
+
+637
+00:31:00.120 --> 00:31:02.864
+So there is no visuals, it's just pure audio.
+
+638
+00:31:02.864 --> 00:31:04.720
+What genre of game do you like?
+
+639
+00:31:04.720 --> 00:31:07.244
+Is it like horror or is it like adventure?
+
+640
+00:31:08.304 --> 00:31:12.192
+So the two genres that I'm aiming for the game engine to
+
+641
+00:31:12.192 --> 00:31:16.528
+support is most of it is 3D, open world of some kind.
+
+642
+00:31:16.528 --> 00:31:20.910
+So it's either going to be RPG style, style games,
+
+643
+00:31:20.910 --> 00:31:23.966
+or it's going to be first-person shooter type games.
+
+644
+00:31:23.966 --> 00:31:27.590
+Wow, sounds really interesting.
+
+645
+00:31:27.590 --> 00:31:29.694
+There are so many games out there that depend
+
+646
+00:31:29.694 --> 00:31:33.558
+so much on, like, looking at stuff, but we,
+
+647
+00:31:33.558 --> 00:31:35.086
+we are so much more than that.
+
+648
+00:31:35.086 --> 00:31:38.014
+You know, we can actually use our voice.
+
+649
+00:31:38.014 --> 00:31:41.566
+We can actually even, even smell.
+
+650
+00:31:41.566 --> 00:31:45.164
+Why didn't anyone create games related to smell?
+
+651
+00:31:46.064 --> 00:31:47.864
+That would be so cool.
+
+652
+00:31:47.864 --> 00:31:52.032
+Yeah, so luckily, luckily these the last couple of
+
+653
+00:31:52.032 --> 00:31:54.104
+years, a lot of game studios, like bigger Game
+
+654
+00:31:54.104 --> 00:31:57.128
+studios, have started to implement good accessibility features.
+
+655
+00:31:57.128 --> 00:31:58.392
+That's why I've been able to
+
+656
+00:31:58.392 --> 00:32:00.364
+actually play video games again.
+
+657
+00:32:01.424 --> 00:32:03.736
+So, yeah, I've finally been able to just relax
+
+658
+00:32:03.736 --> 00:32:05.784
+with a video game, but I've been in the.
+
+659
+00:32:05.784 --> 00:32:10.014
+I basically been in the whole modding or running, like,
+
+660
+00:32:10.014 --> 00:32:12.510
+doing something techy with a video game that now it's
+
+661
+00:32:12.510 --> 00:32:15.534
+just so ingrained in me that I can't just not
+
+662
+00:32:15.534 --> 00:32:18.006
+do that and just play a game and have fun.
+
+663
+00:32:18.006 --> 00:32:20.862
+I always, okay, what can I do? Can I mod this?
+
+664
+00:32:20.862 --> 00:32:22.142
+Can I run a server for this?
+
+665
+00:32:22.142 --> 00:32:24.874
+Can I write something custom for that server?
+
+666
+00:32:27.774 --> 00:32:30.398
+Can you just like, shut off for like ten minutes while I
+
+667
+00:32:30.398 --> 00:32:33.606
+just relax and be stupid in this game where I smash around
+
+668
+00:32:33.606 --> 00:32:37.602
+in a car and race against other cars and stuff, but now
+
+669
+00:32:37.602 --> 00:32:40.254
+I have to be able to mod it, apparently.
+
+670
+00:32:41.714 --> 00:32:42.834
+Yeah.
+
+671
+00:32:42.834 --> 00:32:45.058
+Jessica, the problem solver.
+
+672
+00:32:45.058 --> 00:32:47.258
+Yeah, I'm creating a problem and
+
+673
+00:32:47.258 --> 00:32:48.734
+then I'm trying to solve it.
+
+674
+00:32:50.354 --> 00:32:52.594
+It's like the chef can't enjoy a good
+
+675
+00:32:52.594 --> 00:32:55.294
+dinner because they will be criticizing the dish.
+
+676
+00:32:56.634 --> 00:32:58.842
+Yeah, I had the same when I was
+
+677
+00:32:58.842 --> 00:33:02.254
+taking a music study class in high school.
+
+678
+00:33:03.254 --> 00:33:05.982
+And then like a month in, I started, like,
+
+679
+00:33:05.982 --> 00:33:10.934
+just unintentionally analyzing the music I was listening to,
+
+680
+00:33:10.934 --> 00:33:12.726
+and I was just like, nope, nope, nope.
+
+681
+00:33:12.726 --> 00:33:14.154
+Stop it, stop it.
+
+682
+00:33:15.574 --> 00:33:17.154
+So do you still play music?
+
+683
+00:33:18.534 --> 00:33:23.654
+Yeah, I actually have a Midi piano keyboard right over
+
+684
+00:33:23.654 --> 00:33:26.462
+to my right that's hooked up to my computer.
+
+685
+00:33:26.462 --> 00:33:29.114
+So if I ever want to play something, I do, actually.
+
+686
+00:33:30.204 --> 00:33:34.660
+So one last question is, what's your next big thing?
+
+687
+00:33:34.660 --> 00:33:35.724
+Ideally in Python.
+
+688
+00:33:35.724 --> 00:33:38.284
+So what's your next exciting
+
+689
+00:33:38.284 --> 00:33:39.904
+contribution to the community?
+
+690
+00:33:40.644 --> 00:33:43.084
+I am hoping.
+
+691
+00:33:43.084 --> 00:33:45.188
+I'm really hoping that I get to go
+
+692
+00:33:45.188 --> 00:33:48.908
+to my first PyCon conference, Python specific conference.
+
+693
+00:33:48.908 --> 00:33:52.284
+This summer, I applied to be a speaker.
+
+694
+00:33:52.284 --> 00:33:55.212
+I send out a few CFPs, hope they get
+
+695
+00:33:55.212 --> 00:33:58.220
+accepted, because if they are, I will so be
+
+696
+00:33:58.220 --> 00:34:01.204
+going to my first Python specific conference.
+
+697
+00:34:01.204 --> 00:34:03.326
+So that's the first main thing.
+
+698
+00:34:03.326 --> 00:34:03.950
+Yeah.
+
+699
+00:34:03.950 --> 00:34:06.238
+Also, for conferences who are looking for Keynote
+
+700
+00:34:06.238 --> 00:34:08.598
+Speaker, you know there is a candidate.
+
+701
+00:34:08.598 --> 00:34:11.833
+You know there is a candidate here.
+
+702
+00:34:14.494 --> 00:34:16.333
+Also, I have massive stage fright,
+
+703
+00:34:16.333 --> 00:34:18.454
+so, like, being a Keynote Speaker.
+
+704
+00:34:18.454 --> 00:34:21.429
+Being a regular speaker is hard enough.
+
+705
+00:34:21.429 --> 00:34:23.045
+Being a Keynote Speaker.
+
+706
+00:34:23.045 --> 00:34:24.270
+Oh, don't worry.
+
+707
+00:34:24.270 --> 00:34:26.686
+There's only two person on it.
+
+708
+00:34:26.686 --> 00:34:28.782
+There's only two people on the stage.
+
+709
+00:34:28.782 --> 00:34:29.820
+Um, and
+
+710
+00:34:29.820 --> 00:34:31.844
+Maybe I can upgrade it to, like.
+
+711
+00:34:31.844 --> 00:34:35.732
+Maybe I can upgrade it to, like, eight people.
+
+712
+00:34:35.732 --> 00:34:36.744
+Less than ten.
+
+713
+00:34:39.043 --> 00:34:39.380
+Yeah.
+
+714
+00:34:39.380 --> 00:34:40.460
+But here's the issue.
+
+715
+00:34:40.460 --> 00:34:42.364
+Usually at Keynotes, they, like.
+
+716
+00:34:42.364 --> 00:34:44.692
+They actually present you and, like, they say
+
+717
+00:34:44.692 --> 00:34:46.076
+your name and then they clap first.
+
+718
+00:34:46.076 --> 00:34:47.572
+So I could get a way too good
+
+719
+00:34:47.572 --> 00:34:49.704
+idea of how many people are actually there.
+
+720
+00:34:51.964 --> 00:34:52.492
+No.
+
+721
+00:34:52.492 --> 00:34:53.460
+Like, yeah, if.
+
+722
+00:34:53.460 --> 00:34:56.052
+If people want, I would love to come up
+
+723
+00:34:56.052 --> 00:34:57.516
+out and talk about a lot of things.
+
+724
+00:34:57.516 --> 00:35:00.504
+I have a lot of things to talk about, and I talk a lot.
+
+725
+00:35:02.074 --> 00:35:03.810
+So if they want to reach out
+
+726
+00:35:03.810 --> 00:35:04.922
+to you, how do they get to.
+
+727
+00:35:04.922 --> 00:35:05.658
+Reach out to you?
+
+728
+00:35:05.658 --> 00:35:07.374
+Like social media.
+
+729
+00:35:08.154 --> 00:35:08.562
+Yeah.
+
+730
+00:35:08.562 --> 00:35:13.786
+So there is my website, jessicategner.com, and you
+
+731
+00:35:13.786 --> 00:35:17.330
+can always write me an email, jessica@jessicategner.com.
+
+732
+00:35:17.330 --> 00:35:19.914
+or they can reach out to me on LinkedIn.
+
+733
+00:35:19.914 --> 00:35:22.490
+All of the stuff is very easy
+
+734
+00:35:22.490 --> 00:35:25.258
+and easy to find on my website. And.
+
+735
+00:35:25.258 --> 00:35:28.094
+Yeah, LinkedIn, GitHub, email.
+
+736
+00:35:28.094 --> 00:35:29.206
+Yes, that's.
+
+737
+00:35:29.206 --> 00:35:31.550
+That's the primary ones.
+
+738
+00:35:31.550 --> 00:35:32.342
+Perfect.
+
+739
+00:35:32.342 --> 00:35:33.518
+Sounds great.
+
+740
+00:35:33.518 --> 00:35:38.702
+So thank you so much, Jessica, for coming over here
+
+741
+00:35:38.702 --> 00:35:44.354
+and telling us about your journey from zero to hero.
+
+742
+00:35:47.214 --> 00:35:48.274
+Thank you.
+
+743
+00:35:49.814 --> 00:35:54.700
+And you can find us on pypodcats.live.
+
+744
+00:35:54.700 --> 00:35:59.500
+There's P Y P O D C A T, like meow@pypodcats
+
+745
+00:35:59.500 --> 00:36:02.204
+not podcast, dot live
+
+746
+00:36:02.204 --> 00:36:03.540
+L I V E.
+
+747
+00:36:03.540 --> 00:36:06.244
+Or on PSF YouTube channel,
+
+748
+00:36:06.244 --> 00:36:09.228
+Apple Podcasts, Spotify, et cetera.
+
+749
+00:36:09.228 --> 00:36:14.788
+So catch up with you during the next episodes.
+
+750
+00:36:14.788 --> 00:36:16.308
+So my name is Georgi.
+
+751
+00:36:16.308 --> 00:36:17.428
+And I'm Cheuk
+
+752
+00:36:17.428 --> 00:36:19.544
+And our guest, Jessica.
+
+753
+00:36:21.724 --> 00:36:22.396
+Yay.
+
+754
+00:36:22.396 --> 00:36:23.020
+See ya.
+
+755
+00:36:23.020 --> 00:36:25.068
+Yeah, bye.
+
+756
+00:36:25.068 --> 00:36:25.676
+See you. Bye.
