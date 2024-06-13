@@ -76,7 +76,7 @@ Be sure to listen to the episode to learn all about Jessica's inspiring story!
 - Using Python to program desktop applications
 - Becoming the maintainer for PyPandoc
 - Difficulties and challenges while coding with visual impairment
-- Her superpower: being able to twice as fast as an average human reader
+- Her superpower: being able to read twice as fast as an average human reader
 - Contributing to Poetry
 - Why Minecraft is an example of an accessible video game
 - Accessibility information at conferences, and advice to conference organizers
