@@ -1,0 +1,172 @@
+1
+00:00:00,000 --> 00:00:03,790
+ Do you also have a special affinity towards dinosaurs? 
+
+2
+00:00:03,790 --> 00:00:05,230
+           Actually I am very scared of           
+
+3
+00:00:05,240 --> 00:00:06,960
+        dinosaurs I refused to watch               
+
+4
+00:00:06,960 --> 00:00:09,340
+     dinosaur movies it scares me a lot     
+
+5
+00:00:14,880 --> 00:00:16,470
+ I started learning how to code around the 
+
+6
+00:00:16,480 --> 00:00:19,110
+time I graduated from kinder I was maybe around five years old
+
+7
+00:00:19,120 --> 00:00:21,070
+  Being young also makes it easier for me   
+
+8
+00:00:21,080 --> 00:00:23,150
+  to talk to kids I guess especially when I  
+
+9
+00:00:23,160 --> 00:00:25,580
+  teach workshops and when I hold hackathons 
+
+10
+00:00:25,680 --> 00:00:27,190
+ I guess it helps me relate to them more and 
+
+11
+00:00:27,200 --> 00:00:28,470
+     come up with activities that they would       
+
+12
+00:00:28,480 --> 00:00:29,720
+             find fun    Being young is                   
+
+13
+00:00:29,720 --> 00:00:31,990
+   kind of inspires them if I can do all of    
+
+14
+00:00:32,000 --> 00:00:33,950
+   these things then so can they I guess  
+
+15
+00:00:33,960 --> 00:00:35,430
+ when people have mental health concerns it's  
+
+16
+00:00:35,440 --> 00:00:37,300
+   always really challenging to try and reach out        
+
+17
+00:00:37,320 --> 00:00:39,390
+to the appropriate support and so with TEDDY I hope to 
+
+18
+00:00:39,400 --> 00:00:41,150
+ make it so that it's easier for counselors 
+
+19
+00:00:41,160 --> 00:00:43,430
+ to figure out which students to reach out and to help
+
+20
+00:00:43,440 --> 00:00:45,430
+ Instead of using a computer to write their code
+
+21
+00:00:45,440 --> 00:00:47,470
+  Each student is given a piece of paper where they
+
+22
+00:00:47,480 --> 00:00:49,590
+ can write down their program basically and then
+
+23
+00:00:49,600 --> 00:00:51,470
+  after that the teacher will just scan it and upload it 
+
+24
+00:00:51,480 --> 00:00:53,040
+                      onto one computer and                  
+
+25
+00:00:53,040 --> 00:00:54,710
+ run it and that way students will be able  
+
+26
+00:00:54,720 --> 00:00:55,950
+        to see it come to life on the digital          
+
+27
+00:00:55,960 --> 00:00:57,190
+     screens it's not the case that you need       
+
+28
+00:00:57,200 --> 00:00:58,950
+      like 40 computers for one classroom you      
+
+29
+00:00:58,960 --> 00:01:00,470
+   actually only need one you're making it   
+
+30
+00:01:00,480 --> 00:01:02,270
+  more accessible through public schools and  
+
+31
+00:01:02,280 --> 00:01:02,870
+   rural communities   
+
+32
+00:01:02,870 --> 00:01:04,310
+ Hello everyone my name is 
+
+33
+00:01:04,320 --> 00:01:06,430
+ Mona Obedoza I am a tenth grader and I'm
+
+34
+00:01:06,440 --> 00:01:08,510
+calling in from the Philippines I'm really
+
+35
+00:01:08,520 --> 00:01:10,110
+ passionate about coding and I advocate 
+
+36
+00:01:10,120 --> 00:01:12,270
+ teaching kids how to code at an early age 
+
+37
+00:01:12,280 --> 00:01:14,150
+ and to this end I'm also a student 
+
+38
+00:01:14,160 --> 00:01:16,150
+ ambassador for Women in AI. I'm the co-leader of 
+
+39
+00:01:16,160 --> 00:01:18,150
+the Girls can Code club at my school and
+
+40
+00:01:18,160 --> 00:01:19,780
+I'm the founder of the Purposeful Mochii
+
+41
+00:01:20,000 --> 00:01:22,310
+ a local organization that hosts hackathons 
+
+42
+00:01:22,320 --> 00:01:23,870
+and workshops for kids to get started
+
+43
+00:01:23,880 --> 00:01:24,610
+ with coding 
+
