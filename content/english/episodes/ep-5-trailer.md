@@ -24,7 +24,7 @@ youtube_id: V46kXbYqZtY
 speaker:
   url: "/speakers/mona-obedoza/"
   title: "Mona Obedoza"
-  image: "/images/mona_obedoza.jpg"
+  image: "/images/mona_obedoza.png"
   description: "Mona Obedoza is a Filipino high schooler and aspiring AI engineer who advocates
 teaching kids how to code through her roles as a student ambassador for Women in AI PH,
 co-leader of her school's Girls Can Code club, and founder of The Purposeful Mochii.
