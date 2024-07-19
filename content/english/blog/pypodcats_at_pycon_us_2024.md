@@ -71,7 +71,7 @@ recipients: [Abigail Mesrenyame Dogbe](https://www.linkedin.com/in/abigail-mesre
 [Jessica Greene](https://www.linkedin.com/in/jessica0greene). 
 
 
-{{<figure src="images/pyladiesaward.jpeg" caption="Outstanding PyLadies Award Recipients: Abigail Mesrenyame Dogbe, Maaya Ishida, and Jessica Greene. Photo credit: Cheuk Ting Ho" alt="Outstanding PyLadies Award Recipients: Abigail Mesrenyame Dogbe, Maaya Ishida, and Jessica Greene">}}
+{{<figure src="/images/pyladiesaward.jpeg" caption="Outstanding PyLadies Award Recipients: Abigail Mesrenyame Dogbe, Maaya Ishida, and Jessica Greene. Photo credit: Cheuk Ting Ho" alt="Outstanding PyLadies Award Recipients: Abigail Mesrenyame Dogbe, Maaya Ishida, and Jessica Greene">}}
 
 
 #### Accessibility
