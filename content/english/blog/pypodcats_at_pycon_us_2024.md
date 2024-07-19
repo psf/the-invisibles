@@ -29,7 +29,7 @@ process welcoming and inclusive.
 
 {{<youtube VNCQEqruHpQ>}}
 
-## Audience response and advice
+## Audience response
 
 After our talk, we received a question from the audience who asked how they can go about
 inviting women to their podcasts or events, because, in their experience the women usually
@@ -41,10 +41,12 @@ which would be relevant for the event. We also suggest asking for introductions 
 women in the network who know them more personally.  
 
 Our talk was received very well. After our talk, many from the audience came to us to suggest
-amazing women that they know of, and we are delighted to hear that! However, we are just one
-podcast with limited production time. We have a long list of great guests waiting to be interviewed.
+amazing women that they know of, and we are delighted to hear that! 
 
-Therefore:
+## Further Advice
+
+We are just one podcast with limited production time, and we have a long list of great guests waiting to be interviewed.
+So we may not be able to feature everyone that wes recommended to us. Therefore:
 
 - We recommend that you suggest the names of the underrepresented group members who are doing
 amazing work to other Python-related podcasts
