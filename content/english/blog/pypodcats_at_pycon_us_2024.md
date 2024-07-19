@@ -87,8 +87,8 @@ We appreciate the level of care and attention by PyCon US staff to ensure everyo
 #### Diverse topic in the Open Spaces
 
 We noticed very diverse topic in the open spaces showing that our community members are being welcomed and encouraged
-to explore a variety of topic that interests them. For example, we saw that there was a Sushi-themed open space, open
-space for Highschoolers, and an open space for another programming language, Rust.
+to explore a variety of topic that interests them. For example, we saw that there was a Sushi-themed open space, juggling
+open space, an open space for Highschoolers, and even for a different programming language, Rust.
 
 
 #### Global community representation
@@ -99,7 +99,7 @@ from [PyCon APAC](https://pycon.asia/), [Black Python Devs](https://blackpythond
 At the conference, there is a Spanish-language [Charlas](https://us.pycon.org/2024/speaking/charlas/) track.
 
 We also personally met other Pythonistas from as far as Brasil, Namibia, Ghana, South Korea, and Japan.
-We stumbled upon the Candy Exchange hosted by Python En Espanol community in the expo hall.
+We stumbled upon the Candy Exchange hosted by Python en Español community in the expo hall.
 
 #### Our Talk about Podcast was accepted
 
