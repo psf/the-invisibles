@@ -79,18 +79,20 @@ recipients: [Abigail Mesrenyame Dogbe](https://www.linkedin.com/in/abigail-mesre
 Live captioning has been a feature at PyCon US conference for many years, and we are happy to see that PyCon US continued
 to provide this by hiring the team from [White Coat Captioning](https://whitecoatcaptioning.com/).
 
-PyCon US hired a personal guide for one of our podcast guest, [Jessica Tenger](https://pypodcats.live/speakers/jessica-tegner/),
-who is fully blind. 
+PyCon US hired a personal guide from [OneWell Health Care](https://onewell.org/) for one of our podcast guest,
+[Jessica Tenger](https://pypodcats.live/speakers/jessica-tegner/), who is fully blind to help her navigate the vast
+conference venue during her time there.
 
-PyCon US hired ASL interpreters to provide sign language during the talks.
+PyCon US hired ASL interpreters from [Silent Visual Media](https://www.silentvisualmedia.com) to provide sign language
+during the talks.
 
 We appreciate the level of care and attention by PyCon US staff to ensure everyone is welcomed.
 
 #### Diverse topic in the Open Spaces
 
-We noticed very diverse topic in the open spaces showing that our community members are being welcomed and encouraged
+We noticed very diverse topic in the open spaces showing that our community members were being welcomed and encouraged
 to explore a variety of topic that interests them. For example, we saw that there was a Sushi-themed open space, juggling
-open space, an open space for Highschoolers, and even for a different programming language, Rust.
+open space, an open space for high-schoolers, and even for a different programming language, Rust.
 
 
 #### Global community representation
@@ -100,21 +102,22 @@ from [PyCon APAC](https://pycon.asia/), [Black Python Devs](https://blackpythond
 [PyLadies](https://pyladies.com/), and [Python en Español](https://hablemospython.dev/).
 At the conference, there is a Spanish-language [Charlas](https://us.pycon.org/2024/speaking/charlas/) track.
 
-We also personally met other Pythonistas from as far as Brasil, Namibia, Ghana, South Korea, and Japan.
+We also personally met other Pythonistas from as far as Brasil, Namibia, Ghana, South Korea, Japan, Indonesia, just to
+name a few.
 We stumbled upon the Candy Exchange hosted by Python en Español community in the expo hall.
 
 #### Our Talk about Podcast was accepted
 
-We are grateful that the PyCon US Program Committee accepted our talk which is not at all very technical. It shows
+We are grateful that the PyCon US Program Committee accepted our talk which was not at all a technical talk. It shows
 to us that you don't have to only be a programmer or a developer in order to attend the conference. Python is not just
 a programing language, but there is also a community surrounding it. By accepting our talk, it shows to us that the
 Python community and the conference organizers do care about the health of the community and that everyone
-is welcomed at the conference.
+was welcomed at the conference.
 
 ### PyCon US Statistics
 
-- 65% are first-time attendees
-- 57% are speaking at PyCon US for the first time
+- 65% were first-time attendees
+- 57% were speaking at PyCon US for the first time
 - $351,436 travel grants awarded to 226 attendees
 - 636 attendees received complimentary registrations to the conference
 - $60,397 raised during PyLadies Auction
@@ -129,11 +132,14 @@ Sources:
 
 ## Parting Thoughts
 
-While overall the PyCon US is quite a positive and inclusive experience, we also want to recognize that this year at
-PyCon US, the representation of women speaking at the conference is at 27%. This ratio is lower than it was 10 years ago,
+While overall, we had a positive and inclusive experience at PyCon US, we also want to recognize that this year,
+the representation of women speaking at the conference was at 27%. This ratio is lower than it was 10 years ago,
 where at PyCon US 2014 and 2015, [33% of the talks were by women](https://pypodcats.live/about/).
 We hope that by highlighting this, the community as a whole can
 think about, and work towards more equity and inclusion in this space in the future.
 
 We are glad to receive positive feedback and compliments about our project and podcast series from the community members
 at PyCon US. Your support is what drives us and the community forward. Please also look forward to our next episode.
+
+{{<twitter user="NIDeveloper" id="1794305541835202984">}}
+
