@@ -88,6 +88,13 @@ during the talks.
 
 We appreciate the level of care and attention by PyCon US staff to ensure everyone is welcomed.
 
+#### MicroPythonistas
+
+It was such a delight to see many attendees bringing their children along, and to see that the children are enjoying
+the conference too! Georgi even came up with the terminology: MicroPythonistas.
+
+{{<twitter user="georgically" id="1792247540248711378">}}
+
 #### Diverse topic in the Open Spaces
 
 We noticed very diverse topic in the open spaces showing that our community members were being welcomed and encouraged
