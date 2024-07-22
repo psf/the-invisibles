@@ -85,7 +85,7 @@ conference venue during her time there.
 PyCon US hired ASL interpreters from [Silent Visual Media](https://www.silentvisualmedia.com) to provide sign language
 during the talks.
 
-We appreciate the level of care and attention by PyCon US staff to ensure everyone fekt welcomed.
+We appreciate the level of care and attention by PyCon US staff to ensure everyone felt welcomed.
 
 #### MicroPythonistas
 
