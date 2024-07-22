@@ -31,25 +31,25 @@ process welcoming and inclusive.
 
 ## Audience response
 
-After our talk, we received a question from the audience who asked how they can go about
+After our talk, our audience asked how they can go about
 inviting women to their podcasts or events, because, in their experience the women usually
 said no to their invitations.
 
-Our advice is to show sincerity when inviting the women. Explain the reasoning of why you’d
+Our advice is to show sincerity when inviting women. Explain the reasoning of why you’d
 like to invite them to the event, perhaps mention their accomplishments and their involvements
 which would be relevant for the event. We also suggest asking for introductions from other
 women in the network who know them more personally.  
 
 Our talk was received very well. After our talk, many from the audience came to us to suggest
-amazing women that they know of, and we are delighted to hear that! 
+amazing women that they know of, and we were delighted to hear about them! 
 
-## Further Advice
+## Our Advice
 
-We are just one podcast with limited production time, and we have a long list of great guests waiting to be interviewed.
-So we may not be able to feature everyone that wes recommended to us. Therefore:
+We are just one podcast team with limited production time. We have a long list of great guests waiting to be interviewed.
+So we may not be able to feature everyone that was recommended to us. Therefore:
 
 - We recommend that you suggest the names of the underrepresented group members who are doing
-amazing work to other Python-related podcasts
+amazing work to other Python-related podcasts.
 - Invite them to speak at conferences and events that are happening in your community.
 - If you are a podcast host and would like to learn how to be more welcoming to the guests from the
 underrepresented group members, please watch the recording of our PyCon US talk as we have shared some
@@ -57,10 +57,9 @@ advice on how to treat the guests with respect and to gain their trust.
 
 ### Inclusivity
 
-Overall we find the PyCon US to be a welcoming and inclusive event, as can be seen from the following:
+Overall we found the PyCon US conference to be a welcoming and inclusive event, as can be seen from the following:
 
 #### The Inaugural Outstanding PyLadies Award 
-
 
 The [Outstanding PyLadies Award](https://pyladies.com/blog/Inaugural-Winners-of-the-Outstanding-PyLady-Award/outstanding-pylady-winners/)
 was established to recognize the contributions and achievements from diverse group of Pythonistas.
@@ -80,34 +79,34 @@ Live captioning has been a feature at PyCon US conference for many years, and we
 to provide this by hiring the team from [White Coat Captioning](https://whitecoatcaptioning.com/).
 
 PyCon US hired a personal guide from [OneWell Health Care](https://onewell.org/) for one of our podcast guest,
-[Jessica Tenger](https://pypodcats.live/speakers/jessica-tegner/), who is fully blind to help her navigate the vast
+[Jessica Tenger](https://pypodcats.live/speakers/jessica-tegner/), who is fully blind, to help her navigate the vast
 conference venue during her time there.
 
 PyCon US hired ASL interpreters from [Silent Visual Media](https://www.silentvisualmedia.com) to provide sign language
 during the talks.
 
-We appreciate the level of care and attention by PyCon US staff to ensure everyone is welcomed.
+We appreciate the level of care and attention by PyCon US staff to ensure everyone fekt welcomed.
 
 #### MicroPythonistas
 
-It was such a delight to see many attendees bringing their children along, and to see that the children are enjoying
+It was such a delight to see many attendees bringing their children along, and to see that the children were enjoying
 the conference too! Georgi even came up with the terminology: MicroPythonistas.
 
 {{<twitter user="georgically" id="1792247540248711378">}}
 
-#### Diverse topic in the Open Spaces
+#### Diverse topics in the Open Spaces
 
-We noticed very diverse topic in the open spaces showing that our community members were being welcomed and encouraged
-to explore a variety of topic that interests them. For example, we saw that there was a Sushi-themed open space, juggling
-open space, an open space for high-schoolers, and even for a different programming language, Rust.
+We noticed very diverse topics in the open spaces showing that our community members were being welcomed and encouraged
+to explore a variety of topics that interests them. For example, some of the topics were: a Sushi-themed open space, juggling
+open space, an open space for high-schoolers, and even one for a different programming language, Rust.
 
 
 #### Global community representation
 
-We notice representation from worldwide Python communities. At the Expo Hall, there were [Community Booths](https://us.pycon.org/2024/expo/community-booths/)
+We noticed representation from worldwide Python communities. At the Expo Hall, there were [Community Booths](https://us.pycon.org/2024/expo/community-booths/)
 from [PyCon APAC](https://pycon.asia/), [Black Python Devs](https://blackpythondevs.com/),
 [PyLadies](https://pyladies.com/), and [Python en Español](https://hablemospython.dev/).
-At the conference, there is a Spanish-language [Charlas](https://us.pycon.org/2024/speaking/charlas/) track.
+At the conference, there was a Spanish-language [Charlas](https://us.pycon.org/2024/speaking/charlas/) track.
 
 We also personally met other Pythonistas from as far as Brasil, Namibia, Ghana, South Korea, Japan, Indonesia, just to
 name a few.
@@ -115,11 +114,11 @@ We stumbled upon the Candy Exchange hosted by Python en Español community in th
 
 #### Our Talk about Podcast was accepted
 
-We are grateful that the PyCon US Program Committee accepted our talk which was not at all a technical talk. It shows
-to us that you don't have to only be a programmer or a developer in order to attend the conference. Python is not just
-a programing language, but there is also a community surrounding it. By accepting our talk, it shows to us that the
+We are grateful that the PyCon US Program Committee accepted our talk, considering it was not a technical talk at all. It showed
+to us that you don't have to be only a programmer or a developer in order to attend and enjoy the conference. Python is not just
+a programing language, but there is also a community surrounding it. By accepting our talk, it showed us that the
 Python community and the conference organizers do care about the health of the community and that everyone
-was welcomed at the conference.
+is welcome at PyCon US.
 
 ### PyCon US Statistics
 
@@ -146,7 +145,7 @@ We hope that by highlighting this, the community as a whole can
 think about, and work towards more equity and inclusion in this space in the future.
 
 We are glad to receive positive feedback and compliments about our project and podcast series from the community members
-at PyCon US. Your support is what drives us and the community forward. Please also look forward to our next episode.
+at PyCon US. Your support is what drives us and the community forward. Please subscribe and stay tuned for our next episode.
 
 {{<twitter user="NIDeveloper" id="1794305541835202984">}}
 
