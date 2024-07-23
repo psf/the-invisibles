@@ -24,6 +24,7 @@ behind the podcast, the issue that we are addressing (not enough representation 
 underrepresented folks, especially women, in Python podcasts) and how we make our production
 process welcoming and inclusive. 
 
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/kushaldas/53862486173/in/album-72177720317292040/" title="Untitled"><img src="https://live.staticflickr.com/65535/53862486173_a9b4ceffe3_6k.jpg" width="5976" height="3992" alt="Untitled"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 ## Watch our PyCon US Talk now:
 
