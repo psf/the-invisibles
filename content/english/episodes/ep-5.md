@@ -19,7 +19,7 @@ season: 1
 transcript: '/transcript/hidden-figures-of-python-ep5.srt'
 episode_type: full
 layout: episode
-youtube_id: 
+youtube_id: SDipvSE21Es
   
 speaker:
   url: "/speakers/mona-obedoza/"
