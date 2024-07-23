@@ -5,7 +5,7 @@ description: "Learn about Mona Obedoza from the Philippines to hear about her jo
 date: 2024-07-24T05:00:00-07:00
 host: [ "Georgi", "Tereza"]
 draft: false
-tags: ["python", "public speaking", "coding for kids", "youth", "Philippines"]
+tags: ["python", "public speaking", "coding for kids", "youth", "Philippines", "mental health"]
 publish_date: 2024-07-24T05:00:00-07:00
 podcast_file: "/audio/hidden-figures-ep5.mp3"
 podcast_duration: 2372.257959
