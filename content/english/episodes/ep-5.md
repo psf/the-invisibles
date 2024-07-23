@@ -55,6 +55,9 @@ Mona created Project TEDDY, an AI powered-program
 that helps school counsellors detects signs of distress in students, so that the counsellors could reach
 out to the students in time and prevent mental health concerns from escalating.
 
+Mona was encouraged by her mom since young to pursue tech and coding. Even though
+she is still in highschool, she has big dreams and aspires to study abroad in the future.
+
 Be sure to listen to the episode to learn all about Mona's inspiring story!
 
 ## Topic discussed
