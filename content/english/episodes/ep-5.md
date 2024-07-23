@@ -5,7 +5,7 @@ description: "Learn about Mona Obedoza from the Philippines to hear about her jo
 date: 2024-07-24T05:00:00-07:00
 host: [ "Georgi", "Tereza"]
 draft: false
-tags: ["python", "open source", "accessibility", "video game", "trailer"]
+tags: ["python", "public speaking", "coding for kids", "youth", "Philippines"]
 publish_date: 2024-07-24T05:00:00-07:00
 podcast_file: "/audio/hidden-figures-ep5.mp3"
 podcast_duration: 2372.257959
@@ -63,7 +63,6 @@ Be sure to listen to the episode to learn all about Mona's inspiring story!
 - Her favorite programming language.
 - Using Python for data science, AI, teaching workshops to kids.
 - Dinosaurs
-- Her superpower: being able to read twice as fast as an average human reader
 - Speaking at Python Philippines at 10 years old
 - Teaching and encouraging other kids to code, conducting workshops, and hackathons
 - What inspires her to start teaching other kids to code
@@ -78,6 +77,6 @@ Be sure to listen to the episode to learn all about Mona's inspiring story!
 
 - Purposeful Mochii: https://www.facebook.com/purposefulmochii/
 - PyLadiesCon: https://conference.pyladies.com
-- Project TEDDY PyLadiesCon Talk: https://www.youtube.com/watch?v=DB7xxXHH-mo
+- Project TEDDY talk at PyLadiesCon: https://www.youtube.com/watch?v=DB7xxXHH-mo
 
 
