@@ -48,6 +48,9 @@ language itself, but because of the Python community. Her first public speaking 
 Philippines when she was 10 years old, and the support from the Python community has encouraged her to continue.
 She has now spoken at many Python events and conferences, including at PyLadiesCon 2023.
 
+Mona has been teaching other kids to code through workshops and hackathons. Being young
+makes her in the best position to connect with other kids.
+
 Mona created Project TEDDY, an AI powered-program
 that helps school counsellors detects signs of distress in students, so that the counsellors could reach
 out to the students in time and prevent mental health concerns from escalating.
