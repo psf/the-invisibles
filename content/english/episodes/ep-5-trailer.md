@@ -5,7 +5,7 @@ description: "A preview of our chat with Mona Obedoza. Watch the full episode on
 date: 2024-07-17T00:00:00-08:00
 host: ["Georgi", "Tereza"]
 draft: false
-tags: ["python", "open source", "accessibility", "video game", "trailer"]
+tags: ["python", "public speaking", "coding for kids", "youth", "Philippines", "mental health"]
 publish_date: 2024-07-17T00:00:00-08:00
 podcast_file: "/audio/hidden-figures-ep5-trailer.mp3"
 podcast_duration: 94.432653
