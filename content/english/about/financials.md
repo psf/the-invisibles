@@ -18,23 +18,30 @@ podcast operating costs. Read the details on our blog post [here](({{< ref "blog
 
 To provide transparency and accountability to the community, we're publishing details on how we are spending the funds.
 
-The following info is current as of: February 19, 2024.
+The following info is current as of: August 20, 2024.
 
 ## Summary of Expenses
 
-| Date         |        Service        |   Amount    | Currency |
-|--------------|:---------------------:|:-----------:|:--------:|
-| Oct 19, 2023 |      internet.bs      |   -22.99    |   EUR    |
-| Oct 20, 2023 |       Fastmail        |    -59.5    |   USD    |
-| Nov 14, 2023 |      StreamYard       |     -49     |   USD    |
-| Dec 13, 2023 |      StreamYard       |     -49     |   USD    |
-| Nov 15, 2023 |         VEED          |    -384     |   CAD    |
-| Dec 13, 2023 |       PSF Grant       |    2000     |   USD    |
-| Dec 19, 2023 |       Calendly        |    -480     |   USD    |
-| Jan 14, 2024 |      StreamYard       |     -49     |   USD    |
-| Feb 14, 2024 |      StreamYard       |     -49     |   USD    |
-|              |     **Expenses**      | **1044.77** | **USD**  |
-|              | **Remaining Balance** | **955.23**  | **USD**  |
+| Date          |        Service        |   Amount    | Currency |
+|---------------|:---------------------:|:-----------:|:--------:|
+| Oct 19, 2023  |      internet.bs      |   -22.99    |   EUR    |
+| Oct 20, 2023  |       Fastmail        |    -59.5    |   USD    |
+| Nov 14, 2023  |      StreamYard       |     -49     |   USD    |
+| Nov 15, 2023  |         VEED          |    -384     |   CAD    |
+| Dec 13, 2023  |       PSF Grant       |    2000     |   USD    |
+| Dec 14, 2023  |         VEED          |     -49     |   CAD    |
+| Dec 19, 2023  |       Calendly        |   -65.38    |   USD    |
+| Jan 14, 2024  |      StreamYard       |     -49     |   USD    |
+| Jan 31, 2024  |   Calendly            |   -20.57    |   USD    |
+| Feb 14, 2024  |      StreamYard       |     -49     |   USD    |
+| Mar 14, 2024  |      StreamYard       |     -49     |   USD    |
+| Apr 13, 2024  |       Calendly        |   -412.8    |   USD    |
+| Apr 14, 2024  |      StreamYard       |     -49     |   USD    |
+| May 14, 2024  |      StreamYard       |     -49     |   USD    |
+| June 14, 2024 |      StreamYard       |     -49     |   USD    |
+| July 14, 2024 |      StreamYard       |     -49     |   USD    |
+|               |     **Expenses**      | **1308.52** | **USD**  |
+|               | **Remaining Balance** | **691.48**  | **USD**  |
 
 ## Details of Each expenses
 
