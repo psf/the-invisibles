@@ -18,7 +18,7 @@ podcast operating costs. Read the details on our blog post [here](({{< ref "blog
 
 To provide transparency and accountability to the community, we're publishing details on how we are spending the funds.
 
-The following info is current as of: February 19, 2024.
+The following info is current as of: August 20, 2024.
 
 ## Summary of Expenses
 
