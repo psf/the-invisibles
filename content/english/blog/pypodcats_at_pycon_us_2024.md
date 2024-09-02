@@ -28,7 +28,7 @@ process welcoming and inclusive.
 
 ## Watch our PyCon US Talk now:
 
-{{<youtube VNCQEqruHpQ>}}
+{{<youtube Gdv2_nZbSQE>}}
 
 ## Audience response
 
