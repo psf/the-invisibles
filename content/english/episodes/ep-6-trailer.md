@@ -19,7 +19,7 @@ season: 1
 transcript: '/transcript/hidden-figures-of-python-ep6-trailer.srt'
 episode_type: trailer
 layout: episode
-youtube_id: V46kXbYqZtY
+youtube_id:
   
 speaker:
   url: "/speakers/niharika-vadluri/"
@@ -43,8 +43,8 @@ and other Open source communities. She is a Toastmaster, and also loves singing.
 
 Sneak Peek of our chat with Niharika Vadluri, hosted by Mariatta Wijaya and Cheuk Ting Ho.
 
-Learn about Niharika's journey. She started learning to code at five years old by making video games
-using Scratch and Python. Graduated during COVID from a women's university, Niharika faced challenges
+Learn about Niharika's journey. Graduated during COVID from a women's university,
+Niharika faced challenges
 in finding her dream job, but the Python and open source community gets her going.
 During her final year's project, she made an energy monitoring system for her whole campus connected to
 a Raspberry Pi. Hear all about her work and all the contributions she's made to the Python community.
