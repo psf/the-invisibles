@@ -1,0 +1,4574 @@
+1
+00:00:20,960 --> 00:00:23,600
+Hello everyone and welcome to the Pypodcatsyes
+
+2
+00:00:23,680 --> 00:00:27,200
+for our Hidden Figures of Python
+
+3
+00:00:27,520 --> 00:00:30,980
+series today our guest is Mona Obedoza
+
+4
+00:00:31,400 --> 00:00:33,230
+and if this is your first time you're
+
+5
+00:00:33,240 --> 00:00:34,480
+listening to the 
+
+6
+00:00:34,960 --> 00:00:35,300
+Pypodcats
+
+7
+00:00:35,560 --> 00:00:37,390
+you're probably wondering what the
+
+8
+00:00:37,400 --> 00:00:39,510
+PyPodcats are we are highlighting the voices
+
+9
+00:00:39,520 --> 00:00:41,790
+of underrepresented group members in the
+
+10
+00:00:41,800 --> 00:00:44,470
+Python community we have a code of conduct
+
+11
+00:00:44,480 --> 00:00:46,310
+which is the PSF the Python Software
+
+12
+00:00:46,320 --> 00:00:49,270
+Foundation code of conduct and we follow it
+
+13
+00:00:49,280 --> 00:00:52,620
+to help our interactions and keep Python
+
+14
+00:00:53,240 --> 00:00:55,630
+positive successful and growing community
+
+15
+00:00:55,640 --> 00:00:57,700
+and I am Tereza
+
+16
+00:00:58,040 --> 00:00:59,940
+I am based in Hamburg
+
+17
+00:01:00,440 --> 00:01:03,270
+and with us we have our other co-host
+
+18
+00:01:03,280 --> 00:01:04,060
+Georgi based in
+
+19
+00:01:04,560 --> 00:01:07,830
+Hi everyone my name is Georgi and I'm
+
+20
+00:01:07,840 --> 00:01:09,100
+coming from
+
+21
+00:01:09,760 --> 00:01:11,640
+I'm not coming from I'm based
+
+22
+00:01:11,880 --> 00:01:14,630
+I'm based in Amsterdam I'm coming from my
+
+23
+00:01:14,640 --> 00:01:17,710
+mother's womb but I'm based in the
+
+24
+00:01:17,720 --> 00:01:18,780
+Netherlands
+
+25
+00:01:21,640 --> 00:01:22,460
+so
+
+26
+00:01:23,160 --> 00:01:25,590
+we are in a mood today because both Georgi
+
+27
+00:01:25,600 --> 00:01:27,500
+and I are in
+
+28
+00:01:28,040 --> 00:01:30,350
+there's public holidays around here both in
+
+29
+00:01:30,360 --> 00:01:32,230
+Germany and Netherlands so it's a free day
+
+30
+00:01:32,240 --> 00:01:34,150
+it's sunny outside we're not used to this weather
+
+31
+00:01:34,160 --> 00:01:36,420
+ so it gets to our head
+
+32
+00:01:38,960 --> 00:01:42,400
+so Mona would you like to do a little quick
+
+33
+00:01:42,520 --> 00:01:43,220
+introduction
+
+34
+00:01:43,640 --> 00:01:44,820
+about who you are
+
+35
+00:01:45,480 --> 00:01:47,510
+yes absolutely hello everyone my name is
+
+36
+00:01:47,520 --> 00:01:49,910
+Mona Obedoza I'm a high school student from
+
+37
+00:01:49,920 --> 00:01:51,270
+the Philippines and I study at Stanford
+
+38
+00:01:51,280 --> 00:01:53,590
+online high school I really love to code
+
+39
+00:01:53,600 --> 00:01:55,350
+I'm an inspiring artificial intelligence
+
+40
+00:01:55,360 --> 00:01:57,270
+engineer and because of that my advocacy is
+
+41
+00:01:57,280 --> 00:01:59,110
+also teaching other kids how to code and 
+
+42
+00:01:59,120 --> 00:02:01,310
+to this end i'm also a student ambassador
+
+43
+00:02:01,320 --> 00:02:03,670
+for women in AI I'm the co-leader of the
+
+44
+00:02:03,680 --> 00:02:05,783
+Girls can Code club at my school and I'm
+
+45
+00:02:05,793 --> 00:02:07,490
+the founder of the Purposeful Mochii which is
+
+46
+00:02:07,500 --> 00:02:09,550
+a little organization I started locally
+
+47
+00:02:09,550 --> 00:02:10,916
+that holds workshops and hackathons to
+
+48
+00:02:10,926 --> 00:02:11,630
+teach kids how to code
+
+49
+00:02:11,640 --> 00:02:14,986
+That's very interesting Mona because I 
+
+50
+00:02:14,993 --> 00:02:18,136
+remember I saw you the first time when you 
+
+51
+00:02:18,146 --> 00:02:20,340
+attended one of the events
+
+52
+00:02:20,840 --> 00:02:23,550
+in Python Philippines and that triggered me
+
+53
+00:02:23,560 --> 00:02:26,430
+like whoa this girl and this young age has
+
+54
+00:02:26,440 --> 00:02:28,990
+started coding and knowing way more than
+
+55
+00:02:29,000 --> 00:02:31,350
+what I know already so I was totally
+
+56
+00:02:31,360 --> 00:02:34,950
+impressed to be honest and (thank you) I was like one
+
+57
+00:02:34,960 --> 00:02:36,260
+day I'm just gonna
+
+58
+00:02:36,640 --> 00:02:38,430
+approach and know a little bit more about
+
+59
+00:02:38,440 --> 00:02:40,980
+this little Mona here so how do you started
+
+60
+00:02:41,320 --> 00:02:44,070
+learning how to code and doing all the
+
+61
+00:02:44,080 --> 00:02:45,100
+programming
+
+62
+00:02:45,480 --> 00:02:47,070
+I started learning how to code around the
+
+63
+00:02:47,080 --> 00:02:48,990
+time I graduated from kinder I was maybe
+
+64
+00:02:49,000 --> 00:02:50,920
+around five years old my mom was a software
+
+65
+00:02:50,960 --> 00:02:52,240
+engineer at the time and so
+
+66
+00:02:52,480 --> 00:02:54,190
+he downloaded this app and it was like the
+
+67
+00:02:54,200 --> 00:02:56,470
+simple logic based game where like you
+
+68
+00:02:56,480 --> 00:02:58,430
+instruct a dinosaur to move in a certain
+
+69
+00:02:58,440 --> 00:02:59,840
+way and follow and like
+
+70
+00:03:00,120 --> 00:03:01,790
+use that to complete certain puzzles and it
+
+71
+00:03:01,800 --> 00:03:03,910
+was meant to teach me the basics of coding
+
+72
+00:03:03,920 --> 00:03:05,910
+and logic and that kind of thing and I was
+
+73
+00:03:05,920 --> 00:03:07,500
+just absolutely obsessed with it I
+
+74
+00:03:07,840 --> 00:03:09,430
+just played it for a very long time I think I
+
+75
+00:03:09,440 --> 00:03:11,310
+finished it in like one night and because
+
+76
+00:03:11,320 --> 00:03:13,510
+of that she let me move on to more advanced
+
+77
+00:03:13,520 --> 00:03:14,760
+programming languages such as
+
+78
+00:03:15,000 --> 00:03:16,670
+well I started blockbase fielding languages
+
+79
+00:03:16,680 --> 00:03:18,830
+like Tynker and then Scratch and then
+
+80
+00:03:18,840 --> 00:03:19,950
+because I couldn't get enough of that
+
+81
+00:03:19,960 --> 00:03:21,910
+either I eventually in around third grade
+
+82
+00:03:21,920 --> 00:03:23,100
+I moved on to
+
+83
+00:03:23,440 --> 00:03:25,310
+do text based programming with Python of
+
+84
+00:03:25,320 --> 00:03:27,270
+being my very first text based programming
+
+85
+00:03:27,280 --> 00:03:27,680
+language
+
+86
+00:03:27,960 --> 00:03:29,710
+after that I started learning more things
+
+87
+00:03:29,720 --> 00:03:32,360
+like HTML, CSS, Javascript, some mobile app
+
+88
+00:03:32,400 --> 00:03:34,750
+development with App Inventor and recently
+
+89
+00:03:34,760 --> 00:03:36,630
+I started taking classes at my school also
+
+90
+00:03:36,640 --> 00:03:38,550
+and because of that I also learned C++ and Java
+
+91
+00:03:38,560 --> 00:03:40,340
+Holy Moly
+
+92
+00:03:40,760 --> 00:03:43,040
+yeah so you know a lot of programming
+
+93
+00:03:43,120 --> 00:03:45,060
+languages which one is your favorite?
+
+94
+00:03:45,760 --> 00:03:47,470
+I think Python is definitely the one that's
+
+95
+00:03:47,480 --> 00:03:49,230
+closest to my heart as I said it's one of
+
+96
+00:03:49,240 --> 00:03:50,960
+the very first ones that I ever tried and
+
+97
+00:03:51,560 --> 00:03:53,460
+I remember that when I was a kid it
+
+98
+00:03:54,000 --> 00:03:55,840
+was really my favorite programming language to
+
+99
+00:03:55,880 --> 00:03:57,350
+do I would always try to make different
+
+100
+00:03:57,360 --> 00:03:58,950
+games with it and I had this little Python
+
+101
+00:03:58,960 --> 00:04:00,780
+book of games that I would always use
+
+102
+00:04:01,360 --> 00:04:03,220
+and even today when
+
+103
+00:04:03,600 --> 00:04:05,750
+when I work on some projects I always use
+
+104
+00:04:05,760 --> 00:04:07,550
+Python for Data Science, Artificial
+
+105
+00:04:07,560 --> 00:04:09,350
+Intelligence because it just has so many
+
+106
+00:04:09,360 --> 00:04:10,990
+libraries that are very well documented and
+
+107
+00:04:11,000 --> 00:04:12,390
+make it very easy to get started with all
+
+108
+00:04:12,400 --> 00:04:14,020
+of those things and even
+
+109
+00:04:14,880 --> 00:04:16,190
+when I teach kids how to code I think
+
+110
+00:04:16,200 --> 00:04:17,950
+Python is a really great language to get
+
+111
+00:04:17,960 --> 00:04:19,510
+started with because it's not too complex
+
+112
+00:04:19,520 --> 00:04:21,230
+you don't need to remember brackets and
+
+113
+00:04:21,240 --> 00:04:22,420
+that kind of thing in this kind of like
+
+114
+00:04:23,600 --> 00:04:25,070
+it's very simple and easy to pick up and
+
+115
+00:04:25,080 --> 00:04:27,040
+it's a really good way to bridge the gap
+
+116
+00:04:27,120 --> 00:04:29,110
+between block based programming and early
+
+117
+00:04:29,120 --> 00:04:30,950
+logic puzzles and data programming
+
+118
+00:04:30,960 --> 00:04:33,510
+languages as well wait a second because I just wrote down
+
+119
+00:04:33,520 --> 00:04:35,590
+ here something because of your first 
+
+120
+00:04:35,600 --> 00:04:38,070
+game being with dinosaurs do you also have
+
+121
+00:04:38,080 --> 00:04:39,860
+ a special
+
+122
+00:04:40,400 --> 00:04:42,220
+affinity towards dinosaurs?
+
+123
+00:04:42,800 --> 00:04:45,350
+Actually I am very scared of dinosaurs I
+
+124
+00:04:45,360 --> 00:04:47,670
+refused to watch dinosaur movies it
+
+125
+00:04:47,680 --> 00:04:49,590
+scares me a lot but it's just that in that
+
+126
+00:04:49,600 --> 00:04:50,660
+particular game it was
+
+127
+00:04:51,200 --> 00:04:53,430
+a very cute little chirpy dinosaur and so I
+
+128
+00:04:53,430 --> 00:04:54,430
+just loved it a lot
+
+129
+00:04:54,873 --> 00:04:56,980
+But then in real life dinosaurs scare me
+
+130
+00:04:58,880 --> 00:05:01,590
+yeah I mean it's just birds that are still
+
+131
+00:05:01,600 --> 00:05:03,310
+around us right I mean the other ones are
+
+132
+00:05:03,320 --> 00:05:04,020
+all dead
+
+133
+00:05:04,240 --> 00:05:04,793
+it's very unnerving
+
+134
+00:05:04,793 --> 00:05:05,460
+so you're safe
+
+136
+00:05:06,526 --> 00:05:09,380
+and actually Tereza is reviving them
+
+137
+00:05:09,880 --> 00:05:10,980
+oh my gosh
+
+138
+00:05:11,320 --> 00:05:12,790
+yeah I'm just putting them on paintings
+
+139
+00:05:12,800 --> 00:05:15,480
+it's fine it's made up dinosaur so it's
+
+140
+00:05:15,640 --> 00:05:17,360
+it's fine cute perfectI hope I hope it stays that way
+
+141
+00:05:19,640 --> 00:05:20,200
+so
+
+142
+00:05:20,440 --> 00:05:23,630
+just curious like why do you like Python
+
+143
+00:05:23,640 --> 00:05:26,750
+more is it really because of like the
+
+144
+00:05:26,760 --> 00:05:29,520
+language or are you drawn to the community
+
+145
+00:05:29,560 --> 00:05:32,020
+or what's the reason why you actually
+
+146
+00:05:32,320 --> 00:05:33,340
+prefer Python
+
+147
+00:05:33,880 --> 00:05:35,470
+it's really a little bit of both language
+
+148
+00:05:35,480 --> 00:05:37,630
+is honestly just so great it's really a
+
+149
+00:05:37,640 --> 00:05:38,850
+great way to get started with
+
+150
+00:05:38,860 --> 00:05:40,060
+ programming in general get started with 
+
+151
+00:05:40,060 --> 00:05:42,063
+fundamentals before having to worry about 
+
+152
+00:05:42,073 --> 00:05:43,720
+complicated syntax and that kind of thing
+
+153
+00:05:43,960 --> 00:05:44,900
+and it also
+
+154
+00:05:45,200 --> 00:05:47,030
+makes really easy to get started with more
+
+155
+00:05:47,040 --> 00:05:48,950
+complicated topics like Data Science, AI and
+
+156
+00:05:48,960 --> 00:05:51,470
+alike but at the same time I also really
+
+157
+00:05:51,480 --> 00:05:52,950
+love the Python community I think the
+
+158
+00:05:52,960 --> 00:05:54,750
+Python community is really where I
+
+159
+00:05:54,760 --> 00:05:56,750
+started my whole journey I remember you
+
+160
+00:05:56,760 --> 00:05:58,020
+mentioned that you saw me at
+
+161
+00:05:58,560 --> 00:06:00,150
+an event several years ago here in Python
+
+162
+00:06:00,160 --> 00:06:01,040
+Philippines and
+
+163
+00:06:01,440 --> 00:06:02,040
+ithatwas probably
+
+164
+00:06:02,360 --> 00:06:03,870
+actually that was my very first speaking
+
+165
+00:06:03,880 --> 00:06:05,830
+engagement i remember i just joined the
+
+166
+00:06:05,840 --> 00:06:07,550
+Python tech conference because I loved
+
+167
+00:06:07,560 --> 00:06:09,070
+programming in Python I wanted to learn more
+
+168
+00:06:09,080 --> 00:06:10,740
+more and I found out that
+
+169
+00:06:11,000 --> 00:06:12,020
+they were having
+
+170
+00:06:12,400 --> 00:06:13,870
+lightning talks and so I decided you know
+
+171
+00:06:13,880 --> 00:06:15,630
+why not I might as well let's just see where
+
+172
+00:06:15,640 --> 00:06:16,780
+that takes me
+
+173
+00:06:17,080 --> 00:06:18,750
+and so yeah that was my very first speaking
+
+174
+00:06:18,760 --> 00:06:20,510
+engagement and even though I was only
+
+175
+00:06:20,520 --> 00:06:22,230
+around perhaps 10 years old or something
+
+176
+00:06:22,240 --> 00:06:24,110
+like that at the time they were all very
+
+177
+00:06:24,120 --> 00:06:25,710
+supportive of me I was so nervous to be
+
+178
+00:06:25,720 --> 00:06:27,030
+speaking in front of such a big crowd for the
+
+179
+00:06:27,040 --> 00:06:29,070
+very first time but they were all so
+
+180
+00:06:29,080 --> 00:06:30,350
+supportive and so engaged in my
+
+181
+00:06:30,360 --> 00:06:32,350
+presentation and they really made me feel
+
+182
+00:06:32,360 --> 00:06:34,150
+welcomed and appreciated and yeah clearly
+
+183
+00:06:34,160 --> 00:06:36,310
+what gave me the confidence to try other
+
+184
+00:06:36,320 --> 00:06:38,470
+speaking opportunities, try signing up for
+
+185
+00:06:38,480 --> 00:06:40,550
+summer camps schools and that kind of thing
+
+186
+00:06:40,560 --> 00:06:42,180
+where I could learn how to code
+
+187
+00:06:42,600 --> 00:06:44,190
+and improve my coding skills as well and
+
+188
+00:06:44,200 --> 00:06:46,020
+get more involved with the tech community
+
+189
+00:06:46,520 --> 00:06:47,700
+that's really cool
+
+190
+00:06:47,960 --> 00:06:49,590
+so you mentioned you got involved also in
+
+191
+00:06:49,600 --> 00:06:51,390
+the Python community what do you do in the
+
+192
+00:06:51,400 --> 00:06:52,920
+Python community currently
+
+193
+00:06:53,520 --> 00:06:55,030
+Generally I still do some speaking
+
+194
+00:06:55,040 --> 00:06:56,830
+engagements I think I've been invited to a
+
+195
+00:06:56,840 --> 00:06:59,060
+few speaking engagements in the past like
+
+196
+00:06:59,720 --> 00:07:01,550
+I've done a talk at the PyLadiesCon also at
+
+197
+00:07:01,560 --> 00:07:04,230
+the most recent PyCon and generally I speak
+
+198
+00:07:04,240 --> 00:07:05,990
+about my advocacy which is teaching kids
+
+199
+00:07:06,000 --> 00:07:07,100
+how to code
+
+200
+00:07:07,520 --> 00:07:10,110
+and I also and I also speak about my
+
+201
+00:07:10,120 --> 00:07:11,510
+organization the Purposeful Mochii which
+
+202
+00:07:11,520 --> 00:07:13,870
+does exactly that and I speak about some of
+
+203
+00:07:13,880 --> 00:07:15,830
+the AI projects I do as well
+
+204
+00:07:15,840 --> 00:07:17,696
+so tell us a little bit more about how you 
+
+205
+00:07:17,696 --> 00:07:20,176
+teach younger people to code like the kids or
+
+206
+00:07:21,440 --> 00:07:21,880
+because
+
+207
+00:07:22,480 --> 00:07:23,580
+it passed our
+
+208
+00:07:23,960 --> 00:07:26,590
+our level you see so we are in the
+
+209
+00:07:26,600 --> 00:07:28,100
+adulthood so you
+
+210
+00:07:28,100 --> 00:07:30,730
+ are still like in between you know I mean 
+
+211
+00:07:30,913 --> 00:07:32,840
+so I'm really interested on
+
+212
+00:07:33,080 --> 00:07:36,220
+actually teach the kids code
+
+213
+00:07:36,440 --> 00:07:38,190
+right well I started the Purposeful Mochii
+
+214
+00:07:38,200 --> 00:07:39,590
+when I was pretty young and it was just
+
+215
+00:07:39,600 --> 00:07:41,270
+kind of like doing little coding workshops
+
+216
+00:07:41,280 --> 00:07:42,240
+for my friends because
+
+217
+00:07:42,640 --> 00:07:44,270
+we didn't really have coding lessons at my
+
+218
+00:07:44,280 --> 00:07:45,550
+school at the time because we were very
+
+219
+00:07:45,560 --> 00:07:47,190
+young and so I decided it would be fun to
+
+220
+00:07:47,200 --> 00:07:48,670
+just teach my friends how to code and so we
+
+221
+00:07:48,680 --> 00:07:50,350
+had little gatherings and coffee shops and
+
+222
+00:07:50,360 --> 00:07:52,270
+that kind of thing but eventually I decided
+
+223
+00:07:52,280 --> 00:07:53,710
+to take that further I started doing
+
+224
+00:07:53,720 --> 00:07:55,310
+workshops with larger groups of people I
+
+225
+00:07:55,320 --> 00:07:57,510
+didn't know and also younger age groups as
+
+226
+00:07:57,520 --> 00:07:59,750
+well and then most recently I partnered
+
+227
+00:07:59,760 --> 00:08:01,430
+with Accenture Philippines for the Breaking
+
+228
+00:08:01,440 --> 00:08:03,150
+Barriers Building Bridges Hackathon for
+
+229
+00:08:03,160 --> 00:08:04,910
+Girls here in the Philippines where
+
+230
+00:08:04,920 --> 00:08:06,760
+basically girls of
+
+231
+00:08:07,520 --> 00:08:09,110
+any level of experience with coding really
+
+232
+00:08:09,120 --> 00:08:11,630
+can come join in teams of around three or
+
+233
+00:08:11,640 --> 00:08:12,420
+four and
+
+234
+00:08:12,840 --> 00:08:14,350
+start learning how to solve problems using code
+
+235
+00:08:14,360 --> 00:08:16,630
+I think that hackathons are really my
+
+236
+00:08:16,640 --> 00:08:18,270
+preferred way of teaching kids how to code
+
+237
+00:08:18,280 --> 00:08:20,310
+because well first of all it's very
+
+238
+00:08:20,320 --> 00:08:22,030
+important more important than just learning
+
+239
+00:08:22,040 --> 00:08:23,390
+how to code it's also important to learn
+
+240
+00:08:23,400 --> 00:08:25,270
+how to use technology to solve problems and
+
+241
+00:08:25,280 --> 00:08:26,630
+that's exactly what hackathons are all
+
+242
+00:08:26,640 --> 00:08:28,510
+about you pick a problem and make a project
+
+243
+00:08:28,520 --> 00:08:29,780
+to try and solve it
+
+244
+00:08:30,040 --> 00:08:32,360
+second I also think that this improves this
+
+245
+00:08:32,440 --> 00:08:33,910
+increases their confidence a lot because when
+
+246
+00:08:33,920 --> 00:08:35,470
+ you join a hackathon and you make a project
+
+247
+00:08:35,480 --> 00:08:37,590
+ that can solve a real world problem
+
+248
+00:08:37,600 --> 00:08:39,110
+at the very end you're able to take a step back
+
+249
+00:08:39,120 --> 00:08:40,870
+ and think wow I was able to create all
+
+250
+00:08:40,880 --> 00:08:42,350
+of this stuff I think it really improves
+
+251
+00:08:42,360 --> 00:08:43,760
+their confidence a lot and I think
+
+252
+00:08:44,240 --> 00:08:45,920
+and so that's generally what the Purposeful 
+
+253
+00:08:46,000 --> 00:08:47,750
+Mochii has been focusing on its efforts on
+
+254
+00:08:47,760 --> 00:08:49,270
+lately doing hackathons and things like
+
+255
+00:08:49,280 --> 00:08:51,270
+that where kids can get started with coding
+
+256
+00:08:51,280 --> 00:08:53,070
+and find out all of the amazing things that
+
+257
+00:08:53,080 --> 00:08:54,830
+technology can do / Are you doing this all
+
+258
+00:08:54,840 --> 00:08:57,420
+alone or do you have other people helping you out? 
+
+259
+00:08:57,960 --> 00:08:59,870
+I have some people helping me out so I have
+
+260
+00:08:59,880 --> 00:09:01,950
+this one I have this one friend who helps
+
+261
+00:09:01,960 --> 00:09:03,710
+me out with the Purposeful Mochii as well
+
+262
+00:09:03,720 --> 00:09:06,350
+and we just collaborate sometimes in teaching
+
+263
+00:09:06,360 --> 00:09:08,220
+workshops and in reaching more kids
+
+264
+00:09:08,440 --> 00:09:10,710
+and aside from that I also partnered with
+
+265
+00:09:10,720 --> 00:09:12,630
+tech companies such as Accenture like I
+
+266
+00:09:12,640 --> 00:09:14,200
+mentioned and also with the Python
+
+267
+00:09:14,280 --> 00:09:15,360
+community sometimes
+
+268
+00:09:15,800 --> 00:09:19,013
+and to seek more supportyou know that's at another level
+
+269
+00:09:19,013 --> 00:09:21,710
+because you are actually getting the
+
+270
+00:09:21,710 --> 00:09:23,060
+ companies involved
+
+271
+00:09:23,060 --> 00:09:24,820
+ at your age like how do you actually
+
+272
+00:09:24,820 --> 00:09:25,353
+ approach them?
+
+273
+00:09:26,760 --> 00:09:28,000
+well actually
+
+274
+00:09:28,400 --> 00:09:29,820
+well I think it just
+
+275
+00:09:30,280 --> 00:09:32,110
+it all started really when I just had that first
+
+276
+00:09:32,120 --> 00:09:34,150
+experience at the Python tech conference
+
+277
+00:09:34,160 --> 00:09:36,070
+and I started making connections meeting
+
+278
+00:09:36,080 --> 00:09:37,670
+new people and then because of that I
+
+279
+00:09:37,680 --> 00:09:39,310
+started being invited to more and more
+
+280
+00:09:39,320 --> 00:09:41,230
+things and because of that I ended up just
+
+281
+00:09:41,240 --> 00:09:42,830
+meeting more and more people who I'm able
+
+282
+00:09:42,840 --> 00:09:44,990
+to reach out to whenever I have an event 
+
+283
+00:09:45,000 --> 00:09:46,350
+Like I get to reach out to them and ask hey
+
+284
+00:09:46,360 --> 00:09:47,790
+do you want to be a guest speaker for this 
+
+285
+00:09:47,800 --> 00:09:49,710
+event and help inspire these kids and that 
+
+286
+00:09:49,720 --> 00:09:51,540
+sort of thing so it's really just all about
+
+287
+00:09:51,800 --> 00:09:52,440
+all of the
+
+288
+00:09:53,000 --> 00:09:54,270
+conferences that I like going to and
+
+289
+00:09:54,280 --> 00:09:56,460
+speaking at and making connections through there
+
+290
+00:09:56,960 --> 00:09:57,680
+interesting
+
+291
+00:09:58,200 --> 00:10:00,790
+to be honest because I do have kids too and
+
+292
+00:10:00,800 --> 00:10:03,560
+a lot of young people some of them they
+
+293
+00:10:03,640 --> 00:10:05,660
+feel like coding is not cool
+
+294
+00:10:06,360 --> 00:10:09,550
+so it's not easy to trigger them to pick up
+
+295
+00:10:09,560 --> 00:10:10,780
+this because
+
+296
+00:10:11,000 --> 00:10:11,400
+it
+
+297
+00:10:11,720 --> 00:10:13,550
+gives them a perception that it's actually
+
+298
+00:10:13,560 --> 00:10:16,670
+hard or like it seems to be that the
+
+299
+00:10:16,680 --> 00:10:19,200
+learning curve is higher than other things
+
+300
+00:10:19,480 --> 00:10:21,160
+so how do you actually make it
+
+301
+00:10:21,440 --> 00:10:23,550
+accessible or make it interesting to
+
+302
+00:10:23,560 --> 00:10:26,270
+younger people to learn how code
+
+303
+00:10:26,280 --> 00:10:26,860
+I can absolutely
+
+304
+00:10:27,320 --> 00:10:29,510
+relate to that most of the time when I was
+
+305
+00:10:29,520 --> 00:10:30,220
+really young
+
+306
+00:10:30,840 --> 00:10:31,200
+and
+
+307
+00:10:31,480 --> 00:10:32,870
+a lot of the people i would talk to would
+
+308
+00:10:32,880 --> 00:10:34,240
+think that coding was really hard and
+
+309
+00:10:34,720 --> 00:10:36,470
+then coding and math and science and
+
+310
+00:10:36,480 --> 00:10:38,030
+especially girls they would really think
+
+311
+00:10:38,040 --> 00:10:39,980
+that it was really difficult and that's why
+
+312
+00:10:40,800 --> 00:10:43,180
+in my workshops usually I get started with
+
+313
+00:10:43,400 --> 00:10:45,773
+very simple things like block based coding
+
+314
+00:10:45,780 --> 00:10:48,110
+languages starting with Scratch for desktop
+
+315
+00:10:48,120 --> 00:10:49,670
+and game development they're thunkable for
+
+316
+00:10:49,680 --> 00:10:51,470
+mobile development to teach them that it's
+
+317
+00:10:51,480 --> 00:10:52,833
+really not that scary at all it's just 
+
+318
+00:10:53,600 --> 00:10:55,950
+doing some logic and putting stuff
+
+319
+00:10:55,960 --> 00:10:57,190
+together and eventually you're going to end
+
+320
+00:10:57,200 --> 00:10:59,070
+up with this project and you're going to be
+
+321
+00:10:59,080 --> 00:11:00,000
+like wow how did I
+
+322
+00:11:00,240 --> 00:11:01,600
+do all of this it actually wasn't
+
+323
+00:11:01,880 --> 00:11:03,180
+that tough after all
+
+324
+00:11:03,760 --> 00:11:05,790
+and I think there's a misconception that
+
+325
+00:11:05,800 --> 00:11:07,830
+programming is all very technical stuff
+
+326
+00:11:07,840 --> 00:11:10,470
+algorithms match etc it's like wow I don't
+
+327
+00:11:10,480 --> 00:11:11,910
+want to have all these particles swimming
+
+328
+00:11:11,920 --> 00:11:13,020
+around in my head
+
+329
+00:11:13,640 --> 00:11:15,270
+but in actuality the programming is all
+
+330
+00:11:15,280 --> 00:11:16,910
+about you know logic creative thinking and
+
+331
+00:11:16,920 --> 00:11:18,790
+that sort of thing and that's why through
+
+332
+00:11:18,800 --> 00:11:20,350
+hackathons and workshops and that kind of
+
+333
+00:11:20,360 --> 00:11:22,470
+thing where i get started with very simple
+
+334
+00:11:22,480 --> 00:11:24,590
+programming languages and games and stuff
+
+335
+00:11:24,600 --> 00:11:27,030
+to begin with I hope to instill that
+
+336
+00:11:27,040 --> 00:11:28,590
+impression that coding is actually
+
+337
+00:11:28,600 --> 00:11:31,070
+something that can be fun yeah but I think
+
+338
+00:11:31,080 --> 00:11:33,160
+that misconception came out also from
+
+339
+00:11:33,640 --> 00:11:36,150
+larger companies who had the whole phase of
+
+340
+00:11:36,160 --> 00:11:38,980
+job interviews being algorithm cracking
+
+341
+00:11:39,760 --> 00:11:40,200
+so
+
+342
+00:11:40,480 --> 00:11:42,430
+you have to know all the algorithms by
+
+343
+00:11:42,440 --> 00:11:44,670
+heart and everything and that it was like
+
+344
+00:11:44,680 --> 00:11:46,950
+the only way to get through the door 
+
+345
+00:11:46,960 --> 00:11:48,630
+and think that it's something that 
+
+346
+00:11:48,640 --> 00:11:50,910
+there's a whole generation affected by that
+
+347
+00:11:50,920 --> 00:11:52,470
+ thinking although they go in the job and
+
+348
+00:11:52,480 --> 00:11:55,550
+ then they don't apply any of the algorithms
+
+349
+00:11:55,560 --> 00:11:56,940
+so that's very true yeah
+
+350
+00:11:57,480 --> 00:12:00,350
+but in reality the real job does not really
+
+351
+00:12:00,360 --> 00:12:02,620
+encompass what the interview goes through
+
+352
+00:12:04,720 --> 00:12:07,430
+it's true it's true I mean for you perhaps
+
+353
+00:12:07,440 --> 00:12:09,590
+not a level yet but I'm pretty sure you'll
+
+354
+00:12:09,600 --> 00:12:13,280
+be hired by some big company soon but I think
+
+355
+00:12:13,520 --> 00:12:15,230
+that's kind of like what Tereza has
+
+356
+00:12:15,240 --> 00:12:18,030
+mentioned is a very interesting issue here
+
+357
+00:12:18,040 --> 00:12:21,640
+that in the tech industry they tend to over
+
+358
+00:12:22,000 --> 00:12:22,860
+test
+
+359
+00:12:23,880 --> 00:12:24,240
+yeah
+
+360
+00:12:24,680 --> 00:12:25,420
+it's just
+
+361
+00:12:26,120 --> 00:12:28,470
+testing on a different aspect that is then
+
+362
+00:12:28,480 --> 00:12:32,080
+not really connected to the world and also
+
+363
+00:12:32,480 --> 00:12:35,830
+nowadays we have so so many technologies
+
+364
+00:12:35,840 --> 00:12:38,710
+and so many aids you don't really need to
+
+365
+00:12:38,720 --> 00:12:40,950
+learn exactly like what to do
+
+366
+00:12:40,960 --> 00:12:42,960
+yeah and it's probably exactly how Mona is designing her
+
+367
+00:12:43,400 --> 00:12:45,190
+courses in the end is like putting things
+
+368
+00:12:45,200 --> 00:12:46,780
+together and getting something done
+
+369
+00:12:46,920 --> 00:12:48,140
+yep absolutely that's why
+
+370
+00:12:48,520 --> 00:12:50,230
+I like doing hackathon so that they can
+
+371
+00:12:50,240 --> 00:12:51,710
+actually experience what it's actually like
+
+372
+00:12:51,720 --> 00:12:53,630
+to program a project instead of just
+
+373
+00:12:53,640 --> 00:12:55,750
+programming like a simple like some kind of
+
+374
+00:12:55,760 --> 00:12:57,270
+mathematical thing they actually program a
+
+375
+00:12:57,280 --> 00:12:59,550
+project that has a practical use and so you
+
+376
+00:12:59,560 --> 00:13:00,990
+get to experience all the stuff where
+
+377
+00:13:01,000 --> 00:13:02,550
+you're trying to come up with you're trying
+
+378
+00:13:02,560 --> 00:13:05,220
+to come up with creative solutions and you
+
+379
+00:13:05,320 --> 00:13:06,720
+end up like spending a lot of time
+
+380
+00:13:07,000 --> 00:13:08,590
+debugging but also spending a lot of time
+
+381
+00:13:08,600 --> 00:13:10,550
+designing things, ideating, brainstorming and
+
+382
+00:13:10,560 --> 00:13:11,670
+that sort of thing and all of the things
+
+383
+00:13:11,680 --> 00:13:13,916
+that make that make coding a technology button
+
+384
+00:13:13,916 --> 00:13:16,260
+ are your courses then also available
+
+385
+00:13:16,360 --> 00:13:19,280
+online for like kids all over the world or
+
+386
+00:13:19,600 --> 00:13:21,820
+going to be available online?
+
+387
+00:13:22,560 --> 00:13:23,360
+well so far
+
+388
+00:13:23,640 --> 00:13:25,070
+I haven't done anything about releasing
+
+389
+00:13:25,080 --> 00:13:26,710
+courses myself with the Purposeful Mochii
+
+390
+00:13:26,720 --> 00:13:28,150
+although we do do some workshops and
+
+391
+00:13:28,160 --> 00:13:30,510
+they're mostly live workshop but as far as coding
+
+392
+00:13:31,176 --> 00:13:32,856
+ courses go I remember that when I was young
+
+393
+00:13:32,866 --> 00:13:34,803
+ I did a few things on Khan Academy I think 
+
+394
+00:13:34,813 --> 00:13:36,723
+and also generally what helped me a lot was
+
+395
+00:13:36,800 --> 00:13:38,210
+ getting programming books I had this book
+
+396
+00:13:38,210 --> 00:13:39,240
+ of like how to make
+
+397
+00:13:39,560 --> 00:13:41,150
+several like I don't know around 40 like
+
+398
+00:13:41,160 --> 00:13:42,806
+simple sketch games and I would follow it
+
+399
+00:13:42,840 --> 00:13:44,516
+and I would make a lot of Scatch games and
+
+400
+00:13:44,560 --> 00:13:46,063
+ then I had one also with Python and it 
+
+401
+00:13:46,063 --> 00:13:47,240
+taught me how to make
+
+402
+00:13:47,540 --> 00:13:49,073
+ If Conditions for example by making choose
+
+403
+00:13:49,073 --> 00:13:51,020
+ your own adventure games or how to do 
+
+404
+00:13:51,020 --> 00:13:53,083
+For Loops by doing alien invasion games so that 
+
+405
+00:13:53,083 --> 00:13:54,883
+kind of thing and that's really what got me 
+
+406
+00:13:54,893 --> 00:13:55,740
+interested in
+
+407
+00:13:55,960 --> 00:13:56,780
+coding
+
+408
+00:13:57,240 --> 00:14:00,940
+so games is the keyno dinosaur yeah and not dinosaurs I just
+
+409
+00:14:01,600 --> 00:14:04,040
+ I just didn't get any dinosaurs sorry
+
+410
+00:14:04,160 --> 00:14:06,323
+okay but I just realized there is one instance in
+
+411
+00:14:06,333 --> 00:14:08,076
+which I like dinosaurs which is like the Chrome
+
+412
+00:14:08,076 --> 00:14:09,663
+ dinosaur game you know the one where you keep on
+
+413
+00:14:09,673 --> 00:14:11,263
+hitting space bars and there's no internet
+
+414
+00:14:11,406 --> 00:14:12,120
+ 
+
+415
+00:14:12,800 --> 00:14:13,600
+Google
+
+416
+00:14:15,960 --> 00:14:18,390
+I understand that you started coding like
+
+417
+00:14:18,400 --> 00:14:21,780
+really young you mentioned once to me like 
+
+418
+00:14:21,780 --> 00:14:23,566
+five years old yeah she mentioned like yes I think I said that
+
+419
+00:14:23,640 --> 00:14:26,450
+so does looking young and being smaller 
+
+420
+00:14:26,450 --> 00:14:28,470
+help people interact with you do you feel
+
+421
+00:14:28,480 --> 00:14:32,230
+intimidated sometimes if like people who
+
+422
+00:14:32,240 --> 00:14:34,710
+try to like you know older people start to
+
+423
+00:14:34,720 --> 00:14:36,910
+talk to you or things like that about the
+
+424
+00:14:36,910 --> 00:14:38,043
+knowledge and or at you
+
+425
+00:14:38,043 --> 00:14:39,583
+yeah exactly
+
+426
+00:14:39,860 --> 00:14:42,470
+actually there are really pros and cons to being into being
+
+427
+00:14:42,480 --> 00:14:43,460
+small and cute
+
+428
+00:14:44,040 --> 00:14:45,580
+when I go to tech conferences
+
+429
+00:14:46,120 --> 00:14:46,400
+well
+
+430
+00:14:47,040 --> 00:14:48,790
+sometimes I feel really nervous like when I
+
+431
+00:14:48,800 --> 00:14:50,430
+am about to go up in front like oh my gosh
+
+432
+00:14:50,440 --> 00:14:51,950
+ all of these people have so much more
+
+433
+00:14:51,960 --> 00:14:53,230
+experience than me they're so much older
+
+434
+00:14:53,240 --> 00:14:55,380
+than me what could I possibly teach them
+
+435
+00:14:55,400 --> 00:14:57,760
+but that's why I guess I'm just so grateful
+
+436
+00:14:57,800 --> 00:14:59,230
+that communities here are just super
+
+437
+00:14:59,240 --> 00:15:00,790
+supportive like the Python community for
+
+438
+00:15:00,800 --> 00:15:01,620
+example
+
+439
+00:15:02,600 --> 00:15:04,070
+they never look down at me or anything like
+
+440
+00:15:04,080 --> 00:15:06,030
+that they've always supported me and
+
+441
+00:15:06,040 --> 00:15:07,100
+invited me
+
+442
+00:15:07,720 --> 00:15:09,990
+to speak at the tech conferences and help
+
+443
+00:15:10,000 --> 00:15:12,220
+me out whenever I have a big event going on
+
+444
+00:15:12,360 --> 00:15:14,590
+and also being young also makes it easier
+
+445
+00:15:14,600 --> 00:15:16,830
+for me to talk to kids I guess especially
+
+446
+00:15:16,840 --> 00:15:18,550
+when I teach workshops and when I hold
+
+447
+00:15:18,560 --> 00:15:20,510
+hackathons I guess it helps me relate to
+
+448
+00:15:20,520 --> 00:15:22,110
+them more and come up with activities that
+
+449
+00:15:22,120 --> 00:15:24,190
+they would find fun and at the same time it
+
+450
+00:15:24,200 --> 00:15:26,200
+feels like being young kind of inspires
+
+451
+00:15:26,280 --> 00:15:28,190
+them if I can do all of these things then
+
+452
+00:15:28,200 --> 00:15:29,340
+so can they I guess
+
+453
+00:15:30,120 --> 00:15:32,470
+have you experienced being taught in the
+
+454
+00:15:32,480 --> 00:15:35,110
+more traditional way coding did anybody try
+
+455
+00:15:35,120 --> 00:15:37,150
+to teach you coding and he's like here's a
+
+456
+00:15:37,160 --> 00:15:39,510
+programming book let's go through it page
+
+457
+00:15:39,520 --> 00:15:41,580
+by page or that's right
+
+458
+00:15:42,040 --> 00:15:45,720
+20 programs and then you know how to code style
+
+459
+00:15:46,440 --> 00:15:49,110
+I got most of my coding lessons at Stanford
+
+460
+00:15:49,120 --> 00:15:50,550
+online high school where I currently study
+
+461
+00:15:50,560 --> 00:15:52,350
+and it's honestly that's actually part of
+
+462
+00:15:52,360 --> 00:15:55,000
+what made coding so fun for me too 
+
+463
+00:15:55,480 --> 00:15:56,820
+the way that they approached teaching is
+
+464
+00:15:57,040 --> 00:15:58,790
+really cool and even when they do have to
+
+465
+00:15:58,800 --> 00:16:01,186
+teach fundamental things like algorithms
+
+466
+00:16:01,206 --> 00:16:02,190
+ like the math behind it like the hardware 
+
+467
+00:16:02,200 --> 00:16:04,710
+behind it they do it in such a way where it's 
+
+468
+00:16:04,710 --> 00:16:06,423
+easy for me to understand what's going on 
+
+469
+00:16:06,433 --> 00:16:08,310
+by drawing it out on the screen and showing
+
+470
+00:16:08,310 --> 00:16:10,716
+it step by step and it really just makes me 
+
+471
+00:16:10,726 --> 00:16:12,136
+realize that in the end all of it is just
+
+472
+00:16:12,146 --> 00:16:13,643
+ about logic that's really the most 
+
+473
+00:16:13,643 --> 00:16:15,263
+important part developing that logic and
+
+474
+00:16:15,273 --> 00:16:16,906
+ critical thinking skills after you've done
+
+475
+00:16:16,913 --> 00:16:18,410
+ that it's easy to pick up any language
+
+476
+00:16:18,410 --> 00:16:20,136
+ regardless of the syntax and it's easy to
+
+477
+00:16:20,180 --> 00:16:21,630
+ understand the algorithms and all of that
+
+478
+00:16:21,673 --> 00:16:22,870
+ so it's really all about building that
+
+479
+00:16:22,880 --> 00:16:23,900
+ strong foundation
+
+480
+00:16:24,120 --> 00:16:26,653
+have you actually tried different
+
+481
+00:16:26,900 --> 00:16:27,360
+ educational
+
+482
+00:16:27,720 --> 00:16:30,270
+books and like some of them actually kind
+
+483
+00:16:30,280 --> 00:16:32,830
+of like you couldn't get it and like when
+
+484
+00:16:32,840 --> 00:16:34,510
+it's exactly the same thing that you would
+
+485
+00:16:34,520 --> 00:16:36,990
+like to learn say for example maybe when
+
+486
+00:16:37,000 --> 00:16:39,110
+you just started to learn like machine
+
+487
+00:16:39,120 --> 00:16:41,830
+learning like other books that seem to
+
+488
+00:16:41,940 --> 00:16:44,760
+speak to you more than others or like
+
+489
+00:16:45,080 --> 00:16:48,563
+apps or anything seems to work better than the others
+
+490
+00:16:48,973 --> 00:16:50,353
+ I think when I got started in machine
+
+491
+00:16:50,393 --> 00:16:52,080
+ learning I used this website called Machine
+
+492
+00:16:52,120 --> 00:16:53,550
+ Learning for kids and the way it works is
+
+493
+00:16:53,560 --> 00:16:55,230
+ that it actually explains machine learning
+
+494
+00:16:55,240 --> 00:16:57,310
+to me in a very easy way because the way it 
+
+495
+00:16:57,320 --> 00:16:58,460
+works is that
+
+496
+00:16:58,840 --> 00:17:00,670
+you come up with categories called buckets
+
+497
+00:17:00,680 --> 00:17:02,110
+and then you put in examples in each
+
+498
+00:17:02,120 --> 00:17:04,070
+category and then after that you can deploy
+
+499
+00:17:04,080 --> 00:17:05,830
+it to a Scratch game or a Python game or
+
+500
+00:17:05,840 --> 00:17:07,190
+something like that and so I just had so
+
+501
+00:17:07,200 --> 00:17:08,560
+much fun with it when I was a kid after
+
+502
+00:17:08,600 --> 00:17:09,516
+school I would sit down 
+
+503
+00:17:09,860 --> 00:17:11,460
+and I would go to that site all the time and try out
+
+504
+00:17:11,460 --> 00:17:13,330
+all the different worksheets that they have
+
+505
+00:17:13,340 --> 00:17:14,840
+ and all the different programming projects
+
+506
+00:17:14,840 --> 00:17:15,706
+ that they have
+
+507
+00:17:16,006 --> 00:17:17,470
+and so yeah I think it was really those
+
+508
+00:17:17,480 --> 00:17:18,900
+kinds of online resources
+
+509
+00:17:19,520 --> 00:17:21,626
+that really spoke to me a lot when I 
+
+510
+00:17:21,673 --> 00:17:23,210
+was growing up at the same time receiving a
+
+511
+00:17:23,210 --> 00:17:25,096
+ formal education in programming was also
+
+512
+00:17:25,173 --> 00:17:26,520
+ really helpful for me because
+
+513
+00:17:27,280 --> 00:17:29,230
+you know I went online to learn all of the
+
+514
+00:17:29,240 --> 00:17:31,030
+practical things about coding but at the
+
+515
+00:17:31,040 --> 00:17:32,123
+same time it was also
+
+516
+00:17:32,133 --> 00:17:34,043
+ really important for me to go to school and learn
+
+517
+00:17:34,853 --> 00:17:36,620
+of the fundamentals going on behind it
+
+518
+00:17:37,240 --> 00:17:39,220
+maybe about that so I mean
+
+519
+00:17:40,160 --> 00:17:41,910
+you seem to have like your education is
+
+520
+00:17:41,920 --> 00:17:44,030
+like it's not just home you're not going
+
+521
+00:17:44,040 --> 00:17:46,030
+it's not very traditional in a sense like
+
+522
+00:17:46,040 --> 00:17:48,670
+you're going to school in a physical school
+
+523
+00:17:48,680 --> 00:17:50,010
+and probably the
+
+524
+00:17:50,010 --> 00:17:53,010
+ I guess the online aspect of it was 
+
+525
+00:17:53,076 --> 00:17:55,640
+triggered by Covid or would that have been
+
+526
+00:17:55,646 --> 00:17:57,136
+ something that you would have planned
+
+527
+00:17:57,146 --> 00:17:58,640
+ before the pandemic to
+
+528
+00:17:59,040 --> 00:17:59,450
+study on
+
+529
+00:17:59,650 --> 00:18:01,616
+ I actually go to an online school with
+
+530
+00:18:01,626 --> 00:18:03,063
+ students from all around the world so I go
+
+531
+00:18:03,106 --> 00:18:04,490
+ to Stanford Online High school and it's
+
+532
+00:18:04,500 --> 00:18:05,840
+ based in the US but we have
+
+533
+00:18:06,140 --> 00:18:06,973
+ folks from
+
+534
+00:18:07,273 --> 00:18:09,043
+just here in Asia we have folks from Europe
+
+535
+00:18:09,043 --> 00:18:10,876
+ and different time zones and all of that
+
+536
+00:18:10,953 --> 00:18:11,913
+ and so that's why
+
+537
+00:18:12,240 --> 00:18:14,470
+ all of us are online and it was like
+
+538
+00:18:14,480 --> 00:18:16,000
+that even before the pandemic but I only
+
+539
+00:18:16,040 --> 00:18:18,896
+applied here after the pandemic and yeah we
+
+540
+00:18:18,973 --> 00:18:19,660
+really have a
+
+541
+00:18:20,240 --> 00:18:21,430
+different way of learning stuff and that's
+
+542
+00:18:21,440 --> 00:18:23,390
+why I'm also able to learn coding at such a
+
+543
+00:18:23,400 --> 00:18:24,680
+young age but then
+
+544
+00:18:25,400 --> 00:18:27,390
+over here coding isn't part of the basic
+
+545
+00:18:27,400 --> 00:18:28,710
+education curriculum yet and that's why
+
+546
+00:18:28,720 --> 00:18:30,270
+it's part of my advocacy to make it part of
+
+547
+00:18:30,280 --> 00:18:31,990
+that curriculum and you know expose kids
+
+548
+00:18:32,000 --> 00:18:34,110
+to coding at the early young age and 
+
+549
+00:18:34,120 --> 00:18:35,680
+of the opportunities that they don't have
+
+550
+00:18:36,080 --> 00:18:38,840
+yeah so cool how do you what do you do
+
+551
+00:18:39,160 --> 00:18:40,220
+ as part of your advocacy
+
+552
+00:18:40,560 --> 00:18:43,910
+movement do you go like also getting
+
+553
+00:18:43,920 --> 00:18:46,560
+involved in politics with politicians or
+
+554
+00:18:47,080 --> 00:18:47,760
+because this is
+
+555
+00:18:48,280 --> 00:18:49,220
+sorry I mean
+
+556
+00:18:49,560 --> 00:18:50,780
+the future of Mona
+
+557
+00:18:51,920 --> 00:18:54,150
+like if you go to a normal school and you 
+
+558
+00:18:54,160 --> 00:18:55,750
+say hey I want you to do something they're
+
+559
+00:18:55,760 --> 00:18:57,870
+gonna be like ah you have to write I don't
+
+560
+00:18:57,880 --> 00:18:59,710
+know how many forms, convince I don't know
+
+561
+00:18:59,720 --> 00:19:02,870
+how many people and all the children in the
+
+562
+00:19:02,880 --> 00:19:05,390
+school have to sign and all their parents
+
+563
+00:19:05,400 --> 00:19:07,390
+and their grandparents so
+
+564
+00:19:07,400 --> 00:19:09,510
+ I think that's kind of how it was when I 
+
+565
+00:19:09,520 --> 00:19:10,740
+wanted to change something in my school
+
+566
+00:19:11,520 --> 00:19:13,070
+no that's totally true though and that'swhat do you do?
+
+567
+00:19:13,080 --> 00:19:14,630
+why I partner with tech companies to make
+
+568
+00:19:14,640 --> 00:19:16,550
+things like I'm making various Building
+
+569
+00:19:16,560 --> 00:19:18,310
+Bridges Hackathons I partner with 
+
+570
+00:19:18,320 --> 00:19:20,253
+Accenture and that's why it's easier it's easier it's
+
+571
+00:19:20,253 --> 00:19:21,153
+ easier to reach
+
+572
+00:19:21,160 --> 00:19:23,790
+more schools and you know to teach more kids
+
+573
+00:19:23,800 --> 00:19:24,500
+how to code
+
+574
+00:19:24,800 --> 00:19:25,950
+actually I've done some things with the
+
+575
+00:19:25,960 --> 00:19:27,000
+government for like
+
+576
+00:19:27,720 --> 00:19:30,470
+the DICT the Department of Information
+
+577
+00:19:30,480 --> 00:19:32,310
+Communications Technology once invited me
+
+578
+00:19:32,320 --> 00:19:33,950
+to do a little talk on Artificial
+
+579
+00:19:33,960 --> 00:19:35,350
+Intelligence for some of these students so it's
+
+580
+00:19:35,360 --> 00:19:38,510
+really hard finding to see how they're
+
+581
+00:19:38,520 --> 00:19:40,580
+implementing technology education already
+
+582
+00:19:41,360 --> 00:19:43,190
+on some government level I guess but
+
+583
+00:19:43,200 --> 00:19:45,150
+not part of the curriculum and that's why I
+
+584
+00:19:45,160 --> 00:19:47,070
+do have some personal projects in order to
+
+585
+00:19:47,080 --> 00:19:48,670
+make coding more accessible to kids and my
+
+586
+00:19:48,680 --> 00:19:50,510
+own and one of these projects actually is
+
+587
+00:19:50,520 --> 00:19:51,750
+this thing that I've been doing lately
+
+588
+00:19:51,760 --> 00:19:53,800
+called Mochii Ball Basic Algorithm earning
+
+589
+00:19:53,840 --> 00:19:55,950
+language and basically its goal is to
+
+590
+00:19:55,960 --> 00:19:57,710
+bridge digital divide and how public school
+
+591
+00:19:57,720 --> 00:19:59,190
+students learn how to code and the way it
+
+592
+00:19:59,200 --> 00:20:01,160
+works is that instead of using a computer
+
+593
+00:20:01,240 --> 00:20:03,990
+to write their code each student is given a
+
+594
+00:20:04,000 --> 00:20:05,113
+piece of paper where they can write down
+
+595
+00:20:05,746 --> 00:20:06,646
+where they can write down
+
+596
+00:20:07,000 --> 00:20:08,670
+their program basically and then after that
+
+597
+00:20:08,680 --> 00:20:10,270
+the teacher will just scan it and upload it
+
+598
+00:20:10,280 --> 00:20:12,750
+onto one computer and run it and that way
+
+599
+00:20:12,760 --> 00:20:14,230
+students will be able to see it come to life on
+
+600
+00:20:14,240 --> 00:20:15,790
+the digital screen but at the same time it's not 
+
+601
+00:20:15,800 --> 00:20:18,406
+the case that you need 40 computers for one 
+
+602
+00:20:18,406 --> 00:20:20,316
+classroom you actually only need one for
+
+603
+00:20:20,326 --> 00:20:21,603
+ the teacher and all of the students will
+
+604
+00:20:21,613 --> 00:20:22,920
+ write it down on paper so
+
+605
+00:20:23,280 --> 00:20:24,990
+you get that whole thing where you get to
+
+606
+00:20:25,000 --> 00:20:27,000
+see the code in action on your computer and get to 
+
+607
+00:20:27,320 --> 00:20:29,070
+think wow that's really cool and also go
+
+608
+00:20:29,080 --> 00:20:30,790
+through the debugging process but at the
+
+609
+00:20:30,800 --> 00:20:32,430
+same time it doesn't require that much
+
+610
+00:20:32,440 --> 00:20:34,110
+technical infrastructure making it more
+
+611
+00:20:34,120 --> 00:20:35,840
+accessible through public schools and rural
+
+612
+00:20:35,960 --> 00:20:36,740
+communities
+
+613
+00:20:37,520 --> 00:20:39,270
+hmm that's very interesting because that
+
+614
+00:20:39,280 --> 00:20:41,030
+actually solved the problem of having like
+
+615
+00:20:41,040 --> 00:20:43,240
+multiple laptops available in each
+
+616
+00:20:43,360 --> 00:20:45,980
+classroom so it kind of save cost
+
+617
+00:20:46,760 --> 00:20:49,510
+when I learned programming in school we had
+
+618
+00:20:49,520 --> 00:20:51,190
+programming class and we were learning
+
+619
+00:20:51,200 --> 00:20:53,710
+Pascal on whiteboards blackboards actually
+
+620
+00:20:53,720 --> 00:20:55,590
+back then but it was like you never knew
+
+621
+00:20:55,600 --> 00:20:57,550
+what was gonna happen if it was working or
+
+622
+00:20:57,560 --> 00:20:59,990
+not so you only relied on the teacher so
+
+623
+00:21:00,000 --> 00:21:01,550
+yeah and then I think that's cool with
+
+624
+00:21:01,560 --> 00:21:03,550
+Mona's project yes I think that's really something that I
+
+625
+00:21:03,560 --> 00:21:05,863
+ wanted to emphasize a lot with Mochii Ball
+
+626
+00:21:05,873 --> 00:21:07,270
+ because in traditional unplugged
+
+627
+00:21:07,280 --> 00:21:08,950
+ programming exercises where you write down
+
+628
+00:21:08,960 --> 00:21:10,310
+ stuff on paper usually you're not able to
+
+629
+00:21:10,320 --> 00:21:12,110
+see the output but then when I taught
+
+630
+00:21:12,120 --> 00:21:13,460
+ Mochii Ball at the
+
+631
+00:21:13,720 --> 00:21:15,390
+local public school I think the moment when
+
+632
+00:21:15,400 --> 00:21:16,710
+the magic happened for those kids was
+
+633
+00:21:16,710 --> 00:21:18,043
+really when
+
+634
+00:21:18,043 --> 00:21:19,490
+I uploaded the code onto the computer and 
+
+635
+00:21:19,500 --> 00:21:20,550
+they were able to watch it run and they
+
+636
+00:21:20,560 --> 00:21:22,740
+ were all like wow that's so cool and I 
+
+637
+00:21:22,840 --> 00:21:24,510
+think that's really one of the most
+
+638
+00:21:24,520 --> 00:21:26,190
+important moments in fair gaming when you
+
+639
+00:21:26,200 --> 00:21:27,830
+actually get something to work when you
+
+640
+00:21:27,840 --> 00:21:29,310
+actually see that Hello World printed for
+
+641
+00:21:29,320 --> 00:21:30,790
+the first time or you see something moving
+
+642
+00:21:30,800 --> 00:21:32,310
+on your screen for the first time and it's
+
+643
+00:21:32,320 --> 00:21:34,673
+like wow that's just so awesome you know
+
+644
+00:21:34,673 --> 00:21:37,180
+and it motivates people to like try it outyeah
+
+645
+00:21:37,520 --> 00:21:38,880
+yeah because I think
+
+646
+00:21:39,240 --> 00:21:42,766
+a lot of the developers spend a lot of time 
+
+647
+00:21:43,266 --> 00:21:44,500
+getting that to happen
+
+648
+00:21:46,633 --> 00:21:48,900
+the success has to happen
+
+649
+00:21:49,200 --> 00:21:51,140
+so that's called debugging
+
+650
+00:21:53,400 --> 00:21:56,390
+I hope that wouldn't demotivate a lot of
+
+651
+00:21:56,400 --> 00:21:59,190
+young people because it's just a daily part
+
+652
+00:21:59,200 --> 00:22:00,140
+of life
+
+653
+00:22:02,040 --> 00:22:03,670
+the debugging actually the debugging is
+
+654
+00:22:03,680 --> 00:22:05,350
+actually one of the fun parts because even
+
+655
+00:22:05,360 --> 00:22:06,710
+though it's super frustrating when you
+
+656
+00:22:06,720 --> 00:22:08,550
+can't get it to work it's always so relieving
+
+657
+00:22:08,560 --> 00:22:09,920
+when you finally see wow this area
+
+658
+00:22:10,160 --> 00:22:12,040
+was solved now it's a different error
+
+659
+00:22:12,120 --> 00:22:14,380
+that means I'm making progress and after
+
+660
+00:22:16,080 --> 00:22:18,030
+that one it's finally they finally actually
+
+661
+00:22:18,040 --> 00:22:20,100
+ worked it's just like oh my gosh I can sleep now
+
+662
+00:22:20,480 --> 00:22:23,750
+that's so so true I guess it happens to
+
+663
+00:22:23,760 --> 00:22:25,990
+every one of us it's like sometimes it
+
+664
+00:22:26,000 --> 00:22:29,190
+sounds just so easy and then sometimes it
+
+665
+00:22:29,200 --> 00:22:32,110
+just takes for hours and days you just
+
+666
+00:22:32,120 --> 00:22:34,190
+couldn't figure out what went wrong and then you just keep
+
+667
+00:22:34,200 --> 00:22:36,280
+tgoing back over and over and
+
+668
+00:22:36,560 --> 00:22:39,230
+over again the day you actually found out
+
+669
+00:22:39,240 --> 00:22:41,420
+what happened it was like wait what
+
+670
+00:22:45,800 --> 00:22:47,690
+why didn't I see that?
+
+671
+00:22:47,690 --> 00:22:50,340
+it's usually useful to sleep on it
+
+672
+00:22:50,960 --> 00:22:53,190
+yeah recently my friend was working on his
+
+673
+00:22:53,200 --> 00:22:54,720
+computer science project and
+
+674
+00:22:55,200 --> 00:22:57,230
+he was at it for like several hours only to
+
+675
+00:22:57,240 --> 00:22:58,590
+realize that the problem was that he used
+
+676
+00:22:58,600 --> 00:23:01,680
+two equal signs instead of one equal sign oh
+
+677
+00:23:04,000 --> 00:23:04,640
+right
+
+678
+00:23:05,240 --> 00:23:08,150
+sometimes two doesn't mean that it will be
+
+679
+00:23:08,160 --> 00:23:09,140
+extra sure
+
+680
+00:23:12,520 --> 00:23:14,350
+so I was just interested because you
+
+681
+00:23:14,360 --> 00:23:16,990
+mentioned about this project and I also
+
+682
+00:23:17,000 --> 00:23:19,150
+heard about your project TEDDY so you seem
+
+683
+00:23:19,160 --> 00:23:21,900
+to have a lot of projects going on oh yes absolutely
+
+684
+00:23:22,600 --> 00:23:24,590
+I would like to touch a little bit more, ask
+
+685
+00:23:24,600 --> 00:23:26,390
+a little bit more about project TEDDY but
+
+686
+00:23:26,400 --> 00:23:28,520
+before that can I ask how many projects are you
+
+687
+00:23:28,760 --> 00:23:31,320
+currently holding right now like well
+
+688
+00:23:31,880 --> 00:23:33,910
+I think I do a different I do a
+
+689
+00:23:33,920 --> 00:23:35,590
+different project every year because I like
+
+690
+00:23:35,600 --> 00:23:37,390
+joining tech competitions every year and
+
+691
+00:23:37,400 --> 00:23:38,790
+whenever there's a prompt and I have to
+
+692
+00:23:38,800 --> 00:23:40,430
+solve a problem for something it always
+
+693
+00:23:40,440 --> 00:23:42,230
+gets me thinking about how I can adjust it
+
+694
+00:23:42,240 --> 00:23:43,990
+and I end up having a new project every
+
+695
+00:23:44,000 --> 00:23:45,150
+year but I think the ones that are
+
+696
+00:23:45,160 --> 00:23:47,100
+like currently ongoing and that I'm currently
+
+697
+00:23:47,680 --> 00:23:49,310
+like well we actually made it past the prototype
+
+698
+00:23:49,320 --> 00:23:50,786
+stage in the recent years and I'm working 
+
+699
+00:23:50,786 --> 00:23:52,350
+to take it further are TEDDY the Text Based 
+
+700
+00:23:52,360 --> 00:23:54,516
+Early Stress Detector for Youth which
+
+701
+00:23:54,526 --> 00:23:56,516
+uses artificial intelligence to assess
+
+702
+00:23:56,726 --> 00:23:57,670
+ whether a student might have a mental
+
+703
+00:23:57,680 --> 00:23:59,686
+health concern and Mochii Ball the one I 
+
+704
+00:23:59,766 --> 00:24:01,216
+was just talking about a while ago that's
+
+705
+00:24:01,226 --> 00:24:03,253
+ aimed to help bridge the digital divide and
+
+706
+00:24:03,280 --> 00:24:05,350
+help public school students in learning how to code
+
+707
+00:24:05,360 --> 00:24:07,420
+I love this idea totally
+
+708
+00:24:07,960 --> 00:24:08,360
+yeah so now
+
+709
+00:24:08,720 --> 00:24:10,660
+so now tell us more about TEDDY
+
+710
+00:24:11,440 --> 00:24:14,110
+yes absolutely so TEDDY it's short for the
+
+711
+00:24:14,120 --> 00:24:15,550
+Text Based Early Distress Detector for
+
+712
+00:24:15,560 --> 00:24:17,590
+Youth and the way that it works is that you
+
+713
+00:24:17,600 --> 00:24:19,953
+upload an essay schools will upload an essay
+
+714
+00:24:20,080 --> 00:24:21,630
+ written by a student and then it's going to
+
+715
+00:24:21,640 --> 00:24:23,083
+ go through it line by line and use 
+
+716
+00:24:23,160 --> 00:24:24,836
+artificial intelligence to determine 
+
+717
+00:24:24,880 --> 00:24:27,280
+whether the student might be at risk for
+
+718
+00:24:27,480 --> 00:24:28,950
+ depression or self destructive thoughts and
+
+719
+00:24:28,960 --> 00:24:29,640
+that kind of thing so that school
+
+720
+00:24:29,960 --> 00:24:31,880
+counselors will be able to approach
+
+721
+00:24:32,000 --> 00:24:34,460
+students accordingly and so i guess
+
+722
+00:24:34,840 --> 00:24:36,390
+and yeah I guess the way that it works is
+
+723
+00:24:36,400 --> 00:24:38,750
+that it's able to help connect students who
+
+724
+00:24:38,760 --> 00:24:40,110
+are in need with counselors and help
+
+725
+00:24:40,120 --> 00:24:41,760
+counselors figure out which students they should
+
+726
+00:24:42,240 --> 00:24:44,270
+they should reach out to and that way
+
+727
+00:24:44,280 --> 00:24:45,100
+hopefully
+
+728
+00:24:45,520 --> 00:24:47,110
+prevent mental health concerns from
+
+729
+00:24:47,120 --> 00:24:48,060
+escalating
+
+730
+00:24:48,400 --> 00:24:50,670
+how did you come up with the idea
+
+731
+00:24:50,680 --> 00:24:52,430
+I know a couple of people in my community 
+
+732
+00:24:52,440 --> 00:24:54,510
+with mental health concerns who opened up
+
+733
+00:24:54,520 --> 00:24:56,550
+ to me about it and I guess that really 
+
+734
+00:24:56,560 --> 00:24:58,480
+inspired me to try and connect
+
+735
+00:24:58,480 --> 00:25:00,270
+them with the appropriate with the help
+
+736
+00:25:00,280 --> 00:25:01,060
+ that they need
+
+737
+00:25:01,360 --> 00:25:03,230
+in order to get through that I guess and I guess the
+
+738
+00:25:03,240 --> 00:25:05,510
+main problem with that is that
+
+739
+00:25:05,520 --> 00:25:06,990
+when people have mental health concerns
+
+740
+00:25:07,000 --> 00:25:08,910
+it's always it's always really challenging to try and
+
+741
+00:25:08,920 --> 00:25:10,893
+ reach out to the appropriate support and so
+
+742
+00:25:10,966 --> 00:25:13,050
+ with TEDDY I hope to make it so that it's
+
+743
+00:25:13,560 --> 00:25:14,890
+easier for counselors to figure out which
+
+744
+00:25:14,900 --> 00:25:16,516
+ students to reach out to and to
+
+745
+00:25:16,960 --> 00:25:18,296
+ help give them the support that they need
+
+746
+00:25:18,840 --> 00:25:21,603
+ but then students need to actively opt in 
+
+747
+00:25:21,613 --> 00:25:24,230
+for their data to be processed right to say
+
+748
+00:25:24,240 --> 00:25:26,860
+ like I want in case there's something that I need
+
+749
+00:25:26,860 --> 00:25:27,420
+yep absolutely
+
+750
+00:25:28,120 --> 00:25:30,110
+and that's why we've been trying to work
+
+751
+00:25:30,120 --> 00:25:31,100
+closely with schools
+
+752
+00:25:31,560 --> 00:25:33,470
+in order to work on those privacy concerns
+
+753
+00:25:33,480 --> 00:25:34,700
+and that sort of thing
+
+754
+00:25:35,320 --> 00:25:36,980
+when applying TEDDY 
+
+755
+00:25:37,213 --> 00:25:37,480
+right
+
+756
+00:25:38,146 --> 00:25:40,150
+I don't know much about the educational
+
+757
+00:25:40,160 --> 00:25:43,710
+system in the Philippines but do you have
+
+758
+00:25:43,720 --> 00:25:48,920
+like a counselor in every school or are they
+
+759
+00:25:49,680 --> 00:25:52,830
+set like you have to go by for appointment
+
+760
+00:25:52,840 --> 00:25:54,820
+or things like that for schools
+
+761
+00:25:55,160 --> 00:25:56,910
+yes we do have counselor for every school
+
+762
+00:25:56,920 --> 00:25:59,070
+and the problem really is that for one
+
+763
+00:25:59,080 --> 00:26:00,560
+counselor there are like hundreds of
+
+764
+00:26:00,600 --> 00:26:01,420
+students
+
+765
+00:26:01,880 --> 00:26:02,080
+who
+
+766
+00:26:02,720 --> 00:26:04,500
+they have to worry about and like
+
+767
+00:26:04,760 --> 00:26:06,670
+if they have to read the reflection papers
+
+768
+00:26:06,680 --> 00:26:07,540
+for example
+
+769
+00:26:08,160 --> 00:26:09,710
+by like several hundred students they're
+
+770
+00:26:09,720 --> 00:26:11,630
+probably going to miss a few who really
+
+771
+00:26:11,640 --> 00:26:12,200
+need help and
+
+772
+00:26:12,840 --> 00:26:13,980
+that's what TEDDY is for it's to
+
+773
+00:26:14,520 --> 00:26:16,360
+accelerate that process kind of using
+
+774
+00:26:16,440 --> 00:26:18,750
+artificial intelligence and basically show
+
+775
+00:26:18,760 --> 00:26:19,660
+which students
+
+776
+00:26:19,960 --> 00:26:21,670
+seem to be in most dire need of
+
+777
+00:26:21,680 --> 00:26:23,270
+ support of course that's still up to the counselor's
+
+778
+00:26:23,280 --> 00:26:24,870
+judgment in the end because human judgment
+
+779
+00:26:24,880 --> 00:26:26,300
+is of course really important
+
+780
+00:26:26,680 --> 00:26:28,710
+in these kinds of situations especially
+
+781
+00:26:28,720 --> 00:26:30,460
+when actually talking to the student that's
+
+782
+00:26:31,080 --> 00:26:32,660
+where the counselors really come in but
+
+783
+00:26:32,800 --> 00:26:35,460
+with TEDDY hopefully it will make it a lot easier
+
+784
+00:26:36,120 --> 00:26:37,636
+ to identify which students need help
+
+785
+00:26:38,280 --> 00:26:41,060
+ Have you actually tested this pilot yet or
+
+786
+00:26:41,200 --> 00:26:43,616
+Yep we have tested it at my school we
+
+787
+00:26:43,626 --> 00:26:45,209
+ surveyed a bunch of people and had them
+
+788
+00:26:45,209 --> 00:26:46,920
+ write some essays and then
+
+789
+00:26:47,840 --> 00:26:50,350
+after that what we did is that we ran them through
+
+790
+00:26:50,360 --> 00:26:51,843
+ TEDDY and then put the results there and
+
+791
+00:26:51,843 --> 00:26:53,470
+ then we also asked the counselors like
+
+
+795
+00:26:59,000 --> 00:27:00,920
+to verify whether TEEDY was accurate or not
+
+796
+00:27:01,120 --> 00:27:02,790
+and it was actually really accurate even
+
+797
+00:27:02,800 --> 00:27:04,590
+some essays that look like they were just
+
+798
+00:27:04,600 --> 00:27:06,070
+about regular innocent topics like
+
+799
+00:27:06,080 --> 00:27:07,740
+superheroes or that kind of thing
+
+800
+00:27:08,080 --> 00:27:09,310
+and it didn't look like there was any
+
+801
+00:27:09,320 --> 00:27:10,760
+concern at all TEDDY was able to catch a
+
+802
+00:27:10,880 --> 00:27:12,390
+concern and the counselor confirmed that
+
+
+805
+00:27:15,680 --> 00:27:16,930
+so it proves that it's actually a very
+
+806
+00:27:17,240 --> 00:27:18,283
+ accurate technology 
+
+807
+00:27:18,350 --> 00:27:20,416
+did you ever have the situation where a
+
+808
+00:27:20,426 --> 00:27:21,480
+ student is flagged
+
+809
+00:27:21,680 --> 00:27:22,480
+maybe having
+
+810
+00:27:22,840 --> 00:27:25,950
+some struggles but then the student denies
+
+811
+00:27:25,960 --> 00:27:28,590
+having the struggles like they do not want
+
+812
+00:27:28,600 --> 00:27:31,560
+to be labeled like that is that also
+
+813
+00:27:31,880 --> 00:27:32,876
+something happening
+
+814
+00:27:32,910 --> 00:27:35,410
+ I'm actually not sure we weren't able to
+
+815
+00:27:35,410 --> 00:27:37,230
+take TEDDY that far in my school yet and
+
+816
+00:27:37,240 --> 00:27:39,350
+that's why and that's why we've also been
+
+817
+00:27:39,360 --> 00:27:40,790
+looking for more schools that we can
+
+818
+00:27:40,800 --> 00:27:42,350
+partner with in our day to get TEDDY out
+
+819
+00:27:42,360 --> 00:27:44,310
+there and try out these kinds of situations
+
+820
+00:27:44,320 --> 00:27:46,190
+have you ever thought of like expanding
+
+821
+00:27:46,200 --> 00:27:48,590
+this project like worldwide to other
+
+822
+00:27:48,600 --> 00:27:49,810
+schools around the world ?
+
+823
+00:27:49,810 --> 00:27:51,410
+yes absolutely the team that worked on 
+
+824
+00:27:51,476 --> 00:27:53,323
+TEDDY or other students in my school a lot
+
+825
+00:27:53,333 --> 00:27:54,830
+ of them are actually the rest of them are
+
+826
+00:27:54,840 --> 00:27:57,050
+from the US and so they've also been trying
+
+827
+00:27:57,060 --> 00:27:59,636
+ it out in schools in the US and like
+
+828
+00:27:59,646 --> 00:28:01,160
+schools that they're aware of in the us and
+
+829
+00:28:01,400 --> 00:28:02,770
+we'll see where it takes us 
+
+830
+00:28:02,770 --> 00:28:04,430
+so what's the hurdles that you have to
+
+831
+00:28:06,400 --> 00:28:09,323
+jump for this project right now? 
+
+832
+00:28:09,533 --> 00:28:11,593
+the main thing is finding a school that's
+
+833
+00:28:11,593 --> 00:28:12,960
+ willing to work with us I guess
+
+834
+00:28:13,680 --> 00:28:14,830
+that's why it's actually good that I'm
+
+835
+00:28:14,840 --> 00:28:16,590
+able to bring up TEDDY during this podcast
+
+836
+00:28:16,600 --> 00:28:17,620
+because hopefully
+
+837
+00:28:18,000 --> 00:28:19,710
+if anyone is interested in reaching out and
+
+838
+00:28:19,720 --> 00:28:22,380
+then trying to pilot TEDDY in their school
+
+839
+00:28:23,000 --> 00:28:24,180
+or in our community or in our community
+
+840
+00:28:24,720 --> 00:28:26,950
+TEDDY is available at teddy-technovation.streamlit.app
+
+841
+00:28:26,960 --> 00:28:28,750
+ teddy-technovation.streamlit.app and so if you want to 
+
+842
+00:28:28,760 --> 00:28:30,430
+go check it out and then leave us a message
+
+843
+00:28:30,440 --> 00:28:31,990
+if you would be interested in piloting it
+
+844
+00:28:32,000 --> 00:28:32,900
+and exploring it further
+
+845
+00:28:32,933 --> 00:28:35,200
+ is there a specific age group like for 
+
+846
+00:28:35,800 --> 00:28:36,880
+TEDDY or any
+
+847
+00:28:37,206 --> 00:28:38,780
+any schools like
+
+848
+00:28:39,200 --> 00:28:40,140
+universities 
+
+849
+00:28:40,573 --> 00:28:43,540
+high schools primary schools everything is 
+
+850
+00:28:43,646 --> 00:28:44,600
+applicable ?
+
+851
+00:28:44,600 --> 00:28:45,733
+theoretically
+
+852
+00:28:45,733 --> 00:28:47,510
+we're hoping to expand it to everyone not
+
+853
+00:28:47,520 --> 00:28:49,510
+just schools but also workplaces as well
+
+854
+00:28:49,520 --> 00:28:51,470
+but right now we're mostly focusing on high
+
+855
+00:28:51,480 --> 00:28:52,240
+school students because actually though
+
+856
+00:28:52,760 --> 00:28:54,250
+that's kind of data that we collected and we're
+
+857
+00:28:54,316 --> 00:28:55,116
+working with
+
+858
+00:28:55,126 --> 00:28:56,663
+maybe it would work out also for the 
+
+859
+00:28:56,706 --> 00:28:58,140
+PyLadies community
+
+860
+00:28:59,040 --> 00:28:59,520
+maybehmm
+
+861
+00:29:00,320 --> 00:29:01,300
+yeah
+
+862
+00:29:01,560 --> 00:29:03,910
+it could be like it could run as a PyLadies
+
+863
+00:29:03,920 --> 00:29:05,710
+workshop and then everybody writes a short
+
+864
+00:29:05,720 --> 00:29:07,900
+essay and then sees it in action
+
+865
+00:29:08,800 --> 00:29:09,860
+okay this is
+
+866
+00:29:11,360 --> 00:29:12,580
+and then you're like
+
+867
+00:29:13,000 --> 00:29:14,470
+I don't know what the labels that are
+
+868
+00:29:14,480 --> 00:29:15,420
+coming out of
+
+869
+00:29:16,760 --> 00:29:18,060
+surprise
+
+870
+00:29:19,600 --> 00:29:21,220
+99 percent
+
+871
+00:29:23,120 --> 00:29:24,340
+everybody's depressed
+
+872
+00:29:27,000 --> 00:29:28,990
+everybody's struggling everybody's getting
+
+873
+00:29:29,000 --> 00:29:29,700
+a burn off yeah
+
+874
+00:29:30,200 --> 00:29:32,260
+tech world so I think
+
+875
+00:29:32,680 --> 00:29:34,870
+yeah interesting for grown ups it's 
+
+876
+00:29:34,880 --> 00:29:36,320
+quite
+
+877
+00:29:37,320 --> 00:29:38,660
+different data set yeah
+
+878
+00:29:39,400 --> 00:29:42,080
+I think that there is actually a big issue
+
+879
+00:29:42,120 --> 00:29:44,830
+related to mental health especially for the
+
+880
+00:29:44,840 --> 00:29:45,680
+tech industry
+
+881
+00:29:46,000 --> 00:29:46,820
+workers
+
+882
+00:29:47,120 --> 00:29:47,840
+which is
+
+883
+00:29:48,200 --> 00:29:51,233
+developers and programmers included so it's
+
+884
+00:29:51,266 --> 00:29:53,316
+ something that unlike health
+
+885
+00:29:53,593 --> 00:29:56,360
+ like physical health problems it's really hard to
+
+886
+00:29:57,080 --> 00:29:59,150
+identify yeah that's absolutely true with
+
+887
+00:29:59,160 --> 00:30:00,600
+physical health problems if you were
+
+888
+00:30:00,640 --> 00:30:02,030
+stabbed at something and you're bleeding
+
+889
+00:30:02,040 --> 00:30:03,910
+everyone will be able to see it but then
+
+890
+00:30:03,920 --> 00:30:05,486
+with mental health problems even if you're
+
+891
+00:30:05,553 --> 00:30:07,586
+you know even if it's if it's really reach to the 
+
+892
+00:30:07,613 --> 00:30:09,530
+ crucial point already it's really it's really 
+
+893
+00:30:09,540 --> 00:30:11,300
+tough for other people to identify
+
+894
+00:30:11,760 --> 00:30:13,996
+I'm loving TEDDY so we should have this tagThank you
+
+895
+00:30:14,073 --> 00:30:16,020
+ line called I'm loving TEDDY
+
+896
+00:30:17,520 --> 00:30:18,880
+but I don't think it's just the tech
+
+897
+00:30:19,040 --> 00:30:20,940
+community I think it's everywhere
+
+898
+00:30:21,280 --> 00:30:25,680
+there's a lot of domains are facing changes
+
+899
+00:30:25,920 --> 00:30:28,480
+way faster than before and people are
+
+900
+00:30:28,800 --> 00:30:29,540
+getting you
+
+901
+00:30:30,080 --> 00:30:32,510
+know they feel unstable about their job 
+
+902
+00:30:32,520 --> 00:30:34,910
+insecure about their job situation and that 
+
+903
+00:30:34,920 --> 00:30:36,060
+affects them and everythingyeah yeah
+
+904
+00:30:36,480 --> 00:30:38,550
+I guess in our generation right
+
+905
+00:30:38,560 --> 00:30:41,340
+now it seems to be better than like 20
+
+906
+00:30:41,480 --> 00:30:43,830
+ years ago because it's almost unheard of 
+
+907
+00:30:43,840 --> 00:30:46,750
+mental health it's like no yeah it didn't exist 20 years ago right no
+
+908
+00:30:46,750 --> 00:30:47,183
+no no
+
+909
+00:30:47,260 --> 00:30:48,460
+everybody was healthy
+
+910
+00:30:48,800 --> 00:30:51,310
+yeah everyone's healthy and like say what's
+
+911
+00:30:51,320 --> 00:30:55,630
+wrong you just have to bite and 
+
+912
+00:30:55,640 --> 00:30:56,900
+get through this problem that's all 
+
+913
+00:30:57,600 --> 00:30:58,400
+man up
+
+914
+00:30:59,600 --> 00:31:01,260
+man up or like
+
+915
+00:31:01,560 --> 00:31:02,360
+get over it
+
+916
+00:31:03,080 --> 00:31:03,960
+yeah get over it like 
+
+917
+00:31:04,240 --> 00:31:06,630
+get yourself together don't be so sensitive
+
+918
+00:31:06,640 --> 00:31:07,040
+Georgi
+
+919
+00:31:07,440 --> 00:31:08,100
+yeah
+
+920
+00:31:10,440 --> 00:31:12,510
+another thing that I wanted to ask before
+
+921
+00:31:12,520 --> 00:31:14,440
+that was that your learning
+
+922
+00:31:14,973 --> 00:31:15,940
+journey
+
+923
+00:31:15,946 --> 00:31:18,470
+because you did mention before that
+
+924
+00:31:18,480 --> 00:31:23,030
+your mother is also a software engineer so 
+
+925
+00:31:23,040 --> 00:31:25,820
+does that actually help you or does she 
+
+926
+00:31:25,920 --> 00:31:27,740
+actually like specifically gave you
+
+927
+00:31:28,080 --> 00:31:32,140
+games that's related to coding or you just self
+
+928
+00:31:32,400 --> 00:31:35,830
+picked it up and like get more interested
+
+929
+00:31:35,840 --> 00:31:37,120
+in programming you know what I mean 
+
+930
+00:31:37,120 --> 00:31:38,666
+oh yeah well she helped me out a lot really
+
+931
+00:31:38,673 --> 00:31:40,696
+she was the one who decided to teach me
+
+932
+00:31:40,806 --> 00:31:42,103
+ coding when I was really young and she
+
+933
+00:31:42,103 --> 00:31:43,920
+ found this app and then she gave it to me 
+
+934
+00:31:44,400 --> 00:31:45,870
+and she also supported me all throughout my
+
+935
+00:31:45,880 --> 00:31:47,430
+journey when i expressed interest in it she
+
+936
+00:31:47,440 --> 00:31:48,950
+gave me books and that kind of thing she
+
+937
+00:31:48,960 --> 00:31:50,500
+connected me with opportunities
+
+938
+00:31:50,800 --> 00:31:52,110
+like hey there's this competition here that
+
+939
+00:31:52,120 --> 00:31:53,630
+you might want to try or this summer camp
+
+940
+00:31:53,640 --> 00:31:55,430
+that you might want to apply to and so all that 
+
+941
+00:31:55,506 --> 00:31:56,950
+aside she's also really been my inspiration
+
+942
+00:31:56,960 --> 00:31:59,300
+all throughout i guess and
+
+943
+00:31:59,680 --> 00:32:01,860
+she's really my real model in life honestly
+
+944
+00:32:02,160 --> 00:32:03,670
+she also took me a few programming
+
+945
+00:32:03,680 --> 00:32:04,540
+fundamentals
+
+946
+00:32:04,880 --> 00:32:07,486
+and also and other STEM stuff when I
+
+947
+00:32:07,513 --> 00:32:09,040
+was growing up I remember
+
+948
+00:32:09,560 --> 00:32:11,150
+yeah i remember we would usually sit down
+
+949
+00:32:11,160 --> 00:32:12,630
+and then she would teach me some things I
+
+950
+00:32:12,640 --> 00:32:14,110
+remember she was showing me when I was
+
+951
+00:32:14,120 --> 00:32:15,600
+really young how recursion worked and
+
+952
+00:32:15,680 --> 00:32:17,190
+writing down on a piece of paper so I
+
+953
+00:32:17,200 --> 00:32:20,020
+could follow along and so yeah she was really
+
+954
+00:32:20,400 --> 00:32:22,060
+because of that I really had the support
+
+955
+00:32:22,400 --> 00:32:23,870
+to learn more about programming and
+
+956
+00:32:23,880 --> 00:32:25,630
+technology and that's really what inspired
+
+957
+00:32:25,640 --> 00:32:27,430
+me to try and give that same kind of
+
+958
+00:32:27,440 --> 00:32:29,150
+support to other kids who don't necessarily
+
+959
+00:32:29,160 --> 00:32:30,613
+have that kind of background 
+
+960
+00:32:30,620 --> 00:32:32,790
+does she encourage you to do other things like other
+
+961
+00:32:32,800 --> 00:32:33,920
+hobbies or
+
+962
+00:32:34,600 --> 00:32:38,030
+like let you go let loose and just like try
+
+963
+00:32:38,040 --> 00:32:38,660
+everything Mona
+
+964
+00:32:40,480 --> 00:32:42,430
+yeah she does encourage me well she
+
+965
+00:32:42,440 --> 00:32:45,236
+encourages me not to stress so much about school and 
+
+966
+00:32:45,246 --> 00:32:46,576
+extracurriculars and that kind of thing and
+
+967
+00:32:46,586 --> 00:32:48,300
+ to play video games, reading books and do 
+
+968
+00:32:48,960 --> 00:32:50,460
+other and you know
+
+969
+00:32:50,840 --> 00:32:52,510
+just also have fun with my life and that
+
+970
+00:32:52,520 --> 00:32:54,030
+kind of thing programming is definitely
+
+971
+00:32:54,040 --> 00:32:56,310
+very fun but she also encourages me to let
+
+972
+00:32:56,320 --> 00:32:57,700
+loose and de-stress a lot
+
+973
+00:32:59,000 --> 00:33:00,680
+do you have any hobbies other than
+
+974
+00:33:01,320 --> 00:33:02,220
+well
+
+975
+00:33:03,480 --> 00:33:05,740
+than programming and learning
+
+976
+00:33:06,200 --> 00:33:07,260
+in school
+
+977
+00:33:07,720 --> 00:33:10,190
+which I guess for some people is not a
+
+978
+00:33:10,200 --> 00:33:11,700
+hobby but anyways
+
+979
+00:33:14,560 --> 00:33:16,070
+well let's see my hobbies I like reading
+
+980
+00:33:16,080 --> 00:33:18,350
+fantasy books lately I've been getting into
+
+981
+00:33:18,360 --> 00:33:20,230
+Brandon Sanderson's work and the Cosmere
+
+982
+00:33:20,240 --> 00:33:21,620
+Universe and the Stormlight Archive
+
+983
+00:33:22,040 --> 00:33:23,980
+I've been a really big fan of this lately
+
+984
+00:33:24,240 --> 00:33:26,326
+I've also been into I'm also watching 
+
+985
+00:33:26,460 --> 00:33:27,860
+Anime, reading manga
+
+986
+00:33:28,326 --> 00:33:30,790
+and also listening to rock music and baking
+
+987
+00:33:30,800 --> 00:33:32,620
+chocolate chip cookies for my family
+
+988
+00:33:33,160 --> 00:33:34,620
+so maybe on our
+
+989
+00:33:34,880 --> 00:33:36,080
+podcast we can
+
+990
+00:33:36,360 --> 00:33:38,310
+share also for the first time a recipe do
+
+991
+00:33:38,320 --> 00:33:40,150
+you have a special recipe for the chocolate
+
+992
+00:33:40,160 --> 00:33:41,366
+chip cookies? is it like a recipe?
+
+993
+00:33:41,366 --> 00:33:42,333
+oh yes I do have a recipe
+
+994
+00:33:42,340 --> 00:33:44,183
+oh my god okay cool 
+
+995
+00:33:44,183 --> 00:33:45,420
+I don't know how to describe it
+
+996
+00:33:46,000 --> 00:33:47,190
+I don't know how to describe it on 
+
+997
+00:33:47,200 --> 00:33:47,920
+audio though I think it's just in a book
+
+998
+00:33:48,320 --> 00:33:49,496
+no no you you will send it to us you will
+
+999
+00:33:49,496 --> 00:33:52,846
+send it to us we just put it on the web oh yes I will send it to you guyssend it to us and we post it on our website
+
+1000
+00:33:53,080 --> 00:33:55,056
+posted yes exactly it's going to be the
+
+1001
+00:33:55,066 --> 00:33:57,360
+Mona Obedoza Chocolate Chip cookies
+
+1002
+00:33:57,360 --> 00:33:57,660
+wow
+
+1003
+00:33:58,526 --> 00:33:59,193
+all right
+
+1004
+00:33:59,960 --> 00:34:02,950
+I truly believe that women should 
+
+1005
+00:34:02,960 --> 00:34:05,340
+name things more often after themselves
+
+1006
+00:34:05,680 --> 00:34:06,780
+absolutelyyou know 
+
+1007
+00:34:07,240 --> 00:34:09,790
+exactly so there we go but I'm just saying
+
+1008
+00:34:09,800 --> 00:34:12,020
+more women should do it absolutely
+
+1009
+00:34:12,360 --> 00:34:15,000
+so Georgi I know Georgi should also
+
+1010
+00:34:15,440 --> 00:34:18,556
+use like for for example on tweet on
+
+1011
+00:34:18,656 --> 00:34:20,290
+ Twitter I think Georgi is really famous
+
+1012
+00:34:20,366 --> 00:34:23,923
+for espresso with orange juice and that'soh wow
+
+1013
+00:34:24,500 --> 00:34:26,710
+yes if you go on her twitter you will see 
+
+1014
+00:34:26,720 --> 00:34:28,790
+that she's having she's posting different
+
+1015
+00:34:28,800 --> 00:34:31,110
+pictures of that almost dailyI just posted one today 
+
+1016
+00:34:31,120 --> 00:34:32,860
+exactly so I
+
+1017
+00:34:33,200 --> 00:34:34,603
+I tried to imagine what espresso 
+
+1018
+00:34:34,613 --> 00:34:36,540
+with orange juice tastes like
+
+1019
+00:34:36,920 --> 00:34:39,429
+there you go there you go 
+
+1020
+00:34:39,439 --> 00:34:42,439
+well it's actually really easy, very easy so
+
+1021
+00:34:43,039 --> 00:34:45,669
+you need fresh orange juice so you have a
+
+1022
+00:34:45,679 --> 00:34:47,869
+glass of fresh orange juice and then you
+
+1023
+00:34:47,879 --> 00:34:51,119
+just order a double espresso and you just
+
+1024
+00:34:51,479 --> 00:34:54,349
+pour on top over it slowly and then you'll
+
+1025
+00:34:54,359 --> 00:34:57,710
+get this double layer like the top layer of
+
+1026
+00:34:57,720 --> 00:35:00,480
+the espresso and the bottom layer orange juice
+
+1027
+00:35:00,880 --> 00:35:03,030
+so when you use a straw to drink you
+
+1028
+00:35:03,040 --> 00:35:05,710
+actually pops down it has a combo of
+
+1029
+00:35:05,720 --> 00:35:09,390
+espresso and orange juice it's the best for
+
+1030
+00:35:09,400 --> 00:35:11,190
+the morning because you don't want to be
+
+1031
+00:35:11,200 --> 00:35:13,950
+awake and you want to be alive so that's
+
+1032
+00:35:13,960 --> 00:35:16,980
+that's my secret and I'm
+
+1033
+00:35:16,980 --> 00:35:18,413
+and I heard that in orderyes but I'm not allowed to drink
+
+1034
+00:35:18,546 --> 00:35:20,260
+you're not allowed to drink coffee yet?
+
+1035
+00:35:20,573 --> 00:35:22,110
+yes i'm not allowed to drink coffee yet unfortunately
+
+1036
+00:35:22,120 --> 00:35:23,910
+ if i were i would try this instantly
+
+1037
+00:35:24,546 --> 00:35:27,040
+but you can have decaf
+
+1038
+00:35:27,573 --> 00:35:27,973
+espresso
+
+1039
+00:35:27,973 --> 00:35:30,563
+oh yes okay I will try decaf espresso
+
+1040
+00:35:30,573 --> 00:35:32,403
+ orange juice so it's the next thing on my 
+
+1041
+00:35:32,413 --> 00:35:33,580
+on my drink agenda
+
+1042
+00:35:34,480 --> 00:35:36,990
+and I think that the secret to having this
+
+1043
+00:35:37,000 --> 00:35:38,990
+layered effect because it's not really
+
+1044
+00:35:39,000 --> 00:35:41,390
+putting slowly might still not cut it
+
+1045
+00:35:41,400 --> 00:35:43,110
+because it's also temperature wise they
+
+1046
+00:35:43,120 --> 00:35:43,600
+have to be
+
+1047
+00:35:43,920 --> 00:35:46,940
+is to pour with a spoon like you have a
+
+1048
+00:35:47,320 --> 00:35:49,110
+teaspoon and then you pour it in the spoon
+
+1049
+00:35:49,120 --> 00:35:52,520
+and that breaks down the gravity and stuff so
+
+1050
+00:35:53,160 --> 00:35:53,940
+there goes
+
+1051
+00:35:54,760 --> 00:35:57,400
+I usually prefer those
+
+1052
+00:35:57,640 --> 00:36:01,070
+orange juice that has like fresh freshly
+
+1053
+00:36:01,080 --> 00:36:03,140
+squeezed so you have the sap
+
+1054
+00:36:03,360 --> 00:36:05,950
+so with the sap that's weight so when you
+
+1055
+00:36:05,960 --> 00:36:08,640
+pour over it will just lays down 
+
+1056
+00:36:08,640 --> 00:36:09,246
+easy yeah  there you go
+
+1057
+00:36:09,246 --> 00:36:10,413
+there you go
+
+1058
+00:36:11,380 --> 00:36:13,350
+so Mona what are some of your goals in the
+
+1059
+00:36:13,360 --> 00:36:15,150
+future it feels like you have a lot of
+
+1060
+00:36:15,160 --> 00:36:17,590
+intention in your life compared to at least
+
+1061
+00:36:17,600 --> 00:36:19,460
+if I remember when I was your age
+
+1062
+00:36:19,960 --> 00:36:22,030
+I don't remember what I wanted back then
+
+1063
+00:36:22,040 --> 00:36:25,680
+but it feels like you really know what you want so
+
+1064
+00:36:26,160 --> 00:36:28,616
+where are you going next what are you gonna do
+
+1065
+00:36:28,626 --> 00:36:30,230
+well right now I'm in 10th grade in a
+
+1066
+00:36:30,240 --> 00:36:31,640
+couple of years I hope to go
+
+1067
+00:36:32,040 --> 00:36:34,350
+to university abroad I'm aiming for like to
+
+1068
+00:36:34,360 --> 00:36:36,260
+get into like Stanford or MIT or that kind
+
+1069
+00:36:38,320 --> 00:36:39,710
+a school abroad and learn more about
+
+1070
+00:36:39,720 --> 00:36:41,710
+programming and technology so that I can go
+
+1071
+00:36:41,720 --> 00:36:43,270
+back here and then teach more kids how to code
+
+1072
+00:36:44,780 --> 00:36:46,360
+and all the things and share all things that I've learned I guess
+
+1073
+00:36:46,680 --> 00:36:47,980
+and I guess
+
+1074
+00:36:48,280 --> 00:36:51,246
+another another goal of mine is to pilot Mochii Ball
+
+1075
+00:36:51,246 --> 00:36:53,183
+in more schools so I'm currently
+
+1076
+00:36:53,393 --> 00:36:54,950
+ I'm currently working with a tech company to
+
+1077
+00:36:54,960 --> 00:36:56,543
+ pilot it with some schools locally but
+
+1078
+00:36:56,543 --> 00:36:58,140
+ we're just getting started and I hope
+
+1079
+00:36:58,560 --> 00:37:00,380
+and I also have to mention it here and
+
+1080
+00:37:00,760 --> 00:37:02,470
+if anyone wants to try it out in 
+
+1081
+00:37:02,480 --> 00:37:03,723
+your own school or community you can also
+
+1082
+00:37:03,733 --> 00:37:05,950
+ reach out to me because we're really trying to 
+
+1083
+00:37:05,960 --> 00:37:08,110
+spread Mochii Ball and pilot it this
+
+1084
+00:37:08,120 --> 00:37:09,990
+year so that's another more immediate goal
+
+1085
+00:37:10,000 --> 00:37:12,110
+of mine to get this Mochii Ball to get
+
+1086
+00:37:12,120 --> 00:37:13,790
+programming technology integrated in the
+
+1087
+00:37:13,800 --> 00:37:15,750
+basic education curriculum by making it
+
+1088
+00:37:15,760 --> 00:37:17,780
+more accessible to kids and also more fun
+
+1089
+00:37:18,080 --> 00:37:22,190
+hmm right so our podcast is listened to by
+
+1090
+00:37:22,200 --> 00:37:23,920
+a huge Python community
+
+1091
+00:37:24,200 --> 00:37:26,320
+so if you other than this
+
+1092
+00:37:26,720 --> 00:37:27,420
+project
+
+1093
+00:37:27,800 --> 00:37:30,030
+that you mentioned if you have any other
+
+1094
+00:37:30,040 --> 00:37:32,030
+help that you need I'm pretty sure they
+
+1095
+00:37:32,040 --> 00:37:35,260
+will help out just tell us, tell us
+
+1096
+00:37:38,040 --> 00:37:39,060
+what you needwow thank you so much
+
+1097
+00:37:40,240 --> 00:37:42,230
+thank you and I guess there is just one
+
+1098
+00:37:42,240 --> 00:37:44,470
+more thing aside from Mochii Ball and TEDDY 
+
+1099
+00:37:44,480 --> 00:37:46,430
+as I mentioned I partnered with Accenture to
+
+1100
+00:37:46,440 --> 00:37:48,190
+hold the Breaking Barriers Building 
+
+1101
+00:37:48,200 --> 00:37:49,990
+Bridges Hackathon for girls and teach more 
+
+1102
+00:37:50,000 --> 00:37:51,870
+girls how to code and how to work on their 
+
+1103
+00:37:51,880 --> 00:37:53,310
+own projects to use technology to solve
+
+1104
+00:37:53,320 --> 00:37:54,100
+problems
+
+1105
+00:37:54,840 --> 00:37:57,030
+and if anyone knows a school in the
+
+1106
+00:37:57,040 --> 00:37:58,710
+Philippines or even abroad we can try to
+
+1107
+00:37:58,720 --> 00:38:00,510
+extend abroad too that would be really fun
+
+1108
+00:38:00,520 --> 00:38:01,990
+if anyone knows a school who might be
+
+1109
+00:38:02,000 --> 00:38:03,510
+interested in sending a team to join this
+
+1110
+00:38:03,520 --> 00:38:05,940
+hackathon then do let me know as well
+
+1111
+00:38:06,200 --> 00:38:07,046
+and yeah that would be
+
+1112
+00:38:07,880 --> 00:38:08,833
+that would be really awesome 
+
+1113
+00:38:08,966 --> 00:38:10,933
+when is the hackathon?
+
+1114
+00:38:10,933 --> 00:38:13,750
+it's held every February to march every year
+
+1115
+00:38:13,750 --> 00:38:14,383
+okay
+
+1116
+00:38:14,400 --> 00:38:15,923
+so it's for next year now
+
+1117
+00:38:15,923 --> 00:38:17,323
+yep it'll be for next year
+
+1118
+00:38:17,333 --> 00:38:20,236
+so there's plenty of time for people to plan
+
+1119
+00:38:20,380 --> 00:38:24,160
+ yes absolutely maybe you can even be guest speakers at the next
+
+1120
+00:38:24,200 --> 00:38:25,750
+hackathon I think you guys would be really
+
+1121
+00:38:25,760 --> 00:38:26,660
+inspirational
+
+1122
+00:38:27,520 --> 00:38:31,140
+we can even get all the PyPodcats hosts
+
+1123
+00:38:32,960 --> 00:38:34,520
+all four the combo
+
+1124
+00:38:35,120 --> 00:38:36,340
+mega combo
+
+1125
+00:38:36,600 --> 00:38:38,340
+yes that would be fun
+
+1126
+00:38:38,800 --> 00:38:42,320
+thank you so much Mona I see that we
+
+1127
+00:38:42,600 --> 00:38:44,740
+we come to the end of this
+
+1128
+00:38:45,000 --> 00:38:46,500
+podcast here in
+
+1129
+00:38:46,800 --> 00:38:47,040
+podcat's
+
+1130
+00:38:47,360 --> 00:38:48,380
+podcast
+
+1131
+00:38:48,640 --> 00:38:49,240
+so
+
+1132
+00:38:50,000 --> 00:38:52,470
+is there anything else that you would like
+
+1133
+00:38:52,480 --> 00:38:56,390
+to address to our listeners here before we
+
+1134
+00:38:56,400 --> 00:38:58,190
+end this podcast
+
+1135
+00:38:58,533 --> 00:39:00,430
+There's something I can think of right now so all I
+
+1136
+00:39:00,440 --> 00:39:02,920
+guess I just wanted to say is thank you so much
+
+1137
+00:39:03,240 --> 00:39:04,550
+ it's really been such an honor to be here 
+
+1138
+00:39:04,560 --> 00:39:06,430
+and it's been super fun talking to you guys 
+
+1139
+00:39:06,440 --> 00:39:07,380
+and so thank
+
+1140
+00:39:07,600 --> 00:39:08,720
+you for the invitation
+
+1141
+00:39:08,720 --> 00:39:10,170
+yeah thank you for joining us
+
+1142
+00:39:10,803 --> 00:39:13,170
+yeah thank you for joining us and we hopethank you
+
+1143
+00:39:13,180 --> 00:39:15,416
+ to see you soon somewhere around the 
+
+1144
+00:39:15,426 --> 00:39:16,600
+community I'm sure
+
+1145
+00:39:17,193 --> 00:39:18,620
+it will be real soon
+
+1146
+00:39:19,760 --> 00:39:21,140
+yepyes absolutely
+
+1147
+00:39:21,360 --> 00:39:24,470
+thank you everybody for listening and see
+
+1148
+00:39:24,480 --> 00:39:26,700
+you next time bye
+
+1149
+00:39:26,960 --> 00:39:29,330
+bye everyone thank you so much
+
