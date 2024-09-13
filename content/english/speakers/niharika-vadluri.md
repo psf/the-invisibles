@@ -13,7 +13,7 @@ social:
     link: https://x.com/NiharikaVadluri
     
   - name: linkedin
-    icon: fa-solid fa-linkedin
+    icon: fa-brands fa-linkedin
     link: https://www.linkedin.com/in/niharika-vadluri-71a9a2164/
 ---
 
