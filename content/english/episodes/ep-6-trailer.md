@@ -5,7 +5,7 @@ description: "A preview of our chat with Niharika Vadluri. Watch the full episod
 date: 2024-09-13T00:00:00-08:00
 host: ["Cheuk", "Mariatta"]
 draft: false
-tags: ["python", "india", "raspberry pi", "open source"]
+tags: ["python", "India", "hardware", "raspberry pi", "women in open source", "community"]
 publish_date: 2024-09-13T00:00:00-08:00
 podcast_file: "/audio/hidden-figures-ep6-trailer.mp3"
 podcast_duration: 102.138776
