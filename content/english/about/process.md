@@ -23,11 +23,12 @@ Notes:
 - If you are a PyPodcats team member and having trouble accessing the links, please reach out on Slack.
 
 As a PyPodcats team member, you should have access to the following:
+- Our [GitHub repository](https://github.com/psf/the-invisibles)
 - [PyPodcats Google Drive](https://drive.google.com/drive/folders/1LoSeAn2iJaVUuYF2ac7_kHKyEKCORfeh) 🔐 
 - [PyPodcats Episodes on Google Drive](https://drive.google.com/drive/folders/1Lqnu_7Og5khMTa_k-QD3tlWF2MFypaAX) 🔐 
 - PyPodcats Speaker Info Form on the [PyPodcats Google Drive](https://drive.google.com/drive/folders/1LoSeAn2iJaVUuYF2ac7_kHKyEKCORfeh) 🔐 
 - [Veed.io](https://veed.io)
-- [Streamyard](https://streamyard.com)
+- [StreamYard](https://streamyard.com)
 - [Buffer](https://buffer.com)
 - [Calendly](https://calendly.com)
 
@@ -58,7 +59,7 @@ Tools that are needed for the **"Publishing"** step:
 
 #### 3. Editing
 
-- Download raw videos from Streamyard: the composite video, and individual local recordings
+- Download raw videos from StreamYard: the composite video, and individual local recordings
 - Create new folder on Google Drive under the **PyPodcats** > **[Episodes](https://drive.google.com/drive/folders/1Lqnu_7Og5khMTa_k-QD3tlWF2MFypaAX)** 🔐  folder
   - Example folder name: **"Ep 6 - Niharika Vadluri"**
   - Example folder path: **PyPodcats > Episodes > Ep 6 - Niharika Vadluri**
