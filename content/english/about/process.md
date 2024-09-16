@@ -22,13 +22,14 @@ Notes:
 - Links with the lock icon 🔐 are private and can only be accessed by PyPodcats team members.
 - If you are a PyPodcats team member and having trouble accessing the links, please reach out on Slack.
 
-As PyPodcats team member, you should have access to the following:
+As a PyPodcats team member, you should have access to the following:
 - [PyPodcats Google Drive](https://drive.google.com/drive/folders/1LoSeAn2iJaVUuYF2ac7_kHKyEKCORfeh) 🔐 
 - [PyPodcats Episodes on Google Drive](https://drive.google.com/drive/folders/1Lqnu_7Og5khMTa_k-QD3tlWF2MFypaAX) 🔐 
 - [PyPodcats Speaker Info Form](https://docs.google.com/forms/d/e/1FAIpQLSeLuOx6dDc2D38q7gYyFiOlRft9sumium1nFbIwwIE4JQYNrw/viewform?usp=sf_link )
 - [Veed.io](https://veed.io)
 - [Streamyard](https://streamyard.com)
 - [Buffer](https://buffer.com)
+- [Calendly](https://calendly.com)
 
 Credentials for the above are found on Notion.
 
@@ -162,6 +163,13 @@ Tools that are needed for the **"Publishing"** step:
 - Promote on social media
   - Draft the announcement on buffer. Credentials in Notion.
 
+#### Publishing to Spotify/Apple Podcast etc
+
+This happens automatically, so there is nothing else to do.
+They are configured to pick up changes from our RSS Feed (pypodcats.live/episodes/index.xml).
+
+As long as our rss feed is valid, any new episodes will appear. That is why we need to always validate the RSS feed
+before merging.
 
 #### More technical details on the Episode Write up
 
@@ -236,7 +244,7 @@ Copy the values printed to the **podcast_byes** and **podcast_duration** in the 
 
 1. Extracting audio from video
 
-   Use this to generate mp3 audio file from a video
+Use this to generate mp3 audio file from a video
 
 ```
 ffmpeg -i filename.mp4 filename.mp3
