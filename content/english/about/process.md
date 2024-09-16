@@ -6,7 +6,7 @@ image: "/images/podcats.png"
 draft: false
 ---
 
-Below is the documentation on how our team produce one PyPodcats episode.
+Below is the documentation on how our team produce each PyPodcats episode.
 
 There are various stages involved to produce a PyPodcats episode:
 1. Speaker invitation
