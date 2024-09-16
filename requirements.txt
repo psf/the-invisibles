@@ -1,0 +1,2 @@
+ffmpeg==1.4
+ffprobe-python==1.0.3

@@ -18,21 +18,27 @@ weight = 1
 
 [[main]]
 parent = "About"
+name = "Our Process"
+url = "about/process"
+weight =2
+
+[[main]]
+parent = "About"
 name = "Financial Info"
 url = "about/financials"
-weight =2
+weight =3
 
 [[main]]
 parent = "About"
 name = "Code of Conduct"
 url = "about/conduct"
-weight = 3
+weight = 4
 
 [[main]]
 parent = "About"
 name = "Python Software Foundation"
 url = "about/psf"
-weight = 3
+weight = 5
 
 
 [[main]]
