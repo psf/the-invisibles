@@ -25,7 +25,7 @@ Notes:
 As a PyPodcats team member, you should have access to the following:
 - [PyPodcats Google Drive](https://drive.google.com/drive/folders/1LoSeAn2iJaVUuYF2ac7_kHKyEKCORfeh) 🔐 
 - [PyPodcats Episodes on Google Drive](https://drive.google.com/drive/folders/1Lqnu_7Og5khMTa_k-QD3tlWF2MFypaAX) 🔐 
-- [PyPodcats Speaker Info Form](https://docs.google.com/forms/d/e/1FAIpQLSeLuOx6dDc2D38q7gYyFiOlRft9sumium1nFbIwwIE4JQYNrw/viewform?usp=sf_link )
+- PyPodcats Speaker Info Form on the [PyPodcats Google Drive](https://drive.google.com/drive/folders/1LoSeAn2iJaVUuYF2ac7_kHKyEKCORfeh) 🔐 
 - [Veed.io](https://veed.io)
 - [Streamyard](https://streamyard.com)
 - [Buffer](https://buffer.com)
@@ -44,10 +44,9 @@ Tools that are needed for the **"Publishing"** step:
 #### 1. Speaker Invitation
 
 - Write an email inviting them to the podcast
-  - Send the email using meow@pypodcats.live email address, hosted through Fastmail
+  - Send the email using meow at pypodcats dot live email address, hosted through Fastmail
 - Prepare a collaboration doc on Google Docs
 - Ask the speaker to fill in Speaker Information form
-  - https://docs.google.com/forms/d/e/1FAIpQLSeLuOx6dDc2D38q7gYyFiOlRft9sumium1nFbIwwIE4JQYNrw/viewform?usp=sf_link 
 - Schedule a prep call & tech check session: 30 minutes, schedule through Calendly
 - Schedule the episode recording: 1 hour, schedule through Calendly
 
@@ -101,12 +100,12 @@ Tools that are needed for the **"Publishing"** step:
   - Detect speakers: yes
   - Click the "auto-subtitle" button
 - Review the generated subtitle, listen to the video, and make edits.
-  - fix any typos
+  - fix any typos, especially speaker names
   - Ensure proper capitalization, eg PyPodcats, Python, PSF, PyLadies, etc
   - If necessary, clarify spellings with the speaker.
 - Ensure the subtitle is readable on the video
   - The subtitle text should have black background
-- Once finished, Download the subtitle as `.SRT` file
+- Once finished, Download the subtitle as **.SRT** file
 - Export the video. Options:
   - Click "Done" button on the top right
   - Burn Subtitles: yes
@@ -114,7 +113,7 @@ Tools that are needed for the **"Publishing"** step:
 - Once exported, download the video as both MP3 and MP4.
   - MP4 is to be uploaded to YouTube
 - Repeat this for both the trailer and the full episode
-- Upload the subtitled videos, and the .SRT files to the Speaker Episode folder on Google Drive.
+- Upload the subtitled videos, and the **.SRT** files to the Speaker Episode folder on Google Drive.
   - Ensure to include "captioned" in the filename so that we can distinguish between the video with subtitle and without 
 
 #### 6. Publishing
@@ -166,7 +165,7 @@ Tools that are needed for the **"Publishing"** step:
 #### Publishing to Spotify/Apple Podcast etc
 
 This happens automatically, so there is nothing else to do.
-They are configured to pick up changes from our RSS Feed (pypodcats.live/episodes/index.xml).
+They are configured to pick up changes from our RSS Feed (https://pypodcats.live/episodes/index.xml).
 
 As long as our rss feed is valid, any new episodes will appear. That is why we need to always validate the RSS feed
 before merging.
