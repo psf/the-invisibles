@@ -37,7 +37,7 @@ and on IrishCentral's talented 38 women of technology for 2014.
       link: https://github.com/whykay
   
     - name: twitter
-      icon: fa-brands fa-twitter
+      icon: fa-brands fa-x-twitter
       link: https://twitter.com/whykay
   
     - name: linkedin

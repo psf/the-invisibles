@@ -19,7 +19,7 @@ season: 1
 transcript: '/transcript/hidden-figures-of-python-ep6-trailer.srt'
 episode_type: trailer
 layout: episode
-youtube_id:
+youtube_id: sGdtKxd-IAk
   
 speaker:
   url: "/speakers/niharika-vadluri/"
@@ -31,8 +31,8 @@ and developer since 2018. She has been an active member and contributor in The P
 and other Open source communities. She is a Toastmaster, and also loves singing.
 "
   social:
-    - name: web
-      icon: fa-solid fa-globe
+    - name: twitter
+      icon: fa-brands fa-x-twitter
       link: https://x.com/NiharikaVadluri
       
     - name: linkedin

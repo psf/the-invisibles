@@ -13,7 +13,7 @@ social:
     link: https://github.com/whykay
 
   - name: twitter
-    icon: fa-brands fa-twitter
+    icon: fa-brands fa-x-twitter
     link: https://twitter.com/whykay
 
   - name: linkedin
