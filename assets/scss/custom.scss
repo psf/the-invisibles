@@ -12,6 +12,9 @@ body {
 	background-size: cover;
 }
 
+.content {
+  --tw-prose-pre-code: #374151;
+}
 
 /* Light mode footer */
 .bg-theme-light {
@@ -23,6 +26,9 @@ body {
 :is(.dark body) {
 	background: url('/images/dark-bg.jpg') no-repeat center center fixed;
 	background-size: cover;
+  .content {
+  --tw-prose-pre-code: #e5e7eb;
+}
 }
 
 .podcast-icon {
@@ -41,3 +47,5 @@ body {
     }
   }
 }
+
+
