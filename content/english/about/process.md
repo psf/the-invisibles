@@ -165,7 +165,7 @@ Tools that are needed for the **"Publishing"** step:
 #### Publishing to Spotify/Apple Podcast etc
 
 This happens automatically, so there is nothing else to do.
-They are configured to pick up changes from our RSS Feed (https://pypodcats.live/episodes/index.xml).
+They are configured to pick up changes from our RSS Feed at https://pypodcats.live/episodes/index.xml.
 
 As long as our rss feed is valid, any new episodes will appear. That is why we need to always validate the RSS feed
 before merging.
@@ -178,12 +178,12 @@ markdown file, e.g **f"content/english/episodes/ep{number}-trailer.md"**
 
 Update the episode frontmatter with the correct information.
 
-The information on this frontmatter is used to generate the RSS Feed for our podcast (on /episodes/index.xml), which
+The information on this frontmatter is used to generate the RSS Feed for our podcast at **/episodes/index.xml**, which
 is consumed by podcast apps like Spotify, Apple Podcast, Overcast.fm, etc.
 
 Therefore, it is important to have these info as accurate and correct as possible.
 
-Example frontmatter for a full episode. (You can always just copy from any previous episode)
+Example frontmatter for a full episode. (You can always copy from any previous episode)
 ```
 title: "Episode 5: with Mona Obedoza"
 meta_title: "Episode 5 with Mona Obedoza"
