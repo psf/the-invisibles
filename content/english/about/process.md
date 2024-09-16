@@ -136,11 +136,11 @@ Tools that are needed for the **"Publishing"** step:
     - **f"static/audio/transcript/hidden-figures-of-pyhon-ep{number}.srt:"**: transcript of the full episode
   - Commit, push, and create a pull request
   - Example Pull request: https://github.com/psf/the-invisibles/pull/40
-  - Preview the episode (check the Netlify Deploy Preview), share the preview with teammates and speaker
-  - Validate the RSS feed format
-    - Once Netlify preview has been built, go to {netlify preview url}/episodes/index.xml. This is the RSS Feed url.
-    - Enter the RSS Feed url to https://www.castfeedvalidator.com/ 
-    - Ensure everything is green
+- Preview the episode (check the Netlify Deploy Preview), share the preview with teammates and speaker
+- Validate the RSS feed format
+  - Once Netlify preview has been built, go to {netlify preview url}/episodes/index.xml. This is the RSS Feed url.
+  - Enter the RSS Feed url to https://www.castfeedvalidator.com/ 
+  - Ensure everything is green
 
 ##### YouTube workflow
 
