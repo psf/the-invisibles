@@ -84,6 +84,6 @@ Be sure to listen to the episode to learn all about Niharika's inspiring story!
 - PyLadies: https://pyladies.com
 - Google Summer of Code: https://summerofcode.withgoogle.com/
 - Indian Institute of Technology: https://iitsystem.ac.in/
-
+- Campus Energy Monitoring System (CEMS): https://drive.google.com/file/d/14eEk1fL-5HbHs8eEnq903hCJEBFxxPa5/view
 
 
