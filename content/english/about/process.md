@@ -150,7 +150,7 @@ Tools that are needed for the **"Publishing"** step:
   - DM her on The PSF Slack
 - Let her know that the episode is ready for publishing to YouTube
   - Schedule it for publishing
-  - Usually we do it on 6 AM US Eastern timezone
+  - Usually we do it on 9 AM US Eastern timezone / 1 PM UTC
 - Once YouTube video has been uploaded, update the webpage with the YouTube ID in the frontmatter
 
 ##### Scheduling
