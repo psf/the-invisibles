@@ -2,11 +2,11 @@
 title: "Trailer: Episode 6 with Niharika Vadluri"
 meta_title: "Trailer: Episode 6 with Niharika Vadluri"
 description: "A preview of our chat with Niharika Vadluri. Watch the full episode on September 20, 2024"
-date: 2024-09-13T00:00:00-08:00
+date: 2024-09-17T00:00:00-08:00
 host: ["Cheuk", "Mariatta"]
 draft: false
 tags: ["python", "India", "hardware", "raspberry pi", "women in open source", "community", "mental health"]
-publish_date: 2024-09-13T00:00:00-08:00
+publish_date: 2024-09-17T00:00:00-08:00
 podcast_file: "/audio/hidden-figures-ep6-trailer.mp3"
 podcast_duration: 102.138776
 episode_image: "images/ep6-niharika.jpg"
