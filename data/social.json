@@ -2,7 +2,7 @@
   "main": [
     {
       "name": "twitter",
-      "icon": "fab fa-twitter",
+      "icon": "fab fa-x-twitter",
       "link": "https://twitter.com/pypodcats"
     },
     {

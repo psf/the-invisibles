@@ -34,7 +34,7 @@ and recently authored a PEP"
       link: https://github.com/jablonskidev
   
     - name: twitter
-      icon: fa-brands fa-twitter
+      icon: fa-brands fa-x-twitter
       link: https://twitter.com/Jo_Jablonski
   
     - name: linkedin

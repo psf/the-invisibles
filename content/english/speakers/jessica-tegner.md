@@ -14,7 +14,7 @@ social:
     link: https://github.com/JessicaTegner
 
   - name: twitter
-    icon: fa-brands fa-twitter
+    icon: fa-brands fa-x-twitter
     link: https://twitter.com/JessicaTegnerDK
 
   - name: linkedin

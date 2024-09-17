@@ -10,7 +10,7 @@ social:
     link: https://github.com/Cheukting
 
   - name: twitter
-    icon: fa-brands fa-twitter
+    icon: fa-brands fa-x-twitter
     link: https://twitter.com/cheukting_ho
 
   - name: linkedin

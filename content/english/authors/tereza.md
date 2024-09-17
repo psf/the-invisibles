@@ -10,7 +10,7 @@ social:
     link: https://github.com/terezaif
 
   - name: twitter
-    icon: fa-brands fa-twitter
+    icon: fa-brands fa-x-twitter
     link: https://twitter.com/terezaif
 
   - name: linkedin
