@@ -19,7 +19,7 @@ season: 1
 transcript: '/transcript/hidden-figures-of-python-ep6.srt'
 episode_type: full
 layout: episode
-youtube_id: 
+youtube_id: 9-jA0mzhnS0
   
 speaker:
   url: "/speakers/niharika-vadluri/"
