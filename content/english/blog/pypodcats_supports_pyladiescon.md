@@ -35,7 +35,9 @@ Get ready for engaging sessions, from Python dev hacks to career advice, and mor
 
 {{<figure src="/images/panel.png" caption="APAC panel discussion at PyLadiesCon 2023" alt="APAC panel discussion at PyLadiesCon 2023">}}
 
-And wait, there’ll be loads of networking!
+##### Networking
+
+Connect and get to know other PyLadies worldwide. Build your network and expand your horizons. Open yourself up to new opportunities.
 
 
 ## What’s New for 2024?
