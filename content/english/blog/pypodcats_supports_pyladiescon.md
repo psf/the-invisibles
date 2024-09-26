@@ -25,7 +25,8 @@ One of the coolest things about PyLadiesCon is that the speakers get to present 
 ### What to Expect at PyLadiesCon
 
 Here’s a quick outline:
-##### - Talks : Expect tons of insightful talks covering everything from the latest Python trends to best practices and cutting-edge tech from our inspiring speakers. 
+##### Talks
+Expect tons of insightful talks covering everything, from the latest Python trends to the best practices, and cutting-edge tech from our inspiring speakers. 
 
 {{<figure src="/images/thais.png" caption="Thais Viana's Keynote session at PyLadiesCon 2023" alt="Thais Viana's Keynote session at PyLadiesCon 2023">}}
 
