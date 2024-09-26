@@ -30,7 +30,8 @@ Expect tons of insightful talks covering everything, from the latest Python tren
 
 {{<figure src="/images/thais.png" caption="Thais Viana's Keynote session at PyLadiesCon 2023" alt="Thais Viana's Keynote session at PyLadiesCon 2023">}}
 
-##### - Panel Discussions: Get ready for engaging sessions, from Python dev hacks to career advice and more.
+##### Panel Discussions
+Get ready for engaging sessions, from Python dev hacks to career advice, and more.
 
 {{<figure src="/images/panel.png" caption="APAC panel discussion at PyLadiesCon 2023" alt="APAC panel discussion at PyLadiesCon 2023">}}
 
