@@ -68,4 +68,4 @@ PyLadiesCon is still looking for volunteers! If you want to help out, there are 
 - Website Committee
 
 Check out the [volunteer page](https://conference.pyladies.com/volunteer/) and get in on the action!
-
+We hope that you will join us at PyLadiesCon!
