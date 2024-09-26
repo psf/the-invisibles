@@ -53,7 +53,7 @@ Our guest from [Episode 1](/episodes/ep-1/), and a recent recipient of the [PSF 
 
 
 #### [Mona Obedoza](/speakers/mona-obedoza/)
-Featured in [Hidden Figures of Python Episode 5](/episodes/ep-5/), Mona gave a talk about her project, [TEDDY (Text-based Early Distress Detector for Youth)](https://www.youtube.com/watch?v=DB7xxXHH-mo).
+Featured in [Episode 5](/episodes/ep-5/), Mona gave a talk about her project, [TEDDY (Text-based Early Distress Detector for Youth)](https://www.youtube.com/watch?v=DB7xxXHH-mo).
 
 
 ## Get Involved
