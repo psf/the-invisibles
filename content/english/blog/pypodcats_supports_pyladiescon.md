@@ -56,7 +56,7 @@ Our guest from [Episode 1](/episodes/ep-1/), and a recent recipient of the [PSF 
 Featured in [Hidden Figures of Python Episode 5](/episodes/ep-5/), Mona gave a talk about her project, [TEDDY (Text-based Early Distress Detector for Youth)](https://www.youtube.com/watch?v=DB7xxXHH-mo).
 
 
-## Wanna Get Involved?
+## Get Involved
 
 PyLadiesCon is still looking for volunteers! If you want to help out, there are plenty of roles to fill, including:
 
