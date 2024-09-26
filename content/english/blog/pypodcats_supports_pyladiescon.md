@@ -10,7 +10,7 @@ draft: false
 image: "/images/pyladiescon-2024.png"
 ---
 
-PyLadiesCon is back, stronger than ever for its second year, and PyPodcats is thrilled to be an official media partner!
+[PyLadiesCon](https://conference.pyladies.com) is back, stronger than ever for its second year, and PyPodcats is thrilled to be their official media partner! As the media partner, we are sharing our podcast-creation resources, like [StreamYard and Veed.io subscriptions](/about/financials), with PyLadiesCon and PyLadiesCon speakers.
 
 At PyPodcats, we've always advocated for the underrepresented Pythonistas in our community, and we're proud to support PyLadiesCon in 2024.
 
