@@ -42,7 +42,7 @@ Connect and get to know other PyLadies worldwide. Build your network and expand 
 
 ## What’s New for 2024?
 
-This year, over 190 talks were submitted—so you know the content is going to be top-notch! Talks will be livestreamed on the PyLadies YouTube channel, and you can hop into live Q&A sessions (if the speaker is up for it).
+This year, [over 190 talks were submitted](https://conference.pyladies.com/news/cfp-close/) — so you know the content is going to be top-notch! Talks will be live-streamed on the PyLadies YouTube channel, and you can hop into live Q&A sessions.
 
 ## Fun Fact Time!
 
