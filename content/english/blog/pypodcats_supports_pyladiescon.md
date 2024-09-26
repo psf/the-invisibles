@@ -49,7 +49,7 @@ This year, [over 190 talks were submitted](https://conference.pyladies.com/news/
 Did you know some of our very own PyPodcats guests were speakers at PyLadiesCon 2023?
 
 #### [Joanna Jablonski](/speakers/joanna-jablonski/) 
-Our guest from [Hidden Figures of Python Episode 1](/episodes/ep-1/), and a recent recipient of the [PSF Community Service Award](https://www.python.org/community/awards/psf-awards/#october-2024:~:text=The%20Q3%20Community%20Service%20Award%20was%20given%20to%20Joanna%20Jablonski%20for%20her%20multifaceted%20contributions%20across%20various%20domains%2C%20including%20her%20work%20as%20contributor%20to%20CPython%2C%20an%20interpreter%20author%2C%20and%20an%20architect%20of%20developer%20education%20tools%20and%20tutorials), gave an awesome talk titled [How to Make a Docs Site: Shortcuts for Busy Devs](https://www.youtube.com/watch?v=N3mO4MEtpwA).
+Our guest from [Episode 1](/episodes/ep-1/), and a recent recipient of the [PSF Community Service Award](https://www.python.org/community/awards/psf-awards/#october-2024:~:text=The%20Q3%20Community%20Service%20Award%20was%20given%20to%20Joanna%20Jablonski%20for%20her%20multifaceted%20contributions%20across%20various%20domains%2C%20including%20her%20work%20as%20contributor%20to%20CPython%2C%20an%20interpreter%20author%2C%20and%20an%20architect%20of%20developer%20education%20tools%20and%20tutorials), gave an awesome talk titled [How to Make a Docs Site: Shortcuts for Busy Devs](https://www.youtube.com/watch?v=N3mO4MEtpwA).
 
 
 #### [Mona Obedoza](/speakers/mona-obedoza/)
