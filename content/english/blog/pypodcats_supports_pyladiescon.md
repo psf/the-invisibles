@@ -60,10 +60,12 @@ Featured in [Episode 5](/episodes/ep-5/), Mona gave a talk about her project, [T
 
 PyLadiesCon is still looking for volunteers! If you want to help out, there are plenty of roles to fill, including:
 
-Communications Committee
-Design & Social Media
-Sponsorship & Finance
-Tech & Infrastructure
-Programs Committee
-Website Committee
-Curious? Check out the [volunteer page](https://conference.pyladies.com/volunteer/) and get in on the action!
+- Communications Committee
+- Design & Social Media
+- Sponsorship & Finance
+- Tech & Infrastructure
+- Programs Committee
+- Website Committee
+
+Check out the [volunteer page](https://conference.pyladies.com/volunteer/) and get in on the action!
+
