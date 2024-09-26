@@ -16,7 +16,7 @@ At PyPodcats, we've always advocated for the underrepresented Pythonistas in our
 
 ## What is PyLadiesCon?
 
-(PyLadiesCon)(https://conference.pyladies.com/) is the global conference for the [PyLadies](https://pyladies.com) community, and it is **the place to be** this December! It’s all happening online from December 6-8, 2024, and the best part? It’s FREE. This event is all about empowering PyLadies, spreading knowledge, and embracing diversity in the Python world.
+[PyLadiesCon](https://conference.pyladies.com/) is the global conference for the [PyLadies](https://pyladies.com) community, and it is **the place to be** this December! It’s all happening online from December 6-8, 2024, and the best part? It’s FREE. This event is all about empowering PyLadies, spreading knowledge, and embracing diversity in the Python world.
 
 ### Multilingual Talks and Sessions
 
