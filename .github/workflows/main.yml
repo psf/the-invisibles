@@ -9,7 +9,7 @@ on:
   # Daily publish at 00:00Z for scheduled posts
   schedule:
     - cron: '5 * * * *'
-  
+
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
@@ -19,9 +19,9 @@ permissions:
 # Environment variables available to all jobs and steps in this workflow
 env:
   HUGO_ENV: production
-  HUGO_VERSION: "0.118.2"
-  GO_VERSION: "1.20.5"
-  NODE_VERSION: "18.15.0"
+  HUGO_VERSION: "0.138.0"
+  GO_VERSION: "1.23.3"
+  NODE_VERSION: "23.2.0"
   TINA_CLIENT_ID: ${{ vars.TINA_CLIENT_ID }}
   TINA_TOKEN: ${{ vars.TINA_TOKEN }}
 
