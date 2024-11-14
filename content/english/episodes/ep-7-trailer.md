@@ -19,7 +19,7 @@ season: 1
 transcript: '/transcript/hidden-figures-of-python-ep7-trailer.srt'
 episode_type: trailer
 layout: episode
-youtube_id: 
+youtube_id: "fjDIe5UzsiY"
   
 speaker:
   url: "/speakers/anna-makarudze/"

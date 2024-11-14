@@ -19,7 +19,7 @@ season: 1
 transcript: '/transcript/hidden-figures-of-python-ep7.srt'
 episode_type: full
 layout: episode
-youtube_id: 
+youtube_id: "Bb7p2-ctUF0"
   
 speaker:
   url: "/speakers/anna-makarudze/"
