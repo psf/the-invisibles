@@ -1,0 +1,171 @@
+1
+00:00:05,440 --> 00:00:06,721
+It's been a great change to
+
+2
+00:00:06,722 --> 00:00:08,753
+what I'm used to in Zimbabwe.
+
+3
+00:00:08,754 --> 00:00:11,433
+When you say, I want to buy a bed, you buy a bed that
+
+4
+00:00:11,434 --> 00:00:13,945
+is completely already assembled with a mattress.
+
+5
+00:00:13,946 --> 00:00:15,457
+But I was shocked to find out
+
+6
+00:00:15,458 --> 00:00:17,081
+the bed comes in a box and,
+
+7
+00:00:17,082 --> 00:00:18,953
+you have to, like, assemble everything.
+
+8
+00:00:18,954 --> 00:00:20,321
+I had to buy a drill.
+
+9
+00:00:20,322 --> 00:00:23,845
+I now have a screwdriver, and I have a hammer.
+
+10
+00:00:24,505 --> 00:00:26,161
+We don't have to mention the name, but
+
+11
+00:00:26,162 --> 00:00:28,217
+if we see, let's say, like, Swedish furniture,
+
+12
+00:00:28,218 --> 00:00:30,825
+we know you have to assemble it yourself.
+
+13
+00:00:30,826 --> 00:00:34,245
+You're just learning, and already you're contributing
+
+14
+00:00:34,246 --> 00:00:36,325
+back to the community, you're leading.
+
+15
+00:00:36,326 --> 00:00:38,246
+the Django Girls, you know,
+
+16
+00:00:38,247 --> 00:00:40,021
+I felt like a beginner.
+
+17
+00:00:40,022 --> 00:00:41,869
+I couldn't understand, like, most of
+
+18
+00:00:41,870 --> 00:00:43,305
+the things they were talking about.
+
+19
+00:00:44,485 --> 00:00:46,277
+I couldn't understand things that are
+
+20
+00:00:46,278 --> 00:00:48,053
+going on at DjangoCon
+
+21
+00:00:48,054 --> 00:00:51,269
+We traveled, like, 33 hours by road to get there.
+
+22
+00:00:51,270 --> 00:00:52,949
+There were other women who were,
+
+23
+00:00:52,950 --> 00:00:55,533
+like, almost my age or younger.
+
+24
+00:00:55,534 --> 00:00:56,869
+Then there were mature women who
+
+25
+00:00:56,870 --> 00:00:58,917
+were, like, older than me, almost.
+
+26
+00:00:58,918 --> 00:01:00,733
+Almost like the same age as my
+
+27
+00:01:00,734 --> 00:01:03,293
+mother, you know, who were learning to. Yeah.
+
+28
+00:01:03,294 --> 00:01:03,717
+Who were Learning.
+
+29
+00:01:03,718 --> 00:01:04,968
+Python and Django through
+
+30
+00:01:04,969 --> 00:01:06,793
+a Django Girls workshop.
+
+31
+00:01:06,794 --> 00:01:09,753
+I was surprised when I walked into the room
+
+32
+00:01:09,754 --> 00:01:11,913
+for the first time and I could count the
+
+33
+00:01:11,914 --> 00:01:13,553
+women who were there at the event.
+
+34
+00:01:13,554 --> 00:01:15,945
+And that's when I realized what Django Girls
+
+35
+00:01:15,946 --> 00:01:19,001
+means to the tech community globally, not just
+
+36
+00:01:19,002 --> 00:01:21,369
+for me as a Zimbabwean in Zimbabwe.
+
+37
+00:01:21,370 --> 00:01:22,273
+Hi, everyone.
+
+38
+00:01:22,274 --> 00:01:24,185
+My name is Anna Makarudze.
+
+39
+00:01:24,186 --> 00:01:26,825
+I'm the fundraising coordinator for Django Girls.
+
+40
+00:01:26,826 --> 00:01:29,305
+I'm excited to be here at PyPodcats.
+
+41
+00:01:29,306 --> 00:01:31,185
+So I'll be talking about my work with
+
+42
+00:01:31,186 --> 00:01:34,157
+Django Girls foundation, as well as my journey
+
+43
+00:01:34,158 --> 00:01:35,485
+and my work within the community.
