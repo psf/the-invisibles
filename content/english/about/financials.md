@@ -121,5 +121,6 @@ Get in touch by writing to meow @ pypodcats dot live.
 - Subscribe to our podcast RSS feed: https://pypodcats.live/episodes/index.xml
 - Follow us on Twitter: https://twitter.com/pypodcats
 - Follow us on Mastodon: https://fosstodon.org/@pypodcats
+- Follow us on Bluesky: https://bsky.app/profile/pypodcats.live
 - Subscribe to The PSF YouTube: https://youtube.com/@thepsf
 - Contact us: meow@pypodcats.live

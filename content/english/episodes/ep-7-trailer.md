@@ -2,7 +2,7 @@
 title: "Trailer: Episode 7 with Anna Makarudze"
 meta_title: "Trailer: Episode 7 with Anna Makarudze"
 description: "A preview of our chat with Anna Makarudze. Watch the full episode on November 20, 2024"
-date: 2024-11-18T00:00:00-08:00
+date: 2024-11-21T00:00:00-08:00
 host: ["Cheuk", "Mariatta"]
 draft: false
 tags: ["python", "zimbabwe", "africa", "djangogirls", "django", "women in open source", "community"]
@@ -74,4 +74,4 @@ the Django Community.
 
 In this chat, Anna shared ways on how you can contribute and help support Django Girls+ Foundation.
 
-Full episode is coming on **November 20, 2024**! Subscribe to our podcast now!
+Full episode is coming on **November 27, 2024**! Subscribe to our podcast now!

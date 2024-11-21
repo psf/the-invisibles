@@ -2,7 +2,7 @@
 title: "Episode 7: with Anna Makarudze"
 meta_title: "Episode 7 with Anna Makarudze"
 description: "Learn about Anna's journey. Since discovering Python and Django in 2015, Anna has been actively contributing to the Django community and taking up leadership roles within DSF and Django Girls."
-date: 2024-11-20T05:00:00-07:00
+date: 2024-11-27T05:00:00-07:00
 host: [ "Cheuk", "Mariatta"]
 draft: false
 tags: ["python", "zimbabwe", "africa", "djangogirls", "django", "women in open source", "community"]
