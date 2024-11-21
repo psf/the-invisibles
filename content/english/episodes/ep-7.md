@@ -4,7 +4,7 @@ meta_title: "Episode 7 with Anna Makarudze"
 description: "Learn about Anna's journey. Since discovering Python and Django in 2015, Anna has been actively contributing to the Django community and taking up leadership roles within DSF and Django Girls."
 date: 2024-11-27T05:00:00-07:00
 host: [ "Cheuk", "Mariatta"]
-draft: false
+draft: true
 tags: ["python", "zimbabwe", "africa", "djangogirls", "django", "women in open source", "community"]
 publish_date: 2024-11-20T05:00:00-07:00
 podcast_file: "/audio/hidden-figures-ep7.mp3"
@@ -19,7 +19,7 @@ season: 1
 transcript: '/transcript/hidden-figures-of-python-ep7.srt'
 episode_type: full
 layout: episode
-youtube_id: "Bb7p2-ctUF0"
+youtube_id: ""
   
 speaker:
   url: "/speakers/anna-makarudze/"
