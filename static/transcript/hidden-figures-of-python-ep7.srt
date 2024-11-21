@@ -1,0 +1,2807 @@
+1
+00:00:20,960 --> 00:00:21,881
+Hello, everyone.
+
+2
+00:00:21,882 --> 00:00:24,609
+New PyPodcats again. Here today.
+
+3
+00:00:24,610 --> 00:00:27,331
+We have, we are so excited because we have Anna
+
+4
+00:00:27,332 --> 00:00:30,795
+from the Django Girls Foundation to be with us.
+
+5
+00:00:30,796 --> 00:00:35,451
+And so you have already seen Mariatta and I'm Cheuk
+
+6
+00:00:35,452 --> 00:00:37,907
+and we are the host of the PyPodcats.
+
+7
+00:00:37,908 --> 00:00:40,243
+So for Anna, I think it's the best if you
+
+8
+00:00:40,244 --> 00:00:42,979
+can introduce yourself because we really want to know about
+
+9
+00:00:42,980 --> 00:00:45,131
+you and I don't want to miss anything.
+
+10
+00:00:45,132 --> 00:00:45,939
+Hi, Cheuk.
+
+11
+00:00:45,940 --> 00:00:47,099
+Hi, Mariatta.
+
+12
+00:00:47,100 --> 00:00:49,043
+I'm so excited to be here.
+
+13
+00:00:49,044 --> 00:00:50,187
+Thank you for having me.
+
+14
+00:00:50,188 --> 00:00:53,003
+So my name is Anna Makarudze.
+
+15
+00:00:53,004 --> 00:00:56,459
+I'm the current Django Girls fundraising coordinator, a
+
+16
+00:00:56,460 --> 00:00:59,287
+position that I've held since June 2017.
+
+17
+00:00:59,288 --> 00:01:02,271
+And I'm also a trustee for the Board
+
+18
+00:01:02,272 --> 00:01:05,431
+of Trustees for Django Girls Foundation and also
+
+19
+00:01:05,432 --> 00:01:08,471
+Software Engineer for Django Girls foundation since August
+
+20
+00:01:08,472 --> 00:01:11,399
+2020 when there was a transition in leadership.
+
+21
+00:01:11,400 --> 00:01:14,743
+I also support the Django Girls website and
+
+22
+00:01:14,744 --> 00:01:17,823
+the other resources in the GitHub repo.
+
+23
+00:01:17,824 --> 00:01:20,943
+So I'm kind of like the lead maintainer for the
+
+24
+00:01:20,944 --> 00:01:25,399
+website and also work with volunteers to maintain our resources
+
+25
+00:01:25,400 --> 00:01:29,663
+because the website and the tutorial in our coaches manual,
+
+26
+00:01:29,664 --> 00:01:32,051
+organizer manual, they are all open source.
+
+27
+00:01:32,052 --> 00:01:34,651
+So we work with volunteers to maintain them,
+
+28
+00:01:34,652 --> 00:01:36,419
+to make sure that they are kept up
+
+29
+00:01:36,420 --> 00:01:40,735
+to date and accessible to the general public.
+
+30
+00:01:41,275 --> 00:01:44,451
+Yeah, I have heard some so much like exciting
+
+31
+00:01:44,452 --> 00:01:47,019
+news from Django Girls like earlier this year.
+
+32
+00:01:47,020 --> 00:01:50,555
+So I know now we are Django Girls plus.
+
+33
+00:01:50,556 --> 00:01:51,855
+Yes. Yes.
+
+34
+00:01:52,715 --> 00:01:57,055
+It was addition that the board of trustees made
+
+35
+00:01:57,056 --> 00:01:59,791
+because over the years we're being asked if we
+
+36
+00:01:59,792 --> 00:02:03,839
+were inclusive of trans women and LGBQT.
+
+37
+00:02:03,840 --> 00:02:06,663
+So it was just easier to add a 'plus'
+
+38
+00:02:06,664 --> 00:02:10,447
+to our name without really changing our the known
+
+39
+00:02:10,448 --> 00:02:12,015
+name that we've had for 10 years.
+
+40
+00:02:12,016 --> 00:02:13,775
+As you know, we turned ten this year.
+
+41
+00:02:13,776 --> 00:02:15,903
+So yeah, it was a win for us.
+
+42
+00:02:15,904 --> 00:02:18,935
+So we, over the years we've tried to change
+
+43
+00:02:18,936 --> 00:02:20,799
+the language on our website to show that we
+
+44
+00:02:20,800 --> 00:02:23,423
+are inclusive of everyone who identifies as a woman.
+
+45
+00:02:23,424 --> 00:02:28,495
+So that was the idea behind the name change.
+
+46
+00:02:28,496 --> 00:02:30,343
+Yeah, I'm so happy to see that.
+
+47
+00:02:30,344 --> 00:02:32,871
+And you will be very busy and I know
+
+48
+00:02:32,872 --> 00:02:35,679
+you also personally have to make a big change.
+
+49
+00:02:35,680 --> 00:02:37,327
+You're moving country.
+
+50
+00:02:37,328 --> 00:02:39,375
+Can you tell us a little bit about that?
+
+51
+00:02:39,376 --> 00:02:43,079
+So I've moved from Zimbabwe to
+
+52
+00:02:43,080 --> 00:02:46,151
+Sweden for my Master's studies.
+
+53
+00:02:46,152 --> 00:02:49,287
+I'll be studying software engineering at Blekinge
+
+54
+00:02:49,288 --> 00:02:52,937
+Institute of Technology in Karlskrona, Sweden.
+
+55
+00:02:52,938 --> 00:02:56,943
+So I left Zimbabwe on the 14th of August and I'll
+
+56
+00:02:56,944 --> 00:03:00,955
+be starting school on the on Monday the 2nd of September.
+
+57
+00:03:01,895 --> 00:03:03,383
+Are you excited?
+
+58
+00:03:03,384 --> 00:03:04,839
+Yes, I am.
+
+59
+00:03:04,840 --> 00:03:07,835
+So that's when we have our introduction day.
+
+60
+00:03:08,815 --> 00:03:11,783
+I get to learn more about the program, as well as
+
+61
+00:03:11,784 --> 00:03:16,671
+meet my classmates as well as my lecturers and professors.
+
+62
+00:03:16,672 --> 00:03:19,993
+So, yeah, I'm excited for that and it's been
+
+63
+00:03:19,994 --> 00:03:22,641
+a great change to what I'm used to.
+
+64
+00:03:22,642 --> 00:03:23,489
+Yeah.
+
+65
+00:03:23,490 --> 00:03:24,205
+Yeah.
+
+66
+00:03:24,905 --> 00:03:26,209
+Because when you.
+
+67
+00:03:26,210 --> 00:03:27,841
+In Zimbabwe, when you say, I want to
+
+68
+00:03:27,842 --> 00:03:29,561
+buy a bed, you buy a bed that
+
+69
+00:03:29,562 --> 00:03:32,585
+is complete, already assembled with a mattress.
+
+70
+00:03:32,586 --> 00:03:34,793
+But I was shocked to find out. Yeah.
+
+71
+00:03:34,794 --> 00:03:36,249
+You buy a bed separately and
+
+72
+00:03:36,250 --> 00:03:37,833
+then you buy a mattress separately.
+
+73
+00:03:37,834 --> 00:03:38,241
+Yeah.
+
+74
+00:03:38,242 --> 00:03:39,769
+And the base comes in a box
+
+75
+00:03:39,770 --> 00:03:42,045
+and you have to, like, assemble everything.
+
+76
+00:03:42,945 --> 00:03:44,841
+So I had to buy a drill.
+
+77
+00:03:44,842 --> 00:03:47,241
+I now have a screwdriver, and I have
+
+78
+00:03:47,242 --> 00:03:48,445
+I have a hammer.
+
+79
+00:03:50,325 --> 00:03:50,885
+Yeah, the Swedish furniture.
+
+80
+00:03:50,886 --> 00:03:52,461
+We know, like, we don't have to mention the
+
+81
+00:03:52,462 --> 00:03:54,437
+name, but if we see, let's say, like Swedish
+
+82
+00:03:54,438 --> 00:03:57,145
+furniture, we know you have to assemble it yourself.
+
+83
+00:03:58,005 --> 00:03:59,865
+That's how it works.
+
+84
+00:04:01,325 --> 00:04:02,225
+Yeah.
+
+85
+00:04:03,405 --> 00:04:05,333
+So, it was, the shock for me, I.
+
+86
+00:04:05,334 --> 00:04:06,901
+I thought I ordered two pieces of
+
+87
+00:04:06,902 --> 00:04:08,905
+furniture and I get two boxes.
+
+88
+00:04:09,605 --> 00:04:11,785
+It's like, oh, this is my bed. You sure?
+
+89
+00:04:13,685 --> 00:04:15,949
+But you are now very good with
+
+90
+00:04:15,950 --> 00:04:17,785
+hardware as well, so that's good.
+
+91
+00:04:19,005 --> 00:04:21,141
+Hardware and software, we can do everything.
+
+92
+00:04:21,142 --> 00:04:21,380
+Yeah.
+
+93
+00:04:21,381 --> 00:04:22,641
+It's really been a learning curve.
+
+94
+00:04:22,642 --> 00:04:22,905
+So.
+
+95
+00:04:22,906 --> 00:04:23,217
+Yeah.
+
+96
+00:04:23,218 --> 00:04:25,233
+And it took me days. Yeah.
+
+97
+00:04:25,234 --> 00:04:26,361
+But I'm getting there now.
+
+98
+00:04:26,362 --> 00:04:28,625
+So I am glad that I had time for this
+
+99
+00:04:28,626 --> 00:04:30,649
+because I came about two weeks earlier than when I
+
+100
+00:04:30,650 --> 00:04:33,657
+was supposed to start, so I had time to go
+
+101
+00:04:33,658 --> 00:04:36,697
+through these new changes, you know, patiently.
+
+102
+00:04:36,698 --> 00:04:39,081
+I didn't get frustrated because I wasn't in a rush.
+
+103
+00:04:39,082 --> 00:04:39,409
+Yeah.
+
+104
+00:04:39,410 --> 00:04:41,353
+It would have been something else if I
+
+105
+00:04:41,354 --> 00:04:42,977
+arrived just in the nick of time when
+
+106
+00:04:42,978 --> 00:04:44,337
+I was supposed to start my program.
+
+107
+00:04:44,338 --> 00:04:45,865
+So, yeah, it has been a good
+
+108
+00:04:45,866 --> 00:04:47,805
+change, but I'm looking forward to it.
+
+109
+00:04:48,395 --> 00:04:49,595
+Yeah, that's good.
+
+110
+00:04:49,596 --> 00:04:50,811
+That's exciting.
+
+111
+00:04:50,812 --> 00:04:52,895
+Yeah, I'm glad for you.
+
+112
+00:04:53,995 --> 00:04:54,563
+Yeah.
+
+113
+00:04:54,564 --> 00:04:55,895
+Tell us more about.
+
+114
+00:04:56,635 --> 00:05:00,987
+You mentioned you're doing software engineer lead for
+
+115
+00:05:00,988 --> 00:05:04,563
+Django Girls, because I think that's really interesting.
+
+116
+00:05:04,564 --> 00:05:08,371
+I know the Django Girls tutorials is one
+
+117
+00:05:08,372 --> 00:05:10,739
+of the resources I like to share for
+
+118
+00:05:10,740 --> 00:05:14,115
+people who are learning Python, learning Django.
+
+119
+00:05:14,116 --> 00:05:16,251
+So it's really useful resources.
+
+120
+00:05:16,252 --> 00:05:17,995
+Can you tell us more about
+
+121
+00:05:17,996 --> 00:05:20,099
+this new role within Django Girls?
+
+122
+00:05:20,100 --> 00:05:21,095
+What do you do?
+
+123
+00:05:21,096 --> 00:05:23,559
+Okay, so the tutorial is a
+
+124
+00:05:23,560 --> 00:05:25,687
+bit separate from the website.
+
+125
+00:05:25,688 --> 00:05:28,711
+I normally work on the website, I'm maintaining
+
+126
+00:05:28,712 --> 00:05:32,775
+it, making code changes, fixing bugs, and then
+
+127
+00:05:32,776 --> 00:05:35,815
+I'm also in charge of deployment as well
+
+128
+00:05:35,816 --> 00:05:39,855
+as adding new contributors to the website.
+
+129
+00:05:39,856 --> 00:05:42,383
+Then with the tutorial, every now and then, I
+
+130
+00:05:42,384 --> 00:05:47,019
+also contribute to it, like introducing new changes.
+
+131
+00:05:47,020 --> 00:05:50,043
+For some time, we're offering, we added a section where
+
+132
+00:05:50,044 --> 00:05:53,587
+people could learn on the cloud using RunCode.
+
+133
+00:05:53,588 --> 00:05:55,571
+They were giving us the platform for free.
+
+134
+00:05:55,572 --> 00:05:57,035
+But we have since removed it.
+
+135
+00:05:57,036 --> 00:05:58,483
+Now because it's no longer
+
+136
+00:05:58,484 --> 00:05:59,955
+available, people have to pay.
+
+137
+00:05:59,956 --> 00:06:02,419
+So we try to make sure that
+
+138
+00:06:02,420 --> 00:06:04,131
+we have the things that we mentioned.
+
+139
+00:06:04,132 --> 00:06:05,299
+The resources that we mention in the
+
+140
+00:06:05,300 --> 00:06:08,091
+tutorial are free for the participants.
+
+141
+00:06:08,092 --> 00:06:10,691
+So because it's no longer free, we removed that.
+
+142
+00:06:10,692 --> 00:06:13,963
+So every now and then, if they say, I
+
+143
+00:06:13,964 --> 00:06:18,091
+wanted to restructure the tutorial actually, but it's huge.
+
+144
+00:06:18,092 --> 00:06:23,255
+So the first pull request that I did, it was a bit big.
+
+145
+00:06:23,256 --> 00:06:25,367
+It took time to have people review it.
+
+146
+00:06:25,368 --> 00:06:27,527
+What we've been trying to do is to
+
+147
+00:06:27,528 --> 00:06:29,479
+shorten it by making sure that if you're
+
+148
+00:06:29,480 --> 00:06:33,119
+on Windows, you follow Windows instructions.
+
+149
+00:06:33,120 --> 00:06:35,159
+If you're on Linux, you follow Linux.
+
+150
+00:06:35,160 --> 00:06:39,591
+If you're on iOS, on Mac, you follow Mac instructions.
+
+151
+00:06:39,592 --> 00:06:42,391
+But because everything is so mumbled up and it's a
+
+152
+00:06:42,392 --> 00:06:45,429
+long tutorial, it's difficult to do it in stages.
+
+153
+00:06:45,430 --> 00:06:46,701
+But at the same time, if you do
+
+154
+00:06:46,702 --> 00:06:48,685
+a large pull request and it takes time
+
+155
+00:06:48,686 --> 00:06:52,357
+without being reviewed, it gets overtaken by events.
+
+156
+00:06:52,358 --> 00:06:53,805
+So now I'll.
+
+157
+00:06:53,806 --> 00:06:55,261
+I think I'll have to start again.
+
+158
+00:06:55,262 --> 00:06:56,741
+But that's something that we have
+
+159
+00:06:56,742 --> 00:06:58,645
+wanted to do for some time.
+
+160
+00:06:58,646 --> 00:07:00,501
+If I can get people to work with, we would
+
+161
+00:07:00,502 --> 00:07:03,301
+want to do that, to separate the instructions so that
+
+162
+00:07:03,302 --> 00:07:07,061
+our participants are not confused by having to read through
+
+163
+00:07:07,062 --> 00:07:09,237
+so many notes that really don't affect them.
+
+164
+00:07:09,238 --> 00:07:10,821
+If you're on Windows, you don't need to know
+
+165
+00:07:10,822 --> 00:07:13,911
+about a note about Ubuntu or about Mac.
+
+166
+00:07:13,912 --> 00:07:16,677
+And the same applies to those on Ubuntu and Mac.
+
+167
+00:07:16,678 --> 00:07:18,445
+They don't need to know about Windows.
+
+168
+00:07:18,446 --> 00:07:19,973
+It would actually make it easier for
+
+169
+00:07:19,974 --> 00:07:21,605
+participants if they just yet to go
+
+170
+00:07:21,606 --> 00:07:23,813
+through what is platform specifically for them.
+
+171
+00:07:23,814 --> 00:07:27,789
+So that's one thing that I hope we'll be able to do.
+
+172
+00:07:27,790 --> 00:07:29,493
+I don't think, I'm not sure if we'll be able
+
+173
+00:07:29,494 --> 00:07:32,365
+to do that in 2024, but maybe in the near
+
+174
+00:07:32,366 --> 00:07:35,565
+future we should be able to work towards that.
+
+175
+00:07:35,566 --> 00:07:37,101
+I'm not sure how my schedule will be.
+
+176
+00:07:37,102 --> 00:07:39,625
+Like, you have a lot of work already.
+
+177
+00:07:43,125 --> 00:07:46,749
+Yeah, it's cross platform and also multiple languages.
+
+178
+00:07:46,750 --> 00:07:49,085
+It's like, wow, yeah.
+
+179
+00:07:49,086 --> 00:07:52,045
+And is this something that, you know,
+
+180
+00:07:52,046 --> 00:07:55,277
+the PyLadies community or the Django community
+
+181
+00:07:55,278 --> 00:07:58,997
+can help create PRs or can people
+
+182
+00:07:58,998 --> 00:08:00,273
+Contribute to it? Or?
+
+183
+00:08:00,274 --> 00:08:02,917
+Yes, it will be great.
+
+184
+00:08:02,918 --> 00:08:08,253
+I think what happened with Django Girls is the burnouts
+
+185
+00:08:08,254 --> 00:08:11,253
+did not affect the founders only, but I think most
+
+186
+00:08:11,254 --> 00:08:15,473
+of the contributors who worked with the founders when it
+
+187
+00:08:15,474 --> 00:08:19,185
+started in 2014, they also went through the burnout.
+
+188
+00:08:19,186 --> 00:08:22,873
+So we have fewer contributors now than
+
+189
+00:08:22,874 --> 00:08:25,285
+Django Girls yet, like back in 2017.
+
+190
+00:08:25,825 --> 00:08:28,321
+So we are always open to new contributors
+
+191
+00:08:28,322 --> 00:08:30,833
+coming up to work on the tutorial, work
+
+192
+00:08:30,834 --> 00:08:33,633
+on the website and all our other resources.
+
+193
+00:08:33,634 --> 00:08:37,009
+And if PyLadies, if you, they can work with us on that.
+
+194
+00:08:37,010 --> 00:08:39,390
+Will definitely welcome them as
+
+195
+00:08:39,391 --> 00:08:40,967
+well as the Django community.
+
+196
+00:08:40,968 --> 00:08:44,755
+Every now and then, at sprints at DjangoCon Europe.
+
+197
+00:08:45,495 --> 00:08:49,399
+I do attend them and I get people who contribute.
+
+198
+00:08:49,400 --> 00:08:51,655
+I have some regulars who contribute
+
+199
+00:08:51,656 --> 00:08:52,831
+only at DjangoCon Europe.
+
+200
+00:08:52,832 --> 00:08:55,103
+I think that will help if we add more people
+
+201
+00:08:55,104 --> 00:08:58,471
+from the Django community and PyLadies contributing to the
+
+202
+00:08:58,472 --> 00:09:01,583
+resources because I know many people use the Django Girls
+
+203
+00:09:01,584 --> 00:09:05,815
+tutorial to introduce people to Python and Django.
+
+204
+00:09:05,816 --> 00:09:09,575
+It's just that we have fewer maintainers these days.
+
+205
+00:09:09,576 --> 00:09:11,699
+Yeah, I think that's really good.
+
+206
+00:09:11,700 --> 00:09:12,651
+So maybe we can have a
+
+207
+00:09:12,652 --> 00:09:15,259
+sprint for the Django Girls tutorial.
+
+208
+00:09:15,260 --> 00:09:17,275
+Yeah, yeah, that'll be great.
+
+209
+00:09:17,276 --> 00:09:17,875
+Yeah.
+
+210
+00:09:17,876 --> 00:09:20,667
+Can you let us maybe can you share with us?
+
+211
+00:09:20,668 --> 00:09:23,123
+Like, how can people get started
+
+212
+00:09:23,124 --> 00:09:25,219
+to contribute to this project?
+
+213
+00:09:25,220 --> 00:09:28,675
+And do you have links or what's the best way?
+
+214
+00:09:28,676 --> 00:09:30,627
+All right, so for each of our
+
+215
+00:09:30,628 --> 00:09:34,375
+resources we have a Contributing Guide.
+
+216
+00:09:34,955 --> 00:09:36,091
+Oh, that's good.
+
+217
+00:09:36,092 --> 00:09:37,251
+On GitHub. Yeah.
+
+218
+00:09:37,252 --> 00:09:38,345
+So if you.
+
+219
+00:09:38,346 --> 00:09:39,513
+If you want to contribute to the
+
+220
+00:09:39,514 --> 00:09:42,873
+tutorial, there's an how to contribute guide,
+
+221
+00:09:42,874 --> 00:09:44,257
+contributing guide there.
+
+222
+00:09:44,258 --> 00:09:47,025
+If it's the organizer manual, it's also.
+
+223
+00:09:47,026 --> 00:09:49,537
+We also have that as well as the website.
+
+224
+00:09:49,538 --> 00:09:52,401
+So you can just go on GitHub, fork our
+
+225
+00:09:52,402 --> 00:09:55,585
+repo, whichever one you want to contribute to.
+
+226
+00:09:55,586 --> 00:09:58,121
+You read the contributing guide on how to set up
+
+227
+00:09:58,122 --> 00:10:01,217
+on your local machine and then you can also check
+
+228
+00:10:01,218 --> 00:10:04,243
+the issues that are already there on the repo or
+
+229
+00:10:04,244 --> 00:10:07,259
+if you find any issues like typos, especially in the
+
+230
+00:10:07,260 --> 00:10:11,291
+cases of the tutorial and our organizer manual, coach manual.
+
+231
+00:10:11,292 --> 00:10:14,995
+You are welcome to suggest pull requests for them.
+
+232
+00:10:14,996 --> 00:10:15,843
+Yeah.
+
+233
+00:10:15,844 --> 00:10:18,291
+So maybe after that we will collect the link from
+
+234
+00:10:18,292 --> 00:10:20,867
+you and then we'll add it in the episode.
+
+235
+00:10:20,868 --> 00:10:24,035
+Yeah, I can compile all the links for on how
+
+236
+00:10:24,036 --> 00:10:27,019
+to contribute to our resources and give them to you.
+
+237
+00:10:27,020 --> 00:10:28,815
+Yay. Thank you.
+
+238
+00:10:29,515 --> 00:10:30,587
+Thank you.
+
+239
+00:10:30,588 --> 00:10:34,411
+So, yeah, you're doing so much for Django Girls.
+
+240
+00:10:34,412 --> 00:10:37,107
+I know Django Girls is, like you said, it may be
+
+241
+00:10:37,108 --> 00:10:39,563
+the first step for a lot of people to discover Python.
+
+242
+00:10:39,564 --> 00:10:42,243
+So is it how you discover Python and Django?
+
+243
+00:10:42,244 --> 00:10:44,535
+When and how do you discover them?
+
+244
+00:10:45,395 --> 00:10:51,175
+Oh, so up until 2015 I had no idea there's Python.
+
+245
+00:10:53,235 --> 00:10:53,811
+Okay.
+
+246
+00:10:53,812 --> 00:10:57,009
+So I met a friend of mine who was learning,
+
+247
+00:10:57,010 --> 00:11:01,425
+I think he was doing Android through digital, a digital
+
+248
+00:11:01,426 --> 00:11:05,097
+skills program offered by Muzinda Hub in Harare.
+
+249
+00:11:05,098 --> 00:11:06,481
+And then he encouraged.
+
+250
+00:11:06,482 --> 00:11:09,553
+We worked together at one of my previous
+
+251
+00:11:09,554 --> 00:11:11,833
+employers and he encouraged me to apply.
+
+252
+00:11:11,834 --> 00:11:15,745
+So I applied and I chose Python because
+
+253
+00:11:15,746 --> 00:11:18,233
+I thought I was interested in data science.
+
+254
+00:11:18,234 --> 00:11:20,289
+I still am, but I think I
+
+255
+00:11:20,290 --> 00:11:23,221
+like the software development side more.
+
+256
+00:11:23,222 --> 00:11:27,845
+So I chose Python because it's general purpose,
+
+257
+00:11:27,846 --> 00:11:30,469
+you can use it for many other uses.
+
+258
+00:11:30,470 --> 00:11:35,549
+And that was, I think I started around March 2015.
+
+259
+00:11:35,550 --> 00:11:38,493
+So we're learning through Treehouse and
+
+260
+00:11:38,494 --> 00:11:40,301
+back then Kenneth Love was still working
+
+261
+00:11:40,302 --> 00:11:42,065
+at Treehouse, so he was my teacher.
+
+262
+00:11:42,685 --> 00:11:43,621
+Yeah, yeah.
+
+263
+00:11:43,622 --> 00:11:45,805
+But it was online and remote.
+
+264
+00:11:45,806 --> 00:11:49,461
+After, after doing Python, I did Flask, which
+
+265
+00:11:49,462 --> 00:11:51,877
+I used for my first project is.
+
+266
+00:11:51,878 --> 00:11:55,201
+Which was a portal of some sort.
+
+267
+00:11:55,202 --> 00:11:56,921
+And then a friend of mine,
+
+268
+00:11:56,922 --> 00:11:59,873
+Humphrey, introduced me to Django.
+
+269
+00:11:59,874 --> 00:12:02,353
+We wanted to organize a Django Girls event
+
+270
+00:12:02,354 --> 00:12:06,353
+in Harare for 2016 and we wanted also
+
+271
+00:12:06,354 --> 00:12:08,881
+to organize a PyCon in Zimbabwe in 2016.
+
+272
+00:12:08,882 --> 00:12:11,049
+So for me to learn Django, I used the
+
+273
+00:12:11,050 --> 00:12:15,337
+Django Girls tutorial and the Django tutorial themselves together.
+
+274
+00:12:15,338 --> 00:12:19,113
+And then, yeah, that's how I got started with Django.
+
+275
+00:12:19,114 --> 00:12:20,891
+Yeah, that's really cool.
+
+276
+00:12:20,892 --> 00:12:24,003
+So, yeah, and I, I love hearing that.
+
+277
+00:12:24,004 --> 00:12:27,531
+I, I feel like 2015 isn't that long ago.
+
+278
+00:12:27,532 --> 00:12:30,771
+It maybe long to people, like, it feels quite
+
+279
+00:12:30,772 --> 00:12:33,059
+recent to me, you know, and you're just learning
+
+280
+00:12:33,060 --> 00:12:36,651
+and already you're contributing back to the community.
+
+281
+00:12:36,652 --> 00:12:40,491
+You're leading the Django Girls, you know, being in
+
+282
+00:12:40,492 --> 00:12:42,899
+part of, you know, being involved in the DSF,
+
+283
+00:12:42,900 --> 00:12:46,265
+I think that's really, it's really inspiring.
+
+284
+00:12:46,266 --> 00:12:48,525
+So thank you for all the work you do.
+
+285
+00:12:49,265 --> 00:12:50,369
+Thank you.
+
+286
+00:12:50,370 --> 00:12:52,057
+Actually, yeah, you're right.
+
+287
+00:12:52,058 --> 00:12:54,945
+I think I, I started contributing to
+
+288
+00:12:54,946 --> 00:12:58,009
+Python and Django when I was actually
+
+289
+00:12:58,010 --> 00:13:01,265
+a beginner, mainly because there wasn't much.
+
+290
+00:13:01,266 --> 00:13:04,265
+Python wasn't very known in Zimbabwe back then and
+
+291
+00:13:04,266 --> 00:13:07,017
+there were no opportunities for us in Zimbabwe.
+
+292
+00:13:07,018 --> 00:13:07,649
+So it was.
+
+293
+00:13:07,650 --> 00:13:11,337
+We thought it best for the community to get together,
+
+294
+00:13:11,338 --> 00:13:15,225
+organize events and somewhere it led me to the DSF
+
+295
+00:13:15,226 --> 00:13:17,257
+and then I ended up being on the board
+
+296
+00:13:17,258 --> 00:13:20,741
+for five years as Director, Vice President
+
+297
+00:13:20,742 --> 00:13:23,165
+for two, and President for two years.
+
+298
+00:13:23,166 --> 00:13:25,077
+And I remember my first event was
+
+299
+00:13:25,078 --> 00:13:27,037
+Django Under the Hood in 2016.
+
+300
+00:13:27,038 --> 00:13:29,893
+I went under the Django Girls umbrella as well.
+
+301
+00:13:29,894 --> 00:13:32,573
+And like I felt like I am a beginner.
+
+302
+00:13:32,574 --> 00:13:34,429
+I couldn't understand like most of
+
+303
+00:13:34,430 --> 00:13:35,865
+the things they were talking about.
+
+304
+00:13:37,045 --> 00:13:40,293
+I couldn't understand things that are going on at Django
+
+305
+00:13:40,294 --> 00:13:44,933
+codes because I joined the community as a beginner and
+
+306
+00:13:44,934 --> 00:13:48,069
+became a leader before I had actually honed up my
+
+307
+00:13:48,070 --> 00:13:51,497
+skills, you know, in Python, in Django.
+
+308
+00:13:51,498 --> 00:13:54,417
+But it has also helped me to grow because
+
+309
+00:13:54,418 --> 00:13:58,185
+you let you meet people, you learn from them.
+
+310
+00:13:58,186 --> 00:14:00,553
+Sometimes it doesn't make sense then, but when you go
+
+311
+00:14:00,554 --> 00:14:03,761
+back you can go on and reflect and learn and
+
+312
+00:14:03,762 --> 00:14:05,665
+understand the concept that they were talking about.
+
+313
+00:14:05,666 --> 00:14:09,165
+I think I got involved with the community too early.
+
+314
+00:14:12,585 --> 00:14:15,425
+Is there something for you, like happen in your first
+
+315
+00:14:15,426 --> 00:14:18,475
+Django Girl that makes you feel like this is.
+
+316
+00:14:18,476 --> 00:14:19,523
+Feel like home to me.
+
+317
+00:14:19,524 --> 00:14:21,819
+I want to, you know, work more on
+
+318
+00:14:21,820 --> 00:14:24,763
+this project or like this, you know, initiative.
+
+319
+00:14:24,764 --> 00:14:28,283
+And so my first Django Girls event, I was
+
+320
+00:14:28,284 --> 00:14:32,371
+a coach at Django Girls Windhoek in Namibia.
+
+321
+00:14:32,372 --> 00:14:34,971
+It was part of PyCon Namibia 2016.
+
+322
+00:14:34,972 --> 00:14:37,043
+We, Daniele is always talking about this.
+
+323
+00:14:37,044 --> 00:14:40,491
+We traveled like 33 hours by road
+
+324
+00:14:40,492 --> 00:14:42,667
+to get there because the grant couldn't
+
+325
+00:14:42,668 --> 00:14:46,071
+cover flights for us, Humphrey and I. So.
+
+326
+00:14:46,072 --> 00:14:47,215
+But it was nice.
+
+327
+00:14:47,216 --> 00:14:50,431
+There were high school students, there were university students
+
+328
+00:14:50,432 --> 00:14:52,959
+and then they were more like there were other
+
+329
+00:14:52,960 --> 00:14:57,023
+women who were like almost my age or younger.
+
+330
+00:14:57,024 --> 00:14:58,439
+Then there were mature women who
+
+331
+00:14:58,440 --> 00:15:00,487
+were like older than me almost.
+
+332
+00:15:00,488 --> 00:15:03,395
+Almost like the same age as my mother, you know.
+
+333
+00:15:04,455 --> 00:15:04,863
+Yeah.
+
+334
+00:15:04,864 --> 00:15:07,231
+Who were learning Python and Django
+
+335
+00:15:07,232 --> 00:15:10,583
+through a Django Girls workshop.
+
+336
+00:15:10,584 --> 00:15:14,223
+I've worked at a university for women before.
+
+337
+00:15:14,224 --> 00:15:16,539
+When I was starting, I think I like, like
+
+338
+00:15:16,540 --> 00:15:20,435
+I like it when we create environment for women
+
+339
+00:15:20,436 --> 00:15:24,155
+which is welcoming, where they can learn without being
+
+340
+00:15:24,156 --> 00:15:26,747
+judged, you know, without being told, you know, it's
+
+341
+00:15:26,748 --> 00:15:30,067
+easy, you know, why can't you get this fast,
+
+342
+00:15:30,068 --> 00:15:32,371
+quicker and you know, learning at their own pace?
+
+343
+00:15:32,372 --> 00:15:35,291
+So I think after attending Django Girls Windhoek as well
+
+344
+00:15:35,292 --> 00:15:38,283
+as organizing Django Girls Harare for our Django Girls Harare,
+
+345
+00:15:38,284 --> 00:15:41,035
+which was my second event, we had like primary school
+
+346
+00:15:41,036 --> 00:15:45,299
+kids who were aged nine, they were youngest participants and
+
+347
+00:15:45,300 --> 00:15:50,733
+then we had women in their 40s, 50s and then
+
+348
+00:15:50,734 --> 00:15:52,517
+we had like the middle aged women.
+
+349
+00:15:52,518 --> 00:15:55,205
+So yeah, I think because those were like
+
+350
+00:15:55,206 --> 00:15:58,661
+my first events, I saw what Django Girls
+
+351
+00:15:58,662 --> 00:16:01,305
+was doing to women and girls.
+
+352
+00:16:01,845 --> 00:16:05,549
+And when I went to, when I then went to
+
+353
+00:16:05,550 --> 00:16:09,925
+Django Under the Hood in 2016, November, I already like
+
+354
+00:16:09,926 --> 00:16:13,237
+organized two Django Girls events are in Harare and Mashingui
+
+355
+00:16:13,238 --> 00:16:16,973
+and also attended Django Girls Windhoek in Namibia.
+
+356
+00:16:16,974 --> 00:16:19,781
+Then I thought we have the problem
+
+357
+00:16:19,782 --> 00:16:22,285
+of women being underrepresented in tech was
+
+358
+00:16:22,286 --> 00:16:24,477
+something that was peculiar to Africa.
+
+359
+00:16:24,478 --> 00:16:27,453
+In my girls, in my class when we're doing in high
+
+360
+00:16:27,454 --> 00:16:30,381
+school I did math, physics and computing for A level and
+
+361
+00:16:30,382 --> 00:16:33,165
+we two girls in our physics class out of 20.
+
+362
+00:16:33,166 --> 00:16:36,245
+So we're like 10% and for my degree we started
+
+363
+00:16:36,246 --> 00:16:40,701
+like we about 110 and we were about 10 or
+
+364
+00:16:40,702 --> 00:16:44,061
+11 women by the time we graduated we were around
+
+365
+00:16:44,062 --> 00:16:47,521
+45 to 50 and we were six women.
+
+366
+00:16:47,522 --> 00:16:50,345
+So I had grown, you know, used to being 10
+
+367
+00:16:50,346 --> 00:16:53,113
+of yeah the population because you are in STEM.
+
+368
+00:16:53,114 --> 00:16:56,049
+So when I went to Django Under the Hood, I was surprised
+
+369
+00:16:56,050 --> 00:16:58,625
+when I walked into the room for the first time and I
+
+370
+00:16:58,626 --> 00:17:02,905
+was like, oh, there are so many white men here.
+
+371
+00:17:02,906 --> 00:17:05,729
+And I could count the women who were there at
+
+372
+00:17:05,730 --> 00:17:08,145
+the event, you know, so then that's when I realized,
+
+373
+00:17:08,146 --> 00:17:11,681
+okay, so probably this is what Ola and Ola had
+
+374
+00:17:11,682 --> 00:17:13,361
+in mind when they started Django Girls.
+
+375
+00:17:13,362 --> 00:17:16,454
+And that's when I realized what Django Girls,
+
+376
+00:17:16,455 --> 00:17:20,327
+you know, means to the tech community globally.
+
+377
+00:17:20,328 --> 00:17:22,502
+Not just for me as a Zimbabwean
+
+378
+00:17:22,503 --> 00:17:25,335
+in Zimbabwe, but everywhere in the world.
+
+379
+00:17:25,336 --> 00:17:27,782
+We kind of have the same problems where we have
+
+380
+00:17:27,783 --> 00:17:31,375
+fewer women in tech than compared to any other field.
+
+381
+00:17:31,376 --> 00:17:34,127
+So I guess that's why I ended up working for them,
+
+382
+00:17:34,128 --> 00:17:37,719
+because the course makes sense to me even up to now.
+
+383
+00:17:37,720 --> 00:17:39,623
+I can relate to it.
+
+384
+00:17:39,624 --> 00:17:43,255
+Yeah, I totally understand because I also study physics and
+
+385
+00:17:43,256 --> 00:17:47,707
+my class also only 10%, and like, half of the
+
+386
+00:17:47,708 --> 00:17:50,771
+women who studying physics actually don't want to be there.
+
+387
+00:17:50,772 --> 00:17:53,051
+So it's very tough.
+
+388
+00:17:53,052 --> 00:17:56,579
+And I wish when I was younger, I have the same insight.
+
+389
+00:17:56,580 --> 00:17:58,307
+I was like, oh, maybe we should
+
+390
+00:17:58,308 --> 00:18:00,155
+create a space like Django girls.
+
+391
+00:18:00,156 --> 00:18:02,455
+But, well, now we're here.
+
+392
+00:18:03,155 --> 00:18:03,975
+Yeah.
+
+393
+00:18:04,915 --> 00:18:07,099
+Yeah, I think it's really important.
+
+394
+00:18:07,100 --> 00:18:09,655
+And I mean, even now, it's still.
+
+395
+00:18:10,185 --> 00:18:12,865
+Representation of women is still an issue in the.
+
+396
+00:18:12,866 --> 00:18:14,329
+In our community, in the Python
+
+397
+00:18:14,330 --> 00:18:16,241
+and Django, in open source.
+
+398
+00:18:16,242 --> 00:18:17,953
+Not quite there yet. So.
+
+399
+00:18:17,954 --> 00:18:20,121
+Yeah, but we are trying.
+
+400
+00:18:20,122 --> 00:18:22,065
+I know, like, there are people like you who are
+
+401
+00:18:22,066 --> 00:18:25,377
+trying, you know, and that's like, I think we need
+
+402
+00:18:25,378 --> 00:18:29,393
+more people to actually realize that this is a problem.
+
+403
+00:18:29,394 --> 00:18:32,761
+And it's not because, you know, there's no women. Right.
+
+404
+00:18:32,762 --> 00:18:35,233
+It's not because women are not interested.
+
+405
+00:18:35,234 --> 00:18:36,833
+We are trying. Like, we try.
+
+406
+00:18:36,834 --> 00:18:39,657
+But maybe there is something else that is,
+
+407
+00:18:39,658 --> 00:18:42,889
+you know, the environment like you mentioned, like,
+
+408
+00:18:42,890 --> 00:18:45,737
+maybe women are being judged more and it's
+
+409
+00:18:45,738 --> 00:18:48,257
+just not a safe environment. So we.
+
+410
+00:18:48,258 --> 00:18:50,473
+So I'm really glad to hear that there are
+
+411
+00:18:50,474 --> 00:18:53,185
+initiatives like the Django Girls to make it.
+
+412
+00:18:53,186 --> 00:18:54,529
+To make it more inclusive
+
+413
+00:18:54,530 --> 00:18:55,985
+and, you know, more welcoming.
+
+414
+00:18:55,986 --> 00:18:57,681
+But you're taking on another challenge.
+
+415
+00:18:57,682 --> 00:19:01,841
+You are now, like, studying overseas and, like,
+
+416
+00:19:01,842 --> 00:19:04,147
+you know, how does it feel for you?
+
+417
+00:19:04,148 --> 00:19:05,763
+You're in a new place.
+
+418
+00:19:05,764 --> 00:19:08,235
+And maybe also, like in the class, there isn't
+
+419
+00:19:08,236 --> 00:19:09,987
+a lot of people who are like you.
+
+420
+00:19:09,988 --> 00:19:14,779
+So, yeah, I think, honestly, I. I.
+
+421
+00:19:14,780 --> 00:19:16,815
+Feel so old now because.
+
+422
+00:19:18,035 --> 00:19:20,095
+No, never say that.
+
+423
+00:19:20,875 --> 00:19:22,295
+2009.
+
+424
+00:19:23,275 --> 00:19:26,451
+So it has taken me 15 years to pursue
+
+425
+00:19:26,452 --> 00:19:29,069
+a master's in software engineering, which is something that
+
+426
+00:19:29,070 --> 00:19:31,485
+I've wanted to do for a very long time.
+
+427
+00:19:31,486 --> 00:19:34,325
+I'm excited, but I'm also.
+
+428
+00:19:34,326 --> 00:19:36,213
+I'm looking forward to it.
+
+429
+00:19:36,214 --> 00:19:39,069
+I am hoping that I can manage the
+
+430
+00:19:39,070 --> 00:19:41,701
+pressure of being back in school again after,
+
+431
+00:19:41,702 --> 00:19:45,045
+you know, many years of taking a break.
+
+432
+00:19:45,046 --> 00:19:48,349
+I've done some courses in between, but full
+
+433
+00:19:48,350 --> 00:19:50,341
+time education, this is the first time that
+
+434
+00:19:50,342 --> 00:19:53,021
+I'm doing full time education after graduating.
+
+435
+00:19:53,022 --> 00:19:55,093
+So I'm looking forward to it.
+
+436
+00:19:55,094 --> 00:19:56,253
+It's a new challenge.
+
+437
+00:19:56,254 --> 00:19:59,101
+I'm waiting to see what it's going to look
+
+438
+00:19:59,102 --> 00:20:02,033
+like next week when I start because here they.
+
+439
+00:20:02,034 --> 00:20:04,441
+The way the courses are structured is different
+
+440
+00:20:04,442 --> 00:20:06,921
+from what I am used to in Zimbabwe.
+
+441
+00:20:06,922 --> 00:20:10,193
+You have a set timetable in back in Zimbabwe where
+
+442
+00:20:10,194 --> 00:20:13,833
+you know, I have these courses here and then like
+
+443
+00:20:13,834 --> 00:20:17,001
+your day, you know, your how your
+
+444
+00:20:17,002 --> 00:20:19,433
+timetable is going to look like for the whole semester.
+
+445
+00:20:19,434 --> 00:20:23,025
+But now here they do like you do two courses at a time.
+
+446
+00:20:23,026 --> 00:20:23,801
+Okay.
+
+447
+00:20:23,802 --> 00:20:25,337
+Yeah, out of four.
+
+448
+00:20:25,338 --> 00:20:28,161
+So I have the schedule for the first two courses.
+
+449
+00:20:28,162 --> 00:20:30,949
+Then we, we write exams.
+
+450
+00:20:30,950 --> 00:20:32,885
+We do the other two courses.
+
+451
+00:20:32,886 --> 00:20:33,965
+Okay.
+
+452
+00:20:33,966 --> 00:20:35,429
+Beginning in the middle.
+
+453
+00:20:35,430 --> 00:20:35,957
+Yeah.
+
+454
+00:20:35,958 --> 00:20:39,589
+Then you as you, you kind of like you
+
+455
+00:20:39,590 --> 00:20:42,773
+have few hours of lectures but they say it's.
+
+456
+00:20:42,774 --> 00:20:44,669
+You have to do a 40 hour week when
+
+457
+00:20:44,670 --> 00:20:47,357
+you left like maybe at most probably you have
+
+458
+00:20:47,358 --> 00:20:50,989
+like six hours, maybe 12 hours of lectures.
+
+459
+00:20:50,990 --> 00:20:52,437
+But you're supposed to be 40 hour weeks.
+
+460
+00:20:52,438 --> 00:20:55,023
+So the other study is supposed
+
+461
+00:20:55,024 --> 00:20:56,911
+to be either in group work.
+
+462
+00:20:56,912 --> 00:20:58,703
+They do a lot of group work here.
+
+463
+00:20:58,704 --> 00:21:01,447
+I haven't met my classmates so I don't know what's my.
+
+464
+00:21:01,448 --> 00:21:03,407
+All my group is still going to look like.
+
+465
+00:21:03,408 --> 00:21:07,991
+But you also have to like pace yourself, be organized and be
+
+466
+00:21:07,992 --> 00:21:11,711
+able to study on your own to make those 40 hours.
+
+467
+00:21:11,712 --> 00:21:16,047
+So yeah, it's going to be a new challenge.
+
+468
+00:21:16,048 --> 00:21:18,399
+Yeah. Yeah.
+
+469
+00:21:18,400 --> 00:21:22,135
+That's a very like brave like you know, kind of
+
+470
+00:21:22,136 --> 00:21:25,461
+jump because I know like for women, like a lot
+
+471
+00:21:25,462 --> 00:21:27,829
+of women, luckily I don't have that problem.
+
+472
+00:21:27,830 --> 00:21:30,269
+But like maybe some women, oh, they kind of take a
+
+473
+00:21:30,270 --> 00:21:32,429
+break from their career, you know, take care of the family
+
+474
+00:21:32,430 --> 00:21:35,893
+and like you know, have to start something again like back
+
+475
+00:21:35,894 --> 00:21:38,825
+in tech or like it's, it's a huge challenge. Yeah.
+
+476
+00:21:39,365 --> 00:21:40,645
+Yeah. For me. Okay.
+
+477
+00:21:40,646 --> 00:21:43,725
+So for me it's taking a break. Okay.
+
+478
+00:21:43,726 --> 00:21:45,045
+To go back to school.
+
+479
+00:21:45,046 --> 00:21:47,109
+But I'm still single so I
+
+480
+00:21:47,110 --> 00:21:48,437
+don't have a family to consider.
+
+481
+00:21:48,438 --> 00:21:49,989
+I think that makes it easy.
+
+482
+00:21:49,990 --> 00:21:54,323
+It's just a matter of holding up my residency, the
+
+483
+00:21:54,324 --> 00:21:57,955
+apartment that I was living in Harare and coming here
+
+484
+00:21:57,956 --> 00:22:00,755
+and set up another apartment for two years.
+
+485
+00:22:00,756 --> 00:22:03,995
+And then we see how that goes after two years.
+
+486
+00:22:03,996 --> 00:22:06,979
+But yeah, it was, I.
+
+487
+00:22:06,980 --> 00:22:11,251
+Maybe it's because the application process for to study in
+
+488
+00:22:11,252 --> 00:22:14,571
+Sweden, it takes a bit of some time because I
+
+489
+00:22:14,572 --> 00:22:17,715
+started looking at the programs in October last year.
+
+490
+00:22:17,716 --> 00:22:20,371
+I was hoping to get a scholarship
+
+491
+00:22:20,372 --> 00:22:22,375
+with the Swedish Institute, which I did.
+
+492
+00:22:22,955 --> 00:22:26,031
+And they opened the announcement, the programs
+
+493
+00:22:26,032 --> 00:22:28,151
+that they were going to fund in
+
+494
+00:22:28,152 --> 00:22:29,943
+the 15th of the 15th of November.
+
+495
+00:22:29,944 --> 00:22:32,423
+So I now knew which programs that I wanted to apply to.
+
+496
+00:22:32,424 --> 00:22:34,799
+And then the application closed in the
+
+497
+00:22:34,800 --> 00:22:38,711
+15th of January, and then deadline for
+
+498
+00:22:38,712 --> 00:22:40,711
+payment of application fees was one February.
+
+499
+00:22:40,712 --> 00:22:42,879
+And then they opened the scholarship the 12th
+
+500
+00:22:42,880 --> 00:22:46,359
+of February and closed the 28th of February.
+
+501
+00:22:46,360 --> 00:22:48,927
+So I had to wait for the admission
+
+502
+00:22:48,928 --> 00:22:50,791
+for the 21st of March and then wait
+
+503
+00:22:50,792 --> 00:22:53,327
+for the scholarship announcement the 25th of April.
+
+504
+00:22:53,328 --> 00:22:54,605
+So I guess with.
+
+505
+00:22:54,606 --> 00:22:58,325
+Through all that waiting and as well as
+
+506
+00:22:58,326 --> 00:23:01,221
+then after knowing and then doing the application
+
+507
+00:23:01,222 --> 00:23:04,053
+for the residence permit and you kind of
+
+508
+00:23:04,054 --> 00:23:06,445
+have time to prepare yourself mentally.
+
+509
+00:23:06,446 --> 00:23:09,069
+Am I going to leave the country now?
+
+510
+00:23:09,070 --> 00:23:11,093
+Am I going to fold things? Yeah.
+
+511
+00:23:11,094 --> 00:23:13,453
+By the time that you have to leave in August. Yeah.
+
+512
+00:23:13,454 --> 00:23:19,805
+You kind of have like, yeah, yeah, yeah, yeah, yeah.
+
+513
+00:23:19,806 --> 00:23:20,701
+You know. Yeah.
+
+514
+00:23:20,702 --> 00:23:22,973
+You are mentally prepared to say, okay, I'm now
+
+515
+00:23:22,974 --> 00:23:25,827
+living this and I'm starting a new chapter.
+
+516
+00:23:25,828 --> 00:23:27,395
+We'll see how it goes.
+
+517
+00:23:27,396 --> 00:23:27,787
+Yeah.
+
+518
+00:23:27,788 --> 00:23:29,255
+I'm afraid of the cold.
+
+519
+00:23:33,115 --> 00:23:34,175
+In the winter.
+
+520
+00:23:35,995 --> 00:23:38,135
+So I don't know how it's going to look like.
+
+521
+00:23:39,235 --> 00:23:39,979
+I've been.
+
+522
+00:23:39,980 --> 00:23:42,155
+I have been to the west and I think
+
+523
+00:23:42,156 --> 00:23:47,715
+November in 2016 in Amsterdam, but it was in.
+
+524
+00:23:47,716 --> 00:23:50,611
+It was cold, but it wasn't that cold.
+
+525
+00:23:50,612 --> 00:23:55,067
+It's very cold in February, in January and February.
+
+526
+00:23:55,068 --> 00:23:59,551
+And then I was in Prague for Ubuntu Summit in.
+
+527
+00:23:59,552 --> 00:24:00,543
+In November as well.
+
+528
+00:24:00,544 --> 00:24:01,975
+Early November.
+
+529
+00:24:01,976 --> 00:24:03,511
+Yeah, both times were early November,
+
+530
+00:24:03,512 --> 00:24:05,575
+so it wasn't that cold.
+
+531
+00:24:05,576 --> 00:24:08,335
+So I have no idea.
+
+532
+00:24:08,336 --> 00:24:10,615
+And I remember when I was.
+
+533
+00:24:10,616 --> 00:24:11,983
+When I was coming for. Yeah.
+
+534
+00:24:11,984 --> 00:24:15,535
+To DjangoCon Europe in June, I left Zimbabwe.
+
+535
+00:24:15,536 --> 00:24:16,715
+It was very warm.
+
+536
+00:24:17,255 --> 00:24:19,087
+Then when I got to South Africa,
+
+537
+00:24:19,088 --> 00:24:21,415
+it was like 14 degrees Celsius.
+
+538
+00:24:21,416 --> 00:24:23,081
+And like when we getting off the
+
+539
+00:24:23,082 --> 00:24:27,145
+plane, it was windy and cold.
+
+540
+00:24:27,146 --> 00:24:29,521
+And I'm like, okay, this is.
+
+541
+00:24:29,522 --> 00:24:30,993
+This is at a time that I'm thinking
+
+542
+00:24:30,994 --> 00:24:33,977
+of leaving Zimbabwe, which is like 300 days
+
+543
+00:24:33,978 --> 00:24:37,321
+of sun and warm, to relocate to Sweden.
+
+544
+00:24:37,322 --> 00:24:39,369
+And I'm struggling with 14 degrees
+
+545
+00:24:39,370 --> 00:24:43,241
+Celsius, something they call summer in.
+
+546
+00:24:43,242 --> 00:24:44,585
+In the West.
+
+547
+00:24:44,586 --> 00:24:45,845
+Yeah, yeah.
+
+548
+00:24:47,225 --> 00:24:48,481
+Because your summer.
+
+549
+00:24:48,482 --> 00:24:50,001
+Because the summer here is as good
+
+550
+00:24:50,002 --> 00:24:52,217
+as my winter in Zimbabwe, you know?
+
+551
+00:24:52,218 --> 00:24:53,805
+So I was like, if I really.
+
+552
+00:24:54,865 --> 00:24:58,289
+Another thing that I have, like, still not getting
+
+553
+00:24:58,290 --> 00:25:00,897
+used to maybe, probably because I live in London,
+
+554
+00:25:00,898 --> 00:25:03,801
+is that the snow and the slipperiness of the
+
+555
+00:25:03,802 --> 00:25:06,081
+floor, because we don't snow a lot in London.
+
+556
+00:25:06,082 --> 00:25:09,433
+Only once every few years but like every
+
+557
+00:25:09,434 --> 00:25:11,857
+time I remember I've been to Sweden twice.
+
+558
+00:25:11,858 --> 00:25:13,225
+Both of them are in the winter.
+
+559
+00:25:13,226 --> 00:25:18,345
+It's very cold and slippery like you have to buy
+
+560
+00:25:18,346 --> 00:25:21,225
+those special things to put on your boots so you
+
+561
+00:25:21,226 --> 00:25:25,441
+don't sleep and yeah, yeah, I haven't, I.
+
+562
+00:25:25,442 --> 00:25:27,097
+Haven't taken care of the boots thing
+
+563
+00:25:27,098 --> 00:25:28,761
+but I hope to get to it.
+
+564
+00:25:28,762 --> 00:25:31,569
+Yeah but people there will teach you.
+
+565
+00:25:31,570 --> 00:25:34,449
+And yeah, yeah, even started
+
+566
+00:25:34,450 --> 00:25:36,089
+regretting living Zimbabwe age.
+
+567
+00:25:36,090 --> 00:25:38,217
+But yeah, in terms of the weather, I
+
+568
+00:25:38,218 --> 00:25:40,833
+just been home so far not as cold.
+
+569
+00:25:40,834 --> 00:25:43,449
+So yeah, we'll see how the window goes.
+
+570
+00:25:43,450 --> 00:25:44,265
+Right.
+
+571
+00:25:44,266 --> 00:25:46,025
+What do you think is the role
+
+572
+00:25:46,026 --> 00:25:48,855
+of younger girls for the community?
+
+573
+00:25:52,075 --> 00:25:55,739
+Okay, so I think Django Girls is in
+
+574
+00:25:55,740 --> 00:26:00,915
+an important role in the community to close
+
+575
+00:26:00,916 --> 00:26:05,107
+the gender gap for within the tech industry.
+
+576
+00:26:05,108 --> 00:26:08,203
+We have so many men compared to women and what
+
+577
+00:26:08,204 --> 00:26:11,651
+we are doing is we are providing free resources for
+
+578
+00:26:11,652 --> 00:26:15,603
+women to organize workshops that introduce women to programming.
+
+579
+00:26:15,604 --> 00:26:19,467
+With Python and Django we have done two surveys software
+
+580
+00:26:19,468 --> 00:26:25,911
+one in 2017, 2018 and another one recently which we
+
+581
+00:26:25,912 --> 00:26:29,191
+haven't published the results for and but what we have
+
+582
+00:26:29,192 --> 00:26:33,023
+found is some of our attendees quite a good percentage
+
+583
+00:26:33,024 --> 00:26:36,191
+I can remember I think about was it 21% last
+
+584
+00:26:36,192 --> 00:26:41,015
+time it actually transitioned from their careers to working to
+
+585
+00:26:41,016 --> 00:26:43,359
+take in different roles.
+
+586
+00:26:43,360 --> 00:26:47,311
+Obviously after attending our workshop is still it won't be
+
+587
+00:26:47,312 --> 00:26:50,127
+enough for someone but mostly go on to learn.
+
+588
+00:26:50,128 --> 00:26:52,899
+You know about 7, 75% they continue learning
+
+589
+00:26:52,900 --> 00:26:56,003
+with learning Python, learning programming until they actually
+
+590
+00:26:56,004 --> 00:26:59,195
+transition to working to take in different roles.
+
+591
+00:26:59,196 --> 00:27:01,595
+So while it takes time for us to have
+
+592
+00:27:01,596 --> 00:27:05,163
+results, I think we as a community doing an
+
+593
+00:27:05,164 --> 00:27:09,435
+important role in introducing women to programming and having
+
+594
+00:27:09,436 --> 00:27:12,215
+more people women involved in tech.
+
+595
+00:27:12,835 --> 00:27:16,883
+So how I'm curious, how can the community
+
+596
+00:27:16,884 --> 00:27:20,127
+support, you know, the Django Girls Foundation?
+
+597
+00:27:20,128 --> 00:27:24,375
+I know your fundraising like is there active fundraising
+
+598
+00:27:24,376 --> 00:27:28,679
+that people can support right now or what other
+
+599
+00:27:28,680 --> 00:27:32,455
+ways can we support the Django Girls community?
+
+600
+00:27:32,456 --> 00:27:33,663
+Okay, so we are always
+
+601
+00:27:33,664 --> 00:27:37,335
+fundraising all throughout the year.
+
+602
+00:27:37,336 --> 00:27:39,447
+We welcome donations anytime.
+
+603
+00:27:39,448 --> 00:27:42,847
+People can reach out to me via LinkedIn or using
+
+604
+00:27:42,848 --> 00:27:47,105
+the Django Girls website and I can give them details
+
+605
+00:27:47,106 --> 00:27:50,225
+on how they can donate to Django Girls.
+
+606
+00:27:50,226 --> 00:27:55,305
+Also we always look for companies that can have their
+
+607
+00:27:55,306 --> 00:27:57,609
+employees donate their time to work on our resources.
+
+608
+00:27:57,610 --> 00:27:59,441
+That's something that we welcome as
+
+609
+00:27:59,442 --> 00:28:02,065
+well and we're always looking for.
+
+610
+00:28:02,066 --> 00:28:04,001
+We are hoping to have new content
+
+611
+00:28:04,002 --> 00:28:05,961
+and we have some projects underway.
+
+612
+00:28:05,962 --> 00:28:07,057
+New projects underway.
+
+613
+00:28:07,058 --> 00:28:08,985
+And that would be helpful if we
+
+614
+00:28:08,986 --> 00:28:11,401
+had partners to work with us.
+
+615
+00:28:11,402 --> 00:28:14,201
+We went to do a crowdfunding campaign but I
+
+616
+00:28:14,202 --> 00:28:17,397
+was a bit away because of the relocation and
+
+617
+00:28:17,398 --> 00:28:19,693
+our OSM Ambassadors was also on holiday.
+
+618
+00:28:19,694 --> 00:28:21,637
+We're not sure if, I'm not sure if we'll
+
+619
+00:28:21,638 --> 00:28:23,669
+continue with that this year or it might be
+
+620
+00:28:23,670 --> 00:28:27,389
+for next year but we always welcome donations anytime.
+
+621
+00:28:27,390 --> 00:28:29,909
+Yeah, we do have a Patreon page
+
+622
+00:28:29,910 --> 00:28:31,533
+that they can contribute to also.
+
+623
+00:28:31,534 --> 00:28:33,053
+They can sign up for monthly
+
+624
+00:28:33,054 --> 00:28:35,421
+donations through our Patreon page.
+
+625
+00:28:35,422 --> 00:28:36,749
+I can share the link as well?
+
+626
+00:28:36,750 --> 00:28:38,365
+Yes, please. Yeah.
+
+627
+00:28:38,366 --> 00:28:40,421
+If they want to be ongoing
+
+628
+00:28:40,422 --> 00:28:42,893
+supporters, contribute monthly with that.
+
+629
+00:28:42,894 --> 00:28:46,077
+We are also on GitHub sponsors, companies and individuals alike
+
+630
+00:28:46,078 --> 00:28:48,085
+can also sign up to support us through the.
+
+631
+00:28:48,086 --> 00:28:50,731
+And then we have PayPal and Stripe.
+
+632
+00:28:50,732 --> 00:28:52,163
+People want to donate through that.
+
+633
+00:28:52,164 --> 00:28:54,923
+We have set up various channels for people to donate.
+
+634
+00:28:54,924 --> 00:28:59,275
+I think Django Girl is a very good like initiative.
+
+635
+00:28:59,276 --> 00:29:02,875
+I think companies like, you know, they are maybe sponsoring
+
+636
+00:29:02,876 --> 00:29:04,931
+events and stuff but I think, you know, if you
+
+637
+00:29:04,932 --> 00:29:08,931
+want to target, you know, certain group of people in
+
+638
+00:29:08,932 --> 00:29:12,987
+a community, I think maybe consider Django Girls. Yeah.
+
+639
+00:29:12,988 --> 00:29:13,667
+Yes.
+
+640
+00:29:13,668 --> 00:29:16,371
+I hope we have more companies come to support us.
+
+641
+00:29:16,372 --> 00:29:18,515
+We've had some companies that supported us for
+
+642
+00:29:18,516 --> 00:29:20,767
+quite a number of years but I think
+
+643
+00:29:20,768 --> 00:29:23,535
+Covid sort of like upset everything and it
+
+644
+00:29:23,536 --> 00:29:25,911
+also did affect our sponsorship as well.
+
+645
+00:29:25,912 --> 00:29:27,735
+So we are hoping to get new sponsors
+
+646
+00:29:27,736 --> 00:29:30,255
+to continue to support our week as well.
+
+647
+00:29:30,256 --> 00:29:30,935
+Yeah.
+
+648
+00:29:30,936 --> 00:29:34,423
+So yeah, you have talked about a lot of things.
+
+649
+00:29:34,424 --> 00:29:36,823
+So any plans except you know, you're
+
+650
+00:29:36,824 --> 00:29:38,687
+setting up the crowd funding and stuff
+
+651
+00:29:38,688 --> 00:29:40,679
+but like anything for Django Girls.
+
+652
+00:29:40,680 --> 00:29:43,415
+Anything for yourself. Yeah.
+
+653
+00:29:43,416 --> 00:29:44,047
+Okay.
+
+654
+00:29:44,048 --> 00:29:50,313
+For myself I want to complete my Masters so I
+
+655
+00:29:50,314 --> 00:29:54,045
+hope to do that as do do that very well.
+
+656
+00:29:55,545 --> 00:29:58,489
+We have a three week roll call to see how you're doing.
+
+657
+00:29:58,490 --> 00:30:01,185
+So I hope by then I'll be doing
+
+658
+00:30:01,186 --> 00:30:04,737
+fine so that I, I keep my scholarship.
+
+659
+00:30:04,738 --> 00:30:08,993
+I think by now I know I want to work in
+
+660
+00:30:08,994 --> 00:30:13,665
+open source after I graduate and there's a role that I'm
+
+661
+00:30:13,666 --> 00:30:18,077
+aiming for that I keep checking whether they've hired, hired, hired.
+
+662
+00:30:18,078 --> 00:30:21,981
+So that's something that I'm targeting to get after
+
+663
+00:30:21,982 --> 00:30:24,485
+I complete my studies in the next two years.
+
+664
+00:30:24,486 --> 00:30:28,149
+And then for Django Girls we, we have a plan to
+
+665
+00:30:28,150 --> 00:30:32,685
+start a boot camp but it isn't quite rolled out yet.
+
+666
+00:30:32,686 --> 00:30:36,749
+It will start in the UK so I'm hoping that we
+
+667
+00:30:36,750 --> 00:30:42,461
+will be able to introduce that maybe 25, 2025 or 2026.
+
+668
+00:30:42,462 --> 00:30:46,397
+Instead of just giving women a one day workshop, we provide
+
+669
+00:30:46,398 --> 00:30:50,485
+resources for them to learn for a number of weeks and
+
+670
+00:30:50,486 --> 00:30:53,701
+also we are aiming for it to be flexible to cater
+
+671
+00:30:53,702 --> 00:30:58,069
+for women who have child care issues, you know. Yeah.
+
+672
+00:30:58,070 --> 00:31:00,349
+So that they can be able to participate in
+
+673
+00:31:00,350 --> 00:31:02,989
+their own pace and hopefully that will lead also
+
+674
+00:31:02,990 --> 00:31:06,885
+to mentorship and for them to get new roles.
+
+675
+00:31:06,886 --> 00:31:08,547
+So that's the one thing that
+
+676
+00:31:08,548 --> 00:31:10,771
+we have been hinting about.
+
+677
+00:31:10,772 --> 00:31:13,187
+Plans are just not set yet.
+
+678
+00:31:13,188 --> 00:31:15,331
+But yeah, that's something that we hope
+
+679
+00:31:15,332 --> 00:31:18,747
+to work towards in the coming years.
+
+680
+00:31:18,748 --> 00:31:20,867
+Yeah, that sounds interesting.
+
+681
+00:31:20,868 --> 00:31:24,171
+Yeah, I think that will be useful to have, like
+
+682
+00:31:24,172 --> 00:31:26,707
+you said, more than just, you know, one day workshop
+
+683
+00:31:26,708 --> 00:31:30,163
+and have a series of, you know, ongoing training.
+
+684
+00:31:30,164 --> 00:31:31,739
+I think that's very exciting.
+
+685
+00:31:31,740 --> 00:31:32,891
+I'm looking forward to learn more
+
+686
+00:31:32,892 --> 00:31:35,839
+about and hopefully we can help. We can help.
+
+687
+00:31:35,840 --> 00:31:37,839
+Especially I'm in the uk, I'm having help.
+
+688
+00:31:37,840 --> 00:31:42,783
+Yeah, that's really good and it's very good to
+
+689
+00:31:42,784 --> 00:31:45,463
+hear and thank you for sharing so many stories
+
+690
+00:31:45,464 --> 00:31:49,855
+with us and yeah, I think it's a very
+
+691
+00:31:49,856 --> 00:31:52,383
+enjoyable chat with you and know about.
+
+692
+00:31:52,384 --> 00:31:54,359
+Know more about Django Girls is, you
+
+693
+00:31:54,360 --> 00:31:55,799
+know, I always heard about the name.
+
+694
+00:31:55,800 --> 00:31:58,247
+I try to help out once in a while.
+
+695
+00:31:58,248 --> 00:31:59,823
+Not a lot, but then like now
+
+696
+00:31:59,824 --> 00:32:01,703
+I understand like more like, you know
+
+697
+00:32:01,704 --> 00:32:04,295
+about Django Girls and also interesting story.
+
+698
+00:32:04,296 --> 00:32:07,019
+Moving so far, far away to somewhere so cold
+
+699
+00:32:07,020 --> 00:32:10,015
+and you have to build your own furniture.
+
+700
+00:32:11,995 --> 00:32:12,507
+Yeah.
+
+701
+00:32:12,508 --> 00:32:15,923
+So thank you so much and thank you, Anna.
+
+702
+00:32:15,924 --> 00:32:17,635
+Thank you, thank you for having me.
