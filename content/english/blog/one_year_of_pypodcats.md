@@ -28,7 +28,7 @@ Here are what some of our community members are saying about PyPodcats:
   talking about exactly the same topic that I am currently struggling with when I jumped
   into the Python community in Japan. I'm desperately looking for female role models like you ladies!!“*
 
-- From [Kelly Olson](https://www.linkedin.com/feed/update/urn:li:ugcPost:7162823854682292224?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7162823854682292224%2C7162965782455312384%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287162965782455312384%2Curn%3Ali%3AugcPost%3A7162823854682292224%29)
+- From [Kelly Olsson](https://www.linkedin.com/feed/update/urn:li:ugcPost:7162823854682292224?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7162823854682292224%2C7162965782455312384%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287162965782455312384%2Curn%3Ali%3AugcPost%3A7162823854682292224%29)
   on LinkedIn: *“Love the concept for this podcast and looking forward
   to seeing more of it!“*
 
