@@ -38,29 +38,29 @@
             {{ partial "components/podcast-audio-card" . }}
             {{ partial "components/youtube_player" . }}
             {{ .Content }}
-            {{ if $.Params.speaker }}
-                <h2>Get to know {{.Params.speaker.Title}}</h2>
+            {{ with.Params.speaker }}
+                <h2>Get to know {{ .Title}}</h2>
                 <div
                   class="bg-theme-light dark:bg-darkmode-theme-light rounded p-8 text-center">
-                  {{ $image:= .Params.speaker.image }}
+                  {{ $image:= .image }}
                   {{ if $image }}
-                    {{ partial "image" (dict "Src" $image "Alt" .Params.Speaker.Title "Class" "mx-auto mb-6 rounded" "size" "120x120") }}
-                  {{ else if .Params.speaker.Email }}
+                    {{ partial "image" (dict "Src" $image "Alt" .Title "Class" "mx-auto mb-6 rounded" "size" "120x120") }}
+                  {{ else if .Email }}
                     <img
                       class="mx-auto mb-6 rounded"
-                      alt="{{ .Params.speaker.Title }}"
+                      alt="{{ .Title }}"
                       height="120"
                       width="120"
                       src="https://www.gravatar.com/avatar/{{ md5 .Params.speaker.email }}?s=128&pg&d=identicon" />
                   {{ end }}
                   <h4 class="mb-3">
-                    <a href="{{ .Params.speaker.url }}">{{ .Params.speaker.Title }}</a>
+                    <a href="{{ .url }}">{{ .Title }}</a>
                   </h4>
                   <p class="mb-4">
-                    {{ .Params.speaker.description }}
+                    {{ .description }}
                   </p>
                   <ul class="social-icons share-icons not-prose">
-                    {{ range .Params.speaker.social }}
+                    {{ range .social }}
                       <li>
                         <a href="{{ .link | safeURL }}" class="share-link" target="_blank" rel="noopener nofollow">
                           <span class="sr-only share-icon">{{ .title }}</span>
@@ -70,7 +70,8 @@
                     {{ end }}
                   </ul>
                 </div>
-
+            {{else}}
+                <p>NO speaker information available</p>
             {{ end }}
 <!--            {{ partial "components/transcript" . }}-->
             {{ partial "components/stay-in-touch" }}
@@ -102,17 +103,19 @@
       <!-- Related posts -->
       {{ $related := (where site.RegularPages "Section" "in" site.Params.mainSections) | intersect (where site.RegularPages ".Title" "!=" .Title) | union (site.RegularPages.Related . ) }}
       {{ $related = $related | shuffle | first 3 }}
-      {{ with $related }}
+      {{ if get(len $related) 0 }}
         <div class="section pb-0">
           <h2 class="h3 mb-12">{{ i18n "related_posts" }}</h2>
           <div class="row">
-            {{ range . }}
+            {{ range $related }}
               <div class="lg:col-4">
                 {{ partial "components/episodes-card" . }}
               </div>
             {{ end }}
           </div>
         </div>
+      {{ else }}
+          <p>No related post found.</p>
       {{ end }}
     </div>
   </section>
