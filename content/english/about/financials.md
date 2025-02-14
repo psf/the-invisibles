@@ -18,7 +18,10 @@ podcast operating costs. Read the details on our blog post [here](({{< ref "blog
 
 To provide transparency and accountability to the community, we're publishing details on how we are spending the funds.
 
-The following info is current as of: August 20, 2024.
+Bellow is a breakdown of our expenses for the year 2024. As of February 14, 2025 our balance is -234.44 USD.
+
+In January 2025, we became a member of Open Collective, and our expenses will be tracked through Open Collective going forward.
+Support and sponsor us through our [Open Collective fund](https://opencollective.com/pypodcats)!
 
 ## Summary of Expenses
 
@@ -32,7 +35,7 @@ The following info is current as of: August 20, 2024.
 | Dec 14, 2023  |         VEED          |     -49     |   CAD    |
 | Dec 19, 2023  |       Calendly        |   -65.38    |   USD    |
 | Jan 14, 2024  |      StreamYard       |     -49     |   USD    |
-| Jan 31, 2024  |   Calendly            |   -20.57    |   USD    |
+| Jan 31, 2024  |       Calendly        |   -20.57    |   USD    |
 | Feb 14, 2024  |      StreamYard       |     -49     |   USD    |
 | Mar 14, 2024  |      StreamYard       |     -49     |   USD    |
 | Apr 13, 2024  |       Calendly        |   -412.8    |   USD    |
@@ -40,8 +43,13 @@ The following info is current as of: August 20, 2024.
 | May 14, 2024  |      StreamYard       |     -49     |   USD    |
 | June 14, 2024 |      StreamYard       |     -49     |   USD    |
 | July 14, 2024 |      StreamYard       |     -49     |   USD    |
-|               |     **Expenses**      | **1308.52** | **USD**  |
-|               | **Remaining Balance** | **691.48**  | **USD**  |
+| Aug 14, 2024  |      StreamYard       |     -49     |   USD    |
+| Aug 31, 2024  |      StreamYard       |   -405.93   |   USD    |
+| Oct 2, 2024   |      domain name      |   -139.95   |   USD    |
+| Nov 4, 2024   |   Speaker Equipment   |   -61.04    |   USD    |
+| Nov 15, 2024  |        Veed.io        |    -384     |   CAD    |
+|               |     **Expenses**      | **2234.44** | **USD**  |
+|               | **Remaining Balance** | **-234.44** | **USD**  |
 
 ## Details of Each expenses
 
@@ -116,11 +124,12 @@ can have a better understanding of the effort and care that we put into producin
 
 Get in touch by writing to meow @ pypodcats dot live.
 
-## Stay in touch and support the Python Community
+## Stay in touch and support us
 
 - Subscribe to our podcast RSS feed: https://pypodcats.live/episodes/index.xml
+- Sponsor us on Open Collective: https://opencollective.com/pypodcats
 - Follow us on Twitter: https://twitter.com/pypodcats
 - Follow us on Mastodon: https://fosstodon.org/@pypodcats
 - Follow us on Bluesky: https://bsky.app/profile/pypodcats.live
-- Subscribe to The PSF YouTube: https://youtube.com/@thepsf
+- Subscribe to our YouTube: https://youtube.com/@PyPodcats
 - Contact us: meow@pypodcats.live

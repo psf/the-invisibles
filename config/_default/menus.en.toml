@@ -66,6 +66,10 @@ weight = 6
  url = "speakers/"
  weight = 4
 
+ [[main]]
+ name = "Donate"
+ url = "https://opencollective.com/pypodcats"
+ weight = 7
 # footer menu
 [[footer]]
 name = "About"
@@ -86,3 +90,8 @@ weight = 3
 name = "Python Software Foundation"
 url = "about/psf"
 weight = 3
+
+[[footer]]
+name = "Donate"
+url = "https://opencollective.com/pypodcats"
+weight = 2
