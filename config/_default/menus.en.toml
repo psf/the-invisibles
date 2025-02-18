@@ -40,6 +40,11 @@ name = "Python Software Foundation"
 url = "about/psf"
 weight = 5
 
+[[main]]
+parent = "About"
+name = "Disclosure Statement"
+url = "about/disclosures"
+weight = 6
 
 [[main]]
  name = "Episodes"
@@ -89,9 +94,14 @@ weight = 3
 [[footer]]
 name = "Python Software Foundation"
 url = "about/psf"
-weight = 3
+weight = 4
 
 [[footer]]
 name = "Donate"
 url = "https://opencollective.com/pypodcats"
 weight = 2
+
+[[footer]]
+name = "Disclosure Statement"
+url = "about/disclosures"
+weight = 5

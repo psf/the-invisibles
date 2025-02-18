@@ -27,8 +27,8 @@ As a PyPodcats team member, you should have access to the following:
 - [PyPodcats Google Drive](https://drive.google.com/drive/folders/1LoSeAn2iJaVUuYF2ac7_kHKyEKCORfeh) 🔐 
 - [PyPodcats Episodes on Google Drive](https://drive.google.com/drive/folders/1Lqnu_7Og5khMTa_k-QD3tlWF2MFypaAX) 🔐 
 - PyPodcats Speaker Info Form on the [PyPodcats Google Drive](https://drive.google.com/drive/folders/1LoSeAn2iJaVUuYF2ac7_kHKyEKCORfeh) 🔐 
-- [Veed.io](https://veed.io)
-- [StreamYard](https://streamyard.com)
+- [Veed.io](https://veed.cello.so/o8ZKNYc1twy)
+- [StreamYard](https://streamyard.com/pal/c/5633886810406912)
 - [Buffer](https://buffer.com)
 - [Calendly](https://calendly.com)
 

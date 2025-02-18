@@ -63,11 +63,11 @@ We registered our domain name (pypodcats.live) through internet.bs.
 
 ### StreamYard
 
-All of our episodes are recorded through StreamYard. (Professional subscription).
+All of our episodes are recorded through [StreamYard](https://streamyard.com/pal/c/5633886810406912). (Professional subscription).
 
 ### VEED
 
-All of our episodes are transcribed using veed.io. Each episode is first automatically transcribed, and then one of our team
+All of our episodes are transcribed using [veed.io](https://veed.cello.so/o8ZKNYc1twy). Each episode is first automatically transcribed, and then one of our team
 members would review the result, and make manual edits. Transcript are uploaded to the YouTube video, and to our website.
 Our podcast RSS feed include link to the transcripts using the <podcast:transcript /> tag. Transcription helps make
 our content more accessible to the wider audience.
