@@ -61,7 +61,7 @@ Here are some highlights from the past year from PyPodcats:
   received, and we were happy to see the community value diversity and inclusivity.
 
 - We received support from the Python Software Foundation to upload our videos on
-  [YouTube channel](https://www.youtube.com/playlist?list=PLFIcqSiijitiLEA3qxumx_ba2LNdd_sgs). Special thanks to
+  [YouTube channel](https://www.youtube.com/playlist?list=PLaDaF4VvYM2B7_mcWmTe9jL1zpi0q-p1E). Special thanks to
   Marie Nordin who has been helping us make sure the trailers and videos were uploaded and released to the PSF’s YouTube channel.
 
 - We received 2000 USD [in grants from The PSF](https://pypodcats.live/blog/thank_you_the_psf/) to help cover the operating costs
