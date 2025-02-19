@@ -18,7 +18,7 @@ First, we have a new host joining our team this year! We will keep her identity 
 
 2. She is an organizer of the PyLadies chapter in Paris 🇫🇷 and is passionate about the community.
 
-3. She enjoys Zumba classes and spending time with friends. Some of us had drinks with her after a confrence in Paris last year.
+3. She enjoys Zumba classes and spending time with friends. Some of us had drinks with her after a conference in Paris last year.
 
 The next announcement will be about our media platform. Thanks to the Python Software Foundation we have been posting our podcast episodes to their YouTube channel. Here is a recap:
 
