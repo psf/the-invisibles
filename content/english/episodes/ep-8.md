@@ -53,9 +53,9 @@ She has also given introductory python tutorials in several occasions.
   
 ---
 
-We interviewed Mojdeh Rastgoo, the newest member of PyPodcast!
+We interviewed Mojdeh Rastgoo, the newest member of PyPodcats!
 
-Since discovering Python and the open-source community, Mojdeh has been actively involved in the Python ecosystem. She gave her first tutorial in 2018 at EuroSciPy and has since contributed in many ways. She is a member of the PSF Code of Conduct Working Group, a co-organizer of PyLadies Paris, and now a host of PyPodcast!
+Since discovering Python and the open-source community, Mojdeh has been actively involved in the Python ecosystem. She gave her first tutorial in 2018 at EuroSciPy and has since contributed in many ways. She is a member of the PSF Code of Conduct Working Group, a co-organizer of PyLadies Paris, and now a host of PyPodcats!
 
 In this episode, Mojdeh shares more about herself and her passion for the community. We also take a look back at 2024, discuss our plans for 2025, and introduce a few new changes, including our Open Collective account, where you can support us.
 
