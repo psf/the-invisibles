@@ -55,8 +55,9 @@ She has also given introductory python tutorials in several occaisions.
 
 Sneak Peek of our chat with Mojdeh Rastgoo, hosted by Georgi Ker and Tereza Lofciu.
 
-Since discovering Python and open source communities, Mojdeh has been actively involved in the python community, since she gave her first tutorial in 2018.
-She is a member of PSF CoC working group, co organizer of PyLadies Paris and now PyPodcast host!!
+Since discovering Python and open source communities, Mojdeh has been actively involved in the python community.
+She gave her first tutorial in 2018 and has since contributed in many ways.
+She is a member of PSF CoC working group, co organizer of PyLadies Paris and now a host of PyPodcast!
 
 In this chat, we chat about last year, introduce our new member Mojdeh, and talk about our plans for 2025.
 
