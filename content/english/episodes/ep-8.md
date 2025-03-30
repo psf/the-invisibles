@@ -8,7 +8,7 @@ draft: false
 tags: ["python", "iran", "france", "pyladies", "psf-coc-wg", "pypodcats", "community", "project manager"]
 publish_date: 2025-04-15T00:00:00-07:00
 podcast_file: "/audio/hidden-figures-ep8.mp3"
-podcast_duration: 1647
+podcast_duration: 1647.6
 episode_image: "images/ep8-mojdeh.png"
 podcast_bytes: "66615526" # the length of the episode in bytes
 images: ["images/ep8-mojdeh.png", "images/mojdeh.jpg"]
@@ -19,7 +19,7 @@ season: 1
 transcript: '/transcript/hidden-figures-of-python-ep8.srt'
 episode_type: full
 layout: episode
-youtube_id: "EBeEEpk_qpQ"
+youtube_id: "Gh1OOv2qtTA"
   
 speaker:
   url: "/speakers/mojdeh-rastgoo/"

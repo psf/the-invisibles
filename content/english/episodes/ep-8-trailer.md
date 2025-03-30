@@ -8,7 +8,7 @@ draft: false
 tags: ["python", "iran", "france", "pyladies", "psf-coc-wg", "pypodcats", "community", "project manager"]
 publish_date: 2025-04-10T00:00:00-08:00
 podcast_file: "/audio/hidden-figures-ep8-trailer.mp3"
-podcast_duration: 97
+podcast_duration: 98
 episode_image: "images/ep8-mojdeh.png"
 podcast_bytes: "3889257" # the length of the episode in bytes
 images: ["images/ep8-mojdeh.png", "images/mojdeh.jpg"]
@@ -19,7 +19,7 @@ season: 1
 transcript: '/transcript/hidden-figures-of-python-ep8-trailer.srt'
 episode_type: trailer
 layout: episode
-youtube_id: "fjDIe5UzsiY"
+youtube_id: "qetbNfnCkJM"
   
 speaker:
   url: "/speakers/mojdeh-rastgoo/"
@@ -58,6 +58,6 @@ Sneak Peek of our chat with Mojdeh Rastgoo, hosted by Georgi Ker and Tereza Lofc
 Since discovering Python and open source communities, Mojdeh has been actively involved in the python community, since she gave her first tutorial in 2018.
 She is a member of PSF CoC working group, co organizer of PyLadies Paris and now PyPodcast host!!
 
-In this chat, Mojdeh tells us more about herself and her passion about the community. 
+In this chat, we chat about last year, introduce our new member Mojdeh, and talk about our plans for 2025.
 
 Full episode is coming on **April 15, 2025**! Subscribe to our podcast now!
