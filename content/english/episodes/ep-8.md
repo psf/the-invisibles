@@ -59,7 +59,7 @@ Since discovering Python and the open-source community, Mojdeh has been actively
 
 In this episode, Mojdeh shares more about herself and her passion for the community. We also take a look back at 2024, discuss our plans for 2025, and introduce a few new changes, including our Open Collective account, where you can support us.
 
-Be sure to listen to the episode to hear about our plans and get to know your new host Mojdeh !
+Be sure to listen to the episode to hear about our plans and get to know your new host Mojdeh!
 
 ## Topic discussed
 
