@@ -28,11 +28,11 @@ speaker:
   description: "
 Mojdeh Rastgoo is a Machine Learning Data Scientist and Project Manager based in Pris.
 She has a PhD in computer sicence and has been an active memnber of the community since 2018. 
-She is a co organizer of PyLadies Paris and member of PSF Code of Conduct Working-Group since mid 2023.
+She is a co-organizer of PyLadies Paris and member of PSF Code of Conduct Working Group since mid 2023.
 And recently she has joined the PyPodcats team as the fifth organizer.  
 
-She participated in organization of EuroSciPy 2023/2024 conference, JupyterCon 2023, PyCon.DE & PyData Berlin 2024, and PyLadies Paris meetups since 2022. 
-She has also given introductory python tutorials in several occaisions.
+She participated in organization of EuroSciPy 2023/2024 conference, JupyterCon 2023, PyCon DE & PyData Berlin 2024, and PyLadies Paris meetups since 2022.
+She has also given introductory python tutorials in several occasions.
 "
   social:
   - name: github
@@ -55,7 +55,7 @@ She has also given introductory python tutorials in several occaisions.
 
 We interviewed Mojdeh Rastgoo, the newest member of PyPodcast!
 
-Since discovering Python and the open-source community, Mojdeh has been actively involved in the Python ecosystem. She gave her first tutorial in 2018 and has since contributed in many ways. She is a member of the PSF Code of Conduct Working Group, a co-organizer of PyLadies Paris, and now a host of PyPodcast!
+Since discovering Python and the open-source community, Mojdeh has been actively involved in the Python ecosystem. She gave her first tutorial in 2018 at EuroSciPy and has since contributed in many ways. She is a member of the PSF Code of Conduct Working Group, a co-organizer of PyLadies Paris, and now a host of PyPodcast!
 
 In this episode, Mojdeh shares more about herself and her passion for the community. We also take a look back at 2024, discuss our plans for 2025, and introduce a few new changes, including our Open Collective account, where you can support us.
 
@@ -81,13 +81,18 @@ Be sure to listen to the episode to hear about our plans and get to know your ne
 
 ## Links from the show
 
-- https://pypodcats.live/blog/kickstart_2025/
-- https://opencollective.com/pypodcats
+- [PyPodcats Kickstart 2025](https://pypodcats.live/blog/kickstart_2025/)
+- [PyPodcats OpenCollective](https://opencollective.com/pypodcats)
+- [Erasmus+ - Erasmus Mundus Master Program](https://erasmus-plus.ec.europa.eu/opportunities/opportunities-for-individuals/students/erasmus-mundus-joint-masters)
+- [Think again by Adam Grant](https://adamgrant.net/book/think-again/)
+- [PyPodcats episode 1 with Joanna Jablonski](https://pypodcats.live/episodes/ep-1/)
+- [PyPodcats episode 3 with Vicky Twomey-Lee](https://pypodcats.live/episodes/ep-3/)
+- [PyPodcats episode 4 with Jessica Tegner](https://pypodcats.live/episodes/ep-4/)
 
 ## Links for PyLadies Paris 
 
-- PyLadies paris meetup: https://www.meetup.com/fr-FR/pyladiesparis/
-- PyLadies Paris linkedin: https://www.linkedin.com/company/pyladies-paris
+- [PyLadies paris meetup](https://www.meetup.com/fr-FR/pyladiesparis/)
+- [PyLadies Paris linkedin](https://www.linkedin.com/company/pyladies-paris)
 
 
 

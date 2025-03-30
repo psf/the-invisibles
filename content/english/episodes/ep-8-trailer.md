@@ -24,15 +24,15 @@ youtube_id: "qetbNfnCkJM"
 speaker:
   url: "/speakers/mojdeh-rastgoo/"
   title: "Mojdeh Rastgoo"
-  image: "/images/mojdeh_rastgoo.jpeg"
+  image: "/images/mojdeh.jpg"
   description: "
-Mojdeh Rastgoo is a Machine Learning Data Scientist and Project Manager based in Pris.
-She has a PhD in computer sicence and has been an active memnber of the community since 2018. 
-She is a co organizer of PyLadies Paris and member of PSF Code of Conduct Working-Group since mid 2023.
+Mojdeh Rastgoo is a Machine Learning Data Scientist and Project Manager based in Paris.
+She has a PhD in Computer Science and has been an active member of the sicentific python and open-source community since 2018.
+She is a co-organizer of PyLadies Paris and member of PSF Code of Conduct Working Group since mid 2023.
 And recently she has joined the PyPodcats team as the fifth organizer.  
 
 She participated in organization of EuroSciPy 2023/2024 conference, JupyterCon 2023, PyCon.DE & PyData Berlin 2024, and PyLadies Paris meetups since 2022. 
-She has also given introductory python tutorials in several occaisions.
+She has also given introductory Python tutorials in several occasions.
 "
   social:
   - name: github
@@ -53,7 +53,7 @@ She has also given introductory python tutorials in several occaisions.
 
 ---
 
-Sneak Peek of our chat with Mojdeh Rastgoo, hosted by Georgi Ker and Tereza Lofciu.
+Sneak Peek of our chat with Mojdeh Rastgoo, hosted by Georgi Ker and Tereza Iofciu.
 
 Since discovering Python and open source communities, Mojdeh has been actively involved in the python community.
 She gave her first tutorial in 2018 and has since contributed in many ways.
