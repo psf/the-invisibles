@@ -26,7 +26,7 @@ speaker:
   title: "Mojdeh Rastgoo"
   image: "/images/mojdeh.jpg"
   description: "
-Mojdeh Rastgoo is a Machine Learning Data Scientist and Project Manager based in Pris.
+Mojdeh Rastgoo is a Machine Learning Data Scientist and Project Manager based in Paris.
 She has a PhD in computer sicence and has been an active memnber of the community since 2018. 
 She is a co-organizer of PyLadies Paris and member of PSF Code of Conduct Working Group since mid 2023.
 And recently she has joined the PyPodcats team as the fifth organizer.  
