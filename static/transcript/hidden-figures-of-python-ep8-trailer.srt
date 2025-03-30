@@ -1,0 +1,143 @@
+1
+00:00:00,160 --> 00:00:02,580
+We should talk more about Mojdeh today.
+
+2
+00:00:06,880 --> 00:00:09,512
+We are now five organizers.
+
+3
+00:00:09,513 --> 00:00:13,336
+My close friends call me Moj and my full name is Mojdeh.
+
+4
+00:00:13,337 --> 00:00:14,880
+I am really happy to be part
+
+5
+00:00:14,881 --> 00:00:17,120
+of PyPodcats team this year.
+
+6
+00:00:17,121 --> 00:00:19,216
+So I was fortunate enough to get a
+
+7
+00:00:19,217 --> 00:00:22,872
+scholarship and this scholarship I think still exists.
+
+8
+00:00:22,873 --> 00:00:25,240
+It's called Erasmus Mundus Scholarship.
+
+9
+00:00:25,241 --> 00:00:28,952
+I knew about Erasmus as the Erasmus parties,
+
+10
+00:00:28,953 --> 00:00:30,824
+so there were a lot of parties.
+
+11
+00:00:30,825 --> 00:00:32,768
+Currently I'm working as a data
+
+12
+00:00:32,769 --> 00:00:36,120
+scientist project manager in Saint-Gobain.
+
+13
+00:00:36,121 --> 00:00:37,520
+It's not really clear what does
+
+14
+00:00:37,521 --> 00:00:39,260
+Python have to do with glass?
+
+15
+00:00:40,800 --> 00:00:41,824
+I'm really looking.
+
+16
+00:00:41,825 --> 00:00:43,024
+Through my window right now.
+
+17
+00:00:43,025 --> 00:00:45,320
+I don't see any Python code.
+
+18
+00:00:45,321 --> 00:00:47,680
+No one knows everything.
+
+19
+00:00:47,681 --> 00:00:49,192
+You have all the language models.
+
+20
+00:00:49,193 --> 00:00:50,696
+You don't need to know everything anymore.
+
+21
+00:00:50,697 --> 00:00:51,832
+Yeah, exactly.
+
+22
+00:00:51,833 --> 00:00:54,400
+It is important that even if you hear it from
+
+23
+00:00:54,401 --> 00:00:56,800
+LLM or read it from LLM, you question it.
+
+24
+00:00:56,801 --> 00:00:59,948
+Is there any episode that you particularly
+
+25
+00:00:59,949 --> 00:01:02,796
+like from last year from the PyPodcats?
+
+26
+00:01:02,797 --> 00:01:04,884
+I mean the episode that stays a lot
+
+27
+00:01:04,885 --> 00:01:07,260
+in my mind is the one with Vicky.
+
+28
+00:01:07,261 --> 00:01:11,084
+I also like the one that Real Python
+
+29
+00:01:11,085 --> 00:01:11,916
+Joanna.
+
+30
+00:01:11,917 --> 00:01:14,644
+For me, I didn't know her before the
+
+31
+00:01:14,645 --> 00:01:17,028
+podcast and I was like, whoa, really?
+
+32
+00:01:17,029 --> 00:01:19,860
+I get to know a new person. That was. Yeah, that was.
+
+33
+00:01:19,861 --> 00:01:20,720
+Really nice.
+
+34
+00:01:21,460 --> 00:01:25,220
+This session to introduce Mojdeh and tell you about last year
+
+35
+00:01:25,221 --> 00:01:27,592
+a little bit, but very a little bit and also a
+
+36
+00:01:27,593 --> 00:01:29,320
+little bit more about the outlook for next year.
