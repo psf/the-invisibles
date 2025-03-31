@@ -91,7 +91,7 @@ Be sure to listen to the episode to hear about our plans and get to know your ne
 
 ## Links for PyLadies Paris 
 
-- [PyLadies paris meetup](https://www.meetup.com/fr-FR/pyladiesparis/)
+- [PyLadies Paris meetup](https://www.meetup.com/fr-FR/pyladiesparis/)
 - [PyLadies Paris linkedin](https://www.linkedin.com/company/pyladies-paris)
 
 
