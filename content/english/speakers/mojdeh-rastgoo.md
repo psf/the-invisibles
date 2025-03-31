@@ -25,5 +25,5 @@ social:
 ---
 
 Mojdeh is a PyLadies Paris co-organizer, member of PSF Code of Conduct Working Group and a co-host of PyPodcats. 
-She has contributed to organizing several Python conferences, including EuroSciPy, JupyterCon, and PyCon.DE & PyData Berlin.
+She has contributed to organizing several Python conferences, including EuroSciPy, JupyterCon, and PyCon DE & PyData Berlin.
 With a PhD in Computer Science, she is passionate about fostering diversity and inclusion in the community. 
