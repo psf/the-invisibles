@@ -75,7 +75,7 @@ Be sure to listen to the episode to hear about our plans and get to know your ne
 - Personal projects 
 - Growth mindset and changing perspectives
 - Personal interests and hobbies 
-- Podcats reflection and plans for the future
+- PyPodcats reflection and plans for the future
 - Founding and supports
 
 
