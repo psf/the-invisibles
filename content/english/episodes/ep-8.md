@@ -32,7 +32,7 @@ She is a co-organizer of PyLadies Paris and member of PSF Code of Conduct Workin
 And recently she has joined the PyPodcats team as the fifth organizer.  
 
 She participated in organization of EuroSciPy 2023/2024 conference, JupyterCon 2023, PyCon DE & PyData Berlin 2024, and PyLadies Paris meetups since 2022.
-She has also given introductory python tutorials in several occasions.
+She has also given introductory Python tutorials in several occasions.
 "
   social:
   - name: github
