@@ -2,11 +2,11 @@
 title: "Episode 8: with Mojdeh Rastgoo"
 meta_title: "Episode 8 with Mojdeh Rastgoo"
 description: "Learn about Mojdeh's journey. Since discovering Python and open source community in 2016, Mojdeh has been actively contributing to the community and striving for diversity and inclusion by pariticapting in DEI, CoC communities and co-organzing meetups"
-date: 2025-04-15T05:00:00-07:00
+date: 2025-04-15T10:00:00+01:00
 host: ["Tereza", "Georgi"]
 draft: false
 tags: ["python", "iran", "france", "pyladies", "psf-coc-wg", "pypodcats", "community", "project manager"]
-publish_date: 2025-04-15T00:00:00-07:00
+publish_date: 2025-04-15T10:00:00+01:00
 podcast_file: "/audio/hidden-figures-ep8.mp3"
 podcast_duration: 1647.6
 episode_image: "images/ep8-mojdeh.png"

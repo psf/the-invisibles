@@ -2,11 +2,11 @@
 title: "Trailer: Episode 8 with Mojdeh Rastgoo"
 meta_title: "Trailer: Episode 8 with Mojdeh Rastgoo"
 description: "A preview of our chat with Mojdeh Rastgoo. Watch the full episode on April 15, 2025"
-date: 2025-04-10T00:00:00-08:00
+date: 2025-04-10T10:00:00+01:00
 host: ["Tereza", "Georgi"]
 draft: false
 tags: ["python", "iran", "france", "pyladies", "psf-coc-wg", "pypodcats", "community", "project manager"]
-publish_date: 2025-04-10T00:00:00-08:00
+publish_date: 2025-04-10T10:00:00+01:00
 podcast_file: "/audio/hidden-figures-ep8-trailer.mp3"
 podcast_duration: 98
 episode_image: "images/ep8-mojdeh.png"
