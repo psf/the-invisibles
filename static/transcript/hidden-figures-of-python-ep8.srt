@@ -1,0 +1,2343 @@
+1
+00:00:20,880 --> 00:00:24,544
+Welcome to PyPodcats for our first episode of
+
+2
+00:00:24,545 --> 00:00:28,192
+2025 in the Hidden Figures of Python series.
+
+3
+00:00:28,193 --> 00:00:30,466
+The purpose of this podcast, as you
+
+4
+00:00:30,467 --> 00:00:32,930
+might know, is to highlight voices from
+
+5
+00:00:32,931 --> 00:00:35,890
+underrepresented group members of the Python community.
+
+6
+00:00:35,891 --> 00:00:37,514
+Today we have a special guest,
+
+7
+00:00:37,515 --> 00:00:41,450
+Mojdeh, who just joined our organizing
+
+8
+00:00:41,451 --> 00:00:43,154
+She's joining our organizing group.
+
+9
+00:00:43,155 --> 00:00:46,914
+And today's podcast is a little bit about
+
+10
+00:00:46,915 --> 00:00:50,714
+short recap of 2024, introducing Mojdeh and letting
+
+11
+00:00:50,715 --> 00:00:53,510
+you know what are our plans for 2025.
+
+12
+00:00:54,050 --> 00:00:56,818
+And also if you want to support
+
+13
+00:00:56,819 --> 00:00:59,634
+the podcast, how can you do that?
+
+14
+00:00:59,635 --> 00:01:03,986
+We are now five organizers and we did want to
+
+15
+00:01:03,987 --> 00:01:06,162
+have this one episode like we did last year.
+
+16
+00:01:06,163 --> 00:01:08,842
+Our first episode was with all the hosts
+
+17
+00:01:08,843 --> 00:01:11,058
+in one, kicking it off and everything.
+
+18
+00:01:11,059 --> 00:01:14,706
+But it turned out to be impossible to get all the five of
+
+19
+00:01:14,707 --> 00:01:18,610
+us in one time zone in one room at the same time.
+
+20
+00:01:18,611 --> 00:01:21,290
+We are so distributed all over the world.
+
+21
+00:01:21,291 --> 00:01:25,220
+So today is just Georgi, me, and Mojdeh.
+
+22
+00:01:25,221 --> 00:01:27,396
+We can start with a short round of introduction.
+
+23
+00:01:27,397 --> 00:01:28,252
+Maybe some.
+
+24
+00:01:28,253 --> 00:01:29,636
+Maybe some of you still remember
+
+25
+00:01:29,637 --> 00:01:31,780
+Georgi from the previous episodes.
+
+26
+00:01:31,781 --> 00:01:33,196
+Georgi, do you want to say what
+
+27
+00:01:33,197 --> 00:01:34,284
+are you up to these days?
+
+28
+00:01:34,285 --> 00:01:35,484
+Who are you these days?
+
+29
+00:01:35,485 --> 00:01:37,228
+Are you the same person like last year
+
+30
+00:01:37,229 --> 00:01:39,324
+or have you changed a little bit?
+
+31
+00:01:39,325 --> 00:01:41,980
+Yep, I still have my nose, my eyes and
+
+32
+00:01:41,981 --> 00:01:45,372
+my mouth and still doing the same thing.
+
+33
+00:01:45,373 --> 00:01:49,340
+One of the Directors for PSF and this year I pick up.
+
+34
+00:01:49,341 --> 00:01:50,806
+I think actually last year I picked up
+
+35
+00:01:50,807 --> 00:01:54,422
+a new role as the Treasurer too.
+
+36
+00:01:54,423 --> 00:01:57,830
+Actually, both me and Tereza, we are leading
+
+37
+00:01:57,831 --> 00:02:01,190
+the Diversity and Inclusion workgroup this year.
+
+38
+00:02:01,191 --> 00:02:04,070
+So that's something new on our side.
+
+39
+00:02:04,071 --> 00:02:06,246
+So Tereza, you want to tell everyone a little
+
+40
+00:02:06,247 --> 00:02:08,310
+bit about what you are doing this year?
+
+41
+00:02:08,311 --> 00:02:11,590
+Yeah, I guess for me a lot of things have changed.
+
+42
+00:02:11,591 --> 00:02:13,590
+I took a break from the Code of Conduct work
+
+43
+00:02:13,591 --> 00:02:20,508
+group and I also am experimenting with an unconventional, let's
+
+44
+00:02:20,509 --> 00:02:24,548
+say, work path, so to say I'm trying to become,
+
+45
+00:02:24,549 --> 00:02:29,276
+I'm working this year as a freelancer compared to the usual
+
+46
+00:02:29,277 --> 00:02:33,868
+9 to 5, which is hard because I live in Germany
+
+47
+00:02:33,869 --> 00:02:37,360
+and Germany is not a country that encourages freelancing.
+
+48
+00:02:38,100 --> 00:02:39,796
+So for a person that does not like
+
+49
+00:02:39,797 --> 00:02:43,032
+to do paperwork, this is a especially hard.
+
+50
+00:02:43,033 --> 00:02:43,856
+That is true.
+
+51
+00:02:43,857 --> 00:02:46,224
+Paperwork is kind of tough.
+
+52
+00:02:46,225 --> 00:02:47,264
+Yeah.
+
+53
+00:02:47,265 --> 00:02:49,616
+So I'm freelancing as a Data Career
+
+54
+00:02:49,617 --> 00:02:51,456
+Coach, in case people are wondering.
+
+55
+00:02:51,457 --> 00:02:51,976
+Right.
+
+56
+00:02:51,977 --> 00:02:54,136
+I actually took a break this year too.
+
+57
+00:02:54,137 --> 00:02:58,360
+I'm just really, really tired and I feel like I really
+
+58
+00:02:58,361 --> 00:03:01,760
+needed a break and sort things out and do some cool
+
+59
+00:03:01,761 --> 00:03:04,344
+projects which I'm not going to review right now.
+
+60
+00:03:04,345 --> 00:03:07,512
+Until when it's out, then we can talk about it.
+
+61
+00:03:07,513 --> 00:03:08,408
+But you know what?
+
+62
+00:03:08,409 --> 00:03:10,416
+We should talk more about Mojdeh
+
+63
+00:03:10,417 --> 00:03:14,020
+today because she is our new member.
+
+64
+00:03:14,021 --> 00:03:15,900
+And there's a lot about Mojdeh
+
+65
+00:03:15,901 --> 00:03:18,500
+that we should actually know.
+
+66
+00:03:18,501 --> 00:03:22,388
+So should we call you Moj or Mojdeh?
+
+67
+00:03:22,389 --> 00:03:23,236
+As you wish.
+
+68
+00:03:23,237 --> 00:03:25,508
+My close friends call me Moj, but.
+
+69
+00:03:25,509 --> 00:03:27,364
+And my full name is Mojdeh, so.
+
+70
+00:03:27,365 --> 00:03:30,480
+And Mojdeh sometimes is difficult, so Moj is fine.
+
+71
+00:03:31,300 --> 00:03:33,076
+Okay, Mojdeh, you could just tell
+
+72
+00:03:33,077 --> 00:03:34,560
+us a little bit about yourself.
+
+73
+00:03:35,300 --> 00:03:37,236
+Yeah, I am really happy to be
+
+74
+00:03:37,237 --> 00:03:39,800
+part of PyPodcats team this year.
+
+75
+00:03:40,420 --> 00:03:42,460
+So I'm originally from Iran.
+
+76
+00:03:42,461 --> 00:03:48,370
+I'm Iranian, I'm living in Paris and I'm 37.
+
+77
+00:03:50,270 --> 00:03:52,078
+Getting close to 40.
+
+78
+00:03:52,079 --> 00:03:54,850
+Then what about me?
+
+79
+00:03:55,870 --> 00:03:59,022
+I have a Bachelor in Electrical Electronics, master in
+
+80
+00:03:59,023 --> 00:04:04,126
+Computer Vision and PhD in Computer Vision and currently I'm working
+
+81
+00:04:04,127 --> 00:04:08,214
+as a data scientist project manager in Saint-Gobain.
+
+82
+00:04:08,215 --> 00:04:11,326
+And I love the community, so I try to
+
+83
+00:04:11,327 --> 00:04:14,088
+be part of the community whenever I can.
+
+84
+00:04:14,089 --> 00:04:15,480
+You are also part of the Code of
+
+85
+00:04:15,481 --> 00:04:17,911
+Conduct workgroup with The PSF, right?
+
+86
+00:04:17,912 --> 00:04:19,504
+Yes, I am part of the Code
+
+87
+00:04:19,505 --> 00:04:21,007
+of Conduct and thank you, Tereza.
+
+88
+00:04:21,008 --> 00:04:22,760
+You introduced me to the work group.
+
+89
+00:04:22,761 --> 00:04:24,600
+I think it's been two years now and
+
+90
+00:04:24,601 --> 00:04:26,824
+yeah, I'm still working with the work group.
+
+91
+00:04:27,016 --> 00:04:30,120
+I know what Saint-Gobain does, but maybe you can
+
+92
+00:04:30,121 --> 00:04:32,120
+actually talk a little bit because I have this
+
+93
+00:04:32,121 --> 00:04:37,440
+impression that they only do glasses, windows and glass.
+
+94
+00:04:37,441 --> 00:04:39,658
+So I was like, are you doing windows
+
+95
+00:04:39,659 --> 00:04:42,874
+and glass. Data about windows and glass?
+
+96
+00:04:42,875 --> 00:04:43,658
+Yeah.
+
+97
+00:04:43,659 --> 00:04:47,666
+So this year is the 360 anniversary of
+
+98
+00:04:47,667 --> 00:04:52,978
+Saint-Gobain and Saint-Gobain is umbrella that they doing.
+
+99
+00:04:52,979 --> 00:04:55,170
+They produce glass, originally started with that.
+
+100
+00:04:55,171 --> 00:04:57,282
+But any other construction materials.
+
+101
+00:04:57,283 --> 00:04:59,410
+As a data scientist, any projects for any other
+
+102
+00:04:59,411 --> 00:05:02,682
+business of Saint-Gobain that they require analysis
+
+103
+00:05:02,683 --> 00:05:04,922
+of their data or machine learning model.
+
+104
+00:05:04,923 --> 00:05:07,186
+So it can be for the glass furnace, it
+
+105
+00:05:07,187 --> 00:05:10,390
+can be for distribution, e commerce, you name.
+
+106
+00:05:11,350 --> 00:05:12,830
+Whoa, interesting.
+
+107
+00:05:12,831 --> 00:05:14,150
+So most.
+
+108
+00:05:14,151 --> 00:05:17,222
+There is one thing that I'm curious about a little bit.
+
+109
+00:05:17,223 --> 00:05:18,606
+So you said you are from Iran.
+
+110
+00:05:18,607 --> 00:05:22,090
+I think all of us here are not from where we live.
+
+111
+00:05:22,790 --> 00:05:24,134
+So we're from another place.
+
+112
+00:05:24,135 --> 00:05:27,270
+How did you get to Europe or
+
+113
+00:05:27,271 --> 00:05:28,774
+why did you come to Europe?
+
+114
+00:05:28,775 --> 00:05:30,090
+That's a nice question.
+
+115
+00:05:30,710 --> 00:05:32,806
+So I was fortunate enough to get a
+
+116
+00:05:32,807 --> 00:05:36,478
+scholarship and this scholarship I think still exists.
+
+117
+00:05:36,479 --> 00:05:39,502
+It's called Erasmus Mundus Scholarship for Master
+
+118
+00:05:39,503 --> 00:05:44,530
+program and they provide specific scholarship for
+
+119
+00:05:44,531 --> 00:05:47,010
+For any students outside of Europe.
+
+120
+00:05:47,011 --> 00:05:50,306
+So I was lucky enough to get into one program
+
+121
+00:05:50,307 --> 00:05:53,034
+and the program is an amazing program because it allows
+
+122
+00:05:53,035 --> 00:05:57,730
+you to travel through different countries and different universities and
+
+123
+00:05:57,731 --> 00:06:00,866
+so you get to make new friends and then if
+
+124
+00:06:00,867 --> 00:06:04,350
+you're lucky, you get to stay and continue for thesis.
+
+125
+00:06:05,410 --> 00:06:07,090
+I remember The Erasmus program.
+
+126
+00:06:07,091 --> 00:06:09,970
+When I was doing my PhD in Hannover, it was.
+
+127
+00:06:09,971 --> 00:06:13,842
+I knew about Erasmus as the Erasmus parties.
+
+128
+00:06:13,843 --> 00:06:15,850
+So there were a lot of parties.
+
+129
+00:06:15,851 --> 00:06:21,710
+Yeah, obviously there are, but you have to study too.
+
+130
+00:06:24,170 --> 00:06:28,746
+So tell me a little bit about how you get to start.
+
+131
+00:06:28,747 --> 00:06:31,466
+Start to get involved with Python, the
+
+132
+00:06:31,467 --> 00:06:34,110
+language or even like the Python community.
+
+133
+00:06:35,130 --> 00:06:42,270
+Yeah, so I joined Euro SciPy conference back in 2016.
+
+134
+00:06:42,890 --> 00:06:47,502
+So and then yeah, I started really using Python
+
+135
+00:06:47,503 --> 00:06:50,278
+from then and then getting to know the community
+
+136
+00:06:50,279 --> 00:06:52,950
+and this conference was a great opportunity to meet
+
+137
+00:06:52,951 --> 00:06:57,190
+a lot of open source contributors that they were
+
+138
+00:06:57,191 --> 00:07:02,470
+also teaching introduction to Python and scientific Python packages.
+
+139
+00:07:02,471 --> 00:07:05,910
+So since then I got to know the community and
+
+140
+00:07:05,911 --> 00:07:10,638
+then I helped a couple of years after helping organizing
+
+141
+00:07:10,639 --> 00:07:13,542
+the same conference and then we had a chance to
+
+142
+00:07:13,543 --> 00:07:16,516
+have JupyterCon in Paris a couple of years ago.
+
+143
+00:07:16,517 --> 00:07:24,092
+So we helped organizing JupyterCon and then from there, yes,
+
+144
+00:07:24,093 --> 00:07:26,932
+I was part of the community and trying to help.
+
+145
+00:07:26,933 --> 00:07:31,636
+And also I think within Euro SciPy I
+
+146
+00:07:31,637 --> 00:07:35,012
+got to know about PyLadies and later on
+
+147
+00:07:35,013 --> 00:07:37,468
+I became a member of PyLadies Paris.
+
+148
+00:07:37,469 --> 00:07:40,100
+So that was really nice.
+
+149
+00:07:40,101 --> 00:07:41,480
+Which year was that?
+
+150
+00:07:42,440 --> 00:07:44,894
+So this was 2020.
+
+151
+00:07:44,895 --> 00:07:46,152
+2020.
+
+152
+00:07:46,153 --> 00:07:47,344
+Oh wow.
+
+153
+00:07:47,345 --> 00:07:48,928
+I'm actually really curious.
+
+154
+00:07:48,929 --> 00:07:51,880
+I think for a lot of people it's not really
+
+155
+00:07:51,881 --> 00:07:54,340
+clear what does Python have to do with glass?
+
+156
+00:07:57,400 --> 00:07:59,560
+I'm really looking through my window right now.
+
+157
+00:07:59,561 --> 00:08:04,100
+I don't see any Python code, hidden messages.
+
+158
+00:08:04,840 --> 00:08:06,776
+Maybe in the future you will have like
+
+159
+00:08:06,777 --> 00:08:08,540
+a screen as a glass and then.
+
+160
+00:08:09,640 --> 00:08:11,600
+Is that what you're working on?
+
+161
+00:08:11,601 --> 00:08:16,358
+Unfortunately, no, no, not yet. Not yet.
+
+162
+00:08:16,359 --> 00:08:18,910
+No, no, no, it's.
+
+163
+00:08:18,911 --> 00:08:21,414
+I think it's. It can happen.
+
+164
+00:08:21,415 --> 00:08:23,798
+I think it's the life of a lot of people
+
+165
+00:08:23,799 --> 00:08:28,086
+actually currently in tech and I mean in the community
+
+166
+00:08:28,087 --> 00:08:32,650
+that yes, you have your carreer that is in industry
+
+167
+00:08:33,350 --> 00:08:35,446
+and then you also like the community.
+
+168
+00:08:35,447 --> 00:08:36,885
+So you try to be active in.
+
+169
+00:08:36,886 --> 00:08:40,666
+But your company, where you're working, your
+
+170
+00:08:40,667 --> 00:08:43,738
+institute is using Python for research or.
+
+171
+00:08:43,739 --> 00:08:44,714
+Sure, sure.
+
+172
+00:08:44,715 --> 00:08:47,026
+We have, I think we have research centers,
+
+173
+00:08:47,027 --> 00:08:49,230
+we have data science team, we have.
+
+174
+00:08:50,330 --> 00:08:51,546
+Yeah, we do.
+
+175
+00:08:51,547 --> 00:08:54,522
+We also do a lot of internal development.
+
+176
+00:08:54,523 --> 00:08:57,858
+For instance, I mentioned one that. Yeah.
+
+177
+00:08:57,859 --> 00:09:00,050
+How to optimize the energy consumption,
+
+178
+00:09:00,051 --> 00:09:02,066
+how to reduce the CO2 footprint.
+
+179
+00:09:02,067 --> 00:09:05,110
+So these are things that we do.
+
+180
+00:09:05,111 --> 00:09:07,590
+I think this is interesting because most of the
+
+181
+00:09:07,591 --> 00:09:10,070
+time when we are in our little bubbles in
+
+182
+00:09:10,071 --> 00:09:12,598
+tech, we usually only interact with people that build
+
+183
+00:09:12,599 --> 00:09:17,126
+software and very few people sometimes you meet that
+
+184
+00:09:17,127 --> 00:09:23,782
+are coming from a hardware also producing hardware industry
+
+185
+00:09:23,783 --> 00:09:26,486
+and that's a little bit more manufacturing and so
+
+186
+00:09:26,487 --> 00:09:29,574
+it's always interesting to see the use cases.
+
+187
+00:09:29,575 --> 00:09:32,846
+Sometimes I think we also have guests who actually
+
+188
+00:09:32,847 --> 00:09:35,936
+fiddle with more on like the IoT side.
+
+189
+00:09:35,937 --> 00:09:38,480
+And it's also interesting because these are
+
+190
+00:09:38,481 --> 00:09:42,192
+things that it's not commonly talked about.
+
+191
+00:09:42,193 --> 00:09:44,592
+We are usually talk mostly about the data,
+
+192
+00:09:44,593 --> 00:09:47,264
+talking about the language and not really about
+
+193
+00:09:47,265 --> 00:09:49,792
+something else that Python can be used for.
+
+194
+00:09:49,793 --> 00:09:51,920
+So that is why it's actually very
+
+195
+00:09:51,921 --> 00:09:54,480
+interesting to know more about that.
+
+196
+00:09:54,481 --> 00:09:56,848
+But I have another question to ask
+
+197
+00:09:56,849 --> 00:10:00,980
+you, which is more about PyLadies Paris.
+
+198
+00:10:00,981 --> 00:10:03,524
+I mean, not many people actually
+
+199
+00:10:03,525 --> 00:10:06,200
+knew that I'm French, but.
+
+200
+00:10:07,460 --> 00:10:11,516
+I'm French, but I live in Netherlands and I've
+
+201
+00:10:11,517 --> 00:10:16,228
+never actually been to any PyLadies Paris event.
+
+202
+00:10:16,229 --> 00:10:17,960
+Oh, we have to invite you.
+
+203
+00:10:18,660 --> 00:10:19,876
+When is the next time that
+
+204
+00:10:19,877 --> 00:10:22,260
+you're planning to travel to Paris?
+
+205
+00:10:22,261 --> 00:10:25,764
+Well, I actually do go to France quite often,
+
+206
+00:10:25,765 --> 00:10:28,936
+going back like a few times a year. Yeah.
+
+207
+00:10:28,937 --> 00:10:30,144
+So tell me a little bit more.
+
+208
+00:10:30,145 --> 00:10:34,792
+Like, how often does the PyLadies Paris events
+
+209
+00:10:34,793 --> 00:10:36,880
+go on and what do you do?
+
+210
+00:10:36,881 --> 00:10:37,496
+Yeah.
+
+211
+00:10:37,497 --> 00:10:40,088
+So the chapter existed way before I joined.
+
+212
+00:10:40,089 --> 00:10:45,848
+And so I think during COVID the organizers
+
+213
+00:10:45,849 --> 00:10:47,776
+organized a couple of online events and I
+
+214
+00:10:47,777 --> 00:10:50,384
+joined just at 2020, just after Covid.
+
+215
+00:10:50,385 --> 00:10:54,668
+And since then we started with as two organizers,
+
+216
+00:10:54,669 --> 00:10:56,468
+then we became three and now we are five.
+
+217
+00:10:56,469 --> 00:10:57,520
+So we are happy.
+
+218
+00:10:58,900 --> 00:10:59,564
+Yes.
+
+219
+00:10:59,565 --> 00:11:03,348
+And so we try to have meetup every other month
+
+220
+00:11:03,349 --> 00:11:08,820
+and also sometimes workshop for contributing to open source.
+
+221
+00:11:08,821 --> 00:11:11,300
+So we try to mix these two
+
+222
+00:11:11,301 --> 00:11:15,820
+together and obviously trying to have speakers,
+
+223
+00:11:15,821 --> 00:11:19,220
+female speakers or from underrepresented groups and.
+
+224
+00:11:19,221 --> 00:11:20,588
+Yeah, talks about Python.
+
+225
+00:11:20,589 --> 00:11:22,174
+Oh, something new that we
+
+226
+00:11:22,175 --> 00:11:23,806
+started doing since last year.
+
+227
+00:11:23,807 --> 00:11:25,702
+We try to have lighting talks.
+
+228
+00:11:25,703 --> 00:11:28,262
+So we try to encourage the audience
+
+229
+00:11:28,263 --> 00:11:31,870
+that participate and come talk for three
+
+230
+00:11:31,871 --> 00:11:35,254
+minutes is still, you know, growing.
+
+231
+00:11:35,255 --> 00:11:37,854
+But we do see a couple of attendees that
+
+232
+00:11:37,855 --> 00:11:41,054
+are comfortable enough to present a lighting talk.
+
+233
+00:11:41,055 --> 00:11:42,094
+So that's nice to see.
+
+234
+00:11:42,095 --> 00:11:44,350
+Well, that's actually a great idea.
+
+235
+00:11:44,351 --> 00:11:46,846
+I think I remember recently I
+
+236
+00:11:46,847 --> 00:11:50,088
+went to this PyCon Taiwan. They had this.
+
+237
+00:11:50,089 --> 00:11:53,152
+I mean, most PyCon had lightning
+
+238
+00:11:53,153 --> 00:11:56,064
+talks, but they're a little unique.
+
+239
+00:11:56,065 --> 00:12:00,520
+They came out with the idea of like doing a countdown.
+
+240
+00:12:00,521 --> 00:12:02,568
+So when it's like almost time,
+
+241
+00:12:02,569 --> 00:12:05,208
+you have like 10 seconds left.
+
+242
+00:12:05,209 --> 00:12:09,592
+Everyone from the audience would go, 10, 9, 8.
+
+243
+00:12:09,593 --> 00:12:12,840
+And it was so funny because it just makes
+
+244
+00:12:12,841 --> 00:12:14,760
+everybody go like, oh, no, no, no, no.
+
+245
+00:12:14,761 --> 00:12:16,840
+And then just speed up and.
+
+246
+00:12:16,841 --> 00:12:18,936
+And do really funny things.
+
+247
+00:12:18,937 --> 00:12:23,530
+But I guess it's not going to work, probably for PyLadies,
+
+248
+00:12:24,270 --> 00:12:27,790
+because we want them to have the courage to come up
+
+249
+00:12:27,791 --> 00:12:32,494
+and to just at least try to speak or show or
+
+250
+00:12:32,495 --> 00:12:34,446
+talk a little bit about what they're doing.
+
+251
+00:12:34,447 --> 00:12:36,278
+That's why I think skipping
+
+252
+00:12:36,279 --> 00:12:37,646
+the countdown will be better.
+
+253
+00:12:37,647 --> 00:12:39,318
+Yeah. Yes. Yeah.
+
+254
+00:12:39,319 --> 00:12:42,750
+We are still searching to how to encourage
+
+255
+00:12:42,751 --> 00:12:45,166
+our participants to be more active and I
+
+256
+00:12:45,167 --> 00:12:47,302
+think hopefully we will figure it out.
+
+257
+00:12:47,303 --> 00:12:50,612
+But yeah, I'm going to get in touch, Georgi,
+
+258
+00:12:50,613 --> 00:12:53,960
+to invite you for episode of PyLadiesParis.
+
+259
+00:12:55,900 --> 00:12:56,644
+Okay.
+
+260
+00:12:56,645 --> 00:12:58,588
+I will be happy to look forward to it.
+
+261
+00:12:58,589 --> 00:13:00,332
+So what are you currently working on?
+
+262
+00:13:00,333 --> 00:13:04,748
+Oh like projects or things?
+
+263
+00:13:04,749 --> 00:13:07,340
+My own project at work.
+
+264
+00:13:07,341 --> 00:13:10,084
+I'm busy with work and stuff. Yes.
+
+265
+00:13:10,085 --> 00:13:15,328
+So and then I'm reading this book that I'm
+
+266
+00:13:15,329 --> 00:13:18,380
+soon going to finish and I want to make
+
+267
+00:13:19,320 --> 00:13:21,608
+one page or two page summary of it.
+
+268
+00:13:21,609 --> 00:13:23,840
+You know, just words or sentence.
+
+269
+00:13:23,841 --> 00:13:26,600
+So that's my current project.
+
+270
+00:13:26,601 --> 00:13:28,184
+Yeah, I guess that's it.
+
+271
+00:13:28,185 --> 00:13:30,144
+I'm not doing other stuff.
+
+272
+00:13:30,145 --> 00:13:31,696
+Which book are you reading?
+
+273
+00:13:31,697 --> 00:13:35,000
+I think the name is that Think Again.
+
+274
+00:13:35,001 --> 00:13:38,800
+So I'm reading Think Again. Yeah.
+
+275
+00:13:38,801 --> 00:13:40,032
+Thanks Tereza.
+
+276
+00:13:40,033 --> 00:13:41,260
+You recommended it.
+
+277
+00:13:42,850 --> 00:13:46,546
+It's a book, Georgi, about that we
+
+278
+00:13:46,547 --> 00:13:48,230
+should change our mind more often.
+
+279
+00:13:48,850 --> 00:13:53,202
+I was just talking with my partner recently about that.
+
+280
+00:13:53,203 --> 00:13:56,226
+The only time we could expand and change
+
+281
+00:13:56,227 --> 00:13:58,106
+is to get out of our comfort zone.
+
+282
+00:13:58,107 --> 00:13:59,778
+And that is a change.
+
+283
+00:13:59,779 --> 00:14:04,650
+And a lot of times we are so comfortable with the regular
+
+284
+00:14:04,651 --> 00:14:09,214
+thing like what we are used to and making that change is
+
+285
+00:14:09,215 --> 00:14:12,294
+kind of like fear of what we are not expecting.
+
+286
+00:14:12,295 --> 00:14:13,550
+I think we are also kind of
+
+287
+00:14:13,551 --> 00:14:16,610
+like very strong culture of being right.
+
+288
+00:14:17,390 --> 00:14:18,170
+Yes.
+
+289
+00:14:19,230 --> 00:14:22,766
+And that's like very uncomfortable to accept that
+
+290
+00:14:22,767 --> 00:14:24,894
+you might be wrong and just to accept
+
+291
+00:14:24,895 --> 00:14:27,806
+that you don't know everything about everything and
+
+292
+00:14:27,807 --> 00:14:29,838
+be vulnerable out there with that.
+
+293
+00:14:29,839 --> 00:14:33,214
+So I think that's kind of setting up us
+
+294
+00:14:33,215 --> 00:14:37,126
+for not wanting to take risks sometimes without ego.
+
+295
+00:14:37,127 --> 00:14:39,726
+I think personally that will be the kind
+
+296
+00:14:39,727 --> 00:14:42,582
+of the new future where people will learn
+
+297
+00:14:42,583 --> 00:14:45,694
+to accept that they are not the best.
+
+298
+00:14:45,695 --> 00:14:48,478
+Because not even leaders needs to know everything.
+
+299
+00:14:48,479 --> 00:14:50,686
+I mean no one knows any everything.
+
+300
+00:14:50,687 --> 00:14:52,662
+You don't, you have all the language models.
+
+301
+00:14:52,663 --> 00:14:54,150
+You don't need to know everything anymore.
+
+302
+00:14:54,151 --> 00:14:55,290
+Yeah, exactly.
+
+303
+00:14:56,430 --> 00:14:58,542
+I wanted to say that it still is important
+
+304
+00:14:58,543 --> 00:15:00,846
+that even if you hear it from LLM or
+
+305
+00:15:00,847 --> 00:15:02,718
+read it from LLM, you question it.
+
+306
+00:15:02,719 --> 00:15:06,672
+So I mean the, the debate is old.
+
+307
+00:15:06,673 --> 00:15:08,024
+Like old in a sense.
+
+308
+00:15:08,025 --> 00:15:11,352
+I think when we were in school it was Wikipedia.
+
+309
+00:15:11,353 --> 00:15:12,792
+They were saying don't do your homework.
+
+310
+00:15:12,793 --> 00:15:14,136
+Copying from Wikipedia.
+
+311
+00:15:14,137 --> 00:15:15,272
+Because it wasn't.
+
+312
+00:15:15,273 --> 00:15:17,504
+Because it's like the easy way out.
+
+313
+00:15:17,505 --> 00:15:19,928
+It was most of the time because it's
+
+314
+00:15:19,929 --> 00:15:23,824
+a human built encyclopedia and it's prone to
+
+315
+00:15:23,825 --> 00:15:27,720
+subjectivity and it might not be objective sometimes.
+
+316
+00:15:27,721 --> 00:15:28,960
+And I think that's the same.
+
+317
+00:15:28,961 --> 00:15:31,104
+The LLMs are trained on public data
+
+318
+00:15:31,105 --> 00:15:34,378
+that people are producing and sometimes that's
+
+319
+00:15:34,379 --> 00:15:37,018
+also wrong or the inferences are wrong.
+
+320
+00:15:37,019 --> 00:15:38,210
+It does not.
+
+321
+00:15:38,211 --> 00:15:42,690
+I mean, happily, you know, the problem that we still have
+
+322
+00:15:42,691 --> 00:15:47,170
+to think about stuff doesn't go away, which means that if
+
+323
+00:15:47,171 --> 00:15:49,458
+we do that, it's good for our brain health.
+
+324
+00:15:49,459 --> 00:15:52,210
+Otherwise, if we would have everything done for our
+
+325
+00:15:52,211 --> 00:15:54,138
+brain and our brain doesn't have to do anything
+
+326
+00:15:54,139 --> 00:15:56,746
+anymore, we would grow old very fast.
+
+327
+00:15:56,747 --> 00:15:57,402
+Totally.
+
+328
+00:15:57,403 --> 00:15:57,850
+Yeah.
+
+329
+00:15:57,851 --> 00:16:00,002
+And denial at 6, at 40,
+
+330
+00:16:00,003 --> 00:16:01,990
+you're already like, I don't know.
+
+331
+00:16:02,610 --> 00:16:04,226
+I don't know if you've seen a lot of
+
+332
+00:16:04,227 --> 00:16:07,106
+cartoons already showing this kind of jokes where they
+
+333
+00:16:07,107 --> 00:16:09,266
+are saying, like, people in the future will not
+
+334
+00:16:09,267 --> 00:16:11,410
+know how to think because they'll just get the
+
+335
+00:16:11,411 --> 00:16:14,162
+LLMs to give them replies for everything.
+
+336
+00:16:14,163 --> 00:16:16,450
+Yeah, no, but I saw the news about like
+
+337
+00:16:16,451 --> 00:16:19,234
+a high school kid that finished high school with
+
+338
+00:16:19,235 --> 00:16:22,434
+magna cum laude and then sued the high school
+
+339
+00:16:22,435 --> 00:16:24,986
+because she didn't know how to read and write.
+
+340
+00:16:24,987 --> 00:16:26,218
+Oh, okay.
+
+341
+00:16:26,219 --> 00:16:28,350
+So, yeah. Wow.
+
+342
+00:16:31,860 --> 00:16:36,972
+To that level, I'm surprised with like good grades.
+
+343
+00:16:36,973 --> 00:16:37,560
+Right.
+
+344
+00:16:39,860 --> 00:16:41,220
+So, yeah.
+
+345
+00:16:41,221 --> 00:16:45,684
+I wanted to ask Moj, coming back to is,
+
+346
+00:16:45,685 --> 00:16:49,892
+what do you do besides python events and work?
+
+347
+00:16:49,893 --> 00:16:53,468
+Do you have any fun hobbies or not so fun hobbies?
+
+348
+00:16:53,469 --> 00:16:55,380
+Is there anything that you do that
+
+349
+00:16:55,381 --> 00:16:57,388
+you'd like to share with the audience?
+
+350
+00:16:57,389 --> 00:16:58,920
+I don't know if you can call
+
+351
+00:16:58,921 --> 00:17:01,128
+it fun, but for me it's fun.
+
+352
+00:17:01,129 --> 00:17:02,608
+I like to go to dance
+
+353
+00:17:02,609 --> 00:17:05,232
+and Zumba classes and really it's.
+
+354
+00:17:05,233 --> 00:17:08,407
+Is the time that I can. Yes. Let it go.
+
+355
+00:17:08,408 --> 00:17:10,127
+You know, it's energetic.
+
+356
+00:17:10,128 --> 00:17:11,152
+It's not like yoga.
+
+357
+00:17:11,153 --> 00:17:13,288
+I know that I should do yoga more because
+
+358
+00:17:13,289 --> 00:17:17,240
+that's another way of letting it go yet.
+
+359
+00:17:17,241 --> 00:17:21,880
+Yeah, Zumba dances, dance classes is really my
+
+360
+00:17:21,881 --> 00:17:24,016
+favorite session and I try to do.
+
+361
+00:17:24,017 --> 00:17:26,854
+To go there once, one hour or two hours a week.
+
+362
+00:17:26,855 --> 00:17:29,446
+I personally feel that yoga is
+
+363
+00:17:29,447 --> 00:17:31,430
+a little too slow for me.
+
+364
+00:17:31,431 --> 00:17:33,790
+So I do, I do Pilates.
+
+365
+00:17:33,791 --> 00:17:36,006
+Any one of you listening here, if you
+
+366
+00:17:36,007 --> 00:17:38,574
+don't know, actually Tereza is teaching yoga.
+
+367
+00:17:38,575 --> 00:17:41,910
+Yes, that was, that was the thing that I did last year.
+
+368
+00:17:41,911 --> 00:17:43,262
+I did a teacher training.
+
+369
+00:17:43,263 --> 00:17:45,766
+But that's why I was going to say that the yoga that I
+
+370
+00:17:45,767 --> 00:17:49,398
+teach is kind of more like a workout most of the time.
+
+371
+00:17:49,399 --> 00:17:51,610
+So because it's functional yoga and it has
+
+372
+00:17:51,611 --> 00:17:54,498
+a lot of like about strength and mobility.
+
+373
+00:17:54,499 --> 00:17:57,634
+So it doesn't really feel like stretchy,
+
+374
+00:17:57,635 --> 00:17:58,550
+stretchy.
+
+375
+00:17:59,210 --> 00:17:59,990
+Yeah.
+
+376
+00:18:00,730 --> 00:18:03,858
+I did a lot of pilates before and now that I'm
+
+377
+00:18:03,859 --> 00:18:07,786
+trying some yoga session, it's really hard because the, you know,
+
+378
+00:18:07,787 --> 00:18:10,506
+the way that you breathe is not the same and I
+
+379
+00:18:10,507 --> 00:18:13,442
+keep confusing between the two when I'm in yoga session.
+
+380
+00:18:13,443 --> 00:18:15,550
+And that's the challenge right now.
+
+381
+00:18:18,060 --> 00:18:20,556
+Actually, I'm also starting to work
+
+382
+00:18:20,557 --> 00:18:22,372
+a little bit on, like, mobility.
+
+383
+00:18:22,373 --> 00:18:24,468
+And a new sport that I picked
+
+384
+00:18:24,469 --> 00:18:26,132
+up was called the rope flow.
+
+385
+00:18:26,133 --> 00:18:28,332
+So it's like using the rope to just
+
+386
+00:18:28,333 --> 00:18:30,940
+fiddling around with it, and it kind of,
+
+387
+00:18:30,941 --> 00:18:33,588
+like, help with the spine and the arms.
+
+388
+00:18:33,589 --> 00:18:37,348
+So, yeah, it's like, I got to work more with mobility.
+
+389
+00:18:37,349 --> 00:18:40,316
+That moves me to learn about road flow, I
+
+390
+00:18:40,317 --> 00:18:43,636
+guess it's like we are learning many different things.
+
+391
+00:18:43,637 --> 00:18:44,754
+Like, you said most.
+
+392
+00:18:44,755 --> 00:18:47,674
+You said, like, oh, you started with Pilates,
+
+393
+00:18:47,675 --> 00:18:49,018
+and then you did a bit of yoga,
+
+394
+00:18:49,019 --> 00:18:50,986
+and then now you're doing, like, Zumba.
+
+395
+00:18:50,987 --> 00:18:52,874
+And then, Tereza, you're doing, like, yoga,
+
+396
+00:18:52,875 --> 00:18:54,850
+but the yoga with something new.
+
+397
+00:18:54,851 --> 00:18:56,746
+So things are always evolving.
+
+398
+00:18:56,747 --> 00:18:58,370
+And I used to do capoeira, so.
+
+399
+00:18:58,371 --> 00:19:04,370
+I mean, yeah, I used to do
+
+400
+00:19:04,371 --> 00:19:06,682
+Muay Thai until I got injured.
+
+401
+00:19:06,683 --> 00:19:08,106
+Oh, yeah.
+
+402
+00:19:08,107 --> 00:19:08,706
+What?
+
+403
+00:19:08,707 --> 00:19:10,710
+We can all kick ass. Good.
+
+404
+00:19:11,570 --> 00:19:13,378
+At least we can all kick ass.
+
+405
+00:19:13,379 --> 00:19:14,030
+Yeah.
+
+406
+00:19:15,250 --> 00:19:15,914
+Yeah.
+
+407
+00:19:15,915 --> 00:19:20,098
+So is there any projects like you've been
+
+408
+00:19:20,099 --> 00:19:22,210
+wanting to do or you plan to do
+
+409
+00:19:22,211 --> 00:19:24,710
+in future, like, in the next few years?
+
+410
+00:19:25,970 --> 00:19:28,842
+I do really like to continue organizing
+
+411
+00:19:28,843 --> 00:19:32,850
+the workshop session for PyLadies, because the
+
+412
+00:19:32,851 --> 00:19:34,546
+audience, I mean, we get very.
+
+413
+00:19:34,547 --> 00:19:37,170
+Maybe 10 to 15 attendees, but I think
+
+414
+00:19:37,171 --> 00:19:41,706
+it helps a lot, especially the carrier changes.
+
+415
+00:19:41,707 --> 00:19:44,630
+So, for instance, if they come to the workshop or
+
+416
+00:19:45,410 --> 00:19:49,026
+we start learning how to contribute to open source and
+
+417
+00:19:49,027 --> 00:19:50,914
+also meet the community, it helps a lot.
+
+418
+00:19:50,915 --> 00:19:53,330
+So that's something that I want to do
+
+419
+00:19:53,331 --> 00:19:56,354
+more this year and maybe the years after.
+
+420
+00:19:56,355 --> 00:20:00,018
+And then personal project I won
+
+421
+00:20:00,019 --> 00:20:01,554
+a while back when I was.
+
+422
+00:20:01,555 --> 00:20:05,086
+Maybe five or 10 years ago.
+
+423
+00:20:05,087 --> 00:20:06,174
+Five is not.
+
+424
+00:20:06,175 --> 00:20:08,230
+More like 10 years ago, I was painting,
+
+425
+00:20:08,231 --> 00:20:10,278
+so I want to go back to painting.
+
+426
+00:20:10,279 --> 00:20:13,950
+So, yeah, I want to start doing that.
+
+427
+00:20:13,951 --> 00:20:16,878
+And see, I already have some ideas what I want to do.
+
+428
+00:20:16,879 --> 00:20:19,638
+It's more like, you know, drawing a map
+
+429
+00:20:19,639 --> 00:20:23,358
+of Iran and also trying to keep.
+
+430
+00:20:23,359 --> 00:20:26,510
+Be mindful of all the activities and political things
+
+431
+00:20:26,511 --> 00:20:28,750
+that has happened in the past 10 years and
+
+432
+00:20:28,751 --> 00:20:31,110
+trying to cover that in this one map.
+
+433
+00:20:31,111 --> 00:20:33,308
+So it's a big project, and I want.
+
+434
+00:20:33,309 --> 00:20:34,556
+I want to do that.
+
+435
+00:20:34,557 --> 00:20:36,676
+Yeah, that sounds really exciting.
+
+436
+00:20:36,677 --> 00:20:41,500
+Talking about history, is there any episode that you
+
+437
+00:20:41,501 --> 00:20:44,932
+particularly like from last year, from the PyPodcats?
+
+438
+00:20:44,933 --> 00:20:47,724
+I mean, the episode that stays a lot in my mind
+
+439
+00:20:47,725 --> 00:20:52,228
+is the one with Vicky, so I really like that. Yeah.
+
+440
+00:20:52,229 --> 00:20:56,556
+And I also like the one that I.
+
+441
+00:20:56,557 --> 00:20:57,580
+Maybe I.
+
+442
+00:20:57,581 --> 00:20:59,708
+I'm sorry if I mispronounce her name.
+
+443
+00:20:59,709 --> 00:21:04,524
+Was it Isabel from Real Python?
+
+444
+00:21:04,525 --> 00:21:05,884
+Joanna.
+
+445
+00:21:05,885 --> 00:21:08,060
+Joanna. Sorry, it was Joanna. I'm sorry. Yes.
+
+446
+00:21:08,061 --> 00:21:10,396
+Joanna from Real Python. Yeah. Yes.
+
+447
+00:21:10,397 --> 00:21:12,452
+Yeah, yeah. Because I.
+
+448
+00:21:12,453 --> 00:21:14,300
+I think that was also really nice
+
+449
+00:21:14,301 --> 00:21:17,204
+because it Was for me, she's. She.
+
+450
+00:21:17,205 --> 00:21:19,052
+I didn't know her before the podcast
+
+451
+00:21:19,053 --> 00:21:20,964
+and I was like, whoa, really?
+
+452
+00:21:20,965 --> 00:21:23,060
+I get to know a new person. That was.
+
+453
+00:21:23,061 --> 00:21:24,396
+Yeah, that was really nice.
+
+454
+00:21:24,397 --> 00:21:26,108
+And maybe it's my fault that I didn't
+
+455
+00:21:26,109 --> 00:21:27,820
+know her, but that was really nice.
+
+456
+00:21:27,821 --> 00:21:29,928
+I also didn't know her before the podcast.
+
+457
+00:21:29,929 --> 00:21:31,360
+This is something that.
+
+458
+00:21:31,361 --> 00:21:34,880
+The reason why we are doing this, it's because
+
+459
+00:21:34,881 --> 00:21:37,760
+we know here and there among ourselves, we know
+
+460
+00:21:37,761 --> 00:21:40,176
+people that is doing amazing work and they have
+
+461
+00:21:40,177 --> 00:21:41,940
+been quiet for a long time.
+
+462
+00:21:42,560 --> 00:21:47,072
+And I guess most female usually feel like
+
+463
+00:21:47,073 --> 00:21:49,280
+what they do is not that big.
+
+464
+00:21:49,281 --> 00:21:52,400
+So they're just like, well, we don't think we
+
+465
+00:21:52,401 --> 00:21:55,060
+are good enough to just talk about it.
+
+466
+00:21:55,061 --> 00:22:00,260
+So this podcast is the best way to talk more
+
+467
+00:22:00,261 --> 00:22:03,172
+about these people and let people know who they are.
+
+468
+00:22:03,173 --> 00:22:03,676
+Yes.
+
+469
+00:22:03,677 --> 00:22:05,892
+And also, Joanna just won
+
+470
+00:22:05,893 --> 00:22:09,316
+the Community Service award recently.
+
+471
+00:22:09,317 --> 00:22:10,220
+Yes. Yeah.
+
+472
+00:22:10,221 --> 00:22:11,020
+Yeah.
+
+473
+00:22:11,021 --> 00:22:13,852
+And also, I mean, I remember
+
+474
+00:22:13,853 --> 00:22:16,596
+also another episode with Jessica. She was,
+
+475
+00:22:16,597 --> 00:22:17,964
+I mean she is inspiring.
+
+476
+00:22:17,965 --> 00:22:20,480
+I mean, I watched that episode, so. Whoa.
+
+477
+00:22:21,370 --> 00:22:22,950
+I mean, that's amazing.
+
+478
+00:22:23,690 --> 00:22:26,266
+Yeah, that was an amazing episode as well.
+
+479
+00:22:26,267 --> 00:22:30,490
+Yeah, I'm glad that it really inspired.
+
+480
+00:22:30,491 --> 00:22:34,298
+It's kind of a feedback that what we need.
+
+481
+00:22:34,299 --> 00:22:37,882
+I mean, soon you are part of us now.
+
+482
+00:22:37,883 --> 00:22:39,738
+So soon you'll be asking around
+
+483
+00:22:39,739 --> 00:22:41,802
+like, what feedback do you get?
+
+484
+00:22:41,803 --> 00:22:44,634
+What do you want to hear more or things like that?
+
+485
+00:22:44,635 --> 00:22:46,506
+I think if anybody wants to get a
+
+486
+00:22:46,507 --> 00:22:52,158
+whole more comprehensive a overview of what happened
+
+487
+00:22:52,159 --> 00:22:55,262
+last year in PyPodcats, Mariatta wrote a blog
+
+488
+00:22:55,263 --> 00:22:58,054
+post about it which is on our website.
+
+489
+00:22:58,055 --> 00:23:01,126
+And you can see you can have in one place
+
+490
+00:23:01,127 --> 00:23:03,670
+links to all the episodes and you can catch up
+
+491
+00:23:03,671 --> 00:23:07,126
+to all the seven guests that we had last year.
+
+492
+00:23:07,127 --> 00:23:09,270
+This year we are also planning to do.
+
+493
+00:23:09,271 --> 00:23:11,798
+We are planning to do eight episodes or so.
+
+494
+00:23:11,799 --> 00:23:14,246
+Yeah, we'll continue to work on all the
+
+495
+00:23:14,247 --> 00:23:17,350
+episodes and there'll be a lot more new
+
+496
+00:23:17,351 --> 00:23:20,140
+faces that you've never heard before.
+
+497
+00:23:20,141 --> 00:23:25,164
+And I think Cheuk has also written another
+
+498
+00:23:25,165 --> 00:23:28,892
+blog post about our plans for the 2025.
+
+499
+00:23:28,893 --> 00:23:31,500
+Apart from that, we have also set
+
+500
+00:23:31,501 --> 00:23:35,196
+up a new Open Collective account on.
+
+501
+00:23:35,197 --> 00:23:38,876
+The platform that is for figuring out if you
+
+502
+00:23:38,877 --> 00:23:43,360
+want to support the podcast and fund us, because
+
+503
+00:23:44,140 --> 00:23:46,716
+I think this year we are not,
+
+504
+00:23:46,717 --> 00:23:47,988
+so last year we were funded
+
+505
+00:23:47,989 --> 00:23:49,866
+by The PSF, which was amazing.
+
+506
+00:23:49,867 --> 00:23:53,146
+And this year we probably won't.
+
+507
+00:23:53,147 --> 00:23:56,642
+So that's why we are reaching to the community.
+
+508
+00:23:56,643 --> 00:23:58,210
+If you want to contribute, we
+
+509
+00:23:58,211 --> 00:23:59,930
+have an Open Collective.
+
+510
+00:23:59,931 --> 00:24:02,906
+And you can see in the also in the
+
+511
+00:24:02,907 --> 00:24:05,602
+in the kickoff blog post how to do that.
+
+512
+00:24:05,603 --> 00:24:08,802
+And also on our website we will post a link as well.
+
+513
+00:24:08,803 --> 00:24:09,578
+Yep.
+
+514
+00:24:09,579 --> 00:24:13,570
+You can actually check out on pypodcats.live.
+
+515
+00:24:13,571 --> 00:24:15,346
+That's where our website and
+
+516
+00:24:15,347 --> 00:24:18,166
+all the information will be.
+
+517
+00:24:18,167 --> 00:24:20,890
+I mean it is quite surprising, I think we.
+
+518
+00:24:21,670 --> 00:24:24,730
+There's a lot of tooling going on
+
+519
+00:24:25,270 --> 00:24:29,318
+running a podcast that is so distributed. Right.
+
+520
+00:24:29,319 --> 00:24:31,702
+So yeah, we need like, we need a
+
+521
+00:24:31,703 --> 00:24:37,286
+calendar system that makes it easier, otherwise we
+
+522
+00:24:37,287 --> 00:24:39,630
+would have insane amount of messages.
+
+523
+00:24:39,631 --> 00:24:43,230
+We need a streaming platform, we need for
+
+524
+00:24:43,231 --> 00:24:48,806
+subtitles, something for video editing, social media platform.
+
+525
+00:24:48,807 --> 00:24:52,670
+And in the end, all of them, each of them is not
+
+526
+00:24:52,671 --> 00:24:55,470
+like a lot of money, but somehow they all add up.
+
+527
+00:24:55,471 --> 00:24:56,942
+None of them comes free.
+
+528
+00:24:56,943 --> 00:24:57,230
+No.
+
+529
+00:24:57,231 --> 00:24:58,958
+None of them comes in the email
+
+530
+00:24:58,959 --> 00:25:02,310
+account and the name in the DNS.
+
+531
+00:25:02,311 --> 00:25:07,046
+The namespace and also what you donate.
+
+532
+00:25:07,047 --> 00:25:10,766
+It's not going to be our salary, so
+
+533
+00:25:10,767 --> 00:25:13,178
+we are still going to be volunteers.
+
+534
+00:25:13,179 --> 00:25:17,258
+And sometimes we also had it like if our guest
+
+535
+00:25:17,259 --> 00:25:21,706
+does not actually have access to a good technical setup.
+
+536
+00:25:21,707 --> 00:25:26,642
+We did send microphone or headphones, so.
+
+537
+00:25:26,643 --> 00:25:29,386
+We do support them technically.
+
+538
+00:25:29,387 --> 00:25:33,530
+I want to say that everything is transparent
+
+539
+00:25:33,531 --> 00:25:35,890
+and I think you can also read about
+
+540
+00:25:35,891 --> 00:25:37,394
+the expenses in the blog post.
+
+541
+00:25:37,395 --> 00:25:38,742
+So it's.
+
+542
+00:25:38,743 --> 00:25:41,566
+We try to be as transparent as
+
+543
+00:25:41,567 --> 00:25:43,830
+it can be, which is great sometimes.
+
+544
+00:25:43,831 --> 00:25:46,542
+Yeah, I mean sometimes we might forget something,
+
+545
+00:25:46,543 --> 00:25:51,166
+but usually we will be as transparent as. As we can.
+
+546
+00:25:51,167 --> 00:25:51,478
+Yeah.
+
+547
+00:25:51,479 --> 00:25:54,286
+I mean it's also interesting if anybody's ever interested in
+
+548
+00:25:54,287 --> 00:25:56,830
+running their own podcast to see a little bit what
+
+549
+00:25:56,831 --> 00:25:59,486
+would be the costs behind it to understand a little
+
+550
+00:25:59,487 --> 00:26:01,822
+bit what kind of finances they need to put down
+
+551
+00:26:01,823 --> 00:26:03,998
+and what kind of tools are out there.
+
+552
+00:26:03,999 --> 00:26:07,636
+I was interviewed by one of podcast in Taiwan
+
+553
+00:26:07,637 --> 00:26:11,820
+last year and they were talking about the PyPodcats
+
+554
+00:26:11,821 --> 00:26:14,916
+and they thought that we are like a whole
+
+555
+00:26:14,917 --> 00:26:17,276
+team of like 10 or 15 people.
+
+556
+00:26:17,277 --> 00:26:20,480
+No, it's just Georgi working a lot.
+
+557
+00:26:21,420 --> 00:26:23,040
+Mariatta is also working.
+
+558
+00:26:25,180 --> 00:26:27,680
+So what you see is what you get.
+
+559
+00:26:28,380 --> 00:26:31,164
+There's only the four or five of us now.
+
+560
+00:26:31,165 --> 00:26:32,668
+There's nothing more.
+
+561
+00:26:32,669 --> 00:26:33,108
+So yeah.
+
+562
+00:26:33,109 --> 00:26:35,204
+So if you want to have all of this information, it's
+
+563
+00:26:35,205 --> 00:26:37,380
+on, on our blog site and today we are
+
+564
+00:26:37,381 --> 00:26:40,962
+eeally happy to have this session to introduce
+
+565
+00:26:40,963 --> 00:26:43,370
+Mojdeh and to tell you about last year
+
+566
+00:26:43,371 --> 00:26:45,674
+a little bit, but very a little bit and also
+
+567
+00:26:45,675 --> 00:26:47,882
+a little bit more about the outlook for next year.
+
+568
+00:26:47,883 --> 00:26:51,274
+And we already have the plan for the first
+
+569
+00:26:51,275 --> 00:26:54,990
+recording this month, which will probably drop next month.
+
+570
+00:26:55,610 --> 00:26:58,990
+As we said, we are not 20 - 100 people.
+
+571
+00:26:59,530 --> 00:27:02,330
+But you have to subscribe and stay tuned.
+
+572
+00:27:02,331 --> 00:27:05,164
+And support us on the Open Collective platform
+
+573
+00:27:05,165 --> 00:27:08,388
+and follow Mojdeh
+
+574
+00:27:08,389 --> 00:27:09,640
+on all the platforms.
+
+575
+00:27:10,700 --> 00:27:13,996
+If you want to talk about PyLadies Paris, or you are
+
+576
+00:27:13,997 --> 00:27:16,788
+in Paris and you have not attended the PyLadies meetup.
+
+577
+00:27:16,789 --> 00:27:17,620
+Yes.
+
+578
+00:27:17,621 --> 00:27:22,280
+Please knock on the door at Mojdeh's email or message.
+
+579
+00:27:23,260 --> 00:27:24,308
+Yes.
+
+580
+00:27:24,309 --> 00:27:26,316
+Thank you for having me and really
+
+581
+00:27:26,317 --> 00:27:28,028
+excited to work with you this year.
+
+582
+00:27:28,029 --> 00:27:28,372
+Yeah.
+
+583
+00:27:28,373 --> 00:27:30,972
+And thank you so much, everyone, for listening.
+
+584
+00:27:30,973 --> 00:27:32,546
+Catch you next episode.
+
+585
+00:27:32,547 --> 00:27:33,330
+Yes.
+
+586
+00:27:33,331 --> 00:27:33,570
+Bye.
