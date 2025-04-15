@@ -11,6 +11,7 @@ The PyPodcats team consists of:
 - Georgi Ker
 - Mariatta Wijaya
 - Tereza Iofciu
+- Mojdeh Rastgoo
 
 Contact: meow@pypodcats.live
 
