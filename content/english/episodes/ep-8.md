@@ -71,11 +71,11 @@ Be sure to listen to the episode to hear about our plans and get to know your ne
 - Her involvement in the community
 - PyLadies Paris
 - Public speaking and Lightning talks
-- Rols of LLM in today's life 
+- Roles of LLM in today's life 
 - Personal projects 
 - Growth mindset and changing perspectives
 - Personal interests and hobbies 
-- PyPodcats reflection and plans for the future
+- PyPodcats reflections and plans for the future
 - Founding and supports
 
 
