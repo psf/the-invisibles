@@ -1,2 +1,0 @@
-*.mp3 filter=lfs diff=lfs merge=lfs -text
-static/audio/hidden-figures-ep8.mp3 filter=lfs diff=lfs merge=lfs -text
