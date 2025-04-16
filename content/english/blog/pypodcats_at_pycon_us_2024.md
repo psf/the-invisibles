@@ -14,7 +14,7 @@ We're so excited about PyCon US 2024 in Pittsburgh. It was the first time the fo
 of the hosts were in the same room together to share news about our podcast
 series to the Python community.
 
-{{<twitter user="elthenerd" id="1791108857768370488">}}
+{{<x user="elthenerd" id="1791108857768370488">}}
 
 
 At PyCon US, the PyPodcats team, Cheuk, Georgi, Mariatta, and Tereza,
