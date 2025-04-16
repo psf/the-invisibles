@@ -24,7 +24,7 @@ The goal of our podcast series is to highlight the voices of the underrepresente
 Listen to our episodes to learn about why we're doing this, and to learn about the various guest speakers we have interviewed
 and scheduled in the coming months.
 
-Subscribe to our podcast series through the [Python Software Foundation's YouTube Channel](https://youtube.com/@ThePSF),
+Subscribe to our podcast series through our [YouTube Channel](https://youtube.com/@PyPodcats),
 [Spotify](https://open.spotify.com/show/0paWD9BHs7QNNHsMFFUoIN?si=e6e455a0c3a244fd),
 [Google Podcasts](https://podcasts.google.com/feed/aHR0cHM6Ly9tZWRpYS5yc3MuY29tL3B5cG9kY2F0cy9mZWVkLnhtbA),
 [Apple Podcast](https://podcasts.apple.com/ca/podcast/hidden-figures-of-python-podcast/id1720808525), and
