@@ -19,7 +19,7 @@ season: 1
 transcript: '/transcript/hidden-figures-of-python-ep8-trailer.srt'
 episode_type: trailer
 layout: episode
-youtube_id: "qetbNfnCkJM"
+youtube_id: "va-f6gsgYak"
   
 speaker:
   url: "/speakers/mojdeh-rastgoo/"
