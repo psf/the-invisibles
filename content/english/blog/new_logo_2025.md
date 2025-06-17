@@ -10,7 +10,7 @@ draft: false
 image: "/images/logo-blog.png"
 ---
 
-## PyPodcats Has a New Logo
+## PyPodcats Have a New Logo
 After a year of placeholder art and indecision, we finally have a real logo. And yes—it has a cat. On a mic. With a snake. We promise it makes sense.
 Our original stand-in was a charming sticker from Mariatta’s [“#TypoOfTheDay”](https://mariatta.ca/posts/typo_of_the_day/) series. It wasn’t meant to be a logo, but we were so eager to get *Hidden Figures of Python* out into the world that we just rolled with it. MVP: Minimum Viable Purr.
 Many drafts, discussions, and digital furballs later, our team chose the new design: a laid-back cat draped over a retro microphone, with a happy snake coiled in—our nod to the Python community that brought us all together.
