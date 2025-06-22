@@ -89,6 +89,6 @@ Be sure to listen to the episode to learn all about Tamara's inspiring story!
 - Google Summer of Code 2012: https://opensource.googleblog.com/2012/05/macedonia-google-summer-of-code-meetups.html
 - PyLadies Berlin: https://berlin.pyladies.com/en/
 - Tamara's Substack: https://holophrase.substack.com/
-
+- Tamara's website: https://tamaraatanasoska.github.io/about/
 
 
