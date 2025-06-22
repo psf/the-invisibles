@@ -64,6 +64,7 @@ target = '$1'
 ############################# Outputs ############################
 [outputs]
 home = ["HTML", "RSS", "WebAppManifest", "SearchIndex"]
+episodes = ['html', 'rss']
 
 ############################# Imaging ############################
 [imaging]
