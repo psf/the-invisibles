@@ -1,0 +1,5127 @@
+1
+00:00:20,880 --> 00:00:21,440
+Hi everyone.
+
+2
+00:00:21,441 --> 00:00:24,120
+Welcome to PyPodcats, the Hidden
+
+3
+00:00:24,121 --> 00:00:26,470
+Figures of Python podcast series.
+
+4
+00:00:26,471 --> 00:00:29,270
+The PyPodcats is, a podcast
+
+5
+00:00:29,271 --> 00:00:30,590
+highlighting voices from
+
+6
+00:00:30,591 --> 00:00:32,150
+the underrepresented group
+
+7
+00:00:32,151 --> 00:00:33,750
+members of the Python community.
+
+8
+00:00:34,470 --> 00:00:36,550
+So we do have a Code of Conduct
+
+9
+00:00:36,551 --> 00:00:37,910
+that is following
+
+10
+00:00:37,911 --> 00:00:39,910
+the PSF Code of Conduct.
+
+11
+00:00:39,911 --> 00:00:40,950
+And if you're interested
+
+12
+00:00:40,951 --> 00:00:42,070
+to know more, you can always,
+
+13
+00:00:42,710 --> 00:00:44,070
+check out our website.
+
+14
+00:00:44,071 --> 00:00:46,230
+Very excited to be back because
+
+15
+00:00:46,231 --> 00:00:50,620
+this is 2025, probably the first
+
+16
+00:00:50,621 --> 00:00:53,030
+guest for our 2025 podcast.
+
+17
+00:00:53,570 --> 00:00:55,050
+My name is Georgi and I'm one
+
+18
+00:00:55,051 --> 00:00:57,810
+of the PyPodcats hosts
+
+19
+00:00:57,811 --> 00:01:00,290
+and I'm based in Amsterdam.
+
+20
+00:01:00,291 --> 00:01:03,090
+Also one of the PSF Director
+
+21
+00:01:03,091 --> 00:01:05,090
+of the Board.
+
+22
+00:01:05,091 --> 00:01:06,650
+And to you, Mariatta.
+
+23
+00:01:06,651 --> 00:01:07,890
+Hi everybody.
+
+24
+00:01:07,891 --> 00:01:09,730
+I'm excited that we are
+
+25
+00:01:09,731 --> 00:01:12,050
+resuming the PyPodcast series.
+
+26
+00:01:12,980 --> 00:01:14,610
+My name is Mariatta, I'm based
+
+27
+00:01:14,611 --> 00:01:16,970
+in Vancouver, Canada and I'm
+
+28
+00:01:16,971 --> 00:01:18,050
+in the Python community.
+
+29
+00:01:18,051 --> 00:01:19,970
+I've been contributing for many
+
+30
+00:01:19,971 --> 00:01:22,370
+years as open source contributor.
+
+31
+00:01:23,040 --> 00:01:24,450
+I'm also one of the Python core
+
+32
+00:01:24,451 --> 00:01:26,110
+developers and, and I'm also
+
+33
+00:01:26,111 --> 00:01:28,350
+involved in the PyLadies community.
+
+34
+00:01:28,351 --> 00:01:30,830
+Our guest today is Tamara.
+
+35
+00:01:30,831 --> 00:01:33,150
+Tamara, can you introduce yourself?
+
+36
+00:01:33,151 --> 00:01:33,590
+Hi.
+
+37
+00:01:33,591 --> 00:01:34,990
+Thank you so much for having me.
+
+38
+00:01:34,991 --> 00:01:36,590
+I'm also really excited
+
+39
+00:01:36,591 --> 00:01:39,070
+to be the first guest for 2025.
+
+40
+00:01:40,430 --> 00:01:41,950
+So I'm Tamara.
+
+41
+00:01:41,951 --> 00:01:44,510
+I, am currently an Open
+
+42
+00:01:44,511 --> 00:01:46,070
+Source Software Engineer.
+
+43
+00:01:46,071 --> 00:01:46,910
+That's my title
+
+44
+00:01:46,911 --> 00:01:48,590
+at a company called Probabl.
+
+45
+00:01:48,591 --> 00:01:50,550
+Probabl is the brand ambassador
+
+46
+00:01:50,551 --> 00:01:51,860
+for scikit-learn.
+
+47
+00:01:52,490 --> 00:01:55,090
+And my job there is I work
+
+48
+00:01:55,091 --> 00:01:55,970
+in the open source team
+
+49
+00:01:55,971 --> 00:01:57,410
+so I'm sponsored to work
+
+50
+00:01:57,411 --> 00:01:58,890
+on open source packages.
+
+51
+00:01:58,891 --> 00:02:01,290
+One of my jobs, includes
+
+52
+00:02:01,291 --> 00:02:02,730
+maintaining Fairlearn that I
+
+53
+00:02:02,731 --> 00:02:04,010
+hope we're going to talk about
+
+54
+00:02:04,011 --> 00:02:05,450
+a bit more later about.
+
+55
+00:02:05,451 --> 00:02:07,889
+And I do contribute to scikit-learn
+
+56
+00:02:07,890 --> 00:02:09,009
+and I've contributed to another
+
+57
+00:02:09,010 --> 00:02:11,450
+package recently called Spops.
+
+58
+00:02:11,451 --> 00:02:13,530
+At the same time, some of my time
+
+59
+00:02:13,531 --> 00:02:15,260
+in the week goes to research.
+
+60
+00:02:15,850 --> 00:02:16,650
+That's going to become
+
+61
+00:02:16,651 --> 00:02:17,770
+my master thesis.
+
+62
+00:02:19,200 --> 00:02:21,400
+I am part of a program that's mainly
+
+63
+00:02:21,401 --> 00:02:23,000
+about computational linguistics,
+
+64
+00:02:23,001 --> 00:02:24,800
+but also has some cognitive science.
+
+65
+00:02:24,801 --> 00:02:26,400
+Yes, that's me at the moment.
+
+66
+00:02:26,401 --> 00:02:27,360
+I've also been involved,
+
+67
+00:02:27,361 --> 00:02:28,640
+I guess in the Python community
+
+68
+00:02:28,641 --> 00:02:30,400
+for over a decade.
+
+69
+00:02:30,401 --> 00:02:32,480
+So there's a lot different.
+
+70
+00:02:33,440 --> 00:02:38,160
+Yes, since 2012 it's been a bit.
+
+71
+00:02:38,161 --> 00:02:40,320
+Wow, it's been a while.
+
+72
+00:02:41,280 --> 00:02:41,840
+Yeah.
+
+73
+00:02:42,400 --> 00:02:43,440
+That's crazy.
+
+74
+00:02:44,510 --> 00:02:46,310
+So, yeah, you were just
+
+75
+00:02:46,311 --> 00:02:48,190
+talking about Fairlearn.
+
+76
+00:02:48,191 --> 00:02:49,830
+So what is Fairlearn about?
+
+77
+00:02:49,831 --> 00:02:52,990
+It sounds like a game for me.
+
+78
+00:02:52,991 --> 00:02:54,266
+With the name
+
+79
+00:02:54,267 --> 00:02:55,710
+Learning Fair.
+
+80
+00:02:55,711 --> 00:02:56,070
+Yeah.
+
+81
+00:02:56,071 --> 00:02:59,150
+So Fairlearn is a, I guess the best
+
+82
+00:02:59,151 --> 00:03:00,710
+way to describe it is a toolkit
+
+83
+00:03:00,711 --> 00:03:02,950
+is a library that it provides tools
+
+84
+00:03:02,951 --> 00:03:05,790
+for data scientists to work on.
+
+85
+00:03:06,410 --> 00:03:07,910
+Increase the AI safety
+
+86
+00:03:07,911 --> 00:03:09,550
+of their applications.
+
+87
+00:03:10,160 --> 00:03:13,520
+So I think if we don't go too
+
+88
+00:03:13,521 --> 00:03:16,320
+deep we can think of FairLearn
+
+89
+00:03:16,321 --> 00:03:18,680
+as a library that provides
+
+90
+00:03:18,681 --> 00:03:21,240
+metrics and also provides a
+
+91
+00:03:21,241 --> 00:03:24,440
+specific kind of methods for
+
+92
+00:03:24,441 --> 00:03:26,800
+assessment and mitigation of
+
+93
+00:03:26,801 --> 00:03:28,480
+unfairness in this case.
+
+94
+00:03:28,481 --> 00:03:30,680
+But it is based on a specific type of
+
+95
+00:03:30,681 --> 00:03:32,640
+fairness, which is group fairness.
+
+96
+00:03:32,641 --> 00:03:34,080
+And what does that mean?
+
+97
+00:03:34,081 --> 00:03:35,280
+I think it's important to address
+
+98
+00:03:36,220 --> 00:03:38,740
+is that we have tools for people to
+
+99
+00:03:38,741 --> 00:03:41,980
+evaluate how a model would perform
+
+100
+00:03:41,981 --> 00:03:44,060
+for different groups of people.
+
+101
+00:03:44,061 --> 00:03:46,100
+And in Fairlearn we call this
+
+102
+00:03:46,101 --> 00:03:47,300
+groups of people sensitive
+
+103
+00:03:47,301 --> 00:03:49,620
+features but they can be any kind
+
+104
+00:03:49,621 --> 00:03:50,740
+of subgroup that you want
+
+105
+00:03:50,741 --> 00:03:52,340
+to make sure the algorithm or
+
+106
+00:03:52,341 --> 00:03:53,740
+the model performs fair for.
+
+107
+00:03:53,741 --> 00:03:54,860
+We can think of any
+
+108
+00:03:54,861 --> 00:03:57,420
+examples like sex or race or any,
+
+109
+00:03:57,421 --> 00:03:58,660
+any really combination
+
+110
+00:03:58,661 --> 00:04:00,060
+of the subgroups as well.
+
+111
+00:04:00,061 --> 00:04:01,740
+This is based on something called
+
+112
+00:04:02,730 --> 00:04:04,330
+disaggregated evaluation.
+
+113
+00:04:04,331 --> 00:04:05,690
+And these are the metrics
+
+114
+00:04:05,691 --> 00:04:07,850
+and the other methods help with.
+
+115
+00:04:07,851 --> 00:04:09,290
+Do you have any like case
+
+116
+00:04:09,291 --> 00:04:11,210
+study of a company
+
+117
+00:04:11,211 --> 00:04:13,850
+or a project that uses Fairlearn?
+
+118
+00:04:13,851 --> 00:04:15,330
+I love this question because
+
+119
+00:04:15,331 --> 00:04:16,410
+it's a, it's an interesting
+
+120
+00:04:16,411 --> 00:04:17,529
+problem that we have.
+
+121
+00:04:17,530 --> 00:04:19,410
+We do really love working
+
+122
+00:04:19,411 --> 00:04:22,330
+on this and it's part of my
+
+123
+00:04:23,130 --> 00:04:24,410
+the research does, I read
+
+124
+00:04:24,411 --> 00:04:25,850
+papers around this method.
+
+125
+00:04:26,890 --> 00:04:29,090
+But one of the core problems is
+
+126
+00:04:29,091 --> 00:04:30,810
+that a lot of the people who do use
+
+127
+00:04:30,811 --> 00:04:32,410
+the library and there are plenty
+
+128
+00:04:32,411 --> 00:04:33,850
+because I think in December
+
+129
+00:04:34,710 --> 00:04:37,590
+there were half a million downloads.
+
+130
+00:04:37,591 --> 00:04:39,270
+Whoa, is that.
+
+131
+00:04:39,271 --> 00:04:41,510
+Yes, it's big and it's
+
+132
+00:04:41,511 --> 00:04:42,990
+interesting that it's really hard
+
+133
+00:04:42,991 --> 00:04:44,590
+to get any data about it.
+
+134
+00:04:44,591 --> 00:04:47,110
+And this is as somebody that's
+
+135
+00:04:47,111 --> 00:04:48,550
+just getting in this area
+
+136
+00:04:48,551 --> 00:04:50,890
+from an academic standpoint,
+
+137
+00:04:50,891 --> 00:04:52,150
+I wasn't in it before.
+
+138
+00:04:52,151 --> 00:04:53,310
+I learned from the senior
+
+139
+00:04:53,311 --> 00:04:54,830
+researchers that a lot of the
+
+140
+00:04:54,831 --> 00:04:56,910
+companies do not really want to
+
+141
+00:04:56,911 --> 00:04:58,950
+discuss the usage of these kinds
+
+142
+00:04:58,951 --> 00:05:00,470
+of tools and would definitely
+
+143
+00:05:00,471 --> 00:05:02,670
+not make any of their data sets
+
+144
+00:05:02,671 --> 00:05:03,030
+available.
+
+145
+00:05:03,031 --> 00:05:05,350
+But if you go on the website
+
+146
+00:05:05,351 --> 00:05:07,010
+I think this is one of the biggest.
+
+147
+00:05:07,570 --> 00:05:09,530
+Despite the excellent metrics
+
+148
+00:05:09,531 --> 00:05:11,990
+and really careful editorial,
+
+149
+00:05:11,991 --> 00:05:13,290
+decisions that are made and we
+
+150
+00:05:13,291 --> 00:05:15,010
+really do not add anything that
+
+151
+00:05:15,011 --> 00:05:16,650
+hasn't been mindfully vetted.
+
+152
+00:05:16,651 --> 00:05:18,450
+In a sense one of the biggest things
+
+153
+00:05:18,451 --> 00:05:20,050
+that we focus on is education.
+
+154
+00:05:20,051 --> 00:05:21,650
+So if you, if somebody opens the
+
+155
+00:05:21,651 --> 00:05:23,170
+website there is a place with
+
+156
+00:05:23,171 --> 00:05:25,770
+example notebooks and there in the
+
+157
+00:05:25,771 --> 00:05:27,730
+example notebooks there is one
+
+158
+00:05:28,690 --> 00:05:30,170
+white paper that was made by
+
+159
+00:05:30,171 --> 00:05:32,130
+Microsoft who started the library
+
+160
+00:05:32,131 --> 00:05:33,250
+many years ago.
+
+161
+00:05:33,251 --> 00:05:34,450
+But now it's community led.
+
+162
+00:05:34,960 --> 00:05:36,520
+Ernst and Young, if I pronounce
+
+163
+00:05:36,521 --> 00:05:38,960
+that right, that worked on
+
+164
+00:05:38,961 --> 00:05:41,040
+credit fairness in the states
+
+165
+00:05:41,041 --> 00:05:44,880
+between male and female applicants.
+
+166
+00:05:44,881 --> 00:05:45,960
+And it's a really interesting
+
+167
+00:05:45,961 --> 00:05:48,070
+case study to read of course,
+
+168
+00:05:48,071 --> 00:05:49,440
+one can assume there are
+
+169
+00:05:49,441 --> 00:05:51,520
+constantly this kind of scandals
+
+170
+00:05:51,521 --> 00:05:53,280
+coming out in the open.
+
+171
+00:05:53,281 --> 00:05:54,720
+You could assume that somebody
+
+172
+00:05:54,721 --> 00:05:56,320
+uses something somewhere.
+
+173
+00:05:56,321 --> 00:05:58,040
+Sometimes people from governments or
+
+174
+00:05:58,041 --> 00:05:59,240
+from different institutions come
+
+175
+00:05:59,241 --> 00:06:00,480
+to our community calls which are
+
+176
+00:06:00,481 --> 00:06:02,040
+by the way open for everyone.
+
+177
+00:06:02,041 --> 00:06:04,340
+They happen every second week
+
+178
+00:06:04,341 --> 00:06:05,980
+at 6pm Berlin time.
+
+179
+00:06:05,981 --> 00:06:07,140
+I don't know what is that
+
+180
+00:06:07,141 --> 00:06:08,820
+in other time zones?
+
+181
+00:06:09,820 --> 00:06:10,260
+Easily.
+
+182
+00:06:10,261 --> 00:06:11,780
+People can easily find it
+
+183
+00:06:11,781 --> 00:06:12,740
+on the website.
+
+184
+00:06:12,741 --> 00:06:13,940
+The time zone problem.
+
+185
+00:06:14,740 --> 00:06:16,020
+Yeah, most of the people that
+
+186
+00:06:16,021 --> 00:06:18,020
+contribute are coming from the U.S.
+
+187
+00:06:18,021 --> 00:06:19,780
+so they, they always say their
+
+188
+00:06:19,781 --> 00:06:21,540
+time and I always forget because I'm
+
+189
+00:06:21,541 --> 00:06:22,820
+in Europe, in Berlin.
+
+190
+00:06:24,100 --> 00:06:24,540
+Yes.
+
+191
+00:06:24,541 --> 00:06:25,260
+So this is a very
+
+192
+00:06:25,261 --> 00:06:25,900
+interesting question.
+
+193
+00:06:25,901 --> 00:06:27,580
+And if anybody's listening
+
+194
+00:06:27,581 --> 00:06:28,260
+to this that's using
+
+195
+00:06:28,261 --> 00:06:30,020
+Fairlearn, we have a survey,
+
+196
+00:06:31,130 --> 00:06:33,850
+that we just recently made.
+
+197
+00:06:33,851 --> 00:06:36,250
+One of our maintainers, Michael
+
+198
+00:06:36,251 --> 00:06:38,330
+created it for this specific purpose
+
+199
+00:06:38,331 --> 00:06:40,090
+because we are a bit in the dark.
+
+200
+00:06:40,091 --> 00:06:41,930
+We would like to serve the community
+
+201
+00:06:41,931 --> 00:06:43,090
+better, but we would
+
+202
+00:06:43,091 --> 00:06:44,250
+need the community to,
+
+203
+00:06:44,251 --> 00:06:46,410
+to be brave to talk to us about
+
+204
+00:06:46,970 --> 00:06:48,250
+how they use the tools.
+
+205
+00:06:49,460 --> 00:06:50,530
+Yeah, okay.
+
+206
+00:06:50,531 --> 00:06:50,810
+Yeah.
+
+207
+00:06:50,811 --> 00:06:52,050
+Share the link with us.
+
+208
+00:06:52,051 --> 00:06:54,090
+Maybe, we'll share it when
+
+209
+00:06:54,810 --> 00:06:55,690
+would be amazing.
+
+210
+00:06:55,691 --> 00:06:56,880
+Yeah, yeah.
+
+211
+00:06:56,881 --> 00:06:58,800
+So people who use Fairlearn
+
+212
+00:06:58,801 --> 00:07:00,480
+share how you actually use it.
+
+213
+00:07:00,481 --> 00:07:03,360
+Yeah, I find it, it's interesting.
+
+214
+00:07:03,361 --> 00:07:05,280
+Do you think people hesitant
+
+215
+00:07:05,281 --> 00:07:07,160
+to share like they don't want, they
+
+216
+00:07:07,161 --> 00:07:09,000
+don't want to tell that they are
+
+217
+00:07:09,001 --> 00:07:11,120
+using Fairlearn or what is,
+
+218
+00:07:11,121 --> 00:07:12,880
+is there a reason they are not?
+
+219
+00:07:12,881 --> 00:07:16,240
+I think a lot of the models
+
+220
+00:07:16,241 --> 00:07:19,760
+will have maybe non ideal results.
+
+221
+00:07:19,761 --> 00:07:20,720
+Now this is another
+
+222
+00:07:20,721 --> 00:07:21,600
+interesting question.
+
+223
+00:07:21,601 --> 00:07:24,110
+So one thing is to assess unfairness.
+
+224
+00:07:24,111 --> 00:07:25,630
+You would start for example
+
+225
+00:07:25,631 --> 00:07:27,190
+with defining your sensitive
+
+226
+00:07:27,191 --> 00:07:29,150
+groups and understanding what
+
+227
+00:07:29,151 --> 00:07:30,470
+your specific use case is.
+
+228
+00:07:30,471 --> 00:07:31,630
+It always has to be specific.
+
+229
+00:07:31,631 --> 00:07:33,110
+And then you would pick the right
+
+230
+00:07:33,111 --> 00:07:34,790
+metric that different metrics
+
+231
+00:07:34,791 --> 00:07:35,990
+like demographic parity
+
+232
+00:07:35,991 --> 00:07:37,950
+of equal odds, you can assume what
+
+233
+00:07:37,951 --> 00:07:39,350
+they mean maybe by the name
+
+234
+00:07:39,351 --> 00:07:40,270
+where we can discuss them.
+
+235
+00:07:40,271 --> 00:07:42,830
+But after that you can use some of
+
+236
+00:07:42,831 --> 00:07:44,830
+these to assess how the model works.
+
+237
+00:07:44,831 --> 00:07:46,510
+In case of demographic parity,
+
+238
+00:07:46,511 --> 00:07:47,910
+for example, is this you know, equal
+
+239
+00:07:47,911 --> 00:07:49,810
+for the demographics involved?
+
+240
+00:07:49,811 --> 00:07:51,810
+But the mitigation itself,
+
+241
+00:07:52,380 --> 00:07:55,090
+it's a, we do provide some tools
+
+242
+00:07:55,091 --> 00:07:57,210
+for mitigation in the library.
+
+243
+00:07:57,211 --> 00:07:58,410
+And there are many, many
+
+244
+00:07:58,411 --> 00:08:00,690
+other ways to do mitigation.
+
+245
+00:08:00,691 --> 00:08:02,650
+But mitigation, it's really not easy.
+
+246
+00:08:02,651 --> 00:08:05,249
+It's a very case to case, basis
+
+247
+00:08:05,250 --> 00:08:07,250
+and the answer might be in your
+
+248
+00:08:07,251 --> 00:08:09,330
+data, in adjusting your predictions,
+
+249
+00:08:09,331 --> 00:08:11,410
+in balancing some other ways.
+
+250
+00:08:11,411 --> 00:08:12,410
+There are other ways
+
+251
+00:08:12,411 --> 00:08:15,090
+of mitigating with intermediate
+
+252
+00:08:15,091 --> 00:08:16,330
+representations and so on.
+
+253
+00:08:16,331 --> 00:08:17,570
+It can get pretty complicated.
+
+254
+00:08:17,571 --> 00:08:19,410
+But only you can do this
+
+255
+00:08:19,411 --> 00:08:20,370
+in your own use.
+
+256
+00:08:20,990 --> 00:08:22,750
+And it's not easy to do after
+
+257
+00:08:22,751 --> 00:08:24,950
+you've set up everything to redo.
+
+258
+00:08:24,951 --> 00:08:26,510
+Because fairness has to be
+
+259
+00:08:26,511 --> 00:08:28,590
+from the very beginning considered.
+
+260
+00:08:28,591 --> 00:08:30,110
+When you create a product
+
+261
+00:08:30,111 --> 00:08:31,910
+or a model, it has to.
+
+262
+00:08:31,911 --> 00:08:34,070
+The idea of it being fair has
+
+263
+00:08:34,071 --> 00:08:35,870
+to be woven into the whole process.
+
+264
+00:08:35,871 --> 00:08:37,470
+And I think a lot of people maybe,
+
+265
+00:08:37,471 --> 00:08:40,030
+yes, they assess at the end and then
+
+266
+00:08:40,031 --> 00:08:41,070
+I don't know what they do.
+
+267
+00:08:41,071 --> 00:08:41,870
+Right.
+
+268
+00:08:41,871 --> 00:08:43,870
+What if like halfway through
+
+269
+00:08:43,871 --> 00:08:45,950
+they say, oh, actually
+
+270
+00:08:45,951 --> 00:08:47,510
+I forgot something that we
+
+271
+00:08:47,511 --> 00:08:49,190
+should actually add on to it.
+
+272
+00:08:49,191 --> 00:08:50,110
+What did they do?
+
+273
+00:08:51,360 --> 00:08:51,880
+I don't know.
+
+274
+00:08:51,881 --> 00:08:53,680
+I would like to know what people do.
+
+275
+00:08:55,040 --> 00:08:57,560
+I, I recently became a, part
+
+276
+00:08:57,561 --> 00:08:59,080
+of a very, very big Slack
+
+277
+00:08:59,081 --> 00:09:00,280
+channel and I was asking people,
+
+278
+00:09:00,281 --> 00:09:02,880
+hi, how do you use fairness?
+
+279
+00:09:02,881 --> 00:09:03,960
+Please tell me something.
+
+280
+00:09:03,961 --> 00:09:05,240
+Nobody told me anything still,
+
+281
+00:09:05,241 --> 00:09:07,040
+but maybe somebody will.
+
+282
+00:09:07,041 --> 00:09:10,040
+Okay, yeah, hopefully we get to
+
+283
+00:09:10,041 --> 00:09:11,840
+share your survey and so hopefully
+
+284
+00:09:11,841 --> 00:09:14,480
+you get responses and you get
+
+285
+00:09:14,481 --> 00:09:16,490
+to learn more about the user.
+
+286
+00:09:16,491 --> 00:09:17,850
+I do believe there are some maybe
+
+287
+00:09:17,851 --> 00:09:19,610
+like big companies have idea
+
+288
+00:09:19,611 --> 00:09:21,210
+about this in their own internal
+
+289
+00:09:21,211 --> 00:09:22,490
+teams and senior researchers.
+
+290
+00:09:22,491 --> 00:09:23,690
+But you cannot say
+
+291
+00:09:23,691 --> 00:09:24,730
+anything about this.
+
+292
+00:09:25,850 --> 00:09:26,810
+Yeah.
+
+293
+00:09:26,811 --> 00:09:30,010
+So let's bring it all the way
+
+294
+00:09:30,011 --> 00:09:31,290
+to the beginning.
+
+295
+00:09:31,291 --> 00:09:33,130
+Like we are here talking
+
+296
+00:09:33,131 --> 00:09:34,730
+about the Python community.
+
+297
+00:09:34,731 --> 00:09:35,650
+So I'm actually kind
+
+298
+00:09:35,651 --> 00:09:37,450
+of interested to know how you
+
+299
+00:09:37,451 --> 00:09:39,250
+actually started using Python.
+
+300
+00:09:39,251 --> 00:09:39,610
+Yeah.
+
+301
+00:09:39,611 --> 00:09:42,450
+So Python wasn't the first
+
+302
+00:09:42,451 --> 00:09:44,090
+language that I work with.
+
+303
+00:09:45,190 --> 00:09:48,110
+I started during my studies
+
+304
+00:09:48,111 --> 00:09:49,390
+in the late 2000s.
+
+305
+00:09:49,391 --> 00:09:50,390
+They didn't really teach
+
+306
+00:09:50,391 --> 00:09:51,750
+Python at universities.
+
+307
+00:09:51,751 --> 00:09:54,390
+We studied C and C++ I believe.
+
+308
+00:09:55,750 --> 00:09:58,230
+And then I did my first Google Summer
+
+309
+00:09:58,231 --> 00:09:59,910
+of Code contributing gnome.
+
+310
+00:09:59,911 --> 00:10:02,390
+It was in C&GTK if I
+
+311
+00:10:02,391 --> 00:10:04,310
+remember it was 2011.
+
+312
+00:10:05,030 --> 00:10:06,550
+And then I was also
+
+313
+00:10:07,460 --> 00:10:09,590
+very politically active at the time.
+
+314
+00:10:10,320 --> 00:10:12,540
+And I went, I was, it was time
+
+315
+00:10:12,541 --> 00:10:14,660
+for the second GSoC.
+
+316
+00:10:14,661 --> 00:10:16,620
+And then I was okay, I want to do
+
+317
+00:10:16,621 --> 00:10:18,500
+something that's really specific
+
+318
+00:10:18,501 --> 00:10:21,300
+about citizen participation and
+
+319
+00:10:21,301 --> 00:10:23,740
+works really, really directly
+
+320
+00:10:23,741 --> 00:10:25,620
+addresses, not indirectly as any
+
+321
+00:10:25,621 --> 00:10:27,380
+open source would, but directly
+
+322
+00:10:27,381 --> 00:10:29,620
+addresses a political issue.
+
+323
+00:10:29,621 --> 00:10:31,780
+And I found a small project
+
+324
+00:10:31,781 --> 00:10:34,700
+from Spain called e-cidadania.
+
+325
+00:10:34,701 --> 00:10:35,500
+I don't know if you pronounce
+
+326
+00:10:35,501 --> 00:10:36,340
+that right now, I am
+
+327
+00:10:37,180 --> 00:10:41,130
+in Spanish, but it was a citizen
+
+328
+00:10:41,131 --> 00:10:42,290
+participation platform.
+
+329
+00:10:42,291 --> 00:10:42,970
+Exactly.
+
+330
+00:10:43,530 --> 00:10:45,970
+And it was in the time it used
+
+331
+00:10:45,971 --> 00:10:49,850
+Django and JavaScript to create this
+
+332
+00:10:49,851 --> 00:10:52,250
+little kanban like discussion,
+
+333
+00:10:52,251 --> 00:10:54,330
+if I can describe it now.
+
+334
+00:10:54,331 --> 00:10:55,930
+And it was supposed to be used by
+
+335
+00:10:55,931 --> 00:10:57,810
+the local government, if I remember
+
+336
+00:10:57,811 --> 00:11:00,490
+right, to increase the participation
+
+337
+00:11:00,491 --> 00:11:02,570
+of the local people who live there.
+
+338
+00:11:03,610 --> 00:11:05,530
+And we worked on that.
+
+339
+00:11:05,531 --> 00:11:07,050
+It was really fun.
+
+340
+00:11:07,051 --> 00:11:09,510
+And then I think I just never
+
+341
+00:11:09,511 --> 00:11:11,230
+stopped working with Python
+
+342
+00:11:11,231 --> 00:11:12,470
+because I learned Django
+
+343
+00:11:12,471 --> 00:11:13,830
+and I felt so empowered.
+
+344
+00:11:13,831 --> 00:11:15,790
+I was, I can do anything now.
+
+345
+00:11:18,030 --> 00:11:21,150
+Yeah, because Django was, wow,
+
+346
+00:11:21,151 --> 00:11:22,230
+these kind of frameworks
+
+347
+00:11:22,231 --> 00:11:24,870
+in 2012, 2013, I was like, I can
+
+348
+00:11:24,871 --> 00:11:26,430
+build any website I want.
+
+349
+00:11:27,070 --> 00:11:29,590
+And then I, then I also had
+
+350
+00:11:29,591 --> 00:11:31,390
+a job and a think tank.
+
+351
+00:11:31,391 --> 00:11:32,470
+I worked at a think tank
+
+352
+00:11:32,471 --> 00:11:33,350
+as a software engineer.
+
+353
+00:11:33,351 --> 00:11:35,590
+I had a little team and we did
+
+354
+00:11:35,591 --> 00:11:37,750
+projects that were meant for,
+
+355
+00:11:38,490 --> 00:11:40,030
+to increase either awareness
+
+356
+00:11:40,031 --> 00:11:41,430
+or address social issues.
+
+357
+00:11:41,431 --> 00:11:43,310
+It was really still my favorite
+
+358
+00:11:43,311 --> 00:11:44,550
+job so many years after.
+
+359
+00:11:45,190 --> 00:11:46,510
+And this is.
+
+360
+00:11:46,511 --> 00:11:47,790
+I could directly just use my
+
+361
+00:11:47,791 --> 00:11:49,190
+skills there and I felt just.
+
+362
+00:11:50,390 --> 00:11:51,030
+Yes.
+
+363
+00:11:51,031 --> 00:11:52,950
+And I still do Python.
+
+364
+00:11:52,951 --> 00:11:54,830
+That's very cool and I love that.
+
+365
+00:11:54,831 --> 00:11:56,230
+I think we need to
+
+366
+00:11:56,231 --> 00:11:57,390
+highlight that quote.
+
+367
+00:11:57,391 --> 00:11:59,030
+Just now like, with Django,
+
+368
+00:11:59,031 --> 00:12:00,390
+you feel so empowered.
+
+369
+00:12:03,590 --> 00:12:04,550
+I remember thinking
+
+370
+00:12:04,551 --> 00:12:06,270
+I can, I wanted to.
+
+371
+00:12:06,271 --> 00:12:07,590
+I can do everything now.
+
+372
+00:12:08,150 --> 00:12:11,110
+I know I, I'm a big fan
+
+373
+00:12:11,111 --> 00:12:13,110
+of the Django web framework myself.
+
+374
+00:12:13,111 --> 00:12:14,790
+That's what I also use
+
+375
+00:12:14,791 --> 00:12:15,670
+professionally.
+
+376
+00:12:15,671 --> 00:12:15,990
+So.
+
+377
+00:12:15,991 --> 00:12:17,110
+And I totally agree.
+
+378
+00:12:17,111 --> 00:12:21,750
+Like, I mean right now I'm like
+
+379
+00:12:21,751 --> 00:12:23,270
+I'm trying to replace all
+
+380
+00:12:23,271 --> 00:12:25,110
+my spreadsheets with Django.
+
+381
+00:12:27,190 --> 00:12:27,910
+I'm trying.
+
+382
+00:12:28,630 --> 00:12:30,890
+But yes, I love it at the end.
+
+383
+00:12:30,891 --> 00:12:32,650
+It will be easier to edit eventually.
+
+384
+00:12:32,651 --> 00:12:34,410
+Yeah, yeah, I think.
+
+385
+00:12:34,411 --> 00:12:35,890
+Yeah, yeah.
+
+386
+00:12:35,891 --> 00:12:39,330
+So you know, It's Django
+
+387
+00:12:39,331 --> 00:12:41,570
+in 2012 that was.
+
+388
+00:12:41,571 --> 00:12:43,810
+I think it was like Django one point
+
+389
+00:12:43,811 --> 00:12:46,370
+something probably, or Django two.
+
+390
+00:12:46,371 --> 00:12:47,610
+I don't know that it's
+
+391
+00:12:47,611 --> 00:12:48,930
+a long time ago.
+
+392
+00:12:48,931 --> 00:12:51,250
+I wonder if you had encountered any
+
+393
+00:12:51,890 --> 00:12:53,730
+difficulties or other
+
+394
+00:12:53,731 --> 00:12:55,690
+limitations when working with
+
+395
+00:12:55,691 --> 00:12:57,330
+Django and Python back then.
+
+396
+00:12:57,860 --> 00:12:59,620
+So I think, people can.
+
+397
+00:12:59,621 --> 00:13:01,500
+It's archived now on GitHub, our
+
+398
+00:13:01,501 --> 00:13:03,300
+repository from then, but they can
+
+399
+00:13:03,301 --> 00:13:04,940
+go and still see the type of commits
+
+400
+00:13:04,941 --> 00:13:07,380
+and PRs that we did in the past.
+
+401
+00:13:07,381 --> 00:13:08,980
+They're not what I would do now.
+
+402
+00:13:08,981 --> 00:13:10,260
+But I am not embarrassed
+
+403
+00:13:10,261 --> 00:13:11,220
+from my beginnings.
+
+404
+00:13:11,860 --> 00:13:12,860
+They can check out how
+
+405
+00:13:12,861 --> 00:13:15,140
+we did Django then.
+
+406
+00:13:15,141 --> 00:13:17,740
+Yes, there were plenty of, growing
+
+407
+00:13:17,741 --> 00:13:20,060
+pains as somebody that only did
+
+408
+00:13:20,061 --> 00:13:22,420
+C and C++ and thought in a very
+
+409
+00:13:22,421 --> 00:13:24,310
+different way about programming.
+
+410
+00:13:24,311 --> 00:13:25,590
+And I never did web before
+
+411
+00:13:25,591 --> 00:13:26,630
+in the, in the time.
+
+412
+00:13:26,631 --> 00:13:29,910
+And it was all I had to start doing
+
+413
+00:13:29,911 --> 00:13:32,390
+to apply for the GSoC.
+
+414
+00:13:32,391 --> 00:13:33,750
+I really, really wanted it.
+
+415
+00:13:34,470 --> 00:13:36,870
+And I was part of a hacker space
+
+416
+00:13:36,871 --> 00:13:39,110
+for those few years already.
+
+417
+00:13:39,111 --> 00:13:41,190
+And it's lovely because when
+
+418
+00:13:41,191 --> 00:13:43,030
+you're part of a hacker space
+
+419
+00:13:43,031 --> 00:13:44,550
+you have so many people
+
+420
+00:13:44,551 --> 00:13:46,430
+that are just there to hang out
+
+421
+00:13:46,431 --> 00:13:49,270
+and hack and code and mentor.
+
+422
+00:13:49,271 --> 00:13:51,390
+And there was a person called
+
+423
+00:13:51,391 --> 00:13:52,870
+Vladan, which is shout out
+
+424
+00:13:52,871 --> 00:13:55,030
+to Vladan if he ever hears this.
+
+425
+00:13:55,031 --> 00:13:58,130
+And I remember that he was a great
+
+426
+00:13:58,131 --> 00:14:00,530
+help to just push me to learn
+
+427
+00:14:00,531 --> 00:14:02,090
+and get this through this.
+
+428
+00:14:02,091 --> 00:14:03,490
+Growing pains faster.
+
+429
+00:14:03,491 --> 00:14:05,410
+Yeah, I think there was a lot
+
+430
+00:14:05,411 --> 00:14:06,850
+in the, in the time that
+
+431
+00:14:07,470 --> 00:14:09,570
+it wasn't just learning Django,
+
+432
+00:14:09,571 --> 00:14:11,210
+which maybe I don't know.
+
+433
+00:14:11,211 --> 00:14:12,890
+I think a big part of learning Django
+
+434
+00:14:12,891 --> 00:14:14,290
+is learning how the web works.
+
+435
+00:14:14,291 --> 00:14:16,290
+When you're beginning with Django,
+
+436
+00:14:16,291 --> 00:14:19,090
+I think, I knew theoretically
+
+437
+00:14:19,091 --> 00:14:20,570
+from my studies because we
+
+438
+00:14:20,571 --> 00:14:21,850
+did networking and so on.
+
+439
+00:14:21,851 --> 00:14:22,850
+I have a Computer Science
+
+440
+00:14:22,851 --> 00:14:24,380
+degree that I did before that.
+
+441
+00:14:24,381 --> 00:14:25,660
+By the time I had it finished
+
+442
+00:14:25,661 --> 00:14:27,460
+by 2012, I was trying
+
+443
+00:14:27,461 --> 00:14:28,820
+to, I started the masters.
+
+444
+00:14:30,510 --> 00:14:33,860
+But yeah, I think, I think it
+
+445
+00:14:33,861 --> 00:14:35,780
+was just so lovely and it was very
+
+446
+00:14:35,781 --> 00:14:38,380
+different from my C&GTK
+
+447
+00:14:38,381 --> 00:14:40,340
+experience the year before that.
+
+448
+00:14:40,341 --> 00:14:41,780
+It was no going back,
+
+449
+00:14:42,900 --> 00:14:44,860
+but it wasn't, it wasn't fully
+
+450
+00:14:44,861 --> 00:14:45,900
+straightforward, that's for sure.
+
+451
+00:14:45,901 --> 00:14:46,900
+It's just, it's hard for me
+
+452
+00:14:46,901 --> 00:14:50,420
+to remember was 13 years ago.
+
+453
+00:14:51,250 --> 00:14:55,250
+I remember somewhere, somehow
+
+454
+00:14:55,251 --> 00:14:58,270
+in one of my high school or
+
+455
+00:14:58,271 --> 00:15:01,410
+polytechnic days we have basic
+
+456
+00:15:01,411 --> 00:15:04,290
+Computer Science and I learned C
+
+457
+00:15:04,291 --> 00:15:06,130
+there and I un-seen it.
+
+458
+00:15:06,690 --> 00:15:12,690
+Now I C and un-C.
+
+459
+00:15:15,810 --> 00:15:17,160
+Yeah, it was a lot.
+
+460
+00:15:17,161 --> 00:15:17,320
+C.
+
+461
+00:15:17,321 --> 00:15:17,960
+was a lot.
+
+462
+00:15:17,961 --> 00:15:19,040
+I think people still do it
+
+463
+00:15:19,041 --> 00:15:20,440
+now, I guess, but they are.
+
+464
+00:15:20,441 --> 00:15:21,880
+They do, they do, they do.
+
+465
+00:15:22,520 --> 00:15:23,800
+It's CPython.
+
+466
+00:15:23,801 --> 00:15:25,080
+Exactly.
+
+467
+00:15:25,081 --> 00:15:25,560
+Yes.
+
+468
+00:15:26,520 --> 00:15:28,200
+When we built Python,
+
+469
+00:15:28,201 --> 00:15:29,160
+it's still used.
+
+470
+00:15:30,360 --> 00:15:34,840
+But yeah, I also, I, I use Java and C#
+
+471
+00:15:34,841 --> 00:15:36,440
+before I learned Python,
+
+472
+00:15:36,441 --> 00:15:38,920
+but once I use Python, yeah, I'm.
+
+473
+00:15:38,921 --> 00:15:41,080
+This is the language I feel like
+
+474
+00:15:41,081 --> 00:15:43,530
+makes sense to me, you know, it's.
+
+475
+00:15:43,531 --> 00:15:45,170
+Also, it's so versatile.
+
+476
+00:15:45,171 --> 00:15:47,770
+So in back then I did web and then
+
+477
+00:15:47,771 --> 00:15:49,490
+I did web for a few years and
+
+478
+00:15:49,491 --> 00:15:53,450
+then in 2015 I got a job where I
+
+479
+00:15:53,451 --> 00:15:54,930
+used Python to write hardware
+
+480
+00:15:54,931 --> 00:15:56,610
+bindings, which was for music
+
+481
+00:15:56,611 --> 00:15:57,250
+instrument.
+
+482
+00:15:57,251 --> 00:15:59,090
+It was really fun.
+
+483
+00:15:59,091 --> 00:16:02,370
+And then I, then I transitioned
+
+484
+00:16:02,371 --> 00:16:04,930
+to doing machine learning and NLP,
+
+485
+00:16:04,931 --> 00:16:06,410
+which one my degree is in.
+
+486
+00:16:06,411 --> 00:16:08,590
+So Python is very versatile.
+
+487
+00:16:08,591 --> 00:16:10,550
+It is, it's not just
+
+488
+00:16:10,551 --> 00:16:11,830
+Django that's empowering.
+
+489
+00:16:11,831 --> 00:16:13,350
+It's like you have a language
+
+490
+00:16:13,351 --> 00:16:14,750
+that will take you through all
+
+491
+00:16:14,751 --> 00:16:16,110
+of this that you can
+
+492
+00:16:16,111 --> 00:16:17,790
+lean back as a basis on.
+
+493
+00:16:18,510 --> 00:16:19,550
+I love that.
+
+494
+00:16:19,551 --> 00:16:21,630
+Can you talk more about your
+
+495
+00:16:21,631 --> 00:16:23,630
+involvement in the Python community?
+
+496
+00:16:23,631 --> 00:16:25,230
+Like how or.
+
+497
+00:16:25,231 --> 00:16:27,790
+I know you said you started using
+
+498
+00:16:27,791 --> 00:16:30,310
+Django and Python, but that's using
+
+499
+00:16:30,311 --> 00:16:32,270
+the language but then you become
+
+500
+00:16:32,271 --> 00:16:33,550
+involved in the community.
+
+501
+00:16:33,551 --> 00:16:35,850
+Can you talk more about that?
+
+502
+00:16:35,851 --> 00:16:36,570
+Yes.
+
+503
+00:16:36,571 --> 00:16:39,250
+So, I guess by getting involved
+
+504
+00:16:39,251 --> 00:16:41,610
+in Python as a community slightly
+
+505
+00:16:41,611 --> 00:16:43,410
+related to my immigration because
+
+506
+00:16:43,411 --> 00:16:45,930
+I come from a country
+
+507
+00:16:45,931 --> 00:16:47,930
+that's now called North Macedonia.
+
+508
+00:16:47,931 --> 00:16:48,930
+Wasn't called like this
+
+509
+00:16:48,931 --> 00:16:49,770
+where I lived there.
+
+510
+00:16:50,410 --> 00:16:53,770
+But so in there wasn't any
+
+511
+00:16:53,771 --> 00:16:55,210
+separate Python community,
+
+512
+00:16:55,211 --> 00:16:56,730
+although I already contributed
+
+513
+00:16:56,731 --> 00:16:58,970
+open source-wise to Python.
+
+514
+00:16:58,971 --> 00:17:03,120
+It was we were all one
+
+515
+00:17:03,121 --> 00:17:05,200
+technical community so to say.
+
+516
+00:17:05,201 --> 00:17:08,849
+And since I was mostly I was tightly
+
+517
+00:17:08,850 --> 00:17:10,960
+intertwined with a Gno,me community
+
+518
+00:17:10,961 --> 00:17:12,990
+before went to their conferences.
+
+519
+00:17:13,760 --> 00:17:15,880
+I was involved in the pre-
+
+520
+00:17:15,881 --> 00:17:18,589
+Outreachy kind of groups.
+
+521
+00:17:18,590 --> 00:17:19,280
+And so on.
+
+522
+00:17:21,920 --> 00:17:23,440
+I did program in Python
+
+523
+00:17:23,441 --> 00:17:24,720
+but I never saw the community
+
+524
+00:17:24,721 --> 00:17:25,839
+as a separate thing.
+
+525
+00:17:25,840 --> 00:17:28,000
+And when I immigrated or was trying
+
+526
+00:17:28,001 --> 00:17:30,320
+to immigrate to Berlin in 2013,
+
+527
+00:17:30,890 --> 00:17:32,530
+I get to know the PyLadies.
+
+528
+00:17:32,531 --> 00:17:33,690
+The PyLadies.
+
+529
+00:17:33,691 --> 00:17:35,210
+This is one of the people,
+
+530
+00:17:35,211 --> 00:17:37,410
+the first people that showed their
+
+531
+00:17:37,411 --> 00:17:39,050
+welcome for me in the city.
+
+532
+00:17:39,051 --> 00:17:41,610
+So it's still my longest
+
+533
+00:17:41,611 --> 00:17:42,930
+standing relationship and I
+
+534
+00:17:42,931 --> 00:17:44,010
+really appreciate it.
+
+535
+00:17:44,011 --> 00:17:45,050
+I don't think I would have
+
+536
+00:17:45,051 --> 00:17:46,330
+moved if they did not
+
+537
+00:17:46,331 --> 00:17:48,500
+were so welcoming to me.
+
+538
+00:17:48,501 --> 00:17:49,930
+There's Mei Lee.
+
+539
+00:17:49,931 --> 00:17:51,050
+I don't know if she's ever gonna
+
+540
+00:17:51,051 --> 00:17:52,810
+hear this but she's still my friend
+
+541
+00:17:52,811 --> 00:17:54,730
+and somehow I met her and she
+
+542
+00:17:55,440 --> 00:17:57,370
+invited me to give a talk about
+
+543
+00:17:58,580 --> 00:18:01,180
+all this political projects.
+
+544
+00:18:01,181 --> 00:18:03,300
+I did politically related projects
+
+545
+00:18:03,301 --> 00:18:04,140
+that were connected
+
+546
+00:18:04,141 --> 00:18:05,700
+to raising awareness or.
+
+547
+00:18:05,701 --> 00:18:07,140
+And they were all in Python
+
+548
+00:18:07,700 --> 00:18:08,340
+at the time.
+
+549
+00:18:08,341 --> 00:18:09,660
+As I said, empowered
+
+550
+00:18:09,661 --> 00:18:10,180
+to do everything.
+
+551
+00:18:10,980 --> 00:18:12,820
+And I remember doing that talk.
+
+552
+00:18:12,821 --> 00:18:13,780
+I don't remember anymore.
+
+553
+00:18:13,781 --> 00:18:15,220
+I cannot find any of the slides.
+
+554
+00:18:15,780 --> 00:18:16,860
+But I went.
+
+555
+00:18:16,861 --> 00:18:19,820
+I had to go back to where I was
+
+556
+00:18:19,821 --> 00:18:20,900
+from because you cannot apply
+
+557
+00:18:20,901 --> 00:18:22,180
+for a visa from Germany.
+
+558
+00:18:22,181 --> 00:18:24,660
+And I had to figure all of that out.
+
+559
+00:18:24,661 --> 00:18:27,350
+And when I came back the community
+
+560
+00:18:27,351 --> 00:18:28,990
+was there and that was really great.
+
+561
+00:18:28,991 --> 00:18:30,910
+And some of those people that I've
+
+562
+00:18:30,911 --> 00:18:32,190
+met there are still some of my
+
+563
+00:18:32,191 --> 00:18:34,070
+closest friends where I'm here.
+
+564
+00:18:34,870 --> 00:18:36,470
+So Yeah.
+
+565
+00:18:38,010 --> 00:18:40,670
+I have never been truly organizing
+
+566
+00:18:40,671 --> 00:18:41,430
+in the community
+
+567
+00:18:41,431 --> 00:18:43,350
+but I've given several talks.
+
+568
+00:18:45,270 --> 00:18:47,110
+My most recent one was in January.
+
+569
+00:18:48,470 --> 00:18:49,950
+I always go back when I have
+
+570
+00:18:49,951 --> 00:18:51,710
+something new and what I really want
+
+571
+00:18:51,711 --> 00:18:54,200
+to share with with the community.
+
+572
+00:18:54,201 --> 00:18:57,080
+And I, I mentor in sprints.
+
+573
+00:18:57,081 --> 00:18:59,360
+I've mentored Django girls
+
+574
+00:18:59,361 --> 00:19:01,880
+and similar kind of events.
+
+575
+00:19:02,650 --> 00:19:03,880
+Wherever there is help
+
+576
+00:19:03,881 --> 00:19:05,160
+needed of the sort.
+
+577
+00:19:05,161 --> 00:19:05,560
+Yes.
+
+578
+00:19:05,561 --> 00:19:08,360
+So I guess in that way I do.
+
+579
+00:19:08,361 --> 00:19:10,080
+Except well separate from
+
+580
+00:19:10,081 --> 00:19:12,360
+my open source work I did.
+
+581
+00:19:12,361 --> 00:19:12,680
+It's.
+
+582
+00:19:12,681 --> 00:19:13,000
+It's.
+
+583
+00:19:13,001 --> 00:19:14,680
+It's worth mentioning that during
+
+584
+00:19:14,681 --> 00:19:18,160
+the pandemic and when my, When I was
+
+585
+00:19:18,161 --> 00:19:20,520
+a very new mom, that was more rare.
+
+586
+00:19:21,240 --> 00:19:22,920
+I think I do a bit more now
+
+587
+00:19:22,921 --> 00:19:24,280
+than I did in those years.
+
+588
+00:19:25,320 --> 00:19:25,760
+Wow.
+
+589
+00:19:25,761 --> 00:19:26,360
+But that.
+
+590
+00:19:26,361 --> 00:19:29,080
+That sounds a lot like you
+
+591
+00:19:29,081 --> 00:19:30,760
+are still pretty involved.
+
+592
+00:19:30,761 --> 00:19:33,160
+I mean right from the beginning till.
+
+593
+00:19:33,161 --> 00:19:35,960
+Till what you are at right now
+
+594
+00:19:35,961 --> 00:19:38,200
+and like getting involved
+
+595
+00:19:38,201 --> 00:19:40,760
+in code, on the contribution,
+
+596
+00:19:40,761 --> 00:19:42,680
+that's quite a bit of time there.
+
+597
+00:19:42,681 --> 00:19:44,360
+And plus the community,
+
+598
+00:19:44,361 --> 00:19:46,620
+plus getting, sharing your.
+
+599
+00:19:47,340 --> 00:19:49,660
+Your knowledge to the community
+
+600
+00:19:49,661 --> 00:19:51,820
+by giving talks and then
+
+601
+00:19:52,380 --> 00:19:55,260
+finally adding it to like providing
+
+602
+00:19:55,261 --> 00:19:58,060
+giving mentorship which is like wow.
+
+603
+00:19:58,061 --> 00:20:00,020
+From zero to all the, all
+
+604
+00:20:00,021 --> 00:20:02,460
+the level, from beginners all
+
+605
+00:20:02,461 --> 00:20:04,060
+the way to the expert
+
+606
+00:20:04,061 --> 00:20:05,420
+levels, you cover everything.
+
+607
+00:20:06,860 --> 00:20:08,380
+So thank you.
+
+608
+00:20:08,381 --> 00:20:09,900
+Yeah, I mean it's, it's really
+
+609
+00:20:10,570 --> 00:20:13,390
+amazing to see someone like you who
+
+610
+00:20:13,391 --> 00:20:17,070
+are so, so passionate about sharing
+
+611
+00:20:17,071 --> 00:20:18,550
+what you know to the community.
+
+612
+00:20:19,190 --> 00:20:21,630
+And I think because of people like
+
+613
+00:20:21,631 --> 00:20:24,110
+you, we get to learn more and we
+
+614
+00:20:24,111 --> 00:20:25,710
+get to understand a lot, a lot
+
+615
+00:20:25,711 --> 00:20:29,280
+more about how we can use the
+
+616
+00:20:29,281 --> 00:20:31,110
+different cases and how we can
+
+617
+00:20:31,111 --> 00:20:33,590
+actually learn literally when you
+
+618
+00:20:33,591 --> 00:20:34,470
+mentor people.
+
+619
+00:20:35,350 --> 00:20:37,110
+So I'm actually very, very
+
+620
+00:20:37,111 --> 00:20:38,710
+interested to know like
+
+621
+00:20:39,440 --> 00:20:42,080
+how do you work on mentorship?
+
+622
+00:20:42,081 --> 00:20:43,760
+Because I recently had
+
+623
+00:20:44,800 --> 00:20:47,440
+very interesting conversation with
+
+624
+00:20:47,960 --> 00:20:50,520
+Djangonauts Space people and we are
+
+625
+00:20:50,521 --> 00:20:52,800
+talking about how we could actually
+
+626
+00:20:53,520 --> 00:20:56,000
+improve on mentorship.
+
+627
+00:20:56,001 --> 00:20:57,560
+So I would like to hear from
+
+628
+00:20:57,561 --> 00:20:58,760
+your point of view, like,
+
+629
+00:20:58,761 --> 00:21:00,320
+how do you actually started
+
+630
+00:21:00,321 --> 00:21:01,840
+like mentoring people
+
+631
+00:21:01,841 --> 00:21:03,920
+and to get people to understand or
+
+632
+00:21:03,921 --> 00:21:05,040
+to get people to learn?
+
+633
+00:21:05,041 --> 00:21:06,480
+Because people, when they
+
+634
+00:21:06,481 --> 00:21:08,080
+learn they come from all sorts
+
+635
+00:21:08,081 --> 00:21:09,200
+of all walks of life.
+
+636
+00:21:09,920 --> 00:21:11,280
+I think I have to mention something.
+
+637
+00:21:12,000 --> 00:21:14,440
+For me, mentorship is part
+
+638
+00:21:14,441 --> 00:21:19,360
+of my core values and it's related
+
+639
+00:21:19,361 --> 00:21:21,280
+to justice for me.
+
+640
+00:21:22,320 --> 00:21:24,160
+I come from a working class family
+
+641
+00:21:24,161 --> 00:21:26,560
+that didn't have a lot of resources
+
+642
+00:21:26,561 --> 00:21:27,600
+and it was really hard
+
+643
+00:21:27,601 --> 00:21:29,600
+for me to stay and get access
+
+644
+00:21:29,601 --> 00:21:32,230
+to more education programs.
+
+645
+00:21:32,231 --> 00:21:34,310
+Like the way my hackerspace friends
+
+646
+00:21:34,311 --> 00:21:35,910
+helped me with those Google Summer
+
+647
+00:21:35,911 --> 00:21:39,350
+of Code projects, made me pay off my
+
+648
+00:21:39,351 --> 00:21:41,870
+student loans that I had and I
+
+649
+00:21:41,871 --> 00:21:43,910
+wouldn't be here without them.
+
+650
+00:21:43,911 --> 00:21:48,070
+And the effort I do for me is just
+
+651
+00:21:48,071 --> 00:21:49,750
+a way to keep this going,
+
+652
+00:21:49,751 --> 00:21:52,070
+taking people with me on the journey
+
+653
+00:21:52,071 --> 00:21:53,950
+and it's never going to stop.
+
+654
+00:21:53,951 --> 00:21:55,750
+It's just part of my ethos,
+
+655
+00:21:55,751 --> 00:21:56,710
+in a sense.
+
+656
+00:21:56,711 --> 00:21:58,030
+So every time I show up, I show
+
+657
+00:21:58,031 --> 00:21:59,570
+up with this in mind.
+
+658
+00:21:59,571 --> 00:22:00,570
+So every time I get an idea
+
+659
+00:22:00,571 --> 00:22:02,530
+to talk at the PyLadies, it's.
+
+660
+00:22:02,531 --> 00:22:04,810
+I learned, I think in my last talk
+
+661
+00:22:04,811 --> 00:22:08,600
+I said that my company also does
+
+662
+00:22:08,601 --> 00:22:10,730
+certification for Scikit Learn, so
+
+663
+00:22:10,731 --> 00:22:12,170
+maybe people should check it out.
+
+664
+00:22:12,171 --> 00:22:13,530
+It's, they're really doing
+
+665
+00:22:13,531 --> 00:22:14,690
+a great job with it.
+
+666
+00:22:14,691 --> 00:22:16,660
+And there was an expert topic they
+
+667
+00:22:17,300 --> 00:22:18,970
+they mentioned and I was like, okay,
+
+668
+00:22:18,971 --> 00:22:20,490
+they mention it as an expert topic
+
+669
+00:22:20,491 --> 00:22:22,010
+as part of the expert certification.
+
+670
+00:22:22,011 --> 00:22:23,890
+I'm making a talk immediately
+
+671
+00:22:23,891 --> 00:22:25,530
+to bring it to the PyLadies because
+
+672
+00:22:25,531 --> 00:22:27,940
+I want these people to live the room
+
+673
+00:22:27,941 --> 00:22:30,340
+feeling as experts in that night.
+
+674
+00:22:30,341 --> 00:22:32,420
+So this is what guides me.
+
+675
+00:22:32,421 --> 00:22:33,860
+What got me into this was this,
+
+676
+00:22:33,861 --> 00:22:35,020
+of course, this experience with
+
+677
+00:22:35,021 --> 00:22:38,020
+the hackerspace which predates this
+
+678
+00:22:38,021 --> 00:22:39,740
+immigration experience and all
+
+679
+00:22:39,741 --> 00:22:41,780
+the more deep Python involvement.
+
+680
+00:22:42,340 --> 00:22:45,380
+And also I gained some skill by being
+
+681
+00:22:45,381 --> 00:22:48,580
+a TA at the university. My first
+
+682
+00:22:48,581 --> 00:22:50,980
+degree, that was a really long time.
+
+683
+00:22:50,981 --> 00:22:52,900
+I think their skills were refined.
+
+684
+00:22:52,901 --> 00:22:54,100
+I have a very different
+
+685
+00:22:54,101 --> 00:22:55,770
+approach now than I had when I was
+
+686
+00:22:56,400 --> 00:22:57,680
+a child at university,
+
+687
+00:22:57,681 --> 00:22:59,920
+so to say, a young person.
+
+688
+00:22:59,921 --> 00:23:00,280
+Yeah.
+
+689
+00:23:00,281 --> 00:23:01,560
+And for the, how do
+
+690
+00:23:01,561 --> 00:23:02,920
+we, how do we mentor.
+
+691
+00:23:02,921 --> 00:23:05,400
+I think there as open source in
+
+692
+00:23:05,401 --> 00:23:07,160
+open source contribution sprints or
+
+693
+00:23:07,161 --> 00:23:08,520
+for people to get involved.
+
+694
+00:23:08,521 --> 00:23:10,800
+There is a specific, I do have very
+
+695
+00:23:11,360 --> 00:23:13,080
+specific ideas there that I'm
+
+696
+00:23:13,081 --> 00:23:14,960
+trying now as a first, I'm a, I've
+
+697
+00:23:14,961 --> 00:23:16,240
+been involved for so long, but I've
+
+698
+00:23:16,241 --> 00:23:18,440
+never been a maintainer and I've
+
+699
+00:23:18,441 --> 00:23:20,360
+even had keynotes to talk to other
+
+700
+00:23:20,361 --> 00:23:20,560
+people.
+
+701
+00:23:20,561 --> 00:23:21,970
+I never had the chance
+
+702
+00:23:21,971 --> 00:23:23,610
+to any, to implement anything
+
+703
+00:23:23,611 --> 00:23:24,490
+of what I've been saying.
+
+704
+00:23:24,491 --> 00:23:25,610
+I could only hope that other
+
+705
+00:23:25,611 --> 00:23:27,290
+people would implement it.
+
+706
+00:23:27,291 --> 00:23:30,290
+And now I'm trying to pour into
+
+707
+00:23:30,291 --> 00:23:34,410
+the project as much as I can and it
+
+708
+00:23:34,411 --> 00:23:36,170
+shows in the way we do our sprints
+
+709
+00:23:36,171 --> 00:23:38,010
+and the way we try to retain people.
+
+710
+00:23:38,940 --> 00:23:40,250
+Some things for me that
+
+711
+00:23:40,860 --> 00:23:42,810
+are really, really important are
+
+712
+00:23:42,811 --> 00:23:45,490
+structure and process and a focus
+
+713
+00:23:45,491 --> 00:23:47,690
+on continuous involvement.
+
+714
+00:23:48,940 --> 00:23:50,740
+And I'm really trying to work
+
+715
+00:23:50,741 --> 00:23:52,940
+on these aspects at the moment.
+
+716
+00:23:52,941 --> 00:23:54,500
+So not just getting people in, we
+
+717
+00:23:54,501 --> 00:23:56,260
+can do a sprint, but we want people
+
+718
+00:23:56,261 --> 00:23:57,620
+to stay and work with us.
+
+719
+00:23:57,621 --> 00:24:00,380
+We want them to feel nice and welcome
+
+720
+00:24:00,381 --> 00:24:05,100
+and necessary and useful and to
+
+721
+00:24:05,101 --> 00:24:07,660
+take this knowledge out as well
+
+722
+00:24:07,661 --> 00:24:09,100
+out in their other projects.
+
+723
+00:24:09,101 --> 00:24:12,220
+Could you share some examples of
+
+724
+00:24:12,221 --> 00:24:14,420
+how you plan to implement this?
+
+725
+00:24:14,421 --> 00:24:15,700
+Like I know you mentioned you have
+
+726
+00:24:15,701 --> 00:24:18,610
+some ideas and you felt like
+
+727
+00:24:18,611 --> 00:24:20,610
+because you weren't a maintainer
+
+728
+00:24:20,611 --> 00:24:22,370
+you couldn't implement this.
+
+729
+00:24:22,371 --> 00:24:25,250
+And that's an interesting topic.
+
+730
+00:24:25,251 --> 00:24:26,410
+Maybe I'll ask about it
+
+731
+00:24:26,411 --> 00:24:27,130
+a little bit later.
+
+732
+00:24:27,131 --> 00:24:29,450
+But now you have these ideas.
+
+733
+00:24:29,451 --> 00:24:30,770
+Can you share a little bit,
+
+734
+00:24:31,940 --> 00:24:33,490
+a snippet of what it is?
+
+735
+00:24:33,491 --> 00:24:35,050
+Yeah, I think for different projects
+
+736
+00:24:35,051 --> 00:24:36,850
+it will mean a different thing.
+
+737
+00:24:36,851 --> 00:24:38,650
+So for example, things that
+
+738
+00:24:38,651 --> 00:24:39,650
+I've worked on recently
+
+739
+00:24:40,290 --> 00:24:42,050
+that turned out to be great.
+
+740
+00:24:42,700 --> 00:24:43,760
+I just.
+
+741
+00:24:43,761 --> 00:24:44,560
+When was it?
+
+742
+00:24:44,561 --> 00:24:45,840
+It was three weeks ago.
+
+743
+00:24:45,841 --> 00:24:47,600
+Two weeks ago we had a sprint.
+
+744
+00:24:48,500 --> 00:24:48,800
+And I.
+
+745
+00:24:48,801 --> 00:24:50,199
+That's very recent.
+
+746
+00:24:50,200 --> 00:24:54,280
+but it wasn't
+
+747
+00:24:54,281 --> 00:24:55,520
+the only sprint recently.
+
+748
+00:24:55,521 --> 00:24:58,080
+So I spent two weeks before
+
+749
+00:24:58,081 --> 00:24:59,440
+the sprint digging up,
+
+750
+00:24:59,441 --> 00:25:01,440
+first issues that were.
+
+751
+00:25:01,441 --> 00:25:02,840
+There was a gradation there
+
+752
+00:25:02,841 --> 00:25:04,360
+but they were all separate,
+
+753
+00:25:04,361 --> 00:25:05,440
+not part of a giant one.
+
+754
+00:25:05,441 --> 00:25:07,360
+They didn't involve so much thinking,
+
+755
+00:25:07,361 --> 00:25:08,800
+but they were perfect for teaching
+
+756
+00:25:08,801 --> 00:25:12,310
+the process and making closing.
+
+757
+00:25:12,311 --> 00:25:14,190
+So making a PR that can be
+
+758
+00:25:14,191 --> 00:25:15,550
+also merged really quickly.
+
+759
+00:25:15,551 --> 00:25:17,230
+So everybody that participated in
+
+760
+00:25:17,231 --> 00:25:19,350
+the sprint made a PR by the end of
+
+761
+00:25:19,351 --> 00:25:21,510
+it and everybody was really happy.
+
+762
+00:25:21,511 --> 00:25:22,870
+So we don't know how many of these
+
+763
+00:25:22,871 --> 00:25:24,590
+people are going to stay but for
+
+764
+00:25:24,591 --> 00:25:27,230
+example, in our Discord channel, I
+
+765
+00:25:27,231 --> 00:25:28,830
+constantly post whenever there is
+
+766
+00:25:28,831 --> 00:25:31,430
+a new issue, how difficult it is.
+
+767
+00:25:32,710 --> 00:25:35,830
+I offer help for people to continue.
+
+768
+00:25:36,370 --> 00:25:37,210
+And we had, for example
+
+769
+00:25:37,211 --> 00:25:38,770
+from the PyLadiesCon,
+
+770
+00:25:38,771 --> 00:25:40,690
+we had a person that joined.
+
+771
+00:25:40,691 --> 00:25:44,050
+I was just me online, there not.
+
+772
+00:25:44,051 --> 00:25:44,930
+It was not in person.
+
+773
+00:25:44,931 --> 00:25:45,130
+Right.
+
+774
+00:25:45,131 --> 00:25:46,970
+It was an online conference and we
+
+775
+00:25:46,971 --> 00:25:49,250
+had a person that did heard about
+
+776
+00:25:49,251 --> 00:25:51,770
+the project, but didn't really have
+
+777
+00:25:51,771 --> 00:25:53,210
+time to participate and now is still
+
+778
+00:25:53,211 --> 00:25:54,930
+one of our most active contributors.
+
+779
+00:25:56,590 --> 00:25:58,930
+Yes, shout out to Neha.
+
+780
+00:25:58,931 --> 00:25:59,970
+Yes, she's lovely.
+
+781
+00:25:59,971 --> 00:26:03,490
+And for example, right now she
+
+782
+00:26:03,491 --> 00:26:04,930
+is interested in helping with
+
+783
+00:26:04,931 --> 00:26:05,970
+some of the project management
+
+784
+00:26:05,971 --> 00:26:07,330
+efforts that we're doing.
+
+785
+00:26:07,331 --> 00:26:09,490
+And it's really cool.
+
+786
+00:26:09,491 --> 00:26:11,650
+We have an issue together at a link.
+
+787
+00:26:12,610 --> 00:26:13,930
+She has been a collaborator
+
+788
+00:26:13,931 --> 00:26:16,290
+to redo all the documentation
+
+789
+00:26:16,291 --> 00:26:17,570
+for newcomers as well.
+
+790
+00:26:18,210 --> 00:26:19,370
+The perspective of people
+
+791
+00:26:19,371 --> 00:26:20,670
+new to projects,
+
+792
+00:26:20,671 --> 00:26:22,050
+is really, really valuable.
+
+793
+00:26:22,930 --> 00:26:24,050
+And right now I think
+
+794
+00:26:24,051 --> 00:26:25,210
+this is the biggest project
+
+795
+00:26:25,211 --> 00:26:26,370
+that I want to do.
+
+796
+00:26:26,371 --> 00:26:28,050
+We seem to be attracting
+
+797
+00:26:28,051 --> 00:26:29,290
+and people are really happy
+
+798
+00:26:29,291 --> 00:26:31,370
+at the sprints, but there is a bit
+
+799
+00:26:31,371 --> 00:26:32,570
+of a structure and process
+
+800
+00:26:32,571 --> 00:26:35,130
+lacking for them staying.
+
+801
+00:26:35,770 --> 00:26:37,650
+And although we have a lot
+
+802
+00:26:37,651 --> 00:26:39,050
+of downloads, as I mentioned,
+
+803
+00:26:39,051 --> 00:26:40,410
+the project is really small.
+
+804
+00:26:41,520 --> 00:26:43,580
+There are not a lot of maintainers,
+
+805
+00:26:43,581 --> 00:26:45,290
+that are very active or just.
+
+806
+00:26:45,291 --> 00:26:46,890
+It's just a small project.
+
+807
+00:26:46,891 --> 00:26:48,490
+It's okay as it is for just
+
+808
+00:26:48,491 --> 00:26:50,610
+the maintenance, but for growing or
+
+809
+00:26:50,611 --> 00:26:53,650
+for including people, we need to do
+
+810
+00:26:53,651 --> 00:26:55,690
+a little bit more and we want to.
+
+811
+00:26:55,691 --> 00:26:57,690
+So right now I'm having an initiative
+
+812
+00:26:57,691 --> 00:27:00,100
+to organize things in
+
+813
+00:27:00,101 --> 00:27:01,740
+little groups so people, when they
+
+814
+00:27:01,741 --> 00:27:03,620
+come into the project can be
+
+815
+00:27:03,621 --> 00:27:05,980
+interested in a specific group.
+
+816
+00:27:05,981 --> 00:27:07,380
+So to say it doesn't have.
+
+817
+00:27:07,381 --> 00:27:08,740
+They mean they can also build
+
+818
+00:27:08,741 --> 00:27:10,420
+expertise and be an expert person
+
+819
+00:27:10,421 --> 00:27:11,380
+in the documentation.
+
+820
+00:27:11,381 --> 00:27:12,420
+That is awesome.
+
+821
+00:27:12,421 --> 00:27:13,900
+But it needs to be presented
+
+822
+00:27:13,901 --> 00:27:15,700
+in a way that it shows a path.
+
+823
+00:27:15,701 --> 00:27:16,860
+We don't have that right now.
+
+824
+00:27:16,861 --> 00:27:18,220
+I think a lot of big projects
+
+825
+00:27:18,221 --> 00:27:19,380
+definitely have this.
+
+826
+00:27:20,230 --> 00:27:21,380
+That's why I say it's dependent
+
+827
+00:27:21,381 --> 00:27:23,900
+on the project or things like, other
+
+828
+00:27:23,901 --> 00:27:25,740
+types of improvements because it's.
+
+829
+00:27:25,741 --> 00:27:26,980
+People come to a project like,
+
+830
+00:27:26,981 --> 00:27:28,380
+okay, I'm going to contribute,
+
+831
+00:27:28,381 --> 00:27:29,980
+let's do this, a little bit of that.
+
+832
+00:27:29,981 --> 00:27:32,860
+But a big Python code base
+
+833
+00:27:32,861 --> 00:27:35,220
+doesn't have just one type of thing.
+
+834
+00:27:35,221 --> 00:27:35,700
+I've been.
+
+835
+00:27:35,701 --> 00:27:37,020
+Most of the things I've been
+
+836
+00:27:37,021 --> 00:27:39,180
+contributing for this last month
+
+837
+00:27:39,181 --> 00:27:40,780
+have been Scikit Learn, cross
+
+838
+00:27:40,781 --> 00:27:42,500
+compatibility because I also
+
+839
+00:27:42,501 --> 00:27:43,620
+work with Scikit Learn and
+
+840
+00:27:43,621 --> 00:27:45,820
+improving Fairlearn to be
+
+841
+00:27:45,821 --> 00:27:47,620
+seamlessly used in the Scikit
+
+842
+00:27:47,621 --> 00:27:49,100
+Learn pipelines and so on.
+
+843
+00:27:49,870 --> 00:27:51,690
+And this is just one type of thing.
+
+844
+00:27:51,691 --> 00:27:52,810
+You don't have to be an expert
+
+845
+00:27:52,811 --> 00:27:54,730
+in anything and I want to make this
+
+846
+00:27:54,731 --> 00:27:57,730
+explicit by, by categorizing thing
+
+847
+00:27:57,731 --> 00:27:59,730
+so people can find their own niche
+
+848
+00:27:59,731 --> 00:28:01,650
+and feel confident in it.
+
+849
+00:28:01,651 --> 00:28:03,810
+So not just oh the for example
+
+850
+00:28:03,811 --> 00:28:06,670
+the FairLearns methods are really
+
+851
+00:28:06,671 --> 00:28:08,530
+quite a bit of advanced knowledge
+
+852
+00:28:08,531 --> 00:28:11,570
+in maths or statistics and this
+
+853
+00:28:11,571 --> 00:28:12,930
+can be very intimidating.
+
+854
+00:28:12,931 --> 00:28:14,650
+Somebody joined the PyLadiesCon
+
+855
+00:28:14,651 --> 00:28:16,450
+and told me that they felt
+
+856
+00:28:16,451 --> 00:28:17,910
+more intimidating contributing
+
+857
+00:28:18,490 --> 00:28:19,770
+to the Fairlearn compares than
+
+858
+00:28:19,771 --> 00:28:21,700
+the Python core which then
+
+859
+00:28:21,701 --> 00:28:23,780
+I felt okay, we need to, yes.
+
+860
+00:28:23,781 --> 00:28:24,500
+Fix this.
+
+861
+00:28:26,020 --> 00:28:27,020
+I think some of our
+
+862
+00:28:27,021 --> 00:28:28,930
+methods look very cryptic.
+
+863
+00:28:28,931 --> 00:28:29,300
+We need.
+
+864
+00:28:29,301 --> 00:28:30,660
+And we are definitely
+
+865
+00:28:30,661 --> 00:28:32,260
+working on fixing it.
+
+866
+00:28:33,060 --> 00:28:35,050
+So this is one of the efforts.
+
+867
+00:28:35,051 --> 00:28:35,940
+Yeah, so that's what I mean.
+
+868
+00:28:35,941 --> 00:28:36,420
+You don't need
+
+869
+00:28:36,421 --> 00:28:37,540
+to understand this math.
+
+870
+00:28:37,541 --> 00:28:38,780
+There's so many other places
+
+871
+00:28:38,781 --> 00:28:40,900
+you could be essential.
+
+872
+00:28:40,901 --> 00:28:41,860
+There's just so much
+
+873
+00:28:41,861 --> 00:28:42,940
+work always to be done.
+
+874
+00:28:42,941 --> 00:28:44,580
+But it's not explicit and we're
+
+875
+00:28:44,581 --> 00:28:45,740
+not showing people gradation
+
+876
+00:28:45,741 --> 00:28:47,250
+how they build the skills.
+
+877
+00:28:47,251 --> 00:28:49,810
+There's also a lot of, volunteer
+
+878
+00:28:49,811 --> 00:28:53,410
+time is precious and you
+
+879
+00:28:53,411 --> 00:28:55,250
+know maintainers need to support
+
+880
+00:28:55,251 --> 00:28:56,290
+like as a maintener,
+
+881
+00:28:56,291 --> 00:28:57,330
+Easy for me to get lost
+
+882
+00:28:57,331 --> 00:28:59,690
+in my little technical hole so
+
+883
+00:28:59,691 --> 00:29:01,810
+to say digging endlessly.
+
+884
+00:29:01,811 --> 00:29:03,409
+But I think I'm more useful.
+
+885
+00:29:03,410 --> 00:29:04,690
+unblocking others
+
+886
+00:29:04,691 --> 00:29:06,410
+and supporting the project to stay.
+
+887
+00:29:06,411 --> 00:29:08,210
+So this is my, I'm doing the more
+
+888
+00:29:08,211 --> 00:29:10,050
+grunty work myself because I want
+
+889
+00:29:10,051 --> 00:29:12,130
+others to you know do this kinds
+
+890
+00:29:12,131 --> 00:29:13,650
+of things for our project.
+
+891
+00:29:13,651 --> 00:29:14,570
+This, we don't have any
+
+892
+00:29:14,571 --> 00:29:16,830
+of this but I, I've been involved
+
+893
+00:29:16,831 --> 00:29:17,910
+in projects like Gnome
+
+894
+00:29:17,911 --> 00:29:19,230
+which are my inspiration.
+
+895
+00:29:19,231 --> 00:29:19,990
+I have to say I don't know
+
+896
+00:29:19,991 --> 00:29:20,870
+how it is right now.
+
+897
+00:29:21,680 --> 00:29:23,110
+I have not been contributing
+
+898
+00:29:23,111 --> 00:29:25,030
+for such a long time and they
+
+899
+00:29:25,031 --> 00:29:26,790
+had such strong organization
+
+900
+00:29:27,670 --> 00:29:29,350
+where you could feel that
+
+901
+00:29:29,351 --> 00:29:33,430
+every contribution is really valued.
+
+902
+00:29:33,431 --> 00:29:34,950
+Every type of contribution.
+
+903
+00:29:34,951 --> 00:29:35,910
+That's something
+
+904
+00:29:35,911 --> 00:29:37,070
+that we have lacking a
+
+905
+00:29:37,071 --> 00:29:39,350
+little bit still the code,
+
+906
+00:29:40,310 --> 00:29:41,940
+a few appreciators.
+
+907
+00:29:41,941 --> 00:29:42,140
+Yeah.
+
+908
+00:29:42,141 --> 00:29:43,620
+But also every type, not just
+
+909
+00:29:43,621 --> 00:29:45,580
+the programming and specific type
+
+910
+00:29:45,581 --> 00:29:47,620
+of programming being celebrated.
+
+911
+00:29:47,621 --> 00:29:48,100
+Yeah.
+
+912
+00:29:48,101 --> 00:29:48,900
+Because everything
+
+913
+00:29:48,901 --> 00:29:50,260
+is really valuable.
+
+914
+00:29:50,261 --> 00:29:51,940
+It's true, it's true.
+
+915
+00:29:51,941 --> 00:29:52,820
+Yeah.
+
+916
+00:29:52,821 --> 00:29:54,620
+I feel like the fact that
+
+917
+00:29:54,621 --> 00:29:55,780
+you phrase it that way.
+
+918
+00:29:55,781 --> 00:29:57,739
+I do feel that there is
+
+919
+00:29:57,740 --> 00:29:59,860
+this, how do I say it?
+
+920
+00:29:59,861 --> 00:30:02,180
+Like appearance like that
+
+921
+00:30:02,740 --> 00:30:04,260
+code contribution is
+
+922
+00:30:04,261 --> 00:30:07,540
+being celebrated more compared to
+
+923
+00:30:07,541 --> 00:30:09,300
+other kind of contribution.
+
+924
+00:30:09,301 --> 00:30:11,300
+Like it's hard to.
+
+925
+00:30:11,301 --> 00:30:11,660
+Yeah.
+
+926
+00:30:11,661 --> 00:30:12,740
+I don't know how to address that
+
+927
+00:30:13,300 --> 00:30:16,300
+I mean every contribution counts
+
+928
+00:30:16,301 --> 00:30:18,620
+because yeah Open source
+
+929
+00:30:18,621 --> 00:30:20,900
+doesn't mean it's zero effort.
+
+930
+00:30:22,420 --> 00:30:24,860
+Anything that anyone volunteers
+
+931
+00:30:24,861 --> 00:30:27,460
+to do something, it matters.
+
+932
+00:30:27,461 --> 00:30:28,020
+Absolutely.
+
+933
+00:30:28,021 --> 00:30:29,380
+But I don't think that people feel
+
+934
+00:30:29,381 --> 00:30:31,260
+this sometimes in the projects where
+
+935
+00:30:31,261 --> 00:30:33,380
+they work as somebody that has been
+
+936
+00:30:33,381 --> 00:30:35,060
+mostly contributing code to project
+
+937
+00:30:35,660 --> 00:30:37,020
+and wanted to do other things.
+
+938
+00:30:37,021 --> 00:30:39,180
+I could see the stark difference when
+
+939
+00:30:39,181 --> 00:30:40,500
+I would be in the different types
+
+940
+00:30:40,501 --> 00:30:42,260
+of contributing and also when I did, for
+
+941
+00:30:42,261 --> 00:30:43,620
+example, I did several jobs where
+
+942
+00:30:43,621 --> 00:30:45,620
+I had developer relations jobs.
+
+943
+00:30:45,621 --> 00:30:46,700
+And you could feel also
+
+944
+00:30:46,701 --> 00:30:49,620
+the difference there, how you're
+
+945
+00:30:49,621 --> 00:30:50,380
+perceived and how your
+
+946
+00:30:50,381 --> 00:30:52,060
+contributions are perceived.
+
+947
+00:30:52,620 --> 00:30:55,060
+I think this is a mindset, but it has
+
+948
+00:30:55,061 --> 00:30:56,420
+to come from the maintainers.
+
+949
+00:30:56,421 --> 00:30:57,420
+This true.
+
+950
+00:30:57,980 --> 00:31:00,780
+There's also a very common
+
+951
+00:31:00,781 --> 00:31:02,590
+discussion point that we talk
+
+952
+00:31:02,591 --> 00:31:06,150
+about is that a lot of people,
+
+953
+00:31:06,151 --> 00:31:08,190
+when they start sprints, it's
+
+954
+00:31:08,191 --> 00:31:12,870
+really hard, like to prepare for
+
+955
+00:31:12,871 --> 00:31:15,190
+the new contributors because
+
+956
+00:31:16,310 --> 00:31:18,950
+sometimes a lot of maintainers,
+
+957
+00:31:18,951 --> 00:31:20,710
+like you said, you're already
+
+958
+00:31:20,711 --> 00:31:23,110
+really deep into your project.
+
+959
+00:31:23,111 --> 00:31:25,910
+So your mindset is.
+
+960
+00:31:25,911 --> 00:31:27,110
+I already know that.
+
+961
+00:31:27,680 --> 00:31:29,840
+So some of the people who are new,
+
+962
+00:31:29,841 --> 00:31:32,680
+they get to like confused like
+
+963
+00:31:32,681 --> 00:31:34,840
+even the very basic on how to start
+
+964
+00:31:34,841 --> 00:31:36,320
+and how to get things going.
+
+965
+00:31:37,120 --> 00:31:38,720
+So like say, for example,
+
+966
+00:31:38,721 --> 00:31:40,200
+if there's one person coming
+
+967
+00:31:40,201 --> 00:31:41,440
+to join, it's easy.
+
+968
+00:31:41,441 --> 00:31:42,800
+What if like there's 10?
+
+969
+00:31:43,360 --> 00:31:45,880
+How do you prepare to get so
+
+970
+00:31:45,881 --> 00:31:47,840
+many different people to start?
+
+971
+00:31:48,640 --> 00:31:52,000
+So I wonder if you have a specific
+
+972
+00:31:52,001 --> 00:31:53,970
+idea how you manage that.
+
+973
+00:31:55,010 --> 00:31:56,810
+So for this particular sprint, I had
+
+974
+00:31:56,811 --> 00:32:00,850
+10 people and I was from my project.
+
+975
+00:32:02,530 --> 00:32:03,570
+I do had some help
+
+976
+00:32:03,571 --> 00:32:05,330
+from the second, people.
+
+977
+00:32:07,090 --> 00:32:08,010
+It was lovely.
+
+978
+00:32:08,011 --> 00:32:09,450
+I honestly, I think there's nothing
+
+979
+00:32:09,451 --> 00:32:11,090
+that fulfills me more than a group
+
+980
+00:32:11,091 --> 00:32:13,250
+of people, getting to know
+
+981
+00:32:13,251 --> 00:32:15,690
+and starting and seeing them glow by
+
+982
+00:32:15,691 --> 00:32:17,090
+the end because they've made a PR.
+
+983
+00:32:17,810 --> 00:32:18,170
+I.
+
+984
+00:32:18,171 --> 00:32:18,530
+That's.
+
+985
+00:32:18,531 --> 00:32:19,420
+It's just the most
+
+986
+00:32:19,421 --> 00:32:20,820
+fulfilling thing ever.
+
+987
+00:32:20,821 --> 00:32:22,620
+So I, So how we prepared.
+
+988
+00:32:22,621 --> 00:32:25,420
+There is an issue in Fairlearn, if
+
+989
+00:32:25,421 --> 00:32:26,940
+anybody's interested, that I started
+
+990
+00:32:26,941 --> 00:32:28,740
+to prepare for the sprint.
+
+991
+00:32:28,741 --> 00:32:29,940
+I did it with Neha.
+
+992
+00:32:29,941 --> 00:32:30,780
+Neha is great.
+
+993
+00:32:30,781 --> 00:32:32,060
+Thank you, Neha very much.
+
+994
+00:32:32,061 --> 00:32:34,020
+My main collaborator on the issue.
+
+995
+00:32:34,021 --> 00:32:35,460
+We did several points.
+
+996
+00:32:35,461 --> 00:32:36,340
+One of them we still
+
+997
+00:32:36,341 --> 00:32:37,620
+haven't fulfilled.
+
+998
+00:32:37,621 --> 00:32:39,060
+And for example, we went through
+
+999
+00:32:39,061 --> 00:32:42,460
+all the documentation and Neha had
+
+1000
+00:32:42,461 --> 00:32:44,340
+ideas and rewrote some of it.
+
+1001
+00:32:44,980 --> 00:32:46,820
+For example, we didn't have a step
+
+1002
+00:32:46,821 --> 00:32:48,220
+explaining how to do a virtual
+
+1003
+00:32:48,221 --> 00:32:49,540
+environment because this is just.
+
+1004
+00:32:49,541 --> 00:32:49,740
+I.
+
+1005
+00:32:49,741 --> 00:32:51,040
+Sometimes I just don't
+
+1006
+00:32:51,041 --> 00:32:52,080
+think about it.
+
+1007
+00:32:52,081 --> 00:32:52,840
+But it's.
+
+1008
+00:32:52,841 --> 00:32:53,760
+Yeah, it's something
+
+1009
+00:32:53,761 --> 00:32:54,960
+that we should do.
+
+1010
+00:32:54,961 --> 00:32:56,360
+So we added these kinds of things.
+
+1011
+00:32:56,361 --> 00:32:57,920
+We redid some language, added
+
+1012
+00:32:57,921 --> 00:32:59,560
+some more links, added Code
+
+1013
+00:32:59,561 --> 00:33:01,000
+of Conduct everywhere because we
+
+1014
+00:33:01,001 --> 00:33:02,640
+didn't have it in enough places.
+
+1015
+00:33:02,641 --> 00:33:04,560
+We redid the readme so it's
+
+1016
+00:33:04,561 --> 00:33:05,920
+more easier for people to
+
+1017
+00:33:06,640 --> 00:33:08,480
+just jump on different places.
+
+1018
+00:33:09,040 --> 00:33:09,560
+What else?
+
+1019
+00:33:09,561 --> 00:33:10,800
+There's more things that we did,
+
+1020
+00:33:12,050 --> 00:33:12,880
+I don't remember.
+
+1021
+00:33:13,520 --> 00:33:14,560
+The only thing we didn't
+
+1022
+00:33:14,561 --> 00:33:15,960
+do was Create videos for
+
+1023
+00:33:15,961 --> 00:33:17,310
+people to watch at home.
+
+1024
+00:33:17,311 --> 00:33:18,270
+That is coming next.
+
+1025
+00:33:18,271 --> 00:33:19,710
+I have a person that volunteered
+
+1026
+00:33:19,711 --> 00:33:20,630
+to do it for Windows.
+
+1027
+00:33:20,631 --> 00:33:22,110
+I don't have a Windows machine
+
+1028
+00:33:22,111 --> 00:33:24,190
+and I will do it for MacOS.
+
+1029
+00:33:24,191 --> 00:33:24,750
+And I.
+
+1030
+00:33:24,751 --> 00:33:27,230
+And the main thing I did myself was
+
+1031
+00:33:27,231 --> 00:33:28,750
+digging out just the right
+
+1032
+00:33:28,751 --> 00:33:30,550
+type of issues because I did
+
+1033
+00:33:30,551 --> 00:33:31,750
+study a bit of cognitive science
+
+1034
+00:33:31,751 --> 00:33:33,390
+and early childhood development
+
+1035
+00:33:33,391 --> 00:33:35,710
+and language and so on.
+
+1036
+00:33:35,711 --> 00:33:38,270
+And one of the interests, biggest
+
+1037
+00:33:38,271 --> 00:33:39,830
+interests that I have is learning
+
+1038
+00:33:39,831 --> 00:33:42,110
+and learning itself for the brain.
+
+1039
+00:33:42,111 --> 00:33:45,830
+And one of the biggest problems
+
+1040
+00:33:45,831 --> 00:33:47,590
+with language learning for example
+
+1041
+00:33:47,591 --> 00:33:50,510
+is the gap from B1 level
+
+1042
+00:33:50,511 --> 00:33:52,910
+to like getting the next levels.
+
+1043
+00:33:52,911 --> 00:33:54,070
+And this is because
+
+1044
+00:33:54,071 --> 00:33:56,550
+the gradation of tasks disappears.
+
+1045
+00:33:56,551 --> 00:33:57,870
+For somebody to be challenged
+
+1046
+00:33:57,871 --> 00:33:59,150
+but not overwhelmed and quit.
+
+1047
+00:33:59,151 --> 00:34:00,590
+You need the right type of task.
+
+1048
+00:34:00,591 --> 00:34:01,990
+It needs to be not too hard
+
+1049
+00:34:01,991 --> 00:34:03,430
+and not too easy.
+
+1050
+00:34:03,431 --> 00:34:05,110
+And this is how you
+
+1051
+00:34:05,111 --> 00:34:06,110
+go to the next level.
+
+1052
+00:34:06,111 --> 00:34:08,270
+And this is the same type of thinking
+
+1053
+00:34:08,271 --> 00:34:09,630
+has to be applied to an issue.
+
+1054
+00:34:09,631 --> 00:34:11,949
+For a Sprint, for example, if it's
+
+1055
+00:34:11,950 --> 00:34:13,350
+the documentation works,
+
+1056
+00:34:13,351 --> 00:34:14,750
+they're not big hiccups.
+
+1057
+00:34:14,751 --> 00:34:17,350
+There's the issue itself is teaching
+
+1058
+00:34:17,351 --> 00:34:19,870
+you the flow does not require
+
+1059
+00:34:19,871 --> 00:34:22,030
+an immense amount of digging.
+
+1060
+00:34:22,031 --> 00:34:22,949
+It's just loud.
+
+1061
+00:34:22,950 --> 00:34:23,870
+There are so many people.
+
+1062
+00:34:23,871 --> 00:34:25,710
+So somebody can do this semi
+
+1063
+00:34:25,711 --> 00:34:27,030
+independently after you have
+
+1064
+00:34:27,031 --> 00:34:28,510
+unblocked them in some way.
+
+1065
+00:34:28,511 --> 00:34:29,469
+That is a really good,
+
+1066
+00:34:29,470 --> 00:34:30,510
+good first issue.
+
+1067
+00:34:30,511 --> 00:34:31,510
+There could be a follow
+
+1068
+00:34:31,511 --> 00:34:32,710
+up but the first issue
+
+1069
+00:34:32,711 --> 00:34:34,030
+should be really easy.
+
+1070
+00:34:34,031 --> 00:34:35,190
+It is a very hard thing
+
+1071
+00:34:35,191 --> 00:34:36,590
+for projects too.
+
+1072
+00:34:36,591 --> 00:34:38,699
+I hit them for good first issues.
+
+1073
+00:34:38,700 --> 00:34:39,179
+Labels.
+
+1074
+00:34:39,180 --> 00:34:40,659
+I put them under reserved
+
+1075
+00:34:40,660 --> 00:34:42,300
+for Sprint for two weeks.
+
+1076
+00:34:42,301 --> 00:34:43,420
+So they were not available
+
+1077
+00:34:43,421 --> 00:34:44,540
+for the general public.
+
+1078
+00:34:44,541 --> 00:34:45,179
+This is.
+
+1079
+00:34:45,180 --> 00:34:47,020
+Yes, that will happen
+
+1080
+00:34:47,021 --> 00:34:48,060
+every single time.
+
+1081
+00:34:48,061 --> 00:34:49,500
+But yeah, we had some, some
+
+1082
+00:34:49,501 --> 00:34:50,780
+for the, for the public.
+
+1083
+00:34:50,781 --> 00:34:52,699
+I see that you're contributing
+
+1084
+00:34:52,700 --> 00:34:54,659
+everywhere and things like that.
+
+1085
+00:34:54,660 --> 00:34:57,020
+Like other than that, aside from
+
+1086
+00:34:57,021 --> 00:35:01,020
+code and community, do you do any
+
+1087
+00:35:01,021 --> 00:35:03,350
+other things like do you
+
+1088
+00:35:03,351 --> 00:35:05,190
+have any personal interest or.
+
+1089
+00:35:05,830 --> 00:35:08,830
+Yes, I guess I spend most
+
+1090
+00:35:08,831 --> 00:35:11,630
+of my times when I'm not working or
+
+1091
+00:35:11,631 --> 00:35:12,990
+doing work related things or
+
+1092
+00:35:12,991 --> 00:35:14,710
+community things with my son.
+
+1093
+00:35:14,711 --> 00:35:16,280
+I have a child, he's
+
+1094
+00:35:16,281 --> 00:35:18,070
+gonna be seven soon.
+
+1095
+00:35:18,071 --> 00:35:19,070
+Well very soon.
+
+1096
+00:35:19,071 --> 00:35:20,350
+It's probably my favorite part
+
+1097
+00:35:20,351 --> 00:35:22,310
+of the day most of the time.
+
+1098
+00:35:22,311 --> 00:35:22,790
+Yes.
+
+1099
+00:35:24,790 --> 00:35:27,070
+I also have a little blog or
+
+1100
+00:35:27,071 --> 00:35:28,670
+a substack, however they call this
+
+1101
+00:35:28,671 --> 00:35:30,070
+thing newsletter these days.
+
+1102
+00:35:30,920 --> 00:35:32,800
+I moved my blog there and I
+
+1103
+00:35:32,801 --> 00:35:34,680
+write about language, technology
+
+1104
+00:35:34,681 --> 00:35:37,240
+and society which
+
+1105
+00:35:37,241 --> 00:35:38,600
+are my main interests.
+
+1106
+00:35:38,601 --> 00:35:40,200
+I don't write very often but if
+
+1107
+00:35:40,201 --> 00:35:41,800
+people want to hear me talk about
+
+1108
+00:35:41,801 --> 00:35:44,360
+these things they could subscribe.
+
+1109
+00:35:45,560 --> 00:35:48,280
+Yes, I love to read and I love
+
+1110
+00:35:48,281 --> 00:35:49,800
+literature and everything.
+
+1111
+00:35:50,360 --> 00:35:51,760
+Literature again ties to my love
+
+1112
+00:35:51,761 --> 00:35:53,240
+for language I have to say.
+
+1113
+00:35:53,241 --> 00:35:54,120
+And I do take care
+
+1114
+00:35:54,121 --> 00:35:55,480
+of a lot of plants.
+
+1115
+00:35:55,481 --> 00:35:55,880
+Cool.
+
+1116
+00:35:55,881 --> 00:35:58,760
+At the moment that's like a lot of
+
+1117
+00:35:58,761 --> 00:36:01,040
+things that you, you're organizing.
+
+1118
+00:36:01,041 --> 00:36:01,440
+Right?
+
+1119
+00:36:02,800 --> 00:36:04,480
+Those are the recharging things.
+
+1120
+00:36:04,481 --> 00:36:07,480
+Those my, my child and my books
+
+1121
+00:36:07,481 --> 00:36:09,600
+and my thoughts about
+
+1122
+00:36:10,160 --> 00:36:13,000
+language and, and society are
+
+1123
+00:36:13,001 --> 00:36:15,360
+just, it's where I, I, I draw energy
+
+1124
+00:36:15,361 --> 00:36:17,360
+from and sprints as I said.
+
+1125
+00:36:17,361 --> 00:36:18,000
+I don't know.
+
+1126
+00:36:19,360 --> 00:36:22,640
+That sounds like de-charging for me.
+
+1127
+00:36:24,720 --> 00:36:26,240
+It's recharging for you.
+
+1128
+00:36:26,800 --> 00:36:27,200
+So.
+
+1129
+00:36:31,600 --> 00:36:34,520
+So with so many things that you have
+
+1130
+00:36:34,521 --> 00:36:37,240
+in your mind, what is your plan like
+
+1131
+00:36:37,241 --> 00:36:39,520
+you, that you want to work next?
+
+1132
+00:36:39,521 --> 00:36:41,440
+Because it seems like you have some,
+
+1133
+00:36:41,441 --> 00:36:44,240
+quite a lot of things going on like
+
+1134
+00:36:44,241 --> 00:36:46,080
+the plans that you have in future.
+
+1135
+00:36:46,720 --> 00:36:49,200
+I think in thinking about it
+
+1136
+00:36:49,201 --> 00:36:50,560
+a lot personally as well.
+
+1137
+00:36:51,070 --> 00:36:53,390
+I've spent the last 15 years
+
+1138
+00:36:53,391 --> 00:36:56,110
+really guided by curiosity
+
+1139
+00:36:56,111 --> 00:36:59,710
+and a giant desire for technical
+
+1140
+00:36:59,711 --> 00:37:01,710
+newness and depth and just
+
+1141
+00:37:02,670 --> 00:37:04,350
+creativity of that kind.
+
+1142
+00:37:04,351 --> 00:37:05,990
+And these days, especially this
+
+1143
+00:37:05,991 --> 00:37:09,710
+year, I realized that more and more
+
+1144
+00:37:09,711 --> 00:37:12,110
+I get fulfilled by unblocking
+
+1145
+00:37:12,111 --> 00:37:13,910
+others and growing others and
+
+1146
+00:37:13,911 --> 00:37:15,870
+helping fostering environments
+
+1147
+00:37:15,871 --> 00:37:18,190
+where things can involve as many
+
+1148
+00:37:18,191 --> 00:37:18,990
+people as possible.
+
+1149
+00:37:19,610 --> 00:37:21,450
+So I think in the next few years I
+
+1150
+00:37:21,451 --> 00:37:22,810
+want to think and implement
+
+1151
+00:37:22,811 --> 00:37:24,290
+initiatives in the projects I'm
+
+1152
+00:37:24,291 --> 00:37:26,810
+involved in or as my day to day
+
+1153
+00:37:26,811 --> 00:37:29,410
+job where I can uplift others and
+
+1154
+00:37:29,411 --> 00:37:31,490
+empower and support and unblock
+
+1155
+00:37:31,491 --> 00:37:31,930
+people.
+
+1156
+00:37:31,931 --> 00:37:34,090
+I think that is, that's my
+
+1157
+00:37:34,091 --> 00:37:35,610
+main focus at the moment,
+
+1158
+00:37:35,611 --> 00:37:37,010
+or I would like it to be.
+
+1159
+00:37:37,011 --> 00:37:39,210
+I'm still a software engineer
+
+1160
+00:37:39,211 --> 00:37:40,490
+mostly at the time.
+
+1161
+00:37:41,370 --> 00:37:44,290
+Still the idea of giving back, giving
+
+1162
+00:37:44,291 --> 00:37:46,560
+back, like what you learn, you're
+
+1163
+00:37:46,561 --> 00:37:48,360
+just, it just sounds so generous.
+
+1164
+00:37:48,361 --> 00:37:49,920
+Like whatever you learn, you
+
+1165
+00:37:49,921 --> 00:37:51,160
+just want to share and let
+
+1166
+00:37:51,161 --> 00:37:52,600
+everyone know what you learn.
+
+1167
+00:37:52,601 --> 00:37:54,360
+I mean I've been loved and helped.
+
+1168
+00:37:54,361 --> 00:37:54,920
+Right.
+
+1169
+00:37:54,921 --> 00:37:56,680
+It's only just to
+
+1170
+00:37:56,681 --> 00:37:57,960
+continuously give back.
+
+1171
+00:37:58,840 --> 00:37:59,240
+Wow.
+
+1172
+00:37:59,241 --> 00:38:02,000
+We need 200 Tamaras out
+
+1173
+00:38:02,001 --> 00:38:03,400
+there and the community
+
+1174
+00:38:03,401 --> 00:38:04,920
+thrives immediately.
+
+1175
+00:38:06,520 --> 00:38:08,180
+I think when I look at my friend,
+
+1176
+00:38:08,181 --> 00:38:09,480
+Jessica Greene for example,
+
+1177
+00:38:09,481 --> 00:38:11,240
+you must know Jessica Greene.
+
+1178
+00:38:12,210 --> 00:38:14,090
+There is one at least that I
+
+1179
+00:38:14,091 --> 00:38:16,010
+know that my friend May Lee and all
+
+1180
+00:38:16,011 --> 00:38:17,050
+of these other people
+
+1181
+00:38:17,051 --> 00:38:18,370
+that I'm in touch, they're just
+
+1182
+00:38:18,371 --> 00:38:19,530
+really, really generous.
+
+1183
+00:38:19,531 --> 00:38:20,770
+They've been generous with me
+
+1184
+00:38:20,771 --> 00:38:22,610
+and I want to be generous with
+
+1185
+00:38:22,611 --> 00:38:24,610
+the world too as, as much as I can.
+
+1186
+00:38:24,611 --> 00:38:25,970
+You know, we have seasons
+
+1187
+00:38:25,971 --> 00:38:27,570
+in life where we can't and seasons
+
+1188
+00:38:27,571 --> 00:38:29,250
+in life where we can definitely.
+
+1189
+00:38:29,251 --> 00:38:30,810
+This is one of, this is one of those.
+
+1190
+00:38:30,811 --> 00:38:32,410
+We don't know how long they last.
+
+1191
+00:38:32,411 --> 00:38:33,570
+So true.
+
+1192
+00:38:33,571 --> 00:38:33,970
+Yeah.
+
+1193
+00:38:33,971 --> 00:38:36,370
+Well we have to, I mean
+
+1194
+00:38:36,371 --> 00:38:37,970
+to represent the community.
+
+1195
+00:38:37,971 --> 00:38:39,850
+I want to say thank you because this
+
+1196
+00:38:39,851 --> 00:38:42,860
+is like really something that we
+
+1197
+00:38:42,861 --> 00:38:45,660
+need to celebrate and thank people
+
+1198
+00:38:45,661 --> 00:38:48,180
+like you who contribute so much and
+
+1199
+00:38:48,181 --> 00:38:51,460
+to, to put in so much time and even
+
+1200
+00:38:51,461 --> 00:38:54,460
+plan you are even thinking like,
+
+1201
+00:38:54,461 --> 00:38:56,460
+what am I gonna do next to make it
+
+1202
+00:38:56,461 --> 00:38:57,140
+better?
+
+1203
+00:38:57,141 --> 00:38:59,540
+That's like, wow, crazy.
+
+1204
+00:38:59,541 --> 00:39:00,100
+Thank you.
+
+1205
+00:39:00,101 --> 00:39:01,380
+There's really no need.
+
+1206
+00:39:02,650 --> 00:39:03,460
+Definitely.
+
+1207
+00:39:03,461 --> 00:39:04,420
+I don't know.
+
+1208
+00:39:04,421 --> 00:39:05,620
+There are so many people that
+
+1209
+00:39:05,621 --> 00:39:07,500
+do way more, that's for sure.
+
+1210
+00:39:07,501 --> 00:39:08,300
+The new here.
+
+1211
+00:39:08,301 --> 00:39:09,620
+I mean, this is, this
+
+1212
+00:39:09,621 --> 00:39:10,860
+is a lot of work.
+
+1213
+00:39:10,861 --> 00:39:12,940
+So if, is there anything that
+
+1214
+00:39:12,941 --> 00:39:14,380
+you, would like to share before
+
+1215
+00:39:14,381 --> 00:39:16,740
+we close, this podcast episode?
+
+1216
+00:39:16,741 --> 00:39:18,780
+Like, you like to share with our
+
+1217
+00:39:18,781 --> 00:39:21,900
+audience on something that you
+
+1218
+00:39:21,901 --> 00:39:23,740
+would want to give a shout out to?
+
+1219
+00:39:23,741 --> 00:39:25,820
+Before we could end this episode, I.
+
+1220
+00:39:25,821 --> 00:39:26,940
+Think it would be nice if people
+
+1221
+00:39:26,941 --> 00:39:29,340
+try Fairlearn, give us,
+
+1222
+00:39:30,060 --> 00:39:32,700
+an idea what they could use it for.
+
+1223
+00:39:32,701 --> 00:39:34,940
+And we always have good first issues.
+
+1224
+00:39:35,670 --> 00:39:36,710
+They can come work with us.
+
+1225
+00:39:36,711 --> 00:39:38,030
+We have a Discord community
+
+1226
+00:39:38,031 --> 00:39:39,110
+when we're always available.
+
+1227
+00:39:39,111 --> 00:39:40,430
+And I'm always happy to help
+
+1228
+00:39:40,431 --> 00:39:42,550
+people come into the community.
+
+1229
+00:39:42,551 --> 00:39:44,590
+So I guess an open invite to anyone
+
+1230
+00:39:44,591 --> 00:39:45,830
+that wants to join the project
+
+1231
+00:39:45,831 --> 00:39:48,550
+in some way and help with AI
+
+1232
+00:39:48,551 --> 00:39:50,870
+safety and algorithmic fairness.
+
+1233
+00:39:50,871 --> 00:39:53,310
+So perhaps, you could also give us,
+
+1234
+00:39:54,150 --> 00:39:55,390
+where they could reach out
+
+1235
+00:39:55,391 --> 00:39:57,430
+to you if they would want to
+
+1236
+00:39:57,431 --> 00:39:59,030
+reach out to you for mentorship.
+
+1237
+00:39:59,750 --> 00:40:02,080
+I am on the PyLadies Slack channel,
+
+1238
+00:40:02,081 --> 00:40:04,120
+but if they're not a PyLady
+
+1239
+00:40:04,121 --> 00:40:05,880
+I only have a LinkedIn account.
+
+1240
+00:40:05,881 --> 00:40:09,000
+I don't have any other social, media.
+
+1241
+00:40:09,001 --> 00:40:09,480
+Okay.
+
+1242
+00:40:09,481 --> 00:40:11,320
+And, I don't know if Substack
+
+1243
+00:40:11,321 --> 00:40:12,480
+has some kind of feature
+
+1244
+00:40:12,481 --> 00:40:15,400
+to talk to people, but, I think
+
+1245
+00:40:15,401 --> 00:40:16,520
+LinkedIn is probably better
+
+1246
+00:40:16,521 --> 00:40:17,559
+because I don't, I don't know
+
+1247
+00:40:17,560 --> 00:40:18,760
+the answer to that question.
+
+1248
+00:40:18,761 --> 00:40:19,500
+Okay.
+
+1249
+00:40:19,501 --> 00:40:20,880
+You can see my last name,
+
+1250
+00:40:20,881 --> 00:40:22,520
+I guess in the recording
+
+1251
+00:40:22,521 --> 00:40:23,640
+and then you can find me.
+
+1252
+00:40:23,641 --> 00:40:24,760
+And I'm happy to accept
+
+1253
+00:40:24,761 --> 00:40:26,280
+anyone that sends a request.
+
+1254
+00:40:26,281 --> 00:40:26,760
+Of course.
+
+1255
+00:40:27,570 --> 00:40:28,370
+Sounds good.
+
+1256
+00:40:28,371 --> 00:40:29,680
+So thank you very much,
+
+1257
+00:40:29,681 --> 00:40:31,330
+Tamara, for your time taken.
+
+1258
+00:40:32,740 --> 00:40:35,370
+It's still like, I'm still so
+
+1259
+00:40:35,371 --> 00:40:37,570
+amazed by so much that you
+
+1260
+00:40:37,571 --> 00:40:39,250
+have done over the years.
+
+1261
+00:40:41,570 --> 00:40:42,690
+You can compile
+
+1262
+00:40:42,691 --> 00:40:43,970
+and probably it's like.
+
+1263
+00:40:46,690 --> 00:40:47,970
+It'S been many years.
+
+1264
+00:40:47,971 --> 00:40:49,170
+There was time.
+
+1265
+00:40:50,450 --> 00:40:50,930
+Yes.
+
+1266
+00:40:51,730 --> 00:40:54,090
+For all those who are listening, you
+
+1267
+00:40:54,091 --> 00:40:56,930
+can actually find us on, pypodcats.
+
+1268
+00:40:56,931 --> 00:41:01,570
+That's pypodcats.live
+
+1269
+00:41:02,690 --> 00:41:04,050
+on YouTube channel
+
+1270
+00:41:04,051 --> 00:41:06,450
+on Apple Podcasts and Spotify.
+
+1271
+00:41:06,451 --> 00:41:07,530
+For this episode.
+
+1272
+00:41:07,531 --> 00:41:10,050
+You can also reach out to our website
+
+1273
+00:41:10,051 --> 00:41:12,050
+and get more information about
+
+1274
+00:41:12,051 --> 00:41:13,810
+the projects on tomorrow and how,
+
+1275
+00:41:13,811 --> 00:41:15,690
+how you can reach, Tamara too.
+
+1276
+00:41:15,691 --> 00:41:17,090
+Thank you so much everyone
+
+1277
+00:41:17,091 --> 00:41:19,690
+for joining and, we'll see
+
+1278
+00:41:19,691 --> 00:41:21,010
+you in the next episode.
+
+1279
+00:41:21,650 --> 00:41:23,330
+Bye Bye.
+
+1280
+00:41:23,331 --> 00:41:24,370
+Thank you so much again
+
+1281
+00:41:24,371 --> 00:41:25,650
+for inviting me.
+
+1282
+00:41:25,651 --> 00:41:26,370
+Goodbye.
