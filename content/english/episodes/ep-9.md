@@ -7,7 +7,7 @@ date: 2025-06-27T10:00:00+01:00
 host: ["Georgi", "Mariatta"]
 draft: false
 tags: ["python", "pyladies", "django", "open source", "maintainer", "pypodcats", "berlin", "north macedonia", "gsoc", "fairlearn"]
-publish_date: 2025-06-27T10:00:00+01:00
+publish_date: 2025-06-27T06:00:00+02:00
 podcast_file: "/audio/hidden-figures-ep9.mp3"
 podcast_duration: 2497.201633
 episode_image: "images/ep9-tamara.png"
