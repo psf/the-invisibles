@@ -19,7 +19,7 @@ season: 2
 transcript: '/transcript/hidden-figures-of-python-ep9-trailer.srt'
 episode_type: trailer
 layout: episode
-youtube_id: "sGYkJEOfV2s"
+youtube_id: "QzgszhSwkB8"
   
 speaker:
   url: "/speakers/tamara-atanasoska/"

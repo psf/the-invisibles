@@ -47,6 +47,8 @@ She is a leader with proven track record of mentoring and fostering a culture of
 
 ---
 
+We interviewed Tamara Atanasoska.
+
 Tamara has been contributing to open source projects since 2012. She participated in Google Summer of Code to
 contribute to projects like Gnome and e-cidadania.
 
