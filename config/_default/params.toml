@@ -1,9 +1,9 @@
 #################### default parameters ################################
 # favicon
-favicon = "images/podcats.png"
+favicon = "images/pypodcats-2025.png"
 # logo
-logo = "images/podcats.png"
-logo_darkmode = "images/podcats.png"
+logo = "images/pypodcats-2025-s.png"
+logo_darkmode = "images/pypodcats-2025-s.png"
 # use `px` or `x` with logo_width, example: "100px".
 # Note: logo_width is not work with .svg file
 logo_width = "100px"
