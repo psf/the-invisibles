@@ -17,7 +17,9 @@ Our original stand-in was a charming sticker from Mariatta’s [“#TypoOfTheDay
 
 After the conclusion of our first season, we started discussing our plans and goals for this year, and among those ideas, one of them was to come up with a "real" logo for our group. Many drafts, discussions, and digital furballs later, our team chose the new design: a laid-back cat draped over a retro microphone, with a happy snake coiled in—our nod to the Python community that brought us all together.
 We printed our first batch of stickers using this new logo just in time for PyCon US this past May. They were glittery. They were gorgeous. They were gone in a flash. Sorry if you missed them—we had a tight budget and only printed a small run using our own pocket money. Blame the import tax on sparkles.
-Since the start of 2025, we’ve been flying solo. The Python Software Foundation changed its grant structure, and we’re no longer under their funding umbrella. So if you’ve laughed, learned, or loved anything from PyPodcats, consider donating on our [👉Open Collective Platform](https://opencollective.com/pypodcats)
+Another update about PyPodcats, in case you missed it, we are no longer eligible for funding from The Python Software Foundation, due to [the recent change](https://pyfound.blogspot.com/2024/12/12psf-grants-program-charter-updates-part-3.html) in its grant structure. If you're curious of what it takes to run a podcast like ours, check our [financial info](/about/financials/) page.
+
+Have you laughed, learned, or loved anything from PyPodcats podcast series? If so, consider donating on our [👉Open Collective Platform](https://opencollective.com/pypodcats). With your support and donation, we will be able to continue producing our podcast (and to print more of those glittery stickers).
  
 We’re cooking up more episodes. Stay tuned!
 
