@@ -1,0 +1,187 @@
+1
+00:00:00,240 --> 00:00:01,280
+Because I learned Django
+
+2
+00:00:01,281 --> 00:00:02,680
+and I felt so empowered.
+
+3
+00:00:02,681 --> 00:00:04,640
+I was, I can do anything now.
+
+4
+00:00:09,920 --> 00:00:11,320
+I use Python to write
+
+5
+00:00:11,321 --> 00:00:12,760
+hardware bindings, which was
+
+6
+00:00:12,761 --> 00:00:14,080
+for music instruments.
+
+7
+00:00:14,081 --> 00:00:15,600
+Then I transitioned to doing
+
+8
+00:00:15,601 --> 00:00:17,760
+machine learning and NLP.
+
+9
+00:00:17,761 --> 00:00:19,240
+Python is very versatile.
+
+10
+00:00:19,241 --> 00:00:21,160
+Django was, wow, these kind
+
+11
+00:00:21,161 --> 00:00:22,880
+of frameworks in 2012,
+
+12
+00:00:22,881 --> 00:00:24,440
+2013, I was like, I can
+
+13
+00:00:24,441 --> 00:00:25,920
+build any website I want.
+
+14
+00:00:25,921 --> 00:00:27,080
+I think there's nothing that
+
+15
+00:00:27,081 --> 00:00:28,480
+fulfills me more than a room
+
+16
+00:00:28,481 --> 00:00:30,320
+of people and seeing them glow
+
+17
+00:00:30,321 --> 00:00:31,360
+by the end because they've
+
+18
+00:00:31,361 --> 00:00:32,266
+made a PR.
+
+19
+00:00:32,267 --> 00:00:33,220
+PyLadies
+
+20
+00:00:33,221 --> 00:00:34,380
+The PyLadies.
+
+21
+00:00:34,381 --> 00:00:36,380
+This is one of the people, the first
+
+22
+00:00:36,381 --> 00:00:37,940
+people that show their welcome
+
+23
+00:00:37,941 --> 00:00:39,420
+and I really appreciate it.
+
+24
+00:00:39,421 --> 00:00:40,460
+I don't think I would have
+
+25
+00:00:40,461 --> 00:00:41,820
+moved if they did not
+
+26
+00:00:41,821 --> 00:00:43,580
+were so welcoming to me.
+
+27
+00:00:43,581 --> 00:00:45,540
+It's archived now on GitHub, our
+
+28
+00:00:45,541 --> 00:00:47,460
+repository from then, but you can go
+
+29
+00:00:47,461 --> 00:00:48,980
+and still see the type of commits
+
+30
+00:00:48,981 --> 00:00:50,940
+and PRs that we did in the past.
+
+31
+00:00:50,941 --> 00:00:52,180
+They're not what I would do
+
+32
+00:00:52,181 --> 00:00:53,780
+now, but I am not embarrassed.
+
+33
+00:00:53,781 --> 00:00:55,266
+From my
+
+34
+00:00:55,267 --> 00:00:56,433
+beginnings.
+
+35
+00:00:56,434 --> 00:00:57,180
+Somewhere,
+
+36
+00:00:57,181 --> 00:00:59,940
+somehow in one of my polytechnic
+
+37
+00:00:59,941 --> 00:01:02,220
+days we have basic Computer
+
+38
+00:01:02,221 --> 00:01:04,099
+Science and I learned C
+
+39
+00:01:04,100 --> 00:01:05,980
+there. And I un-seen it now.
+
+40
+00:01:08,780 --> 00:01:10,260
+Hi, my name is Tamara.
+
+41
+00:01:10,261 --> 00:01:11,620
+I'm an Open Source Software
+
+42
+00:01:11,621 --> 00:01:13,260
+Engineer at Probabl.
+
+43
+00:01:13,261 --> 00:01:14,660
+I'm an open source contributor
+
+44
+00:01:14,661 --> 00:01:16,740
+and maintainer and a, computational
+
+45
+00:01:16,741 --> 00:01:18,300
+linguistics researcher.
+
+46
+00:01:18,301 --> 00:01:19,100
+See you in the next
+
+47
+00:01:19,101 --> 00:01:20,700
+episode of PyPodcast.

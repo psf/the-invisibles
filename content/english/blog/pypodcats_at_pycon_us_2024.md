@@ -14,7 +14,7 @@ We're so excited about PyCon US 2024 in Pittsburgh. It was the first time the fo
 of the hosts were in the same room together to share news about our podcast
 series to the Python community.
 
-{{<twitter user="elthenerd" id="1791108857768370488">}}
+{{<x user="elthenerd" id="1791108857768370488">}}
 
 
 At PyCon US, the PyPodcats team, Cheuk, Georgi, Mariatta, and Tereza,
@@ -93,7 +93,7 @@ We appreciate the level of care and attention by PyCon US staff to ensure everyo
 It was such a delight to see many attendees bringing their children along, and to see that the children were enjoying
 the conference too! Georgi even came up with the terminology: MicroPythonistas.
 
-{{<twitter user="georgically" id="1792247540248711378">}}
+{{<x user="georgically" id="1792247540248711378">}}
 
 #### Diverse topics in the Open Spaces
 
@@ -148,5 +148,5 @@ think about, and work towards more equity and inclusion in this space in the fut
 We are glad to receive positive feedback and compliments about our project and podcast series from the community members
 at PyCon US. Your support is what drives us and the community forward. Please subscribe and stay tuned for our next episode.
 
-{{<twitter user="NIDeveloper" id="1794305541835202984">}}
+{{<x user="NIDeveloper" id="1794305541835202984">}}
 

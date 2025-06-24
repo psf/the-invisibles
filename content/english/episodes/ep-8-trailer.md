@@ -15,7 +15,7 @@ images: ["images/ep8-mojdeh.png", "images/mojdeh.jpg"]
 explicit: false 
 type: 'episode'
 episode: '8'
-season: 1
+season: 2
 transcript: '/transcript/hidden-figures-of-python-ep8-trailer.srt'
 episode_type: trailer
 layout: episode
@@ -49,7 +49,7 @@ She has also given introductory Python tutorials in several occasions.
 
   - name: web
     icon: fa-solid fa-globe
-    link: https://mrastgoo.github.io./
+    link: https://mrastgoo.github.io/
 
 ---
 

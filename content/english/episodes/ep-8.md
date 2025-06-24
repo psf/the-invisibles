@@ -15,7 +15,7 @@ images: ["images/ep8-mojdeh.png", "images/mojdeh.jpg"]
 explicit: false 
 type: 'episode'
 episode: '8'
-season: 1
+season: 2
 transcript: '/transcript/hidden-figures-of-python-ep8.srt'
 episode_type: full
 layout: episode
@@ -49,7 +49,7 @@ She has also given introductory Python tutorials in several occasions.
 
   - name: web
     icon: fa-solid fa-globe
-    link: https://mrastgoo.github.io./
+    link: https://mrastgoo.github.io/
   
 ---
 
@@ -76,7 +76,7 @@ Be sure to listen to the episode to hear about our plans and get to know your ne
 - Growth mindset and changing perspectives
 - Personal interests and hobbies 
 - PyPodcats reflections and plans for the future
-- Founding and supports
+- Funding and supports
 
 
 ## Links from the show
