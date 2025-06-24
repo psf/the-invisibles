@@ -1,7 +1,7 @@
 ---
 title: "PyPodcats Have a New Logo"
 meta_title: "PyPodcats Have a New Logo"
-description: "Finally after 1 year, we finally have a logo"
+description: "After one year, we re-designed our logo from the MVP (Minumum Viable Purr)."
 date: 2025-06-24T05:00:00Z
 categories: ["Blog Post",]
 author: "Georgi"
