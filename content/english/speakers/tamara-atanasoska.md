@@ -2,7 +2,7 @@
 title: "Tamara Atanasoska"
 image: "/images/tamara_atanasoska.jpeg"
 description: "
-Tamara is an open-source contributor and maintainer, a software engineer at :probabl. and a CompLing/NLP
+Tamara is an open-source contributor and maintainer, a software engineer, and a CompLing/NLP
 researcher. Her expertise spans software engineering, ML/NLP, and areas including fair and responsible AI.
 
 She is a leader with proven track record of mentoring and fostering a culture of innovation and continuous improvement. 

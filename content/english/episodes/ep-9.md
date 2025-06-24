@@ -3,11 +3,11 @@ title: "Episode 9: with Tamara Atanasoska"
 meta_title: "Episode 9 with Tamara Atanasoska"
 description: "Learn about Tamara's journey. Tamara has been contributing to open source projects since 2012. She participated in Google Summer of Code to
 contribute to projects like Gnome and e-cidadania."
-date: 2025-06-27T10:00:00+01:00
+date: 2025-06-24T10:00:00+01:00
 host: ["Georgi", "Mariatta"]
 draft: false
 tags: ["python", "pyladies", "django", "open source", "maintainer", "pypodcats", "berlin", "north macedonia", "gsoc", "fairlearn"]
-publish_date: 2025-06-27T06:00:00+02:00
+publish_date: 2025-06-24T06:00:00+02:00
 podcast_file: "/audio/hidden-figures-ep9.mp3"
 podcast_duration: 2497.201633
 episode_image: "images/ep9-tamara.png"
@@ -27,7 +27,7 @@ speaker:
   title: "Tamara Atanasoska"
   image: "/images/tamara_atanasoska.jpeg"
   description: "
-Tamara is an open-source contributor and maintainer, a software engineer at :probabl. and a CompLing/NLP
+Tamara is an open-source contributor and maintainer, a software engineer, and a CompLing/NLP
 researcher. Her expertise spans software engineering, ML/NLP, and areas including fair and responsible AI.
 
 She is a leader with proven track record of mentoring and fostering a culture of innovation and continuous improvement. 
@@ -80,6 +80,14 @@ Be sure to listen to the episode to learn all about Tamara's inspiring story!
 - How she approaches mentorship, and why it is part of her core values.
 - Her ideas about leading beginner-friendly sprints
 - Her future endeavors
+
+{{< notice "note" >}}
+
+This episode was recorded in March 2025. 
+Tamara is still a software engineer, but no longer works at probabl.
+
+To find out more about what she is currently up to, check her [LinkedIn profile](http://de.linkedin.com/in/tamaraatanasoska).
+{{< /notice >}}
 
 ## Links from the show
 
