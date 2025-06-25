@@ -67,7 +67,7 @@ Be sure to listen to the episode to learn all about Tamara's inspiring story!
 
 - Introductions
 - Getting to know Tamara
-- Her current role at :probabl.
+- Her role at :probabl.
 - Her role as an open source maintainer for Fairlearn
 - What is Fairlearn and discussion about fairness in AI
 - The challenges in getting feedback from the users about the Fairlearn project
