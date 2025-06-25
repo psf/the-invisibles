@@ -13,7 +13,7 @@ episode_image: "images/ep9-tamara.png"
 podcast_bytes: "3080474" # the length of the episode in bytes
 images: ["images/ep9-tamara.png", "images/tamara.jpg"]
 explicit: false 
-type: 'trailer'
+type: 'episode'
 episode: '9'
 season: 2
 transcript: '/transcript/hidden-figures-of-python-ep9-trailer.srt'
