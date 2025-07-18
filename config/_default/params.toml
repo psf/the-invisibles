@@ -26,7 +26,7 @@ google_tag_manager = "" # example: G-XXXXXXXXXX
 google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script = ""
-# copyright
+# copyrighthuy
 copyright = "© PyPodcats"
 
 # Preloader
