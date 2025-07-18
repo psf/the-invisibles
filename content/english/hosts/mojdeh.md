@@ -1,5 +1,6 @@
 ---
 title: "Mojdeh Rastgoo"
+date: 2023-10-27T05:00:00Z
 image: "/images/mojdeh.jpg"
 description: "
 Mojdeh is a PyLadies Paris co-organizer, member of PSF Code of Conduct Working Group and a co-host of PyPodcats. 
