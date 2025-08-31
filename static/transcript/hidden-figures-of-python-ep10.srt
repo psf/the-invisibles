@@ -1,0 +1,5972 @@
+1
+00:00:17,640 --> 00:00:17,760
+None.
+
+2
+00:00:20,840 --> 00:00:22,680
+Hello PyPodcast,
+
+3
+00:00:24,280 --> 00:00:27,120
+Today we are very honoured to have Una with us.
+
+4
+00:00:27,360 --> 00:00:28,800
+Una, do you want to introduce yourself? Oh.
+
+5
+00:00:28,880 --> 00:00:30,080
+Still a human being.
+
+6
+00:00:32,360 --> 00:00:35,680
+She is a superstar in PyLadies Amsterdam.
+
+7
+00:00:35,800 --> 00:00:38,120
+She is doing everything for PyLadies
+
+8
+00:00:38,120 --> 00:00:39,920
+Amsterdam and I'll let you talk.
+
+9
+00:00:39,960 --> 00:00:41,520
+Hi everyone, I'm UNA.
+
+10
+00:00:41,680 --> 00:00:44,640
+I'm running apparently PyLadies Amsterdam for
+
+11
+00:00:44,880 --> 00:00:47,160
+Oh my God, like longer than six years.
+
+12
+00:00:47,360 --> 00:00:48,000
+No,
+
+13
+00:00:48,520 --> 00:00:49,680
+no, no way.
+
+14
+00:00:50,200 --> 00:00:51,880
+And the 7th is coming soon.
+
+15
+00:00:52,080 --> 00:00:53,880
+Apparently the seven years is coming
+
+16
+00:00:53,880 --> 00:00:54,760
+starting from May.
+
+17
+00:00:54,760 --> 00:00:56,360
+So OK, now I can officially say
+
+18
+00:00:56,800 --> 00:00:57,920
+7 years. Yeah.
+
+19
+00:00:58,280 --> 00:00:58,840
+Wow 7.
+
+20
+00:00:59,160 --> 00:00:59,480
+Years.
+
+21
+00:00:59,800 --> 00:01:02,120
+Seven years is like longer than my visa, so
+
+22
+00:01:03,680 --> 00:01:04,560
+that's a lot.
+
+23
+00:01:04,760 --> 00:01:08,520
+So I can assume and say that's now she went
+
+24
+00:01:08,520 --> 00:01:09,880
+to the basic school, you know.
+
+25
+00:01:12,440 --> 00:01:12,640
+Yeah,
+
+26
+00:01:13,120 --> 00:01:14,000
+yeah, if you think of, you
+
+27
+00:01:14,400 --> 00:01:16,320
+know, PyLadies is your baby, then yeah,
+
+28
+00:01:16,560 --> 00:01:18,320
+it's now, you know, in school and.
+
+29
+00:01:18,320 --> 00:01:19,680
+Sometimes it's feel like
+
+30
+00:01:21,360 --> 00:01:23,440
+I still try to distribute the load, but
+
+31
+00:01:24,720 --> 00:01:26,400
+sometimes it feels like this indeed.
+
+32
+00:01:26,760 --> 00:01:28,360
+Let's learn a little bit more about
+
+33
+00:01:28,360 --> 00:01:28,960
+yourself.
+
+34
+00:01:29,040 --> 00:01:31,240
+Have you been living in Amsterdam for a
+
+35
+00:01:31,240 --> 00:01:32,080
+long time?
+
+36
+00:01:32,360 --> 00:01:35,320
+Yep, I relocated to Amsterdam 11 years ago.
+
+37
+00:01:35,520 --> 00:01:36,320
+So
+
+38
+00:01:36,720 --> 00:01:38,800
+I think that was the love from the first
+
+39
+00:01:38,800 --> 00:01:40,160
+sight, you know? And it was
+
+40
+00:01:40,480 --> 00:01:41,960
+I talking about Amsterdam,
+
+41
+00:01:42,200 --> 00:01:42,960
+not about a person.
+
+42
+00:01:43,360 --> 00:01:45,720
+Unless you want to personalize Amsterdam of
+
+43
+00:01:45,720 --> 00:01:48,080
+course, or personificates I guess.
+
+44
+00:01:48,080 --> 00:01:49,600
+Not personalized or personific.
+
+45
+00:01:49,800 --> 00:01:52,400
+I think the Amsterdam has very unique
+
+46
+00:01:52,400 --> 00:01:54,080
+opportunities in the sense of meetup
+
+47
+00:01:54,080 --> 00:01:56,280
+saying, but at the same time it has a lot
+
+48
+00:01:56,280 --> 00:01:58,000
+of pros and cons. Pros.
+
+49
+00:01:58,120 --> 00:02:00,480
+There is a group of people who just
+
+50
+00:02:00,480 --> 00:02:02,520
+attended meetups just for the sake of
+
+51
+00:02:02,600 --> 00:02:02,920
+eating.
+
+52
+00:02:04,760 --> 00:02:05,600
+It's everywhere.
+
+53
+00:02:05,640 --> 00:02:07,280
+It's everywhere, not just Amsterdam, I'm
+
+54
+00:02:07,320 --> 00:02:07,760
+telling you.
+
+55
+00:02:08,840 --> 00:02:11,320
+Apparently, Yeah, apparently. And
+
+56
+00:02:11,880 --> 00:02:13,280
+it's really saturated.
+
+57
+00:02:13,280 --> 00:02:15,280
+It was saturated before COVID.
+
+58
+00:02:15,680 --> 00:02:18,160
+During the COVID it was less, let's say,
+
+59
+00:02:18,160 --> 00:02:18,800
+active.
+
+60
+00:02:18,800 --> 00:02:20,760
+After the COVID, it's saturated again.
+
+61
+00:02:20,800 --> 00:02:23,640
+Sometimes you have to make choices like
+
+62
+00:02:23,640 --> 00:02:26,760
+where do I want to go? Oh my gosh, There is
+
+63
+00:02:26,760 --> 00:02:28,840
+like 3 or 4 really interesting events and
+
+64
+00:02:28,840 --> 00:02:30,480
+they all happen at the same time and not
+
+65
+00:02:30,480 --> 00:02:32,680
+all the events making recordings and you
+
+66
+00:02:32,680 --> 00:02:34,480
+know, sometimes just like the information
+
+67
+00:02:34,560 --> 00:02:35,480
+in the states within.
+
+68
+00:02:35,480 --> 00:02:37,200
+So yeah, I think
+
+69
+00:02:37,520 --> 00:02:40,080
+for me it was really, really important to find.
+
+70
+00:02:41,280 --> 00:02:42,640
+I was not looking specifically for a
+
+71
+00:02:42,640 --> 00:02:43,280
+community.
+
+72
+00:02:43,280 --> 00:02:45,360
+I was it's more more like, you know, the
+
+73
+00:02:45,360 --> 00:02:47,080
+quest for knowledge.
+
+74
+00:02:47,120 --> 00:02:49,560
+And it was like, oh, by the way, like we
+
+75
+00:02:49,560 --> 00:02:52,240
+had a lot of events, but all the events are
+
+76
+00:02:52,240 --> 00:02:53,920
+talks, which is fantastic.
+
+77
+00:02:54,000 --> 00:02:54,760
+I do agree.
+
+78
+00:02:54,760 --> 00:02:57,200
+But at the same time, you after the whole
+
+79
+00:02:57,200 --> 00:02:59,480
+work day, you go to this talks and the
+
+80
+00:02:59,480 --> 00:03:01,560
+talks go through like direction One,
+
+81
+00:03:01,560 --> 00:03:03,200
+Direction two direction 3.
+
+82
+00:03:03,280 --> 00:03:05,640
+And like, at the end of the day, your brain
+
+83
+00:03:05,640 --> 00:03:07,640
+is struggling, you know, to, to get all
+
+84
+00:03:07,640 --> 00:03:08,760
+these concepts together.
+
+85
+00:03:08,760 --> 00:03:10,720
+So you're feeling that you start fuzzing
+
+86
+00:03:10,720 --> 00:03:13,000
+out on the talk #3 if it was your good day,
+
+87
+00:03:13,000 --> 00:03:14,840
+and if it was your bad day, you start
+
+88
+00:03:14,840 --> 00:03:17,360
+fazing out on the talk #1 And also a big
+
+89
+00:03:17,360 --> 00:03:19,600
+amount of talks are going about like, oh,
+
+90
+00:03:19,600 --> 00:03:21,520
+look at this cool feature.
+
+91
+00:03:21,680 --> 00:03:24,040
+Like just subscribe to a premium, you know,
+
+92
+00:03:24,040 --> 00:03:25,280
+and you're gonna get that.
+
+93
+00:03:25,280 --> 00:03:27,920
+Or look how some things I've done and like
+
+94
+00:03:28,000 --> 00:03:29,280
+when I start asking questions.
+
+95
+00:03:29,280 --> 00:03:30,920
+But like, what were your, you know, the
+
+96
+00:03:30,960 --> 00:03:33,640
+thought process? What is pros and cons like?
+
+97
+00:03:33,920 --> 00:03:35,360
+Yeah, you're saying that just use this
+
+98
+00:03:35,360 --> 00:03:36,080
+awesome library.
+
+99
+00:03:36,080 --> 00:03:36,760
+Fantastic.
+
+100
+00:03:36,760 --> 00:03:38,600
+That's how it's compared to others.
+
+101
+00:03:38,600 --> 00:03:40,080
+Like, why this? Why that?
+
+102
+00:03:41,040 --> 00:03:42,960
+But you were working in tech before you
+
+103
+00:03:42,960 --> 00:03:43,800
+moved to Amsterdam?
+
+104
+00:03:43,840 --> 00:03:44,120
+Right.
+
+105
+00:03:44,120 --> 00:03:44,920
+Oh yeah, yeah,
+
+106
+00:03:45,240 --> 00:03:46,320
+that's that's the thing.
+
+107
+00:03:46,320 --> 00:03:47,360
+I was already there.
+
+108
+00:03:47,400 --> 00:03:50,040
+I usually joking that I'm, you know, like
+
+109
+00:03:50,040 --> 00:03:51,720
+the the person who's there and not there at
+
+110
+00:03:51,720 --> 00:03:52,440
+the same time.
+
+111
+00:03:52,440 --> 00:03:54,920
+I'm usually trying to, let's say merge both
+
+112
+00:03:54,920 --> 00:03:56,720
+words and like if I look back, it's my
+
+113
+00:03:56,720 --> 00:03:57,280
+career.
+
+114
+00:03:57,280 --> 00:03:59,200
+I think I tried almost all.
+
+115
+00:03:59,200 --> 00:04:02,080
+I was only mentioning that I didn't try PhD yet,
+
+116
+00:04:03,080 --> 00:04:04,000
+but for the rest,
+
+117
+00:04:04,520 --> 00:04:06,200
+like working for myself, working for
+
+118
+00:04:06,200 --> 00:04:07,960
+someone else, starting my own company,
+
+119
+00:04:07,960 --> 00:04:09,640
+growing my own company, selling my own
+
+120
+00:04:09,640 --> 00:04:10,160
+company,
+
+121
+00:04:10,760 --> 00:04:11,960
+get into another one.
+
+122
+00:04:12,000 --> 00:04:14,080
+And by the way, my first job in the
+
+123
+00:04:14,080 --> 00:04:16,120
+Netherlands was an executive director.
+
+124
+00:04:16,160 --> 00:04:17,760
+Yeah, that's how I ended up here.
+
+125
+00:04:18,200 --> 00:04:20,320
+But then after that I was like, Nah, you
+
+126
+00:04:20,320 --> 00:04:21,840
+know, I'm just done.
+
+127
+00:04:21,840 --> 00:04:24,480
+I did some stuff for myself, but now I want
+
+128
+00:04:24,480 --> 00:04:26,440
+to do something for somebody else.
+
+129
+00:04:26,440 --> 00:04:28,520
+And that's how I start freelancing.
+
+130
+00:04:28,520 --> 00:04:30,600
+But I was really scared to start freelancing
+
+131
+00:04:30,600 --> 00:04:31,920
+in the Netherlands because I was like,
+
+132
+00:04:32,280 --> 00:04:34,120
+it's a small country in case I deliver
+
+133
+00:04:34,120 --> 00:04:35,280
+really shitty product.
+
+134
+00:04:37,040 --> 00:04:37,800
+Or really, should
+
+135
+00:04:38,720 --> 00:04:39,880
+you know what people gonna do?
+
+136
+00:04:39,880 --> 00:04:40,600
+OK.
+
+137
+00:04:40,920 --> 00:04:44,280
+Do you feel like it's it will close it down
+
+138
+00:04:44,280 --> 00:04:45,560
+opportunities If you
+
+139
+00:04:45,880 --> 00:04:48,440
+like you didn't do well the first time is
+
+140
+00:04:48,480 --> 00:04:50,880
+do you feel like it will close it down for you?
+
+141
+00:04:51,200 --> 00:04:54,000
+Yeah, it's like it's such a tiny country.
+
+142
+00:04:54,000 --> 00:04:57,520
+So basically the majority of the folks you
+
+143
+00:04:57,520 --> 00:05:00,200
+know them are just rotation of the brains
+
+144
+00:05:00,200 --> 00:05:02,600
+between like the big players
+
+145
+00:05:02,880 --> 00:05:04,720
+and why referring to the big players? I do
+
+146
+00:05:04,720 --> 00:05:06,760
+not mean funk companies, I mean just like
+
+147
+00:05:06,760 --> 00:05:08,640
+the the big players on the local markets,
+
+148
+00:05:09,120 --> 00:05:11,080
+whether it's like international companies
+
+149
+00:05:11,080 --> 00:05:12,200
+or local enterprises.
+
+150
+00:05:12,200 --> 00:05:13,920
+But the majority of them there are some
+
+151
+00:05:13,920 --> 00:05:15,640
+bunch of really like interesting unicorns,
+
+152
+00:05:15,640 --> 00:05:16,440
+for example.
+
+153
+00:05:16,440 --> 00:05:18,680
+And then they're basically migration as a
+
+154
+00:05:18,680 --> 00:05:19,800
+mention of the brain.
+
+155
+00:05:19,800 --> 00:05:22,200
+Like you go there, then they go there, then
+
+156
+00:05:22,440 --> 00:05:24,800
+when they fed up doing that, they go there.
+
+157
+00:05:24,840 --> 00:05:26,440
+So there is also like this consulting
+
+158
+00:05:26,440 --> 00:05:28,480
+world, which is like slightly different, but
+
+159
+00:05:28,840 --> 00:05:30,680
+it's almost the same I would say.
+
+160
+00:05:30,880 --> 00:05:32,840
+And and yeah, that's how you get it.
+
+161
+00:05:32,960 --> 00:05:35,560
+I was very, very like early in my
+
+162
+00:05:35,560 --> 00:05:36,120
+career.
+
+163
+00:05:36,120 --> 00:05:37,760
+I was actually considering moving to
+
+164
+00:05:37,760 --> 00:05:39,680
+Amsterdam and looking for a job there, but
+
+165
+00:05:39,680 --> 00:05:41,960
+I have been told that if you want to work
+
+166
+00:05:41,960 --> 00:05:43,920
+in a consultancy you have to speak Dutch.
+
+167
+00:05:43,920 --> 00:05:44,760
+So how's your Dutch?
+
+168
+00:05:46,000 --> 00:05:47,000
+I would say really "geth so"
+
+169
+00:05:52,040 --> 00:05:53,720
+I don't think that's the audience going to
+
+170
+00:05:53,720 --> 00:05:54,120
+pick it up,
+
+171
+00:05:55,040 --> 00:05:56,520
+at least the majority of the audience.
+
+172
+00:05:57,080 --> 00:06:00,960
+It's true in case you are aiming for like
+
+173
+00:06:00,960 --> 00:06:04,000
+very top senior positions, it's very, very
+
+174
+00:06:04,000 --> 00:06:06,040
+true because when you need to interact
+
+175
+00:06:06,040 --> 00:06:07,960
+directly with let's say C level, C minus
+
+176
+00:06:07,960 --> 00:06:09,440
+level stakeholders, if it's a Dutch
+
+177
+00:06:09,440 --> 00:06:10,400
+company, they will be Dutch.
+
+178
+00:06:10,400 --> 00:06:12,360
+If it's an international company with some
+
+179
+00:06:12,360 --> 00:06:13,440
+like offices here,
+
+180
+00:06:13,720 --> 00:06:15,040
+they also would be Dutch.
+
+181
+00:06:15,080 --> 00:06:17,360
+And somehow everyone here is bilingual,
+
+182
+00:06:17,360 --> 00:06:19,280
+but they prefer to speak Dutch.
+
+183
+00:06:19,360 --> 00:06:20,320
+And if you don't
+
+184
+00:06:20,560 --> 00:06:21,280
+get it,
+
+185
+00:06:22,480 --> 00:06:23,520
+you can lose a lot of,
+
+186
+00:06:23,800 --> 00:06:25,240
+you know, a lot of nuances.
+
+187
+00:06:25,240 --> 00:06:27,560
+That's that's true, But I wouldn't say that
+
+188
+00:06:27,560 --> 00:06:29,520
+it's true if you're not interacting direct
+
+189
+00:06:29,520 --> 00:06:32,000
+with stakeholders unless unless you're
+
+190
+00:06:32,000 --> 00:06:33,400
+joining some kind of
+
+191
+00:06:34,200 --> 00:06:36,440
+just outsourcing company that's, you know,
+
+192
+00:06:36,520 --> 00:06:38,040
+basically don't care about you.
+
+193
+00:06:38,040 --> 00:06:40,080
+They're just selling you per hour and
+
+194
+00:06:40,080 --> 00:06:41,640
+earning the margin on top of it.
+
+195
+00:06:41,640 --> 00:06:43,360
+But it's also like it's their business.
+
+196
+00:06:43,360 --> 00:06:45,000
+That's how they operate in this case.
+
+197
+00:06:45,000 --> 00:06:46,760
+They want to hire you as cheap as possible.
+
+198
+00:06:46,760 --> 00:06:48,200
+They want to sell you as
+
+199
+00:06:48,760 --> 00:06:50,000
+expensive as possible.
+
+200
+00:06:51,000 --> 00:06:52,280
+Yeah, it is what it is.
+
+201
+00:06:52,760 --> 00:06:54,640
+Yeah, it sounds really tough, but
+
+202
+00:06:55,120 --> 00:06:57,040
+that's what make me want to know more about
+
+203
+00:06:57,040 --> 00:06:58,080
+your journey when you
+
+204
+00:06:58,520 --> 00:07:00,280
+first moved to Amsterdam. Like,
+
+205
+00:07:00,720 --> 00:07:03,440
+do you already have a job or you
+
+206
+00:07:03,760 --> 00:07:05,440
+already have your own company? Like
+
+207
+00:07:05,680 --> 00:07:07,320
+so where were you at that
+
+208
+00:07:07,800 --> 00:07:08,560
+point in time?
+
+209
+00:07:09,360 --> 00:07:10,320
+Yeah. So when
+
+210
+00:07:11,200 --> 00:07:13,760
+at that point in time, I, I sold my company
+
+211
+00:07:13,760 --> 00:07:17,360
+and I was basically looking for a job and I
+
+212
+00:07:17,360 --> 00:07:19,240
+was looking for a job that will help me,
+
+213
+00:07:19,400 --> 00:07:20,680
+you know, to relocate myself.
+
+214
+00:07:20,680 --> 00:07:23,040
+And there's also like my partner was also
+
+215
+00:07:23,040 --> 00:07:24,560
+at that moment we're looking for a job.
+
+216
+00:07:24,960 --> 00:07:27,920
+So we're like, OK, so if we find then we
+
+217
+00:07:27,920 --> 00:07:29,480
+are moving because we didn't want, you
+
+218
+00:07:29,480 --> 00:07:30,680
+know, to just move.
+
+219
+00:07:30,680 --> 00:07:33,240
+We wanted to move with the good conditions
+
+220
+00:07:33,280 --> 00:07:35,160
+under good circumstances because I'm
+
+221
+00:07:35,160 --> 00:07:36,000
+originally not from,
+
+222
+00:07:36,280 --> 00:07:38,320
+let's say EU country, which makes it
+
+223
+00:07:38,320 --> 00:07:39,000
+usually very hot.
+
+224
+00:07:39,360 --> 00:07:41,360
+It's very hard, but it's way harder than if
+
+225
+00:07:41,360 --> 00:07:43,480
+you just like do transfer within EU.
+
+226
+00:07:43,480 --> 00:07:45,400
+Because like if you're from you, you can go
+
+227
+00:07:45,400 --> 00:07:46,480
+and work in any place.
+
+228
+00:07:46,480 --> 00:07:48,240
+You just need to do some registrations to
+
+229
+00:07:48,240 --> 00:07:49,760
+get some tax numbers and everything.
+
+230
+00:07:49,760 --> 00:07:51,200
+But for the rest, you're free to go.
+
+231
+00:07:51,240 --> 00:07:52,960
+Even if you have your passports.
+
+232
+00:07:52,960 --> 00:07:54,480
+You can go, for example, and work in
+
+233
+00:07:54,480 --> 00:07:55,760
+Scandinavian countries as well.
+
+234
+00:07:56,080 --> 00:07:58,080
+So you don't need to have visa that separate thing
+
+235
+00:07:58,400 --> 00:07:59,680
+unless it's Great Britain.
+
+236
+00:07:59,960 --> 00:08:00,640
+That's completely.
+
+237
+00:08:00,640 --> 00:08:01,080
+Sorry.
+
+238
+00:08:01,360 --> 00:08:03,240
+Yes, yes, I'm looking at you now like
+
+239
+00:08:03,240 --> 00:08:03,760
+Queen, Queen.
+
+240
+00:08:06,320 --> 00:08:08,080
+Actually, like we also take a hit.
+
+241
+00:08:08,080 --> 00:08:09,760
+So I mean who lose more?
+
+242
+00:08:10,080 --> 00:08:10,520
+Never know.
+
+243
+00:08:11,200 --> 00:08:12,160
+Yeah. So
+
+244
+00:08:12,880 --> 00:08:14,720
+I mentioned like that my first job in the
+
+245
+00:08:14,720 --> 00:08:16,440
+Netherlands was an executive director.
+
+246
+00:08:16,440 --> 00:08:17,640
+So it was basically a
+
+247
+00:08:17,960 --> 00:08:18,840
+service company.
+
+248
+00:08:19,680 --> 00:08:21,120
+You're doing a lot of things, but their
+
+249
+00:08:21,120 --> 00:08:22,960
+goal was to build the company was from
+
+250
+00:08:22,960 --> 00:08:24,920
+scratch, which was really valuable.
+
+251
+00:08:25,320 --> 00:08:27,120
+Because I get through all this, you know, I
+
+252
+00:08:27,120 --> 00:08:29,680
+get to experience bureaucracy first hand.
+
+253
+00:08:29,680 --> 00:08:31,720
+But I wouldn't say that it's a lot of
+
+254
+00:08:31,720 --> 00:08:32,240
+bureaucracy.
+
+255
+00:08:32,240 --> 00:08:33,440
+At least what I'm hearing, for example,
+
+256
+00:08:33,440 --> 00:08:35,480
+from the colleagues who live in Germany, it's
+
+257
+00:08:35,920 --> 00:08:37,040
+it's completely different story.
+
+258
+00:08:37,040 --> 00:08:39,120
+So I would say there is a bureaucracy, yes. I see.
+
+259
+00:08:40,560 --> 00:08:41,080
+Yeah, because
+
+260
+00:08:41,520 --> 00:08:43,560
+I also have a good friend who live in
+
+261
+00:08:43,560 --> 00:08:45,880
+Germany and you know, these two country I
+
+262
+00:08:45,880 --> 00:08:48,320
+think is the top 2 competing who have more
+
+263
+00:08:48,320 --> 00:08:49,080
+bureaucracy.
+
+264
+00:08:51,080 --> 00:08:52,880
+Yeah, something like I would say something
+
+265
+00:08:52,920 --> 00:08:53,760
+like that indeed.
+
+266
+00:08:53,800 --> 00:08:56,640
+And then I was like, OK, so yeah, which is
+
+267
+00:08:56,640 --> 00:08:58,480
+how the tech scheme looks like.
+
+268
+00:08:58,480 --> 00:09:00,520
+What can I do? What are the companies and
+
+269
+00:09:00,520 --> 00:09:02,560
+the Netherlands like some major players,
+
+270
+00:09:02,720 --> 00:09:04,000
+you know, like ASML
+
+271
+00:09:04,640 --> 00:09:06,600
+you have like Phillips, that's like they
+
+272
+00:09:06,600 --> 00:09:08,200
+were the majority of the folks are gone.
+
+273
+00:09:08,200 --> 00:09:10,440
+They have like okay, booking.com and like
+
+274
+00:09:10,440 --> 00:09:12,120
+this, you know, big dinosaurs.
+
+275
+00:09:12,120 --> 00:09:13,040
+Let's put in this way.
+
+276
+00:09:14,160 --> 00:09:16,800
+So and there are other options of course,
+
+277
+00:09:16,800 --> 00:09:17,120
+and there are
+
+278
+00:09:17,520 --> 00:09:18,920
+more local options. And
+
+279
+00:09:19,160 --> 00:09:20,800
+I was like, yeah, what should I do? And
+
+280
+00:09:20,800 --> 00:09:23,640
+then I was like, no, I want to go, I want
+
+281
+00:09:23,640 --> 00:09:24,480
+to feel freedom.
+
+282
+00:09:24,480 --> 00:09:26,240
+So I'm going to go freelancing, which was
+
+283
+00:09:26,240 --> 00:09:29,280
+really strange decision because it came with
+
+284
+00:09:29,720 --> 00:09:31,600
+some changes of the residence permits
+
+285
+00:09:32,280 --> 00:09:33,800
+by default, like if you're located in
+
+286
+00:09:33,800 --> 00:09:35,560
+specific capacity, you're not allowed to do
+
+287
+00:09:35,560 --> 00:09:36,600
+to work in for yourself.
+
+288
+00:09:36,600 --> 00:09:37,920
+So there are like a lot of things.
+
+289
+00:09:37,920 --> 00:09:40,080
+So I found a way to do that like legally
+
+290
+00:09:40,080 --> 00:09:40,720
+and officially.
+
+291
+00:09:40,720 --> 00:09:43,400
+And as I mentioned that back then, I was a
+
+292
+00:09:43,400 --> 00:09:45,280
+little little bits like afraid of
+
+293
+00:09:45,520 --> 00:09:47,840
+doing something on the local market because
+
+294
+00:09:47,840 --> 00:09:49,600
+I didn't know how rusty I am.
+
+295
+00:09:49,720 --> 00:09:51,640
+You know, rusty not in the sense that doing
+
+296
+00:09:51,640 --> 00:09:53,640
+things with Rust like in the opposite
+
+297
+00:09:53,640 --> 00:09:54,320
+direction,
+
+298
+00:09:55,200 --> 00:09:56,760
+not related to Rust language,
+
+299
+00:09:57,120 --> 00:09:58,600
+the pun intended joke.
+
+300
+00:09:59,360 --> 00:10:00,120
+So,
+
+301
+00:10:00,840 --> 00:10:01,840
+and I was like, yeah, where are you going
+
+302
+00:10:01,840 --> 00:10:03,840
+to go? And like where have friends, they're
+
+303
+00:10:03,840 --> 00:10:04,600
+going to help me.
+
+304
+00:10:04,600 --> 00:10:06,280
+Like I just want to deliver.
+
+305
+00:10:06,560 --> 00:10:08,680
+Good job, you know, and I don't want to
+
+306
+00:10:08,680 --> 00:10:10,840
+look for the clients or something.
+
+307
+00:10:10,840 --> 00:10:11,840
+I was looking for some
+
+308
+00:10:12,080 --> 00:10:13,320
+kind of low ending fruits.
+
+309
+00:10:13,320 --> 00:10:15,200
+And apparently the friends of mine, they
+
+310
+00:10:15,200 --> 00:10:16,320
+were like, oh, just, you know,
+
+311
+00:10:16,800 --> 00:10:18,120
+like if you're interested, it's like we're
+
+312
+00:10:18,120 --> 00:10:19,520
+working with the United States,
+
+313
+00:10:20,000 --> 00:10:21,360
+so we're working with American markets.
+
+314
+00:10:21,360 --> 00:10:22,760
+If you're interested, go there, you know,
+
+315
+00:10:23,160 --> 00:10:23,600
+go there.
+
+316
+00:10:23,640 --> 00:10:24,800
+I mean, stay here, but
+
+317
+00:10:25,120 --> 00:10:26,800
+go there and do some stuff. And
+
+318
+00:10:27,080 --> 00:10:28,080
+I was like, yeah, I was really, really
+
+319
+00:10:28,080 --> 00:10:28,560
+excited.
+
+320
+00:10:28,560 --> 00:10:30,400
+So basically for me legally, it was really
+
+321
+00:10:30,400 --> 00:10:31,840
+easy because my,
+
+322
+00:10:32,240 --> 00:10:33,920
+all my, let's say relationships were with a
+
+323
+00:10:33,920 --> 00:10:34,760
+local company,
+
+324
+00:10:35,080 --> 00:10:36,440
+which, you know, protect me from
+
+325
+00:10:36,440 --> 00:10:36,960
+everything.
+
+326
+00:10:36,960 --> 00:10:38,280
+So in case something happened with the
+
+327
+00:10:38,280 --> 00:10:40,440
+money or clients, it's not my problem, it's
+
+328
+00:10:40,440 --> 00:10:41,160
+their problem.
+
+329
+00:10:41,160 --> 00:10:42,840
+Like they were handling everything for me.
+
+330
+00:10:42,840 --> 00:10:45,320
+So I would say that was for Lancing, but
+
+331
+00:10:45,520 --> 00:10:47,600
+it's still like working for someone else,
+
+332
+00:10:47,600 --> 00:10:50,120
+but like with some freedom to say no to
+
+333
+00:10:50,120 --> 00:10:52,240
+specific clients and like, let's let's say
+
+334
+00:10:52,240 --> 00:10:52,840
+like that.
+
+335
+00:10:52,880 --> 00:10:55,400
+And that was funny because you working with
+
+336
+00:10:55,400 --> 00:10:57,400
+people online, there is huge time
+
+337
+00:10:57,400 --> 00:10:58,040
+difference.
+
+338
+00:10:58,160 --> 00:11:00,680
+That's where it caught my attention because
+
+339
+00:11:01,080 --> 00:11:03,760
+when we started doing meetings online,
+
+340
+00:11:03,760 --> 00:11:06,280
+people were surprised to know that I'm
+
+341
+00:11:06,280 --> 00:11:06,960
+female.
+
+342
+00:11:06,960 --> 00:11:09,480
+Somehow they were expecting just, you know,
+
+343
+00:11:09,480 --> 00:11:10,160
+another guy.
+
+344
+00:11:10,160 --> 00:11:12,440
+It's a cliche, but it's still, it's still.
+
+345
+00:11:12,440 --> 00:11:13,840
+And there was like, oh, are you? Oh,
+
+346
+00:11:14,640 --> 00:11:16,960
+we didn't expect this is like, what do you
+
+347
+00:11:16,960 --> 00:11:17,320
+mean by?
+
+348
+00:11:18,880 --> 00:11:19,360
+Oh my God,
+
+349
+00:11:20,640 --> 00:11:21,240
+I think, I think
+
+350
+00:11:21,480 --> 00:11:22,760
+people don't check LinkedIn.
+
+351
+00:11:22,760 --> 00:11:24,600
+But like, you know, at that time, right?
+
+352
+00:11:24,960 --> 00:11:26,400
+It's not like now people will check your
+
+353
+00:11:26,400 --> 00:11:27,800
+LinkedIn before talking to you. Oh.
+
+354
+00:11:28,560 --> 00:11:31,320
+Boy, yeah, I I think there is like, yeah, that's
+
+355
+00:11:31,680 --> 00:11:33,240
+like, who are you? I was like my
+
+356
+00:11:34,400 --> 00:11:35,640
+you're engineer, you know,
+
+357
+00:11:36,360 --> 00:11:36,520
+or
+
+358
+00:11:36,840 --> 00:11:37,000
+you
+
+359
+00:11:37,360 --> 00:11:37,560
+can.
+
+360
+00:11:37,560 --> 00:11:40,080
+You tell us about this freelancing job
+
+361
+00:11:40,160 --> 00:11:40,960
+specifically.
+
+362
+00:11:40,960 --> 00:11:43,440
+Like what do you do as a freelancer?
+
+363
+00:11:43,840 --> 00:11:45,800
+So there was 1 gig was pure data
+
+364
+00:11:45,800 --> 00:11:46,440
+engineering.
+
+365
+00:11:46,440 --> 00:11:47,800
+So basically you have
+
+366
+00:11:48,240 --> 00:11:50,400
+you do sensor fusion or a lot of sensor
+
+367
+00:11:50,400 --> 00:11:52,280
+data coming in, you need to process it very
+
+368
+00:11:52,280 --> 00:11:54,440
+sparse data and then you ship it to the
+
+369
+00:11:54,440 --> 00:11:55,200
+data scientist.
+
+370
+00:11:55,200 --> 00:11:56,760
+They're going to build different like time
+
+371
+00:11:56,760 --> 00:11:59,680
+series, like statistical and machine like using
+
+372
+00:12:00,160 --> 00:12:01,680
+different machine learning algorithms on
+
+373
+00:12:01,680 --> 00:12:02,240
+top of that.
+
+374
+00:12:03,000 --> 00:12:04,760
+That was like the first one gig.
+
+375
+00:12:05,120 --> 00:12:07,160
+It was approximately 4 or five months
+
+376
+00:12:07,760 --> 00:12:10,000
+and then I was dragged into the more, let's
+
+377
+00:12:10,000 --> 00:12:11,360
+say ML related gig.
+
+378
+00:12:11,600 --> 00:12:13,440
+Again, there are like data scientists and
+
+379
+00:12:13,440 --> 00:12:14,440
+they're struggling to put things in
+
+380
+00:12:14,440 --> 00:12:15,120
+production.
+
+381
+00:12:15,120 --> 00:12:17,040
+Could you help us to go there, You know,
+
+382
+00:12:17,040 --> 00:12:18,560
+set up some like bring some software
+
+383
+00:12:18,560 --> 00:12:19,960
+engineering practices in place.
+
+384
+00:12:19,960 --> 00:12:21,720
+Help us like with CICD pipeline
+
+385
+00:12:21,720 --> 00:12:23,480
+specifically for machine learning training,
+
+386
+00:12:23,480 --> 00:12:24,960
+introduce continuous training where it's
+
+387
+00:12:24,960 --> 00:12:26,920
+possible set up specific metrics and
+
+388
+00:12:26,920 --> 00:12:28,200
+threshold for monitoring.
+
+389
+00:12:28,600 --> 00:12:30,240
+And that was really interesting because at
+
+390
+00:12:30,240 --> 00:12:33,600
+that moment that was a very, very awesome
+
+391
+00:12:33,600 --> 00:12:34,160
+project.
+
+392
+00:12:34,160 --> 00:12:36,600
+I was working with self driving trucks and
+
+393
+00:12:36,600 --> 00:12:38,720
+that was like, whoa, that's where I learned
+
+394
+00:12:38,720 --> 00:12:40,440
+first time in my life what LiDAR is
+
+395
+00:12:40,440 --> 00:12:41,760
+before that, I have no clue.
+
+396
+00:12:41,760 --> 00:12:43,920
+Like that this thing that do this like
+
+397
+00:12:43,920 --> 00:12:45,960
+365°, like your
+
+398
+00:12:46,280 --> 00:12:49,080
+3D coordination position.
+
+399
+00:12:49,160 --> 00:12:51,360
+And then it's basically allows you, let's
+
+400
+00:12:51,360 --> 00:12:52,160
+say to see.
+
+401
+00:12:52,160 --> 00:12:53,880
+And then you can run on this like
+
+402
+00:12:53,880 --> 00:12:55,720
+combination of computer vision algorithms
+
+403
+00:12:55,720 --> 00:12:57,880
+together with all this, let's say a sensor
+
+404
+00:12:57,880 --> 00:12:59,920
+data that coming in like combination of that.
+
+405
+00:12:59,920 --> 00:13:01,520
+And you get like the, the full picture of
+
+406
+00:13:01,520 --> 00:13:02,280
+what's going on.
+
+407
+00:13:02,320 --> 00:13:04,400
+That I think was for me really, really eyes
+
+408
+00:13:04,400 --> 00:13:05,000
+opening
+
+409
+00:13:05,520 --> 00:13:07,440
+because you know, before that, like what's
+
+410
+00:13:07,440 --> 00:13:08,880
+the problem? You just say don't hit,
+
+411
+00:13:09,160 --> 00:13:09,960
+don't hit this
+
+412
+00:13:14,080 --> 00:13:14,400
+very cool.
+
+413
+00:13:14,800 --> 00:13:17,000
+And after that I jump on the different
+
+414
+00:13:17,000 --> 00:13:18,720
+things so I get him back to more like
+
+415
+00:13:18,720 --> 00:13:22,200
+maritime industry and that was the moment of
+
+416
+00:13:22,320 --> 00:13:24,440
+help to predict the best time for crew
+
+417
+00:13:24,440 --> 00:13:25,080
+rotation.
+
+418
+00:13:25,080 --> 00:13:26,240
+So you have like
+
+419
+00:13:26,560 --> 00:13:28,680
+crew who stays for a longer term on the
+
+420
+00:13:28,680 --> 00:13:30,280
+ship and when ship arrives to specific
+
+421
+00:13:30,280 --> 00:13:32,000
+coast, you need to take an account the
+
+422
+00:13:32,000 --> 00:13:34,480
+weather, taking account a nationality of
+
+423
+00:13:34,520 --> 00:13:37,400
+the crew that has to be rotated taking into
+
+424
+00:13:37,400 --> 00:13:39,640
+account visit conditions of the country.
+
+425
+00:13:39,640 --> 00:13:42,560
+They think they're gonna port at plus like
+
+426
+00:13:42,560 --> 00:13:43,160
+weather condition.
+
+427
+00:13:43,160 --> 00:13:45,080
+And I mentioned like condition also like
+
+428
+00:13:45,080 --> 00:13:46,000
+all the ocean.
+
+429
+00:13:46,000 --> 00:13:47,720
+How is it how it's like behaving, how it's
+
+430
+00:13:47,720 --> 00:13:49,720
+working? And then what is the probability
+
+431
+00:13:49,720 --> 00:13:51,480
+that the ship going to be at this port
+
+432
+00:13:51,480 --> 00:13:53,560
+versus that ports? What is the most, let's
+
+433
+00:13:53,560 --> 00:13:56,400
+say, optimal condition for rotation, which
+
+434
+00:13:56,400 --> 00:13:58,680
+can saves a lot of money or which can even
+
+435
+00:13:58,680 --> 00:14:00,960
+prevent rotation of the crew? For example,
+
+436
+00:14:00,960 --> 00:14:02,280
+visa regime is not
+
+437
+00:14:02,520 --> 00:14:03,160
+favorable.
+
+438
+00:14:03,160 --> 00:14:05,280
+Also, you get a lot of like repair teams.
+
+439
+00:14:05,280 --> 00:14:07,440
+So there are a lot of repairs that happens
+
+440
+00:14:07,440 --> 00:14:09,280
+as soon as the ship is moving.
+
+441
+00:14:09,320 --> 00:14:11,200
+So there are big repairs that you do in,
+
+442
+00:14:11,200 --> 00:14:12,960
+for example, in different types of docks,
+
+443
+00:14:12,960 --> 00:14:14,560
+but there are also repairs and go.
+
+444
+00:14:14,560 --> 00:14:16,800
+So imagine like like the folks that flying
+
+445
+00:14:16,800 --> 00:14:19,240
+with like this very excessive baggage and
+
+446
+00:14:19,240 --> 00:14:20,880
+then for example, they losing it back.
+
+447
+00:14:20,920 --> 00:14:23,320
+And the bag has like all the tools, like,
+
+448
+00:14:23,320 --> 00:14:25,800
+you know, like the tools, cost of the
+
+449
+00:14:25,800 --> 00:14:27,080
+tools, just like, yeah,
+
+450
+00:14:27,400 --> 00:14:27,640
+like
+
+451
+00:14:29,680 --> 00:14:31,200
+they were they were tags in it.
+
+452
+00:14:31,280 --> 00:14:33,440
+The bags was also secured because it's very
+
+453
+00:14:33,440 --> 00:14:34,080
+expensive.
+
+454
+00:14:34,080 --> 00:14:36,000
+But still, you know, it's like depends on
+
+455
+00:14:36,000 --> 00:14:36,800
+their company.
+
+456
+00:14:36,800 --> 00:14:38,640
+Like do they have like the specific
+
+457
+00:14:38,640 --> 00:14:40,400
+tracking? Do they have if the luggage is
+
+458
+00:14:40,400 --> 00:14:42,040
+lost, it's usually not a problem of our
+
+459
+00:14:42,040 --> 00:14:42,440
+company.
+
+460
+00:14:42,440 --> 00:14:43,200
+It's a problem of
+
+461
+00:14:43,800 --> 00:14:45,600
+handling company at the airports and the
+
+462
+00:14:45,600 --> 00:14:47,440
+majority of the cases it is what it is,
+
+463
+00:14:48,080 --> 00:14:48,360
+yeah.
+
+464
+00:14:48,400 --> 00:14:49,920
+It's simpler, complicated.
+
+465
+00:14:49,920 --> 00:14:52,000
+I think that's I never thought that you
+
+466
+00:14:52,000 --> 00:14:54,600
+need to like the way you describe this
+
+467
+00:14:54,600 --> 00:14:57,920
+managing, you know, ship crews as they port
+
+468
+00:14:57,920 --> 00:15:00,560
+because I, you know, I enjoy cruise ships.
+
+469
+00:15:01,040 --> 00:15:03,800
+Like I've only done it a few times, but it is
+
+470
+00:15:04,200 --> 00:15:06,360
+a very big production
+
+471
+00:15:06,840 --> 00:15:07,320
+to me.
+
+472
+00:15:07,320 --> 00:15:09,320
+Like managing the shipping cruise.
+
+473
+00:15:09,400 --> 00:15:10,160
+There was some
+
+474
+00:15:10,560 --> 00:15:13,960
+Netflix shows to show just how they run the
+
+475
+00:15:13,960 --> 00:15:17,160
+restaurants inside the cruise ship planning
+
+476
+00:15:17,160 --> 00:15:18,680
+meal or logistics.
+
+477
+00:15:18,720 --> 00:15:20,480
+Because once you're inside the ship, you
+
+478
+00:15:20,480 --> 00:15:22,320
+don't get to reload or something.
+
+479
+00:15:22,400 --> 00:15:24,840
+So now you're talking about the actual crew
+
+480
+00:15:24,840 --> 00:15:27,600
+management using, I guess as a software
+
+481
+00:15:27,600 --> 00:15:28,320
+engineer, you,
+
+482
+00:15:28,680 --> 00:15:30,640
+you write some program for that.
+
+483
+00:15:30,720 --> 00:15:32,400
+That's kind of fascinating.
+
+484
+00:15:32,680 --> 00:15:34,120
+Do you use Python for all?
+
+485
+00:15:34,880 --> 00:15:35,560
+Partially
+
+486
+00:15:35,880 --> 00:15:37,400
+like when it's possible, but you know, the
+
+487
+00:15:37,400 --> 00:15:40,760
+fancy is when I decided that I don't want
+
+488
+00:15:40,760 --> 00:15:42,480
+to do freelancing anymore and I just want
+
+489
+00:15:42,480 --> 00:15:43,880
+to work for a local company.
+
+490
+00:15:43,880 --> 00:15:46,360
+I went back to consulting because I
+
+491
+00:15:46,360 --> 00:15:48,680
+couldn't find a company that gonna satisfy,
+
+492
+00:15:48,680 --> 00:15:49,840
+you know, my needs.
+
+493
+00:15:49,920 --> 00:15:51,520
+And that like was awesome topics that I
+
+494
+00:15:51,520 --> 00:15:52,280
+would work at.
+
+495
+00:15:52,280 --> 00:15:54,040
+And that's how I joined the consulting.
+
+496
+00:15:54,040 --> 00:15:55,760
+Like the local consulting company, let's
+
+497
+00:15:55,760 --> 00:15:57,200
+say it was an outsourcing company.
+
+498
+00:15:57,200 --> 00:15:58,760
+It's still an outsourcing company, but they
+
+499
+00:15:58,760 --> 00:16:00,400
+also have like this separate department
+
+500
+00:16:00,400 --> 00:16:01,480
+called the TN Innovation.
+
+501
+00:16:01,480 --> 00:16:02,960
+That's where I landed and that's where I
+
+502
+00:16:02,960 --> 00:16:04,960
+get an opportunity to build whole things from
+
+503
+00:16:05,200 --> 00:16:06,360
+almost let's say from scratch.
+
+504
+00:16:06,360 --> 00:16:08,040
+And that's where I switch to working with
+
+505
+00:16:08,040 --> 00:16:08,640
+aircrafts.
+
+506
+00:16:08,680 --> 00:16:11,160
+So like now you can think about each
+
+507
+00:16:11,160 --> 00:16:11,760
+aircraft.
+
+508
+00:16:11,760 --> 00:16:13,600
+So how much food should we put in it? How
+
+509
+00:16:13,600 --> 00:16:14,480
+much water,
+
+510
+00:16:14,840 --> 00:16:17,720
+how much fuel, let's say based on the
+
+511
+00:16:17,720 --> 00:16:19,840
+amount of passenger that's right for for
+
+512
+00:16:19,840 --> 00:16:22,200
+registration, should we swap an aircraft?
+
+513
+00:16:22,240 --> 00:16:25,320
+You know how the operations of the airport
+
+514
+00:16:25,320 --> 00:16:28,400
+is going to run knowing what is expected
+
+515
+00:16:28,400 --> 00:16:30,200
+amount of passengers from, let's say from
+
+516
+00:16:30,200 --> 00:16:31,280
+the local air company.
+
+517
+00:16:31,280 --> 00:16:31,680
+So it's.
+
+518
+00:16:31,720 --> 00:16:32,680
+A random question.
+
+519
+00:16:32,760 --> 00:16:33,400
+Yeah, go on.
+
+520
+00:16:33,440 --> 00:16:35,880
+I have heard in my previous job that a lot
+
+521
+00:16:35,880 --> 00:16:38,160
+of, you know, air traffic planning is using
+
+522
+00:16:38,160 --> 00:16:38,720
+Prologue.
+
+523
+00:16:38,720 --> 00:16:40,640
+Is that true? Do you know or you don't
+
+524
+00:16:40,640 --> 00:16:42,360
+touch that part of craziness?
+
+525
+00:16:42,520 --> 00:16:45,320
+I touch this parts, I touch this part
+
+526
+00:16:45,320 --> 00:16:48,680
+because I would say that one of my latest
+
+527
+00:16:48,680 --> 00:16:51,160
+gigs was redesigning basically the whole
+
+528
+00:16:51,160 --> 00:16:53,920
+data in AI system for a very big fun
+
+529
+00:16:53,920 --> 00:16:56,640
+European company which is controlling
+
+530
+00:16:56,640 --> 00:16:57,480
+European sky.
+
+531
+00:16:57,520 --> 00:16:59,560
+Like there are a lot of things going on there.
+
+532
+00:16:59,560 --> 00:17:01,440
+They solving problems
+
+533
+00:17:01,680 --> 00:17:02,800
+that are not
+
+534
+00:17:03,400 --> 00:17:05,080
+common and they're solving very unique
+
+535
+00:17:05,080 --> 00:17:05,680
+problems.
+
+536
+00:17:05,680 --> 00:17:07,480
+That's why there is a lot of custom built
+
+537
+00:17:07,480 --> 00:17:09,800
+stuff because otherwise the way how the
+
+538
+00:17:09,920 --> 00:17:11,920
+information is shared, like how you can
+
+539
+00:17:11,920 --> 00:17:14,120
+parse it, which makes it very, very
+
+540
+00:17:14,120 --> 00:17:16,520
+difficult and completely different from
+
+541
+00:17:16,560 --> 00:17:16,920
+others.
+
+542
+00:17:17,000 --> 00:17:19,920
+You even can have like up to 12 languages
+
+543
+00:17:19,920 --> 00:17:21,960
+used for different components because what
+
+544
+00:17:21,960 --> 00:17:24,360
+they do, you know, the the funniest part, I
+
+545
+00:17:24,360 --> 00:17:26,880
+never thought about airspace like that.
+
+546
+00:17:26,880 --> 00:17:29,880
+They calculate airspace and they create
+
+547
+00:17:29,880 --> 00:17:33,040
+like cubes and they calculate the capacity
+
+548
+00:17:33,040 --> 00:17:35,240
+of each cube to flow through it.
+
+549
+00:17:35,320 --> 00:17:37,160
+And each cube is operated by
+
+550
+00:17:37,480 --> 00:17:40,000
+like ATC or a combination of cubes is
+
+551
+00:17:40,000 --> 00:17:42,960
+operated by ITC by this like the air 
+
+552
+00:17:42,960 --> 00:17:44,080
+traffic control tower.
+
+553
+00:17:44,080 --> 00:17:46,400
+And basically when the aircraft is flying
+
+554
+00:17:46,400 --> 00:17:49,640
+the ATC, just passing it from one chunk of
+
+555
+00:17:49,640 --> 00:17:51,760
+cubes to another chunk of cubes.
+
+556
+00:17:51,920 --> 00:17:54,040
+Like next time I have a delay in my flight
+
+557
+00:17:54,040 --> 00:17:55,040
+I would think of you so.
+
+558
+00:17:55,360 --> 00:17:55,600
+Yes.
+
+559
+00:17:56,320 --> 00:17:56,680
+Wait, wait,
+
+560
+00:17:58,120 --> 00:17:58,240
+wait, don't think of me
+
+561
+00:17:58,720 --> 00:18:00,120
+think about the cubes.
+
+562
+00:18:00,200 --> 00:18:00,480
+That's.
+
+563
+00:18:00,480 --> 00:18:01,000
+Where?
+
+564
+00:18:01,160 --> 00:18:01,720
+Yes.
+
+565
+00:18:02,720 --> 00:18:04,600
+Because of the weather or because of the
+
+566
+00:18:04,640 --> 00:18:05,000
+other things.
+
+567
+00:18:05,000 --> 00:18:06,680
+But you know where you can hear that? So
+
+568
+00:18:06,680 --> 00:18:08,680
+for example, when the pilot says, oh sorry,
+
+569
+00:18:08,680 --> 00:18:11,600
+we just missed our time slot for departure,
+
+570
+00:18:11,840 --> 00:18:14,160
+that's exactly they missed their claimed
+
+571
+00:18:14,160 --> 00:18:15,120
+space in a cube.
+
+572
+00:18:16,280 --> 00:18:16,480
+Oh, yeah,
+
+573
+00:18:17,080 --> 00:18:18,080
+that's happened a lot.
+
+574
+00:18:18,080 --> 00:18:20,080
+Like when after, you know, the pandemic and
+
+575
+00:18:20,080 --> 00:18:20,760
+also during the
+
+576
+00:18:21,000 --> 00:18:23,520
+summer season, it happens a lot, especially with
+
+577
+00:18:23,840 --> 00:18:26,320
+some flight company that is really cheap
+
+578
+00:18:26,320 --> 00:18:27,280
+and start with an hour.
+
+579
+00:18:27,280 --> 00:18:28,000
+It happens a lot.
+
+580
+00:18:29,920 --> 00:18:31,480
+We're not going to pick up the topic of
+
+581
+00:18:31,480 --> 00:18:33,080
+Coldplay and they are
+
+582
+00:18:33,800 --> 00:18:35,120
+divorcing couples, right?
+
+583
+00:18:38,760 --> 00:18:41,160
+I was just looking at that the other day.
+
+584
+00:18:41,800 --> 00:18:42,080
+Yes,
+
+585
+00:18:45,240 --> 00:18:45,640
+it's
+
+586
+00:18:46,120 --> 00:18:46,360
+yeah.
+
+587
+00:18:46,360 --> 00:18:47,520
+Let's not gossip about it,
+
+588
+00:18:48,400 --> 00:18:48,600
+yeah?
+
+589
+00:18:49,240 --> 00:18:50,800
+Let's change the topic. Yeah.
+
+590
+00:18:50,800 --> 00:18:53,280
+What spark? You started PyLadies in
+
+591
+00:18:53,280 --> 00:18:53,760
+Amsterdam.
+
+592
+00:18:53,880 --> 00:18:54,520
+You know,
+
+593
+00:18:54,880 --> 00:18:57,920
+it sounds really strange, but the smells
+
+594
+00:18:58,080 --> 00:18:59,040
+and the sounds.
+
+595
+00:18:59,040 --> 00:19:01,320
+So I was attending a lot of meetups.
+
+596
+00:19:01,320 --> 00:19:04,920
+Usually I was mostly one or maybe like
+
+597
+00:19:04,920 --> 00:19:07,560
+there were two of us there
+
+598
+00:19:07,560 --> 00:19:10,760
+let's say, that can be identified as females if I
+
+599
+00:19:10,760 --> 00:19:12,000
+put in this way.
+
+600
+00:19:12,000 --> 00:19:13,600
+And the majority of the meetups starting
+
+601
+00:19:13,600 --> 00:19:16,080
+with guys drinking a lot of beer and eating
+
+602
+00:19:16,080 --> 00:19:17,920
+very bad quality pizza.
+
+603
+00:19:17,920 --> 00:19:19,880
+But like, I know it's still like free of
+
+604
+00:19:19,880 --> 00:19:22,040
+charge food, but it's like very, very bad.
+
+605
+00:19:22,080 --> 00:19:24,200
+And at that moment I was not drinking
+
+606
+00:19:24,200 --> 00:19:25,480
+alcohol at all.
+
+607
+00:19:25,480 --> 00:19:27,160
+So for me, it was really problematic
+
+608
+00:19:27,160 --> 00:19:29,360
+because I was smelling it and I was
+
+609
+00:19:29,360 --> 00:19:31,760
+smelling and the beer and the pizza and the
+
+610
+00:19:31,760 --> 00:19:32,120
+guys, I'm
+
+611
+00:19:34,240 --> 00:19:34,720
+sorry.
+
+612
+00:19:35,080 --> 00:19:37,240
+I'm just in the sense I can imagine it's
+
+613
+00:19:37,280 --> 00:19:37,960
+really tough, yeah.
+
+614
+00:19:38,320 --> 00:19:39,760
+Especially something
+
+615
+00:19:40,560 --> 00:19:42,080
+related to kubernetes.
+
+616
+00:19:43,000 --> 00:19:44,720
+Somehow there is a correlation.
+
+617
+00:19:46,040 --> 00:19:47,760
+I mean kubernetes admins.
+
+618
+00:19:47,760 --> 00:19:49,640
+I'm not talking just about the developers
+
+619
+00:19:49,640 --> 00:19:50,120
+that use,
+
+620
+00:19:50,360 --> 00:19:50,640
+but
+
+621
+00:19:50,960 --> 00:19:51,280
+just.
+
+622
+00:19:51,840 --> 00:19:53,560
+Say you know how the place very hot, you
+
+623
+00:19:53,560 --> 00:19:55,200
+know it's not not going to be nice.
+
+624
+00:19:55,320 --> 00:19:55,600
+Yeah.
+
+625
+00:19:55,600 --> 00:19:58,120
+And I was like, what if there could be meet
+
+626
+00:19:58,120 --> 00:20:00,680
+up where first it would be not about talks,
+
+627
+00:20:00,680 --> 00:20:02,880
+it would be mostly about doing still doing
+
+628
+00:20:02,880 --> 00:20:04,880
+something, doing some exercises like trying
+
+629
+00:20:04,880 --> 00:20:06,800
+out a learning new concept, not just
+
+630
+00:20:06,800 --> 00:20:07,720
+watching a demo.
+
+631
+00:20:07,720 --> 00:20:09,640
+Like I wanted something that I can, you
+
+632
+00:20:09,640 --> 00:20:12,200
+know, like run, it's runs on my machine,
+
+633
+00:20:12,640 --> 00:20:12,720
+so.
+
+634
+00:20:15,400 --> 00:20:17,040
+Or OK, or if you need some specific
+
+635
+00:20:17,040 --> 00:20:18,680
+credits, like to run it somewhere else.
+
+636
+00:20:18,720 --> 00:20:22,000
+And I wanted to have a space where I can
+
+637
+00:20:22,000 --> 00:20:24,760
+influence a bit the food and the drinks.
+
+638
+00:20:24,760 --> 00:20:26,680
+I was not saying that's like I am against
+
+639
+00:20:26,680 --> 00:20:27,360
+alcohol.
+
+640
+00:20:27,360 --> 00:20:28,600
+It's not about that.
+
+641
+00:20:28,640 --> 00:20:31,280
+It's more about it's OK to have alcohol,
+
+642
+00:20:31,280 --> 00:20:33,720
+but at the end during the networking part
+
+643
+00:20:33,800 --> 00:20:35,760
+and not during the event.
+
+644
+00:20:35,920 --> 00:20:38,360
+Because if you aim to do workshops, then
+
+645
+00:20:38,400 --> 00:20:39,640
+you know, that's something different.
+
+646
+00:20:39,640 --> 00:20:42,600
+So that was my idea and I'm really thankful
+
+647
+00:20:42,600 --> 00:20:44,680
+that that moment I meet another person who
+
+648
+00:20:44,680 --> 00:20:47,160
+was like, so if we both dissatisfied,
+
+649
+00:20:47,440 --> 00:20:49,720
+why not to start something new? And we're
+
+650
+00:20:49,720 --> 00:20:52,400
+like, OK, So what should we do? How we
+
+651
+00:20:52,400 --> 00:20:54,840
+should do it? Like should we create a meet
+
+652
+00:20:54,840 --> 00:20:57,800
+up group? And then then what's where to
+
+653
+00:20:57,800 --> 00:21:00,000
+advertise it? I don't know, go to the
+
+654
+00:21:00,000 --> 00:21:01,240
+events and talk.
+
+655
+00:21:01,240 --> 00:21:03,720
+Oh, we have this cool idea, just go through it.
+
+656
+00:21:03,720 --> 00:21:05,600
+And there was like other any low hanging
+
+657
+00:21:05,600 --> 00:21:06,680
+fruits or something.
+
+658
+00:21:06,680 --> 00:21:08,960
+And next to it, I would say my desire was
+
+659
+00:21:08,960 --> 00:21:12,120
+to see more, let's say, female and
+
+660
+00:21:12,120 --> 00:21:14,120
+underepresented groups on the stage, you
+
+661
+00:21:14,120 --> 00:21:16,360
+know, taking the spots and not just being
+
+662
+00:21:16,360 --> 00:21:18,800
+somebody's like, assistant or something
+
+663
+00:21:18,800 --> 00:21:19,360
+like that.
+
+664
+00:21:19,360 --> 00:21:20,800
+And I was like, yeah, maybe there's
+
+665
+00:21:20,800 --> 00:21:21,400
+something.
+
+666
+00:21:21,400 --> 00:21:23,640
+And then just like with a short discovery,
+
+667
+00:21:23,640 --> 00:21:25,560
+we noticed, oh, there was a PyLadies
+
+668
+00:21:25,560 --> 00:21:26,880
+Amsterdam chapter.
+
+669
+00:21:26,880 --> 00:21:29,560
+Unfortunately, they somehow like stopped
+
+670
+00:21:29,760 --> 00:21:30,880
+their activities into southern,
+
+671
+00:21:31,360 --> 00:21:31,640
+just
+
+672
+00:21:31,880 --> 00:21:33,080
+to southern footing.
+
+673
+00:21:33,080 --> 00:21:34,280
+Yeah, I guess something like that.
+
+674
+00:21:34,440 --> 00:21:36,200
+There was some folks running it.
+
+675
+00:21:36,200 --> 00:21:38,040
+So I really thankful that they started it
+
+676
+00:21:38,120 --> 00:21:40,240
+and we're like, oh, could we resurrect the
+
+677
+00:21:40,240 --> 00:21:41,480
+zombie horse, you know?
+
+678
+00:21:42,440 --> 00:21:43,680
+And that's how we started.
+
+679
+00:21:43,680 --> 00:21:45,720
+And what was really funny today when I was
+
+680
+00:21:45,720 --> 00:21:48,280
+chatting, sending DMS to Marietta, I
+
+681
+00:21:48,360 --> 00:21:51,440
+scrolled down and I noticed my first
+
+682
+00:21:51,440 --> 00:21:54,240
+message to her like saying, hello, I'm
+
+683
+00:21:54,240 --> 00:21:54,840
+doing this.
+
+684
+00:21:54,840 --> 00:21:56,800
+I'm trying to get access to here and there.
+
+685
+00:21:56,800 --> 00:21:58,360
+Could you help me? Thank you for
+
+686
+00:21:58,360 --> 00:21:59,280
+understanding.
+
+687
+00:21:59,800 --> 00:22:00,520
+It was so
+
+688
+00:22:00,920 --> 00:22:02,320
+nice to see it.
+
+689
+00:22:03,240 --> 00:22:03,880
+Thank you. Yeah.
+
+690
+00:22:04,360 --> 00:22:04,800
+Yeah.
+
+691
+00:22:04,800 --> 00:22:05,040
+I
+
+692
+00:22:05,320 --> 00:22:06,480
+think that's the same.
+
+693
+00:22:06,520 --> 00:22:08,880
+I've heard these stories a lot, like
+
+694
+00:22:08,960 --> 00:22:11,080
+everything you said, you know, like we all
+
+695
+00:22:11,080 --> 00:22:14,000
+hear, we want to see more people who we can
+
+696
+00:22:14,000 --> 00:22:16,440
+relate to, you know, want to see more women
+
+697
+00:22:16,440 --> 00:22:17,680
+in the community.
+
+698
+00:22:17,720 --> 00:22:18,080
+There are
+
+699
+00:22:18,320 --> 00:22:21,200
+lots of PyLadies chapters worldwide who
+
+700
+00:22:21,200 --> 00:22:23,400
+just, you know, people started it, maybe
+
+701
+00:22:23,400 --> 00:22:25,720
+they have other priorities afterwards.
+
+702
+00:22:25,800 --> 00:22:27,360
+And then it got dormant.
+
+703
+00:22:27,360 --> 00:22:29,240
+And I'm really glad to hear that, you know,
+
+704
+00:22:29,240 --> 00:22:31,120
+you picked it up and then you run it and
+
+705
+00:22:31,120 --> 00:22:33,600
+you have your own vision of, you know, kind
+
+706
+00:22:33,600 --> 00:22:34,880
+of community you want.
+
+707
+00:22:34,920 --> 00:22:36,760
+I think that's really good to hear.
+
+708
+00:22:36,840 --> 00:22:38,840
+I'm more used to hear of people
+
+709
+00:22:38,840 --> 00:22:39,840
+complaining,
+
+710
+00:22:40,160 --> 00:22:42,200
+like saying there should be something for
+
+711
+00:22:42,200 --> 00:22:44,520
+me here, Like, I want an event like this.
+
+712
+00:22:44,520 --> 00:22:46,480
+You should be running an event the way I
+
+713
+00:22:46,480 --> 00:22:46,920
+want it.
+
+714
+00:22:46,920 --> 00:22:49,160
+But yet they're not running it themselves.
+
+715
+00:22:49,400 --> 00:22:50,920
+They're just saying you should run
+
+716
+00:22:50,960 --> 00:22:52,800
+conference like this, this and that.
+
+717
+00:22:52,840 --> 00:22:54,560
+But when we ask them, why don't you help
+
+718
+00:22:54,600 --> 00:22:57,040
+out? Why don't you run it? They say no, I'm busy.
+
+719
+00:22:57,800 --> 00:22:57,880
+Of.
+
+720
+00:22:58,160 --> 00:22:58,720
+Course. So
+
+721
+00:22:59,280 --> 00:23:01,440
+I'm really thankful that you are actually
+
+722
+00:23:01,440 --> 00:23:01,960
+doing it.
+
+723
+00:23:02,640 --> 00:23:04,680
+There is a lot of people who are telling me
+
+724
+00:23:04,680 --> 00:23:07,160
+it's not going to work like workshops, it's
+
+725
+00:23:07,160 --> 00:23:08,240
+impossible to do.
+
+726
+00:23:08,280 --> 00:23:10,400
+I mean like workshops, they have to prepare
+
+727
+00:23:10,880 --> 00:23:11,120
+first.
+
+728
+00:23:11,120 --> 00:23:13,120
+You need to find someone who wants to give
+
+729
+00:23:13,120 --> 00:23:14,200
+it like free of charge.
+
+730
+00:23:14,200 --> 00:23:15,160
+It's a lot of work.
+
+731
+00:23:15,160 --> 00:23:15,680
+You need
+
+732
+00:23:16,080 --> 00:23:17,960
+to with a lot of like trial and errors to
+
+733
+00:23:17,960 --> 00:23:19,040
+get, you know, what's the
+
+734
+00:23:19,360 --> 00:23:20,440
+like, how to do it.
+
+735
+00:23:20,440 --> 00:23:21,960
+Like what are the formats that going to
+
+736
+00:23:21,960 --> 00:23:23,440
+work, what's going to work, what's going to
+
+737
+00:23:23,440 --> 00:23:24,960
+work? And but everybody will tell me it's
+
+738
+00:23:24,960 --> 00:23:25,600
+impossible.
+
+739
+00:23:25,600 --> 00:23:26,960
+And especially if you want more like
+
+740
+00:23:26,960 --> 00:23:28,240
+underrepresented groups running in the
+
+741
+00:23:28,240 --> 00:23:29,160
+workshops. No,
+
+742
+00:23:29,440 --> 00:23:30,600
+you know, no way.
+
+743
+00:23:30,600 --> 00:23:31,520
+Like it's not gonna work.
+
+744
+00:23:31,520 --> 00:23:33,840
+But what I learned, you know, the compound
+
+745
+00:23:33,840 --> 00:23:35,040
+effect, that's what works.
+
+746
+00:23:35,040 --> 00:23:38,640
+So if you go in no matter what, and if
+
+747
+00:23:38,640 --> 00:23:41,560
+you're delivering, people start noticing you.
+
+748
+00:23:41,560 --> 00:23:43,760
+People start talking about you.
+
+749
+00:23:43,840 --> 00:23:45,920
+And what is for me is really, really eye
+
+750
+00:23:45,920 --> 00:23:46,680
+opening.
+
+751
+00:23:46,680 --> 00:23:48,960
+Before COVID, all the events were in
+
+752
+00:23:48,960 --> 00:23:49,560
+person.
+
+753
+00:23:49,600 --> 00:23:51,480
+We were not doing recordings because it was
+
+754
+00:23:51,480 --> 00:23:52,520
+too hard to set up.
+
+755
+00:23:52,520 --> 00:23:54,920
+Everything back then was like, oh, no, you
+
+756
+00:23:54,920 --> 00:23:56,280
+know, just you're just doing it.
+
+757
+00:23:56,320 --> 00:23:57,880
+And you constantly was looking for
+
+758
+00:23:57,880 --> 00:23:58,760
+sponsors.
+
+759
+00:23:58,760 --> 00:24:00,400
+Like who's going to pay, you know, who's
+
+760
+00:24:00,400 --> 00:24:02,160
+going to host, who's going to feed
+
+761
+00:24:02,680 --> 00:24:03,040
+us,
+
+762
+00:24:03,680 --> 00:24:05,720
+let's say in our workshop givers and
+
+763
+00:24:05,960 --> 00:24:06,960
+workshop takers.
+
+764
+00:24:07,000 --> 00:24:09,840
+And that was constant like, oh, there was a
+
+765
+00:24:09,840 --> 00:24:10,920
+list of companies.
+
+766
+00:24:10,920 --> 00:24:12,640
+We tried to reach out to the big companies.
+
+767
+00:24:12,640 --> 00:24:14,080
+They say no because they were more
+
+768
+00:24:14,080 --> 00:24:15,840
+interested in like events that's going to
+
+769
+00:24:15,840 --> 00:24:18,520
+attract 150 people versus event that
+
+770
+00:24:18,520 --> 00:24:20,680
+attracts 60 people because we have this 60
+
+771
+00:24:20,680 --> 00:24:22,800
+people Max capacity for in person events.
+
+772
+00:24:22,800 --> 00:24:24,320
+Otherwise for the workshop, it's really
+
+773
+00:24:24,320 --> 00:24:25,080
+hard to handle.
+
+774
+00:24:25,080 --> 00:24:27,000
+If you want to help, if you want to support
+
+775
+00:24:27,000 --> 00:24:28,720
+people, then you know that's not going to
+
+776
+00:24:28,720 --> 00:24:29,040
+happen.
+
+777
+00:24:29,360 --> 00:24:30,280
+Was more than 60.
+
+778
+00:24:30,480 --> 00:24:32,520
+At least that's what we learn and always like.
+
+779
+00:24:32,560 --> 00:24:34,600
+As soon as COVID started, we didn't stop
+
+780
+00:24:34,600 --> 00:24:36,920
+when a lot of communities just closed or
+
+781
+00:24:36,920 --> 00:24:37,680
+shut it down.
+
+782
+00:24:37,680 --> 00:24:39,560
+We just switched online and we start
+
+783
+00:24:39,560 --> 00:24:41,400
+experiencing the beauty of doing things
+
+784
+00:24:41,400 --> 00:24:43,720
+online because that's where we realize, oh,
+
+785
+00:24:43,800 --> 00:24:44,640
+by the way,
+
+786
+00:24:45,080 --> 00:24:47,360
+in case there is no one to host you, you
+
+787
+00:24:47,360 --> 00:24:49,200
+can host yourself online.
+
+788
+00:24:49,280 --> 00:24:51,240
+And then the people are saying, no, online
+
+789
+00:24:51,240 --> 00:24:52,280
+is not gonna work.
+
+790
+00:24:52,280 --> 00:24:54,320
+People not gonna show up for the events.
+
+791
+00:24:54,320 --> 00:24:55,960
+You know, there's, I was like, look, if
+
+792
+00:24:55,960 --> 00:24:58,280
+we're just doing online events, we now have
+
+793
+00:24:58,280 --> 00:24:59,520
+a capability of recording it.
+
+794
+00:24:59,520 --> 00:25:01,560
+So now you're recording it and there's also
+
+795
+00:25:01,560 --> 00:25:02,440
+a video record of it.
+
+796
+00:25:02,480 --> 00:25:04,040
+Although there are still a lot of ads on
+
+797
+00:25:04,040 --> 00:25:04,400
+YouTube.
+
+798
+00:25:04,400 --> 00:25:06,880
+And notice if you add in time stamps, then
+
+799
+00:25:06,880 --> 00:25:09,360
+it slightly decreased the amount of ads
+
+800
+00:25:09,360 --> 00:25:11,320
+that you get because it's also correlated
+
+801
+00:25:11,320 --> 00:25:13,040
+to a lot of factors like do you have like
+
+802
+00:25:13,040 --> 00:25:14,440
+paid ads or whenever we don't,
+
+803
+00:25:14,920 --> 00:25:15,680
+we don't use that.
+
+804
+00:25:15,680 --> 00:25:17,120
+So in this case, we just you just get like
+
+805
+00:25:17,240 --> 00:25:17,960
+general ones.
+
+806
+00:25:18,040 --> 00:25:19,200
+You keep repo open.
+
+807
+00:25:19,240 --> 00:25:20,640
+Of course, some materials could be
+
+808
+00:25:20,640 --> 00:25:21,240
+outdated.
+
+809
+00:25:21,240 --> 00:25:22,880
+So we usually encourage people if you try
+
+810
+00:25:22,880 --> 00:25:24,400
+in our workshop, something doesn't work,
+
+811
+00:25:24,400 --> 00:25:26,400
+please open PR, you know, just do that.
+
+812
+00:25:26,400 --> 00:25:28,040
+So you're going to help yourself and you're
+
+813
+00:25:28,040 --> 00:25:29,360
+going to help others because you know, the
+
+814
+00:25:29,360 --> 00:25:30,840
+methods got deprecated.
+
+815
+00:25:30,960 --> 00:25:32,400
+Other things are going to happen to the
+
+816
+00:25:32,400 --> 00:25:33,040
+materials.
+
+817
+00:25:33,040 --> 00:25:35,760
+For example, we were heavily using called
+
+818
+00:25:35,760 --> 00:25:37,640
+mini-conda in the beginning just for the
+
+819
+00:25:37,640 --> 00:25:38,520
+setup and everything.
+
+820
+00:25:38,520 --> 00:25:41,600
+Then we switch to poetry, then we switch to uv.
+
+821
+00:25:41,680 --> 00:25:43,920
+So like we also like migrating stuff, but
+
+822
+00:25:43,920 --> 00:25:45,520
+we couldn't migrate, migrate everything.
+
+823
+00:25:45,520 --> 00:25:47,840
+But yeah, I think that's was the beauty of it.
+
+824
+00:25:47,960 --> 00:25:49,600
+And then after COVID,
+
+825
+00:25:49,840 --> 00:25:52,520
+like as soon as you can do more stuff, we
+
+826
+00:25:52,520 --> 00:25:54,520
+basically switch to we're not looking
+
+827
+00:25:54,520 --> 00:25:56,400
+specifically for anyone to host our
+
+828
+00:25:56,400 --> 00:25:58,760
+workshops, company usually reaching out to us.
+
+829
+00:25:58,800 --> 00:26:01,840
+If no, no one reaching out to us, then
+
+830
+00:26:01,920 --> 00:26:03,960
+super simple like we just do online.
+
+831
+00:26:04,080 --> 00:26:06,560
+And it also help you to get workshop givers
+
+832
+00:26:06,560 --> 00:26:08,200
+from different countries as well.
+
+833
+00:26:08,200 --> 00:26:10,200
+So that's also the beauty of that.
+
+834
+00:26:10,600 --> 00:26:11,120
+These are all
+
+835
+00:26:11,480 --> 00:26:12,920
+very good advice, yeah.
+
+836
+00:26:13,000 --> 00:26:15,400
+I remember last here at PyData Amsterdam
+
+837
+00:26:15,400 --> 00:26:16,600
+when I was at the booth.
+
+838
+00:26:16,600 --> 00:26:18,080
+So there's a booth for π ladies.
+
+839
+00:26:18,080 --> 00:26:20,600
+And then she's asking every ladies that she
+
+840
+00:26:20,600 --> 00:26:21,000
+talked to.
+
+841
+00:26:21,040 --> 00:26:23,040
+You want to give a workshop? And this, this is.
+
+842
+00:26:23,040 --> 00:26:23,480
+Yeah,
+
+843
+00:26:24,000 --> 00:26:25,800
+this is like stuck in my head.
+
+844
+00:26:26,360 --> 00:26:26,640
+Yeah.
+
+845
+00:26:27,200 --> 00:26:27,280
+I.
+
+846
+00:26:27,400 --> 00:26:28,440
+Think, you know, really good,
+
+847
+00:26:28,840 --> 00:26:29,080
+Yeah.
+
+848
+00:26:29,240 --> 00:26:31,480
+I think what's stuck in my head, last year
+
+849
+00:26:31,480 --> 00:26:34,160
+I was at EuroPython, so it was like it's π
+
+850
+00:26:34,160 --> 00:26:34,800
+ladies booth
+
+851
+00:26:35,040 --> 00:26:39,160
+and I think I had like 4:00 lights in the
+
+852
+00:26:39,160 --> 00:26:40,600
+morning, something like that.
+
+853
+00:26:40,600 --> 00:26:43,120
+So I was not in my best mood.
+
+854
+00:26:43,120 --> 00:26:46,080
+So I came and that was like my analytical
+
+855
+00:26:46,080 --> 00:26:48,160
+me in the full force, which is not really
+
+856
+00:26:48,160 --> 00:26:50,160
+compatible, you know, with human beings
+
+857
+00:26:50,160 --> 00:26:50,640
+around.
+
+858
+00:26:50,640 --> 00:26:53,200
+And I remember that I just a storm to the
+
+859
+00:26:53,200 --> 00:26:55,000
+booth and it's like like we have a PyLadies
+
+860
+00:26:55,000 --> 00:26:55,760
+we're doing this.
+
+861
+00:26:55,760 --> 00:26:56,880
+Oh, and PyLadies Amsterdam is doing
+
+862
+00:26:56,880 --> 00:26:57,480
+workshops and
+
+863
+00:26:58,760 --> 00:27:00,840
+if you're gonna put a counter how much time
+
+864
+00:27:00,840 --> 00:27:03,320
+I mentioned workshops by the anthem EuroPython.
+
+865
+00:27:04,720 --> 00:27:06,280
+I think everyone does. That's
+
+866
+00:27:06,800 --> 00:27:07,560
+crazy
+
+867
+00:27:08,040 --> 00:27:09,800
+lady that's talking about workshops.
+
+868
+00:27:14,320 --> 00:27:14,640
+Oh my God.
+
+869
+00:27:15,520 --> 00:27:17,560
+I think it's really good to hear your
+
+870
+00:27:17,560 --> 00:27:18,520
+experience.
+
+871
+00:27:18,960 --> 00:27:19,200
+As
+
+872
+00:27:19,480 --> 00:27:21,280
+you know, I'm one of the people who
+
+873
+00:27:21,280 --> 00:27:22,960
+administer the chapters
+
+874
+00:27:23,240 --> 00:27:25,560
+for PyLadies is basically whenever someone say
+
+875
+00:27:25,560 --> 00:27:27,800
+I want to start PyLadies, I'm the one
+
+876
+00:27:27,920 --> 00:27:30,600
+giving the initial like access, creating
+
+877
+00:27:30,600 --> 00:27:31,880
+their account and everything.
+
+878
+00:27:31,920 --> 00:27:33,960
+I think there's a lot of people they want
+
+879
+00:27:33,960 --> 00:27:35,840
+to start a group, but they don't know how
+
+880
+00:27:35,840 --> 00:27:38,400
+to or they don't know what it entails.
+
+881
+00:27:38,400 --> 00:27:40,480
+Maybe, you know, some people think I just
+
+882
+00:27:40,560 --> 00:27:43,160
+open a meet up account, but there's a lot of,
+
+883
+00:27:43,600 --> 00:27:45,280
+like you mentioned, like you need to
+
+884
+00:27:45,360 --> 00:27:47,560
+outreach, you need to ask people to come
+
+885
+00:27:47,560 --> 00:27:50,480
+and speak, right, giving workshops and
+
+886
+00:27:50,480 --> 00:27:52,760
+figuring out what's a good format or not.
+
+887
+00:27:52,760 --> 00:27:55,640
+So I think it will be good to share all of
+
+888
+00:27:55,640 --> 00:27:57,960
+this experience with people like. Yeah.
+
+889
+00:27:58,160 --> 00:28:00,920
+You know, if I made to add what's really
+
+890
+00:28:00,920 --> 00:28:04,360
+interesting, my goal is not to create
+
+891
+00:28:04,360 --> 00:28:05,360
+workshop givers.
+
+892
+00:28:05,360 --> 00:28:06,320
+That's not my goal.
+
+893
+00:28:06,360 --> 00:28:10,000
+My goal is to encourage people to trade out,
+
+894
+00:28:10,320 --> 00:28:12,480
+realize whether it's hard, not hard, like
+
+895
+00:28:12,480 --> 00:28:13,040
+it doesn't matter.
+
+896
+00:28:13,040 --> 00:28:15,640
+But then I was constantly asking myself why
+
+897
+00:28:15,640 --> 00:28:17,040
+I'm doing this, you know, what's the
+
+898
+00:28:17,040 --> 00:28:18,960
+purpose of running it for so many years?
+
+899
+00:28:18,960 --> 00:28:20,600
+Why didn't you know? There was like a lot
+
+900
+00:28:20,600 --> 00:28:22,920
+of changes in other like organizers.
+
+901
+00:28:23,000 --> 00:28:25,120
+We also, by the way, we keep our team
+
+902
+00:28:25,120 --> 00:28:25,880
+really, really small.
+
+903
+00:28:25,880 --> 00:28:27,960
+So the biggest amount of people we used to
+
+904
+00:28:27,960 --> 00:28:28,800
+have, it was 3.
+
+905
+00:28:28,800 --> 00:28:30,040
+That was the biggest amount.
+
+906
+00:28:30,040 --> 00:28:31,840
+And now like there are again, two of us
+
+907
+00:28:32,160 --> 00:28:32,680
+so far.
+
+908
+00:28:32,680 --> 00:28:36,000
+So I'm happy to see that our workshop
+
+909
+00:28:36,000 --> 00:28:38,040
+givers now speaking at the conferences.
+
+910
+00:28:38,640 --> 00:28:40,720
+And I think that's for me the best.
+
+911
+00:28:40,720 --> 00:28:43,600
+We, even though they can, for example,
+
+912
+00:28:43,600 --> 00:28:45,600
+speak even for local events, I'm already
+
+913
+00:28:45,600 --> 00:28:46,360
+happy with that.
+
+914
+00:28:46,440 --> 00:28:48,680
+It gives them confidence that they can, it
+
+915
+00:28:48,680 --> 00:28:50,360
+gives them confidence that
+
+916
+00:28:50,760 --> 00:28:51,720
+you can do that.
+
+917
+00:28:51,720 --> 00:28:54,000
+And you know, there is nothing weird about that.
+
+918
+00:28:54,160 --> 00:28:57,120
+And to lure people to do that, I'm usually
+
+919
+00:28:57,120 --> 00:28:58,800
+talking about two options.
+
+920
+00:28:58,800 --> 00:29:00,840
+I'm saying option number one, you're
+
+921
+00:29:00,840 --> 00:29:03,360
+working with some specific Python library,
+
+922
+00:29:03,360 --> 00:29:05,720
+a specific concept you work in every day.
+
+923
+00:29:05,720 --> 00:29:06,240
+For sure.
+
+924
+00:29:06,240 --> 00:29:08,080
+There are a lot, like a lot of tricks up on
+
+925
+00:29:08,080 --> 00:29:09,640
+your sleep sleeps upon your trick, it
+
+926
+00:29:09,640 --> 00:29:10,240
+doesn't matter.
+
+927
+00:29:10,240 --> 00:29:11,120
+Butter with butter.
+
+928
+00:29:11,720 --> 00:29:14,080
+So you probably know something that other
+
+929
+00:29:14,080 --> 00:29:14,720
+people don't.
+
+930
+00:29:15,080 --> 00:29:15,920
+So just share it.
+
+931
+00:29:15,920 --> 00:29:17,440
+Like even though if you're working with
+
+932
+00:29:17,440 --> 00:29:20,400
+pandas, I mean like there are so many
+
+933
+00:29:20,400 --> 00:29:21,400
+things that you can do.
+
+934
+00:29:21,400 --> 00:29:24,280
+Like there are so many like how you handle UTC.
+
+935
+00:29:24,320 --> 00:29:26,040
+I mean, there are a lot of things and
+
+936
+00:29:26,200 --> 00:29:27,560
+people do not realize that.
+
+937
+00:29:27,600 --> 00:29:29,760
+So you're usually saying focus on something
+
+938
+00:29:29,760 --> 00:29:31,360
+that you're doing every day and just share
+
+939
+00:29:31,360 --> 00:29:32,120
+what you can share.
+
+940
+00:29:32,120 --> 00:29:33,920
+Of course, like protecting sensitivity of
+
+941
+00:29:33,920 --> 00:29:35,200
+the data of the task.
+
+942
+00:29:35,200 --> 00:29:36,800
+If it's like intellectual property and
+
+943
+00:29:36,800 --> 00:29:37,960
+everything or your
+
+944
+00:29:38,280 --> 00:29:38,560
+employees
+
+945
+00:29:38,800 --> 00:29:41,600
+doesn't allow you to share something, fine.
+
+946
+00:29:41,640 --> 00:29:44,640
+But from the other side, I'm saying maybe
+
+947
+00:29:44,640 --> 00:29:47,000
+there is something on your bucket list that
+
+948
+00:29:47,000 --> 00:29:49,120
+you never dare to try and you never had
+
+949
+00:29:49,120 --> 00:29:49,840
+time for that.
+
+950
+00:29:49,880 --> 00:29:51,520
+And then if you can tap into that
+
+951
+00:29:51,520 --> 00:29:53,640
+potential, it's like you can try it and
+
+952
+00:29:53,640 --> 00:29:54,960
+then you can run it and then you can
+
+953
+00:29:54,960 --> 00:29:56,040
+upskill people that.
+
+954
+00:29:56,040 --> 00:29:58,280
+And by the way, if you also have some kind
+
+955
+00:29:58,280 --> 00:30:00,400
+of, I don't know, like performance or
+
+956
+00:30:00,400 --> 00:30:03,280
+whatever called stupid plan on your work
+
+957
+00:30:03,280 --> 00:30:04,960
+and you can also add it there.
+
+958
+00:30:04,960 --> 00:30:06,880
+So where basically you will be allowed even
+
+959
+00:30:06,880 --> 00:30:08,560
+to use your working hours for that. So
+
+960
+00:30:08,880 --> 00:30:11,280
+it's like we win situation for everyone and
+
+961
+00:30:11,280 --> 00:30:12,800
+somehow it worked so far.
+
+962
+00:30:13,960 --> 00:30:17,560
+It definitely have been helpful for me as well.
+
+963
+00:30:17,560 --> 00:30:18,880
+And I I totally agree.
+
+964
+00:30:18,880 --> 00:30:20,880
+Like even in the beginning, I just
+
+965
+00:30:21,120 --> 00:30:23,400
+I didn't think public speaking is something
+
+966
+00:30:23,480 --> 00:30:24,680
+I could ever do.
+
+967
+00:30:24,800 --> 00:30:27,160
+At least when I first came to one of my
+
+968
+00:30:27,240 --> 00:30:29,320
+earlier tech conference, one of my first
+
+969
+00:30:29,320 --> 00:30:31,320
+PyCon like I was really impressed to see a
+
+970
+00:30:31,320 --> 00:30:32,680
+lot of women speaking.
+
+971
+00:30:32,760 --> 00:30:35,160
+Before that, another conference I've been
+
+972
+00:30:35,160 --> 00:30:36,720
+to, it was very commercial.
+
+973
+00:30:36,760 --> 00:30:38,160
+The speakers are all
+
+974
+00:30:38,640 --> 00:30:41,680
+CEO or CTO's or something very high up.
+
+975
+00:30:41,760 --> 00:30:44,960
+I don't see normal people like me speaking
+
+976
+00:30:44,960 --> 00:30:46,280
+on stage. So I
+
+977
+00:30:46,520 --> 00:30:49,800
+I just thought that you must be a professor
+
+978
+00:30:49,800 --> 00:30:53,880
+or CEO to speak at conferences.
+
+979
+00:30:54,160 --> 00:30:57,200
+But it's not, at least not in the Python
+
+980
+00:30:57,200 --> 00:30:59,280
+committee and definitely not in the PyLadies
+
+981
+00:30:59,280 --> 00:31:00,160
+community.
+
+982
+00:31:00,320 --> 00:31:03,120
+So I do feel it is the purpose of this
+
+983
+00:31:03,120 --> 00:31:05,520
+community to provide that space and you
+
+984
+00:31:05,520 --> 00:31:06,440
+should take it.
+
+985
+00:31:06,440 --> 00:31:06,600
+Yeah.
+
+986
+00:31:06,840 --> 00:31:08,280
+And, and I think you just like, you know,
+
+987
+00:31:08,280 --> 00:31:10,520
+give away my secrets, just like that's my
+
+988
+00:31:10,520 --> 00:31:11,720
+motivation of,
+
+989
+00:31:12,120 --> 00:31:14,480
+you know, I love giving workshop because
+
+990
+00:31:14,520 --> 00:31:16,680
+like I get it as an opportunity to really
+
+991
+00:31:16,680 --> 00:31:18,840
+like strengthen what I already know or
+
+992
+00:31:18,840 --> 00:31:20,520
+maybe I know a little bit, but I want to
+
+993
+00:31:20,520 --> 00:31:22,760
+know more than after I learned it then
+
+994
+00:31:22,760 --> 00:31:24,880
+because I know how to explain it to other
+
+995
+00:31:24,880 --> 00:31:25,280
+people.
+
+996
+00:31:25,280 --> 00:31:25,880
+So it's like,
+
+997
+00:31:26,160 --> 00:31:27,720
+you know, I think it's a very good like
+
+998
+00:31:27,720 --> 00:31:29,920
+learning opportunity for whoever is like
+
+999
+00:31:29,920 --> 00:31:31,320
+giving the workshop as well. Yeah.
+
+1000
+00:31:31,400 --> 00:31:31,680
+Yeah.
+
+1001
+00:31:31,920 --> 00:31:33,560
+And it's not only this.
+
+1002
+00:31:33,560 --> 00:31:35,240
+I think what for me is really, really
+
+1003
+00:31:35,240 --> 00:31:35,920
+important.
+
+1004
+00:31:36,080 --> 00:31:39,120
+I want to recreate your current working
+
+1005
+00:31:39,120 --> 00:31:41,040
+situation in the room.
+
+1006
+00:31:41,040 --> 00:31:43,040
+So what do you mean by that? Like at least
+
+1007
+00:31:43,040 --> 00:31:44,840
+like our chapter, that was our decision
+
+1008
+00:31:44,840 --> 00:31:47,560
+that we allowing anyone doesn't matter.
+
+1009
+00:31:47,560 --> 00:31:49,640
+Like whatever, you know, the society, like
+
+1010
+00:31:49,640 --> 00:31:51,040
+put what type of labels on them.
+
+1011
+00:31:51,040 --> 00:31:52,880
+So basically, if you're interested in if
+
+1012
+00:31:52,880 --> 00:31:54,040
+you're working with Python and you're
+
+1013
+00:31:54,040 --> 00:31:56,240
+interested in this particular topic, join us.
+
+1014
+00:31:56,240 --> 00:31:57,280
+If not, no, you know,
+
+1015
+00:31:57,600 --> 00:31:58,240
+really simple.
+
+1016
+00:31:58,240 --> 00:32:00,480
+But the workshops would be given.
+
+1017
+00:32:00,480 --> 00:32:02,880
+So we have at least 12 workshops per year.
+
+1018
+00:32:02,880 --> 00:32:05,760
+So at least 11 workshops would be given
+
+1019
+00:32:05,760 --> 00:32:08,480
+predominantly by females or transgenders.
+
+1020
+00:32:08,880 --> 00:32:11,000
+Are there different options that exist
+
+1021
+00:32:11,000 --> 00:32:12,520
+nowadays? Let's put it this way.
+
+1022
+00:32:12,520 --> 00:32:14,600
+So like, that's the power.
+
+1023
+00:32:14,680 --> 00:32:17,360
+And it's really funny to see people when
+
+1024
+00:32:17,360 --> 00:32:18,840
+you're talking to them and they were like,
+
+1025
+00:32:18,840 --> 00:32:20,000
+oh, you know, I can give workshop.
+
+1026
+00:32:20,000 --> 00:32:21,920
+I was like, yes, I do agree you can give a
+
+1027
+00:32:21,920 --> 00:32:22,320
+workshop.
+
+1028
+00:32:22,320 --> 00:32:24,360
+We have only one slot for you per year.
+
+1029
+00:32:24,600 --> 00:32:26,320
+Otherwise, if you don't do any big
+
+1030
+00:32:26,320 --> 00:32:28,600
+contributions to the community, you
+
+1031
+00:32:28,600 --> 00:32:30,200
+wouldn't be given this slot.
+
+1032
+00:32:30,200 --> 00:32:32,360
+So which means you need to pair up with
+
+1033
+00:32:32,360 --> 00:32:35,200
+your female or other colleagues and let's
+
+1034
+00:32:35,200 --> 00:32:36,480
+them run the workshop.
+
+1035
+00:32:36,520 --> 00:32:38,560
+Oh, we don't have senior women, OK,
+
+1036
+00:32:39,200 --> 00:32:41,600
+even as junior women give her space to to
+
+1037
+00:32:41,600 --> 00:32:43,440
+run a workshop and just be there.
+
+1038
+00:32:43,480 --> 00:32:46,640
+Not as somebody who stand in front of her.
+
+1039
+00:32:46,640 --> 00:32:47,960
+No, as her shadow.
+
+1040
+00:32:47,960 --> 00:32:48,760
+Like, tried it.
+
+1041
+00:32:48,840 --> 00:32:51,560
+And I think for me, the funniest part was
+
+1042
+00:32:51,560 --> 00:32:54,120
+to see in our first workshops where in the
+
+1043
+00:32:54,120 --> 00:32:56,720
+room were only like, two or three guys and
+
+1044
+00:32:56,720 --> 00:32:59,280
+one of them, you know, walked toward me.
+
+1045
+00:32:59,280 --> 00:33:01,080
+It's like, now I do understand.
+
+1046
+00:33:01,240 --> 00:33:03,360
+How does it feel now? I don't understand.
+
+1047
+00:33:03,360 --> 00:33:05,680
+I've never, ever been in room with such a
+
+1048
+00:33:05,680 --> 00:33:07,840
+big amount of, like, female engineers.
+
+1049
+00:33:07,840 --> 00:33:10,480
+So what I meant by saying before that I
+
+1050
+00:33:10,480 --> 00:33:11,760
+want to recreate
+
+1051
+00:33:12,000 --> 00:33:13,560
+what you're going to see in the workplace.
+
+1052
+00:33:13,560 --> 00:33:15,480
+That's why we are open for everyone.
+
+1053
+00:33:15,480 --> 00:33:17,480
+So usually if you look at our workshops,
+
+1054
+00:33:17,480 --> 00:33:18,640
+it's really mixed.
+
+1055
+00:33:18,640 --> 00:33:19,560
+It's always mixed.
+
+1056
+00:33:19,560 --> 00:33:21,640
+So the guys there is like the females and
+
+1057
+00:33:21,640 --> 00:33:23,720
+other and I really enjoy it because what I
+
+1058
+00:33:23,720 --> 00:33:26,000
+didn't liked for with a lot of female
+
+1059
+00:33:26,000 --> 00:33:28,040
+communities, they keep you in a bubble,
+
+1060
+00:33:28,080 --> 00:33:29,200
+they keep you in a bubble.
+
+1061
+00:33:29,200 --> 00:33:31,920
+Sisterhood supports everything, but it's
+
+1062
+00:33:31,920 --> 00:33:33,360
+not real life.
+
+1063
+00:33:33,400 --> 00:33:35,560
+I just want to prep you for the real life.
+
+1064
+00:33:35,560 --> 00:33:37,520
+Yes, it would be not easy, but at least you
+
+1065
+00:33:37,520 --> 00:33:39,480
+know how to find your sponsors, you know
+
+1066
+00:33:39,480 --> 00:33:42,040
+how to find your allies, you know, like how
+
+1067
+00:33:42,040 --> 00:33:44,080
+to build your career up, how to manage up
+
+1068
+00:33:44,080 --> 00:33:46,120
+people if you're gonna work with different
+
+1069
+00:33:46,120 --> 00:33:46,520
+people.
+
+1070
+00:33:46,560 --> 00:33:49,160
+And I had some experience like with the
+
+1071
+00:33:49,240 --> 00:33:51,760
+pure female communities, which I really
+
+1072
+00:33:51,760 --> 00:33:52,760
+didn't like.
+
+1073
+00:33:52,800 --> 00:33:54,360
+And that's the reason why I said I'm
+
+1074
+00:33:54,360 --> 00:33:56,720
+creating an inclusive community with some,
+
+1075
+00:33:56,800 --> 00:33:58,800
+you know, with some they'd say remarks.
+
+1076
+00:33:58,920 --> 00:34:00,240
+With some adjustments.
+
+1077
+00:34:00,760 --> 00:34:01,120
+Yes,
+
+1078
+00:34:01,360 --> 00:34:02,120
+yes, yes.
+
+1079
+00:34:02,160 --> 00:34:04,680
+I still think that I do agree with you, but
+
+1080
+00:34:04,680 --> 00:34:06,720
+I think that, you know, there are different
+
+1081
+00:34:06,720 --> 00:34:08,240
+purpose of this kind of
+
+1082
+00:34:09,040 --> 00:34:10,040
+kind of focus group.
+
+1083
+00:34:10,080 --> 00:34:11,440
+I think one of them is
+
+1084
+00:34:11,760 --> 00:34:13,280
+like what you said, I think it's beautiful,
+
+1085
+00:34:13,280 --> 00:34:15,560
+but I think if someone want to have a more
+
+1086
+00:34:15,560 --> 00:34:17,320
+kind of, you know, support network, that's
+
+1087
+00:34:17,320 --> 00:34:18,120
+also OK too.
+
+1088
+00:34:18,120 --> 00:34:20,120
+But remember like maybe you should form
+
+1089
+00:34:20,120 --> 00:34:22,440
+this group to join the majority group so
+
+1090
+00:34:22,440 --> 00:34:23,760
+you can integrate as well.
+
+1091
+00:34:23,840 --> 00:34:26,800
+I think the only part which we usually do
+
+1092
+00:34:26,800 --> 00:34:27,600
+not cover.
+
+1093
+00:34:27,600 --> 00:34:30,120
+So we usually do not cover something for
+
+1094
+00:34:30,120 --> 00:34:31,120
+complete beginners.
+
+1095
+00:34:31,240 --> 00:34:33,840
+We did some events in the past, but then we
+
+1096
+00:34:33,840 --> 00:34:36,280
+switch fully to more, let's say mature folks.
+
+1097
+00:34:36,280 --> 00:34:37,800
+So in this case, if they are complete
+
+1098
+00:34:37,800 --> 00:34:38,440
+beginner, we
+
+1099
+00:34:38,720 --> 00:34:39,240
+sends
+
+1100
+00:34:39,480 --> 00:34:40,160
+folks to the
+
+1101
+00:34:40,520 --> 00:34:42,440
+other communities that exist that are more
+
+1102
+00:34:42,440 --> 00:34:44,480
+and more, let's say better suitable for
+
+1103
+00:34:44,480 --> 00:34:45,280
+complete beginners.
+
+1104
+00:34:45,280 --> 00:34:46,680
+If you just start working, for example,
+
+1105
+00:34:46,680 --> 00:34:48,440
+with any programming languages, Python is
+
+1106
+00:34:48,440 --> 00:34:50,320
+your first or if you switch it from another
+
+1107
+00:34:50,320 --> 00:34:51,040
+one to Python
+
+1108
+00:34:51,400 --> 00:34:52,160
+or vice versa.
+
+1109
+00:34:52,280 --> 00:34:55,120
+So in this case we do redirect them to
+
+1110
+00:34:55,240 --> 00:34:56,680
+other places where they can find
+
+1111
+00:34:56,680 --> 00:34:58,560
+information because like for beginners
+
+1112
+00:34:58,560 --> 00:34:59,120
+there is a lot of.
+
+1113
+00:34:59,120 --> 00:35:01,360
+Things you can send people to us humble
+
+1114
+00:35:01,360 --> 00:35:04,080
+data because we are absolute beginner focus.
+
+1115
+00:35:04,200 --> 00:35:04,840
+We do.
+
+1116
+00:35:05,240 --> 00:35:06,840
+We also going to do this for Pydata
+
+1117
+00:35:06,840 --> 00:35:08,560
+Amsterdam by the way, this year.
+
+1118
+00:35:09,640 --> 00:35:10,680
+Yeah, nice. So.
+
+1119
+00:35:10,680 --> 00:35:12,600
+This is going to happen as well, yes, but
+
+1120
+00:35:12,600 --> 00:35:13,480
+that's our focus.
+
+1121
+00:35:13,520 --> 00:35:14,600
+I usually say it's like, you know,
+
+1122
+00:35:14,600 --> 00:35:16,600
+community by practitioners for
+
+1123
+00:35:16,600 --> 00:35:18,560
+practitioners or for practitioners by
+
+1124
+00:35:18,560 --> 00:35:19,200
+practitioners.
+
+1125
+00:35:19,200 --> 00:35:19,720
+I think that's good.
+
+1126
+00:35:19,720 --> 00:35:21,240
+I think that's good that you found what
+
+1127
+00:35:21,240 --> 00:35:23,800
+kind of status that meet up is like, what
+
+1128
+00:35:23,800 --> 00:35:26,560
+purpose it is, what benefit it can give to
+
+1129
+00:35:26,560 --> 00:35:27,280
+the members.
+
+1130
+00:35:27,280 --> 00:35:28,280
+I think it's beautiful.
+
+1131
+00:35:28,280 --> 00:35:30,840
+No, I think that's actually important for
+
+1132
+00:35:30,840 --> 00:35:33,600
+you to define what you want out of your
+
+1133
+00:35:33,600 --> 00:35:34,240
+community.
+
+1134
+00:35:34,240 --> 00:35:36,360
+Like you can't just be doing everything
+
+1135
+00:35:36,360 --> 00:35:37,840
+just for the sake of doing it.
+
+1136
+00:35:37,840 --> 00:35:39,360
+You need to have a efficient
+
+1137
+00:35:39,720 --> 00:35:40,680
+priorities.
+
+1138
+00:35:40,920 --> 00:35:41,160
+Yeah.
+
+1139
+00:35:41,160 --> 00:35:42,640
+Do you have anything that you really want
+
+1140
+00:35:42,640 --> 00:35:44,480
+to talk about that we didn't cover? We can
+
+1141
+00:35:44,480 --> 00:35:44,920
+do that.
+
+1142
+00:35:45,000 --> 00:35:47,200
+I think yes, one topic that I really want
+
+1143
+00:35:47,200 --> 00:35:48,560
+to touch upon, there's like the
+
+1144
+00:35:48,560 --> 00:35:49,240
+recruitments.
+
+1145
+00:35:49,240 --> 00:35:50,960
+I just want to add something involved.
+
+1146
+00:35:51,000 --> 00:35:51,680
+OK, please. Yeah,
+
+1147
+00:35:52,400 --> 00:35:54,120
+the first, first thing first, like I
+
+1148
+00:35:54,120 --> 00:35:56,760
+finally got I I signed an offer today, so
+
+1149
+00:35:56,760 --> 00:35:57,800
+that's finally.
+
+1150
+00:35:58,160 --> 00:35:59,960
+Oh, congratulations journey.
+
+1151
+00:36:00,440 --> 00:36:02,160
+Yeah, that was a long, a long, a long, long
+
+1152
+00:36:02,200 --> 00:36:03,800
+journey. Yeah. So.
+
+1153
+00:36:03,800 --> 00:36:04,560
+That's about it, yeah.
+
+1154
+00:36:04,720 --> 00:36:06,960
+One thing that I want to point out and
+
+1155
+00:36:06,960 --> 00:36:08,880
+that's where things gets really, really
+
+1156
+00:36:08,880 --> 00:36:13,240
+weird is when you're looking for a very top
+
+1157
+00:36:13,240 --> 00:36:16,400
+level positions and that's where the rubber
+
+1158
+00:36:16,400 --> 00:36:17,240
+hits the ground.
+
+1159
+00:36:17,480 --> 00:36:20,640
+So before that I was privileged not to,
+
+1160
+00:36:20,720 --> 00:36:22,000
+let's say looking for a job.
+
+1161
+00:36:22,000 --> 00:36:23,680
+The jobs were looking for me.
+
+1162
+00:36:23,680 --> 00:36:25,680
+So I was usually, you know, they were that,
+
+1163
+00:36:25,800 --> 00:36:27,320
+yeah, it doesn't matter like what I was
+
+1164
+00:36:27,320 --> 00:36:28,960
+doing whether it was my company or not my
+
+1165
+00:36:28,960 --> 00:36:31,640
+company somehow I like organize space
+
+1166
+00:36:31,640 --> 00:36:33,400
+around me in such a way that people start
+
+1167
+00:36:33,400 --> 00:36:33,840
+reaching out.
+
+1168
+00:36:33,840 --> 00:36:36,720
+So that was my reality for I would say the
+
+1169
+00:36:36,720 --> 00:36:37,640
+last 20 years.
+
+1170
+00:36:37,640 --> 00:36:40,320
+So I again, I was privileged to, you know,
+
+1171
+00:36:40,320 --> 00:36:41,200
+to, to build that.
+
+1172
+00:36:41,280 --> 00:36:42,720
+And when people are saying, oh, you know,
+
+1173
+00:36:42,720 --> 00:36:44,680
+now around the layoffs and everything, I
+
+1174
+00:36:44,680 --> 00:36:47,400
+was like, thankfully never hit by layoff.
+
+1175
+00:36:47,560 --> 00:36:49,720
+I have never experienced it because I was
+
+1176
+00:36:49,760 --> 00:36:52,200
+always feeling that something is going on.
+
+1177
+00:36:52,200 --> 00:36:54,640
+So I was usually switching gears before the
+
+1178
+00:36:54,640 --> 00:36:55,680
+layoffs were happening.
+
+1179
+00:36:55,680 --> 00:36:57,600
+Just say that's just like my I don't know what.
+
+1180
+00:36:57,600 --> 00:36:59,520
+Call it sex sense or stupid sense.
+
+1181
+00:36:59,760 --> 00:37:00,400
+Instinct.
+
+1182
+00:37:00,880 --> 00:37:01,160
+Yeah,
+
+1183
+00:37:01,640 --> 00:37:03,960
+so I had some personal changes.
+
+1184
+00:37:04,240 --> 00:37:06,000
+That's the reason behind like the selling
+
+1185
+00:37:06,440 --> 00:37:08,520
+house and everything. And
+
+1186
+00:37:09,200 --> 00:37:10,000
+apparently
+
+1187
+00:37:10,480 --> 00:37:12,640
+I was working for myself and I went to chat
+
+1188
+00:37:12,640 --> 00:37:13,440
+with my bank.
+
+1189
+00:37:13,440 --> 00:37:16,120
+So I will need the mortgage for like parts
+
+1190
+00:37:16,120 --> 00:37:16,720
+of the sum.
+
+1191
+00:37:16,760 --> 00:37:19,040
+So like can I get it and whatever like or
+
+1192
+00:37:19,040 --> 00:37:20,800
+can I move the mortgage that I have in the
+
+1193
+00:37:20,800 --> 00:37:23,040
+house to that? Like it's, they call it like
+
+1194
+00:37:23,040 --> 00:37:25,160
+over brewing, which means like over
+
+1195
+00:37:25,160 --> 00:37:26,760
+bridging, which I really like.
+
+1196
+00:37:27,000 --> 00:37:29,240
+Like the whole term basically idea was if
+
+1197
+00:37:29,240 --> 00:37:30,360
+you're working, if you're working for
+
+1198
+00:37:30,360 --> 00:37:32,640
+yourself in the Netherlands is possible,
+
+1199
+00:37:32,640 --> 00:37:34,280
+but you would not be given a mortgage
+
+1200
+00:37:34,280 --> 00:37:36,600
+unless you have three years of operations.
+
+1201
+00:37:36,720 --> 00:37:38,840
+And with my company, latest company, only
+
+1202
+00:37:38,840 --> 00:37:41,000
+one year of operations, which means that I
+
+1203
+00:37:41,000 --> 00:37:42,840
+need to return to the workforce.
+
+1204
+00:37:43,080 --> 00:37:44,760
+So basically I need to get to work for
+
+1205
+00:37:44,760 --> 00:37:46,920
+someone else because like if you want to
+
+1206
+00:37:46,920 --> 00:37:48,560
+get a mortgage, if I want to leave And the
+
+1207
+00:37:48,560 --> 00:37:50,840
+reason like why I'm given when want to take
+
+1208
+00:37:50,840 --> 00:37:52,320
+a mortgage, why just not to rent.
+
+1209
+00:37:52,400 --> 00:37:55,480
+The prices of taking a mortgage is 2 times
+
+1210
+00:37:55,480 --> 00:37:57,200
+lower versus renting.
+
+1211
+00:37:57,200 --> 00:37:59,800
+And that's the difference and the market is crazy.
+
+1212
+00:37:59,840 --> 00:38:02,200
+Of course I can go to smaller village,
+
+1213
+00:38:02,200 --> 00:38:03,160
+leave Amsterdam.
+
+1214
+00:38:03,160 --> 00:38:04,120
+It's always the case.
+
+1215
+00:38:04,120 --> 00:38:06,000
+The problem is in the smaller village,
+
+1216
+00:38:06,000 --> 00:38:08,680
+there would be the same price, but you I
+
+1217
+00:38:08,680 --> 00:38:09,680
+get more square meters.
+
+1218
+00:38:09,720 --> 00:38:10,920
+I don't need more square meters.
+
+1219
+00:38:11,120 --> 00:38:11,640
+That's the thing.
+
+1220
+00:38:11,640 --> 00:38:13,560
+So getting back, sorry, staying on track.
+
+1221
+00:38:13,640 --> 00:38:15,760
+I have to find a job basically like I have
+
+1222
+00:38:15,760 --> 00:38:16,800
+to work for someone else.
+
+1223
+00:38:16,800 --> 00:38:18,560
+I have to get a permanent contract or like
+
+1224
+00:38:18,560 --> 00:38:20,880
+a temporary contract with some things next
+
+1225
+00:38:20,880 --> 00:38:22,640
+to it to get a mortgage or to extend my
+
+1226
+00:38:22,640 --> 00:38:23,160
+mortgage.
+
+1227
+00:38:23,560 --> 00:38:25,040
+So I started my search.
+
+1228
+00:38:25,040 --> 00:38:26,360
+It was in May.
+
+1229
+00:38:26,400 --> 00:38:27,480
+I started my search in May.
+
+1230
+00:38:27,480 --> 00:38:29,480
+So I was really, you know, like I'm OK,
+
+1231
+00:38:29,480 --> 00:38:30,760
+I'm, I'm going to read descriptions.
+
+1232
+00:38:30,760 --> 00:38:31,720
+We're going to see what's there.
+
+1233
+00:38:31,720 --> 00:38:33,640
+So the positions I was heading for were
+
+1234
+00:38:33,640 --> 00:38:35,400
+like head of director of artificial
+
+1235
+00:38:35,400 --> 00:38:36,000
+intelligence.
+
+1236
+00:38:36,240 --> 00:38:38,480
+So I was applying for different companies. So I
+
+1237
+00:38:38,760 --> 00:38:39,560
+like choose three.
+
+1238
+00:38:39,560 --> 00:38:41,440
+I was really, you know, like picking out
+
+1239
+00:38:41,440 --> 00:38:43,000
+what I where I want to apply.
+
+1240
+00:38:43,000 --> 00:38:45,680
+I, I applied there and guess what, nothing
+
+1241
+00:38:45,800 --> 00:38:46,880
+like completely nothing.
+
+1242
+00:38:46,880 --> 00:38:47,440
+I was like, hmm,
+
+1243
+00:38:47,720 --> 00:38:50,440
+OK, maybe, you know, if we assume that a
+
+1244
+00:38:50,440 --> 00:38:53,040
+lot of recruiters and the enterprises using
+
+1245
+00:38:53,280 --> 00:38:56,520
+AI tools now, then let's use AI again to,
+
+1246
+00:38:56,520 --> 00:38:57,360
+to, to apply.
+
+1247
+00:38:57,360 --> 00:39:00,640
+So I generated a batch of things tailored
+
+1248
+00:39:00,640 --> 00:39:02,800
+periche use case, whatever, I send it
+
+1249
+00:39:02,840 --> 00:39:03,560
+nothing.
+
+1250
+00:39:03,680 --> 00:39:05,720
+And I was like, what I'm doing wrong? I'm
+
+1251
+00:39:05,720 --> 00:39:07,440
+already like, there are two weeks in the
+
+1252
+00:39:07,440 --> 00:39:10,080
+process and now thing comes out like how
+
+1253
+00:39:10,080 --> 00:39:10,920
+it's even possible.
+
+1254
+00:39:10,920 --> 00:39:12,840
+And then one smart person told me, you
+
+1255
+00:39:12,840 --> 00:39:15,880
+know, just take a batch and do batch a
+
+1256
+00:39:15,880 --> 00:39:17,000
+plane literally.
+
+1257
+00:39:17,040 --> 00:39:19,000
+Of course you can go, we are like false,
+
+1258
+00:39:19,000 --> 00:39:21,640
+you know, who can refer you and blah, blah, blah.
+
+1259
+00:39:21,640 --> 00:39:24,480
+But do batch because in case start like
+
+1260
+00:39:24,680 --> 00:39:26,800
+treat it as a funnel and then, you know, as
+
+1261
+00:39:26,800 --> 00:39:28,240
+you go, go, go pick up.
+
+1262
+00:39:28,240 --> 00:39:29,640
+And I was like, yeah, but it's not what I
+
+1263
+00:39:29,640 --> 00:39:30,120
+wanted.
+
+1264
+00:39:30,120 --> 00:39:31,760
+That's not what I want to do Just go.
+
+1265
+00:39:31,760 --> 00:39:33,880
+So I created one batch dictated the
+
+1266
+00:39:33,880 --> 00:39:35,560
+position of this like director, head of
+
+1267
+00:39:35,560 --> 00:39:37,400
+artificial intelligence, and I created the
+
+1268
+00:39:37,400 --> 00:39:38,480
+second batch for
+
+1269
+00:39:38,720 --> 00:39:41,120
+staff engineer or yeah, staff an engineer
+
+1270
+00:39:41,120 --> 00:39:42,800
+or principal engineer or something like that.
+
+1271
+00:39:42,840 --> 00:39:43,720
+And I start applying.
+
+1272
+00:39:43,720 --> 00:39:45,360
+So here start distraction.
+
+1273
+00:39:45,440 --> 00:39:47,800
+And the finest part was the first screening calls.
+
+1274
+00:39:47,800 --> 00:39:49,480
+The screen calls were like the first
+
+1275
+00:39:49,480 --> 00:39:51,240
+question in the Netherlands is what's your
+
+1276
+00:39:51,240 --> 00:39:53,560
+salary expectations? They usually said like
+
+1277
+00:39:53,560 --> 00:39:55,800
+put your salary expectations in the form,
+
+1278
+00:39:55,840 --> 00:39:57,160
+even in the recruitment form.
+
+1279
+00:39:57,160 --> 00:39:58,680
+That's where I were testing their
+
+1280
+00:39:58,920 --> 00:40:00,400
+front end and back end
+
+1281
+00:40:00,760 --> 00:40:03,840
+by putting minus 100, 5.
+
+1282
+00:40:03,840 --> 00:40:04,160
+You know,
+
+1283
+00:40:05,240 --> 00:40:06,040
+like everything.
+
+1284
+00:40:07,520 --> 00:40:08,000
+Like let's,
+
+1285
+00:40:08,280 --> 00:40:08,560
+let's.
+
+1286
+00:40:09,160 --> 00:40:10,080
+Let's try how it works.
+
+1287
+00:40:10,880 --> 00:40:14,040
+So the funniest part is I'm usually try to
+
+1288
+00:40:14,040 --> 00:40:16,440
+jump in front of this question from
+
+1289
+00:40:16,440 --> 00:40:18,440
+recruiter because usually the first was
+
+1290
+00:40:18,440 --> 00:40:20,720
+this question gets the better question in
+
+1291
+00:40:20,720 --> 00:40:22,400
+position at least at the Dutch market.
+
+1292
+00:40:22,400 --> 00:40:23,840
+Let's put in this way, although it was
+
+1293
+00:40:23,840 --> 00:40:25,800
+applying for a lot of EMEA remote
+
+1294
+00:40:25,800 --> 00:40:26,320
+positions.
+
+1295
+00:40:26,320 --> 00:40:27,440
+So I was like, OK,
+
+1296
+00:40:27,760 --> 00:40:28,400
+let's do that.
+
+1297
+00:40:28,760 --> 00:40:30,680
+And I usually starting OK, So what is the
+
+1298
+00:40:30,680 --> 00:40:33,040
+expected salary range like I'm asking
+
+1299
+00:40:33,040 --> 00:40:34,640
+specifically for range because it gives
+
+1300
+00:40:34,640 --> 00:40:36,520
+them freedom, you know, to go from where
+
+1301
+00:40:36,520 --> 00:40:38,040
+and just to show me the boundaries.
+
+1302
+00:40:38,040 --> 00:40:40,240
+So then we can discuss later like how it's
+
+1303
+00:40:40,240 --> 00:40:40,720
+gonna work.
+
+1304
+00:40:40,720 --> 00:40:42,720
+The funniest part is there was a lot of
+
+1305
+00:40:43,280 --> 00:40:45,840
+really top level positions with salary
+
+1306
+00:40:45,840 --> 00:40:48,160
+which were below like even like senior
+
+1307
+00:40:48,160 --> 00:40:49,240
+engineer positions.
+
+1308
+00:40:49,240 --> 00:40:51,400
+And I was like, I'm sorry, like with this
+
+1309
+00:40:51,400 --> 00:40:54,320
+responsibility, like why? And then
+
+1310
+00:40:54,600 --> 00:40:56,400
+you get really weird questions.
+
+1311
+00:40:56,400 --> 00:40:58,320
+There's like, why do you need so much money?
+
+1312
+00:41:01,160 --> 00:41:01,800
+Why not?
+
+1313
+00:41:02,760 --> 00:41:04,440
+I I would, I would try to answer the
+
+1314
+00:41:04,440 --> 00:41:04,840
+question.
+
+1315
+00:41:04,840 --> 00:41:06,800
+It's like I want to donate to the Python
+
+1316
+00:41:06,840 --> 00:41:07,720
+community.
+
+1317
+00:41:07,960 --> 00:41:08,880
+That's why I need money.
+
+1318
+00:41:08,880 --> 00:41:09,320
+Come on.
+
+1319
+00:41:09,320 --> 00:41:10,120
+Like, yes,
+
+1320
+00:41:11,160 --> 00:41:12,880
+maybe, maybe that's a good question.
+
+1321
+00:41:12,880 --> 00:41:13,720
+Like good answer.
+
+1322
+00:41:13,720 --> 00:41:14,040
+I don't know.
+
+1323
+00:41:14,240 --> 00:41:14,880
+Like that's
+
+1324
+00:41:15,160 --> 00:41:17,760
+that's the reason people work to get money,
+
+1325
+00:41:19,440 --> 00:41:19,800
+Jesus and.
+
+1326
+00:41:20,760 --> 00:41:21,320
+I was like,
+
+1327
+00:41:21,920 --> 00:41:22,600
+oh, you know,
+
+1328
+00:41:22,880 --> 00:41:24,440
+you know, And it's like you're working free
+
+1329
+00:41:24,440 --> 00:41:25,200
+of charge.
+
+1330
+00:41:25,240 --> 00:41:26,360
+It's like, no, it's like,
+
+1331
+00:41:26,840 --> 00:41:27,320
+strange.
+
+1332
+00:41:27,320 --> 00:41:28,360
+Why I shouldn't work?
+
+1333
+00:41:28,960 --> 00:41:29,360
+Yeah.
+
+1334
+00:41:29,640 --> 00:41:31,080
+Yeah, they pay you by Bitcoin, No.
+
+1335
+00:41:31,720 --> 00:41:33,600
+By beautiful eyes,
+
+1336
+00:41:35,320 --> 00:41:36,160
+Yeah. Yeah.
+
+1337
+00:41:36,160 --> 00:41:38,360
+So like, but to cut the monster short, I
+
+1338
+00:41:38,360 --> 00:41:40,720
+ended up like the end of the final was for
+
+1339
+00:41:40,720 --> 00:41:41,400
+companies.
+
+1340
+00:41:41,400 --> 00:41:43,120
+And then I did another twist.
+
+1341
+00:41:43,120 --> 00:41:44,640
+When I was in the process of these
+
+1342
+00:41:44,640 --> 00:41:46,880
+companies, I was telling them directly that
+
+1343
+00:41:46,880 --> 00:41:47,760
+you are not the only one.
+
+1344
+00:41:47,760 --> 00:41:50,280
+So, you know, we can play see the game and
+
+1345
+00:41:50,280 --> 00:41:51,840
+said, yes, of course, you're the only one
+
+1346
+00:41:51,920 --> 00:41:55,080
+company I ever ever dreamed to work for. Sure.
+
+1347
+00:41:55,120 --> 00:41:55,760
+Fine. Right.
+
+1348
+00:41:55,760 --> 00:41:57,880
+So I was telling them and it's really
+
+1349
+00:41:57,880 --> 00:41:59,320
+interesting to see the reaction.
+
+1350
+00:41:59,320 --> 00:42:00,280
+Some of them were like,
+
+1351
+00:42:01,000 --> 00:42:03,080
+you know, it's not good that you're saying that.
+
+1352
+00:42:03,080 --> 00:42:04,320
+I was like, yeah, I know it's not good.
+
+1353
+00:42:04,320 --> 00:42:06,080
+But because we are on the final stages, I
+
+1354
+00:42:06,080 --> 00:42:06,840
+want to be clear.
+
+1355
+00:42:07,000 --> 00:42:08,800
+That's like I expected
+
+1356
+00:42:09,040 --> 00:42:10,680
+offers coming in and I'm gonna
+
+1357
+00:42:10,920 --> 00:42:11,800
+surprise, surprise.
+
+1358
+00:42:11,800 --> 00:42:13,840
+I'm gonna compare the offers, surprise,
+
+1359
+00:42:13,840 --> 00:42:14,280
+surprise.
+
+1360
+00:42:14,480 --> 00:42:16,440
+And I'm gonna ask what I want, you know? So
+
+1361
+00:42:16,440 --> 00:42:17,200
+that's the thing.
+
+1362
+00:42:17,400 --> 00:42:19,200
+Company are expecting people to be like
+
+1363
+00:42:19,200 --> 00:42:21,280
+lying on Tinder right? Like I only have eye
+
+1364
+00:42:21,320 --> 00:42:21,720
+on you.
+
+1365
+00:42:21,960 --> 00:42:22,680
+Like, no, that's
+
+1366
+00:42:22,960 --> 00:42:23,440
+of course
+
+1367
+00:42:25,440 --> 00:42:27,200
+people are swiping on the time, right? Like it's
+
+1368
+00:42:30,400 --> 00:42:30,840
+just so funny.
+
+1369
+00:42:31,280 --> 00:42:31,680
+Sorry,
+
+1370
+00:42:32,440 --> 00:42:32,760
+continue.
+
+1371
+00:42:32,920 --> 00:42:34,600
+But then you know, the funniest parts.
+
+1372
+00:42:34,680 --> 00:42:35,440
+So the week
+
+1373
+00:42:35,840 --> 00:42:37,760
+one of the companies they were
+
+1374
+00:42:38,000 --> 00:42:39,760
+there was some like holidays and they
+
+1375
+00:42:39,760 --> 00:42:41,320
+basically like they dropped the ball.
+
+1376
+00:42:41,320 --> 00:42:43,000
+So I didn't hear anything from them like
+
+1377
+00:42:43,000 --> 00:42:43,760
+for three weeks.
+
+1378
+00:42:43,760 --> 00:42:45,160
+Now they came back to me like, oh, let's
+
+1379
+00:42:45,160 --> 00:42:46,120
+schedule an interview.
+
+1380
+00:42:46,120 --> 00:42:48,160
+And I was like, OK, let's schedule.
+
+1381
+00:42:48,160 --> 00:42:50,040
+And then I was like, oh, sorry, like please
+
+1382
+00:42:50,040 --> 00:42:52,240
+cancel the interview because I already like
+
+1383
+00:42:52,240 --> 00:42:53,240
+already have offers.
+
+1384
+00:42:53,240 --> 00:42:54,880
+Although it's a final interview, but it's
+
+1385
+00:42:54,880 --> 00:42:57,000
+like an interview with C level folks.
+
+1386
+00:42:57,000 --> 00:42:58,920
+I don't want to rob their of their time.
+
+1387
+00:42:58,920 --> 00:42:59,680
+You know that's.
+
+1388
+00:42:59,680 --> 00:43:00,040
+That's it.
+
+1389
+00:43:00,080 --> 00:43:00,640
+Beat them all.
+
+1390
+00:43:00,680 --> 00:43:01,200
+I'm sorry.
+
+1391
+00:43:01,600 --> 00:43:01,960
+No. Yeah.
+
+1392
+00:43:02,440 --> 00:43:03,840
+And then the question would be, you know,
+
+1393
+00:43:03,840 --> 00:43:05,560
+when they're gonna look how we lost this
+
+1394
+00:43:05,560 --> 00:43:07,720
+candidate at the ends they they would be,
+
+1395
+00:43:07,720 --> 00:43:09,440
+oh, we lost this candidate because of
+
+1396
+00:43:09,560 --> 00:43:10,160
+competition.
+
+1397
+00:43:10,160 --> 00:43:11,800
+No, you didn't lose this candidate because
+
+1398
+00:43:11,800 --> 00:43:12,560
+of competition.
+
+1399
+00:43:12,560 --> 00:43:14,520
+You lost this person because you were not
+
+1400
+00:43:14,520 --> 00:43:17,000
+responsive for three weeks.
+
+1401
+00:43:17,120 --> 00:43:18,400
+And like, I need to eat.
+
+1402
+00:43:18,400 --> 00:43:19,960
+Sorry, the girls gotta eat, you know?
+
+1403
+00:43:20,880 --> 00:43:21,040
+Yeah,
+
+1404
+00:43:21,600 --> 00:43:22,520
+very interesting.
+
+1405
+00:43:22,520 --> 00:43:25,480
+I felt the culture of hiring is somewhat
+
+1406
+00:43:25,480 --> 00:43:26,080
+different.
+
+1407
+00:43:26,080 --> 00:43:29,160
+I'm in the North America and like we, I, we
+
+1408
+00:43:29,160 --> 00:43:30,400
+went through the same thing.
+
+1409
+00:43:30,560 --> 00:43:32,040
+When I apply for a job,
+
+1410
+00:43:32,440 --> 00:43:34,200
+I have to apply for like 10 different
+
+1411
+00:43:34,200 --> 00:43:36,080
+companies and maybe I get interviewed for
+
+1412
+00:43:36,080 --> 00:43:38,200
+one or two, right? And it's the same thing,
+
+1413
+00:43:38,200 --> 00:43:40,440
+but something's different is like, I mean,
+
+1414
+00:43:40,440 --> 00:43:43,320
+it's definitely OK for me to say, yeah, I
+
+1415
+00:43:43,480 --> 00:43:45,520
+they will ask am I interviewing for other
+
+1416
+00:43:45,520 --> 00:43:47,600
+companies? Like I will say yes,
+
+1417
+00:43:48,840 --> 00:43:51,280
+like especially if you, when you say you're
+
+1418
+00:43:51,280 --> 00:43:53,360
+hiring, you're interviewing for higher
+
+1419
+00:43:53,360 --> 00:43:54,600
+level position.
+
+1420
+00:43:54,640 --> 00:43:57,280
+That means you know you have lots of skill, but
+
+1421
+00:43:57,600 --> 00:43:59,800
+you you can a lot of people want your skill.
+
+1422
+00:44:00,320 --> 00:44:01,880
+You can ask them, like, are you only
+
+1423
+00:44:02,000 --> 00:44:04,000
+considering one candidate? No.
+
+1424
+00:44:04,600 --> 00:44:05,240
+So yeah,
+
+1425
+00:44:05,520 --> 00:44:07,320
+why not? It's like, you know, give and
+
+1426
+00:44:07,320 --> 00:44:07,880
+take, right?
+
+1427
+00:44:07,960 --> 00:44:09,000
+Yeah, it's both ways.
+
+1428
+00:44:09,600 --> 00:44:10,040
+It's both ways.
+
+1429
+00:44:10,400 --> 00:44:10,560
+Yeah.
+
+1430
+00:44:10,720 --> 00:44:11,120
+So yeah,
+
+1431
+00:44:11,720 --> 00:44:13,160
+that's basically what I wanted to share.
+
+1432
+00:44:13,200 --> 00:44:14,720
+For me, it was really surprise.
+
+1433
+00:44:14,720 --> 00:44:16,720
+First, it was like a lot of questions like
+
+1434
+00:44:16,920 --> 00:44:18,920
+why do you need the salary? Like why do I
+
+1435
+00:44:18,920 --> 00:44:19,600
+need a salary?
+
+1436
+00:44:20,200 --> 00:44:20,520
+Come on.
+
+1437
+00:44:21,840 --> 00:44:24,200
+You, you can try asking kindergarten's
+
+1438
+00:44:24,200 --> 00:44:26,040
+children and they would also give you a
+
+1439
+00:44:26,040 --> 00:44:27,560
+very reasonable answer. You. Yeah,
+
+1440
+00:44:28,280 --> 00:44:28,520
+I mean.
+
+1441
+00:44:28,760 --> 00:44:28,920
+Yeah,
+
+1442
+00:44:29,360 --> 00:44:29,480
+yeah.
+
+1443
+00:44:29,480 --> 00:44:31,040
+And the second one is like when you're like
+
+1444
+00:44:31,040 --> 00:44:32,840
+get into the talk, like when you get into
+
+1445
+00:44:32,840 --> 00:44:33,520
+the ends.
+
+1446
+00:44:33,640 --> 00:44:35,280
+They usually also like the, the, the
+
+1447
+00:44:35,280 --> 00:44:36,600
+recruitment process is not very clear.
+
+1448
+00:44:36,600 --> 00:44:38,000
+I'm usually asking about the structure.
+
+1449
+00:44:38,000 --> 00:44:39,480
+And usually they don't have a proper
+
+1450
+00:44:39,480 --> 00:44:40,800
+structure for such positions.
+
+1451
+00:44:40,800 --> 00:44:42,200
+It goes like, oh, we're gonna have three
+
+1452
+00:44:42,200 --> 00:44:42,920
+interviews and that's it.
+
+1453
+00:44:42,920 --> 00:44:44,120
+And then you ended up having nine
+
+1454
+00:44:44,120 --> 00:44:44,720
+interviews.
+
+1455
+00:44:44,720 --> 00:44:45,640
+That's the story is.
+
+1456
+00:44:46,040 --> 00:44:47,800
+It like a reality show? Yeah, yeah.
+
+1457
+00:44:50,600 --> 00:44:52,080
+You know, like interview from hell.
+
+1458
+00:44:52,400 --> 00:44:54,000
+Yeah, you, you'll be like, excuse me?
+
+1459
+00:44:56,120 --> 00:44:57,200
+Not the Squid Game.
+
+1460
+00:44:57,200 --> 00:44:57,440
+You have
+
+1461
+00:44:58,720 --> 00:44:59,600
+so many rounds.
+
+1462
+00:45:01,280 --> 00:45:01,920
+Yes, ladies.
+
+1463
+00:45:01,920 --> 00:45:03,000
+Yeah, that's a journey.
+
+1464
+00:45:03,000 --> 00:45:03,520
+I'm happy.
+
+1465
+00:45:03,520 --> 00:45:05,960
+That's like, I do hope for the right one
+
+1466
+00:45:05,960 --> 00:45:07,360
+and like we will see.
+
+1467
+00:45:07,360 --> 00:45:09,560
+I'm really impressed by like you just kind
+
+1468
+00:45:09,560 --> 00:45:11,400
+of like have the mindset of like, if I want
+
+1469
+00:45:11,400 --> 00:45:13,120
+to work for myself, I can work for myself.
+
+1470
+00:45:13,120 --> 00:45:15,160
+If I need a job because of the mortgage, I
+
+1471
+00:45:15,160 --> 00:45:15,840
+can have a job.
+
+1472
+00:45:15,840 --> 00:45:18,480
+I think this is a resilient that it can
+
+1473
+00:45:18,480 --> 00:45:19,120
+inspire a lot of.
+
+1474
+00:45:19,120 --> 00:45:21,560
+People, I was watching this TV show on
+
+1475
+00:45:21,560 --> 00:45:22,640
+Netflix. It's a
+
+1476
+00:45:22,920 --> 00:45:23,840
+Indonesian
+
+1477
+00:45:24,080 --> 00:45:26,200
+movie home sweet loan.
+
+1478
+00:45:26,280 --> 00:45:27,680
+It's like also a journey
+
+1479
+00:45:27,920 --> 00:45:30,680
+of a woman like she wants to be independent
+
+1480
+00:45:30,720 --> 00:45:31,680
+from her family.
+
+1481
+00:45:31,680 --> 00:45:34,160
+She wants to have a piece for herself, a
+
+1482
+00:45:34,160 --> 00:45:37,040
+property by, you know, working for herself
+
+1483
+00:45:37,240 --> 00:45:39,600
+by like she wants to work and
+
+1484
+00:45:39,960 --> 00:45:40,480
+in order to
+
+1485
+00:45:40,720 --> 00:45:41,960
+qualify for mortgage.
+
+1486
+00:45:41,960 --> 00:45:43,440
+So like when you talk about this, it
+
+1487
+00:45:43,440 --> 00:45:44,920
+reminds me of that movie.
+
+1488
+00:45:45,160 --> 00:45:45,840
+Very interesting.
+
+1489
+00:45:46,640 --> 00:45:48,800
+Well, thank you so much, Una and Chuck.
+
+1490
+00:45:48,800 --> 00:45:50,400
+Thank you everybody for listening.
+
+1491
+00:45:51,160 --> 00:45:53,240
+Enjoy the episode and we'll talk to you
+
+1492
+00:45:53,240 --> 00:45:53,800
+next time.
+
+1493
+00:45:54,080 --> 00:45:55,040
+Bye bye.
+
