@@ -19,7 +19,7 @@ season: 2
 transcript: '/transcript/hidden-figures-of-python-ep10-trailer.srt'
 episode_type: trailer
 layout: episode
-youtube_id: "TBD"
+youtube_id: "o61uzfNa_5w"
   
 speaker:
   url: "/speakers/una-galyeva/"
