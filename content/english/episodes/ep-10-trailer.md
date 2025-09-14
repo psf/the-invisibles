@@ -11,7 +11,7 @@ podcast_file: "/audio/hidden-figures-ep10-trailer.mp4a"
 podcast_duration: 76.80
 episode_image: "images/ep10-una.png"
 podcast_bytes: "1937247" # the length of the episode in bytes
-images: ["images/ep10-una.png", "images/Una_Galyeva.jpg"]
+images: ["images/ep10-una.png", "images/una_galyeva.jpg"]
 explicit: false 
 type: 'episode'
 episode: '10'
