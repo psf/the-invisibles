@@ -1,6 +1,6 @@
 ---
 title: "Una Galyeva"
-image: "/images/una_galyeva.jpg"
+image: "/images/una.jpg"
 description: "
 With over 19 years of experience in Data and AI, Una Galyeva held various positions, from hands-on Data and AI development to leading Data and AI teams and departments. As a driving force behind PyLadies Amsterdam, a Microsoft MVP, AI4ALL Advisory board member, and the owner of AI MLOps Agency, Una is passionate about challenging perspectives and inspiring others to see things differently.
 "
