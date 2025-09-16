@@ -22,7 +22,7 @@ layout: episode
 youtube_id: "o61uzfNa_5w"
   
 speaker:
-  url: "/speakers/una_galyeva/"
+  url: "/speakers/una-galyeva/"
   title: "Una Galyeva"
   image: "/images/una.jpg"
   description: "
