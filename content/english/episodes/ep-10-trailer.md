@@ -7,7 +7,7 @@ host: ["Cheuk", "Mariatta"]
 draft: false
 tags: ["python", "pyladies", "amsterdam", "freelancer", "executive director"]
 publish_date: 2025-09-15T06:00:00+02:00
-podcast_file: "/audio/hidden-figures-ep10-trailer.mp4a"
+podcast_file: "/audio/hidden-figures-ep10-trailer.mp3"
 podcast_duration: 76.80
 episode_image: "images/ep10-una.png"
 podcast_bytes: "1937247" # the length of the episode in bytes
