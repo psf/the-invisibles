@@ -2,7 +2,7 @@
 title: "Trailer: Episode 10 with Una Galyeva"
 meta_title: "Trailer: Episode 10 with Una Galyeva"
 description: "A preview of our chat with Una Galyeva. Watch the full episode on September 25, 2025"
-date: 2025-09-22T22:00:00+01:00
+date: 2025-09-22T06:00:00+01:00
 host: ["Cheuk", "Mariatta"]
 draft: false
 tags: ["python", "pyladies", "amsterdam", "freelancer", "executive director"]
