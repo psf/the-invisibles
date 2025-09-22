@@ -1,0 +1,144 @@
+1
+00:00:00,040 --> 00:00:00,920
+I have to find a job.
+
+2
+00:00:00,920 --> 00:00:02,920
+Funniest  part was the first screening calls.
+
+3
+00:00:02,920 --> 00:00:04,520
+You get really weird questions.
+
+4
+00:00:04,520 --> 00:00:06,360
+That's like what is the expected salary
+
+5
+00:00:06,360 --> 00:00:08,240
+range? Why do you need so much money?
+
+6
+00:00:15,240 --> 00:00:16,960
+I think I tried almost all.
+
+7
+00:00:16,960 --> 00:00:19,680
+I was only mentioning that I didn't try PhD yet.
+
+8
+00:00:19,960 --> 00:00:21,720
+Working for myself, working for someone
+
+9
+00:00:21,720 --> 00:00:23,600
+else, starting my own company, growing my
+
+10
+00:00:23,600 --> 00:00:25,360
+own company, selling my own company.
+
+11
+00:00:25,400 --> 00:00:27,520
+My first job in the Netherlands was an
+
+12
+00:00:27,520 --> 00:00:28,600
+executive director.
+
+13
+00:00:28,640 --> 00:00:30,640
+You working with people online.
+
+14
+00:00:30,680 --> 00:00:33,080
+People were surprised to know that I'm
+
+15
+00:00:33,080 --> 00:00:33,800
+female.
+
+16
+00:00:34,040 --> 00:00:36,400
+Somehow they were expecting just, you know,
+
+17
+00:00:36,400 --> 00:00:38,280
+another guy like who are you? I was like,
+
+18
+00:00:38,600 --> 00:00:38,840
+I'm
+
+19
+00:00:39,520 --> 00:00:40,760
+your engineer, you know,
+
+20
+00:00:41,320 --> 00:00:43,440
+I was working with self driving trucks.
+
+21
+00:00:43,600 --> 00:00:45,880
+And after that I jump on getting back to
+
+22
+00:00:45,880 --> 00:00:47,840
+more like maritime industry and I switched
+
+23
+00:00:47,840 --> 00:00:49,160
+to working with aircrafts.
+
+24
+00:00:49,160 --> 00:00:51,640
+How much food should we put in it? How much water,
+
+25
+00:00:51,960 --> 00:00:54,720
+how much fuel? I have heard in my previous
+
+26
+00:00:54,720 --> 00:00:57,120
+job that a lot of air traffic planning is
+
+27
+00:00:57,120 --> 00:00:58,040
+using Prolog.
+
+28
+00:00:58,040 --> 00:01:00,400
+Is that true when the aircraft is flying
+
+29
+00:01:00,400 --> 00:01:03,680
+the ATC just passing it from one chunk of
+
+30
+00:01:03,680 --> 00:01:05,640
+cubes to another chunk of cubes
+
+31
+00:01:05,960 --> 00:01:08,320
+I'm Una from PyLadies Amsterdam and if
+
+32
+00:01:08,320 --> 00:01:10,120
+you're interested to learn what is the
+
+33
+00:01:10,120 --> 00:01:12,360
+connection between cubes in the air
+
+34
+00:01:12,920 --> 00:01:14,680
+sensor fusion and
+
+35
+00:01:15,320 --> 00:01:18,640
+going from nothing to something then listen
+
+36
+00:01:18,640 --> 00:01:20,520
+to this PyPodcats
+
