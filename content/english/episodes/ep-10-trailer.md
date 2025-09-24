@@ -28,7 +28,7 @@ speaker:
   description: "
 With over 19 years of experience in Data and AI, Una Galyeva held various positions, from hands-on Data and AI development
 to leading Data and AI teams and departments. As a driving force behind PyLadies Amsterdam, a Microsoft MVP, AI4ALL
-Advisory board member, and the owner of AI MLOps Agency, Una is passionate about challenging perspectives and inspiring
+Advisory board member, and Head of Artificial Intelligence, Una is passionate about challenging perspectives and inspiring
 others to see things differently.
 "
   social:
@@ -50,7 +50,7 @@ Sneak Peek of our chat with Una Galyeva, hosted by Cheuk Ting Ho and Mariatta Wi
 
 With over 19 years of experience in Data and AI, Una Galyeva held various positions, from hands-on Data and AI development
 to leading Data and AI teams and departments. She is a driving force behind PyLadies Amsterdam, a Microsoft MVP, AI4ALL
-Advisory board member, and the owner of AI MLOps Agency.
+Advisory board member, and Head of Artificial Intelligence.
 
 In this episode, Una shares her journey of relocating to Amsterdam, navigating the tech industry, and building inclusive
 communities. From freelancing challenges to leading innovative workshops, Una offers valuable insights on career growth,
