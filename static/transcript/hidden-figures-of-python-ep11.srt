@@ -1,0 +1,5364 @@
+1
+00:00:19,233 --> 00:00:20,066
+Hi
+
+2
+00:00:20,700 --> 00:00:23,566
+Hi everybody and welcome to our PyPodcats
+
+3
+00:00:23,566 --> 00:00:26,200
+series of Hidden Figures of Python
+
+4
+00:00:26,200 --> 00:00:30,200
+and today we have as a guest Sheena O'Connell
+
+5
+00:00:30,200 --> 00:00:32,366
+all the way from South Africa
+
+6
+00:00:32,366 --> 00:00:34,866
+PyPodcats in case anybody forgot
+
+7
+00:00:34,900 --> 00:00:37,266
+we are a community driven podcast
+
+8
+00:00:37,266 --> 00:00:39,533
+and our aim is to highlight voices
+
+9
+00:00:39,533 --> 00:00:41,433
+from underrepresented groups
+
+10
+00:00:41,433 --> 00:00:43,000
+in the Python community
+
+11
+00:00:43,000 --> 00:00:45,633
+we also have a code of conduct which is um
+
+12
+00:00:45,733 --> 00:00:49,500
+on our website at pypodcats.live/conduct
+
+13
+00:00:49,500 --> 00:00:51,700
+when we're working with members of the community
+
+14
+00:00:51,700 --> 00:00:53,800
+we follow the PSF Code of conduct
+
+15
+00:00:53,800 --> 00:00:55,400
+and to help our interactions
+
+16
+00:00:55,400 --> 00:00:57,200
+and keep Python a positive
+
+17
+00:00:57,200 --> 00:00:58,966
+successful and growing community
+
+18
+00:00:58,966 --> 00:01:00,000
+so please
+
+19
+00:01:00,000 --> 00:01:01,200
+be mindful about that
+
+20
+00:01:01,200 --> 00:01:03,666
+when you interact with our material online
+
+21
+00:01:03,666 --> 00:01:07,133
+so today's hosts are Cheuk and me
+
+22
+00:01:07,133 --> 00:01:09,066
+so I'm uh Tereza
+
+23
+00:01:09,066 --> 00:01:13,366
+I live in Hamburg and I'm part of the PyLadies Hamburg
+
+24
+00:01:13,366 --> 00:01:17,000
+and I'm also data and the career coach
+
+25
+00:01:17,000 --> 00:01:18,533
+and data freelancer
+
+26
+00:01:18,533 --> 00:01:20,566
+hi I'm Cheuk and um
+
+27
+00:01:20,566 --> 00:01:22,200
+I am I love Python
+
+28
+00:01:22,200 --> 00:01:23,266
+ha ha ha ha
+
+29
+00:01:23,866 --> 00:01:24,600
+OK that's it
+
+30
+00:01:24,600 --> 00:01:25,300
+so uh
+
+31
+00:01:25,300 --> 00:01:26,900
+we have our guest Sheena here
+
+32
+00:01:26,900 --> 00:01:28,633
+so Sheena do you want to introduce yourself
+
+33
+00:01:28,900 --> 00:01:30,966
+I've been coding for a long time in Python
+
+34
+00:01:30,966 --> 00:01:33,066
+it is my love language um
+
+35
+00:01:33,066 --> 00:01:36,466
+and I got to spend about 5 years working in tech
+
+36
+00:01:36,466 --> 00:01:37,866
+education uh
+
+37
+00:01:37,866 --> 00:01:39,800
+in the non profit space in South Africa
+
+38
+00:01:39,800 --> 00:01:42,700
+and it was great and I learned a lot there
+
+39
+00:01:42,833 --> 00:01:46,966
+so now what I'm doing is I teach for a living and I try
+
+40
+00:01:46,966 --> 00:01:49,733
+try to get other educators um
+
+41
+00:01:49,733 --> 00:01:51,066
+connected and leveling up in
+
+42
+00:01:51,066 --> 00:01:52,400
+nice ways um
+
+43
+00:01:52,400 --> 00:01:54,300
+so I've got a company that does
+
+44
+00:01:54,300 --> 00:01:56,766
+advanced Django training and soft skills training
+
+45
+00:01:56,766 --> 00:01:59,166
+because that stuff is actually pretty hard um
+
+46
+00:01:59,166 --> 00:02:01,000
+and I have
+
+47
+00:02:01,000 --> 00:02:04,833
+I run a community called the Guild of Educators where
+
+48
+00:02:04,866 --> 00:02:07,066
+um anybody who teaches code
+
+49
+00:02:07,066 --> 00:02:10,400
+or wants to teach code can come and join and hang out
+
+50
+00:02:10,466 --> 00:02:12,800
+um we're starting a teacher's mentorship program
+
+51
+00:02:12,800 --> 00:02:14,566
+so if you wanna help a teacher level up
+
+52
+00:02:14,566 --> 00:02:16,766
+then you can join that or um
+
+53
+00:02:16,766 --> 00:02:18,666
+if you're a teacher who wants to get better at code
+
+54
+00:02:18,666 --> 00:02:20,466
+come and join that um
+
+55
+00:02:20,666 --> 00:02:22,066
+and then the last thing that I'm
+
+56
+00:02:22,066 --> 00:02:24,500
+involved with at the moment is PyCon Africa
+
+57
+00:02:24,500 --> 00:02:27,300
+so I'm currently the local chair of
+
+58
+00:02:27,300 --> 00:02:28,266
+of PyCon Africa
+
+59
+00:02:28,266 --> 00:02:31,033
+it's happening in my hometown in Johannesburg
+
+60
+00:02:31,166 --> 00:02:32,566
+South Africa and actually I
+
+61
+00:02:32,566 --> 00:02:35,133
+I do have a lot of question about Johannesburg
+
+62
+00:02:35,133 --> 00:02:38,300
+and PyCon Africa shall we start with PyCon Africa
+
+63
+00:02:38,300 --> 00:02:41,300
+and then we can also talk more about your work
+
+64
+00:02:42,100 --> 00:02:43,000
+sounds good
+
+65
+00:02:43,666 --> 00:02:46,266
+yeah so for PyCon Africa I
+
+66
+00:02:46,266 --> 00:02:47,766
+I wonder like
+
+67
+00:02:47,766 --> 00:02:50,766
+so for for folks who never heard of it
+
+68
+00:02:50,766 --> 00:02:54,533
+like is it always going to be in
+
+69
+00:02:54,533 --> 00:02:54,900
+you know
+
+70
+00:02:54,900 --> 00:02:58,466
+South Africa or is it going to be travelling around
+
+71
+00:02:58,466 --> 00:03:01,600
+and do you have an other organisation behind it
+
+72
+00:03:01,600 --> 00:03:04,366
+and how does it work good questions
+
+73
+00:03:04,366 --> 00:03:05,366
+it does travel around
+
+74
+00:03:05,366 --> 00:03:06,800
+so it's not always in the same country
+
+75
+00:03:06,800 --> 00:03:07,366
+um
+
+76
+00:03:07,366 --> 00:03:10,000
+this is the first time we're doing it in South Africa
+
+77
+00:03:10,000 --> 00:03:11,533
+it's the first time we're doing a major
+
+78
+00:03:11,533 --> 00:03:13,700
+like International Python conference in
+
+79
+00:03:13,700 --> 00:03:14,500
+southern Africa
+
+80
+00:03:14,500 --> 00:03:17,933
+so it's quite a I think it's gonna be quite impactful
+
+81
+00:03:17,933 --> 00:03:19,566
+but yes it travels around um
+
+82
+00:03:19,566 --> 00:03:21,566
+I'm not actually sure where we'll do it next year
+
+83
+00:03:21,666 --> 00:03:22,766
+PyCon Africa
+
+84
+00:03:22,766 --> 00:03:25,366
+is basically run by two separate organizations
+
+85
+00:03:25,366 --> 00:03:27,366
+there's the international committee um
+
+86
+00:03:27,366 --> 00:03:29,100
+and those are the folks who just like
+
+87
+00:03:29,100 --> 00:03:31,266
+stay with the conference wherever it goes
+
+88
+00:03:31,433 --> 00:03:32,933
+and then there's the local committee
+
+89
+00:03:32,933 --> 00:03:36,600
+so the people on the ground who know what's
+
+90
+00:03:36,600 --> 00:03:38,333
+what to organise the venue and
+
+91
+00:03:38,333 --> 00:03:41,466
+and all of that so our local committee um
+
+92
+00:03:41,566 --> 00:03:44,166
+generally organizes PyCon South Africa every year
+
+93
+00:03:44,166 --> 00:03:47,566
+and like it's quite an experienced team um
+
+94
+00:03:47,566 --> 00:03:51,400
+it's quite a small team but do good stuff um yeah
+
+95
+00:03:51,400 --> 00:03:52,566
+so that's how it works
+
+96
+00:03:52,566 --> 00:03:54,333
+so we're basically joining forces yeah
+
+97
+00:03:54,333 --> 00:03:56,700
+what do you expect to be different from like
+
+98
+00:03:56,700 --> 00:03:59,033
+let's say last year PyCon South Africa
+
+99
+00:03:59,400 --> 00:04:01,766
+alright so it's gonna be a bigger conference um
+
+100
+00:04:01,766 --> 00:04:03,133
+we are reaching further
+
+101
+00:04:03,133 --> 00:04:05,066
+we're getting a lot more international attention
+
+102
+00:04:05,066 --> 00:04:07,133
+and we've got some um
+
+103
+00:04:07,133 --> 00:04:09,933
+interesting people who are attending so for example
+
+104
+00:04:09,933 --> 00:04:13,733
+Dawn Wages is one of our key notes and she's the uh
+
+105
+00:04:13,733 --> 00:04:16,400
+president of the PSF and that's wonderful
+
+106
+00:04:16,400 --> 00:04:18,166
+and it's gonna be great to bring her here
+
+107
+00:04:18,166 --> 00:04:20,366
+so I I don't think we would be able to get as
+
+108
+00:04:20,366 --> 00:04:22,900
+like high profile people in a
+
+109
+00:04:22,966 --> 00:04:25,000
+for PyCon South Africa generally um
+
+110
+00:04:25,000 --> 00:04:26,066
+so that's one of the things
+
+111
+00:04:26,066 --> 00:04:27,100
+but the other thing is that
+
+112
+00:04:27,100 --> 00:04:29,100
+we're putting a lot more effort into giving
+
+113
+00:04:29,100 --> 00:04:31,333
+financial assistance to folks who otherwise would
+
+114
+00:04:31,333 --> 00:04:32,600
+not be able to come so
+
+115
+00:04:32,600 --> 00:04:33,100
+we're working
+
+116
+00:04:33,100 --> 00:04:35,600
+hard to try and bring people in from the surrounding
+
+117
+00:04:35,600 --> 00:04:36,966
+southern African countries
+
+118
+00:04:37,000 --> 00:04:38,700
+and folks from across Africa as well
+
+119
+00:04:38,700 --> 00:04:41,700
+but we really wanna like because this is the first um
+
+120
+00:04:41,700 --> 00:04:41,933
+big
+
+121
+00:04:41,933 --> 00:04:44,666
+international conference in southern Africa for Python
+
+122
+00:04:44,700 --> 00:04:48,066
+we wanna just make good use of that so yeah
+
+123
+00:04:48,066 --> 00:04:50,800
+a lot of effort is being put into financial assistance
+
+124
+00:04:50,800 --> 00:04:52,033
+and that's expensive
+
+125
+00:04:52,066 --> 00:04:55,066
+so we're doing a lot more around fundraising
+
+126
+00:04:55,200 --> 00:04:57,133
+we've got a donations drive as well
+
+127
+00:04:57,133 --> 00:04:58,800
+that's gonna help with that yeah
+
+128
+00:04:58,800 --> 00:05:00,266
+those are the main differences
+
+129
+00:05:00,266 --> 00:05:02,966
+what are the challenges of organizing a conference
+
+130
+00:05:02,966 --> 00:05:05,066
+in Africa because you have world travel right
+
+131
+00:05:05,066 --> 00:05:06,533
+you have seen PyConUS 
+
+132
+00:05:06,533 --> 00:05:08,466
+EuroPython all these different conferences
+
+133
+00:05:08,466 --> 00:05:10,700
+so what are the challenges to organize
+
+134
+00:05:10,700 --> 00:05:12,900
+a conference in Africa compared to
+
+135
+00:05:12,900 --> 00:05:16,000
+let's say you know PyConUS or a European conference
+
+136
+00:05:16,500 --> 00:05:17,600
+so I think
+
+137
+00:05:17,600 --> 00:05:19,400
+I've never organized a conference anywhere else
+
+138
+00:05:19,400 --> 00:05:21,100
+so I can't give a direct comparison
+
+139
+00:05:21,100 --> 00:05:23,300
+but I can say that
+
+140
+00:05:23,333 --> 00:05:25,066
+there are probably challenges that are
+
+141
+00:05:25,200 --> 00:05:26,266
+standard across the board
+
+142
+00:05:26,266 --> 00:05:29,800
+I mean PyCon Africa is in a way a a newish conference
+
+143
+00:05:29,800 --> 00:05:31,133
+it's been going on for a little while
+
+144
+00:05:31,133 --> 00:05:33,200
+but it's had some gaps and and things like that
+
+145
+00:05:33,200 --> 00:05:34,200
+so like
+
+146
+00:05:34,200 --> 00:05:35,333
+a more established conference
+
+147
+00:05:35,333 --> 00:05:36,666
+has better systems in place
+
+148
+00:05:36,666 --> 00:05:37,500
+and has um
+
+149
+00:05:37,500 --> 00:05:40,000
+better documentation in place and things like that
+
+150
+00:05:40,000 --> 00:05:40,766
+and so
+
+151
+00:05:40,766 --> 00:05:43,866
+there's a lot of just figuring things out and swarming
+
+152
+00:05:43,866 --> 00:05:47,200
+and whenever you want to get
+
+153
+00:05:47,200 --> 00:05:49,066
+it's a large group of people who are involved
+
+154
+00:05:49,066 --> 00:05:49,466
+like there's
+
+155
+00:05:49,466 --> 00:05:51,766
+there's a lot of people on the international committee
+
+156
+00:05:51,766 --> 00:05:54,766
+and if you've got a large group of volunteers
+
+157
+00:05:55,266 --> 00:05:57,733
+then it's kind of hard to figure out
+
+158
+00:05:57,733 --> 00:06:00,133
+like wrangling volunteers is hard in general
+
+159
+00:06:00,133 --> 00:06:03,200
+um especially if you want to do things to a deadline
+
+160
+00:06:03,200 --> 00:06:04,800
+and to a high standard
+
+161
+00:06:04,933 --> 00:06:06,600
+and not end up doing everything yourself
+
+162
+00:06:06,600 --> 00:06:07,333
+and things like that
+
+163
+00:06:07,333 --> 00:06:09,533
+so there's a lot of just like management challenges
+
+164
+00:06:09,533 --> 00:06:11,300
+like figuring out who
+
+165
+00:06:11,466 --> 00:06:14,433
+who are the productive people and what's
+
+166
+00:06:14,600 --> 00:06:16,566
+what skills does everybody bring to the table
+
+167
+00:06:16,566 --> 00:06:17,300
+and things like that
+
+168
+00:06:17,300 --> 00:06:18,800
+like that's been that's been tricky
+
+169
+00:06:18,800 --> 00:06:22,000
+and I think in Africa, Africa specifically there
+
+170
+00:06:22,000 --> 00:06:23,266
+there are challenges around like
+
+171
+00:06:23,266 --> 00:06:25,166
+network connectivity and things like that
+
+172
+00:06:25,166 --> 00:06:27,700
+that comes up and it's also somewhat challenging
+
+173
+00:06:27,700 --> 00:06:29,666
+because we do have people who are organizing
+
+174
+00:06:29,666 --> 00:06:31,000
+who are in different time zones
+
+175
+00:06:31,000 --> 00:06:33,900
+and so we need to wrangle schedules quite a lot
+
+176
+00:06:33,900 --> 00:06:35,700
+and some people have jobs
+
+177
+00:06:35,700 --> 00:06:36,700
+some people don't have jobs
+
+178
+00:06:36,700 --> 00:06:37,666
+some people are students
+
+179
+00:06:37,666 --> 00:06:40,366
+and so that's all that's all challenging to wrangle
+
+180
+00:06:40,366 --> 00:06:42,000
+and there's also a lot of cultural differences
+
+181
+00:06:42,000 --> 00:06:44,000
+so our International Committee
+
+182
+00:06:44,433 --> 00:06:45,966
+it's spread across multiple countries
+
+183
+00:06:46,066 --> 00:06:48,200
+and a lot of the time when people think of Africa
+
+184
+00:06:48,200 --> 00:06:49,266
+they think of it as like
+
+185
+00:06:49,266 --> 00:06:51,500
+just like a blob and everything's the same
+
+186
+00:06:51,500 --> 00:06:52,700
+and it's really not like
+
+187
+00:06:52,700 --> 00:06:54,200
+there are very big cultural differences
+
+188
+00:06:54,200 --> 00:06:55,933
+between different African countries
+
+189
+00:06:55,933 --> 00:06:56,666
+and
+
+190
+00:06:56,666 --> 00:06:59,133
+those cultural differences come with different norms
+
+191
+00:06:59,133 --> 00:07:00,833
+and therefore different expectations
+
+192
+00:07:00,933 --> 00:07:01,666
+and um
+
+193
+00:07:01,666 --> 00:07:03,033
+different misunderstandings
+
+194
+00:07:03,266 --> 00:07:04,333
+so it's
+
+195
+00:07:04,333 --> 00:07:06,933
+important to just take a lot of care in communicating
+
+196
+00:07:06,933 --> 00:07:08,833
+like chaos is the default state
+
+197
+00:07:09,066 --> 00:07:11,600
+and so you have to work hard to
+
+198
+00:07:12,100 --> 00:07:15,100
+make sure that things are well organized
+
+199
+00:07:15,266 --> 00:07:16,266
+I think those are the main things
+
+200
+00:07:16,266 --> 00:07:18,666
+I wanted to ask a little bit about
+
+201
+00:07:18,866 --> 00:07:21,766
+you've been in different communities and also in Europe
+
+202
+00:07:21,766 --> 00:07:24,366
+and as Cheuk said also in the States
+
+203
+00:07:24,366 --> 00:07:25,900
+you saw PyConUS
+
+204
+00:07:25,900 --> 00:07:27,866
+how is the community different in Africa
+
+205
+00:07:27,866 --> 00:07:30,900
+or South Africa so can you speak for both or
+
+206
+00:07:31,033 --> 00:07:32,566
+yeah so I've
+
+207
+00:07:32,566 --> 00:07:35,700
+I've only been to PyCon South Africa and PyCon Namibia
+
+208
+00:07:35,700 --> 00:07:39,200
+in Africa and even these two communities are very
+
+209
+00:07:39,200 --> 00:07:41,866
+very different so in South Africa
+
+210
+00:07:41,866 --> 00:07:44,566
+Python is already a very well established language
+
+211
+00:07:44,633 --> 00:07:47,566
+so most of the big corporates are using it in some way
+
+212
+00:07:47,566 --> 00:07:50,100
+um most of our attendees are professional people
+
+213
+00:07:50,100 --> 00:07:51,800
+they're they're pretty sorted
+
+214
+00:07:51,800 --> 00:07:53,900
+um and we do get a lot of young folks as well
+
+215
+00:07:53,900 --> 00:07:56,700
+who are keen to get into Python in different ways so
+
+216
+00:07:56,700 --> 00:07:58,033
+so that's great but it's
+
+217
+00:07:58,100 --> 00:07:59,200
+the fact that it's established
+
+218
+00:07:59,200 --> 00:08:01,866
+and there's a lot of knowledge in the country already
+
+219
+00:08:01,866 --> 00:08:03,700
+um a lot of skill there it
+
+220
+00:08:03,700 --> 00:08:05,066
+it makes things easier
+
+221
+00:08:05,066 --> 00:08:06,533
+if you go to somewhere like Namibia
+
+222
+00:08:06,533 --> 00:08:08,766
+where it's not an industry standard
+
+223
+00:08:08,766 --> 00:08:09,966
+then things get more difficult
+
+224
+00:08:09,966 --> 00:08:12,733
+it's like it's a fledgling community in a way
+
+225
+00:08:12,733 --> 00:08:16,500
+like the community is is strong and connected and they
+
+226
+00:08:16,500 --> 00:08:19,366
+they do stuff and they run their conference and
+
+227
+00:08:19,366 --> 00:08:20,866
+and it's all wonderful
+
+228
+00:08:21,000 --> 00:08:21,700
+that's like
+
+229
+00:08:21,700 --> 00:08:23,800
+people need somebody to learn from a lot of the time
+
+230
+00:08:23,800 --> 00:08:26,933
+and so with something like pack on Namibia
+
+231
+00:08:26,933 --> 00:08:28,066
+one of the things it's
+
+232
+00:08:28,200 --> 00:08:30,466
+one of the goals there is to bring skills in
+
+233
+00:08:30,466 --> 00:08:33,100
+so that we can share skills with
+
+234
+00:08:33,100 --> 00:08:34,666
+the Namibian community yeah
+
+235
+00:08:34,666 --> 00:08:36,566
+so so it varies from place to place
+
+236
+00:08:36,566 --> 00:08:38,133
+and I'm sure that a lot of African countries
+
+237
+00:08:38,133 --> 00:08:39,366
+are more similar to Namibia
+
+238
+00:08:39,366 --> 00:08:40,966
+than to South Africa and we've
+
+239
+00:08:40,966 --> 00:08:43,733
+we've got it like it's it's pretty good here
+
+240
+00:08:43,733 --> 00:08:46,600
+when did you get started with Python and how?
+
+241
+00:08:47,700 --> 00:08:49,266
+so I got started um
+
+242
+00:08:49,266 --> 00:08:52,100
+when I was in university I was coding for food
+
+243
+00:08:52,100 --> 00:08:54,200
+I I started I learned to code um
+
+244
+00:08:54,200 --> 00:08:56,933
+like as a teenager and I really liked it
+
+245
+00:08:56,933 --> 00:09:00,466
+so when I was studying I needed money and um
+
+246
+00:09:00,466 --> 00:09:02,266
+so I was just taking on these odd jobs
+
+247
+00:09:02,266 --> 00:09:03,733
+and at one point
+
+248
+00:09:03,733 --> 00:09:07,466
+somebody offered me a Django development gig um
+
+249
+00:09:07,466 --> 00:09:08,366
+they wanted to build this
+
+250
+00:09:08,366 --> 00:09:11,366
+like soccer membership website thing
+
+251
+00:09:11,366 --> 00:09:13,933
+and they were like can you write a Django website
+
+252
+00:09:13,933 --> 00:09:15,166
+and I said yes
+
+253
+00:09:15,700 --> 00:09:17,566
+and then I figured out how to
+
+254
+00:09:17,566 --> 00:09:19,933
+and through learning Django
+
+255
+00:09:19,933 --> 00:09:20,266
+like there
+
+256
+00:09:20,266 --> 00:09:22,500
+there was this book called The Django Book um
+
+257
+00:09:22,500 --> 00:09:23,566
+but now it's very out of date
+
+258
+00:09:23,566 --> 00:09:25,266
+and it's not a thing anymore
+
+259
+00:09:25,300 --> 00:09:28,166
+but that was my introduction to Python yeah
+
+260
+00:09:28,166 --> 00:09:30,266
+so I learned that and I learned Python
+
+261
+00:09:30,266 --> 00:09:32,400
+sort of as a side effect of trying to do this
+
+262
+00:09:32,400 --> 00:09:34,533
+and it was great it just fitted my
+
+263
+00:09:34,533 --> 00:09:36,500
+brain really well since then
+
+264
+00:09:36,533 --> 00:09:37,133
+like Python
+
+265
+00:09:37,133 --> 00:09:39,666
+wasn't taught in university or anything like that when
+
+266
+00:09:39,666 --> 00:09:41,300
+when I was there after university
+
+267
+00:09:41,300 --> 00:09:44,066
+I gravitated towards software development jobs
+
+268
+00:09:44,066 --> 00:09:46,333
+and I just I did a bunch of different things
+
+269
+00:09:46,333 --> 00:09:47,300
+but I always missed Python
+
+270
+00:09:47,300 --> 00:09:49,366
+and then as soon as I could work with Python again
+
+271
+00:09:49,366 --> 00:09:51,033
+I jumped on it yeah
+
+272
+00:09:51,733 --> 00:09:52,000
+I mean
+
+273
+00:09:52,000 --> 00:09:55,266
+I can ask more stuff but you read a programming book
+
+274
+00:09:55,333 --> 00:09:57,266
+do you still read programming books
+
+275
+00:09:59,166 --> 00:10:01,133
+bits and pieces sometimes um
+
+276
+00:10:01,133 --> 00:10:03,500
+but it's very rare for me to read a whole programming
+
+277
+00:10:03,500 --> 00:10:06,100
+book I read a book on PHP once for a job
+
+278
+00:10:06,100 --> 00:10:07,900
+but like I haven't learned a lot of languages
+
+279
+00:10:07,900 --> 00:10:09,366
+since I learned Python um
+
+280
+00:10:09,366 --> 00:10:09,933
+I've 
+
+281
+00:10:09,933 --> 00:10:11,133
+I've done a bunch of different things
+
+282
+00:10:11,133 --> 00:10:13,133
+I've learned PHP and I think C#
+
+283
+00:10:13,133 --> 00:10:15,466
+I find that I learn best
+
+284
+00:10:15,466 --> 00:10:17,466
+often by getting my hands dirty
+
+285
+00:10:17,466 --> 00:10:20,400
+so I'll dig into documentation
+
+286
+00:10:20,400 --> 00:10:23,200
+and something that I find as well is that like
+
+287
+00:10:23,200 --> 00:10:24,366
+a lot of the concepts
+
+288
+00:10:24,366 --> 00:10:26,500
+from one language are transferable to another
+
+289
+00:10:26,500 --> 00:10:30,000
+so if like a functions a functions a function um
+
+290
+00:10:30,000 --> 00:10:30,300
+so
+
+291
+00:10:30,300 --> 00:10:32,000
+a lot of the time when learning a different language
+
+292
+00:10:32,000 --> 00:10:33,100
+it's like you wanna
+
+293
+00:10:33,100 --> 00:10:35,000
+figure out how the concepts you already know
+
+294
+00:10:35,000 --> 00:10:36,366
+map to this other thing
+
+295
+00:10:36,366 --> 00:10:37,966
+and then you wanna find out what
+
+296
+00:10:37,966 --> 00:10:39,800
+kind of the idioms are of
+
+297
+00:10:39,800 --> 00:10:41,100
+of the new language
+
+298
+00:10:41,400 --> 00:10:44,266
+so often my way of learning is very um
+
+299
+00:10:44,266 --> 00:10:45,333
+I wouldn't say it's chaotic
+
+300
+00:10:45,333 --> 00:10:47,366
+it's it's directed towards a goal
+
+301
+00:10:47,400 --> 00:10:49,300
+I'll want to do a specific thing
+
+302
+00:10:49,300 --> 00:10:52,133
+and then I'll go and find out how to do like
+
+303
+00:10:52,133 --> 00:10:53,066
+all the little pieces
+
+304
+00:10:53,066 --> 00:10:55,166
+that I need to know in order to achieve that thing
+
+305
+00:10:55,166 --> 00:10:56,166
+yeah I think I
+
+306
+00:10:56,166 --> 00:10:58,066
+I did read the Kubernetes book
+
+307
+00:10:58,166 --> 00:10:59,500
+um yeah
+
+308
+00:10:59,500 --> 00:11:00,966
+what else I don't know
+
+309
+00:11:02,133 --> 00:11:04,733
+I actually wonder how many people are like
+
+310
+00:11:04,733 --> 00:11:07,100
+learn things like that cause I am the same
+
+311
+00:11:07,100 --> 00:11:10,266
+like I, I can only learn if I am doing it
+
+312
+00:11:10,266 --> 00:11:11,800
+cause otherwise I would just be
+
+313
+00:11:11,800 --> 00:11:13,100
+you know this side in
+
+314
+00:11:13,100 --> 00:11:14,000
+that side out right
+
+315
+00:11:14,000 --> 00:11:15,766
+like ha ha ha cause like
+
+316
+00:11:15,766 --> 00:11:16,266
+oh yeah it's
+
+317
+00:11:16,266 --> 00:11:17,333
+it's a it's a good read
+
+318
+00:11:17,333 --> 00:11:18,400
+but then like uh
+
+319
+00:11:18,400 --> 00:11:19,466
+what is it about hmm
+
+320
+00:11:19,466 --> 00:11:21,033
+can't remember ha ha
+
+321
+00:11:21,200 --> 00:11:23,866
+so yeah I think for me
+
+322
+00:11:23,866 --> 00:11:25,800
+project driven learning is very helpful
+
+323
+00:11:25,800 --> 00:11:27,466
+so it's like you learn you wanna learn a thing
+
+324
+00:11:27,466 --> 00:11:28,066
+like
+
+325
+00:11:28,066 --> 00:11:31,266
+let's say when I learnt react or something like that
+
+326
+00:11:31,566 --> 00:11:33,133
+like I've learnt a bunch of different tools
+
+327
+00:11:33,133 --> 00:11:36,100
+um and these tools have different tutorials
+
+328
+00:11:36,100 --> 00:11:39,100
+that you can follow and you can follow the tutorial
+
+329
+00:11:39,100 --> 00:11:40,600
+and you can stay on that golden path
+
+330
+00:11:40,600 --> 00:11:42,066
+and learn what they want you to learn
+
+331
+00:11:42,066 --> 00:11:43,333
+and you get the major concepts
+
+332
+00:11:43,333 --> 00:11:44,666
+and you get the major building blocks
+
+333
+00:11:44,666 --> 00:11:45,533
+and you're like okay cool
+
+334
+00:11:45,533 --> 00:11:47,366
+how do I get it to do this other thing
+
+335
+00:11:47,366 --> 00:11:50,166
+and then you research that and you end up learning more
+
+336
+00:11:50,166 --> 00:11:53,466
+um and you find out where you need to go deeper
+
+337
+00:11:53,500 --> 00:11:56,133
+so that's useful for me
+
+338
+00:11:56,133 --> 00:11:58,900
+but I,  I do think that books are helpful
+
+339
+00:11:58,900 --> 00:12:00,400
+in a lot of places as well
+
+340
+00:12:00,400 --> 00:12:01,700
+because it does give you a
+
+341
+00:12:01,700 --> 00:12:02,500
+a narrative flow
+
+342
+00:12:02,500 --> 00:12:04,866
+and it helps you to kind of stay on task
+
+343
+00:12:04,866 --> 00:12:06,800
+for folks who are newer to programming language
+
+344
+00:12:06,800 --> 00:12:08,133
+I would usually say like
+
+345
+00:12:08,133 --> 00:12:11,200
+find a structured resource to learn from
+
+346
+00:12:11,200 --> 00:12:14,000
+because there's just so much stuff out there
+
+347
+00:12:14,000 --> 00:12:17,200
+the signal to noise ratio is really bad
+
+348
+00:12:17,566 --> 00:12:19,966
+so if you just find like one good trusted source
+
+349
+00:12:19,966 --> 00:12:22,566
+and you use that as a starting point
+
+350
+00:12:22,566 --> 00:12:24,166
+then that's probably good yeah
+
+351
+00:12:24,166 --> 00:12:27,466
+is this why you got into teaching as well as
+
+352
+00:12:27,466 --> 00:12:28,500
+because you
+
+353
+00:12:28,500 --> 00:12:32,033
+you felt like the material out there is more noise than
+
+354
+00:12:32,200 --> 00:12:33,866
+hmm not really
+
+355
+00:12:33,866 --> 00:12:35,133
+so so even in the noise
+
+356
+00:12:35,133 --> 00:12:36,566
+there's a lot of good stuff
+
+357
+00:12:36,600 --> 00:12:37,866
+uh it's just that there's like
+
+358
+00:12:37,866 --> 00:12:38,500
+people pull
+
+359
+00:12:38,500 --> 00:12:40,666
+each other in all sorts of different directions
+
+360
+00:12:40,666 --> 00:12:41,166
+for me
+
+361
+00:12:41,166 --> 00:12:43,166
+teaching was something that I always wanted to do
+
+362
+00:12:43,166 --> 00:12:45,066
+in some way like I um
+
+363
+00:12:45,066 --> 00:12:48,066
+I've always been teaching like when I was a little kid
+
+364
+00:12:48,066 --> 00:12:51,000
+I used to teach grownups Excel skills
+
+365
+00:12:51,000 --> 00:12:54,533
+and I taught the other kids maths and tutored them
+
+366
+00:12:54,533 --> 00:12:56,100
+and I've taught people different sports
+
+367
+00:12:56,100 --> 00:12:57,800
+and it's always been a thing in my life
+
+368
+00:12:57,800 --> 00:13:00,733
+but it's not something that I like pursued as a career
+
+369
+00:13:00,733 --> 00:13:02,900
+but it's always been something that I've cared about
+
+370
+00:13:02,900 --> 00:13:04,500
+like it's always clicked with me really well
+
+371
+00:13:04,500 --> 00:13:07,166
+so I was a really awkward kid and helping people with
+
+372
+00:13:07,166 --> 00:13:09,600
+their homework was a good source of connection
+
+373
+00:13:09,766 --> 00:13:12,366
+so I think a lot of it comes from that yeah
+
+374
+00:13:12,366 --> 00:13:15,466
+then wait you did that for free um
+
+375
+00:13:15,666 --> 00:13:17,366
+some people paid me but I also just
+
+376
+00:13:17,366 --> 00:13:19,866
+you did that for free and when I was in school
+
+377
+00:13:19,866 --> 00:13:22,666
+like people and stuff sometimes yes
+
+378
+00:13:22,666 --> 00:13:26,500
+sometimes no and it depended on the situation yeah OK
+
+379
+00:13:26,500 --> 00:13:28,200
+I did it I got paid
+
+380
+00:13:28,866 --> 00:13:31,066
+so people that people become your friend
+
+381
+00:13:31,066 --> 00:13:32,866
+so they can borrow your homework
+
+382
+00:13:32,866 --> 00:13:34,633
+like the the morning
+
+383
+00:13:37,000 --> 00:13:38,000
+no no
+
+384
+00:13:38,000 --> 00:13:39,533
+no borrowing was for free
+
+385
+00:13:39,533 --> 00:13:42,966
+but I liked helping people to understand stuff um
+
+386
+00:13:42,966 --> 00:13:44,133
+that was always a thing so I
+
+387
+00:13:44,133 --> 00:13:44,533
+I didn't
+
+388
+00:13:44,533 --> 00:13:47,366
+like all my homework in exchange for friendship
+
+389
+00:13:47,400 --> 00:13:50,200
+like that would be that would be a bit sad
+
+390
+00:13:50,766 --> 00:13:52,366
+um but it was
+
+391
+00:13:52,366 --> 00:13:53,966
+it was a way to connect it's like cool
+
+392
+00:13:53,966 --> 00:13:55,700
+you you wanna get better at this thing
+
+393
+00:13:55,700 --> 00:13:57,333
+let's no doubt about it like
+
+394
+00:13:57,333 --> 00:13:58,733
+if you're teaching person a thing
+
+395
+00:13:58,733 --> 00:14:00,900
+and you really want them to understand something
+
+396
+00:14:00,933 --> 00:14:03,400
+then you have to understand them um
+
+397
+00:14:03,400 --> 00:14:05,166
+so you do build some connections there
+
+398
+00:14:05,166 --> 00:14:07,266
+and I found that a lot with my students as well
+
+399
+00:14:07,266 --> 00:14:10,233
+more recently it's like you really do
+
+400
+00:14:10,300 --> 00:14:12,700
+like you get into each other's heads a little bit
+
+401
+00:14:12,700 --> 00:14:14,166
+but back to your question about like
+
+402
+00:14:14,166 --> 00:14:15,766
+how I got into teaching
+
+403
+00:14:16,033 --> 00:14:17,533
+I've been working for a bunch of startups
+
+404
+00:14:17,533 --> 00:14:20,300
+and I was feeling thoroughly burnt out and used up
+
+405
+00:14:20,300 --> 00:14:24,000
+and I was thinking about what I really
+
+406
+00:14:24,000 --> 00:14:25,466
+wanted to do I was like I've been
+
+407
+00:14:25,466 --> 00:14:26,500
+I've been working so hard
+
+408
+00:14:26,500 --> 00:14:28,133
+chasing other people's dreams
+
+409
+00:14:28,133 --> 00:14:30,300
+and what do I want to do it's like
+
+410
+00:14:30,300 --> 00:14:33,066
+I want to make an impact on people's lives
+
+411
+00:14:33,066 --> 00:14:36,166
+and education is a really amazing way to do that
+
+412
+00:14:36,166 --> 00:14:37,766
+I mean if you think about it
+
+413
+00:14:37,766 --> 00:14:39,066
+you you just have like
+
+414
+00:14:39,066 --> 00:14:40,966
+a bunch of conversations with a person
+
+415
+00:14:40,966 --> 00:14:43,566
+and then their trajectory changes in a massive way
+
+416
+00:14:43,566 --> 00:14:45,800
+and sometimes it's not even that hard to
+
+417
+00:14:45,800 --> 00:14:49,400
+to move a people a person quite significantly
+
+418
+00:14:49,466 --> 00:14:51,166
+so I got to a point I was like cool
+
+419
+00:14:51,166 --> 00:14:52,866
+I wanna work in education
+
+420
+00:14:52,866 --> 00:14:55,200
+I want to start a code school for for women
+
+421
+00:14:55,200 --> 00:14:56,966
+I want to do this this is gonna be great
+
+422
+00:14:56,966 --> 00:14:59,000
+and then I was thinking about like okay
+
+423
+00:14:59,000 --> 00:15:00,566
+what does it take to start a code school
+
+424
+00:15:00,566 --> 00:15:02,600
+I'm going to need um
+
+425
+00:15:02,666 --> 00:15:08,200
+desks and a venue and HR and payroll and and
+
+426
+00:15:08,200 --> 00:15:09,533
+and all of these like
+
+427
+00:15:09,533 --> 00:15:11,000
+things that I'm not that interested in
+
+428
+00:15:11,000 --> 00:15:14,166
+and if you think about like the business of education
+
+429
+00:15:14,166 --> 00:15:14,800
+there's there's like
+
+430
+00:15:14,800 --> 00:15:17,800
+so much stuff that you need to do that isn't teaching
+
+431
+00:15:17,800 --> 00:15:20,300
+and so I was bashing my head on this for a while
+
+432
+00:15:20,300 --> 00:15:21,833
+but at the time I was like
+
+433
+00:15:21,833 --> 00:15:23,800
+I'm taking on like random little freelance gigs
+
+434
+00:15:23,800 --> 00:15:26,866
+and I'm just trying to get more exposure
+
+435
+00:15:26,866 --> 00:15:29,700
+so I went to a PyCon
+
+436
+00:15:30,000 --> 00:15:33,066
+a PyCon South Africa event and I ran a workshop there
+
+437
+00:15:33,066 --> 00:15:35,600
+and I I like I literally just
+
+438
+00:15:35,600 --> 00:15:37,066
+did it so that um
+
+439
+00:15:37,066 --> 00:15:38,933
+more people could see what I was about
+
+440
+00:15:38,933 --> 00:15:40,400
+I wanted more exposure
+
+441
+00:15:40,400 --> 00:15:41,733
+and I wanted to teach people a thing
+
+442
+00:15:41,733 --> 00:15:42,900
+and I wanted to learn a thing
+
+443
+00:15:42,900 --> 00:15:44,966
+so so I did that
+
+444
+00:15:45,166 --> 00:15:46,166
+now with PyCon South Africa
+
+445
+00:15:46,166 --> 00:15:47,666
+you can charge for your workshops
+
+446
+00:15:47,800 --> 00:15:49,666
+that's just how it usually goes
+
+447
+00:15:49,666 --> 00:15:52,700
+um but I decided not to charge for mine because I
+
+448
+00:15:52,700 --> 00:15:53,966
+I was just like bring more people
+
+449
+00:15:53,966 --> 00:15:55,666
+and so because my workshop was the cheapest
+
+450
+00:15:55,666 --> 00:15:57,166
+it was very full of students
+
+451
+00:15:57,200 --> 00:15:59,100
+um and hahaha
+
+452
+00:15:59,866 --> 00:16:02,500
+some of those students were from this non profit
+
+453
+00:16:02,566 --> 00:16:06,266
+coding bootcamp and they kind of swarmed me afterwards
+
+454
+00:16:06,266 --> 00:16:07,366
+and they were like this is great
+
+455
+00:16:07,366 --> 00:16:10,366
+don't you wanna come and run a workshop at our place
+
+456
+00:16:10,366 --> 00:16:12,200
+I was like okay cool
+
+457
+00:16:12,200 --> 00:16:14,100
+I'll I'll try that out for free
+
+458
+00:16:14,100 --> 00:16:16,300
+or you can charge them this time
+
+459
+00:16:17,100 --> 00:16:18,000
+no I was just like cool
+
+460
+00:16:18,000 --> 00:16:19,066
+I'll just do it for free
+
+461
+00:16:19,066 --> 00:16:21,166
+because like these people obviously don't have a lot
+
+462
+00:16:21,166 --> 00:16:22,933
+and they're obviously like really
+
+463
+00:16:22,933 --> 00:16:24,666
+really hungry to learn I'm
+
+464
+00:16:24,666 --> 00:16:26,300
+I'm a sucker for for teaching
+
+465
+00:16:26,333 --> 00:16:28,800
+so I went there and I did that
+
+466
+00:16:28,800 --> 00:16:33,800
+and I ran a couple of workshops and I got to know the
+
+467
+00:16:33,800 --> 00:16:35,000
+the people who were running the place
+
+468
+00:16:35,000 --> 00:16:38,600
+and I got to see what their education system was like
+
+469
+00:16:38,600 --> 00:16:40,766
+and it wasn't good enough
+
+470
+00:16:40,766 --> 00:16:43,266
+and so I ended up working there um
+
+471
+00:16:43,266 --> 00:16:45,100
+and eventually being their CTO
+
+472
+00:16:45,100 --> 00:16:46,666
+so I started off working part-time
+
+473
+00:16:46,666 --> 00:16:47,800
+and then ramped up and ramped
+
+474
+00:16:47,800 --> 00:16:48,566
+up and ramped up
+
+475
+00:16:48,566 --> 00:16:50,500
+and then I was just like part of the woodwork
+
+476
+00:16:50,500 --> 00:16:52,566
+so when I started working there was very um
+
+477
+00:16:52,566 --> 00:16:56,333
+it was very scrappy and I like scrappy but the
+
+478
+00:16:56,333 --> 00:16:58,600
+the syllabus itself that they were teaching wasn't it
+
+479
+00:16:58,600 --> 00:17:01,133
+it had big gaps in it it was like they'd have a
+
+480
+00:17:01,133 --> 00:17:02,366
+a couple of paragraphs to
+
+481
+00:17:02,366 --> 00:17:03,666
+to read about unit testing
+
+482
+00:17:03,666 --> 00:17:05,266
+it was like cool now you know unit testing
+
+483
+00:17:05,266 --> 00:17:06,066
+so
+
+484
+00:17:06,200 --> 00:17:09,266
+what I did was I built out some new programs for them
+
+485
+00:17:09,266 --> 00:17:12,133
+and I just kind of solidified the stuff that they had
+
+486
+00:17:12,133 --> 00:17:13,766
+and made it really really solid
+
+487
+00:17:13,900 --> 00:17:16,533
+and through doing that I learnt a lot about
+
+488
+00:17:16,533 --> 00:17:18,700
+about teaching and about brains and about like
+
+489
+00:17:18,700 --> 00:17:21,300
+how to teach the basics of Python and other languages
+
+490
+00:17:21,300 --> 00:17:24,366
+there was Javascript there as well and that was cool
+
+491
+00:17:24,366 --> 00:17:26,166
+and then CoVid happened haha
+
+492
+00:17:26,366 --> 00:17:27,500
+so um
+
+493
+00:17:27,500 --> 00:17:31,033
+we we were originally an on premises training provider
+
+494
+00:17:31,100 --> 00:17:31,400
+um
+
+495
+00:17:31,400 --> 00:17:35,833
+and we had about 250 students working in this converted
+
+496
+00:17:35,866 --> 00:17:38,000
+underground parking lot basically
+
+497
+00:17:38,100 --> 00:17:39,400
+we had this apartment building
+
+498
+00:17:39,400 --> 00:17:41,600
+and then there was a parking lot and like a
+
+499
+00:17:41,900 --> 00:17:43,666
+another parking lot with natural light
+
+500
+00:17:43,666 --> 00:17:45,700
+and we converted that into studios
+
+501
+00:17:45,700 --> 00:17:48,600
+um and so we had like all these students in there
+
+502
+00:17:48,600 --> 00:17:50,666
+and we helped them out with cheap accommodation
+
+503
+00:17:50,666 --> 00:17:51,866
+around the building as well
+
+504
+00:17:51,866 --> 00:17:53,200
+and then when Covid happened
+
+505
+00:17:53,200 --> 00:17:54,533
+we had to send everybody home
+
+506
+00:17:54,533 --> 00:17:56,466
+but we had to keep supporting them as well
+
+507
+00:17:56,466 --> 00:17:59,333
+so ended up building a whole lot of um
+
+508
+00:17:59,333 --> 00:18:01,500
+tooling to help with remote teaching
+
+509
+00:18:01,500 --> 00:18:02,866
+and it worked super super well
+
+510
+00:18:02,866 --> 00:18:04,066
+and again like
+
+511
+00:18:04,066 --> 00:18:05,900
+Learned a ton about just like
+
+512
+00:18:05,900 --> 00:18:08,966
+how to keep people motivated and connected remotely
+
+513
+00:18:08,966 --> 00:18:09,700
+yeah that's
+
+514
+00:18:09,700 --> 00:18:11,600
+that changed my life and trajectory
+
+515
+00:18:11,600 --> 00:18:13,533
+I think I can totally relate to that
+
+516
+00:18:13,533 --> 00:18:16,100
+I think I was also working at a boot camp school
+
+517
+00:18:16,100 --> 00:18:18,366
+right before Covid and then during Covid
+
+518
+00:18:18,366 --> 00:18:19,700
+and I also had like
+
+519
+00:18:19,700 --> 00:18:22,600
+a lot of lessons Learned already from my previous job
+
+520
+00:18:22,600 --> 00:18:25,400
+when we had a team in Berlin and a team in Hamburg
+
+521
+00:18:25,400 --> 00:18:27,666
+and we were trying to kind of work hybrid
+
+522
+00:18:27,666 --> 00:18:31,366
+which was always a mess and so I
+
+523
+00:18:31,400 --> 00:18:32,666
+I was like yeah
+
+524
+00:18:32,666 --> 00:18:34,533
+that thing where five people are in the room
+
+525
+00:18:34,533 --> 00:18:35,933
+and five people are at home
+
+526
+00:18:35,933 --> 00:18:37,500
+is not working out very well either
+
+527
+00:18:37,500 --> 00:18:38,800
+everybody's at home
+
+528
+00:18:39,933 --> 00:18:40,766
+yeah yeah
+
+529
+00:18:40,766 --> 00:18:42,600
+we didn't do hybrid do you think like
+
+530
+00:18:42,600 --> 00:18:43,733
+cause you said that like
+
+531
+00:18:43,733 --> 00:18:46,800
+the biggest change is that you give this workshop in uh
+
+532
+00:18:46,800 --> 00:18:49,400
+PyCon South Africa so do you think yeah
+
+533
+00:18:49,466 --> 00:18:52,166
+the community kind of changed your life in some way
+
+534
+00:18:52,766 --> 00:18:53,700
+oh yeah
+
+535
+00:18:53,700 --> 00:18:54,800
+yeah many times over
+
+536
+00:18:54,800 --> 00:18:56,966
+so there was that one that was very impactful
+
+537
+00:18:56,966 --> 00:18:59,366
+a couple of years later just like on a whim
+
+538
+00:18:59,366 --> 00:19:01,100
+I was like let's see if there are any
+
+539
+00:19:01,100 --> 00:19:03,266
+international conferences that I can maybe get to
+
+540
+00:19:03,266 --> 00:19:06,733
+and my first international conference was a Django con
+
+541
+00:19:06,733 --> 00:19:07,200
+US
+
+542
+00:19:07,200 --> 00:19:09,666
+I applied and I asked for a grant and I was just like
+
+543
+00:19:09,666 --> 00:19:10,800
+probably nothing will come of
+
+544
+00:19:10,800 --> 00:19:14,666
+this that I got to go and that's where I met um
+
+545
+00:19:14,666 --> 00:19:17,100
+a bunch of the Django Con Africa folks
+
+546
+00:19:17,100 --> 00:19:19,533
+and that was also impactful
+
+547
+00:19:19,533 --> 00:19:22,066
+and I met a lot of other people there that I
+
+548
+00:19:22,066 --> 00:19:23,166
+connected with quite well
+
+549
+00:19:23,166 --> 00:19:24,666
+and I'm like friends with
+
+550
+00:19:24,666 --> 00:19:26,300
+and they've supported me in a bunch of
+
+551
+00:19:26,300 --> 00:19:27,466
+the things that I've been doing
+
+552
+00:19:27,466 --> 00:19:30,600
+and I support and I support them where I can as well
+
+553
+00:19:30,800 --> 00:19:33,900
+meeting the Django Con Africa people was lovely
+
+554
+00:19:33,900 --> 00:19:36,700
+I I helped organise the first Django Con Africa
+
+555
+00:19:36,700 --> 00:19:38,866
+that was in Tanzania in Zanzibar
+
+556
+00:19:38,866 --> 00:19:42,833
+which is epic and um yeah
+
+557
+00:19:42,866 --> 00:19:45,400
+met some amazing people there again and it
+
+558
+00:19:45,400 --> 00:19:47,200
+it sort of snowballed from there
+
+559
+00:19:47,200 --> 00:19:51,000
+so now I speak at a lot of international conferences um
+
+560
+00:19:51,100 --> 00:19:52,600
+I've been asked to keynote
+
+561
+00:19:52,600 --> 00:19:54,200
+in all sorts of fancy places
+
+562
+00:19:54,200 --> 00:19:55,733
+which has been epic as well
+
+563
+00:19:55,733 --> 00:19:57,933
+and I've learnt a lot like
+
+564
+00:19:57,933 --> 00:19:59,566
+I've learnt about different
+
+565
+00:19:59,566 --> 00:20:02,500
+tools and technologies that have changed my opinion of
+
+566
+00:20:02,500 --> 00:20:02,933
+like
+
+567
+00:20:02,933 --> 00:20:05,333
+what is worth focusing on and what is worth teaching
+
+568
+00:20:05,333 --> 00:20:08,033
+and what I recommend to organizations
+
+569
+00:20:08,300 --> 00:20:10,300
+so that's been really good and impactful
+
+570
+00:20:10,333 --> 00:20:12,666
+and some of the connections
+
+571
+00:20:12,666 --> 00:20:14,266
+that I've made there as well have been good
+
+572
+00:20:14,266 --> 00:20:18,000
+so like networking like business networking
+
+573
+00:20:18,000 --> 00:20:18,900
+can sometimes feel
+
+574
+00:20:18,900 --> 00:20:22,600
+a little bit slimy in different ways but um
+
+575
+00:20:22,766 --> 00:20:24,933
+it's been a really good networking opportunity
+
+576
+00:20:24,933 --> 00:20:27,066
+so I go to these different conferences
+
+577
+00:20:27,066 --> 00:20:29,166
+and I try to talk to as many people as I can
+
+578
+00:20:29,166 --> 00:20:30,966
+and I try to add value and
+
+579
+00:20:30,966 --> 00:20:33,100
+I try to connect people with other people
+
+580
+00:20:33,100 --> 00:20:34,666
+and join different dots
+
+581
+00:20:34,666 --> 00:20:37,400
+and it's an experience every time
+
+582
+00:20:37,400 --> 00:20:39,866
+it's very stimulating and I learn a bunch every time
+
+583
+00:20:39,866 --> 00:20:41,500
+but some pretty good opportunities
+
+584
+00:20:41,500 --> 00:20:42,600
+have come out of it as well
+
+585
+00:20:42,600 --> 00:20:44,933
+so I would say that yeah
+
+586
+00:20:44,933 --> 00:20:47,300
+Python conferences have changed my life
+
+587
+00:20:47,300 --> 00:20:48,600
+it's been very very good
+
+588
+00:20:48,600 --> 00:20:50,766
+oh it's good to hear that cause um
+
+589
+00:20:50,766 --> 00:20:53,033
+I feel the same so yeah
+
+590
+00:20:54,733 --> 00:20:57,400
+that's great how did they change your life
+
+591
+00:20:58,100 --> 00:20:58,666
+well I mean
+
+592
+00:20:58,666 --> 00:21:00,366
+this is your podcast so
+
+593
+00:21:00,366 --> 00:21:02,566
+I would wait until I got to be
+
+594
+00:21:02,566 --> 00:21:04,200
+a guest in another podcast
+
+595
+00:21:05,566 --> 00:21:06,100
+OK I'll
+
+596
+00:21:06,100 --> 00:21:07,966
+I'll invite you to something haha
+
+597
+00:21:08,533 --> 00:21:08,733
+yeah
+
+598
+00:21:08,733 --> 00:21:11,766
+I think nobody knows Cheuk when they go to a conference
+
+599
+00:21:11,766 --> 00:21:13,100
+and everybody's like oh
+
+600
+00:21:13,100 --> 00:21:15,666
+who's Cheuk no yeah nobody yeah
+
+601
+00:21:17,700 --> 00:21:20,900
+so I like to always also ask something about
+
+602
+00:21:20,900 --> 00:21:23,900
+what do you do besides Python and teaching
+
+603
+00:21:23,900 --> 00:21:25,866
+and do you mean like uh
+
+604
+00:21:26,400 --> 00:21:28,366
+hobbies and fun stuff or I don't know
+
+605
+00:21:28,366 --> 00:21:31,733
+is it hobbies or is that another passion that you have
+
+606
+00:21:31,733 --> 00:21:34,133
+depends on the level of involvement
+
+607
+00:21:34,133 --> 00:21:35,333
+I guess yeah
+
+608
+00:21:35,333 --> 00:21:37,000
+so I do have different passions
+
+609
+00:21:37,000 --> 00:21:40,300
+um Python is a thing that takes up a lot of my time
+
+610
+00:21:40,300 --> 00:21:42,333
+teaching in general takes up a lot of my time
+
+611
+00:21:42,333 --> 00:21:44,300
+the non python stuff is soft skills
+
+612
+00:21:44,300 --> 00:21:46,466
+so I do train people in in different soft skills
+
+613
+00:21:46,466 --> 00:21:50,033
+so one of the products that I have at the moment is
+
+614
+00:21:50,200 --> 00:21:52,600
+it's for helping teams become better teams
+
+615
+00:21:52,733 --> 00:21:53,866
+um so basically what
+
+616
+00:21:53,866 --> 00:21:56,200
+I do is I go and um
+
+617
+00:21:56,200 --> 00:21:57,300
+like if there's a team that's
+
+618
+00:21:57,300 --> 00:21:59,200
+that's struggling to team in some way
+
+619
+00:21:59,300 --> 00:22:01,666
+then I will gather a bunch of information
+
+620
+00:22:01,666 --> 00:22:02,733
+and do a bunch of surveys
+
+621
+00:22:02,733 --> 00:22:06,000
+and talk to people in the team and their leadership
+
+622
+00:22:06,000 --> 00:22:06,933
+and figure out like
+
+623
+00:22:06,933 --> 00:22:08,733
+what's actually going wrong or
+
+624
+00:22:08,733 --> 00:22:10,000
+and what's going right as well
+
+625
+00:22:10,000 --> 00:22:12,200
+because often a lot of things are going right
+
+626
+00:22:12,366 --> 00:22:14,366
+they can be amplified um
+
+627
+00:22:14,366 --> 00:22:15,566
+often there's like weird
+
+628
+00:22:15,566 --> 00:22:17,333
+structural issues that have
+
+629
+00:22:17,333 --> 00:22:18,933
+strange pitfalls and side effects
+
+630
+00:22:18,933 --> 00:22:20,533
+that people aren't fully aware of
+
+631
+00:22:20,533 --> 00:22:20,900
+sometimes
+
+632
+00:22:20,900 --> 00:22:22,700
+there's some cultural differences within the team
+
+633
+00:22:22,700 --> 00:22:23,766
+there's like all sorts of weird
+
+634
+00:22:23,766 --> 00:22:25,000
+complicated things that happen
+
+635
+00:22:25,000 --> 00:22:27,266
+and then based on that I come up with
+
+636
+00:22:27,266 --> 00:22:28,200
+like a course
+
+637
+00:22:28,266 --> 00:22:29,466
+specifically for that team
+
+638
+00:22:29,466 --> 00:22:30,133
+that covers
+
+639
+00:22:30,133 --> 00:22:32,000
+different skills that they are likely to need
+
+640
+00:22:32,166 --> 00:22:34,533
+but it's not really like
+
+641
+00:22:34,533 --> 00:22:37,466
+you can't just tell a person how to be a good teammate
+
+642
+00:22:37,466 --> 00:22:38,966
+and then they go and be a good teammate
+
+643
+00:22:38,966 --> 00:22:39,900
+it doesn't work like that
+
+644
+00:22:39,900 --> 00:22:42,366
+because a lot of things are down to
+
+645
+00:22:42,466 --> 00:22:44,200
+habits and small changes
+
+646
+00:22:44,200 --> 00:22:47,000
+and that's not something you can just do once off
+
+647
+00:22:47,000 --> 00:22:50,066
+so these courses typically take a while
+
+648
+00:22:50,066 --> 00:22:53,200
+so I'm running a 12 week week course at the moment
+
+649
+00:22:53,433 --> 00:22:55,900
+and I'm not seeing everybody every week or every day
+
+650
+00:22:55,900 --> 00:22:58,166
+like I'm seeing them once every two weeks basically
+
+651
+00:22:58,666 --> 00:23:01,400
+like on average but then between that time
+
+652
+00:23:01,400 --> 00:23:04,900
+they are given different challenges and exercises
+
+653
+00:23:04,966 --> 00:23:06,533
+that help them to team better
+
+654
+00:23:06,533 --> 00:23:07,533
+and yeah it's
+
+655
+00:23:07,533 --> 00:23:09,333
+it's been really really good
+
+656
+00:23:09,333 --> 00:23:11,166
+so as of my other
+
+657
+00:23:11,366 --> 00:23:13,900
+a strong interest is organizational psychology
+
+658
+00:23:13,900 --> 00:23:16,466
+and just like how to be a good teammate
+
+659
+00:23:16,700 --> 00:23:18,300
+and do people follow through
+
+660
+00:23:18,566 --> 00:23:21,266
+so it's it's tricky
+
+661
+00:23:21,266 --> 00:23:22,533
+um a lot of people do
+
+662
+00:23:22,533 --> 00:23:23,500
+some people don't
+
+663
+00:23:23,500 --> 00:23:26,866
+whenever you run like training for a corporate
+
+664
+00:23:27,000 --> 00:23:28,966
+where your uh
+
+665
+00:23:28,966 --> 00:23:29,500
+where the training
+
+666
+00:23:29,500 --> 00:23:31,900
+participants have been told to be there
+
+667
+00:23:32,133 --> 00:23:34,466
+then like there will be resistance
+
+668
+00:23:34,666 --> 00:23:36,300
+especially if they've been told to be there
+
+669
+00:23:36,300 --> 00:23:36,933
+because it's like
+
+670
+00:23:36,933 --> 00:23:38,466
+you're going to be a better teammate now
+
+671
+00:23:38,466 --> 00:23:40,700
+ha ha like you need some soft skills
+
+672
+00:23:40,733 --> 00:23:43,300
+like people don't always receive that very well um
+
+673
+00:23:43,300 --> 00:23:44,566
+and so yeah
+
+674
+00:23:44,566 --> 00:23:46,300
+there's a couple of different ways to get buy in
+
+675
+00:23:46,400 --> 00:23:48,600
+and buying is so so important
+
+676
+00:23:48,600 --> 00:23:50,733
+like one of the biggest challenges
+
+677
+00:23:50,733 --> 00:23:52,966
+of adult education is motivation
+
+678
+00:23:52,966 --> 00:23:54,066
+and focus cause
+
+679
+00:23:54,066 --> 00:23:55,666
+there's so many different things that take our
+
+680
+00:23:55,666 --> 00:23:57,166
+attention and want our attention
+
+681
+00:23:57,166 --> 00:24:00,433
+and many of these things are very important and um
+
+682
+00:24:00,533 --> 00:24:02,833
+sometimes you just don't want to learn the thing
+
+683
+00:24:02,900 --> 00:24:03,666
+so
+
+684
+00:24:03,666 --> 00:24:07,800
+what I do is I try to make the training hyper relevant
+
+685
+00:24:07,800 --> 00:24:11,300
+so I find out from the individuals in the team
+
+686
+00:24:11,300 --> 00:24:13,200
+what they want what problems they see
+
+687
+00:24:13,200 --> 00:24:14,400
+what good they want to grow
+
+688
+00:24:14,400 --> 00:24:17,866
+and then I frame things in a way that shows them like
+
+689
+00:24:17,866 --> 00:24:19,566
+cool these things that you want
+
+690
+00:24:19,566 --> 00:24:21,100
+we're actually gonna cover that
+
+691
+00:24:21,100 --> 00:24:22,733
+and this thing that I was gonna cover
+
+692
+00:24:22,733 --> 00:24:24,966
+I can tweak it so it covers this other thing that that
+
+693
+00:24:24,966 --> 00:24:25,900
+you're interested in
+
+694
+00:24:25,900 --> 00:24:27,633
+and so that's part of it is just like
+
+695
+00:24:27,733 --> 00:24:29,966
+like actually being direct about like cool
+
+696
+00:24:29,966 --> 00:24:32,666
+I'm gonna give you what you want to some extent
+
+697
+00:24:32,666 --> 00:24:34,000
+to some reasonable extent
+
+698
+00:24:34,166 --> 00:24:36,166
+then the other thing is
+
+699
+00:24:36,300 --> 00:24:38,333
+showing people that by taking part in the training
+
+700
+00:24:38,333 --> 00:24:40,333
+they can actually support each other's growth
+
+701
+00:24:40,333 --> 00:24:42,266
+so sometimes you'll get people who show up who are like
+
+702
+00:24:42,266 --> 00:24:43,066
+yeah I don't need this
+
+703
+00:24:43,066 --> 00:24:45,166
+like I'm a great team player always
+
+704
+00:24:45,166 --> 00:24:47,566
+and I don't need this but those other guys need this
+
+705
+00:24:47,566 --> 00:24:49,733
+so for those people you can say cool
+
+706
+00:24:49,733 --> 00:24:52,766
+like your voice is actually really useful here
+
+707
+00:24:52,766 --> 00:24:54,766
+because you clearly know some stuff
+
+708
+00:24:54,866 --> 00:24:57,066
+you can help to direct this training
+
+709
+00:24:57,066 --> 00:25:00,200
+like you your input is going to be useful to the people
+
+710
+00:25:00,200 --> 00:25:02,166
+around you so that's helpful
+
+711
+00:25:02,166 --> 00:25:04,033
+so so far I haven't
+
+712
+00:25:04,100 --> 00:25:06,400
+so like with with the course I'm running at the moment
+
+713
+00:25:06,400 --> 00:25:10,100
+um there's about 30 people and they're very
+
+714
+00:25:10,100 --> 00:25:11,366
+very multicultural
+
+715
+00:25:11,366 --> 00:25:13,366
+and it's a very complicated team structure
+
+716
+00:25:13,366 --> 00:25:15,700
+if you're familiar with the team topologies book
+
+717
+00:25:15,766 --> 00:25:18,600
+so I read so I don't read a lot of programming books
+
+718
+00:25:18,600 --> 00:25:21,266
+but I read a lot of life business books and like
+
+719
+00:25:21,266 --> 00:25:22,133
+structure books
+
+720
+00:25:22,133 --> 00:25:26,466
+but Team Topologies is kind of a book about like
+
+721
+00:25:26,466 --> 00:25:28,666
+design patterns for organizing teams
+
+722
+00:25:28,666 --> 00:25:30,633
+in complicated organizations
+
+723
+00:25:30,933 --> 00:25:33,800
+and they've got a bunch of different um configurations
+
+724
+00:25:33,800 --> 00:25:35,066
+so like sometimes
+
+725
+00:25:35,066 --> 00:25:37,700
+you'll have a team that's focused on a specific project
+
+726
+00:25:37,700 --> 00:25:40,466
+or a specific like type of work um
+
+727
+00:25:40,466 --> 00:25:42,366
+and sometimes you'll have a team
+
+728
+00:25:42,366 --> 00:25:45,500
+that is actually distributed in different ways like um
+
+729
+00:25:45,566 --> 00:25:47,566
+you get this thing called an enabling team
+
+730
+00:25:47,566 --> 00:25:49,033
+and an enabling team
+
+731
+00:25:49,100 --> 00:25:52,000
+like they're kind of like a guild and they
+
+732
+00:25:52,000 --> 00:25:53,133
+they level up their skills
+
+733
+00:25:53,133 --> 00:25:54,200
+and they level up their tools
+
+734
+00:25:54,200 --> 00:25:56,733
+but then the individual members will go and
+
+735
+00:25:56,733 --> 00:25:59,266
+help other teams level up in the same way
+
+736
+00:25:59,266 --> 00:26:02,366
+so it's about enabling different projects so um
+
+737
+00:26:02,366 --> 00:26:03,866
+the team that I'm working with is something
+
+738
+00:26:03,866 --> 00:26:04,933
+like an enabling team
+
+739
+00:26:04,933 --> 00:26:06,500
+and something like a platform team
+
+740
+00:26:06,500 --> 00:26:07,066
+and so
+
+741
+00:26:07,066 --> 00:26:10,266
+it's just like a really weird structure to work in
+
+742
+00:26:10,266 --> 00:26:12,166
+so it's kind of like a data team right
+
+743
+00:26:12,500 --> 00:26:13,100
+yeah yeah
+
+744
+00:26:13,100 --> 00:26:14,766
+kind of like a data team kind of like
+
+745
+00:26:14,766 --> 00:26:16,766
+like if you imagine a big organization
+
+746
+00:26:16,766 --> 00:26:18,300
+that has lots of software projects
+
+747
+00:26:18,300 --> 00:26:21,666
+and then you have a security team just handle security
+
+748
+00:26:21,666 --> 00:26:23,566
+like imagine how they would need to work
+
+749
+00:26:23,666 --> 00:26:24,266
+like they
+
+750
+00:26:24,266 --> 00:26:26,400
+they can't go and fix all the problems themselves
+
+751
+00:26:26,400 --> 00:26:28,400
+but they can kind of build a
+
+752
+00:26:28,400 --> 00:26:31,600
+a paved road that other like project like
+
+753
+00:26:31,600 --> 00:26:33,133
+um product specific teams can
+
+754
+00:26:33,133 --> 00:26:36,033
+can walk along and they can go and share skills
+
+755
+00:26:36,266 --> 00:26:37,866
+and they can define like uh
+
+756
+00:26:37,866 --> 00:26:42,366
+maturity levels for different projects and just kind of
+
+757
+00:26:42,466 --> 00:26:45,066
+um put ownership of quality on other people
+
+758
+00:26:45,066 --> 00:26:48,300
+but still keep an eye on things and maintain that level
+
+759
+00:26:48,300 --> 00:26:49,533
+so so yeah
+
+760
+00:26:49,533 --> 00:26:50,800
+it's been it's been interesting
+
+761
+00:26:50,800 --> 00:26:52,866
+I just wanted to say that it's kind of the same
+
+762
+00:26:52,866 --> 00:26:54,466
+it reminds me of uh
+
+763
+00:26:54,600 --> 00:26:57,166
+when we were at work and we were always saying
+
+764
+00:26:57,166 --> 00:26:58,333
+we don't need a retrospective
+
+765
+00:26:58,333 --> 00:26:59,900
+this month or this two week
+
+766
+00:26:59,900 --> 00:27:01,100
+like this time you know
+
+767
+00:27:01,100 --> 00:27:02,500
+we have no problems you know
+
+768
+00:27:02,500 --> 00:27:03,466
+everything is fine
+
+769
+00:27:03,466 --> 00:27:06,066
+and then you do a retrospective and then it's like ah
+
+770
+00:27:07,266 --> 00:27:10,133
+one hour was not enough that's like yeah
+
+771
+00:27:10,133 --> 00:27:12,333
+to talk about all the things that
+
+772
+00:27:12,333 --> 00:27:14,500
+we have no problem with yeah
+
+773
+00:27:14,766 --> 00:27:16,433
+yes yeah
+
+774
+00:27:17,366 --> 00:27:18,933
+often I find that well
+
+775
+00:27:18,933 --> 00:27:20,666
+there's this exercise that I'm doing with
+
+776
+00:27:20,666 --> 00:27:22,200
+with this team in in particular
+
+777
+00:27:22,200 --> 00:27:24,733
+like we're we're talking about different concepts
+
+778
+00:27:24,733 --> 00:27:25,500
+and why they matter
+
+779
+00:27:25,500 --> 00:27:27,166
+like why psychological safety matters
+
+780
+00:27:27,166 --> 00:27:28,466
+why dependability matters
+
+781
+00:27:28,466 --> 00:27:30,666
+and how these things are related and things like that
+
+782
+00:27:30,666 --> 00:27:33,700
+but then an exercise that I do with people is um
+
+783
+00:27:34,000 --> 00:27:35,800
+Kaizen thing um
+
+784
+00:27:35,800 --> 00:27:37,633
+so Kaizen is a
+
+785
+00:27:38,000 --> 00:27:41,800
+like a Japanese business philosophy thing about um
+
+786
+00:27:41,800 --> 00:27:44,733
+making small changes and you can make
+
+787
+00:27:44,733 --> 00:27:46,933
+like tiny improvements to how you work
+
+788
+00:27:46,933 --> 00:27:48,200
+and those tiny improvements
+
+789
+00:27:48,200 --> 00:27:49,533
+even if they seem insignificant
+
+790
+00:27:49,533 --> 00:27:51,200
+they add up and they can do big things
+
+791
+00:27:51,200 --> 00:27:53,000
+so then people come up with their own
+
+792
+00:27:53,000 --> 00:27:55,333
+little improvements that they want to make
+
+793
+00:27:55,333 --> 00:27:57,333
+and they commit to it in a public way
+
+794
+00:27:57,333 --> 00:27:59,266
+and then they go and they do those things
+
+795
+00:27:59,600 --> 00:28:01,266
+and coupled with that I
+
+796
+00:28:01,266 --> 00:28:04,066
+I get folks to pay attention to each other
+
+797
+00:28:04,066 --> 00:28:06,066
+and try to notice the good things that are happening
+
+798
+00:28:06,066 --> 00:28:06,800
+so that they can say like
+
+799
+00:28:06,800 --> 00:28:08,100
+hey I saw you do this good thing
+
+800
+00:28:08,100 --> 00:28:09,066
+well done and that's been
+
+801
+00:28:09,066 --> 00:28:10,800
+really really cool so like
+
+802
+00:28:10,800 --> 00:28:12,700
+here's an example of a small kaizen
+
+803
+00:28:12,733 --> 00:28:14,433
+thing that a person can do
+
+804
+00:28:14,500 --> 00:28:17,800
+so one of the people in the team was like
+
+805
+00:28:17,800 --> 00:28:19,800
+every time I go to a stand up in the morning
+
+806
+00:28:19,800 --> 00:28:21,933
+I feel really anxious and then I
+
+807
+00:28:21,933 --> 00:28:23,966
+I go into the stand up and I just like
+
+808
+00:28:23,966 --> 00:28:26,233
+waffle and ramble and
+
+809
+00:28:26,300 --> 00:28:28,166
+and then I just feel bad it's like okay
+
+810
+00:28:28,166 --> 00:28:29,366
+how are we going to solve this
+
+811
+00:28:29,366 --> 00:28:30,933
+um we'll solve it by spending like
+
+812
+00:28:30,933 --> 00:28:32,533
+five to 10 minutes before the stand up
+
+813
+00:28:32,533 --> 00:28:33,933
+just thinking about what I'm gonna say
+
+814
+00:28:33,933 --> 00:28:35,400
+and it's like this really
+
+815
+00:28:35,400 --> 00:28:36,900
+really small thing that you can do
+
+816
+00:28:36,900 --> 00:28:39,400
+but then she goes to her stand up and she's prepared
+
+817
+00:28:39,400 --> 00:28:40,966
+she's not anxious um
+
+818
+00:28:40,966 --> 00:28:42,700
+she's more able to pay attention to the people
+
+819
+00:28:42,700 --> 00:28:43,600
+around her cause
+
+820
+00:28:43,766 --> 00:28:45,300
+because she's not caught up in her
+
+821
+00:28:45,300 --> 00:28:48,800
+internal anxiety loops and the rest of the team
+
+822
+00:28:48,800 --> 00:28:51,800
+get better clarity on her tasks and what she needs
+
+823
+00:28:51,800 --> 00:28:55,733
+and so they're more able to help her um
+
+824
+00:28:55,733 --> 00:28:57,400
+they're more able to focus on her stuff
+
+825
+00:28:57,400 --> 00:28:57,933
+and they're
+
+826
+00:28:57,933 --> 00:28:59,966
+more able to have space to talk about their stuff
+
+827
+00:28:59,966 --> 00:29:01,133
+so it's like this little
+
+828
+00:29:01,133 --> 00:29:03,366
+tiny thing with potentially a big impact
+
+829
+00:29:03,366 --> 00:29:05,300
+and there's loads of things like that
+
+830
+00:29:05,300 --> 00:29:07,333
+like lots and lots yeah
+
+831
+00:29:07,333 --> 00:29:08,966
+so I have a question for you
+
+832
+00:29:08,966 --> 00:29:10,900
+so if you have to choose right
+
+833
+00:29:10,900 --> 00:29:12,866
+you can either work with Python
+
+834
+00:29:12,866 --> 00:29:15,466
+the programming language or so either
+
+835
+00:29:15,466 --> 00:29:18,900
+or you can do both or people what
+
+836
+00:29:18,900 --> 00:29:20,666
+would you choose hi
+
+837
+00:29:20,800 --> 00:29:25,133
+so actually like so I love Python so much
+
+838
+00:29:25,133 --> 00:29:26,700
+but I think actually people
+
+839
+00:29:26,700 --> 00:29:30,666
+and the reason I say that is because in the end
+
+840
+00:29:30,666 --> 00:29:32,266
+like if you wanna build something big
+
+841
+00:29:32,266 --> 00:29:34,166
+it's a it's a team sport like if you're
+
+842
+00:29:34,166 --> 00:29:35,966
+if you're just working by yourself on something
+
+843
+00:29:35,966 --> 00:29:37,700
+like you can do some pretty epic things
+
+844
+00:29:37,700 --> 00:29:38,933
+but the
+
+845
+00:29:38,933 --> 00:29:40,366
+most impressive things are generally
+
+846
+00:29:40,366 --> 00:29:41,700
+done by teams of people
+
+847
+00:29:41,700 --> 00:29:44,966
+and getting people to team well is like
+
+848
+00:29:45,000 --> 00:29:46,333
+there's just so much to be unlocked
+
+849
+00:29:46,333 --> 00:29:47,900
+there's so much leverage to be added
+
+850
+00:29:47,900 --> 00:29:50,766
+people sometimes talk about 10 x developers
+
+851
+00:29:50,766 --> 00:29:51,400
+and stuff like that
+
+852
+00:29:51,400 --> 00:29:53,066
+it's very hard to make a 10 x developer
+
+853
+00:29:53,066 --> 00:29:54,766
+it's very hard to be a 10 x developer
+
+854
+00:29:54,766 --> 00:29:56,666
+it's very hard to find a 10 x developer
+
+855
+00:29:56,666 --> 00:29:58,300
+but you can take a team and make it
+
+856
+00:29:58,300 --> 00:29:59,500
+make it like a 10 x team
+
+857
+00:29:59,500 --> 00:30:02,700
+and it's not actually that bad to do like it's like
+
+858
+00:30:02,700 --> 00:30:05,166
+it's generally like it like
+
+859
+00:30:05,166 --> 00:30:07,266
+if you just look at it with the right lens
+
+860
+00:30:07,566 --> 00:30:11,733
+and get people to be motivated to make small changes
+
+861
+00:30:11,733 --> 00:30:13,366
+you can do some amazing things
+
+862
+00:30:13,366 --> 00:30:17,100
+and you don't necessarily need to stop at 10 x either
+
+863
+00:30:17,300 --> 00:30:18,200
+so that's part of it
+
+864
+00:30:18,200 --> 00:30:20,066
+and then the other part of it is like
+
+865
+00:30:20,066 --> 00:30:21,800
+LLMs are changing a lot of things
+
+866
+00:30:21,800 --> 00:30:25,966
+and they are adding a lot of leverage to programmers
+
+867
+00:30:26,000 --> 00:30:28,733
+and they are also they're changing the landscape in
+
+868
+00:30:28,733 --> 00:30:30,066
+in a lot of different ways
+
+869
+00:30:30,300 --> 00:30:32,700
+but people are getting to a point where
+
+870
+00:30:32,700 --> 00:30:35,966
+we're realizing what the uniquely human skills are
+
+871
+00:30:35,966 --> 00:30:38,566
+and if we can grow those human skills
+
+872
+00:30:38,600 --> 00:30:41,400
+then that's great so I think that there yeah
+
+873
+00:30:41,400 --> 00:30:43,666
+I think that there's a lot of space for just like
+
+874
+00:30:43,666 --> 00:30:45,900
+growing individual people in
+
+875
+00:30:45,900 --> 00:30:47,266
+in how they interact with one another
+
+876
+00:30:47,266 --> 00:30:48,133
+I think that's a good call
+
+877
+00:30:48,133 --> 00:30:49,900
+because I think a lot of developers
+
+878
+00:30:49,900 --> 00:30:53,266
+doesn't put that much emphasis on the people element
+
+879
+00:30:53,266 --> 00:30:55,266
+that can really help their career
+
+880
+00:30:55,266 --> 00:30:56,266
+but they just overlook it
+
+881
+00:30:56,266 --> 00:30:57,300
+they just thought like if
+
+882
+00:30:57,300 --> 00:30:58,600
+if I'm become quote unquote
+
+883
+00:30:58,600 --> 00:31:01,800
+the best developer I don't know how you quantified it
+
+884
+00:31:01,800 --> 00:31:03,933
+but like that I would be you know
+
+885
+00:31:03,933 --> 00:31:06,200
+I would do really well in my career
+
+886
+00:31:06,200 --> 00:31:08,566
+but I guess there are a lot of
+
+887
+00:31:08,566 --> 00:31:11,300
+people element in it that developers overlook
+
+888
+00:31:11,800 --> 00:31:13,733
+yeah I think that works up to a point
+
+889
+00:31:13,733 --> 00:31:14,933
+and then after that point
+
+890
+00:31:14,933 --> 00:31:18,633
+you are like you need to work with other people
+
+891
+00:31:18,766 --> 00:31:21,800
+um a metaphor I really like is soccer
+
+892
+00:31:21,800 --> 00:31:22,766
+um or football
+
+893
+00:31:22,766 --> 00:31:24,066
+depending on where you're from
+
+894
+00:31:24,100 --> 00:31:24,666
+your
+
+895
+00:31:24,666 --> 00:31:27,133
+individual skills as a soccer player really matter
+
+896
+00:31:27,133 --> 00:31:30,300
+quite a lot but most of the game of soccer
+
+897
+00:31:30,300 --> 00:31:31,866
+like if you watch people practice
+
+898
+00:31:31,966 --> 00:31:33,000
+like practice soccer
+
+899
+00:31:33,000 --> 00:31:36,300
+a lot of emphasis is placed on passing the ball really
+
+900
+00:31:36,300 --> 00:31:39,833
+really well and that means setting the person up for
+
+901
+00:31:39,866 --> 00:31:41,266
+the next person up for success
+
+902
+00:31:41,266 --> 00:31:42,500
+and that means
+
+903
+00:31:42,533 --> 00:31:45,066
+also being aware of what other people are doing
+
+904
+00:31:45,066 --> 00:31:46,966
+like you need that that context
+
+905
+00:31:47,133 --> 00:31:48,133
+and so that means paying
+
+906
+00:31:48,133 --> 00:31:50,166
+attention to things outside of your little bubble
+
+907
+00:31:50,166 --> 00:31:52,766
+but it also means just taking
+
+908
+00:31:52,766 --> 00:31:55,000
+care as you craft different things
+
+909
+00:31:55,000 --> 00:31:58,166
+so let's think about a pull request as a
+
+910
+00:31:58,166 --> 00:31:59,766
+as a ball passing moment like
+
+911
+00:31:59,766 --> 00:32:01,166
+how can you craft a pull request
+
+912
+00:32:01,166 --> 00:32:03,233
+to set the next person up for success
+
+913
+00:32:03,366 --> 00:32:05,400
+like make it clear and specific
+
+914
+00:32:05,400 --> 00:32:08,566
+and don't do a million different things at once
+
+915
+00:32:08,566 --> 00:32:10,566
+don't make it like a mega pull request
+
+916
+00:32:10,566 --> 00:32:12,266
+that's just gonna confuse people
+
+917
+00:32:12,266 --> 00:32:13,566
+if you make it super huge
+
+918
+00:32:13,566 --> 00:32:16,633
+then your whoever's reviewing it might um
+
+919
+00:32:16,800 --> 00:32:18,466
+they're a human they might lose focus
+
+920
+00:32:18,466 --> 00:32:21,100
+if you make it small so they can fit it in their brain
+
+921
+00:32:21,166 --> 00:32:22,666
+then they will do a better job
+
+922
+00:32:22,666 --> 00:32:24,166
+so like
+
+923
+00:32:24,166 --> 00:32:25,766
+there's all sorts of different ways to just like
+
+924
+00:32:25,766 --> 00:32:27,800
+make that one interaction better
+
+925
+00:32:28,066 --> 00:32:30,466
+another way you can pass a ball is like
+
+926
+00:32:30,466 --> 00:32:31,800
+asking a person for help
+
+927
+00:32:31,800 --> 00:32:34,100
+you can ask a person for help well or badly
+
+928
+00:32:34,866 --> 00:32:36,733
+and you can build up like you
+
+929
+00:32:36,733 --> 00:32:38,600
+you can build these skills
+
+930
+00:32:38,733 --> 00:32:40,100
+a lot of really good
+
+931
+00:32:40,100 --> 00:32:42,166
+like technically skilled developers
+
+932
+00:32:42,666 --> 00:32:45,666
+they'll hear about these teamwork good practices
+
+933
+00:32:45,666 --> 00:32:46,600
+and they'll nod and smile
+
+934
+00:32:46,600 --> 00:32:50,400
+and then just like make massive weird PRs anyway
+
+935
+00:32:50,400 --> 00:32:51,766
+because they
+
+936
+00:32:51,766 --> 00:32:56,100
+they don't necessarily value passing the ball well
+
+937
+00:32:56,166 --> 00:32:58,600
+and that's harms the people in their team
+
+938
+00:32:58,800 --> 00:33:01,100
+or it affects productivity
+
+939
+00:33:02,000 --> 00:33:03,533
+yeah I think it's not only I
+
+940
+00:33:03,533 --> 00:33:05,366
+I think sometimes um
+
+941
+00:33:05,366 --> 00:33:07,100
+what I noticed was not necessary that they don't
+
+942
+00:33:07,100 --> 00:33:09,466
+that people don't value passing the ball well
+
+943
+00:33:09,466 --> 00:33:11,300
+but it's actually it's hard
+
+944
+00:33:11,600 --> 00:33:13,133
+it's a lot it's a different work
+
+945
+00:33:13,133 --> 00:33:16,366
+it's different work to do that well
+
+946
+00:33:16,366 --> 00:33:18,900
+compared to just coding you know
+
+947
+00:33:18,900 --> 00:33:23,200
+a lot and like really making it bite size and what not
+
+948
+00:33:23,200 --> 00:33:24,833
+so that's kind of like it
+
+949
+00:33:24,900 --> 00:33:27,333
+I think it's more of a subconsciously
+
+950
+00:33:27,333 --> 00:33:30,000
+it's like learning a new skill and you want
+
+951
+00:33:30,000 --> 00:33:30,933
+you need to you need to
+
+952
+00:33:30,933 --> 00:33:33,866
+wanna learn to be in a space where you want to learn
+
+953
+00:33:33,866 --> 00:33:36,866
+so I guess it's like kind of like when you pass a ball
+
+954
+00:33:36,866 --> 00:33:37,300
+like I
+
+955
+00:33:37,300 --> 00:33:39,566
+I Learned it when I was like playing in the playground
+
+956
+00:33:39,566 --> 00:33:42,166
+right like when I was I was a very again
+
+957
+00:33:42,166 --> 00:33:43,733
+like I'm not really good at sports
+
+958
+00:33:43,733 --> 00:33:46,866
+I have no like sporty nerve in me
+
+959
+00:33:46,866 --> 00:33:48,866
+so I'm suck at like you know
+
+960
+00:33:48,933 --> 00:33:50,266
+even passing the ball right
+
+961
+00:33:50,266 --> 00:33:52,866
+mostly just like hit my head or I just miss it
+
+962
+00:33:52,866 --> 00:33:54,333
+and I have to chase after it right
+
+963
+00:33:54,333 --> 00:33:56,600
+so I was told how to like
+
+964
+00:33:56,600 --> 00:33:58,566
+really do the ball pass is to like
+
+965
+00:33:58,566 --> 00:33:59,466
+when you pass the ball
+
+966
+00:33:59,466 --> 00:34:02,100
+you have to make sure looking at the other person
+
+967
+00:34:02,100 --> 00:34:03,566
+make sure they are ready you are ready
+
+968
+00:34:03,566 --> 00:34:04,133
+and then you
+
+969
+00:34:04,133 --> 00:34:06,866
+you have to aim at giving the ball to them
+
+970
+00:34:06,866 --> 00:34:08,200
+rather than just whatever
+
+971
+00:34:08,200 --> 00:34:10,966
+float it so I think that's the difference right
+
+972
+00:34:10,966 --> 00:34:12,400
+like if you're just kind of float
+
+973
+00:34:12,400 --> 00:34:13,366
+it's like oh
+
+974
+00:34:13,366 --> 00:34:14,800
+you didn't catch it that's your fault
+
+975
+00:34:14,800 --> 00:34:15,566
+it's like no
+
+976
+00:34:15,566 --> 00:34:17,733
+but you didn't tell me that you're going to float at me
+
+977
+00:34:17,733 --> 00:34:19,366
+and then like of course I didn't get it
+
+978
+00:34:19,366 --> 00:34:21,566
+it hit hit my face and like whatever
+
+979
+00:34:21,566 --> 00:34:22,366
+right like
+
+980
+00:34:22,366 --> 00:34:23,966
+so you know that
+
+981
+00:34:23,966 --> 00:34:25,133
+you know actually
+
+982
+00:34:25,133 --> 00:34:27,333
+just passing a ball is different from just
+
+983
+00:34:27,333 --> 00:34:29,066
+randomly throwing a ball at people
+
+984
+00:34:29,066 --> 00:34:31,800
+so it's and also people always think oh
+
+985
+00:34:31,800 --> 00:34:33,366
+it's your fault that you didn't catch it
+
+986
+00:34:33,366 --> 00:34:34,066
+it's like but it no
+
+987
+00:34:34,066 --> 00:34:35,666
+it's your fault that you didn't pass it well
+
+988
+00:34:35,666 --> 00:34:36,733
+so yeah
+
+989
+00:34:36,733 --> 00:34:37,533
+yeah
+
+990
+00:34:37,933 --> 00:34:40,300
+like the ball metaphor for can be passed
+
+991
+00:34:40,366 --> 00:34:41,800
+can be pitched pretty far
+
+992
+00:34:41,800 --> 00:34:43,900
+because sometimes in a professional environment
+
+993
+00:34:43,900 --> 00:34:45,100
+people will take the ball
+
+994
+00:34:45,166 --> 00:34:47,066
+and then they'll put it down and walk away
+
+995
+00:34:47,200 --> 00:34:50,266
+like that could drop the ball right
+
+996
+00:34:51,266 --> 00:34:52,066
+ha ha
+
+997
+00:34:52,300 --> 00:34:53,866
+it's like somebody will do with this
+
+998
+00:34:53,900 --> 00:34:54,600
+ha ha ha also
+
+999
+00:34:54,600 --> 00:34:56,300
+there's people who collect balls
+
+1000
+00:34:56,466 --> 00:34:57,966
+oh yes yes
+
+1001
+00:34:57,966 --> 00:35:00,100
+oh collect more than they can handle right
+
+1002
+00:35:00,100 --> 00:35:02,000
+like this is a handful it's just like
+
+1003
+00:35:02,000 --> 00:35:03,700
+this is a beautiful football
+
+1004
+00:35:03,700 --> 00:35:06,133
+and this is a beautiful ping pong ball
+
+1005
+00:35:06,133 --> 00:35:07,200
+and it's like just you know
+
+1006
+00:35:07,200 --> 00:35:08,366
+collecting them
+
+1007
+00:35:09,100 --> 00:35:09,900
+yeah
+
+1008
+00:35:10,566 --> 00:35:12,366
+or like doing tricks with the ball
+
+1009
+00:35:12,366 --> 00:35:13,466
+and the goal's right there
+
+1010
+00:35:13,466 --> 00:35:15,400
+it was like look at all the fancy stuff I can do
+
+1011
+00:35:15,400 --> 00:35:16,833
+I can bounce it on my head
+
+1012
+00:35:17,000 --> 00:35:19,700
+so we see this a lot yeah
+
+1013
+00:35:19,700 --> 00:35:20,700
+and missed the point right
+
+1014
+00:35:20,700 --> 00:35:21,000
+like oh
+
+1015
+00:35:21,000 --> 00:35:23,000
+you have to put it in the goal
+
+1016
+00:35:23,066 --> 00:35:23,900
+I guess
+
+1017
+00:35:24,833 --> 00:35:25,466
+yeah I think
+
+1018
+00:35:25,466 --> 00:35:26,566
+I think this is sometimes like
+
+1019
+00:35:26,566 --> 00:35:27,266
+I think you can
+
+1020
+00:35:27,266 --> 00:35:29,533
+be quite long time in a team without having
+
+1021
+00:35:29,533 --> 00:35:30,366
+especially like
+
+1022
+00:35:30,366 --> 00:35:32,866
+companies that are cutting on budget and everything
+
+1023
+00:35:32,900 --> 00:35:34,500
+and I think uh
+
+1024
+00:35:34,500 --> 00:35:36,133
+let's say 10 years ago
+
+1025
+00:35:36,133 --> 00:35:39,966
+we were in a space where every team had a scrum master
+
+1026
+00:35:39,966 --> 00:35:42,000
+an agile coach a
+
+1027
+00:35:42,200 --> 00:35:44,333
+you know five people to help the teamwork
+
+1028
+00:35:44,333 --> 00:35:45,700
+you know and now it's like
+
+1029
+00:35:45,700 --> 00:35:47,766
+oh you gotta do it yourself again
+
+1030
+00:35:47,800 --> 00:35:50,366
+so I think if you don't explicitly say things like
+
+1031
+00:35:50,366 --> 00:35:51,333
+you know you are
+
+1032
+00:35:51,333 --> 00:35:53,766
+responsible for your pull request to be approved
+
+1033
+00:35:53,766 --> 00:35:55,966
+by the end of the sprint if we're doing sprints
+
+1034
+00:35:55,966 --> 00:35:57,600
+you know then people are like
+
+1035
+00:35:57,600 --> 00:35:59,633
+yeah yeah yeah
+
+1036
+00:35:59,666 --> 00:36:01,900
+I think there is still a use in
+
+1037
+00:36:01,900 --> 00:36:03,333
+scrum masters and things like that
+
+1038
+00:36:03,333 --> 00:36:05,900
+but I think that people just put too much on them
+
+1039
+00:36:05,933 --> 00:36:08,166
+the original thinking behind scrum masters
+
+1040
+00:36:08,500 --> 00:36:10,433
+was that they would be scrum coaches
+
+1041
+00:36:10,500 --> 00:36:11,366
+more than masters
+
+1042
+00:36:11,366 --> 00:36:12,933
+it's not like they're there to tell everybody
+
+1043
+00:36:12,933 --> 00:36:14,800
+what to do but they're there to be a coach
+
+1044
+00:36:15,466 --> 00:36:17,333
+ideally get into a position
+
+1045
+00:36:17,333 --> 00:36:19,166
+where people don't need them so much
+
+1046
+00:36:19,333 --> 00:36:20,600
+but it didn't really go that way
+
+1047
+00:36:20,600 --> 00:36:21,633
+it ended up
+
+1048
+00:36:22,300 --> 00:36:24,166
+yeah things get yeah
+
+1049
+00:36:24,166 --> 00:36:25,600
+I think why people hate like
+
+1050
+00:36:25,600 --> 00:36:26,900
+agile scrum is that
+
+1051
+00:36:26,900 --> 00:36:30,000
+because company thought that that's like a
+
+1052
+00:36:30,000 --> 00:36:31,400
+you know solve all the problem
+
+1053
+00:36:31,400 --> 00:36:32,800
+like ticket to solve all the problem
+
+1054
+00:36:32,800 --> 00:36:34,666
+but it's not so that's why like
+
+1055
+00:36:34,666 --> 00:36:38,266
+it's got me misused and people ended up hating them
+
+1056
+00:36:38,966 --> 00:36:39,733
+yeah yeah
+
+1057
+00:36:39,733 --> 00:36:41,466
+got misused a lot um
+
+1058
+00:36:41,466 --> 00:36:45,000
+and we see that like at all implemented badly in
+
+1059
+00:36:45,000 --> 00:36:46,800
+in lots of different places where they're like cool
+
+1060
+00:36:46,800 --> 00:36:47,866
+we're gonna have sprints
+
+1061
+00:36:48,266 --> 00:36:50,366
+let's have a plan for the next 10 sprints
+
+1062
+00:36:50,866 --> 00:36:52,566
+what specifically are we going to do
+
+1063
+00:36:52,566 --> 00:36:54,000
+in the next 10 sprints
+
+1064
+00:36:54,566 --> 00:36:55,333
+and it's sprinting
+
+1065
+00:36:55,333 --> 00:36:57,100
+that means we're moving really quickly
+
+1066
+00:36:59,533 --> 00:37:03,200
+but yeah but why and where are we going
+
+1067
+00:37:03,200 --> 00:37:04,466
+don't know OK
+
+1068
+00:37:04,766 --> 00:37:06,233
+just run OK
+
+1069
+00:37:06,400 --> 00:37:08,266
+as long as you have the ball haha
+
+1070
+00:37:08,766 --> 00:37:10,100
+yeah man haha
+
+1071
+00:37:10,400 --> 00:37:12,300
+just to come back to um
+
+1072
+00:37:12,466 --> 00:37:15,133
+the thing you're doing at prelude right
+
+1073
+00:37:15,133 --> 00:37:17,866
+you mentioned at the beginning that you're also doing
+
+1074
+00:37:17,866 --> 00:37:19,866
+um mentorship for teachers
+
+1075
+00:37:19,900 --> 00:37:21,066
+so not just yeah
+
+1076
+00:37:21,066 --> 00:37:23,333
+so you're going to the meta level a bit
+
+1077
+00:37:23,333 --> 00:37:25,666
+with the teaching yeah yeah
+
+1078
+00:37:25,666 --> 00:37:26,966
+so that's actually with um
+
+1079
+00:37:26,966 --> 00:37:30,866
+the Guild of educators so it's a community I started um
+
+1080
+00:37:31,100 --> 00:37:34,500
+last year and I've been like
+
+1081
+00:37:34,566 --> 00:37:36,266
+so there is a craft to teaching well
+
+1082
+00:37:36,266 --> 00:37:39,866
+and a lot of people who want to teach code
+
+1083
+00:37:39,866 --> 00:37:40,866
+they have the coding skill
+
+1084
+00:37:40,866 --> 00:37:43,000
+but not necessarily the experience in teaching
+
+1085
+00:37:43,000 --> 00:37:46,900
+and they'll often mimic what they've already seen so um
+
+1086
+00:37:46,900 --> 00:37:48,500
+traditional education systems
+
+1087
+00:37:48,500 --> 00:37:50,000
+where you have a sage on the stage and
+
+1088
+00:37:50,000 --> 00:37:52,933
+and all of that so that's one aspect of it um
+
+1089
+00:37:52,933 --> 00:37:56,700
+our understanding of what good teaching looks like
+
+1090
+00:37:56,700 --> 00:37:59,266
+has changed the way people learn and study
+
+1091
+00:37:59,266 --> 00:38:00,666
+and like
+
+1092
+00:38:00,666 --> 00:38:03,366
+that is something that has been well studied there
+
+1093
+00:38:03,466 --> 00:38:05,200
+there is science to back up
+
+1094
+00:38:05,266 --> 00:38:08,166
+modern methods that many people just don't know about
+
+1095
+00:38:08,166 --> 00:38:09,733
+standard schooling where you get
+
+1096
+00:38:09,733 --> 00:38:11,733
+everybody to move at the same pace
+
+1097
+00:38:11,733 --> 00:38:14,200
+under serves most people and like it's
+
+1098
+00:38:14,200 --> 00:38:15,300
+it's not like it's all bad
+
+1099
+00:38:15,300 --> 00:38:17,100
+I mean look how many people can read
+
+1100
+00:38:17,100 --> 00:38:18,766
+that's great but it
+
+1101
+00:38:18,766 --> 00:38:20,166
+it can definitely be better
+
+1102
+00:38:20,166 --> 00:38:20,533
+so
+
+1103
+00:38:20,533 --> 00:38:23,966
+part of it is about just giving good teaching skills
+
+1104
+00:38:23,966 --> 00:38:26,866
+and like mental frameworks to people who want to teach
+
+1105
+00:38:26,866 --> 00:38:29,533
+and giving teachers support structures as well
+
+1106
+00:38:29,533 --> 00:38:32,066
+like a lot of people get out of teaching
+
+1107
+00:38:32,066 --> 00:38:34,066
+because they get frustrated in different ways
+
+1108
+00:38:34,066 --> 00:38:37,000
+like I think the half life for teachers in the UK is
+
+1109
+00:38:37,000 --> 00:38:39,066
+7 years I stand to be corrected
+
+1110
+00:38:39,066 --> 00:38:40,666
+but I mean that's not long enough
+
+1111
+00:38:40,666 --> 00:38:42,833
+if we could make that half life longer
+
+1112
+00:38:42,866 --> 00:38:44,300
+that would be really nice
+
+1113
+00:38:44,666 --> 00:38:47,033
+so supporting teachers is a big thing
+
+1114
+00:38:47,200 --> 00:38:48,833
+but then there's also um
+
+1115
+00:38:48,966 --> 00:38:51,600
+there are teachers who are teaching technical stuff
+
+1116
+00:38:51,600 --> 00:38:53,466
+who aren't necessarily practitioners
+
+1117
+00:38:53,466 --> 00:38:54,666
+of that technical stuff
+
+1118
+00:38:54,666 --> 00:38:57,100
+so earlier we spoke about PyCon Namibia
+
+1119
+00:38:57,100 --> 00:38:58,700
+and PyCon Namibia is really
+
+1120
+00:38:58,700 --> 00:38:59,166
+really great
+
+1121
+00:38:59,166 --> 00:39:02,366
+because we get to go and hang out with students
+
+1122
+00:39:02,366 --> 00:39:04,566
+and show them cool things with code
+
+1123
+00:39:04,666 --> 00:39:07,166
+and we had this day where we were at a
+
+1124
+00:39:07,166 --> 00:39:08,533
+like a local school
+
+1125
+00:39:08,533 --> 00:39:11,266
+and we were doing some python with the kids
+
+1126
+00:39:11,266 --> 00:39:13,666
+and a bunch of computer studies
+
+1127
+00:39:13,666 --> 00:39:14,933
+teachers were there as well
+
+1128
+00:39:14,933 --> 00:39:18,166
+and these teachers were like they were lovely
+
+1129
+00:39:18,166 --> 00:39:19,666
+they showed up they were hungry to learn
+
+1130
+00:39:19,666 --> 00:39:22,033
+they really wanted to help in lots of different ways
+
+1131
+00:39:22,133 --> 00:39:24,366
+but when you interacted with them
+
+1132
+00:39:24,366 --> 00:39:25,566
+you could see like
+
+1133
+00:39:25,666 --> 00:39:27,333
+like they don't know that much Python
+
+1134
+00:39:27,333 --> 00:39:28,366
+they don't know
+
+1135
+00:39:28,366 --> 00:39:30,600
+that much about the thing that they're there to teach
+
+1136
+00:39:30,600 --> 00:39:32,633
+because they just don't have the experience
+
+1137
+00:39:32,700 --> 00:39:37,200
+and so my thinking was that if we hear those folks up
+
+1138
+00:39:37,200 --> 00:39:38,400
+with technical practitioners
+
+1139
+00:39:38,400 --> 00:39:40,933
+with developers and to say like cool
+
+1140
+00:39:40,933 --> 00:39:43,100
+now you have an expert that you can speak to
+
+1141
+00:39:43,100 --> 00:39:45,533
+then that'll probably affect quite a lot of lives
+
+1142
+00:39:45,533 --> 00:39:47,300
+cause one 1 teacher affects many
+
+1143
+00:39:47,300 --> 00:39:48,900
+many people and so
+
+1144
+00:39:48,900 --> 00:39:51,266
+the idea with the mentorship program
+
+1145
+00:39:51,300 --> 00:39:53,266
+is that it's a completely voluntary thing
+
+1146
+00:39:53,266 --> 00:39:55,166
+um it's not like I'm mentoring people
+
+1147
+00:39:55,166 --> 00:39:56,700
+and they're paying me or anything like that
+
+1148
+00:39:56,700 --> 00:39:57,666
+it's um
+
+1149
+00:39:58,133 --> 00:40:01,300
+mentors can show up or potential mentors can show up
+
+1150
+00:40:01,300 --> 00:40:03,133
+and volunteer mentees can
+
+1151
+00:40:03,133 --> 00:40:04,166
+can show up and say like hey
+
+1152
+00:40:04,166 --> 00:40:06,266
+I need help and then they get matched together
+
+1153
+00:40:06,266 --> 00:40:07,866
+so a mentee can be there
+
+1154
+00:40:07,866 --> 00:40:09,266
+because they want to learn technical skills
+
+1155
+00:40:09,266 --> 00:40:11,333
+or because they want to learn teaching skills
+
+1156
+00:40:11,333 --> 00:40:14,333
+and a mentor can also help with either of those things
+
+1157
+00:40:14,333 --> 00:40:16,466
+and a mentor can be a mentee at the same time
+
+1158
+00:40:16,466 --> 00:40:17,800
+that's okay now structurally
+
+1159
+00:40:17,800 --> 00:40:20,800
+like a lot of people get a little bit frightened
+
+1160
+00:40:20,800 --> 00:40:22,933
+of becoming a mentor because it's like
+
+1161
+00:40:22,933 --> 00:40:24,266
+oh if I'm somebody's mentor
+
+1162
+00:40:24,266 --> 00:40:26,233
+it's like this lifetime commitment
+
+1163
+00:40:26,333 --> 00:40:27,800
+and they're going to expect
+
+1164
+00:40:27,966 --> 00:40:29,833
+hours from me every single day
+
+1165
+00:40:29,900 --> 00:40:31,533
+yeah so um
+
+1166
+00:40:31,533 --> 00:40:34,266
+there's a lot that's in place to make it like
+
+1167
+00:40:34,266 --> 00:40:36,966
+safe for the mentors in terms of their
+
+1168
+00:40:36,966 --> 00:40:39,266
+their own capacity so we'll
+
+1169
+00:40:39,266 --> 00:40:40,800
+do like a matchmaking thing
+
+1170
+00:40:40,900 --> 00:40:43,100
+and a mentor and mentee will be matched together
+
+1171
+00:40:43,100 --> 00:40:44,800
+for 12 weeks that's three months
+
+1172
+00:40:44,966 --> 00:40:46,966
+and at the end of that 12 week period
+
+1173
+00:40:46,966 --> 00:40:49,566
+it's like it's done they can join again if they want to
+
+1174
+00:40:49,566 --> 00:40:51,800
+during those 12 weeks they're expected to meet
+
+1175
+00:40:52,000 --> 00:40:53,933
+once every two weeks for like an hour
+
+1176
+00:40:53,933 --> 00:40:55,966
+and so it's not a big time commitment
+
+1177
+00:40:56,000 --> 00:40:57,266
+that's the minimum commitment
+
+1178
+00:40:57,266 --> 00:40:59,366
+if both the people want to meet
+
+1179
+00:40:59,366 --> 00:41:00,666
+want to spend more time together
+
+1180
+00:41:00,666 --> 00:41:03,333
+that's great but it's like that is all that is required
+
+1181
+00:41:03,333 --> 00:41:04,800
+and then the other thing is that
+
+1182
+00:41:04,800 --> 00:41:07,766
+the burden of organizing things goes on to the mentee
+
+1183
+00:41:07,766 --> 00:41:10,200
+not the mentor so the mentee will say like cool
+
+1184
+00:41:10,200 --> 00:41:12,800
+we we need to meet up let's schedule something
+
+1185
+00:41:12,800 --> 00:41:14,600
+so so they'll they'll be the scheduler
+
+1186
+00:41:14,600 --> 00:41:16,533
+and they also need to
+
+1187
+00:41:16,533 --> 00:41:18,000
+prep the mentor before their session
+
+1188
+00:41:18,000 --> 00:41:18,666
+just by saying like
+
+1189
+00:41:18,666 --> 00:41:20,366
+this is roughly what I think we should talk about
+
+1190
+00:41:20,366 --> 00:41:22,366
+and so the mentor doesn't go in blind
+
+1191
+00:41:22,366 --> 00:41:23,700
+they can mentally prepare
+
+1192
+00:41:23,733 --> 00:41:27,633
+so I've run a similar structure before
+
+1193
+00:41:27,666 --> 00:41:29,466
+um a similar mentorship structure before
+
+1194
+00:41:29,466 --> 00:41:32,200
+when I was working at that non profit coding bootcamp
+
+1195
+00:41:32,200 --> 00:41:35,966
+where I had professional developers mentoring our
+
+1196
+00:41:35,966 --> 00:41:38,266
+our baby developers and that was really lovely
+
+1197
+00:41:38,266 --> 00:41:39,966
+so we match people up
+
+1198
+00:41:39,966 --> 00:41:42,000
+and the 12 weeks finished and all of that
+
+1199
+00:41:42,000 --> 00:41:44,166
+and basically every single mentor
+
+1200
+00:41:44,166 --> 00:41:46,466
+said that they'd like to be included in the next round
+
+1201
+00:41:46,700 --> 00:41:48,533
+so it was a good experience
+
+1202
+00:41:48,533 --> 00:41:50,100
+so I'm just taking the learnings from there
+
+1203
+00:41:50,100 --> 00:41:51,966
+and applying it to a slightly different domain
+
+1204
+00:41:51,966 --> 00:41:53,566
+so get people to teach well
+
+1205
+00:41:53,566 --> 00:41:55,766
+teach Python well specifically and um
+
+1206
+00:41:55,766 --> 00:41:58,566
+there are some like interesting side effects as well
+
+1207
+00:41:58,566 --> 00:42:01,300
+so the Guild of educators has a discord server
+
+1208
+00:42:01,300 --> 00:42:03,600
+and there'll be a channel on there for the mentors
+
+1209
+00:42:03,600 --> 00:42:06,166
+and so the mentors can can swap notes with each other
+
+1210
+00:42:06,166 --> 00:42:07,200
+they can say like oh
+
+1211
+00:42:07,200 --> 00:42:08,333
+this weird thing happened
+
+1212
+00:42:08,333 --> 00:42:11,033
+how do we solve it or my uh
+
+1213
+00:42:11,100 --> 00:42:12,733
+my mentee is asking about this thing
+
+1214
+00:42:12,733 --> 00:42:14,766
+I don't know about it does anybody know about it
+
+1215
+00:42:14,766 --> 00:42:18,000
+so they've got people to lean on and talk to
+
+1216
+00:42:18,000 --> 00:42:18,466
+and I think
+
+1217
+00:42:18,466 --> 00:42:19,866
+some really good things can come out of those
+
+1218
+00:42:19,866 --> 00:42:21,766
+conversations and for me it would be really
+
+1219
+00:42:21,766 --> 00:42:24,466
+really interesting to see what problems people have
+
+1220
+00:42:24,466 --> 00:42:25,766
+and how they're solving them
+
+1221
+00:42:26,133 --> 00:42:27,733
+that's a resource on its own okay
+
+1222
+00:42:27,733 --> 00:42:30,100
+so now come the million dollar question
+
+1223
+00:42:30,100 --> 00:42:32,500
+how can someone join the Guild of educators
+
+1224
+00:42:32,800 --> 00:42:35,866
+so head to Guild of educators.org
+
+1225
+00:42:35,866 --> 00:42:37,933
+you can join just as a regular member
+
+1226
+00:42:37,933 --> 00:42:39,866
+there's a join us button um
+
+1227
+00:42:39,866 --> 00:42:41,066
+so you can join the
+
+1228
+00:42:41,066 --> 00:42:44,266
+the discord server there and you can uh
+
+1229
+00:42:44,266 --> 00:42:46,766
+fill out a form there and give me your email address
+
+1230
+00:42:46,766 --> 00:42:48,166
+and then you'll get emailed
+
+1231
+00:42:48,166 --> 00:42:49,900
+about different news and things
+
+1232
+00:42:49,900 --> 00:42:50,733
+when it happens
+
+1233
+00:42:50,733 --> 00:42:53,066
+and then if you want to join the mentorship program
+
+1234
+00:42:53,200 --> 00:42:55,066
+there's a different form to fill out
+
+1235
+00:42:55,066 --> 00:42:56,200
+on a different tab yeah
+
+1236
+00:42:56,200 --> 00:42:58,900
+so just go to Guild of educators.org I
+
+1237
+00:42:58,900 --> 00:43:00,300
+hope we put it somewhere
+
+1238
+00:43:00,300 --> 00:43:02,400
+like in the description or on the screen
+
+1239
+00:43:02,400 --> 00:43:03,166
+I don't know we'll
+
+1240
+00:43:03,166 --> 00:43:04,466
+we'll see but yeah
+
+1241
+00:43:04,466 --> 00:43:06,566
+we'll get folks the information
+
+1242
+00:43:06,800 --> 00:43:08,066
+coming back to the beginning
+
+1243
+00:43:08,066 --> 00:43:10,433
+where we talked about PyCon um
+
+1244
+00:43:10,566 --> 00:43:11,700
+Africa Africa
+
+1245
+00:43:11,700 --> 00:43:15,200
+you showed us what your colleague did as a copy
+
+1246
+00:43:15,366 --> 00:43:17,833
+as inspired by PyCon US
+
+1247
+00:43:17,900 --> 00:43:19,700
+and I thought that is like really cool
+
+1248
+00:43:19,700 --> 00:43:22,700
+and maybe you wanna show that awesome
+
+1249
+00:43:22,700 --> 00:43:25,066
+so at Python US and other conferences
+
+1250
+00:43:25,066 --> 00:43:25,933
+you get a name tag
+
+1251
+00:43:25,933 --> 00:43:27,266
+and then there are stickers and ribbons
+
+1252
+00:43:27,266 --> 00:43:28,666
+that you can attach to the name tag
+
+1253
+00:43:28,666 --> 00:43:30,700
+in order to say who you are
+
+1254
+00:43:30,700 --> 00:43:33,666
+to say like I'm a community member and I like hugs
+
+1255
+00:43:33,666 --> 00:43:35,800
+and I'm involved with PyLadies and
+
+1256
+00:43:35,800 --> 00:43:37,300
+and things like that so
+
+1257
+00:43:37,300 --> 00:43:39,166
+one of the organizers of PyCon
+
+1258
+00:43:39,166 --> 00:43:41,400
+Africa is really into 3d printing
+
+1259
+00:43:41,400 --> 00:43:43,800
+it's amazing and he made these name tags
+
+1260
+00:43:44,600 --> 00:43:46,000
+so this is completely modular
+
+1261
+00:43:46,000 --> 00:43:48,133
+you can take it apart it's got these like
+
+1262
+00:43:48,133 --> 00:43:50,266
+little purple things to hold everything together
+
+1263
+00:43:50,266 --> 00:43:51,800
+and it just pop out oh
+
+1264
+00:43:51,800 --> 00:43:53,166
+that's really cool yeah
+
+1265
+00:43:53,166 --> 00:43:54,733
+and if you zoom in on this
+
+1266
+00:43:54,733 --> 00:43:56,933
+like this is the PyCon Africa logo
+
+1267
+00:43:56,933 --> 00:43:58,600
+this was done with a 3D printer
+
+1268
+00:43:58,800 --> 00:43:59,900
+and when you print these things
+
+1269
+00:43:59,900 --> 00:44:01,300
+it's a really interesting process
+
+1270
+00:44:01,300 --> 00:44:02,933
+because you need to take um
+
+1271
+00:44:02,933 --> 00:44:05,200
+the transparency of the different colors into account
+
+1272
+00:44:05,200 --> 00:44:07,300
+and you can get the 3D printer to kind of
+
+1273
+00:44:07,300 --> 00:44:08,566
+mix the colors yeah
+
+1274
+00:44:08,566 --> 00:44:09,666
+it's super cool
+
+1275
+00:44:09,666 --> 00:44:13,366
+so we have these like epic name badges and yeah
+
+1276
+00:44:13,366 --> 00:44:13,533
+like
+
+1277
+00:44:13,533 --> 00:44:15,933
+it comes with a little lanyard that you can click in
+
+1278
+00:44:15,933 --> 00:44:18,500
+and you can say that you you like hugs
+
+1279
+00:44:18,500 --> 00:44:20,000
+I like hugs so this is yeah
+
+1280
+00:44:20,000 --> 00:44:21,200
+this is the process can we have one
+
+1281
+00:44:21,200 --> 00:44:26,233
+like this excuse about anything before coffee
+
+1282
+00:44:28,200 --> 00:44:29,000
+ha ha
+
+1283
+00:44:30,533 --> 00:44:31,566
+so this is cool
+
+1284
+00:44:31,566 --> 00:44:33,500
+it's gonna be a little keepsake for everyone as well
+
+1285
+00:44:33,500 --> 00:44:36,533
+this is the park on South Africa over there um
+
+1286
+00:44:36,533 --> 00:44:38,533
+that's our national I want that now okay
+
+1287
+00:44:38,533 --> 00:44:39,700
+ha ha ha yeah
+
+1288
+00:44:39,700 --> 00:44:43,200
+because at last PyCon in Germany
+
+1289
+00:44:43,200 --> 00:44:45,966
+Cheuk actually just made a really quickly
+
+1290
+00:44:45,966 --> 00:44:47,900
+a website to like really quickly
+
+1291
+00:44:47,900 --> 00:44:50,466
+like what else do you do during a conference where she
+
+1292
+00:44:50,466 --> 00:44:54,733
+she was like rating swag people could rate the swag no
+
+1293
+00:44:54,733 --> 00:44:55,966
+you did that Cheuk yeah
+
+1294
+00:44:55,966 --> 00:44:56,500
+that that's
+
+1295
+00:44:56,500 --> 00:44:58,700
+that's more than a swag that's the name patch
+
+1296
+00:44:58,700 --> 00:44:59,700
+it's so cool yeah
+
+1297
+00:44:59,700 --> 00:45:00,766
+that is yeah exactly
+
+1298
+00:45:00,766 --> 00:45:02,366
+so that's like so I
+
+1299
+00:45:02,366 --> 00:45:04,466
+I need I need another session for that
+
+1300
+00:45:04,466 --> 00:45:05,266
+so
+
+1301
+00:45:05,666 --> 00:45:07,800
+so now Cheuk needs to come to PyCon Africa
+
+1302
+00:45:07,800 --> 00:45:09,100
+see that's what you had to
+
+1303
+00:45:09,600 --> 00:45:11,400
+what you had to start with
+
+1304
+00:45:11,400 --> 00:45:13,266
+and then you get everybody to attend
+
+1305
+00:45:13,266 --> 00:45:15,300
+I think this is going to become a PyCon
+
+1306
+00:45:15,300 --> 00:45:16,733
+South Africa staple I think
+
+1307
+00:45:16,733 --> 00:45:18,966
+it's gonna be our standard thing, because it actually like
+
+1308
+00:45:18,966 --> 00:45:20,533
+like it takes a while to print the stuff
+
+1309
+00:45:20,533 --> 00:45:23,666
+but we looked at the price of like
+
+1310
+00:45:23,666 --> 00:45:26,266
+ordering name badges and things like this
+
+1311
+00:45:26,266 --> 00:45:27,666
+and it's actually comparable
+
+1312
+00:45:27,666 --> 00:45:28,866
+it's like um
+
+1313
+00:45:28,966 --> 00:45:31,366
+it's pretty close and this is only
+
+1314
+00:45:31,366 --> 00:45:32,900
+this is like the first prototype
+
+1315
+00:45:33,166 --> 00:45:34,966
+the printing has become more efficient
+
+1316
+00:45:35,000 --> 00:45:35,766
+so yeah it's
+
+1317
+00:45:35,766 --> 00:45:38,100
+it's actually a really good way to go
+
+1318
+00:45:38,100 --> 00:45:39,533
+and it's unique and like
+
+1319
+00:45:39,533 --> 00:45:41,066
+I think that's the charm of like
+
+1320
+00:45:41,066 --> 00:45:42,900
+you have stuff that you made yourself
+
+1321
+00:45:42,933 --> 00:45:45,900
+so two years ago at Python Pizza in Hamburg
+
+1322
+00:45:45,900 --> 00:45:50,866
+we did the Python Python logo shaped cookie cutters
+
+1323
+00:45:50,866 --> 00:45:51,933
+also with the oh yeah
+
+1324
+00:45:51,933 --> 00:45:53,900
+I I really want that one as well
+
+1325
+00:45:53,900 --> 00:45:55,833
+ha ha ha that's awesome
+
+1326
+00:45:56,000 --> 00:45:57,966
+can you do it again and then I will come
+
+1327
+00:46:01,700 --> 00:46:03,266
+I think that's really the end
+
+1328
+00:46:03,266 --> 00:46:04,466
+so um
+
+1329
+00:46:04,466 --> 00:46:05,800
+we have very very
+
+1330
+00:46:05,800 --> 00:46:07,166
+you know limited amount of time
+
+1331
+00:46:07,166 --> 00:46:08,400
+we can talk for it for ages
+
+1332
+00:46:08,400 --> 00:46:10,900
+but I guess like seeing Sheena travels a lot
+
+1333
+00:46:10,900 --> 00:46:11,933
+we can you know
+
+1334
+00:46:11,933 --> 00:46:13,700
+next time you see her you can just
+
+1335
+00:46:13,700 --> 00:46:16,900
+you know come chat in South Africa
+
+1336
+00:46:17,300 --> 00:46:18,833
+South Africa as well yeah
+
+1337
+00:46:19,000 --> 00:46:20,566
+and um yeah
+
+1338
+00:46:20,566 --> 00:46:22,566
+so thank you very much for listening
+
+1339
+00:46:22,866 --> 00:46:24,366
+to everybody who's listening
+
+1340
+00:46:26,266 --> 00:46:27,166
+bye bye thank you
+
+1341
+00:46:28,333 --> 00:46:28,800
+yeah
+
