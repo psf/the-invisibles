@@ -10,7 +10,7 @@ publish_date: 2026-01-25T06:00:00+02:00
 podcast_file: "/audio/hidden-figures-ep11-trailer.mp3"
 podcast_duration: 88.32
 episode_image: "images/ep11-sheena.png"
-podcast_bytes: "1476093" # the length of the episode in bytes
+podcast_bytes: "2430964" # the length of the episode in bytes
 images: ["images/ep11-sheena.png", "images/sheena.jpg"]
 explicit: false 
 type: 'episode'
@@ -19,7 +19,7 @@ season: 3
 transcript: '/transcript/hidden-figures-of-python-ep11-trailer.srt'
 episode_type: trailer
 layout: episode
-youtube_id: "L6nXgWrczp4"
+youtube_id: "BzIPQyaRR9M"
   
 speaker:
   url: "/speakers/sheena-oconnell/"
