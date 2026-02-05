@@ -1,14 +1,14 @@
 ---
 title: "Trailer: Episode 11 with Sheena O'Connell"
 meta_title: "Trailer: Episode 11 with Sheena O'Connell"
-description: "A preview of our chat with Sheena O'Connell. Watch the full episode on January 31, 2026"
-date: 2026-01-25T06:00:00+01:00
+description: "A preview of our chat with Sheena O'Connell. Watch the full episode on February 26, 2026"
+date: 2026-02-14T06:00:00+01:00
 host: ["Cheuk", "Tereza"]
 draft: false
 tags: ["python", "educataion", "southafrica", "team", "organizational psychology"]
-publish_date: 2026-01-25T06:00:00+02:00
+publish_date: 2026-01-14T06:00:00+02:00
 podcast_file: "/audio/hidden-figures-ep11-trailer.mp3"
-podcast_duration: 88.32
+podcast_duration: 129.6
 episode_image: "images/ep11-sheena.png"
 podcast_bytes: "2430964" # the length of the episode in bytes
 images: ["images/ep11-sheena.png", "images/sheena.jpg"]
@@ -58,4 +58,4 @@ Sheena began her career as a software engineer and technical leader across multi
 
 In this episode, Sheena O'Connell tells us about her journey, the importance of community and good practices for teachers and eductuoions in python, organizational psychology and how herself has become involve in this journey. We talk about how to enable a 10 x team and how to enable the community through [guild of educators](https://guildofeducators.org/).
 
-Full episode is coming on **January 31th, 2026**! Subscribe to our podcast now!
+Full episode is coming on **February 26th, 2026**! Subscribe to our podcast now!
