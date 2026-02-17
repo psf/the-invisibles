@@ -2,11 +2,11 @@
 title: "Trailer: Episode 11 with Sheena O'Connell"
 meta_title: "Trailer: Episode 11 with Sheena O'Connell"
 description: "A preview of our chat with Sheena O'Connell. Watch the full episode on February 26, 2026"
-date: 2026-02-14T06:00:00+01:00
+date: 2026-02-18T06:00:00+01:00
 host: ["Cheuk", "Tereza"]
 draft: false
 tags: ["python", "educataion", "southafrica", "team", "organizational psychology"]
-publish_date: 2026-01-14T06:00:00+02:00
+publish_date: 2026-02-18T06:00:00+02:00
 podcast_file: "/audio/hidden-figures-ep11-trailer.mp3"
 podcast_duration: 129.6
 episode_image: "images/ep11-sheena.png"
