@@ -1,0 +1,220 @@
+1
+00:00:00,100 --> 00:00:00,700
+uh
+
+2
+00:00:00,700 --> 00:00:01,700
+I forgot how we start
+
+3
+00:00:02,166 --> 00:00:05,133
+Okay Hi everybody and welcome to the PyPodcast
+
+4
+00:00:05,200 --> 00:00:08,000
+Hidden Figures in Python figure
+
+5
+00:00:08,733 --> 00:00:11,000
+we are continuing with our scissor see
+
+6
+00:00:11,600 --> 00:00:14,766
+Hi everybody and welcome to the PyPodcast
+
+7
+00:00:16,266 --> 00:00:19,666
+so yeah today's guest err today's host
+
+8
+00:00:19,666 --> 00:00:21,266
+oh my God this is a blooper
+
+9
+00:00:27,266 --> 00:00:28,866
+like wrangling volunteers is hard
+
+10
+00:00:28,866 --> 00:00:30,866
+there's a lot of just like management challenges
+
+11
+00:00:30,866 --> 00:00:32,600
+a lot of the time when people think of Africa
+
+12
+00:00:32,600 --> 00:00:33,633
+they think of it as like
+
+13
+00:00:33,633 --> 00:00:35,866
+just like a blob and everything's the same
+
+14
+00:00:35,866 --> 00:00:37,100
+and it's really not like
+
+15
+00:00:37,100 --> 00:00:38,633
+there are very big cultural differences
+
+16
+00:00:38,633 --> 00:00:40,366
+between different African countries
+
+17
+00:00:40,400 --> 00:00:42,300
+when did you get started with Python?
+
+18
+00:00:42,766 --> 00:00:45,633
+so I got started um when I was in university
+
+19
+00:00:45,633 --> 00:00:49,433
+I was coding for food I needed money and um
+
+20
+00:00:49,433 --> 00:00:50,866
+so I was just taking on these odd jobs
+
+21
+00:00:50,866 --> 00:00:52,266
+you read a programming book
+
+22
+00:00:52,266 --> 00:00:54,100
+do you still read programming books
+
+23
+00:00:54,700 --> 00:00:57,166
+I read a book on PHP once for a job
+
+24
+00:00:57,366 --> 00:00:57,733
+um
+
+25
+00:00:58,233 --> 00:01:00,033
+I did read the kubernetes book
+
+26
+00:01:00,933 --> 00:01:01,866
+I've always been teaching
+
+27
+00:01:01,866 --> 00:01:03,433
+when I was a little kid
+
+28
+00:01:03,433 --> 00:01:06,233
+I used to teach grown ups Excel skills
+
+29
+00:01:06,600 --> 00:01:08,100
+helping people with their homework
+
+30
+00:01:08,100 --> 00:01:09,533
+was a good source of connection
+
+31
+00:01:09,533 --> 00:01:11,433
+you did that for free I got paid
+
+32
+00:01:12,000 --> 00:01:14,600
+if you think about like the business of education
+
+33
+00:01:14,600 --> 00:01:17,133
+there's there's like so much stuff that you need to do
+
+34
+00:01:17,133 --> 00:01:18,166
+that isn't teaching
+
+35
+00:01:18,166 --> 00:01:19,800
+if you have to choose right
+
+36
+00:01:19,800 --> 00:01:21,733
+you can either work with Python
+
+37
+00:01:21,733 --> 00:01:24,900
+the programming language or people what would
+
+38
+00:01:24,900 --> 00:01:25,500
+you choose so I love Python so much
+
+39
+00:01:27,700 --> 00:01:29,300
+but I think actually people
+
+40
+00:01:29,300 --> 00:01:30,666
+if you wanna build something big
+
+41
+00:01:30,666 --> 00:01:31,900
+it's a it's a team sport
+
+42
+00:01:31,900 --> 00:01:33,866
+people are getting to a point where
+
+43
+00:01:33,866 --> 00:01:37,300
+we're realizing what the uniquely human skills are
+
+44
+00:01:37,300 --> 00:01:39,800
+a metaphor I really like is soccer um
+
+45
+00:01:39,900 --> 00:01:42,933
+your individual skills as a soccer player really matter
+
+46
+00:01:42,933 --> 00:01:43,700
+quite a lot
+
+47
+00:01:43,700 --> 00:01:47,000
+a lot of emphasis is placed on passing the ball really
+
+48
+00:01:47,000 --> 00:01:47,600
+really well
+
+49
+00:01:47,666 --> 00:01:49,900
+hello everyone I'm Sheena um
+
+50
+00:01:50,066 --> 00:01:51,466
+watch me on PyPodcasts
+
+51
+00:01:51,466 --> 00:01:53,833
+we're gonna be talking about PyCon Africa
+
+52
+00:01:53,833 --> 00:01:56,266
+I'm based in South Africa and it's in my hometown
+
+53
+00:01:56,266 --> 00:01:59,100
+and we'll also be talking about teaching Python
+
+54
+00:01:59,100 --> 00:02:00,566
+and teaching teamwork
+
+55
+00:02:09,066 --> 00:02:10,900
+now break cut hmm
+
