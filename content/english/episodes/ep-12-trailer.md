@@ -19,7 +19,7 @@ season: 2
 transcript: '/transcript/hidden-figures-of-python-ep12-trailer.srt'
 episode_type: trailer
 layout: episode
-# youtube_id: TODO once the trailer is uploaded to YouTube
+youtube_id: "_kXm6pyrqgU"
 
 speaker:
   url: "/speakers/juanita-gomez/"
