@@ -14,7 +14,6 @@
             {{ $caption := .Params.title }}
             <figcaption>{{ $caption }}</figcaption>
             {{ partial "components/podcast-icons"  }}
-            <a href="{{ .Params.transcript | absURL }}"><img src="{{`/images/transcript_icon.png` | relLangURL}}" title="Show Transcript" alt="Show Transcript" class="podcast-icon"/></a>
 
       </h5>
 

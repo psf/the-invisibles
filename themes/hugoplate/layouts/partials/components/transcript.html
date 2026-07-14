@@ -3,7 +3,7 @@
   {{ if fileExists $path }}
     {{ $content := replace (readFile $path) "\r\n" "\n" }}
     <details class="bg-theme-light dark:bg-darkmode-theme-light not-prose mb-10 rounded p-6">
-      <summary class="h5 cursor-pointer select-none">
+      <summary class="h5 text-dark dark:text-darkmode-dark cursor-pointer select-none">
         <i class="fa-regular fa-file-lines mr-2"></i>Read Transcript
       </summary>
       <div class="mt-6 max-h-96 overflow-y-auto pr-2">
