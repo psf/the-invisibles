@@ -105,6 +105,7 @@ Tools that are needed for the **"Publishing"** step:
 - Review the generated subtitle, listen to the video, and make edits.
   - fix any typos, especially speaker names
   - Ensure proper capitalization, eg PyPodcats, Python, PSF, PyLadies, etc
+    (see the canonical spelling list in the "Proofread the write-ups" step under Publishing)
   - If necessary, clarify spellings with the speaker.
 - Ensure the subtitle is readable on the video
   - The subtitle text should have black background
@@ -138,6 +139,16 @@ Tools that are needed for the **"Publishing"** step:
     - **f"static/audio/transcript/hidden-figures-of-pyhon-ep{number}.srt:"**: transcript of the full episode
   - Commit, push, and create a pull request
   - Example Pull request: https://github.com/psf/the-invisibles/pull/40
+- Proofread the write-ups before publishing
+  - Run the article through a grammar and spelling checker. Use your browser's spell checker or a
+    grammar checking tool of your choice, or ask a teammate to read it over.
+  - Check that community names use their canonical spelling and capitalization. Some examples:
+    - **Python**, always with a capital P
+    - **PyCon**, always with a capital P and capital C
+    - **PyPodcats**, **PyLadies**, **PSF**, **SciPy**, **NumPy**
+    - **GitHub**, **YouTube**, **TikTok**
+  - Double check the spelling of the speaker's name and the projects they mention,
+    matching the Speaker Info Form
 - Preview the episode (check the Netlify Deploy Preview), share the preview with teammates and speaker
 - Validate the RSS feed format
   - Once Netlify preview has been built, go to {netlify preview url}/episodes/index.xml. This is the RSS Feed url.
