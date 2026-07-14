@@ -35,7 +35,7 @@ As a PyPodcats team member, you should have access to the following:
 Credentials for the above are found on Notion.
 
 Tools that are needed for the **"Publishing"** step:
-- Python
+- Python 3.14 or newer
 - [ffmpeg](https://www.ffmpeg.org/ffmpeg.html)
 - [ffprobe](https://www.ffmpeg.org/ffprobe.html)
 - [Hugo](https://gohugo.io/) static site generator
@@ -218,19 +218,9 @@ The fields should be self-explanatory (hopefully), but here are some fields that
 
 ##### Printing the metadata using Python
 
-Create and activate a virtual environment.
-
-```
-python3 -m venv venv
-source venv/bin/activate
-```
-
-Install the dependencies:
-
-```
-pip install -U pip
-pip install -r requirements.txt
-```
+The script requires Python 3.14 or newer and the ffprobe command line tool. It uses
+only the Python standard library, so there are no dependencies to install and no
+virtual environment is needed.
 
 From the root of this repository, run the script:
 

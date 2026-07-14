@@ -1,9 +1,7 @@
 import argparse
+import json
 import os
-
-from ffprobe import FFProbe
-
-
+import subprocess
 
 parser = argparse.ArgumentParser(description='Get Podcast Metadata')
 parser.add_argument('filepath',
@@ -25,10 +23,12 @@ class MetadataProcessor():
       return file_stats.st_size
 
   def get_audio_length(self):
-    metadata = FFProbe(self.filepath)
-    for stream in metadata.streams:
-      return stream.duration_seconds()
-    return 0
+    result = subprocess.run(
+        ["ffprobe", "-v", "error", "-show_entries", "format=duration",
+         "-of", "json", self.filepath],
+        capture_output=True, text=True, check=True)
+    metadata = json.loads(result.stdout)
+    return float(metadata["format"]["duration"])
 
 if __name__ == "__main__":
     my_args = parser.parse_args()
