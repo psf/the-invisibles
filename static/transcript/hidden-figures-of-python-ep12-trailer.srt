@@ -1,0 +1,236 @@
+1
+00:00:00,066 --> 00:00:00,866
+um
+
+2
+00:00:01,000 --> 00:00:02,433
+how do I say this
+
+3
+00:00:02,966 --> 00:00:04,033
+hello everybody
+
+4
+00:00:04,133 --> 00:00:07,566
+welcome back to another episode of  PyPodcats
+
+5
+00:00:07,600 --> 00:00:10,100
+The Hidden Figures of Podcast
+
+6
+00:00:11,600 --> 00:00:13,333
+The Hidden Figures of Podcast
+
+7
+00:00:15,833 --> 00:00:16,966
+we need to cut this
+
+8
+00:00:22,366 --> 00:00:24,533
+how did you get started into this community
+
+9
+00:00:25,066 --> 00:00:26,233
+so when I started my PhD
+
+10
+00:00:26,400 --> 00:00:28,666
+I joined the security lab
+
+11
+00:00:28,666 --> 00:00:29,233
+so at the beginning
+
+12
+00:00:29,233 --> 00:00:31,033
+I was actually doing like cryptography
+
+13
+00:00:31,033 --> 00:00:33,500
+things not related to open source at all
+
+14
+00:00:33,533 --> 00:00:35,366
+during the day I was working in security
+
+15
+00:00:35,366 --> 00:00:37,466
+and during the night I was working in open source
+
+16
+00:00:37,466 --> 00:00:38,900
+and I thought that wasn't cool
+
+17
+00:00:39,033 --> 00:00:40,933
+I want to be able to help maintainers
+
+18
+00:00:40,933 --> 00:00:42,533
+like bug bounties or 
+
+19
+00:00:42,566 --> 00:00:43,466
+like the hacky things
+
+20
+00:00:43,466 --> 00:00:43,866
+but
+
+21
+00:00:43,933 --> 00:00:44,766
+helping maintainers
+
+22
+00:00:44,766 --> 00:00:46,500
+implement those best practices in their projects
+
+23
+00:00:46,666 --> 00:00:48,266
+I always like have this image of like
+
+24
+00:00:48,266 --> 00:00:49,733
+oh security is super cool like
+
+25
+00:00:49,733 --> 00:00:51,000
+you know just like what you said
+
+26
+00:00:51,000 --> 00:00:52,600
+bounty and stuff just look like
+
+27
+00:00:52,600 --> 00:00:53,300
+like Wild West
+
+28
+00:00:53,300 --> 00:00:54,433
+like instead of cowboy
+
+29
+00:00:54,433 --> 00:00:56,066
+you have all these like Sci-Fi heros
+
+30
+00:00:56,066 --> 00:00:57,100
+and I'm totally not 
+
+31
+00:00:57,100 --> 00:00:58,233
+a very secure person 
+
+32
+00:00:58,233 --> 00:01:00,133
+I jaywalk all the time you know
+
+33
+00:01:01,766 --> 00:01:05,433
+AI is it good or bad for security in open source
+
+34
+00:01:05,800 --> 00:01:06,800
+oh my God
+
+35
+00:01:06,933 --> 00:01:08,466
+I think AI for everything
+
+36
+00:01:08,500 --> 00:01:10,233
+it should be used very carefully
+
+37
+00:01:10,233 --> 00:01:12,466
+and I think understanding what AI is
+
+38
+00:01:12,466 --> 00:01:14,966
+is part of that it's like understanding that
+
+39
+00:01:14,966 --> 00:01:17,400
+it's not like a magician that's telling you answers
+
+40
+00:01:17,400 --> 00:01:18,633
+it's just statistics
+
+41
+00:01:18,800 --> 00:01:22,066
+I've also seen you singing on stage for SciPy
+
+42
+00:01:22,433 --> 00:01:24,600
+I actually started singing when I was very
+
+43
+00:01:24,600 --> 00:01:25,900
+very little when I was like
+
+44
+00:01:25,933 --> 00:01:28,966
+12 years old I went to The X Factor in Colombia
+
+45
+00:01:29,066 --> 00:01:30,000
+ooo wow
+
+46
+00:01:30,033 --> 00:01:32,900
+I passed a few rounds then they kicked me out
+
+47
+00:01:33,200 --> 00:01:35,300
+when I was a kid I wanted to be Shakira
+
+48
+00:01:35,833 --> 00:01:37,933
+is everybody in Colombia so talented
+
+49
+00:01:37,933 --> 00:01:40,600
+I mean like I think so
+
+50
+00:01:40,766 --> 00:01:42,533
+we're cool nerds I love it
+
+51
+00:01:42,933 --> 00:01:43,633
+yes
+
+52
+00:01:43,633 --> 00:01:45,600
+hi everyone my name is Juanita
+
+53
+00:01:45,600 --> 00:01:48,533
+I am a PhD student at UC Santa Cruz
+
+54
+00:01:48,533 --> 00:01:51,533
+working in open source research and I've
+
+55
+00:01:51,766 --> 00:01:54,933
+also done a lot of work in community for open source
+
+56
+00:01:55,066 --> 00:01:56,166
+Scientific Python
+
+57
+00:01:56,166 --> 00:01:58,000
+if you want to learn more about some of this work
+
+58
+00:01:58,000 --> 00:02:00,800
+that I've done and my journey in open source
+
+59
+00:02:00,833 --> 00:02:01,833
+come watch this episode
+

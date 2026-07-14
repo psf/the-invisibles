@@ -1,0 +1,3994 @@
+1
+00:30:58,666 --> 00:30:59,133
+yeah
+
+2
+00:00:19,666 --> 00:00:20,833
+hello everybody
+
+3
+00:00:20,966 --> 00:00:24,200
+welcome back to another episode of PyPodcats
+
+4
+00:00:24,200 --> 00:00:26,733
+The Hidden Figures of Python
+
+5
+00:00:26,800 --> 00:00:27,933
+hi everyone
+
+6
+00:00:27,933 --> 00:00:29,233
+we are PyPodcats
+
+7
+00:00:29,233 --> 00:00:32,700
+and we are doing this Hidden Figures of Python
+
+8
+00:00:32,833 --> 00:00:35,266
+because we want to bring more beautiful
+
+9
+00:00:35,266 --> 00:00:38,000
+and wonderful people to your
+
+10
+00:00:38,066 --> 00:00:39,666
+notice that you know
+
+11
+00:00:39,666 --> 00:00:43,133
+that our community doesn't just start from nothing
+
+12
+00:00:43,366 --> 00:00:46,266
+we have beautiful and wonderful people building them
+
+13
+00:00:46,333 --> 00:00:47,266
+so here we are
+
+14
+00:00:47,366 --> 00:00:54,233
+and today we have our wonderful Juanita with us welcome
+
+15
+00:00:54,366 --> 00:00:56,533
+welcome Juanita
+Thank you I'm so excited to be here
+
+16
+00:00:56,700 --> 00:00:57,966
+do you want to introduce yourself
+
+17
+00:00:58,033 --> 00:00:58,966
+tell us what you do
+
+18
+00:00:58,966 --> 00:00:59,533
+so yeah
+
+19
+00:00:59,533 --> 00:01:04,866
+yeah so I am currently a PhD student at UC Santa Cruz
+
+20
+00:01:04,866 --> 00:01:06,633
+a lot of the research that I do is actually
+
+21
+00:01:06,633 --> 00:01:07,933
+related to open source
+
+22
+00:01:08,033 --> 00:01:09,566
+specifically security
+
+23
+00:01:09,633 --> 00:01:11,633
+that's kind of what I've been up to lately
+
+24
+00:01:11,633 --> 00:01:13,466
+but I've been also
+
+25
+00:01:13,466 --> 00:01:16,866
+kind of like as a side thing in like my volunteer time
+
+26
+00:01:16,866 --> 00:01:17,633
+I've also
+
+27
+00:01:17,666 --> 00:01:20,433
+spent a lot of my time with the Scientific Python
+
+28
+00:01:20,433 --> 00:01:21,200
+Community
+
+29
+00:01:21,200 --> 00:01:22,166
+one of the community managers
+
+30
+00:01:22,166 --> 00:01:23,366
+for the Scientific Python Project
+
+31
+00:01:23,366 --> 00:01:24,133
+which
+
+32
+00:01:24,133 --> 00:01:26,100
+project that is trying to coordinate
+
+33
+00:01:26,100 --> 00:01:27,866
+the scientific Python ecosystem
+
+34
+00:01:28,033 --> 00:01:30,966
+so we do summits we are writing some specs
+
+35
+00:01:31,000 --> 00:01:33,066
+developing tools and yeah
+
+36
+00:01:33,066 --> 00:01:35,466
+I'm helping with like a lot of the community
+
+37
+00:01:35,500 --> 00:01:35,833
+stuff going on
+
+38
+00:01:36,866 --> 00:01:38,033
+sounds amazing
+
+39
+00:01:38,033 --> 00:01:40,433
+I guess you're one of these people who send
+
+40
+00:01:40,433 --> 00:01:42,100
+Python to Mars right ha ha
+
+41
+00:01:42,533 --> 00:01:42,833
+ha ha
+
+42
+00:01:43,266 --> 00:01:44,266
+hopefully ha ha
+
+43
+00:01:45,433 --> 00:01:48,700
+so I'm actually not in the scientific community
+
+44
+00:01:48,700 --> 00:01:49,500
+um I always
+
+45
+00:01:49,500 --> 00:01:53,300
+I'm mostly in the web based development using Python
+
+46
+00:01:53,300 --> 00:01:57,200
+so it's always amazing because I know there is a huge
+
+47
+00:01:57,200 --> 00:01:57,833
+huge community in the scientific
+
+48
+00:01:59,800 --> 00:02:00,633
+you know Python
+
+49
+00:02:00,633 --> 00:02:02,100
+can you tell us more about it
+
+50
+00:02:02,100 --> 00:02:04,933
+like how did you get started into this community
+
+51
+00:02:05,066 --> 00:02:07,366
+so it actually goes all the way back to maybe
+
+52
+00:02:08,233 --> 00:02:09,333
+5, 6 years ago
+
+53
+00:02:09,333 --> 00:02:12,633
+I started as a as a developer for Spyder
+
+54
+00:02:12,633 --> 00:02:13,966
+the IDE for Python
+
+55
+00:02:13,966 --> 00:02:16,433
+which I think it's actually an IDE that is um
+
+56
+00:02:16,433 --> 00:02:19,333
+meant for scientists not necessarily server developers
+
+57
+00:02:19,333 --> 00:02:19,600
+but
+
+58
+00:02:19,600 --> 00:02:23,333
+it's meant to make your development with Python easier
+
+59
+00:02:23,333 --> 00:02:25,000
+I joined the Spyder team a very long time ago
+
+60
+00:02:26,300 --> 00:02:29,400
+haha and a lot of the work that I did was actually
+
+61
+00:02:29,400 --> 00:02:32,033
+focused on documentation and community outreach
+
+62
+00:02:32,033 --> 00:02:33,366
+I started doing events
+
+63
+00:02:33,966 --> 00:02:35,066
+I guess um
+
+64
+00:02:35,066 --> 00:02:36,966
+I I had this like Spyder cast
+
+65
+00:02:36,966 --> 00:02:39,066
+which I guess is kind of similar to what we're doing
+
+66
+00:02:39,066 --> 00:02:40,066
+today um
+
+67
+00:02:40,066 --> 00:02:42,133
+where I kind of invited developers on stage
+
+68
+00:02:42,133 --> 00:02:43,133
+where they only talked about
+
+69
+00:02:43,566 --> 00:02:45,300
+um some of the work that they did for Spyder
+
+70
+00:02:45,433 --> 00:02:47,100
+and I also started to do tutorials and
+
+71
+00:02:47,100 --> 00:02:47,800
+for Spyder
+
+72
+00:02:47,800 --> 00:02:48,100
+I guess
+
+73
+00:02:48,366 --> 00:02:50,633
+I guess it's a way to reach out
+
+74
+00:02:51,033 --> 00:02:51,800
+more people in the community
+
+75
+00:02:51,800 --> 00:02:53,100
+But also with this idea of 
+
+76
+00:02:53,366 --> 00:02:53,666
+kind of
+
+77
+00:02:53,666 --> 00:02:56,366
+turning documentation into something more millennial
+
+78
+00:02:56,400 --> 00:02:58,800
+like reaching younger generations
+
+79
+00:02:59,233 --> 00:03:00,500
+um and
+
+80
+00:03:00,566 --> 00:03:03,100
+and the two people who started this Scientific
+
+81
+00:03:03,166 --> 00:03:04,633
+Python project which were uh
+
+82
+00:03:04,633 --> 00:03:06,566
+were Stéfan J. van der Walt and Jarrod Millman
+
+83
+00:03:06,566 --> 00:03:09,000
+they saw some of my work that I was doing with Spyder
+
+84
+00:03:09,000 --> 00:03:11,600
+I think they probably saw my YouTube videos and
+
+85
+00:03:11,700 --> 00:03:12,500
+amazing
+
+86
+00:03:12,500 --> 00:03:15,000
+yeah they reach out to me and they were like
+
+87
+00:03:15,566 --> 00:03:16,500
+do you want do you
+
+88
+00:03:16,500 --> 00:03:17,566
+do you want to be part of this
+
+89
+00:03:17,566 --> 00:03:18,800
+they were just starting they
+
+90
+00:03:18,800 --> 00:03:19,600
+they got a grant
+
+91
+00:03:19,800 --> 00:03:21,200
+and they were just starting the project
+
+92
+00:03:21,200 --> 00:03:23,433
+and they kind of just invited me to join
+
+93
+00:03:23,433 --> 00:03:25,166
+and a lot of the work that I did at the beginning
+
+94
+00:03:25,166 --> 00:03:25,833
+was actually
+
+95
+00:03:25,833 --> 00:03:26,366
+writing
+
+96
+00:03:26,366 --> 00:03:28,066
+guides and doing actually like
+
+97
+00:03:28,066 --> 00:03:30,900
+videos for beginners to the ecosystem
+
+98
+00:03:31,266 --> 00:03:32,166
+that's how I joined
+
+99
+00:03:32,166 --> 00:03:33,600
+That sounds amazing 
+
+100
+00:03:33,600 --> 00:03:35,200
+like I think you showed just like
+
+101
+00:03:35,200 --> 00:03:38,366
+there are so many ways to contribute to the community
+
+102
+00:03:38,500 --> 00:03:41,000
+like I think writing documentation and
+
+103
+00:03:41,000 --> 00:03:43,533
+giving visibility of the project sharing
+
+104
+00:03:43,533 --> 00:03:45,833
+you know how other people use that IDE
+
+105
+00:03:45,900 --> 00:03:47,766
+it's very important so
+
+106
+00:03:47,766 --> 00:03:50,500
+I think it's always something that is so important
+
+107
+00:03:50,500 --> 00:03:53,100
+but then a lot of people just overlook it right
+
+108
+00:03:53,200 --> 00:03:54,133
+like sometimes you know
+
+109
+00:03:54,233 --> 00:03:55,100
+you say like oh
+
+110
+00:03:55,100 --> 00:03:56,833
+I have created this functionality
+
+111
+00:03:56,833 --> 00:03:57,966
+people be like wow
+
+112
+00:03:57,966 --> 00:03:58,800
+and then if you say oh
+
+113
+00:03:58,800 --> 00:04:00,000
+I write this documentation
+
+114
+00:04:00,000 --> 00:04:00,333
+people like
+
+115
+00:04:00,400 --> 00:04:03,166
+ok so I think yeah
+
+116
+00:04:03,166 --> 00:04:03,566
+it's like
+
+117
+00:04:03,566 --> 00:04:04,733
+but it's very important
+
+118
+00:04:04,733 --> 00:04:07,333
+because if nobody is writing any documentation or
+
+119
+00:04:07,333 --> 00:04:09,366
+or doing all these work
+
+120
+00:04:09,366 --> 00:04:12,433
+that is less glamorous than no one knew
+
+121
+00:04:12,533 --> 00:04:13,600
+it's coming to the community
+
+122
+00:04:13,600 --> 00:04:14,833
+and it become like a project
+
+123
+00:04:14,833 --> 00:04:17,733
+that everybody have grey hair and you know
+
+124
+00:04:17,966 --> 00:04:18,766
+nobody
+
+125
+00:04:18,766 --> 00:04:21,233
+like the young people doesn't care about it anymore
+
+126
+00:04:21,233 --> 00:04:21,566
+you know that
+
+127
+00:04:21,700 --> 00:04:23,100
+then the project will probably
+
+128
+00:04:23,133 --> 00:04:24,400
+be less popular than what it is so
+
+129
+00:04:24,566 --> 00:04:25,333
+yeah and I
+
+130
+00:04:25,333 --> 00:04:27,133
+I actually didn't know
+
+131
+00:04:27,233 --> 00:04:29,000
+that I was gonna end up doing docs
+
+132
+00:04:29,000 --> 00:04:29,866
+when I joined
+
+133
+00:04:29,866 --> 00:04:32,533
+I was doing like I was just fixing bugs like any
+
+134
+00:04:32,633 --> 00:04:34,933
+any like beginner developer in a project
+
+135
+00:04:34,933 --> 00:04:37,933
+and I ended up like involved with documentation
+
+136
+00:04:38,033 --> 00:04:39,433
+and I guess my first goal was to make it more friendly
+
+137
+00:04:39,433 --> 00:04:41,766
+I guess my like first goal was to make it more friendly
+
+138
+00:04:41,766 --> 00:04:43,033
+so a lot of it was like
+
+139
+00:04:43,033 --> 00:04:45,833
+literally just putting screenshots and Gifs in the
+
+140
+00:04:45,833 --> 00:04:47,933
+the documentation which it was a lot of work
+
+141
+00:04:47,933 --> 00:04:50,000
+I thought it was very important to kinda like
+
+142
+00:04:50,100 --> 00:04:51,866
+include more people and to make it easier
+
+143
+00:04:51,866 --> 00:04:53,233
+to learn how to use a tool
+
+144
+00:04:53,233 --> 00:04:53,733
+especially
+
+145
+00:04:53,733 --> 00:04:55,466
+cause it wasn't meant for software developers
+
+146
+00:04:55,466 --> 00:04:58,100
+it was meant for scientists who don't necessarily know
+
+147
+00:04:58,100 --> 00:05:00,933
+um like all the fundamentals of software development
+
+148
+00:05:01,066 --> 00:05:02,333
+and I think making
+
+149
+00:05:02,366 --> 00:05:04,900
+it easier to use by having
+
+150
+00:05:04,900 --> 00:05:07,666
+very good docs was kind of like one of my first goals
+
+151
+00:05:07,733 --> 00:05:09,833
+when I hear your story just now
+
+152
+00:05:09,833 --> 00:05:11,566
+I like how you mention that
+
+153
+00:05:11,700 --> 00:05:13,533
+trying to reach different audience
+
+154
+00:05:13,533 --> 00:05:15,400
+different subset of group of
+
+155
+00:05:15,400 --> 00:05:16,066
+you know
+
+156
+00:05:16,066 --> 00:05:17,700
+people who consume YouTube
+
+157
+00:05:17,700 --> 00:05:20,166
+like I think I don't really have YouTube channels
+
+158
+00:05:20,300 --> 00:05:23,133
+I tried it's not easy to to run it
+
+159
+00:05:23,133 --> 00:05:26,033
+so I think it's amazing that you're doing that
+
+160
+00:05:26,900 --> 00:05:28,200
+I'm also not good at that
+
+161
+00:05:28,200 --> 00:05:28,966
+I tried
+
+162
+00:05:28,966 --> 00:05:30,500
+I won't be a very good Youtuber
+
+163
+00:05:30,500 --> 00:05:32,000
+I think I'm just a goofball
+
+164
+00:05:32,100 --> 00:05:33,800
+I don't know how to do marketing
+
+165
+00:05:33,800 --> 00:05:34,666
+how to like you know
+
+166
+00:05:34,666 --> 00:05:36,500
+I kind of analyze what people like
+
+167
+00:05:36,500 --> 00:05:38,433
+what people don't like I just do what I like
+
+168
+00:05:38,433 --> 00:05:41,133
+and I don't think it's a very good strategy
+
+169
+00:05:41,300 --> 00:05:42,166
+funny enough
+
+170
+00:05:42,166 --> 00:05:44,633
+the reason that I was able to do a lot of the like
+
+171
+00:05:44,700 --> 00:05:45,500
+to do
+
+172
+00:05:45,666 --> 00:05:47,400
+editing and like I guess
+
+173
+00:05:47,466 --> 00:05:49,266
+the creative part of the
+
+174
+00:05:49,533 --> 00:05:51,433
+tutorials and all of these things was because
+
+175
+00:05:51,433 --> 00:05:53,800
+I had a YouTube channel that was for music
+
+176
+00:05:53,933 --> 00:05:54,933
+so I was like
+
+177
+00:05:54,933 --> 00:05:56,966
+I started like when I was in my undergrad
+
+178
+00:05:57,066 --> 00:05:58,933
+I started like a music YouTube channel
+
+179
+00:05:58,933 --> 00:06:00,966
+so I was like recording songs and doing videos
+
+180
+00:06:00,966 --> 00:06:02,033
+like music videos
+
+181
+00:06:02,033 --> 00:06:03,333
+and I started a YouTube channel
+
+182
+00:06:03,333 --> 00:06:05,633
+so I had to learn how to do video editing
+
+183
+00:06:05,700 --> 00:06:07,466
+and that's kind of why I was able to do this
+
+184
+00:06:07,466 --> 00:06:09,733
+like it was like just random skills that I picked up
+
+185
+00:06:09,733 --> 00:06:10,533
+doing something else
+
+186
+00:06:10,533 --> 00:06:12,100
+that I was able to put into practice
+
+187
+00:06:12,100 --> 00:06:13,233
+while doing documentation
+
+188
+00:06:13,233 --> 00:06:14,733
+yeah so you were already like
+
+189
+00:06:14,833 --> 00:06:17,033
+doing music thing before TikTok become a thing
+
+190
+00:06:17,033 --> 00:06:20,133
+right now everybody is like dancing
+
+191
+00:06:20,233 --> 00:06:21,766
+I don't do TikTok though
+
+192
+00:06:22,566 --> 00:06:24,333
+sometimes see people in the in the square
+
+193
+00:06:24,333 --> 00:06:25,300
+they were just like you know
+
+194
+00:06:25,300 --> 00:06:26,866
+young people they play some music
+
+195
+00:06:26,866 --> 00:06:28,566
+they look very cool and like dancing
+
+196
+00:06:28,700 --> 00:06:29,166
+and I was like
+
+197
+00:06:29,166 --> 00:06:30,100
+I'm so old right
+
+198
+00:06:30,100 --> 00:06:31,300
+I'm not used to TikTok I'll be like
+
+199
+00:06:31,300 --> 00:06:33,266
+oh that remind me of when I was in uni
+
+200
+00:06:33,333 --> 00:06:34,566
+like the dance club people
+
+201
+00:06:34,700 --> 00:06:36,433
+and then my friend who is younger was like
+
+202
+00:06:36,433 --> 00:06:37,900
+they probably not dance club
+
+203
+00:06:38,033 --> 00:06:39,000
+they're just doing TikTok
+
+204
+00:06:39,000 --> 00:06:40,466
+I was like what is that
+
+205
+00:06:41,233 --> 00:06:41,666
+yeah
+
+206
+00:06:41,833 --> 00:06:44,100
+and that's what the younger generations are doing now
+
+207
+00:06:44,133 --> 00:06:46,300
+yeah And I actually I didn't do that for Spyder
+
+208
+00:06:46,433 --> 00:06:48,300
+but I did some TikToks for the Scientific
+
+209
+00:06:48,300 --> 00:06:49,466
+Python project
+
+210
+00:06:49,566 --> 00:06:50,166
+and I was kind of trying to figure out what was
+
+211
+00:06:52,966 --> 00:06:55,466
+like short enough to put in a TikTok
+
+212
+00:06:55,466 --> 00:06:56,266
+that was like educational
+
+213
+00:06:57,066 --> 00:06:58,033
+I guess because I mean
+
+214
+00:06:58,566 --> 00:06:59,300
+like nowadays
+
+215
+00:06:59,300 --> 00:07:02,166
+the way that people consume all of these media is like
+
+216
+00:07:02,166 --> 00:07:03,866
+it's very short if you do something that
+
+217
+00:07:03,866 --> 00:07:06,466
+it's longer than 1 or two minutes long in TikTok
+
+218
+00:07:06,466 --> 00:07:07,433
+they're not gonna watch it
+
+219
+00:07:07,433 --> 00:07:08,333
+so you need to like break it into very small pieces
+
+220
+00:07:08,533 --> 00:07:09,733
+like it
+
+221
+00:07:10,100 --> 00:07:12,900
+so I did some like very basic um
+
+222
+00:07:12,900 --> 00:07:16,133
+videos on things like how to do your first PR
+
+223
+00:07:16,133 --> 00:07:18,600
+how to review a PR things like that on TikTok
+
+224
+00:07:18,633 --> 00:07:21,133
+that was fun but it was very hard
+
+225
+00:07:21,800 --> 00:07:23,066
+I think that's very interesting
+
+226
+00:07:23,066 --> 00:07:24,666
+we need to find those links
+
+227
+00:07:24,666 --> 00:07:26,566
+and share with our audiences
+
+228
+00:07:26,933 --> 00:07:28,766
+we need to watch those those TikToks you made
+
+229
+00:07:28,766 --> 00:07:29,566
+yeah
+
+230
+00:07:29,566 --> 00:07:29,833
+yeah
+
+231
+00:07:29,833 --> 00:07:33,000
+I was very skeptical like even a couple of years ago
+
+232
+00:07:33,233 --> 00:07:34,766
+uh when I was working at Anaconda
+
+233
+00:07:34,766 --> 00:07:36,133
+my colleague at the time
+
+234
+00:07:36,233 --> 00:07:37,900
+Sophia she's also very talented
+
+235
+00:07:37,900 --> 00:07:38,900
+she did all this like oh
+
+236
+00:07:38,900 --> 00:07:41,300
+data science short form video
+
+237
+00:07:41,500 --> 00:07:42,866
+I don't know TikTok or YouTube
+
+238
+00:07:42,866 --> 00:07:43,233
+whatever
+
+239
+00:07:43,233 --> 00:07:45,166
+like teaching people data science
+
+240
+00:07:45,166 --> 00:07:45,566
+I was like
+
+241
+00:07:45,566 --> 00:07:47,500
+does it work'cause like but well
+
+242
+00:07:47,666 --> 00:07:48,833
+it proves that I was wrong
+
+243
+00:07:48,933 --> 00:07:51,166
+it works and now I'm like struggling of like
+
+244
+00:07:51,166 --> 00:07:52,066
+how can we do that
+
+245
+00:07:52,300 --> 00:07:52,566
+hahaha
+
+246
+00:07:52,566 --> 00:07:54,833
+yeah I think you just need to go with
+
+247
+00:07:54,966 --> 00:07:56,633
+you know what's in these days
+
+248
+00:07:56,733 --> 00:07:59,800
+you have to I I realize I'm also old
+
+249
+00:07:59,800 --> 00:08:01,933
+like I don't have TikTok account
+
+250
+00:08:01,933 --> 00:08:04,066
+but I know that's what the younger people do
+
+251
+00:08:04,166 --> 00:08:07,766
+and if we want the Python committee to stay relevant
+
+252
+00:08:07,800 --> 00:08:09,566
+maybe we need to start doing this
+
+253
+00:08:09,566 --> 00:08:10,600
+we need young people
+
+254
+00:08:10,666 --> 00:08:11,266
+yeah
+
+255
+00:08:11,266 --> 00:08:13,966
+you know if you ask us to decide on oh
+
+256
+00:08:14,033 --> 00:08:14,766
+what to do
+
+257
+00:08:14,766 --> 00:08:16,900
+we just come up with something that maybe work like
+
+258
+00:08:16,900 --> 00:08:18,533
+10 years ago but not working now
+
+259
+00:08:18,533 --> 00:08:18,933
+so
+
+260
+00:08:18,933 --> 00:08:21,833
+but anyway let's go back to what Juanita has been doing
+
+261
+00:08:21,966 --> 00:08:22,333
+so
+
+262
+00:08:22,333 --> 00:08:24,633
+um you also do a lot of security work
+
+263
+00:08:24,666 --> 00:08:25,633
+which I think again like
+
+264
+00:08:25,633 --> 00:08:27,066
+is something that is very important and it's like
+
+265
+00:08:28,133 --> 00:08:29,833
+getting more and more attention these days
+
+266
+00:08:29,833 --> 00:08:32,733
+for open source so what made you go into the field
+
+267
+00:08:32,766 --> 00:08:34,733
+like is it because you love open source
+
+268
+00:08:34,766 --> 00:08:36,333
+you want to do something for it
+
+269
+00:08:36,333 --> 00:08:37,566
+or is it just like oh
+
+270
+00:08:37,566 --> 00:08:38,833
+security super cool
+
+271
+00:08:38,833 --> 00:08:40,766
+I want to do that which come first
+
+272
+00:08:40,800 --> 00:08:42,033
+so when I started my PhD
+
+273
+00:08:42,033 --> 00:08:45,166
+I was actually I joined the Security Lab
+
+274
+00:08:45,166 --> 00:08:47,100
+I wasn't working on open source at first
+
+275
+00:08:47,100 --> 00:08:49,400
+and the reason I joined the Security Lab was because
+
+276
+00:08:49,400 --> 00:08:50,966
+my background is actually in
+
+277
+00:08:50,966 --> 00:08:53,600
+math and I did some cryptography stuff
+
+278
+00:08:53,633 --> 00:08:54,700
+so my advisor
+
+279
+00:08:54,700 --> 00:08:56,966
+thought that I would be a good fit to do some like
+
+280
+00:08:56,966 --> 00:08:57,433
+security
+
+281
+00:08:57,433 --> 00:08:58,233
+stuff so at the beginning
+
+282
+00:08:58,233 --> 00:09:00,533
+I was actually doing like cryptography things
+
+283
+00:09:00,533 --> 00:09:02,533
+not related to open source at all
+
+284
+00:09:02,533 --> 00:09:03,633
+so I had this like
+
+285
+00:09:03,633 --> 00:09:05,700
+divided life where like during the day
+
+286
+00:09:05,700 --> 00:09:07,633
+I was working in security and during the night
+
+287
+00:09:07,633 --> 00:09:09,266
+I was working in open source
+
+288
+00:09:09,300 --> 00:09:11,066
+um and I thought that wasn't cool
+
+289
+00:09:11,200 --> 00:09:11,866
+I thought that
+
+290
+00:09:11,966 --> 00:09:13,600
+I would be better if I could merge
+
+291
+00:09:13,600 --> 00:09:15,200
+like my passion and my
+
+292
+00:09:15,200 --> 00:09:15,933
+research
+
+293
+00:09:15,933 --> 00:09:16,466
+so
+
+294
+00:09:16,466 --> 00:09:18,833
+I started talking to people at the Open Source Program
+
+295
+00:09:18,866 --> 00:09:21,233
+office in my university and I guess they were like
+
+296
+00:09:21,266 --> 00:09:22,633
+interested in working with me
+
+297
+00:09:22,633 --> 00:09:24,300
+I had a lot of experience in like
+
+298
+00:09:24,300 --> 00:09:25,166
+community work
+
+299
+00:09:25,166 --> 00:09:27,800
+and like a lot of contacts within the ecosystem
+
+300
+00:09:27,800 --> 00:09:29,533
+so I I think that was that was good
+
+301
+00:09:29,533 --> 00:09:31,900
+and I think the reason I
+
+302
+00:09:31,900 --> 00:09:35,566
+decided to kind of bring security into the open source
+
+303
+00:09:35,566 --> 00:09:37,766
+work that I was doing was because I saw like
+
+304
+00:09:37,766 --> 00:09:38,200
+a gap
+
+305
+00:09:38,200 --> 00:09:41,300
+like by talking to maintainers and to developers
+
+306
+00:09:41,300 --> 00:09:42,033
+I realized that
+
+307
+00:09:42,033 --> 00:09:44,166
+security is something that people are concerned about
+
+308
+00:09:44,166 --> 00:09:46,366
+but they're not necessarily experts on
+
+309
+00:09:46,400 --> 00:09:48,700
+they don't necessarily have the time for
+
+310
+00:09:48,700 --> 00:09:50,166
+so it's something that it's important
+
+311
+00:09:50,166 --> 00:09:51,400
+but it's not addressed
+
+312
+00:09:51,433 --> 00:09:53,566
+like as much as I think it should be
+
+313
+00:09:53,600 --> 00:09:55,366
+so I think I wanted to bridge that gap
+
+314
+00:09:55,400 --> 00:09:58,900
+kind of to just kind of help maintainers with security
+
+315
+00:09:58,900 --> 00:10:00,800
+I am definitely not an expert yet
+
+316
+00:10:00,800 --> 00:10:01,033
+on
+
+317
+00:10:01,033 --> 00:10:02,800
+a lot of what the things that I've been doing is like
+
+318
+00:10:02,800 --> 00:10:03,933
+learning about
+
+319
+00:10:03,933 --> 00:10:06,733
+what is it that you need in your open source project
+
+320
+00:10:06,733 --> 00:10:09,133
+I would say be like more secure
+
+321
+00:10:09,133 --> 00:10:10,900
+and that's where I'm headed
+
+322
+00:10:10,900 --> 00:10:13,166
+is I want to be able to help maintainers
+
+323
+00:10:13,200 --> 00:10:15,766
+I want to I want to work on the human part of security
+
+324
+00:10:15,766 --> 00:10:19,266
+not necessarily like bug bounties or
+
+325
+00:10:19,500 --> 00:10:20,833
+I don't know like more yeah
+
+326
+00:10:21,066 --> 00:10:23,333
+I would say like hacky things but more um
+
+327
+00:10:23,900 --> 00:10:25,966
+learning about best practices and security
+
+328
+00:10:25,966 --> 00:10:27,600
+and helping maintainers implement those
+
+329
+00:10:27,600 --> 00:10:28,800
+best practices in their projects
+
+330
+00:10:28,800 --> 00:10:30,300
+I think that's kind of like my goal
+
+331
+00:10:30,366 --> 00:10:31,466
+cause I think that would be
+
+332
+00:10:31,466 --> 00:10:33,533
+a useful contribution to the ecosystem
+
+333
+00:10:33,533 --> 00:10:34,400
+I always like had this image of like
+
+334
+00:10:35,166 --> 00:10:36,366
+oh security is super cool
+
+335
+00:10:36,366 --> 00:10:36,866
+like you know
+
+336
+00:10:36,866 --> 00:10:38,233
+just like what you said the
+
+337
+00:10:38,233 --> 00:10:40,400
+you know the bug bounty and stuff is look like
+
+338
+00:10:40,400 --> 00:10:42,233
+like Wild West like instead of cowboy
+
+339
+00:10:42,233 --> 00:10:44,366
+you have all these like Sci-Fi hero and things
+
+340
+00:10:44,366 --> 00:10:45,600
+but then like I think yeah
+
+341
+00:10:45,600 --> 00:10:47,766
+it's more serious than you know
+
+342
+00:10:47,766 --> 00:10:50,100
+the fantasy world that you have to really
+
+343
+00:10:50,100 --> 00:10:52,166
+put your foot down and do a lot of like
+
+344
+00:10:52,166 --> 00:10:54,233
+very fundamental work that a
+
+345
+00:10:54,266 --> 00:10:56,266
+lot of people don't see
+
+346
+00:10:56,266 --> 00:10:58,700
+I just found it very difficult
+
+347
+00:10:58,866 --> 00:10:59,700
+that's why I kind of
+
+348
+00:10:59,800 --> 00:11:03,066
+uh left that kind of trend on like doing security
+
+349
+00:11:03,166 --> 00:11:05,233
+I I'm totally not a very secure person
+
+350
+00:11:05,233 --> 00:11:07,066
+I jaywalk all the time you know
+
+351
+00:11:07,100 --> 00:11:09,533
+this is like
+
+352
+00:11:09,700 --> 00:11:11,700
+not security reasons
+
+353
+00:11:11,766 --> 00:11:12,266
+yeah
+
+354
+00:11:12,266 --> 00:11:14,400
+I know you still you mention you're like
+
+355
+00:11:14,400 --> 00:11:15,466
+you're learning right now
+
+356
+00:11:15,466 --> 00:11:18,000
+but is there something actionable
+
+357
+00:11:18,000 --> 00:11:21,033
+we can do as an open source maintainer
+
+358
+00:11:21,033 --> 00:11:23,100
+to be even more secure right now
+
+359
+00:11:23,266 --> 00:11:24,833
+so I think um
+
+360
+00:11:24,900 --> 00:11:26,500
+for example github uh
+
+361
+00:11:26,500 --> 00:11:28,500
+is one of those places
+
+362
+00:11:28,500 --> 00:11:31,200
+that has been helping a lot with security practices
+
+363
+00:11:31,200 --> 00:11:32,800
+and I feel like they've made it easier
+
+364
+00:11:32,800 --> 00:11:34,166
+for maintainers to implement
+
+365
+00:11:34,166 --> 00:11:34,733
+some of their
+
+366
+00:11:34,733 --> 00:11:37,100
+like security stuff in their repositories
+
+367
+00:11:37,100 --> 00:11:37,966
+I would start with that
+
+368
+00:11:37,966 --> 00:11:39,933
+I would start with like anything that Github
+
+369
+00:11:39,933 --> 00:11:43,933
+like recommends they have very concise guides on like
+
+370
+00:11:43,933 --> 00:11:45,366
+beginner practices I would say
+
+371
+00:11:45,366 --> 00:11:47,933
+things like implementing secret scanning
+
+372
+00:11:47,933 --> 00:11:50,366
+or static analysis in your repositories
+
+373
+00:11:50,366 --> 00:11:52,700
+or like dependency updates
+
+374
+00:11:52,700 --> 00:11:55,466
+like automatic dependency updates with dependabot
+
+375
+00:11:55,566 --> 00:11:57,700
+some of these things are things that Github has
+
+376
+00:11:57,700 --> 00:12:01,433
+I think made very easy for maintainers to implement
+
+377
+00:12:01,500 --> 00:12:02,533
+so I would start with that
+
+378
+00:12:02,533 --> 00:12:03,033
+but
+
+379
+00:12:03,200 --> 00:12:05,800
+another thing that I've been doing a lot with
+
+380
+00:12:05,800 --> 00:12:06,833
+the repositories
+
+381
+00:12:06,833 --> 00:12:08,500
+so I'm I'm actually working with
+
+382
+00:12:08,500 --> 00:12:10,566
+the projects that are associated with the university of
+
+383
+00:12:10,566 --> 00:12:11,500
+California system
+
+384
+00:12:11,500 --> 00:12:13,700
+that's kind of the population that I'm working
+
+385
+00:12:13,700 --> 00:12:14,966
+just because I'm um
+
+386
+00:12:14,966 --> 00:12:16,933
+working from the OSPO of the university
+
+387
+00:12:16,933 --> 00:12:18,366
+and with other OSPOs
+
+388
+00:12:18,366 --> 00:12:19,733
+and a lot of what I'm doing with
+
+389
+00:12:19,733 --> 00:12:21,533
+these projects is analyzing
+
+390
+00:12:21,600 --> 00:12:23,333
+everything from like health practices
+
+391
+00:12:23,333 --> 00:12:25,133
+as in like do they have contributing guides
+
+392
+00:12:25,133 --> 00:12:26,600
+do they have issue templates
+
+393
+00:12:26,600 --> 00:12:27,200
+all of these things
+
+394
+00:12:27,200 --> 00:12:30,333
+all the way to more like advanced security stuff
+
+395
+00:12:30,333 --> 00:12:30,533
+and
+
+396
+00:12:30,533 --> 00:12:33,033
+one of the tools that I use a lot is the score cards
+
+397
+00:12:33,033 --> 00:12:34,500
+from the Open SSF
+
+398
+00:12:34,500 --> 00:12:36,600
+which is just a tool that will allow you to
+
+399
+00:12:36,600 --> 00:12:38,600
+measure a bunch of different security flags
+
+400
+00:12:38,600 --> 00:12:39,700
+in your repositories
+
+401
+00:12:39,700 --> 00:12:41,933
+I don't necessarily think that the score
+
+402
+00:12:42,033 --> 00:12:43,833
+is important to tell you
+
+403
+00:12:43,866 --> 00:12:46,133
+the actual picture of security in your repository
+
+404
+00:12:46,133 --> 00:12:47,833
+but it will give you some action items
+
+405
+00:12:47,833 --> 00:12:50,166
+so you will see some of the things that you are lacking
+
+406
+00:12:50,166 --> 00:12:51,466
+and it will give you some
+
+407
+00:12:51,500 --> 00:12:53,533
+good action things to start with
+
+408
+00:12:53,533 --> 00:12:54,833
+to increase the security
+
+409
+00:12:54,833 --> 00:12:55,666
+or your repository
+
+410
+00:12:55,666 --> 00:12:56,133
+I would say
+
+411
+00:12:56,133 --> 00:12:57,600
+maybe those two things would be
+
+412
+00:12:57,600 --> 00:12:58,666
+uh huh
+Things that I'm 
+
+413
+00:12:58,666 --> 00:12:59,966
+Looking into right now
+
+414
+00:12:59,966 --> 00:13:00,166
+ya
+
+415
+00:13:00,166 --> 00:13:02,333
+so I'm familiar with the Github
+
+416
+00:13:02,366 --> 00:13:02,633
+you know
+
+417
+00:13:02,633 --> 00:13:05,466
+security checklist and I think it's very important
+
+418
+00:13:05,466 --> 00:13:07,766
+the secret scanning I know in the past
+
+419
+00:13:07,766 --> 00:13:09,566
+a long time ago I was a newbie
+
+420
+00:13:09,766 --> 00:13:13,933
+I committed the secret and I'm glad that it caught it
+
+421
+00:13:13,933 --> 00:13:14,366
+so
+
+422
+00:13:14,400 --> 00:13:16,233
+but the open SSF
+
+423
+00:13:16,533 --> 00:13:18,733
+score card how do we get that
+
+424
+00:13:18,733 --> 00:13:20,233
+I know I've heard this before
+
+425
+00:13:20,233 --> 00:13:21,766
+but I don't know how it works
+
+426
+00:13:21,766 --> 00:13:24,033
+like how do you get scored
+
+427
+00:13:24,033 --> 00:13:26,133
+so there's multiple ways of doing it
+
+428
+00:13:26,166 --> 00:13:28,533
+I mean if you go to the Scorecard dot Dev website
+
+429
+00:13:28,533 --> 00:13:29,366
+they just have
+
+430
+00:13:29,366 --> 00:13:31,433
+like a very easy explanation of how to get it
+
+431
+00:13:31,433 --> 00:13:33,366
+you can install it as a Github action
+
+432
+00:13:33,366 --> 00:13:34,333
+in your repository
+
+433
+00:13:34,333 --> 00:13:36,266
+so it would kind of run automatically
+
+434
+00:13:36,266 --> 00:13:37,366
+I don't do it like
+
+435
+00:13:37,366 --> 00:13:39,533
+that because I don't do it for my own repositories
+
+436
+00:13:39,533 --> 00:13:41,033
+I do it for other repositories
+
+437
+00:13:41,200 --> 00:13:42,733
+so they also have a CLI
+
+438
+00:13:42,733 --> 00:13:43,266
+so you just clone the repo
+
+439
+00:13:44,033 --> 00:13:45,100
+install the package
+
+440
+00:13:45,100 --> 00:13:46,966
+and you can just run it in your terminal
+
+441
+00:13:47,000 --> 00:13:47,900
+like scorecard
+
+442
+00:13:47,900 --> 00:13:49,900
+and then you put the link of the repository
+
+443
+00:13:49,933 --> 00:13:50,933
+and then it just runs
+
+444
+00:13:50,933 --> 00:13:51,366
+yeah like
+
+445
+00:13:51,366 --> 00:13:55,666
+like a CLI and they have like different output formats
+
+446
+00:13:55,700 --> 00:13:56,833
+so for example
+
+447
+00:13:56,833 --> 00:13:59,333
+what I do is I collect everything in JSON
+
+448
+00:13:59,333 --> 00:14:00,066
+and then I kind of
+
+449
+00:14:00,100 --> 00:14:01,700
+cause I'm running it for multiple repos
+
+450
+00:14:01,700 --> 00:14:03,300
+so I just have a python script
+
+451
+00:14:03,300 --> 00:14:04,800
+that will run it for all of them
+
+452
+00:14:04,800 --> 00:14:06,200
+and then I collect everything in JSON
+
+453
+00:14:06,200 --> 00:14:08,300
+and I just do a fancy CSV table
+
+454
+00:14:08,300 --> 00:14:09,533
+so I can see the results
+
+455
+00:14:09,533 --> 00:14:12,333
+but yeah you can do it as a github action also
+
+456
+00:14:12,433 --> 00:14:13,700
+oh I didn't know about this
+
+457
+00:14:13,700 --> 00:14:15,200
+I didn't know there was CLI
+
+458
+00:14:15,200 --> 00:14:16,933
+we need this run on our repos
+
+459
+00:14:16,933 --> 00:14:19,833
+should we actually run it on all kinds of repos
+
+460
+00:14:19,833 --> 00:14:21,800
+or is there certain projects
+
+461
+00:14:21,800 --> 00:14:26,100
+do you think that maybe more prone to this
+
+462
+00:14:26,100 --> 00:14:30,733
+should we run it against our PyPodcats website
+
+463
+00:14:30,766 --> 00:14:32,266
+I mean I don't know I'm
+
+464
+00:14:32,300 --> 00:14:34,333
+I'm actually also struggling with that
+
+465
+00:14:34,333 --> 00:14:36,733
+because I think that there is a lot of the checks
+
+466
+00:14:36,733 --> 00:14:38,266
+that scorecards have that
+
+467
+00:14:38,266 --> 00:14:39,933
+maybe are not important for
+
+468
+00:14:39,933 --> 00:14:41,400
+some types of repositories
+
+469
+00:14:41,400 --> 00:14:43,900
+like if it's like a very beginner repository
+
+470
+00:14:43,933 --> 00:14:46,833
+then some of the checks might not make as much sense
+
+471
+00:14:46,833 --> 00:14:49,933
+so I think it is okay to run it in every repository
+
+472
+00:14:49,966 --> 00:14:51,100
+as long as you can
+
+473
+00:14:51,100 --> 00:14:53,433
+kind of be objective about knowing what
+
+474
+00:14:53,433 --> 00:14:55,800
+the metrics that you are looking at mean
+
+475
+00:14:55,800 --> 00:14:59,300
+and how the characteristics of your repository
+
+476
+00:14:59,300 --> 00:15:02,300
+like make or not sense with the metrics that you're
+
+477
+00:15:02,300 --> 00:15:03,333
+looking at I think
+
+478
+00:15:03,333 --> 00:15:04,633
+it's a very cool tool
+
+479
+00:15:04,700 --> 00:15:06,966
+just because it will give you some
+
+480
+00:15:06,966 --> 00:15:08,300
+things that you can improve
+
+481
+00:15:08,300 --> 00:15:11,600
+regardless of what stage is your repository on
+
+482
+00:15:11,633 --> 00:15:12,000
+but I
+
+483
+00:15:12,000 --> 00:15:14,533
+I think it's something to be careful about that it's
+
+484
+00:15:14,533 --> 00:15:16,766
+it might not be like not all of the checks
+
+485
+00:15:16,766 --> 00:15:17,333
+might apply
+
+486
+00:15:17,333 --> 00:15:19,200
+for the type of project that you're working on
+
+487
+00:15:19,200 --> 00:15:19,400
+okay
+
+488
+00:15:19,400 --> 00:15:22,200
+now I want to address the elephant in the room like AI
+
+489
+00:15:22,233 --> 00:15:25,800
+is it good or bad for security in open source
+
+490
+00:15:25,833 --> 00:15:28,066
+oh my God
+
+491
+00:15:28,100 --> 00:15:29,300
+I think it could be good
+
+492
+00:15:29,500 --> 00:15:30,533
+um for certain things
+
+493
+00:15:30,533 --> 00:15:32,100
+I think AI for everything
+
+494
+00:15:32,100 --> 00:15:33,766
+it should be used very carefully
+
+495
+00:15:33,800 --> 00:15:35,533
+and I think understanding what AI is
+
+496
+00:15:35,533 --> 00:15:36,133
+understanding the way I see is part of life
+
+497
+00:15:36,133 --> 00:15:38,566
+is part of that it's like understanding that
+
+498
+00:15:38,566 --> 00:15:41,200
+it's not like a magician that's telling you answers
+
+499
+00:15:41,233 --> 00:15:42,733
+it's just statistics right
+
+500
+00:15:42,733 --> 00:15:44,266
+and I think that is part of
+
+501
+00:15:44,266 --> 00:15:46,133
+maybe the problem when people like
+
+502
+00:15:46,166 --> 00:15:47,433
+use it too much is like
+
+503
+00:15:47,433 --> 00:15:49,066
+they don't really know what's behind it
+
+504
+00:15:49,066 --> 00:15:51,833
+I've actually done a project with like
+
+505
+00:15:51,833 --> 00:15:56,033
+identifying vulnerabilities in code using AI
+
+506
+00:15:56,033 --> 00:15:58,666
+and I actually had fairly good results with like
+
+507
+00:15:58,700 --> 00:15:59,933
+the newest models
+
+508
+00:15:59,933 --> 00:16:01,000
+so I think there is
+
+509
+00:16:01,000 --> 00:16:03,033
+a possibility that maybe in the future
+
+510
+00:16:03,033 --> 00:16:05,933
+AI could be something very good for identifying
+
+511
+00:16:05,933 --> 00:16:06,200
+like
+
+512
+00:16:06,200 --> 00:16:07,733
+certain code patterns or
+
+513
+00:16:07,733 --> 00:16:09,600
+some of these things that could be dangerous
+
+514
+00:16:09,600 --> 00:16:10,866
+for your repositories
+
+515
+00:16:10,933 --> 00:16:13,566
+um whether life on that like 100%
+
+516
+00:16:13,600 --> 00:16:15,733
+I'm not sure like I wouldn't be like
+
+517
+00:16:15,733 --> 00:16:17,166
+oh I give this to an AI
+
+518
+00:16:17,166 --> 00:16:18,933
+and then if the AI says this is safe
+
+519
+00:16:18,933 --> 00:16:19,533
+then it's safe
+
+520
+00:16:19,533 --> 00:16:21,633
+I don't think that would be the way that I would do it
+
+521
+00:16:21,666 --> 00:16:22,700
+but I do think it it
+
+522
+00:16:22,700 --> 00:16:25,766
+could be a very good tool to uncover some things uh
+
+523
+00:16:25,800 --> 00:16:27,233
+like in an automatic way
+
+524
+00:16:27,233 --> 00:16:28,766
+now everybody's thinking like
+
+525
+00:16:28,766 --> 00:16:30,300
+how AI is gonna change our life
+
+526
+00:16:30,300 --> 00:16:31,766
+our profession and everything
+
+527
+00:16:31,766 --> 00:16:33,466
+so I have to ask this question
+
+528
+00:16:33,466 --> 00:16:34,266
+hmm
+
+529
+00:16:34,366 --> 00:16:35,733
+so Juanita I
+
+530
+00:16:35,733 --> 00:16:38,633
+I meant you earlier on you talk about
+
+531
+00:16:38,633 --> 00:16:39,766
+you know you've been
+
+532
+00:16:39,766 --> 00:16:42,600
+been involved in the community side of open source
+
+533
+00:16:42,633 --> 00:16:43,633
+you help run
+
+534
+00:16:43,633 --> 00:16:45,666
+you know hackathon and things
+
+535
+00:16:45,666 --> 00:16:48,766
+do you have some stories to share
+
+536
+00:16:48,766 --> 00:16:52,866
+like maybe there are unique events that happened
+
+537
+00:16:52,866 --> 00:16:55,333
+or are there certain challenges
+
+538
+00:16:55,333 --> 00:16:57,700
+that you'd like to share with our listeners
+
+539
+00:16:57,900 --> 00:16:59,800
+um let me think about it
+
+540
+00:16:59,800 --> 00:17:02,466
+so I think um I've done
+
+541
+00:17:02,466 --> 00:17:04,133
+like helping organize summits
+
+542
+00:17:04,133 --> 00:17:05,366
+for the Scientific Python Project
+
+543
+00:17:05,366 --> 00:17:08,833
+so we we do like a yearly summit with maintainers
+
+544
+00:17:08,833 --> 00:17:11,600
+this is has been only going for like three years
+
+545
+00:17:11,600 --> 00:17:12,233
+and I was
+
+546
+00:17:12,233 --> 00:17:14,966
+I was there for the first summit and it was a very
+
+547
+00:17:14,966 --> 00:17:17,366
+like a new experience for me to just kind of
+
+548
+00:17:17,366 --> 00:17:20,166
+figure out what you need to organize an event with like
+
+549
+00:17:20,166 --> 00:17:20,966
+the community
+
+550
+00:17:20,966 --> 00:17:24,533
+I think that maybe one of the challenging things from
+
+551
+00:17:24,533 --> 00:17:26,733
+from this is like how do you make people happy
+
+552
+00:17:26,733 --> 00:17:29,233
+cause you're like inviting them to uh
+
+553
+00:17:29,233 --> 00:17:33,000
+be in like a week or just like working on open source
+
+554
+00:17:33,033 --> 00:17:35,266
+which is already what most of them do
+
+555
+00:17:35,266 --> 00:17:35,900
+but it's like
+
+556
+00:17:35,900 --> 00:17:37,766
+they have to travel and they have to like
+
+557
+00:17:37,766 --> 00:17:38,400
+spend like a lot of their time
+
+558
+00:17:38,400 --> 00:17:39,633
+and like a lot of
+
+559
+00:17:39,633 --> 00:17:41,366
+cause it's more like a hands on thing
+
+560
+00:17:41,366 --> 00:17:42,566
+and I think things like
+
+561
+00:17:42,566 --> 00:17:44,966
+you need to find where they're gonna have dinner
+
+562
+00:17:44,966 --> 00:17:45,833
+And you need to find the food and like all of these things
+
+563
+00:17:45,833 --> 00:17:48,233
+and like all of these things are things that you maybe
+
+564
+00:17:48,266 --> 00:17:50,133
+you don't imagine that you have to plan
+
+565
+00:17:50,133 --> 00:17:51,233
+when you're organizing an event
+
+566
+00:17:51,233 --> 00:17:51,833
+but then it's like
+
+567
+00:17:51,833 --> 00:17:54,733
+people have to eat and you have to find them a hotel
+
+568
+00:17:54,733 --> 00:17:57,200
+like on all of these things was definitely challenging
+
+569
+00:17:57,200 --> 00:17:58,233
+and then I've also
+
+570
+00:17:58,233 --> 00:18:00,433
+being part of the organizing committee for SciPy
+
+571
+00:18:00,433 --> 00:18:01,566
+the the conference
+
+572
+00:18:01,566 --> 00:18:05,100
+and I'm in the like the communication side of it
+
+573
+00:18:05,100 --> 00:18:08,733
+so I help a lot with the social media outreach
+
+574
+00:18:08,733 --> 00:18:09,300
+that's kind of
+
+575
+00:18:09,300 --> 00:18:11,966
+what my main focus has been for the past three years
+
+576
+00:18:11,966 --> 00:18:15,566
+I've also seen you singing on stage for SciPy
+
+577
+00:18:15,633 --> 00:18:17,333
+oh yeah
+
+578
+00:18:17,533 --> 00:18:17,866
+yes
+
+579
+00:18:17,866 --> 00:18:19,666
+I don't know if we have that recording
+
+580
+00:18:19,700 --> 00:18:21,733
+yeah there's there's recordings for sure
+
+581
+00:18:21,733 --> 00:18:24,266
+we have a group that we call SciPy 5
+
+582
+00:18:24,266 --> 00:18:26,733
+and we make it part of the Lightning talks
+
+583
+00:18:26,733 --> 00:18:28,000
+so at the end of the conference
+
+584
+00:18:28,000 --> 00:18:29,833
+the last lightning talk is like a song
+
+585
+00:18:29,833 --> 00:18:30,333
+so we
+
+586
+00:18:30,333 --> 00:18:31,333
+we use
+
+587
+00:18:31,366 --> 00:18:33,100
+different things that have happened
+
+588
+00:18:33,100 --> 00:18:34,133
+during the conference
+
+589
+00:18:34,133 --> 00:18:36,433
+and we like create a song with it
+
+590
+00:18:36,433 --> 00:18:38,800
+wow
+And then we just sing a song at the end of the conference
+
+591
+00:18:38,833 --> 00:18:39,866
+it's hilarious
+
+592
+00:18:39,866 --> 00:18:42,700
+it's been one of the most fun experiences to do in SciPy
+
+593
+00:18:42,700 --> 00:18:44,866
+and I think SciPy is one of those conferences where
+
+594
+00:18:44,866 --> 00:18:44,900
+beautiful places in the world
+
+595
+00:18:46,766 --> 00:18:47,966
+I've been in other conferences
+
+596
+00:18:47,966 --> 00:18:49,600
+but I would not do that like
+
+597
+00:18:49,600 --> 00:18:52,166
+I would not put myself on a stage and sing a song for
+
+598
+00:18:52,166 --> 00:18:53,133
+like the conference
+
+599
+00:18:53,133 --> 00:18:55,200
+but SciPy is a very cool conference for that
+
+600
+00:18:55,200 --> 00:18:58,000
+I haven't been to SciPy so that sounds
+
+601
+00:18:58,000 --> 00:18:58,900
+that sounds fun
+
+602
+00:18:58,900 --> 00:19:02,133
+I think we need to bring more of this to other make
+
+603
+00:19:02,133 --> 00:19:04,800
+let's make other conferences fun as well
+
+604
+00:19:05,266 --> 00:19:06,833
+I haven't been to PyCon
+
+605
+00:19:07,000 --> 00:19:09,000
+okay you have to come
+
+606
+00:19:09,000 --> 00:19:10,933
+come to PyCon yeah
+
+607
+00:19:10,933 --> 00:19:13,133
+you need to stay on stage for us
+
+608
+00:19:13,233 --> 00:19:14,500
+You have to sing on stage
+
+609
+00:19:14,533 --> 00:19:15,533
+cause we have so many like
+
+610
+00:19:15,533 --> 00:19:17,933
+musical talents in the coredev team as well
+
+611
+00:19:17,933 --> 00:19:21,866
+I remember they produce a record for the PyLadies auction one year
+
+612
+00:19:21,900 --> 00:19:22,900
+so maybe you can you know
+
+613
+00:19:22,900 --> 00:19:26,166
+kind of have a jam session
+
+614
+00:19:26,233 --> 00:19:28,533
+that would be fun 
+I would love to go to PyCon
+
+615
+00:19:28,533 --> 00:19:29,300
+um yeah
+
+616
+00:19:29,300 --> 00:19:29,633
+I think
+
+617
+00:19:29,733 --> 00:19:31,100
+you know SciPy and PyCon
+
+618
+00:19:31,100 --> 00:19:33,066
+you know all these community things great
+
+619
+00:19:33,066 --> 00:19:34,133
+but I know it's not always
+
+620
+00:19:34,133 --> 00:19:35,766
+you know sunshine and rainbows
+
+621
+00:19:35,766 --> 00:19:36,166
+you know
+
+622
+00:19:36,300 --> 00:19:37,866
+cause Mariatta can resonate right
+
+623
+00:19:37,866 --> 00:19:39,266
+like in open source you know
+
+624
+00:19:39,300 --> 00:19:42,733
+there's still like only around 10% of women and like
+
+625
+00:19:42,833 --> 00:19:43,866
+you know also security
+
+626
+00:19:43,866 --> 00:19:45,766
+I don't see a lot of women in security
+
+627
+00:19:45,766 --> 00:19:49,133
+as cyber security either so how do you navigate that
+
+628
+00:19:49,166 --> 00:19:49,500
+like
+
+629
+00:19:49,500 --> 00:19:52,333
+like what challenges do you face when like being
+
+630
+00:19:52,366 --> 00:19:52,666
+you know
+
+631
+00:19:52,666 --> 00:19:56,333
+a member of the underrepresented group in the industry
+
+632
+00:19:56,366 --> 00:19:56,666
+yeah
+
+633
+00:19:58,133 --> 00:20:01,166
+I guess my biggest challenge is the imposter syndrome
+
+634
+00:20:01,200 --> 00:20:01,700
+of like
+
+635
+00:20:02,200 --> 00:20:04,900
+feeling that I'm not good enough to be part of like
+
+636
+00:20:05,000 --> 00:20:06,100
+this community
+
+637
+00:20:06,100 --> 00:20:07,233
+I guess not necessarily
+
+638
+00:20:07,233 --> 00:20:09,166
+because I'm in an underrepresented community
+
+639
+00:20:09,166 --> 00:20:10,366
+but also just because my background is very different
+
+640
+00:20:11,933 --> 00:20:13,400
+like I didn't come from software
+
+641
+00:20:13,400 --> 00:20:14,633
+I actually come from math
+
+642
+00:20:14,633 --> 00:20:17,433
+so I feel like sometimes I lack a lot of these basics
+
+643
+00:20:17,433 --> 00:20:19,900
+and I also think that this challenge is like
+
+644
+00:20:19,966 --> 00:20:21,466
+I haven't had that a lot
+
+645
+00:20:21,466 --> 00:20:23,066
+but there's definitely been some
+
+646
+00:20:23,066 --> 00:20:24,800
+situations where I feel like I've
+
+647
+00:20:24,800 --> 00:20:26,233
+I've been treated differently
+
+648
+00:20:26,233 --> 00:20:29,000
+because I am part of an underrepresented community
+
+649
+00:20:29,100 --> 00:20:31,100
+I'm both a woman and Latina
+
+650
+00:20:31,466 --> 00:20:33,800
+so I'm doubly underrepresented
+
+651
+00:20:33,800 --> 00:20:34,466
+and I think
+
+652
+00:20:34,466 --> 00:20:37,533
+I think it's it's been tough in some situation
+
+653
+00:20:37,533 --> 00:20:38,833
+but at the but at the same time
+
+654
+00:20:38,833 --> 00:20:41,333
+it's make me want to work harder
+
+655
+00:20:41,366 --> 00:20:42,633
+I mean to prove myself
+
+656
+00:20:42,633 --> 00:20:45,566
+but also to represent the communities
+
+657
+00:20:45,600 --> 00:20:45,833
+right
+
+658
+00:20:45,833 --> 00:20:47,166
+to like to make sure that people know that women are
+
+659
+00:20:47,166 --> 00:20:49,000
+to make sure that people know that women
+
+660
+00:20:49,033 --> 00:20:50,466
+can also be great at their jobs
+
+661
+00:20:50,466 --> 00:20:53,233
+can also be great coders can also be great at
+
+662
+00:20:53,233 --> 00:20:55,333
+at managing people like all of these things
+
+663
+00:20:55,333 --> 00:20:56,066
+so I think it's
+
+664
+00:20:56,066 --> 00:20:57,966
+it's inspire me to work harder
+
+665
+00:20:57,966 --> 00:20:59,666
+maybe some of that comes from my own
+
+666
+00:20:59,666 --> 00:21:01,433
+like insecurity and imposter syndrome
+
+667
+00:21:01,433 --> 00:21:03,400
+but I think the consequences are good
+
+668
+00:21:03,400 --> 00:21:04,833
+I think the consequences of like
+
+669
+00:21:04,833 --> 00:21:05,800
+working harder
+
+670
+00:21:05,800 --> 00:21:08,833
+and trying to achieve more and grow more are
+
+671
+00:21:08,833 --> 00:21:09,733
+are always good
+
+672
+00:21:09,733 --> 00:21:11,200
+and I also think that
+
+673
+00:21:11,200 --> 00:21:12,333
+I mean one of the ways that
+
+674
+00:21:12,333 --> 00:21:14,233
+I guess I navigate that is by
+
+675
+00:21:14,333 --> 00:21:18,000
+getting closer to people who will inspire me
+
+676
+00:21:18,033 --> 00:21:18,966
+and will
+
+677
+00:21:19,033 --> 00:21:20,500
+I guess elevate my work
+
+678
+00:21:20,500 --> 00:21:21,200
+and I think the open source community
+
+679
+00:21:21,200 --> 00:21:22,866
+I think the open source community
+
+680
+00:21:22,866 --> 00:21:25,200
+the Python community the scientific Python community
+
+681
+00:21:25,200 --> 00:21:26,366
+it's full of those people
+
+682
+00:21:26,366 --> 00:21:27,766
+it's full of people who will
+
+683
+00:21:27,766 --> 00:21:30,133
+tell you all the time how good of a job you're doing
+
+684
+00:21:30,133 --> 00:21:31,366
+and will elevate you
+
+685
+00:21:31,366 --> 00:21:33,300
+and will teach you and will mentor you
+
+686
+00:21:33,300 --> 00:21:34,433
+and I think that's been like
+
+687
+00:21:34,433 --> 00:21:35,733
+the most important thing for me
+
+688
+00:21:35,733 --> 00:21:37,000
+is to surround myself
+
+689
+00:21:37,000 --> 00:21:39,333
+with the people that will allow me to grow
+
+690
+00:21:39,333 --> 00:21:39,933
+and not
+
+691
+00:21:40,000 --> 00:21:41,400
+kind of push me down
+
+692
+00:21:41,400 --> 00:21:43,900
+that's really important and I love hearing this
+
+693
+00:21:43,900 --> 00:21:46,333
+ya
+And I feel like a lot of us can really
+
+694
+00:21:46,400 --> 00:21:49,000
+relate and resonate with what you
+
+695
+00:21:49,000 --> 00:21:50,466
+you know what you experience
+
+696
+00:21:50,466 --> 00:21:51,666
+I do believe that it's
+
+697
+00:21:51,666 --> 00:21:53,666
+it's very important to find the right
+
+698
+00:21:53,666 --> 00:21:56,433
+of the right community and I do
+
+699
+00:21:56,466 --> 00:21:57,200
+I agree like
+
+700
+00:21:57,200 --> 00:22:00,833
+the Python community is kind of special in that
+
+701
+00:22:00,866 --> 00:22:02,833
+you can always find someone like
+
+702
+00:22:02,900 --> 00:22:05,100
+I feel the whole community is always there
+
+703
+00:22:05,100 --> 00:22:08,166
+wanting and willing to help you and support you so
+
+704
+00:22:08,366 --> 00:22:10,100
+and I think you mentioned a very good point
+
+705
+00:22:10,100 --> 00:22:11,466
+like imposter syndrome
+
+706
+00:22:11,466 --> 00:22:13,100
+because I don't know when I meet you maybe
+
+707
+00:22:13,133 --> 00:22:13,966
+maybe like you know
+
+708
+00:22:13,966 --> 00:22:15,200
+a little bit before SciPy or
+
+709
+00:22:15,200 --> 00:22:16,366
+or SciPy I can't remember
+
+710
+00:22:16,366 --> 00:22:16,866
+but like
+
+711
+00:22:16,866 --> 00:22:17,966
+we met in Colombia
+
+712
+00:22:17,966 --> 00:22:19,966
+Maybe oh maybe PyCon Colombia yes
+
+713
+00:22:20,000 --> 00:22:21,166
+yeah but when I look at you
+
+714
+00:22:21,166 --> 00:22:22,400
+it's just like oh my God
+
+715
+00:22:22,400 --> 00:22:25,266
+you're so amazing so confident and so many talent
+
+716
+00:22:25,266 --> 00:22:26,133
+and I feel like
+
+717
+00:22:26,166 --> 00:22:28,566
+even if you say that you have imposter syndrome
+
+718
+00:22:28,733 --> 00:22:31,366
+I I'm pretty sure that a lot of people in the community
+
+719
+00:22:31,466 --> 00:22:32,700
+will feel the same you know
+
+720
+00:22:32,700 --> 00:22:32,933
+like
+
+721
+00:22:32,933 --> 00:22:33,300
+so sometimes you know
+
+722
+00:22:33,333 --> 00:22:34,866
+is sometimes you know
+
+723
+00:22:34,866 --> 00:22:35,700
+um yeah
+
+724
+00:22:35,700 --> 00:22:36,233
+finding a
+
+725
+00:22:36,300 --> 00:22:39,133
+supportive group that you can just be open about it
+
+726
+00:22:39,133 --> 00:22:39,900
+and like you know
+
+727
+00:22:39,900 --> 00:22:40,900
+that is very
+
+728
+00:22:41,000 --> 00:22:42,233
+that's that's very valuable
+
+729
+00:22:42,233 --> 00:22:45,233
+yeah and I feel like for me as well
+
+730
+00:22:45,233 --> 00:22:47,166
+one of the reasons I feel like
+
+731
+00:22:47,166 --> 00:22:50,466
+I'm not good enough is because I don't see a lot of
+
+732
+00:22:51,233 --> 00:22:52,666
+people who look like me you know
+
+733
+00:22:52,666 --> 00:22:54,633
+people I who I can relate to
+
+734
+00:22:54,633 --> 00:22:56,200
+and sometimes you feel like you just question yourself
+
+735
+00:22:57,500 --> 00:22:57,800
+like
+
+736
+00:22:57,800 --> 00:23:00,866
+am I really really good am I here because I'm good
+
+737
+00:23:00,866 --> 00:23:02,400
+or am I here just because
+
+738
+00:23:02,400 --> 00:23:04,766
+they need to feel in somebody
+
+739
+00:23:04,766 --> 00:23:05,100
+you know
+
+740
+00:23:05,100 --> 00:23:05,466
+um I
+
+741
+00:23:05,466 --> 00:23:07,633
+I think that's still a challenge that I
+
+742
+00:23:07,633 --> 00:23:09,766
+personally face I don't know about you all
+
+743
+00:23:09,766 --> 00:23:11,100
+yeah no for sure
+
+744
+00:23:11,266 --> 00:23:12,666
+I always feel like a lot of times
+
+745
+00:23:12,666 --> 00:23:12,900
+like
+
+746
+00:23:12,900 --> 00:23:16,066
+we trying to compare things that are not comparable
+
+747
+00:23:16,066 --> 00:23:16,333
+like
+
+748
+00:23:16,766 --> 00:23:18,566
+I've seen a lot of women in tech
+
+749
+00:23:18,566 --> 00:23:20,566
+they do a lot of very important role
+
+750
+00:23:20,566 --> 00:23:21,733
+they take on very important role
+
+751
+00:23:21,733 --> 00:23:22,766
+doing very important work
+
+752
+00:23:22,766 --> 00:23:26,100
+but maybe they are not always those like shiny and like
+
+753
+00:23:26,133 --> 00:23:28,400
+you know work that admire by a lot of people
+
+754
+00:23:28,433 --> 00:23:28,933
+so
+
+755
+00:23:28,933 --> 00:23:31,066
+it's unfair to compare like
+
+756
+00:23:31,066 --> 00:23:33,933
+those people's achievement to the more typical
+
+757
+00:23:33,966 --> 00:23:36,200
+people's achievement and I think that's
+
+758
+00:23:36,200 --> 00:23:36,533
+you know
+
+759
+00:23:36,533 --> 00:23:39,500
+sometimes make you feel a bit underwhelmed of your
+
+760
+00:23:39,566 --> 00:23:41,100
+what you have done so yeah
+
+761
+00:23:41,100 --> 00:23:42,033
+yeah that's true
+
+762
+00:23:42,033 --> 00:23:44,633
+and I think when I first joined the Spyder Team I
+
+763
+00:23:44,700 --> 00:23:46,433
+I was actually the only woman
+
+764
+00:23:46,433 --> 00:23:49,033
+and that was a lot of responsibility for me
+
+765
+00:23:49,100 --> 00:23:49,433
+like
+
+766
+00:23:49,433 --> 00:23:53,433
+I felt like I was representing women in the team and I
+
+767
+00:23:53,533 --> 00:23:56,666
+I had to kind of put the face of like what
+
+768
+00:23:56,666 --> 00:23:58,466
+what women can do um
+
+769
+00:23:58,466 --> 00:23:59,900
+that was a lot of responsibility
+
+770
+00:23:59,900 --> 00:24:00,533
+but it was
+
+771
+00:24:00,533 --> 00:24:04,100
+I think it was also a very good experience for me to
+
+772
+00:24:04,266 --> 00:24:04,700
+like
+
+773
+00:24:04,700 --> 00:24:07,066
+you know like just learn that I can do all these things
+
+774
+00:24:07,066 --> 00:24:07,866
+at the beginning
+
+775
+00:24:07,866 --> 00:24:09,133
+I wasn't a software developer
+
+776
+00:24:09,133 --> 00:24:11,066
+when I got invited to be part of the Spyder team
+
+777
+00:24:11,066 --> 00:24:12,900
+and I was like I don't know if I can do this
+
+778
+00:24:12,900 --> 00:24:13,633
+but just
+
+779
+00:24:13,700 --> 00:24:14,933
+joining the team
+
+780
+00:24:14,933 --> 00:24:17,266
+and being part of a community that wants to help you
+
+781
+00:24:17,266 --> 00:24:17,933
+and mentor you
+
+782
+00:24:17,933 --> 00:24:18,666
+I think that was
+
+783
+00:24:18,666 --> 00:24:19,766
+that was a great experience
+
+784
+00:24:19,766 --> 00:24:21,900
+and it's good that you bring those like
+
+785
+00:24:21,933 --> 00:24:25,100
+experience and to kind of help other people as well
+
+786
+00:24:25,133 --> 00:24:25,566
+uh huh
+
+787
+00:24:25,566 --> 00:24:26,700
+thaat's great yeah
+
+788
+00:24:26,700 --> 00:24:28,766
+I'd like to hear more about your
+
+789
+00:24:29,066 --> 00:24:31,700
+you your other YouTube about singing haha
+
+790
+00:24:31,700 --> 00:24:33,533
+can you tell us more about it
+
+791
+00:24:33,533 --> 00:24:35,600
+can you have a links to share haha
+
+792
+00:24:36,233 --> 00:24:37,733
+should we subscribe to it
+
+793
+00:24:38,333 --> 00:24:39,533
+yes yes 
+
+794
+00:24:39,600 --> 00:24:40,933
+yeah so I
+
+795
+00:24:40,933 --> 00:24:43,500
+I actually started singing when I was very
+
+796
+00:24:43,500 --> 00:24:44,333
+very little
+
+797
+00:24:44,333 --> 00:24:46,966
+like in like maybe choirs and
+
+798
+00:24:47,100 --> 00:24:48,900
+and bands and stuff like that
+
+799
+00:24:48,900 --> 00:24:50,666
+and actually when I was like 12 years old
+
+800
+00:24:50,666 --> 00:24:55,000
+I went to The X Factor in Colombia and um
+
+801
+00:24:55,033 --> 00:24:58,166
+wow I passed a few rounds then they kicked me out
+
+802
+00:24:58,166 --> 00:25:00,266
+and I remember one of the judges told me like
+
+803
+00:25:00,266 --> 00:25:01,533
+you have a very pretty voice
+
+804
+00:25:01,533 --> 00:25:02,533
+but you need
+
+805
+00:25:02,533 --> 00:25:04,400
+you need to study cause you don't have enough
+
+806
+00:25:04,400 --> 00:25:07,633
+like volume and enough like projection of your voice
+
+807
+00:25:07,633 --> 00:25:08,900
+and that was for me
+
+808
+00:25:08,900 --> 00:25:11,566
+like that's what made me want to become better
+
+809
+00:25:11,566 --> 00:25:15,233
+so as like as after I got kicked out of The X Factor
+
+810
+00:25:15,233 --> 00:25:18,533
+I went and I started studying music and taking like
+
+811
+00:25:18,533 --> 00:25:20,200
+vocal technique lessons
+
+812
+00:25:20,200 --> 00:25:21,166
+and I guess I I yeah
+
+813
+00:25:21,400 --> 00:25:24,633
+I started becoming better and I think after yeah
+
+814
+00:25:24,800 --> 00:25:27,466
+so when I was in my undergrad I started this project
+
+815
+00:25:27,466 --> 00:25:30,333
+I created a YouTube channel and I started uh
+
+816
+00:25:30,366 --> 00:25:31,733
+recording and doing videos
+
+817
+00:25:31,733 --> 00:25:32,700
+it was always covers
+
+818
+00:25:32,700 --> 00:25:35,233
+I've never been like writing my own music
+
+819
+00:25:35,300 --> 00:25:37,600
+but it's it's been always like covers
+
+820
+00:25:37,800 --> 00:25:39,533
+um but it was like a lot of work
+
+821
+00:25:39,533 --> 00:25:41,900
+so after maybe two years I was like
+
+822
+00:25:41,900 --> 00:25:44,300
+I don't think I can do this as much so I
+
+823
+00:25:44,366 --> 00:25:46,400
+I have a YouTube channel with a lot of videos
+
+824
+00:25:46,400 --> 00:25:49,800
+but I haven't done much in the past few years
+
+825
+00:25:49,800 --> 00:25:52,700
+and I also have played with like different bands
+
+826
+00:25:52,700 --> 00:25:53,666
+so before I
+
+827
+00:25:53,666 --> 00:25:56,066
+I moved from Colombia to the US like four or five
+
+828
+00:25:56,100 --> 00:25:58,366
+years ago and before I moved I was uh
+
+829
+00:25:58,400 --> 00:26:00,866
+singing with a band and we had some like
+
+830
+00:26:00,866 --> 00:26:02,166
+concerts and things like that
+
+831
+00:26:02,166 --> 00:26:03,600
+and that was very very fun
+
+832
+00:26:03,600 --> 00:26:05,900
+and now I'm in the US and it's a little bit harder
+
+833
+00:26:05,900 --> 00:26:06,533
+and I
+
+834
+00:26:06,533 --> 00:26:08,866
+I not necessarily have found the right people haha
+
+835
+00:26:09,100 --> 00:26:10,033
+to do music
+
+836
+00:26:10,133 --> 00:26:13,133
+but it's something that I definitely still have in me
+
+837
+00:26:13,300 --> 00:26:15,466
+like I think music is one of those things that I
+
+838
+00:26:15,466 --> 00:26:17,500
+I never leave behind and
+
+839
+00:26:17,533 --> 00:26:20,300
+the first thing I bought when I got here was a guitar
+
+840
+00:26:20,300 --> 00:26:21,300
+and then I bought a piano
+
+841
+00:26:21,300 --> 00:26:22,766
+a keyboard it's right there
+
+842
+00:26:22,966 --> 00:26:23,966
+oh
+
+843
+00:26:24,433 --> 00:26:25,666
+yeah
+
+844
+00:26:26,200 --> 00:26:28,866
+and it's like one of those things that I feel
+
+845
+00:26:28,866 --> 00:26:31,066
+feels my heart with joy so it's
+
+846
+00:26:31,066 --> 00:26:33,600
+I guess it keeps my mental health
+
+847
+00:26:33,600 --> 00:26:34,133
+and
+
+848
+00:26:34,133 --> 00:26:36,366
+it's something that I like to share a lot with people
+
+849
+00:26:36,366 --> 00:26:36,900
+too
+
+850
+00:26:36,900 --> 00:26:38,466
+so just like singing for people
+
+851
+00:26:38,466 --> 00:26:40,133
+playing for people is something that I really
+
+852
+00:26:40,133 --> 00:26:41,566
+I really enjoy doing too
+
+853
+00:26:41,566 --> 00:26:43,300
+I have to break a news for you
+
+854
+00:26:43,300 --> 00:26:44,800
+cause this year in Europython
+
+855
+00:26:44,800 --> 00:26:46,066
+they have formed a band
+
+856
+00:26:46,066 --> 00:26:46,600
+so
+
+857
+00:26:47,066 --> 00:26:47,833
+oh wow
+
+858
+00:26:47,833 --> 00:26:49,500
+yes it started with 
+
+859
+00:26:49,533 --> 00:26:51,600
+you know I don't know if you know him
+
+860
+00:26:51,666 --> 00:26:54,866
+our friend Moses like he perform a little bit of like
+
+861
+00:26:54,900 --> 00:26:56,300
+you know a music at
+
+862
+00:26:56,300 --> 00:26:58,033
+at the lighting talk just like you do
+
+863
+00:26:58,033 --> 00:26:59,800
+you know it's just a little bit fun music
+
+864
+00:26:59,800 --> 00:27:01,766
+and then it grow and grow into like
+
+865
+00:27:01,833 --> 00:27:03,633
+there are more and more people joining him
+
+866
+00:27:03,633 --> 00:27:05,266
+and they will bring their musical
+
+867
+00:27:05,266 --> 00:27:07,766
+instrument to EuroPython and this year
+
+868
+00:27:07,800 --> 00:27:08,966
+if you look at the recording
+
+869
+00:27:08,966 --> 00:27:11,500
+like they perform all together on stage
+
+870
+00:27:11,500 --> 00:27:12,933
+that's amazing so
+
+871
+00:27:12,966 --> 00:27:14,566
+um just so you know
+
+872
+00:27:14,566 --> 00:27:17,966
+you can come to EuroPython and jam with everyone
+
+873
+00:27:18,366 --> 00:27:19,700
+they would love to have you
+
+874
+00:27:19,700 --> 00:27:20,866
+I would love to do that
+
+875
+00:27:20,866 --> 00:27:21,666
+I think it's uh
+
+876
+00:27:21,666 --> 00:27:22,733
+for me I'm just
+
+877
+00:27:22,733 --> 00:27:24,966
+I really admire that like I
+
+878
+00:27:24,966 --> 00:27:26,466
+I admire your you know
+
+879
+00:27:26,466 --> 00:27:28,566
+like rejection not rejection
+
+880
+00:27:28,566 --> 00:27:29,566
+like you got kicked out
+
+881
+00:27:29,566 --> 00:27:31,633
+you mentioned you got kicked out from something
+
+882
+00:27:31,633 --> 00:27:35,133
+but you took it as motivation to make you even better
+
+883
+00:27:36,100 --> 00:27:38,366
+I think that's really inspiring
+
+884
+00:27:38,366 --> 00:27:39,700
+like congrats for doing that
+
+885
+00:27:39,766 --> 00:27:42,966
+some people thinks like once they fail at something
+
+886
+00:27:42,966 --> 00:27:45,066
+they give up they don't wanna do it anymore
+
+887
+00:27:45,066 --> 00:27:48,333
+but you continued on to do it so it's really cool
+
+888
+00:27:48,333 --> 00:27:50,466
+when I was a kid I wanted to be Shakira
+
+889
+00:27:51,100 --> 00:27:52,100
+to be what
+
+890
+00:27:52,400 --> 00:27:53,266
+Shakira
+
+891
+00:27:53,566 --> 00:27:55,433
+oh yes I love her music 
+
+892
+00:27:55,566 --> 00:27:56,066
+yes yes yes
+
+893
+00:27:56,066 --> 00:27:59,333
+I was like is everybody in Colombia so talented
+
+894
+00:27:59,366 --> 00:28:01,366
+I think so
+
+895
+00:28:01,933 --> 00:28:02,533
+yeah
+
+896
+00:28:02,533 --> 00:28:04,133
+I wanted to be her when I was a kid
+
+897
+00:28:04,133 --> 00:28:05,333
+I thought I was gonna like
+
+898
+00:28:05,333 --> 00:28:08,100
+follow that path and study music
+
+899
+00:28:08,133 --> 00:28:08,933
+and just become a musician 
+
+900
+00:28:09,033 --> 00:28:10,466
+like be a singer
+
+901
+00:28:10,466 --> 00:28:11,400
+I'm glad I didn't
+
+902
+00:28:11,400 --> 00:28:13,333
+because I think that I would have missed
+
+903
+00:28:13,333 --> 00:28:15,300
+on all the other side of
+
+904
+00:28:15,300 --> 00:28:17,000
+the work that I do and the things that I do
+
+905
+00:28:17,000 --> 00:28:19,366
+that are also very close to my heart
+
+906
+00:28:19,366 --> 00:28:20,366
+but I yeah
+
+907
+00:28:20,366 --> 00:28:21,133
+it's funny cause I
+
+908
+00:28:21,133 --> 00:28:23,566
+I really thought that that's what I was gonna do
+
+909
+00:28:23,966 --> 00:28:25,833
+yeah I do enjoy going to
+
+910
+00:28:25,833 --> 00:28:28,766
+dancing with the organisers of PyCon Colombia
+
+911
+00:28:28,766 --> 00:28:29,200
+that's
+
+912
+00:28:29,200 --> 00:28:30,466
+that's amazing I was like
+
+913
+00:28:30,466 --> 00:28:32,633
+I won't struggle cause a lot of times we say like
+
+914
+00:28:32,633 --> 00:28:35,366
+oh like if you go to PyCon or like
+
+915
+00:28:35,366 --> 00:28:36,466
+we are just a bunch of nerds
+
+916
+00:28:36,466 --> 00:28:37,700
+we don't party we don't dance
+
+917
+00:28:37,700 --> 00:28:39,500
+no look at that I mean like 
+
+918
+00:28:39,500 --> 00:28:41,666
+mm hmm mm hmm
+everybody dance  we're cool nerds
+
+919
+00:28:41,666 --> 00:28:43,766
+hahaha yes hahaha
+
+920
+00:28:44,566 --> 00:28:45,766
+we also dance a little bit
+
+921
+00:28:45,766 --> 00:28:47,766
+like at the social event of PyCon Greece
+
+922
+00:28:47,766 --> 00:28:48,500
+I think at the end
+
+923
+00:28:48,500 --> 00:28:51,366
+usually it's like people need to really like
+
+924
+00:28:51,366 --> 00:28:51,833
+you know
+
+925
+00:28:51,833 --> 00:28:52,400
+warm up
+
+926
+00:28:52,700 --> 00:28:54,766
+spend lots of time to warm up until they will be like
+
+927
+00:28:54,766 --> 00:28:55,866
+okay now we can dance
+
+928
+00:28:55,866 --> 00:28:57,033
+but like I like in
+
+929
+00:28:57,033 --> 00:28:57,666
+in Colombia
+
+930
+00:28:57,666 --> 00:28:59,666
+it's just like everybody just like right away
+
+931
+00:28:59,666 --> 00:29:00,633
+you know let's dance
+
+932
+00:29:00,633 --> 00:29:01,933
+you know like
+
+933
+00:29:02,166 --> 00:29:03,566
+we're very warm
+
+934
+00:29:05,866 --> 00:29:07,066
+that's just yeah
+
+935
+00:29:07,066 --> 00:29:08,600
+another thing that I I really miss
+
+936
+00:29:08,600 --> 00:29:08,966
+I have
+
+937
+00:29:08,966 --> 00:29:10,966
+I really miss PyCon Colombia that that was really
+
+938
+00:29:11,500 --> 00:29:13,500
+really fun experience that was
+
+939
+00:29:13,566 --> 00:29:15,833
+I miss the community there
+
+940
+00:29:15,833 --> 00:29:17,300
+they are just amazing yeah
+
+941
+00:29:17,366 --> 00:29:17,666
+oh yeah
+
+942
+00:29:17,666 --> 00:29:19,233
+or do you have any other topics we want
+
+943
+00:29:19,233 --> 00:29:21,566
+you want to talk about before we wrap it up
+
+944
+00:29:21,866 --> 00:29:23,066
+um no
+
+945
+00:29:23,066 --> 00:29:25,600
+I would say thank you so much for inviting me
+
+946
+00:29:25,600 --> 00:29:29,866
+and I really feel very grateful to be part of um
+
+947
+00:29:29,933 --> 00:29:31,300
+the Python community the
+
+948
+00:29:31,300 --> 00:29:34,166
+the Python community the scientific Python community
+
+949
+00:29:34,166 --> 00:29:35,866
+the open source community in general
+
+950
+00:29:35,866 --> 00:29:36,333
+and
+
+951
+00:29:36,333 --> 00:29:38,400
+I really love the work that you two are doing
+
+952
+00:29:38,400 --> 00:29:40,666
+in elevating the people from the community
+
+953
+00:29:40,666 --> 00:29:42,966
+and showing the work that they're doing um
+
+954
+00:29:42,966 --> 00:29:43,566
+to the world
+
+955
+00:29:43,566 --> 00:29:45,733
+cause I think that is a very important part of
+
+956
+00:29:45,733 --> 00:29:47,300
+of being part of of this
+
+957
+00:29:47,300 --> 00:29:47,800
+you know of
+
+958
+00:29:47,800 --> 00:29:50,066
+of feeling that the work that you're doing counts
+
+959
+00:29:50,066 --> 00:29:51,133
+and that people um
+
+960
+00:29:51,133 --> 00:29:51,900
+appreciate it
+
+961
+00:29:51,900 --> 00:29:54,500
+so I'm really grateful that you invited me and
+
+962
+00:29:54,500 --> 00:29:55,900
+and yeah I hope you keep up the
+
+963
+00:29:56,000 --> 00:29:58,200
+the good work cause I'm I'm really yeah
+
+964
+00:29:58,200 --> 00:30:00,466
+I really like what you're trying to do
+
+965
+00:30:00,533 --> 00:30:01,633
+thank you Juanita
+
+966
+00:30:01,633 --> 00:30:04,466
+thank you for joining us we're really grateful to hear
+
+967
+00:30:04,466 --> 00:30:06,833
+and I think your story is really inspiring
+
+968
+00:30:06,833 --> 00:30:07,533
+so yeah thank you so much
+
+969
+00:30:07,533 --> 00:30:10,500
+yeah so thank you so much for inspiring all of us
+
+970
+00:30:10,500 --> 00:30:12,033
+if you who are watching
+
+971
+00:30:12,033 --> 00:30:14,900
+if you want us to inspire more people
+
+972
+00:30:14,900 --> 00:30:15,566
+please uh
+
+973
+00:30:15,566 --> 00:30:17,866
+consider donating to PyPodcats
+
+974
+00:30:17,866 --> 00:30:18,900
+uh because
+
+975
+00:30:18,900 --> 00:30:20,300
+you know to produce this kind of
+
+976
+00:30:20,300 --> 00:30:21,266
+episode uh
+
+977
+00:30:21,266 --> 00:30:22,766
+it's not like running a conference
+
+978
+00:30:22,766 --> 00:30:23,833
+it's not as expensive
+
+979
+00:30:23,833 --> 00:30:26,266
+but it still require money to have all this equipment
+
+980
+00:30:26,266 --> 00:30:29,100
+we are not monetizing our videos or podcast
+
+981
+00:30:29,100 --> 00:30:29,566
+so we need your uh donation to support us to
+
+982
+00:30:29,933 --> 00:30:32,500
+we need your uh donation to support us
+
+983
+00:30:32,633 --> 00:30:33,066
+you know
+
+984
+00:30:33,066 --> 00:30:36,233
+keep doing this and inspire more people and um
+
+985
+00:30:36,366 --> 00:30:36,900
+just
+
+986
+00:30:36,900 --> 00:30:37,300
+give people who have been
+
+987
+00:30:37,666 --> 00:30:38,700
+people who have
+
+988
+00:30:38,700 --> 00:30:41,566
+doing so much hard work for the community a shout out
+
+989
+00:30:41,566 --> 00:30:43,000
+so people know about them
+
+990
+00:30:43,000 --> 00:30:44,700
+thank you so much for watching
+
+991
+00:30:44,700 --> 00:30:47,333
+and this is Juanita amazing
+
+992
+00:30:47,333 --> 00:30:48,633
+thank you
+
+993
+00:30:50,233 --> 00:30:51,300
+hope to see you
+
+994
+00:30:51,400 --> 00:30:54,433
+again next time in our next episode of PyPodcats
+
+995
+00:30:54,433 --> 00:30:55,666
+Hidden Figures of Python
+
+996
+00:30:55,933 --> 00:30:58,166
+thank you everybody bye 
+
+997
+00:18:44,866 --> 00:18:46,766
+people really have a lot of fun with that
+
