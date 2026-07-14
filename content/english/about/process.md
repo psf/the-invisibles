@@ -67,6 +67,8 @@ Tools that are needed for the **"Publishing"** step:
 - Let Georgi know that the videos are ready for editing
 - Produce:
   - trailer video
+  - social media trailer video: a smaller copy of the trailer, under 10 MB, for posting on social media
+    (see the ffmpeg command under "Other useful ffmpeg commands" below)
   - full episode video
   - artwork (using provided photo and information from the speaker info form)
   - necessary promotional materials
@@ -162,6 +164,8 @@ Tools that are needed for the **"Publishing"** step:
   automatically
 - Promote on social media
   - Draft the announcement on buffer. Credentials in Notion.
+  - Attach the social media trailer video (the under 10 MB copy of the trailer). If it is not yet on the
+    Speaker Episode folder on Google Drive, produce it with ffmpeg (see below) and upload it there.
 
 #### Publishing to Spotify/Apple Podcast etc
 
@@ -240,7 +244,22 @@ Use this to generate mp3 audio file from a video
 ffmpeg -i filename.mp4 filename.mp3
 ```
 
-2. Scale the video/audio down
+2. Produce the social media trailer video (under 10 MB)
+
+Social media platforms limit upload sizes, so we post a smaller copy of the trailer.
+Scale it down to 960x540 and use a two-pass encode to hit a predictable file size.
+For a trailer around 2 minutes, a 450k video bitrate plus 96k audio lands at about 9 MB:
+
+```
+ffmpeg -i trailer.mp4 -vf "scale=960:540" -c:v libx264 -preset slow -b:v 450k -pass 1 -an -f mp4 /dev/null
+ffmpeg -i trailer.mp4 -vf "scale=960:540" -c:v libx264 -preset slow -b:v 450k -pass 2 -c:a aac -b:a 96k -movflags +faststart hidden-figures-ep{number}-trailer-social.mp4
+```
+
+For a longer or shorter trailer, adjust the video bitrate: total size in bytes is roughly
+(video bitrate + audio bitrate) * duration in seconds / 8. Verify the result is under 10 MB,
+then upload it to the Speaker Episode folder on Google Drive.
+
+3. Scale the video/audio down
 
 Sometimes you may need to scale down the video/trailer before sharing on social media.
 It can be scaled down using ffmpeg.
