@@ -36,8 +36,8 @@
 
           <div class="content mb-10">
             {{ partial "components/podcast-audio-card" . }}
-            {{ partial "components/youtube_player" . }}
             {{ partial "components/transcript" . }}
+            {{ partial "components/youtube_player" . }}
             {{ .Content }}
             {{ if $.Params.speaker }}
                 <h2>Get to know {{.Params.speaker.Title}}</h2>
