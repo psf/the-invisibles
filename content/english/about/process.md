@@ -143,7 +143,7 @@ Tools that are needed for the **"Publishing"** step:
     - **f"static/transcript/hidden-figures-of-python-ep{number}-trailer.srt:"**: transcript of the trailer
     - **f"static/transcript/hidden-figures-of-python-ep{number}.srt:"**: transcript of the full episode
   - The transcript files are displayed on each episode page as a collapsible "Read Transcript" section
-    (right below the video), with a timestamp next to each caption. This is generated automatically from
+    (between the audio player and the video), with a timestamp next to each caption. This is generated automatically from
     the **transcript** field in the episode frontmatter, so double check that the path is correct.
   - Commit, push, and create a pull request
   - Example Pull request: https://github.com/psf/the-invisibles/pull/40

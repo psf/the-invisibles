@@ -9,6 +9,7 @@ weight = 1
 [[main]]
 name = "About"
 hasChildren = true
+weight = 2
 
 [[main]]
 parent = "About"
@@ -54,7 +55,7 @@ weight = 6
 [[main]]
 name = "Blog"
 url = "blog/"
-weight = 4
+weight = 5
 
 [[main]]
 name = "Contact"
@@ -99,9 +100,9 @@ weight = 4
 [[footer]]
 name = "Donate"
 url = "https://opencollective.com/pypodcats"
-weight = 2
+weight = 5
 
 [[footer]]
 name = "Disclosure Statement"
 url = "about/disclosures"
-weight = 5
+weight = 6

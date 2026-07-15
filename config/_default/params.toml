@@ -18,7 +18,7 @@ navbar_fixed = true
 theme_switcher = true
 theme_default = "dark" # available options [light/dark/system]
 # Main Sections
-mainSections = ["blog"]
+mainSections = ["episodes"]
 # contact form action
 #contact_form_action = "https://forms.gle/SWbZpbfeXSNHCPn8A" # contact form works with [https://airform.io/] or [https://formspree.io]
 # google tag manager, see https://developers.google.com/tag-manager/
@@ -37,16 +37,16 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [navigation_button]
-enable = false
-label = "subscribe"
-link = "subscribe"
+enable = true
+label = "Subscribe"
+link = "subscribe/"
 
 # search
 # search module: https://github.com/gethugothemes/hugo-modules/tree/master/search
 [search]
 enable = true
 primary_color = "#121212"
-include_sections = ["blog"]
+include_sections = ["episodes", "blog", "speakers"]
 show_image = true
 show_description = true
 show_tags = true
