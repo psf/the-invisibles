@@ -1,8 +1,35 @@
-<h5>Transcript</h5>
-{{ $path := print "/static" .Params.transcript }}
-path {{ $path }}
-{{ $file := readFile $path }}
-{{ $file := split $file "\n" }}
-{{ $file := delimit $file "<br>" }}
-<p>{{ $file | safeHTML }}
-</p>
+{{ with .Params.transcript }}
+  {{ $path := print "/static" . }}
+  {{ if fileExists $path }}
+    {{ $content := replace (readFile $path) "\r\n" "\n" }}
+    <details class="bg-theme-light dark:bg-darkmode-theme-light not-prose mb-10 rounded p-6">
+      <summary class="h5 text-dark dark:text-darkmode-dark cursor-pointer select-none">
+        <i class="fa-regular fa-file-lines mr-2"></i>Read Transcript
+      </summary>
+      <div class="mt-6 max-h-96 overflow-y-auto pr-2">
+        {{ range split $content "\n\n" }}
+          {{ $lines := split (trim . "\n ") "\n" }}
+          {{ $tsIdx := -1 }}
+          {{ range $i, $line := $lines }}
+            {{ if and (lt $tsIdx 0) (in $line "-->") }}
+              {{ $tsIdx = $i }}
+            {{ end }}
+          {{ end }}
+          {{ if ge $tsIdx 0 }}
+            {{/* "00:01:19,666 --> 00:01:22,066" or VTT "00:01:19.666 --> ..." */}}
+            {{ $start := index (split (index $lines $tsIdx) " ") 0 }}
+            {{ $start = index (split (replace $start "," ".") ".") 0 }}
+            {{ $start = strings.TrimPrefix "00:" $start }}
+            {{ $text := delimit (after (add $tsIdx 1) $lines) " " }}
+            {{ with trim $text " " }}
+              <div class="mb-2 flex">
+                <span class="text-primary dark:text-darkmode-primary mr-4 w-14 flex-none font-mono text-sm leading-6">{{ $start }}</span>
+                <span class="text-text dark:text-darkmode-text">{{ . }}</span>
+              </div>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      </div>
+    </details>
+  {{ end }}
+{{ end }}

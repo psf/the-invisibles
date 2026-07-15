@@ -135,8 +135,11 @@ Tools that are needed for the **"Publishing"** step:
     - **f"content/english/speakers/{speaker_name}.md"** : speaker bio page: photos, links, etc
     - **f"static/audio/hidden-figures-ep{number}-trailer.mp3:"**: mp3 of the trailer
     - **f"static/audio/hidden-figures-ep{number}.mp3:"**: mp3 of the full episode
-    - **f"static/audio/transcript/hidden-figures-of-pyhon-ep{number}-trailer.srt:"**: transcript of the trailer
-    - **f"static/audio/transcript/hidden-figures-of-pyhon-ep{number}.srt:"**: transcript of the full episode
+    - **f"static/transcript/hidden-figures-of-python-ep{number}-trailer.srt:"**: transcript of the trailer
+    - **f"static/transcript/hidden-figures-of-python-ep{number}.srt:"**: transcript of the full episode
+  - The transcript files are displayed on each episode page as a collapsible "Read Transcript" section
+    (right below the video), with a timestamp next to each caption. This is generated automatically from
+    the **transcript** field in the episode frontmatter, so double check that the path is correct.
   - Commit, push, and create a pull request
   - Example Pull request: https://github.com/psf/the-invisibles/pull/40
 - Proofread the write-ups before publishing
