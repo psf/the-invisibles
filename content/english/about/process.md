@@ -31,6 +31,7 @@ As a PyPodcats team member, you should have access to the following:
 - [StreamYard](https://streamyard.com/pal/c/5633886810406912)
 - [Buffer](https://buffer.com)
 - [Calendly](https://calendly.com)
+- [PyPodcats YouTube channel](https://www.youtube.com/channel/UCePGQ8r9XBT04eiEYw5uq6Q)
 
 Credentials for the above are found on Notion.
 
@@ -160,14 +161,16 @@ Tools that are needed for the **"Publishing"** step:
 
 ##### YouTube workflow
 
-- Once videos, transcript, and writeups are done, share the Speaker Folder with The PSF (Marie Nordin)
-  - At this point: the artwork and writepups should also be on the Speaker Google Drive folder
-  - Provide the YouTube title and description via Google Docs (include the docs on Google Drive)
-  - DM her on The PSF Slack
-- Let her know that the episode is ready for publishing to YouTube
-  - Schedule it for publishing
+Since Season 2, we publish to our own [PyPodcats YouTube channel](https://www.youtube.com/channel/UCePGQ8r9XBT04eiEYw5uq6Q),
+so there is no need to go through The PSF anymore. Credentials are on Notion.
+
+- Once videos, transcript, and writeups are done, upload the captioned trailer and full episode videos
+  to the PyPodcats YouTube channel
+  - At this point: the artwork and writeups should also be on the Speaker Google Drive folder
+  - Use the write-ups as the basis for the YouTube title and description
+- Schedule each video for publishing, matching the dates in the webpage frontmatter
   - Usually we do it on 9 AM US Eastern timezone / 1 PM UTC
-- Once YouTube video has been uploaded, update the webpage with the YouTube ID in the frontmatter
+- Once the YouTube videos are uploaded, update the webpage with the YouTube ID in the frontmatter
 
 ##### Scheduling
 
