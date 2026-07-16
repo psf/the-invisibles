@@ -182,6 +182,9 @@ url = "/about/conduct/"
 [[footer.columns.links]]
 label = "Our Team"
 url = "/hosts/"
+[[footer.columns.links]]
+label = "Contact"
+url = "/contact/"
 [[footer.columns]]
 title = "Support"
 [[footer.columns.links]]
