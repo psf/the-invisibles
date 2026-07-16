@@ -8,3 +8,13 @@
   --ink-300: rgba(255, 255, 255, 0.88);
   --ink-400: rgba(255, 255, 255, 0.75);
 }
+
+/* Links in the footer bottom bar (theme credit) otherwise pick up the global
+   blue link color, which lacks contrast on the caramel background. */
+.g-footer__bottom a {
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.g-footer__bottom a:hover {
+  color: #ffffff;
+}
