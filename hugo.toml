@@ -35,6 +35,16 @@ target = "assets"
 source = "hugo_stats.json"
 target = "assets/watching/hugo_stats.json"
 
+# Serve the images that hugoplate kept in assets/ as plain static files;
+# the Popular theme references them directly as /images/... paths.
+[[module.mounts]]
+source = "static"
+target = "static"
+
+[[module.mounts]]
+source = "assets/images"
+target = "static/images"
+
 ############################# Build ##############################
 [build]
 noJSConfigInAssets = false
