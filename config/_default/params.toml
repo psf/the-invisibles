@@ -99,23 +99,31 @@ enable = false
 mailchimp_form_action = "" # replace this url with yours
 mailchimp_form_name = ""
 
-# Popular theme: brand tokens (dark palette, PoC placeholder colors)
+# Popular theme: brand tokens, from the PyPodcats design system
+# (base palette sampled from the PyPodcats logo; see design system HANDOFF.md)
 [brand]
-primary = "#e0447c"
-primaryHover = "#c73a6d"
-primaryActive = "#aa3260"
-link = "#f28bb0"
-linkHover = "#ffffff"
-ink = "#ffffff"
-surfaceWash = "#2a2230"
-surfaceInk = "#141414"
-surfacePage = "#1c1c1c"
-surfaceCard = "#222222"
-surfaceTertiary = "#262626"
-textBody = "#c9c4cc"
-textMuted = "#9a939e"
-textOnBrand = "#ffffff"
-borderSubtle = "#3e3e3e"
+primary = "#A76E1F"        # brand caramel (brown-500)
+primaryHover = "#96631B"   # brown-600
+primaryActive = "#7E5314"  # brown-700
+secondary = "#4A6A95"      # mic base deep blue (blue-500)
+accent = "#EBB354"         # snake yellow (sun-500)
+accentHover = "#D6813E"    # snake belly (orange-500)
+ink = "#45340F"            # warm near-black for text (ink-900)
+link = "#4A6A95"           # text-link (blue-500)
+linkHover = "#33507D"      # blue-600
+surfaceWash = "#F1E2CE"    # cat fur (cream-500)
+surfaceWashSoft = "#F8EFDF" # cream-300
+surfaceInk = "#A76E1F"     # surface-inverse (brand caramel)
+surfacePage = "#FDFAF3"    # page paper (cream-100)
+surfaceCard = "#FFFFFF"
+surfaceTertiary = "#F8EFDF" # cream-300
+textBody = "#45340F"       # ink-900
+textMuted = "#9A8A6B"      # ink-400
+textOnBrand = "#FFFFFF"
+borderSubtle = "#EAE0CC"   # border-hairline
+fontSans = "Nunito, system-ui, sans-serif"
+fontDisplay = "'Baloo 2', Nunito, sans-serif"
+radiusCard = "24px"        # signature card radius
 
 # Popular theme: header call to action
 [cta]
