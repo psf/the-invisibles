@@ -1,0 +1,10 @@
+/* PyPodcats site overrides on top of the Popular theme. */
+
+/* The footer sits on the brand caramel (surfaceInk). The design system pairs
+   its inverse surface with white (text-on-brand), not the theme's grey ink
+   ramp, so re-point the ink tokens inside the footer only. */
+.g-footer {
+  --ink-200: #ffffff;
+  --ink-300: rgba(255, 255, 255, 0.88);
+  --ink-400: rgba(255, 255, 255, 0.75);
+}

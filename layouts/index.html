@@ -112,7 +112,7 @@
       <p class="g-lead">{{ with $team }}{{ .lead | default "The volunteers who make every meetup happen." }}{{ else }}The volunteers who make every meetup happen.{{ end }}</p>
     </div>
     <div class="g-grid-3" style="margin-top:var(--space-5)">
-      {{ range first 3 . }}{{ partial "organizer-card.html" . }}{{ end }}
+      {{ range . }}{{ partial "organizer-card.html" . }}{{ end }}
     </div>
     <div class="g-row" style="justify-content:center;margin-top:var(--space-4)">
       <a class="g-btn g-btn--outline" href="{{ "hosts/" | relLangURL }}">{{ with $team }}{{ .cta | default "All organizers" }}{{ else }}All organizers{{ end }}</a>

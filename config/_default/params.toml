@@ -35,6 +35,7 @@ description = "Hidden Figures of Python is a podcast series by the PyPodcats tea
 brandName = "PyPodcats"
 brandSub = "Hidden Figures of Python"
 ogImage = "images/podcats_1500x1500.png"
+customCSS = ["css/pypodcats.css"]
 
 # Preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
