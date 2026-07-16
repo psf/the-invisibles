@@ -1,6 +1,7 @@
 ---
 title: "Sheena O'Connell"
 image: "/images/sheena.jpg"
+photo: "/images/sheena.jpg"
 description: "
 
 Sheena's early career saw her working as a software engineer and technical leader across multiple startups. But it was her passion for education that led her to devote the last 5+ years to re-imagining how we teach people to code professionally. 
@@ -11,21 +12,21 @@ As a founder of Prelude.tech, she provides rigorous technical training, as well 
 
 "
 social:
-  - name: github
+  - label: github
     icon: fa-brands fa-github
-    link: https://github.com/sheenarbw/
+    url: https://github.com/sheenarbw/
 
-  - name: linkedin
+  - label: linkedin
     icon: fa-brands fa-linkedin
-    link: https://www.linkedin.com/in/sheena-o-connell-0bb72527/
+    url: https://www.linkedin.com/in/sheena-o-connell-0bb72527/
 
-  - name: web
+  - label: web
     icon: fa-solid fa-globe
-    link: https://www.sheenaoc.com/
+    url: https://www.sheenaoc.com/
   
-  - name: mastodon
+  - label: mastodon
     icon: fa-brands fa-mastodon
-    link: https://fosstodon.org/@sheena
+    url: https://fosstodon.org/@sheena
 
 ---
 

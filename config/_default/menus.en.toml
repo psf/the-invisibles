@@ -8,101 +8,74 @@ weight = 1
 
 [[main]]
 name = "About"
-hasChildren = true
+url = "/about/"
 weight = 2
 
 [[main]]
 parent = "About"
 name = "Our Podcast Series"
-url = "about/"
+url = "/about/"
 weight = 1
 
 [[main]]
 parent = "About"
 name = "Our Process"
-url = "about/process"
-weight =2
+url = "/about/process/"
+weight = 2
 
 [[main]]
 parent = "About"
 name = "Financial Info"
-url = "about/financials"
-weight =3
+url = "/about/financials/"
+weight = 3
 
 [[main]]
 parent = "About"
 name = "Code of Conduct"
-url = "about/conduct"
+url = "/about/conduct/"
 weight = 4
 
 [[main]]
 parent = "About"
 name = "Python Software Foundation"
-url = "about/psf"
+url = "/about/psf/"
 weight = 5
 
 [[main]]
 parent = "About"
 name = "Disclosure Statement"
-url = "about/disclosures"
+url = "/about/disclosures/"
 weight = 6
 
 [[main]]
- name = "Episodes"
- url = "episodes/"
- weight = 3
+name = "Episodes"
+url = "/episodes/"
+weight = 3
+
+[[main]]
+name = "Speakers"
+url = "/speakers/"
+weight = 4
 
 [[main]]
 name = "Blog"
-url = "blog/"
+url = "/blog/"
 weight = 5
-
-[[main]]
-name = "Contact"
-url = "contact/"
-weight = 8
 
 [[main]]
 name = "Our Team"
-url = "hosts/"
+url = "/hosts/"
 weight = 6
 
- [[main]]
- name = "Speakers"
- url = "speakers/"
- weight = 4
-
- [[main]]
- name = "Donate"
- url = "https://opencollective.com/pypodcats"
- weight = 7
-# footer menu
-[[footer]]
-name = "About"
-url = "about/"
-weight = 1
-
-[[footer]]
-name = "Contact Us"
-url = "contact/"
-weight = 2
-
-[[footer]]
-name = "Code of Conduct"
-url = "about/conduct"
-weight = 3
-
-[[footer]]
-name = "Python Software Foundation"
-url = "about/psf"
-weight = 4
-
-[[footer]]
+[[main]]
 name = "Donate"
 url = "https://opencollective.com/pypodcats"
-weight = 5
+weight = 7
 
-[[footer]]
-name = "Disclosure Statement"
-url = "about/disclosures"
-weight = 6
+[[main]]
+name = "Contact"
+url = "/contact/"
+weight = 8
+
+# footer menu (unused by the Popular theme; footer links are configured via
+# params.footer.columns in config/_default/params.toml)

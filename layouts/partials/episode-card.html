@@ -1,0 +1,20 @@
+{{- /* Episode card. Context = an episode page. Site-level partial for the
+       PyPodcats podcast layer on top of the Popular theme. */ -}}
+<article class="g-card" data-tags="{{ with .Params.tags }}{{ delimit . "," }}{{ end }}">
+  {{ with .Params.episode_image }}
+    <a href="{{ $.RelPermalink }}" class="g-card__media"><img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy"></a>
+  {{ end }}
+  <div class="g-card__body">
+    <span class="g-card__eyebrow">
+      {{ with .Params.episode }}Episode {{ . }} · {{ end }}{{ .Date | time.Format ":date_medium" }}
+      {{ if eq .Params.episode_type "trailer" }} · <span class="g-badge g-badge--soft">Trailer</span>{{ end }}
+    </span>
+    <h3 class="g-card__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    <div class="g-card__text">{{ .Description | default .Summary | truncate 130 }}</div>
+    {{ with .Params.tags }}
+      <div class="g-card__footer">
+        {{ range first 2 . }}<a class="g-tag" href="{{ (print "tags/" (urlize .)) | relLangURL }}">{{ . }}</a>{{ end }}
+      </div>
+    {{ end }}
+  </div>
+</article>

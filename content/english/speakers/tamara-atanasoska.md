@@ -1,6 +1,7 @@
 ---
 title: "Tamara Atanasoska"
 image: "/images/tamara_atanasoska.jpeg"
+photo: "/images/tamara_atanasoska.jpeg"
 description: "
 Tamara is an open-source contributor and maintainer, a software engineer, and a CompLing/NLP
 researcher. Her expertise spans software engineering, ML/NLP, and areas including fair and responsible AI.
@@ -8,17 +9,17 @@ researcher. Her expertise spans software engineering, ML/NLP, and areas includin
 She is a leader with proven track record of mentoring and fostering a culture of innovation and continuous improvement. 
 "
 social:
-  - name: github
+  - label: github
     icon: fa-brands fa-github
-    link: https://github.com/TamaraAtanasoska
+    url: https://github.com/TamaraAtanasoska
 
-  - name: linkedin
+  - label: linkedin
     icon: fa-brands fa-linkedin
-    link: http://de.linkedin.com/in/tamaraatanasoska
+    url: http://de.linkedin.com/in/tamaraatanasoska
 
-  - name: web
+  - label: web
     icon: fa-solid fa-globe
-    link: https://tamaraatanasoska.github.io/about/
+    url: https://tamaraatanasoska.github.io/about/
 ---
 
 Tamara is an open-source contributor and maintainer, a software engineer at :probabl. and a CompLing/NLP

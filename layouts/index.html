@@ -1,0 +1,161 @@
+{{ define "main" }}
+{{- $hero := .Params.hero -}}
+{{- $upcoming := where (where site.RegularPages "Section" "events") "Date" ">=" now -}}
+{{- $upcoming = sort $upcoming "Date" "asc" -}}
+{{- /* PyPodcats: feature latest full episodes instead of blog posts */ -}}
+{{- $posts := first 3 (where (where site.RegularPages "Section" "episodes") "Params.episode_type" "!=" "trailer") -}}
+{{- $orgs := where site.RegularPages "Section" "hosts" -}}
+
+{{- with $hero }}
+<section class="g-hero">
+  <div class="g-container g-hero__grid">
+    <div class="g-hero__content">
+      {{ with .eyebrow }}<span class="g-eyebrow">{{ . }}</span>{{ end }}
+      <h1>{{ .title | default site.Title | safeHTML }}</h1>
+      {{ with .lead }}<p class="g-hero__lead">{{ . }}</p>{{ end }}
+      {{ with .ctas }}
+        <div class="g-row">
+          {{ range . }}<a class="g-btn g-btn--lg g-btn--{{ .variant | default "primary" }}" href="{{ partial "rel-href.html" .url }}">{{ with .icon }}<i class="{{ . }}" aria-hidden="true"></i>{{ end }}{{ .label }}</a>{{ end }}
+        </div>
+      {{ end }}
+    </div>
+    {{ with .image }}<div class="g-hero__media"><img src="{{ . | relURL }}" alt="{{ site.Title }}"></div>{{ end }}
+  </div>
+</section>
+{{ end }}
+
+{{- with .Params.stats }}
+<section class="g-bg-ink">
+  <div class="g-container g-stats">
+    {{ range . }}
+      {{- /* value = "@pastEventCount" renders the live number of past events,
+             rounded down to a "70+" style once there are ten or more. */ -}}
+      {{- $value := .value -}}
+      {{- if eq $value "@pastEventCount" -}}
+        {{- $past := len (where (where site.RegularPages "Section" "events") "Date" "<" now) -}}
+        {{- $value = cond (ge $past 10) (printf "%d+" (mul (div $past 10) 10)) (printf "%d" $past) -}}
+      {{- end -}}
+      <div class="g-stat"><div class="g-stat__n">{{ $value }}</div><div class="g-stat__l">{{ .label }}</div></div>
+    {{- end }}
+  </div>
+</section>
+{{ end }}
+
+{{- with .Params.features }}
+<section class="g-bg-white g-section">
+  <div class="g-container">
+    {{ with $.Params.featuresHead }}
+      <div class="g-section-head">
+        {{ with .eyebrow }}<span class="g-eyebrow">{{ . }}</span>{{ end }}
+        <h2>{{ .title }}</h2>
+        {{ with .lead }}<p class="g-lead">{{ . }}</p>{{ end }}
+      </div>
+    {{ end }}
+    <div class="g-grid-3" style="margin-top:var(--space-5)">
+      {{ range . }}
+        <div class="g-card"><div class="g-card__body">
+          <span class="g-medallion"><i class="{{ .icon }}" aria-hidden="true"></i></span>
+          <h3 class="g-card__title">{{ .title }}</h3>
+          <p class="g-card__text">{{ .body }}</p>
+        </div></div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{- range (first 1 $upcoming) }}
+<section class="g-bg-wash-soft">
+  <div class="g-container g-feature">
+    {{ with .Params.image | default site.Params.ogImage }}<div class="g-feature__media"><img src="{{ . | relURL }}" alt="{{ $.Title }}"></div>{{ end }}
+    <div class="g-feature__body">
+      <span class="g-badge g-badge--soft"><i class="fa-solid fa-calendar" aria-hidden="true"></i> {{ i18n "nextMeetup" }}</span>
+      <h2 style="margin:0">{{ .Title }}</h2>
+      <div class="g-meta-line">
+        <span><i class="fa-solid fa-calendar-day" aria-hidden="true"></i> {{ .Date | time.Format ":date_full" }}{{ with .Params.time }} · {{ . }}{{ end }}</span>
+        <span><i class="fa-solid fa-location-dot" aria-hidden="true"></i> {{ $vp := "" }}{{ with .Params.venueRef }}{{ $vp = site.GetPage (print "/venues/" .) }}{{ end }}{{ if $vp }}{{ $vp.Title }}{{ else }}{{ with .Params.venue }}{{ . }}{{ else }}{{ i18n "venueTba" }}{{ end }}{{ end }}</span>
+      </div>
+      <p style="margin:0;color:var(--text-muted);max-width:34rem">{{ .Description | default .Summary }}</p>
+      <div class="g-row">
+        {{ with .Params.rsvp }}<a class="g-btn g-btn--primary" href="{{ . }}"><i class="fa-solid fa-calendar" aria-hidden="true"></i> {{ i18n "rsvpExternal" }}</a>{{ end }}
+        <a class="g-btn g-btn--outline" href="{{ "events/" | relLangURL }}">{{ i18n "allEvents" }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{- with $posts }}
+<section class="g-bg-white g-section">
+  <div class="g-container">
+    <div class="g-row" style="justify-content:space-between;align-items:flex-end">
+      <div class="g-section-head">
+        <span class="g-eyebrow">The show</span>
+        <h2>Latest episodes</h2>
+      </div>
+      <a class="g-btn g-btn--ghost" href="{{ "episodes/" | relLangURL }}">All episodes <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+    </div>
+    <div class="g-grid-3" style="margin-top:var(--space-4)">
+      {{ range . }}{{ partial "episode-card.html" . }}{{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{- with $orgs }}
+{{- $team := $.Params.team -}}
+<section class="g-bg-tertiary g-section">
+  <div class="g-container">
+    <div class="g-section-head g-section-head--center">
+      <span class="g-eyebrow">{{ with $team }}{{ .eyebrow | default "The team" }}{{ else }}The team{{ end }}</span>
+      <h2>{{ with $team }}{{ .title | default "Meet the organizers" }}{{ else }}Meet the organizers{{ end }}</h2>
+      <p class="g-lead">{{ with $team }}{{ .lead | default "The volunteers who make every meetup happen." }}{{ else }}The volunteers who make every meetup happen.{{ end }}</p>
+    </div>
+    <div class="g-grid-3" style="margin-top:var(--space-5)">
+      {{ range first 3 . }}{{ partial "organizer-card.html" . }}{{ end }}
+    </div>
+    <div class="g-row" style="justify-content:center;margin-top:var(--space-4)">
+      <a class="g-btn g-btn--outline" href="{{ "hosts/" | relLangURL }}">{{ with $team }}{{ .cta | default "All organizers" }}{{ else }}All organizers{{ end }}</a>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{- with .Params.testimonials }}
+<section class="g-bg-white g-section">
+  <div class="g-container">
+    {{ with $.Params.testimonialsHead }}
+      <div class="g-section-head g-section-head--center">
+        {{ with .eyebrow }}<span class="g-eyebrow">{{ . }}</span>{{ end }}
+        <h2>{{ .title }}</h2>
+        {{ with .lead }}<p class="g-lead">{{ . }}</p>{{ end }}
+      </div>
+    {{ end }}
+    <div class="g-grid-3" style="margin-top:var(--space-5)">
+      {{ range $t := . }}
+      <figure class="g-quote">
+        <blockquote>{{ $t.quote }}</blockquote>
+        <figcaption>
+          {{ with $t.photo }}<img src="{{ . | relURL }}" alt="{{ $t.name }}">{{ end }}
+          <div><span class="g-quote__name">{{ $t.name }}</span>{{ with $t.role }}<span class="g-quote__role">{{ . }}</span>{{ end }}</div>
+        </figcaption>
+      </figure>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{- with .Params.getInvolved }}
+<section class="g-bg-wash g-section">
+  <div class="g-container" style="text-align:center;display:flex;flex-direction:column;align-items:center;gap:1rem">
+    <span class="g-eyebrow">{{ .eyebrow | default "Community" }}</span>
+    <h2 style="margin:0;max-width:40rem">{{ .title }}</h2>
+    {{ with .lead }}<p style="margin:0;color:var(--ink-700);max-width:38rem">{{ . }}</p>{{ end }}
+    <div class="g-row" style="justify-content:center">
+      {{ range .ctas }}<a class="g-btn g-btn--{{ .variant | default "primary" }}" href="{{ partial "rel-href.html" .url }}">{{ .label }}</a>{{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}

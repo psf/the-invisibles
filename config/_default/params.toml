@@ -29,6 +29,13 @@ custom_script = ""
 # copyright
 copyright = "© PyPodcats"
 
+# Popular theme: site identity
+tagline = "Stories from the underrepresented group members of the Python community"
+description = "Hidden Figures of Python is a podcast series by the PyPodcats team, highlighting voices of the underrepresented group members of the Python community."
+brandName = "PyPodcats"
+brandSub = "Hidden Figures of Python"
+ogImage = "images/podcats_1500x1500.png"
+
 # Preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
 [preloader]
@@ -91,3 +98,86 @@ enable = false
 # mailchimp subsciption
 mailchimp_form_action = "" # replace this url with yours
 mailchimp_form_name = ""
+
+# Popular theme: brand tokens (dark palette, PoC placeholder colors)
+[brand]
+primary = "#e0447c"
+primaryHover = "#c73a6d"
+primaryActive = "#aa3260"
+link = "#f28bb0"
+linkHover = "#ffffff"
+ink = "#ffffff"
+surfaceWash = "#2a2230"
+surfaceInk = "#141414"
+surfacePage = "#1c1c1c"
+surfaceCard = "#222222"
+surfaceTertiary = "#262626"
+textBody = "#c9c4cc"
+textMuted = "#9a939e"
+textOnBrand = "#ffffff"
+borderSubtle = "#3e3e3e"
+
+# Popular theme: header call to action
+[cta]
+label = "Subscribe"
+url = "/subscribe/"
+icon = "fa-solid fa-podcast"
+
+# Popular theme: footer social icons
+[[social]]
+label = "Apple Podcasts"
+icon = "fa-solid fa-podcast"
+url = "https://podcasts.apple.com/ca/podcast/hidden-figures-of-python-podcast/id1720808525"
+[[social]]
+label = "Spotify"
+icon = "fa-brands fa-spotify"
+url = "https://open.spotify.com/show/0paWD9BHs7QNNHsMFFUoIN"
+[[social]]
+label = "YouTube"
+icon = "fa-brands fa-youtube"
+url = "https://www.youtube.com/@PyPodcats"
+[[social]]
+label = "Mastodon"
+icon = "fa-brands fa-mastodon"
+url = "https://fosstodon.org/@pypodcats"
+[[social]]
+label = "RSS"
+icon = "fa-solid fa-rss"
+url = "/episodes/index.xml"
+
+# Popular theme: footer
+[footer]
+tagline = "Making the hidden figures of the Python community seen and heard."
+[footer.credit]
+label = "Popular. A Hugo theme by Mariatta."
+url = "https://mariatta.ca/hugo-theme-popular/"
+[[footer.columns]]
+title = "Podcast"
+[[footer.columns.links]]
+label = "Episodes"
+url = "/episodes/"
+[[footer.columns.links]]
+label = "Speakers"
+url = "/speakers/"
+[[footer.columns.links]]
+label = "Subscribe"
+url = "/subscribe/"
+[[footer.columns]]
+title = "About"
+[[footer.columns.links]]
+label = "Our Podcast Series"
+url = "/about/"
+[[footer.columns.links]]
+label = "Code of Conduct"
+url = "/about/conduct/"
+[[footer.columns.links]]
+label = "Our Team"
+url = "/hosts/"
+[[footer.columns]]
+title = "Support"
+[[footer.columns.links]]
+label = "Donate"
+url = "https://opencollective.com/pypodcats"
+[[footer.columns.links]]
+label = "Financial Info"
+url = "/about/financials/"
