@@ -3,6 +3,8 @@ title: "How We Produce an Episode"
 meta_title: "How We Produce an Episode"
 description: "How We Produce an Episode"
 image: "/images/podcats.png"
+type: "docs"
+lead: "The PyPodcats team handbook: every stage from speaker invitation to publishing."
 draft: false
 ---
 

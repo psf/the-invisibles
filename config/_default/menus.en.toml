@@ -19,12 +19,6 @@ weight = 1
 
 [[main]]
 parent = "About"
-name = "Our Process"
-url = "/about/process/"
-weight = 2
-
-[[main]]
-parent = "About"
 name = "Financial Info"
 url = "/about/financials/"
 weight = 3
@@ -68,14 +62,19 @@ url = "/hosts/"
 weight = 6
 
 [[main]]
+name = "Handbook"
+url = "/about/process/"
+weight = 7
+
+[[main]]
 name = "Donate"
 url = "https://opencollective.com/pypodcats"
-weight = 7
+weight = 8
 
 [[main]]
 name = "Contact"
 url = "/contact/"
-weight = 8
+weight = 9
 
 # footer menu (unused by the Popular theme; footer links are configured via
 # params.footer.columns in config/_default/params.toml)
