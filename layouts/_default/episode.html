@@ -1,4 +1,13 @@
 {{ define "main" }}
+{{- /* Resolve host frontmatter names ("Cheuk") to their host pages. */ -}}
+{{- $hostPages := slice -}}
+{{- range $name := .Params.host -}}
+  {{- range where site.RegularPages "Section" "hosts" -}}
+    {{- if eq (lower .File.BaseFileName) (lower $name) -}}
+      {{- $hostPages = $hostPages | append . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
 <article>
   <header class="g-pagehero">
     <div class="g-container" style="padding-block:var(--space-6) var(--space-5)">
@@ -6,7 +15,10 @@
       {{ with .Params.tags }}<div class="g-row" style="margin-bottom:.8rem">{{ range . }}<a class="g-tag" href="{{ (print "tags/" (urlize .)) | relLangURL }}">{{ . }}</a>{{ end }}</div>{{ end }}
       <h1 style="margin:0">{{ .Title }}</h1>
       <p style="margin:.9rem 0 0;font-size:var(--text-sm);color:var(--ink-700)">
-        {{ with .Params.host }}<i class="fa-regular fa-circle-user" aria-hidden="true"></i> {{ delimit . ", " " and " }} · {{ end }}{{ .Date | time.Format ":date_medium" }}
+        {{ if $hostPages }}<i class="fa-regular fa-circle-user" aria-hidden="true"></i>
+          {{ range $i, $hp := $hostPages }}{{ if $i }}, {{ end }}<a href="{{ $hp.RelPermalink }}">{{ $hp.Title }}</a>{{ end }} ·
+        {{ else }}{{ with .Params.host }}<i class="fa-regular fa-circle-user" aria-hidden="true"></i> {{ delimit . ", " " and " }} · {{ end }}{{ end }}
+        {{ .Date | time.Format ":date_medium" }}
       </p>
     </div>
   </header>
@@ -53,6 +65,14 @@
             {{ range .social }}<a href="{{ .link | default .url }}" aria-label="{{ .name | default .label }}" rel="noopener" target="_blank"><i class="{{ .icon }}" aria-hidden="true"></i></a>{{ end }}
           </div>
         </div>
+      </div>
+    {{ end }}
+
+    <!-- Hosts -->
+    {{ with $hostPages }}
+      <h2 style="font-size:var(--text-xl);margin:var(--space-5) 0 1rem">Your host{{ if gt (len .) 1 }}s{{ end }}</h2>
+      <div class="g-stack" style="gap:var(--space-3)">
+        {{ range . }}{{ partial "author-box.html" (dict "page" .) }}{{ end }}
       </div>
     {{ end }}
 
