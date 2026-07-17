@@ -4,7 +4,7 @@ meta_title: "Happy International Women's Day"
 description: "Highlighting voices of women and underrepresented group in the Python Community"
 date: 2024-03-08T05:00:00Z
 categories: ["Blog Post",]
-author: "Mariatta"
+authors: ["mariatta"]
 tags: ["python", "community", "women in tech", "women in Python", "women in open source"]
 draft: false
 image: "/images/iwd.png"

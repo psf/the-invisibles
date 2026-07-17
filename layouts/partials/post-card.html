@@ -1,0 +1,20 @@
+{{- /* Site override: authors resolve to /hosts/ (hosts are the blog authors). Blog post card. Context = a blog page. */ -}}
+<article class="g-card" data-tags="{{ with .Params.tags }}{{ delimit . "," }}{{ end }}">
+  {{ with .Params.image }}
+    <a href="{{ $.RelPermalink }}" class="g-card__media"><img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy"></a>
+  {{ end }}
+  <div class="g-card__body">
+    {{- $names := slice -}}
+    {{- range .Params.authors }}{{ with site.GetPage (print "/hosts/" .) }}{{ $names = $names | append .Title }}{{ else }}{{ $names = $names | append . }}{{ end }}{{ end -}}
+    {{- range .Params.guestAuthors }}{{ $names = $names | append .name }}{{ end -}}
+    {{- if not $names }}{{ with .Params.author }}{{ $names = $names | append . }}{{ end }}{{ end -}}
+    <span class="g-card__eyebrow">{{ .Date | time.Format "Jan 2006" }}{{ with $names }} · {{ delimit . ", " }}{{ end }}</span>
+    <h3 class="g-card__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    <div class="g-card__text">{{ .Description | default .Summary | truncate 130 }}</div>
+    {{ with .Params.tags }}
+      <div class="g-card__footer">
+        {{ range first 2 . }}<a class="g-tag" href="{{ (print "tags/" (urlize .)) | relLangURL }}">{{ . }}</a>{{ end }}
+      </div>
+    {{ end }}
+  </div>
+</article>

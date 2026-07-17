@@ -4,7 +4,7 @@ meta_title: "One Year of PyPodcats"
 description: "It’s been a year since we first launched our first podcast episode on December 12, 2023. Since then, we’ve received lots of positive responses and kind words from Python community members about our podcast series."
 date: 2024-12-12T05:00:00Z
 categories: ["Blog Post",]
-author: "Mariatta"
+authors: ["mariatta"]
 tags: ["python", "podcast", "recap", "community", "accomplishments", "highlights"]
 draft: false
 image: "/images/pypodcats-one-year.png"

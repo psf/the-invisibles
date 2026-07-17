@@ -4,7 +4,7 @@ meta_title: "PyPodcats Partners with PyLadiesCon 2024"
 description: "PyPodcats Partners with PyLadiesCon 2024"
 date: 2024-09-26T00:00:00Z
 categories: ["Blog Post",]
-author: "Georgi"
+authors: ["georgi"]
 tags: ["python", "community", "conference", "pyladiescon", "talks"]
 draft: false
 image: "/images/pyladiescon-2024.png"

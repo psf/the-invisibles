@@ -4,7 +4,7 @@ meta_title: "Gender Diversity and Representation in Popular Python Community Pod
 description: "Gender Diversity and Representation in Popular Python Community Podcasts"
 date: 2023-10-27T05:00:00Z
 categories: ["Blog Post",]
-author: "Mariatta"
+authors: ["mariatta"]
 tags: ["python", "data", "diversity", "community"]
 draft: false
 ---
