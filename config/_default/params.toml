@@ -34,7 +34,7 @@ tagline = "Stories from the underrepresented group members of the Python communi
 description = "Hidden Figures of Python is a podcast series by the PyPodcats team, highlighting voices of the underrepresented group members of the Python community."
 brandName = "PyPodcats"
 brandSub = "Hidden Figures of Python"
-ogImage = "images/podcats_1500x1500.png"
+ogImage = "images/pypodcats-2025-s.png"
 customCSS = ["css/pypodcats.css"]
 
 # Preloader
