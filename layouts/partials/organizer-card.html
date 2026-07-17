@@ -1,0 +1,13 @@
+{{- /* Organizer card, site override: unlike the theme's organizers, our
+       hosts have their own pages, so link the photo and name to them. */ -}}
+<div class="g-org">
+  {{ with .Params.photo }}<a href="{{ $.RelPermalink }}"><img class="g-org__img" src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy"></a>{{ end }}
+  <div class="g-org__name"><a href="{{ .RelPermalink }}" style="color:inherit">{{ .Title }}</a></div>
+  {{ with .Params.role }}<div class="g-org__role">{{ . }}</div>{{ end }}
+  {{ with .Description | default .Summary }}<p class="g-org__bio">{{ . }}</p>{{ end }}
+  {{ with .Params.social }}
+    <div class="g-persona__socials">
+      {{ range . }}<a href="{{ .url }}" aria-label="{{ .label }}" rel="noopener" target="_blank"><i class="{{ .icon }}" aria-hidden="true"></i></a>{{ end }}
+    </div>
+  {{ end }}
+</div>
