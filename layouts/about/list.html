@@ -1,0 +1,25 @@
+{{ define "main" }}
+{{- /* About section, site override: the child pages are static informational
+       pages (Code of Conduct, financials, PSF, disclosures) with no dates or
+       cover images, so the default post-card grid shows placeholder dates and
+       images. Render plain title-and-description cards instead. */ -}}
+{{ partial "page-hero.html" (dict "eyebrow" .Params.eyebrow "title" .Title "lead" .Params.lead) }}
+<section class="g-bg-white g-section">
+  <div class="g-container">
+    {{ with .Content }}<div class="g-article g-prose" style="margin-bottom:var(--space-5)">{{ . }}</div>{{ end }}
+    {{ with .Pages }}
+      <div class="g-section-head"><span class="g-eyebrow">More</span><h2>Learn more about PyPodcats</h2></div>
+      <div class="g-grid-3" style="margin-top:var(--space-4)">
+        {{ range .ByTitle }}
+          <article class="g-card">
+            <div class="g-card__body">
+              <h3 class="g-card__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+              <div class="g-card__text">{{ .Description | default .Summary | truncate 130 }}</div>
+            </div>
+          </article>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
