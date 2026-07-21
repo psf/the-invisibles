@@ -17,14 +17,14 @@ title = "Home"
     variant = "outline"
 
 [[stats]]
-  value = "2023"
-  label = "founded"
-[[stats]]
-  value = "2"
-  label = "seasons"
-[[stats]]
   value = "12+"
   label = "episodes"
+[[stats]]
+  value = "@count:speakers"
+  label = "speakers featured"
+[[stats]]
+  value = "@count:blog"
+  label = "blog posts"
 [[stats]]
   value = "Free"
   label = "everywhere"
