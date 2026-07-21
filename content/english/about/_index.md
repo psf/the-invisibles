@@ -1,7 +1,7 @@
 ---
 title: "About the Hidden Figures of Python Podcast"
 meta_title: "About"
-menu_label: "About"
+shortTitle: "About"
 description: "What is the Hidden Figures of Python all about?"
 image: "/images/podcats.png"
 draft: false

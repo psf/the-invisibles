@@ -100,6 +100,11 @@ enable = false
 mailchimp_form_action = "" # replace this url with yours
 mailchimp_form_name = ""
 
+# Popular theme: renamed content sections (hosts are the blog authors and the team)
+[sections]
+authors = "hosts"
+team = "hosts"
+
 # Popular theme: brand tokens, from the PyPodcats design system
 # (base palette sampled from the PyPodcats logo; see design system HANDOFF.md)
 [brand]
