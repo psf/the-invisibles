@@ -4,7 +4,7 @@ meta_title: "PyPodcats Received 2,000 USD from Python Software Foundation"
 description: "PyPodcats Received 2,000 USD from Python Software Foundation"
 date: 2024-02-22T05:00:00Z
 categories: ["Blog Post",]
-author: "Mariatta"
+authors: ["mariatta"]
 tags: ["python", "funding", "grant", "community"]
 draft: false
 image: "/images/thankyoupsf_banner.png"

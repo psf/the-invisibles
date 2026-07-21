@@ -1,0 +1,46 @@
+{{ define "main" }}
+{{- /* Host profile page for the podcast layer: persona card, a stats strip
+       (episodes hosted / blog posts written), and grids of both. Hosts double
+       as blog authors, so posts reference them by slug. */ -}}
+{{- $slug := .File.ContentBaseName -}}
+{{- $episodes := slice -}}
+{{- range where (where site.RegularPages "Section" "episodes") "Params.episode_type" "!=" "trailer" -}}
+  {{- $episode := . -}}
+  {{- range .Params.host -}}
+    {{- if eq (lower .) $slug -}}{{- $episodes = $episodes | append $episode -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $posts := where (where site.RegularPages "Section" "blog") "Params.authors" "intersect" (slice $slug) -}}
+
+{{ partial "page-hero.html" (dict "eyebrow" (.Params.role | default "Host") "title" .Title) }}
+
+<section class="g-bg-ink">
+  <div class="g-container g-stats">
+    <div class="g-stat"><div class="g-stat__n">{{ len $episodes }}</div><div class="g-stat__l">episode{{ if ne (len $episodes) 1 }}s{{ end }} hosted</div></div>
+    <div class="g-stat"><div class="g-stat__n">{{ len $posts }}</div><div class="g-stat__l">blog post{{ if ne (len $posts) 1 }}s{{ end }}</div></div>
+  </div>
+</section>
+
+<section class="g-bg-white g-section">
+  <div class="g-container">
+    <div class="g-article" style="margin-bottom:var(--space-5)">
+      {{ partial "author-box.html" (dict "page" .) }}
+      {{ with .Content }}<div class="g-prose" style="margin-top:var(--space-4)">{{ . }}</div>{{ end }}
+    </div>
+
+    {{ with $episodes }}
+      <div class="g-section-head"><span class="g-eyebrow">The show</span><h2>Episodes hosted by {{ $.Title }}</h2></div>
+      <div class="g-grid-3" style="margin-top:var(--space-4);margin-bottom:var(--space-5)">
+        {{ range .ByDate.Reverse }}{{ partial "episode-card.html" . }}{{ end }}
+      </div>
+    {{ end }}
+
+    {{ with $posts }}
+      <div class="g-section-head"><span class="g-eyebrow">From the blog</span><h2>Posts by {{ $.Title }}</h2></div>
+      <div class="g-grid-3" style="margin-top:var(--space-4)">
+        {{ range .ByDate.Reverse }}{{ partial "post-card.html" . }}{{ end }}
+      </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

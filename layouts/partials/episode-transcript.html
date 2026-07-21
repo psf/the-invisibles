@@ -1,0 +1,36 @@
+{{- /* Collapsible episode transcript parsed from the SRT/VTT file.
+       Site-level partial for the podcast layer. */ -}}
+{{ with .Params.transcript }}
+  {{ $path := print "/static" . }}
+  {{ if fileExists $path }}
+    {{ $content := replace (readFile $path) "\r\n" "\n" }}
+    <details class="g-card" style="margin-bottom:var(--space-5);padding:var(--space-3) var(--space-4)">
+      <summary style="cursor:pointer;font-weight:var(--weight-semibold);color:var(--text-body)">
+        <i class="fa-regular fa-file-lines" aria-hidden="true"></i> Read Transcript
+      </summary>
+      <div style="margin-top:var(--space-3);max-height:24rem;overflow-y:auto;padding-right:.5rem">
+        {{ range split $content "\n\n" }}
+          {{ $lines := split (trim . "\n ") "\n" }}
+          {{ $tsIdx := -1 }}
+          {{ range $i, $line := $lines }}
+            {{ if and (lt $tsIdx 0) (in $line "-->") }}
+              {{ $tsIdx = $i }}
+            {{ end }}
+          {{ end }}
+          {{ if ge $tsIdx 0 }}
+            {{ $start := index (split (index $lines $tsIdx) " ") 0 }}
+            {{ $start = index (split (replace $start "," ".") ".") 0 }}
+            {{ $start = strings.TrimPrefix "00:" $start }}
+            {{ $text := delimit (after (add $tsIdx 1) $lines) " " }}
+            {{ with trim $text " " }}
+              <div style="display:flex;gap:1rem;margin-bottom:.4rem">
+                <span style="flex:none;width:3.5rem;font-family:var(--font-mono, monospace);font-size:var(--text-sm);color:var(--brand-primary)">{{ $start }}</span>
+                <span style="color:var(--text-body)">{{ . }}</span>
+              </div>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      </div>
+    </details>
+  {{ end }}
+{{ end }}

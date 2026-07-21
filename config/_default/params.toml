@@ -18,7 +18,7 @@ navbar_fixed = true
 theme_switcher = true
 theme_default = "dark" # available options [light/dark/system]
 # Main Sections
-mainSections = ["blog"]
+mainSections = ["episodes"]
 # contact form action
 #contact_form_action = "https://forms.gle/SWbZpbfeXSNHCPn8A" # contact form works with [https://airform.io/] or [https://formspree.io]
 # google tag manager, see https://developers.google.com/tag-manager/
@@ -29,6 +29,14 @@ custom_script = ""
 # copyright
 copyright = "© PyPodcats"
 
+# Popular theme: site identity
+tagline = "Stories from the underrepresented group members of the Python community"
+description = "Hidden Figures of Python is a podcast series by the PyPodcats team, highlighting voices of the underrepresented group members of the Python community."
+brandName = "PyPodcats"
+brandSub = "Hidden Figures of Python"
+ogImage = "images/pypodcats-2025-s.png"
+customCSS = ["css/pypodcats.css"]
+
 # Preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
 [preloader]
@@ -37,16 +45,16 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [navigation_button]
-enable = false
-label = "subscribe"
-link = "subscribe"
+enable = true
+label = "Subscribe"
+link = "subscribe/"
 
 # search
 # search module: https://github.com/gethugothemes/hugo-modules/tree/master/search
 [search]
 enable = true
 primary_color = "#121212"
-include_sections = ["blog"]
+include_sections = ["episodes", "blog", "speakers"]
 show_image = true
 show_description = true
 show_tags = true
@@ -91,3 +99,102 @@ enable = false
 # mailchimp subsciption
 mailchimp_form_action = "" # replace this url with yours
 mailchimp_form_name = ""
+
+# Popular theme: renamed content sections (hosts are the blog authors and the team)
+[sections]
+authors = "hosts"
+team = "hosts"
+
+# Popular theme: brand tokens, from the PyPodcats design system
+# (base palette sampled from the PyPodcats logo; see design system HANDOFF.md)
+[brand]
+primary = "#A76E1F"        # brand caramel (brown-500)
+primaryHover = "#96631B"   # brown-600
+primaryActive = "#7E5314"  # brown-700
+secondary = "#4A6A95"      # mic base deep blue (blue-500)
+accent = "#EBB354"         # snake yellow (sun-500)
+accentHover = "#D6813E"    # snake belly (orange-500)
+ink = "#45340F"            # warm near-black for text (ink-900)
+link = "#4A6A95"           # text-link (blue-500)
+linkHover = "#33507D"      # blue-600
+surfaceWash = "#F1E2CE"    # cat fur (cream-500)
+surfaceWashSoft = "#F8EFDF" # cream-300
+surfaceInk = "#A76E1F"     # surface-inverse (brand caramel)
+surfacePage = "#FDFAF3"    # page paper (cream-100)
+surfaceCard = "#FFFFFF"
+surfaceTertiary = "#F8EFDF" # cream-300
+textBody = "#45340F"       # ink-900
+textMuted = "#9A8A6B"      # ink-400
+textOnBrand = "#FFFFFF"
+borderSubtle = "#EAE0CC"   # border-hairline
+fontSans = "Nunito, system-ui, sans-serif"
+fontDisplay = "'Baloo 2', Nunito, sans-serif"
+radiusCard = "24px"        # signature card radius
+
+# Popular theme: header call to action
+[cta]
+label = "Subscribe"
+url = "/subscribe/"
+icon = "fa-solid fa-podcast"
+
+# Popular theme: footer social icons
+[[social]]
+label = "Apple Podcasts"
+icon = "fa-solid fa-podcast"
+url = "https://podcasts.apple.com/ca/podcast/hidden-figures-of-python-podcast/id1720808525"
+[[social]]
+label = "Spotify"
+icon = "fa-brands fa-spotify"
+url = "https://open.spotify.com/show/0paWD9BHs7QNNHsMFFUoIN"
+[[social]]
+label = "YouTube"
+icon = "fa-brands fa-youtube"
+url = "https://www.youtube.com/@PyPodcats"
+[[social]]
+label = "Mastodon"
+icon = "fa-brands fa-mastodon"
+url = "https://fosstodon.org/@pypodcats"
+[[social]]
+label = "RSS"
+icon = "fa-solid fa-rss"
+url = "/episodes/index.xml"
+
+# Popular theme: footer
+[footer]
+tagline = "Making the hidden figures of the Python community seen and heard."
+[footer.credit]
+label = "Popular. A Hugo theme by Mariatta."
+url = "https://mariatta.ca/hugo-theme-popular/"
+[[footer.columns]]
+title = "Podcast"
+[[footer.columns.links]]
+label = "Episodes"
+url = "/episodes/"
+[[footer.columns.links]]
+label = "Speakers"
+url = "/speakers/"
+[[footer.columns.links]]
+label = "Subscribe"
+url = "/subscribe/"
+[[footer.columns]]
+title = "About"
+[[footer.columns.links]]
+label = "Our Podcast Series"
+url = "/about/"
+[[footer.columns.links]]
+label = "Code of Conduct"
+url = "/about/conduct/"
+[[footer.columns.links]]
+label = "Our Team"
+url = "/hosts/"
+[[footer.columns.links]]
+label = "Contact"
+url = "/contact/"
+[[footer.columns]]
+title = "Support"
+[[footer.columns.links]]
+label = "Donate"
+url = "https://opencollective.com/pypodcats"
+[[footer.columns.links]]
+label = "Financial Info"
+url = "/about/financials/"

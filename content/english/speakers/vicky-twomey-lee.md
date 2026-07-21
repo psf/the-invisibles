@@ -1,6 +1,7 @@
 ---
 title: "Vicky Twomey-Lee"
 image: "/images/vicky_twomey_lee.jpg"
+photo: "/images/vicky_twomey_lee.jpg"
 description: "
 Vicky Twomey-Lee organized Python Ireland user group for over 10 years, and she is still
 actively running community tech events around Dublin.
@@ -8,25 +9,25 @@ She is an advocate for diversity in tech. She was featured on Silicon Republic's
 and on IrishCentral's talented 38 women of technology for 2014.
 "
 social:
-  - name: github
+  - label: github
     icon: fa-brands fa-github
-    link: https://github.com/whykay
+    url: https://github.com/whykay
 
-  - name: twitter
+  - label: twitter
     icon: fa-brands fa-x-twitter
-    link: https://twitter.com/whykay
+    url: https://twitter.com/whykay
 
-  - name: linkedin
+  - label: linkedin
     icon: fa-brands fa-linkedin
-    link: https://www.linkedin.com/in/vickyleeire/
+    url: https://www.linkedin.com/in/vickyleeire/
   
-  - name: web
+  - label: web
     icon: fa-solid fa-globe
-    link: https://www.eventgeek.ie/
+    url: https://www.eventgeek.ie/
 
-  - name: mastodon
+  - label: mastodon
     icon: fa-brands fa-mastodon
-    link: https://mastodon.ie/@whykay
+    url: https://mastodon.ie/@whykay
 ---
 
 Vicky Twomey-Lee organized Python Ireland user group for over 10 years, and she is still

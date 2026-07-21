@@ -1,0 +1,23 @@
+{{ define "main" }}
+{{- /* Speaker profile for the podcast layer. The theme's version shows the
+       bio in the hero lead, the persona card, and the page body (our speaker
+       pages repeat the bio as body text), so render it once in the persona
+       card, and list the speaker's episodes instead of the theme's
+       events-based sessions. */ -}}
+{{ partial "page-hero.html" (dict "eyebrow" (.Params.eyebrow | default "Speaker") "title" .Title) }}
+<section class="g-bg-white g-section">
+  <div class="g-container">
+    <div class="g-article" style="margin-bottom:var(--space-5)">
+      {{ partial "author-box.html" (dict "page" .) }}
+    </div>
+    {{- $permalink := .RelPermalink -}}
+    {{- $episodes := where (where site.RegularPages "Section" "episodes") "Params.speaker.url" $permalink -}}
+    {{ with $episodes }}
+      <div class="g-section-head"><span class="g-eyebrow">The show</span><h2>Episodes with {{ $.Title }}</h2></div>
+      <div class="g-grid-3" style="margin-top:var(--space-4)">
+        {{ range .ByDate.Reverse }}{{ partial "episode-card.html" . }}{{ end }}
+      </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

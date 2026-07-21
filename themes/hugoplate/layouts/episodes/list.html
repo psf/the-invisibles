@@ -8,7 +8,7 @@
         <!-- blog posts -->
         <div class="lg:col-12">
           <div class="row">
-            {{ $paginator:= .Paginate .RegularPages }}
+            {{ $paginator:= .Paginate (where .RegularPages "Params.episode_type" "!=" "trailer") }}
             {{ range $paginator.Pages }}
               <div class="md:col-6 mb-14">
                 {{ partial "components/episodes-card" . }}

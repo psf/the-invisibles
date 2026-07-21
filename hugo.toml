@@ -4,7 +4,7 @@ baseURL = "https://pypodcats.live"
 # Title of your website (required).
 title = "Hidden Figures of Python Podcast"
 # Your theme name
-theme = "hugoplate"
+theme = "popular"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
 timeZone = "America/New_York"
 # post excerpt
@@ -34,6 +34,16 @@ target = "assets"
 [[module.mounts]]
 source = "hugo_stats.json"
 target = "assets/watching/hugo_stats.json"
+
+# Serve the images that hugoplate kept in assets/ as plain static files;
+# the Popular theme references them directly as /images/... paths.
+[[module.mounts]]
+source = "static"
+target = "static"
+
+[[module.mounts]]
+source = "assets/images"
+target = "static/images"
 
 ############################# Build ##############################
 [build]
@@ -131,6 +141,8 @@ notAlternative = true
     itunes_image = 'images/podcats_1500x1500.png'
     itunes_top_category = 'Technology'
     explicit = false
+    funding_url = 'https://opencollective.com/pypodcats'
+    funding_text = 'Support PyPodcats with a donation'
 
 ############################# Plugins ##############################
 

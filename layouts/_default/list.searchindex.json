@@ -1,0 +1,53 @@
+{{- $allSections := slice -}}
+{{- range site.Home.Sections -}}
+  {{- $allSections = $allSections | append .Section -}}
+{{- end -}}
+
+{{- $include_all_sections := site.Params.search.include_all_sections -}}
+
+{{- $search_sections := $allSections -}}
+{{- if not $include_all_sections -}}
+{{- $search_sections = site.Params.search.include_sections | default site.Params.mainSections -}}
+{{- end -}}
+
+{{- $searchablePages := (where site.RegularPages "Section" "in" $search_sections) -}}
+{{- if site.Params.search.include_list_pages -}}
+{{- $searchablePages = (where site.Pages "Section" "in" $search_sections) -}}
+{{- end -}}
+
+{{- $totalPagesLength := len $searchablePages -}}
+
+[{{- range $i, $e := $searchablePages -}}
+{{- if not .Params.ignoreSearch -}}
+
+{{- $date:= time.Format ":date_long" .PublishDate -}}
+
+{{- if .Params.image -}}
+  {{- $.Scratch.Set "image" (partial "searchImage" (dict "Src" .Params.image "Size" "420x" "Command" "Resize")) -}}
+  {{- $.Scratch.Set "imageSM" (partial "searchImage" (dict "Src" .Params.image "Size" "100x100" "Command" "Fill")) -}}
+{{- else if .Params.images -}}
+  {{- range first 1 .Params.images -}}
+  {{- $.Scratch.Set "image" (partial "searchImage" (dict "Src" . "Size" "420x" "Command" "Resize")) -}}
+  {{- $.Scratch.Set "imageSM" (partial "searchImage" (dict "Src" . "Size" "100x100" "Command" "Fill")) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $image:= $.Scratch.Get "image" -}}
+{{- $imageSM:= $.Scratch.Get "imageSM" -}}
+
+{
+  "section": "{{.Section | humanize}}",
+  "slug": "{{- .RelPermalink -}}",
+  "title": {{ .Title | jsonify }},
+  "description": {{ .Description | jsonify }},
+  "date": "{{- $date -}}",
+  "image": {{$image | jsonify}},
+  "imageSM": {{$imageSM | jsonify}},
+  "searchKeyword": {{ .Params.search_keyword | default "" | jsonify }},
+  "categories": "{{- if .Params.categories -}}{{- delimit .Params.categories `, ` -}}{{- end -}}",
+  "tags": "{{- if .Params.tags -}}{{- delimit .Params.tags `, ` -}}{{- end -}}",
+  "content": {{- $e.Plain | jsonify -}}
+}{{- if ne $i (sub $totalPagesLength 1) -}},{{- end -}}
+
+{{- end -}}
+{{- end -}}]

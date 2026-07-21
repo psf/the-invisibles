@@ -4,7 +4,7 @@ meta_title: "PyPodcats Have a New Logo"
 description: "After one year, we re-designed our logo from the MVP (Minumum Viable Purr)."
 date: 2025-06-24T05:00:00Z
 categories: ["Blog Post",]
-author: "Georgi"
+authors: ["georgi"]
 tags: ["python", "community", "women in tech", "women in Python", "women in open source","python underrespresnted groups"]
 draft: false
 image: "/images/logo-blog.png"
