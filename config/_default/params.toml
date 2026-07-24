@@ -37,6 +37,13 @@ brandSub = "Hidden Figures of Python"
 ogImage = "images/pypodcats-2025-s.png"
 customCSS = ["css/pypodcats.css"]
 
+# Popular theme v0.6.0: SEO knobs
+[seo]
+  # Keep FAQPage JSON-LD from {{< faq >}} blocks (default true).
+  faqJsonLd = true
+  # Ask crawlers not to index tag/category listing pages (content still followed).
+  noindexTaxonomies = true
+
 # Preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
 [preloader]

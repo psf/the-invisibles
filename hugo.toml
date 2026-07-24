@@ -9,6 +9,8 @@ theme = "popular"
 timeZone = "America/New_York"
 # post excerpt
 summaryLength = 10 # see https://gohugo.io/content-management/excerpts/
+# emit robots.txt (theme template advertises the sitemap) - Popular theme v0.6.0 SEO
+enableRobotsTXT = true
 # google analytics
 #googleAnalytics = "G-MEASUREMENT_ID" # see https://gohugo.io/templates/internal/#configure-google-analytics
 # disqus short name
