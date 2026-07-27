@@ -18,3 +18,13 @@
 .g-footer__bottom a:hover {
   color: #ffffff;
 }
+
+/* The logo is a transparent PNG whose "PYPODCATS" lettering and microphone
+   outline are the same caramel as the footer surface, so those parts vanish
+   into the background. Sit it on a white chip so every element reads;
+   object-fit keeps the portrait logo from stretching into the theme's square. */
+.g-footer__brand img {
+  background: #ffffff;
+  object-fit: contain;
+  padding: 5px;
+}
