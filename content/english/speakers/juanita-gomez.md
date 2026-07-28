@@ -1,29 +1,30 @@
 ---
 title: "Juanita Gomez"
 image: "/images/juanita_gomez.jpg"
+photo: "/images/juanita_gomez.jpg"
 description: "
 Juanita Gomez is a Ph.D. candidate in Computer Science at UC Santa Cruz, where her research focuses on improving the security of scientific open source software in collaboration with the Open Source Program Office (OSPO) at UCSC. She is a passionate programmer, mathematician, and open-source advocate, former developer of Spyder IDE at Quansight, and current community leader for the Scientific Python project, a community effort to better coordinate and support scientific Python libraries. She is also part of the organizing committee for the SciPy conference.
 "
 social:
-  - name: github
+  - label: github
     icon: fa-brands fa-github
-    link: https://github.com/juanis2112
+    url: https://github.com/juanis2112
 
-  - name: linkedin
+  - label: linkedin
     icon: fa-brands fa-linkedin
-    link: https://www.linkedin.com/in/juanitagomezr/
+    url: https://www.linkedin.com/in/juanitagomezr/
 
-  - name: mastodon
+  - label: mastodon
     icon: fa-brands fa-mastodon
-    link: https://fosstodon.org/@juanitagomezr
+    url: https://fosstodon.org/@juanitagomezr
 
-  - name: twitter
+  - label: twitter
     icon: fa-brands fa-x-twitter
-    link: https://x.com/juanitagomezr
+    url: https://x.com/juanitagomezr
 
-  - name: web
+  - label: web
     icon: fa-solid fa-globe
-    link: https://juanis2112.github.io/
+    url: https://juanis2112.github.io/
 ---
 
 Juanita Gomez is a Ph.D. candidate in Computer Science at UC Santa Cruz, where her research focuses on improving the security of scientific open source software in collaboration with the Open Source Program Office (OSPO) at UCSC. She is a passionate programmer, mathematician, and open-source advocate, former developer of Spyder IDE at Quansight, and current community leader for the Scientific Python project, a community effort to better coordinate and support scientific Python libraries. She is also part of the organizing committee for the SciPy conference.

@@ -3,6 +3,8 @@ title: "How We Produce an Episode"
 meta_title: "How We Produce an Episode"
 description: "How We Produce an Episode"
 image: "/images/podcats.png"
+type: "docs"
+lead: "The PyPodcats team handbook: every stage from speaker invitation to publishing."
 draft: false
 ---
 
@@ -128,7 +130,11 @@ Tools that are needed for the **"Publishing"** step:
 - Gather all the videos, transcript (at this point, everything should have been on one folder on Google Drive)
 - Create the webpage for the episode/trailer
   - Create a new branch under the [psf/the-invisibles](https://github.com/psf/the-invisibles) GitHub repository, e.g. **add-ep-6-trailer**
-  - Create new files (you can copy/look at content from previous episodes):
+  - Scaffold the write-up pages with Hugo archetypes, which pre-fill the frontmatter with TODO markers:
+    - **hugo new episodes/ep{number}.md** for the full episode
+    - **hugo new episodes/ep{number}-trailer.md** for the trailer
+    - **hugo new speakers/{speaker-name}.md** for the speaker bio page
+  - Create the remaining files (you can copy/look at content from previous episodes):
     - **f"assets/images/ep{episode_number}-{speaker_name}.jpg"**: The cover image for the episode (png works too)
     - **f"assets/images/{speakername}.jpg"**: The speaker photo (download from the Speaker Info Form. png works too)
     - **f"content/english/episodes/ep{number}-trailer.md"**: write up about the trailer episode (more details below)
@@ -139,7 +145,7 @@ Tools that are needed for the **"Publishing"** step:
     - **f"static/transcript/hidden-figures-of-python-ep{number}-trailer.srt:"**: transcript of the trailer
     - **f"static/transcript/hidden-figures-of-python-ep{number}.srt:"**: transcript of the full episode
   - The transcript files are displayed on each episode page as a collapsible "Read Transcript" section
-    (right below the video), with a timestamp next to each caption. This is generated automatically from
+    (between the audio player and the video), with a timestamp next to each caption. This is generated automatically from
     the **transcript** field in the episode frontmatter, so double check that the path is correct.
   - Commit, push, and create a pull request
   - Example Pull request: https://github.com/psf/the-invisibles/pull/40

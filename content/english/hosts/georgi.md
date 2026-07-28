@@ -1,24 +1,26 @@
 ---
+role: "Host"
 title: Georgi Ker
 date: 2023-10-27T05:00:00Z
 image: "/images/georgi.jpeg"
+photo: "/images/georgi.jpeg"
 description: Entrepreuneur, community leader and designer. Fellow member and Director of PSF. Also serve in the D&I Workgroup and honored with the PSF Community Service Award in December 2020.
 social:
-  - name: github
+  - label: github
     icon: fa-brands fa-github
-    link: https://github.com/georgically
+    url: https://github.com/georgically
 
-  - name: twitter
+  - label: twitter
     icon: fa-brands fa-x-twitter
-    link: https://twitter.com/georgically1
+    url: https://twitter.com/georgically1
 
-  - name: linkedin
+  - label: linkedin
     icon: fa-brands fa-linkedin
-    link: https://www.linkedin.com/in/georgiker
+    url: https://www.linkedin.com/in/georgiker
   
-  - name: mastodon
+  - label: mastodon
     icon: fa-brands fa-mastodon
-    link: https://fosstodon.org/@georgically
+    url: https://fosstodon.org/@georgically
 ---
 
 Georgi is an autodidact polymath with a strong passion for entrepreneurship, community, and design. She is a Fellow Member of the Python Software Foundation (PSF), currently serving as a director and a member of the D&I Workgroup. She was honored with the esteemed PSF Community Service Award in December 2020.

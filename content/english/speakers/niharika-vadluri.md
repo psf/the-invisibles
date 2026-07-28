@@ -1,6 +1,7 @@
 ---
 title: "Niharika Vadluri"
 image: "/images/niharika_vadluri.jpg"
+photo: "/images/niharika_vadluri.jpg"
 description: "
 Niharika Vadluri is working as a Packed Application Developer Analyst at Accenture India.
 She works in Retail Domain and Database Projects. She is an active open source community contributor
@@ -8,13 +9,13 @@ and developer since 2018. She has been an active member and contributor in The P
 and other Open source communities. She is a Toastmaster, and also loves singing."
 
 social:
-  - name: twitter
+  - label: twitter
     icon: fa-brands fa-x-twitter
-    link: https://x.com/NiharikaVadluri
+    url: https://x.com/NiharikaVadluri
     
-  - name: linkedin
+  - label: linkedin
     icon: fa-brands fa-linkedin
-    link: https://www.linkedin.com/in/niharika-vadluri-71a9a2164/
+    url: https://www.linkedin.com/in/niharika-vadluri-71a9a2164/
 ---
 
 Niharika Vadluri is working as a Packed Application Developer Analyst at Accenture India.

@@ -86,6 +86,9 @@
     <itunes:explicit>{{ .Site.Params.feed.explicit }}</itunes:explicit>
     <googleplay:explicit>{{ .Site.Params.feed.explicit }}</googleplay:explicit>
     {{- end -}}
+    {{ with .Site.Params.feed.funding_url }}
+    <podcast:funding url="{{ . }}">{{ $.Site.Params.feed.funding_text | default "Support the show" }}</podcast:funding>
+    {{ end }}
     <generator>Hugo -- gohugo.io</generator>
     {{- range (where ( where .Site.Pages "Type" "episode") ".Params.upcoming" "!=" true) -}}
       {{ if isset .Params "podcast_file" }}
@@ -107,31 +110,23 @@
           </title>
           <link>{{ .Permalink }}</link>
           <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }} </pubDate>
-          <dc:creator>{{ .Site.Params.itunes_author }}</dc:creator>
+          <dc:creator>{{ .Site.Params.feed.itunes_author }}</dc:creator>
           <guid>{{- if isset .Params "guid" -}}{{ .Params.guid }}{{- else -}}{{ .Site.Params.media_prefix }}{{ .Params.podcast_file | absURL }}{{- end -}}</guid>
           <itunes:author>
-          {{- if isset .Params "hosts" -}}
-            {{ $hosts := (.Params.hosts) }}
-            {{ $len := (len $hosts) }}
-            {{ range $index, $element := $hosts }}
-              {{ range where (where $.Site.Pages "Type" "host" ) ".File.BaseFileName" "=" . }}
-                {{- if eq $len 1 -}}
-                  {{ .Title }}
-                {{- else -}}
-                  {{- if eq (add $index 1) $len }}
-                    and {{ .Title }}
-                  {{- else -}}
-                    {{- if eq $len 2 -}}
-                      {{ printf "%s " .Title }}
-                    {{- else -}}
-                      {{ printf "%s, " .Title }}
-                    {{- end -}}
-                  {{- end -}}
-                {{- end -}}
-              {{ end }}
+          {{- $names := slice -}}
+          {{- range .Params.host -}}
+            {{- $name := . -}}
+            {{- range where $.Site.Pages "Type" "hosts" -}}
+              {{- if eq (lower .File.BaseFileName) (lower $name) -}}
+                {{- $name = .Title -}}
+              {{- end -}}
             {{- end -}}
+            {{- $names = $names | append $name -}}
+          {{- end -}}
+          {{- if $names -}}
+            {{- delimit $names ", " " and " -}}
           {{- else -}}
-            {{ .Site.Params.feed.itunes_author }}
+            {{- .Site.Params.feed.itunes_author -}}
           {{- end -}}
           </itunes:author>
           {{ with .Params.episode }}
@@ -139,9 +134,6 @@
           {{ end }}
           {{ with .Params.season }}
           <itunes:season>{{ . }}</itunes:season>
-          {{ end }}
-          {{ with .Params.episode }}
-          <itunes:episode>{{ . }}</itunes:episode>
           {{ end }}
           {{ with .Params.episode_type }}
           <itunes:episodeType>{{ . }}</itunes:episodeType>
@@ -173,7 +165,10 @@
           <googleplay:explicit>{{ if (or (eq . "yes") (eq . "true")) }}yes{{ else }}no{{ end }}</googleplay:explicit>
           {{- end -}}
           {{ with .Params.transcript }}
-            <podcast:transcript url="{{ . | absURL }}"/>
+            {{- $ttype := "text/plain" -}}
+            {{- if strings.HasSuffix . ".srt" }}{{ $ttype = "application/x-subrip" }}{{ end -}}
+            {{- if strings.HasSuffix . ".vtt" }}{{ $ttype = "text/vtt" }}{{ end }}
+            <podcast:transcript url="{{ . | absURL }}" type="{{ $ttype }}"/>
           {{- end -}}
         </item>
       {{- end -}}

@@ -39,6 +39,32 @@
       </section>
     {{ end }}
     <!-- /Banner -->
+
+    <!-- Latest Episodes -->
+    {{ $latest := first 3 (where (where site.RegularPages "Section" "episodes") "Params.episode_type" "!=" "trailer") }}
+    {{ with $latest }}
+      <section class="section-sm">
+        <div class="container">
+          <div class="row justify-center">
+            <div class="col-12 mb-8 text-center">
+              <h2>Latest Episodes</h2>
+            </div>
+            {{ range . }}
+              <div class="md:col-6 lg:col-4 mb-8">
+                {{ partial "components/episodes-card" . }}
+              </div>
+            {{ end }}
+            <div class="col-12 text-center">
+              <a class="btn btn-primary" href="{{ `episodes/` | relLangURL }}">
+                All Episodes
+                <i class="fa fa-arrow-right pl-2"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    {{ end }}
+    <!-- /Latest Episodes -->
       <div class="container" style="margin-bottom: 50px;">
         <div class="col-12">
           <div class="text-center">

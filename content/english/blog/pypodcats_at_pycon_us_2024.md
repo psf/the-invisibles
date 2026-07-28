@@ -4,7 +4,7 @@ meta_title: "PyPodcats at PyCon US 2024"
 description: "PyPodcats at PyCon US 2024"
 date: 2024-07-19T05:00:00Z
 categories: ["Blog Post",]
-author: "Cheuk"
+authors: ["cheuk"]
 tags: ["python", "community", "conference", "pycon", "python conference"]
 draft: false
 image: "/images/pypodcats-icecreamselfie.jpg"

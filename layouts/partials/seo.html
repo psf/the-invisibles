@@ -1,0 +1,32 @@
+{{- /* Basic SEO + Open Graph. Extend as needed. */ -}}
+{{- /* Site override of the theme partial: the ONLY divergence from
+     themes/popular is the og:image fallback, which also honours an episode's
+     `episode_image`. Keep this file in sync with the theme otherwise. */ -}}
+{{- $desc := .Description | default .Summary | default site.Params.description -}}
+<meta name="description" content="{{ $desc | plainify | truncate 160 }}">
+<meta property="og:site_name" content="{{ site.Title }}">
+<meta property="og:locale" content="{{ replace (site.Language.Lang | default "en") "-" "_" }}">
+<meta property="og:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta property="og:description" content="{{ $desc | plainify | truncate 200 }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<link rel="canonical" href="{{ .Permalink }}">
+{{- with site.Params.seo }}{{ if and .noindexTaxonomies (in (slice "taxonomy" "term") $.Kind) }}
+<meta name="robots" content="noindex,follow">{{ end }}{{ end -}}
+{{- if .IsPage }}
+{{ with .PublishDate }}<meta property="article:published_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}">{{ end }}
+{{ with .Lastmod }}<meta property="article:modified_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}">{{ end }}
+{{ $sec := partial "section.html" "authors" }}{{ range .Params.authors }}{{ with $.Site.GetPage (print "/" $sec "/" .) }}<meta property="article:author" content="{{ .Title }}">{{ end }}{{ end }}
+{{ range .Params.tags }}<meta property="article:tag" content="{{ . }}">{{ end }}
+{{- end }}
+{{- /* Site override: episodes carry their art in episode_image. */ -}}
+{{- $img := .Params.image | default .Params.episode_image | default site.Params.ogImage -}}
+{{ with $img }}<meta property="og:image" content="{{ . | absURL }}">
+<meta property="og:image:alt" content="{{ $.Params.imageAlt | default $.Title }}">{{ end }}
+<meta name="twitter:card" content="{{ if $img }}summary_large_image{{ else }}summary{{ end }}">
+{{ with .OutputFormats.Get "RSS" }}<link rel="alternate" type="application/rss+xml" href="{{ .RelPermalink }}" title="{{ site.Title }}">{{ end }}
+{{- if and .IsPage (eq .Section "events") }}{{ partial "jsonld-event.html" . }}{{ end -}}
+{{- if .IsHome }}{{ partial "jsonld-org.html" . }}{{ end -}}
+{{- if and .IsPage (eq .Section "blog") }}{{ partial "jsonld-blogpost.html" . }}{{ end -}}
+{{- /* Site-local: PodcastEpisode JSON-LD for episodes with an audio file. */ -}}
+{{- if and .IsPage (eq .Section "episodes") .Params.podcast_file }}{{ partial "jsonld-podcast-episode.html" . }}{{ end -}}

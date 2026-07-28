@@ -4,7 +4,7 @@ meta_title: "PyPodcats Kickstart 2025"
 description: "Check out the great plans and highlights for PyPodcats in 2025"
 date: 2025-02-18T05:00:00Z
 categories: ["Blog Post",]
-author: "Cheuk"
+authors: ["cheuk"]
 tags: ["python", "community", "women in tech", "women in Python", "women in open source"]
 draft: false
 image: "/images/kickstart-2025.png"

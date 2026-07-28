@@ -1,0 +1,54 @@
+{{- /* schema.org/PodcastEpisode JSON-LD. LOCAL to this site (not in the
+     Popular theme): the theme only ships Event/Organization/BlogPosting.
+     Gated in seo.html on `.Section == "episodes"` with a `podcast_file`.
+     Emits only resolvable keys, never empty strings/arrays/null, mirroring
+     the theme's jsonld partial style so it can be upstreamed later. */ -}}
+
+{{- /* Hosts ("Cheuk") resolve to their host-page titles; fall back to raw. */ -}}
+{{- $actors := slice -}}
+{{- range $name := .Params.host -}}
+  {{- $full := $name -}}
+  {{- range where site.RegularPages "Section" "hosts" -}}
+    {{- if eq (lower .File.BaseFileName) (lower $name) }}{{ $full = .Title }}{{ end -}}
+  {{- end -}}
+  {{- $actors = $actors | append (dict "@type" "Person" "name" $full) -}}
+{{- end -}}
+
+{{- $series := dict "@type" "PodcastSeries" "name" site.Title "url" (absURL "/") -}}
+
+{{- /* AudioObject: contentUrl is required for a valid enclosure. */ -}}
+{{- $audio := dict "@type" "AudioObject" "contentUrl" (.Params.podcast_file | absURL) "encodingFormat" "audio/mpeg" -}}
+{{- with .Params.podcast_bytes }}{{ $audio = merge $audio (dict "contentSize" (printf "%v" .)) }}{{ end -}}
+
+{{- $ld := dict
+      "@context" "https://schema.org"
+      "@type" "PodcastEpisode"
+      "name" .Title
+      "url" .Permalink
+      "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00")
+      "partOfSeries" $series
+      "associatedMedia" $audio
+-}}
+{{- with .Description | default .Summary }}{{ $ld = merge $ld (dict "description" (. | plainify | truncate 300)) }}{{ end -}}
+{{- with .Params.episode }}{{ $ld = merge $ld (dict "episodeNumber" (int .)) }}{{ end -}}
+{{- with .Params.season }}{{ $ld = merge $ld (dict "partOfSeason" (dict "@type" "PodcastSeason" "seasonNumber" (int .))) }}{{ end -}}
+{{- with $actors }}{{ $ld = merge $ld (dict "actor" .) }}{{ end -}}
+
+{{- /* podcast_duration is float seconds → ISO 8601 (PT#H#M#S, zero units dropped). */ -}}
+{{- with .Params.podcast_duration -}}
+  {{- $secs := int . -}}
+  {{- if gt $secs 0 -}}
+    {{- $h := int (math.Floor (div $secs 3600)) -}}
+    {{- $m := int (math.Floor (div (math.Mod $secs 3600) 60)) -}}
+    {{- $s := int (math.Mod $secs 60) -}}
+    {{- $iso := "PT" -}}
+    {{- if gt $h 0 }}{{ $iso = printf "%s%dH" $iso $h }}{{ end -}}
+    {{- if gt $m 0 }}{{ $iso = printf "%s%dM" $iso $m }}{{ end -}}
+    {{- if gt $s 0 }}{{ $iso = printf "%s%dS" $iso $s }}{{ end -}}
+    {{- $ld = merge $ld (dict "duration" $iso) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $img := .Params.episode_image | default .Params.image | default site.Params.ogImage -}}
+{{- with $img }}{{ $ld = merge $ld (dict "image" (. | absURL)) }}{{ end -}}
+<script type="application/ld+json">{{ $ld | jsonify | safeJS }}</script>

@@ -1,32 +1,34 @@
 ---
+role: "Host"
 title: Mariatta
 date: 2023-10-27T05:00:00Z
 image: "/images/mariatta.jpeg"
+photo: "/images/mariatta.jpeg"
 description: Mariatta is a Python Core Developer. In her free time, she contributes to open source, builds GitHub bots, fixes typos, and likes to tell you about Python's f-strings. As a public speaker, she has given her talks and keynotes wordwide.
 social:
-  - name: github
+  - label: github
     icon: fa-brands fa-github
-    link: https://github.com/mariatta
+    url: https://github.com/mariatta
 
-  - name: twitter
+  - label: twitter
     icon: fa-brands fa-x-twitter
-    link: https://twitter.com/mariatta
+    url: https://twitter.com/mariatta
 
-  - name: linkedin
+  - label: linkedin
     icon: fa-brands fa-linkedin
-    link: https://linkedin.com/in/mariatta
+    url: https://linkedin.com/in/mariatta
    
-  - name: instagram
+  - label: instagram
     icon: fa-brands fa-instagram
-    link: https://instagram.com/mariatta81
+    url: https://instagram.com/mariatta81
     
-  - name: mastodon
+  - label: mastodon
     icon: fa-brands fa-mastodon
-    link: https://fosstodon.org/@mariatta
+    url: https://fosstodon.org/@mariatta
 
-  - name: web
+  - label: web
     icon: fa-solid fa-globe
-    link: https://mariatta.ca
+    url: https://mariatta.ca
    
 ---
 

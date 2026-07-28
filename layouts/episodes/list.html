@@ -1,0 +1,19 @@
+{{ define "main" }}
+{{ partial "page-hero.html" (dict "eyebrow" "The show" "title" .Title "lead" (.Params.lead | default .Params.description)) }}
+<section class="g-bg-white g-section">
+  <div class="g-container">
+    {{- $episodes := where .RegularPages "Params.episode_type" "!=" "trailer" -}}
+    {{- $pager := .Paginate $episodes.ByDate.Reverse -}}
+    <div class="g-row" style="justify-content:flex-end;margin-bottom:var(--space-5)">
+      {{ with .OutputFormats.Get "RSS" }}
+        <a class="g-btn g-btn--ghost g-btn--sm" href="{{ .RelPermalink }}" title="Subscribe via RSS"><i class="fa-solid fa-rss" aria-hidden="true"></i> Subscribe via RSS</a>
+      {{ end }}
+    </div>
+    <div class="g-grid-3">
+      {{ range $pager.Pages }}{{ partial "episode-card.html" . }}{{ end }}
+    </div>
+    {{ if not $episodes }}<p class="g-lead">No episodes yet, stay tuned!</p>{{ end }}
+    {{ partial "pagination.html" $pager }}
+  </div>
+</section>
+{{ end }}
