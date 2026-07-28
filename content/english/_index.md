@@ -35,6 +35,25 @@ title = "Home"
   lead = "The hosts who bring you every episode."
   cta = "Our Team"
 
+[testimonialsHead]
+  eyebrow = "Kind words"
+  title = "What people are saying"
+
+[[testimonials]]
+  quote = "I met her at PyCon Colombia and was touched by how welcoming she was. I was impressed by her humility and passion to help everyone succeed with Python. Bravo PyPodcats for featuring her and her work."
+  name = "Carol Willing"
+  role = "Python Core Developer, 3-term Steering Council Member"
+
+[[testimonials]]
+  quote = "I am very happy and moved to see this live. This process made me look back, hug myself, and confirm that I'm here to help people as others helped me. There are still so many girls and women looking for opportunities; we can build those bridges for them."
+  name = "Karo Ladino-Puerto"
+  role = "Product & Project Manager, Community Leader"
+
+[[testimonials]]
+  quote = "I just finished watching Hidden Figures of Python. You started talking about exactly the same topic I am struggling with since I jumped into the Python community in Japan. I'm desperately looking for female role models like you!"
+  name = "Miho Takahashi"
+  role = "Python community member in Japan"
+
 [getInvolved]
   eyebrow = "Support us"
   title = "Help us amplify more hidden figures"
