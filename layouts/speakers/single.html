@@ -4,7 +4,7 @@
        pages repeat the bio as body text), so render it once in the persona
        card, and list the speaker's episodes instead of the theme's
        events-based sessions. */ -}}
-{{ partial "page-hero.html" (dict "eyebrow" (.Params.eyebrow | default "Speaker") "title" .Title) }}
+{{ partial "page-hero.html" (dict "eyebrow" (.Params.eyebrow | default "Speaker") "title" .Title "backHref" "speakers/" "backLabel" (i18n "allSpeakers")) }}
 <section class="g-bg-white g-section">
   <div class="g-container">
     <div class="g-article" style="margin-bottom:var(--space-5)">

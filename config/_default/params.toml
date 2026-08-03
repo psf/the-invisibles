@@ -37,6 +37,10 @@ brandSub = "Hidden Figures of Python"
 ogImage = "images/pypodcats-2025-s.png"
 customCSS = ["css/pypodcats.css"]
 
+# The theme sets popularVersion (v0.7.0+) and the footer prints it next to the
+# Popular credit. Blank it so this site's footer keeps just the credit link.
+popularVersion = ""
+
 # Popular theme v0.6.0: SEO knobs
 [seo]
   # Keep FAQPage JSON-LD from {{< faq >}} blocks (default true).

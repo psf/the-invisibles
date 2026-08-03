@@ -1,0 +1,31 @@
+{{- /* §8 llms.txt for the podcast layer. The theme's version (themes/popular/
+     layouts/index.llms.txt) is meetup-shaped: it names the next upcoming
+     event and links the iCalendar feed, neither of which exists here. This
+     override answers the questions an agent actually has about a podcast:
+     what the show is, where to listen, and what the latest episodes are.
+     Regenerated every build, so the latest-episode line stays true. */ -}}
+{{- $full := where (where site.RegularPages "Section" "episodes") "Params.episode_type" "!=" "trailer" -}}
+{{- $recent := first 5 $full.ByDate.Reverse -}}
+{{- $latest := index $recent 0 -}}
+# {{ site.Title }}
+{{ with site.Params.description }}
+{{ . }}
+{{ end }}
+{{ with $latest }}Latest episode: {{ .Title }}, published {{ .Date | time.Format ":date_long" }} ({{ .Permalink }}){{ end }}
+
+## Listen and follow
+{{ range site.Params.social }}{{ .label }}: {{ .url | absURL }}
+{{ end }}
+## Recent episodes
+{{ range $recent }}{{- $ep := . -}}- {{ .Title }}, {{ .Date | time.Format ":date_long" }}{{ with .Params.speaker }}{{ if not (in $ep.Title .title) }}, guest {{ .title }}{{ end }}{{ end }} ({{ .Permalink }})
+{{ end }}
+## Links
+All episodes: {{ (site.GetPage "/episodes").Permalink }}
+Guests: {{ (site.GetPage "/speakers").Permalink }}
+Hosts: {{ (site.GetPage (print "/" (partial "section.html" "team"))).Permalink }}
+Blog: {{ (site.GetPage "/blog").Permalink }}
+{{ with site.GetPage "/about" }}About and FAQ: {{ .Permalink }}
+{{ end }}{{ with site.GetPage "/subscribe" }}Subscribe: {{ .Permalink }}
+{{ end }}{{ with site.GetPage "/contact" }}Contact: {{ .Permalink }}
+{{ end }}
+Built with the Popular theme.

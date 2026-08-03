@@ -12,7 +12,9 @@
 {{- end -}}
 {{- $posts := where (where site.RegularPages "Section" "blog") "Params.authors" "intersect" (slice $slug) -}}
 
-{{ partial "page-hero.html" (dict "eyebrow" (.Params.role | default "Host") "title" .Title) }}
+{{- /* Theme 0.7.0 back link, with our own label: the theme string for this
+       section says "All organizers", and we call them hosts. */ -}}
+{{ partial "page-hero.html" (dict "eyebrow" (.Params.role | default "Host") "title" .Title "backHref" (print (partial "section.html" "team") "/") "backLabel" "All hosts") }}
 
 <section class="g-bg-ink">
   <div class="g-container g-stats">
