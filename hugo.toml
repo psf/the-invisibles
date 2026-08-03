@@ -75,7 +75,9 @@ target = '$1'
 
 ############################# Outputs ############################
 [outputs]
-home = ["HTML", "RSS", "WebAppManifest", "SearchIndex"]
+# LLMS emits /llms.txt for AI agents (Popular theme v0.7.0); the format itself
+# comes from the theme, the content from layouts/index.llms.txt.
+home = ["HTML", "RSS", "WebAppManifest", "SearchIndex", "LLMS"]
 section = ['html', 'rss']
 
 ############################# Imaging ############################
