@@ -20,7 +20,7 @@
         </div>
       {{ end }}
     </div>
-    {{ with .image }}<div class="g-hero__media"><img src="{{ . | relURL }}" alt="{{ site.Title }}"></div>{{ end }}
+    {{ with .image }}<div class="g-hero__media"><img src="{{ partial "rel-src.html" . }}" alt="{{ site.Title }}"></div>{{ end }}
   </div>
 </section>
 {{ end }}
@@ -61,7 +61,7 @@
 {{- range (first 1 $upcoming) }}
 <section class="g-bg-wash-soft">
   <div class="g-container g-feature">
-    {{ with .Params.image | default site.Params.ogImage }}<div class="g-feature__media"><img src="{{ . | relURL }}" alt="{{ $.Title }}"></div>{{ end }}
+    {{ with .Params.image | default site.Params.ogImage }}<div class="g-feature__media"><img src="{{ partial "rel-src.html" . }}" alt="{{ $.Title }}"></div>{{ end }}
     <div class="g-feature__body">
       <span class="g-badge g-badge--soft"><i class="fa-solid fa-calendar" aria-hidden="true"></i> {{ i18n "nextMeetup" }}</span>
       <h2 style="margin:0">{{ .Title }}</h2>
@@ -130,7 +130,7 @@
       <figure class="g-quote">
         <blockquote>{{ $t.quote }}</blockquote>
         <figcaption>
-          {{ with $t.photo }}<img src="{{ . | relURL }}" alt="{{ $t.name }}">{{ end }}
+          {{ with $t.photo }}<img src="{{ partial "rel-src.html" . }}" alt="{{ $t.name }}">{{ end }}
           <div><span class="g-quote__name">{{ $t.name }}</span>{{ with $t.role }}<span class="g-quote__role">{{ . }}</span>{{ end }}</div>
         </figcaption>
       </figure>

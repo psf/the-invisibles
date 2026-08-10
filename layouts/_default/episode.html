@@ -30,11 +30,11 @@
     <div class="g-card" style="margin-bottom:var(--space-4)">
       <div class="g-card__body" style="display:flex;gap:var(--space-3);align-items:center;flex-wrap:wrap">
         {{ with .Params.episode_image }}
-          <img src="{{ . | relURL }}" alt="{{ $.Title }}" style="width:120px;height:120px;object-fit:cover;border-radius:var(--radius-md);flex-shrink:0">
+          <img src="{{ partial "rel-src.html" . }}" alt="{{ $.Title }}" style="width:120px;height:120px;object-fit:cover;border-radius:var(--radius-md);flex-shrink:0">
         {{ end }}
         <div style="flex:1;min-width:16rem">
           <audio controls preload="metadata" style="width:100%">
-            <source src="{{ .Params.podcast_file | relURL }}" type="audio/mpeg">
+            <source src="{{ partial "rel-src.html" .Params.podcast_file }}" type="audio/mpeg">
           </audio>
           <div class="g-row" style="margin-top:.6rem">{{ partial "podcast-platforms.html" . }}</div>
         </div>
@@ -57,7 +57,7 @@
     {{ with .Params.speaker }}
       <h2 style="font-size:var(--text-xl);margin:var(--space-5) 0 1rem">Get to know {{ .title }}</h2>
       <div class="g-persona g-persona--primary">
-        {{ with .image }}<img class="g-persona__img" src="{{ . | relURL }}" alt="{{ $.Params.speaker.title }}">{{ end }}
+        {{ with .image }}<img class="g-persona__img" src="{{ partial "rel-src.html" . }}" alt="{{ $.Params.speaker.title }}">{{ end }}
         <div>
           <div class="g-persona__name"><a href="{{ .url | relLangURL }}" style="color:inherit">{{ .title }}</a></div>
           {{ with .description }}<p class="g-persona__bio">{{ . }}</p>{{ end }}

@@ -21,7 +21,7 @@
 {{- end }}
 {{- /* Site override: episodes carry their art in episode_image. */ -}}
 {{- $img := .Params.image | default .Params.episode_image | default site.Params.ogImage -}}
-{{ with $img }}<meta property="og:image" content="{{ . | absURL }}">
+{{ with $img }}<meta property="og:image" content="{{ partial "abs-url.html" . }}">
 <meta property="og:image:alt" content="{{ $.Params.imageAlt | default $.Title }}">{{ end }}
 <meta name="twitter:card" content="{{ if $img }}summary_large_image{{ else }}summary{{ end }}">
 {{ with .OutputFormats.Get "RSS" }}<link rel="alternate" type="application/rss+xml" href="{{ .RelPermalink }}" title="{{ site.Title }}">{{ end }}
