@@ -14,10 +14,10 @@
   {{- $actors = $actors | append (dict "@type" "Person" "name" $full) -}}
 {{- end -}}
 
-{{- $series := dict "@type" "PodcastSeries" "name" site.Title "url" (absURL "/") -}}
+{{- $series := dict "@type" "PodcastSeries" "name" site.Title "url" (partial "abs-url.html" "/") -}}
 
 {{- /* AudioObject: contentUrl is required for a valid enclosure. */ -}}
-{{- $audio := dict "@type" "AudioObject" "contentUrl" (.Params.podcast_file | absURL) "encodingFormat" "audio/mpeg" -}}
+{{- $audio := dict "@type" "AudioObject" "contentUrl" (partial "abs-url.html" .Params.podcast_file) "encodingFormat" "audio/mpeg" -}}
 {{- with .Params.podcast_bytes }}{{ $audio = merge $audio (dict "contentSize" (printf "%v" .)) }}{{ end -}}
 
 {{- $ld := dict
@@ -50,5 +50,5 @@
 {{- end -}}
 
 {{- $img := .Params.episode_image | default .Params.image | default site.Params.ogImage -}}
-{{- with $img }}{{ $ld = merge $ld (dict "image" (. | absURL)) }}{{ end -}}
+{{- with $img }}{{ $ld = merge $ld (dict "image" (partial "abs-url.html" .)) }}{{ end -}}
 <script type="application/ld+json">{{ $ld | jsonify | safeJS }}</script>

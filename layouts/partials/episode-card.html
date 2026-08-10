@@ -2,7 +2,7 @@
        PyPodcats podcast layer on top of the Popular theme. */ -}}
 <article class="g-card" data-tags="{{ with .Params.tags }}{{ delimit . "," }}{{ end }}">
   {{ with .Params.episode_image }}
-    <a href="{{ $.RelPermalink }}" class="g-card__media"><img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy"></a>
+    <a href="{{ $.RelPermalink }}" class="g-card__media"><img src="{{ partial "rel-src.html" . }}" alt="{{ $.Title }}" loading="lazy"></a>
   {{ end }}
   <div class="g-card__body">
     <span class="g-card__eyebrow">
